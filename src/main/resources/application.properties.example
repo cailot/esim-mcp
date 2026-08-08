@@ -1,0 +1,70 @@
+#################################################################
+#                    esim-mcp central config
+# Copy to application.properties and fill in secrets.
+# application.properties is gitignored.
+#################################################################
+
+#################################################################
+# Report schedule (until Korea arrival)
+#################################################################
+report.end.date=2026-09-15
+report.cron.hour=9
+report.cron.minute=0
+report.timezone=Asia/Seoul
+
+#################################################################
+# Search
+#################################################################
+search.query=best cheap eSIM Korea international SMS receive monthly plan
+
+#################################################################
+# Report email
+#################################################################
+report.email.to=
+report.email.subject.prefix=[esim-mcp] Daily eSIM report
+
+#################################################################
+# Database Configuration (Supabase PostgreSQL)
+#################################################################
+spring.datasource.url=jdbc:postgresql://db.YOUR_PROJECT_REF.supabase.co:5432/postgres?sslmode=require&TimeZone=Australia/Sydney
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.properties.hibernate.jdbc.time_zone=Australia/Sydney
+
+#################################################################
+# MCP
+# Set mcp.dry.run=false to call real MCP servers
+#################################################################
+mcp.dry.run=true
+
+# Brave Search
+mcp.brave.command=npx
+mcp.brave.args=-y,@modelcontextprotocol/server-brave-search
+mcp.brave.env.BRAVE_API_KEY=
+
+# Puppeteer
+mcp.puppeteer.command=npx
+mcp.puppeteer.args=-y,@modelcontextprotocol/server-puppeteer
+
+# Sequential Thinking
+mcp.sequential.command=npx
+mcp.sequential.args=-y,@modelcontextprotocol/server-sequential-thinking
+
+# Supabase MCP
+mcp.supabase.command=npx
+mcp.supabase.args=-y,@supabase/mcp-server-supabase@latest,--project-ref=YOUR_PROJECT_REF
+mcp.supabase.env.SUPABASE_ACCESS_TOKEN=
+
+# Gmail
+mcp.gmail.command=npx
+mcp.gmail.args=-y,@gongrzhe/server-gmail-autoauth-mcp
+
+# Tool names (adjust to match installed MCP server versions)
+mcp.tool.brave.search=brave_web_search
+mcp.tool.puppeteer.navigate=puppeteer_navigate
+mcp.tool.puppeteer.evaluate=puppeteer_evaluate
+mcp.tool.sequential.thinking=sequentialthinking
+mcp.tool.supabase.execute_sql=execute_sql
+mcp.tool.gmail.send=send_email

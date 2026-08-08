@@ -1,0 +1,31 @@
+---
+description: Always maximize use of MCPs defined in this project's mcp.json
+alwaysApply: true
+---
+
+# esim-mcp: Prefer project MCP servers
+
+This rule applies **only to the esim-mcp project** (this repository). Do not treat it as guidance for other workspaces.
+
+## Source of truth
+
+Always consult and prefer the MCP servers listed in [`.cursor/mcp.json`](.cursor/mcp.json). When implementing features, debugging, researching, storing data, or sending reports in this project, **use those MCP tools as much as possible** instead of reinventing the same work with ad-hoc scripts, raw HTTP, or generic browsing when an MCP path exists.
+
+## Current project MCPs and intended use
+
+| MCP | Use for |
+| --- | --- |
+| `supabase` | DB schema, SQL, migrations, persisting daily report results |
+| `brave-search` | Latest web search for eSIM / carrier plan info |
+| `puppeteer` | Crawl and verify plan pages in detail |
+| `sequential-thinking` | Step-by-step evaluation of candidates against selection criteria |
+| `gmail` | Send the final daily report email |
+
+If `.cursor/mcp.json` adds, removes, or renames servers, follow the **current file** — not an outdated mental list.
+
+## Behavior
+
+- Before doing web research, DB work, deep page inspection, multi-step reasoning, or email send: check whether a project MCP can do it, and **use it**.
+- Prefer MCP tool calls over manual workarounds when the server is available.
+- If a listed MCP is disconnected or missing credentials, say so clearly and help enable/fix it rather than silently skipping it forever.
+- Do not assume global/`~/.cursor` MCP servers replace this project's `.cursor/mcp.json` set for esim-mcp work.
