@@ -15,7 +15,7 @@ report.timezone=Asia/Seoul
 #################################################################
 # Search
 #################################################################
-search.query=best cheap eSIM Korea international SMS receive monthly plan
+search.query=한국 알뜰폰 eSIM 요금제 해외 SMS 수신 월 유지비 저렴 평생요금
 
 #################################################################
 # Report email
@@ -34,19 +34,17 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialec
 spring.jpa.properties.hibernate.jdbc.time_zone=Australia/Sydney
 
 #################################################################
-# MCP
-# Set mcp.dry.run=false to call real MCP servers
+# MCP (always live — real MCP servers are started on app boot)
 #################################################################
-mcp.dry.run=true
 
 # Brave Search
 mcp.brave.command=npx
 mcp.brave.args=-y,@modelcontextprotocol/server-brave-search
 mcp.brave.env.BRAVE_API_KEY=
 
-# Puppeteer
-mcp.puppeteer.command=npx
-mcp.puppeteer.args=-y,@modelcontextprotocol/server-puppeteer
+# Playwright (page crawl / verify)
+mcp.playwright.command=npx
+mcp.playwright.args=-y,@playwright/mcp@latest
 
 # Sequential Thinking
 mcp.sequential.command=npx
@@ -63,8 +61,8 @@ mcp.gmail.args=-y,@gongrzhe/server-gmail-autoauth-mcp
 
 # Tool names (adjust to match installed MCP server versions)
 mcp.tool.brave.search=brave_web_search
-mcp.tool.puppeteer.navigate=puppeteer_navigate
-mcp.tool.puppeteer.evaluate=puppeteer_evaluate
+mcp.tool.playwright.navigate=browser_navigate
+mcp.tool.playwright.snapshot=browser_snapshot
 mcp.tool.sequential.thinking=sequentialthinking
 mcp.tool.supabase.execute_sql=execute_sql
 mcp.tool.gmail.send=send_email

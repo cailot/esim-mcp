@@ -28,14 +28,6 @@ public final class EmailNotificationService {
         String subject = config.reportSubjectPrefix() + " " + report.reportDate();
         String body = report.toEmailBody();
 
-        if (mcp.dryRun()) {
-            log.info("Dry-run email to '{}'\nSubject: {}\n{}",
-                    to.isBlank() ? "(not configured)" : to,
-                    subject,
-                    body);
-            return;
-        }
-
         if (to.isBlank()) {
             log.warn("report.email.to is empty; skipping Gmail send");
             return;

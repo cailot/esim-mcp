@@ -17,28 +17,21 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Manages STDIO MCP clients for Brave, Puppeteer, Sequential Thinking, Supabase, and Gmail.
+ * Manages STDIO MCP clients for Brave, Playwright, Sequential Thinking, Supabase, and Gmail.
  */
 public final class McpClientManager implements AutoCloseable {
 
     private static final Logger log = LoggerFactory.getLogger(McpClientManager.class);
 
     private final Map<String, McpSyncClient> clients = new LinkedHashMap<>();
-    private final boolean dryRun;
 
-    private McpClientManager(boolean dryRun) {
-        this.dryRun = dryRun;
+    private McpClientManager() {
     }
 
     public static McpClientManager create(AppConfig config) {
-        McpClientManager manager = new McpClientManager(config.dryRun());
-        if (config.dryRun()) {
-            log.info("MCP dry-run enabled: external MCP servers will not be started");
-            return manager;
-        }
-
+        McpClientManager manager = new McpClientManager();
         manager.connect(config.braveServer());
-        manager.connect(config.puppeteerServer());
+        manager.connect(config.playwrightServer());
         manager.connect(config.sequentialServer());
         manager.connect(config.supabaseServer());
         manager.connect(config.gmailServer());
@@ -72,10 +65,6 @@ public final class McpClientManager implements AutoCloseable {
         } catch (Exception e) {
             log.error("Failed to connect MCP server '{}': {}", spec.name(), e.getMessage());
         }
-    }
-
-    public boolean dryRun() {
-        return dryRun;
     }
 
     public Optional<McpSyncClient> client(String name) {

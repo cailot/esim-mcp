@@ -42,8 +42,7 @@ public final class EsimMcpApplication {
                     evaluation,
                     storage,
                     email,
-                    config.timezone(),
-                    config.dryRun()
+                    config.timezone()
             );
 
             if (once) {

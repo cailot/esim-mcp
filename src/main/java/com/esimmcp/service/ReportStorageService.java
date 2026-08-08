@@ -2,7 +2,6 @@ package com.esimmcp.service;
 
 import com.esimmcp.config.AppConfig;
 import com.esimmcp.domain.DailyReport;
-import com.esimmcp.domain.EsimPlan;
 import com.esimmcp.mcp.McpClientManager;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
@@ -29,13 +28,6 @@ public final class ReportStorageService {
     }
 
     public void save(DailyReport report) {
-        if (mcp.dryRun()) {
-            log.info("Dry-run storage: would save report for {} (best={})",
-                    report.reportDate(),
-                    report.bestPlan().map(EsimPlan::toString).orElse("none"));
-            return;
-        }
-
         if (mcp.client("supabase").isEmpty()) {
             log.warn("Supabase MCP not connected; report not stored");
             return;
@@ -45,24 +37,28 @@ public final class ReportStorageService {
             String payload = objectMapper.writeValueAsString(toRow(report));
             String sql = """
                     insert into daily_esim_reports (
-                      report_date, generated_at, best_plan, matching_plans, candidates, evaluation_notes, dry_run
+                      report_date, generated_at, best_plan, matching_plans, candidates, evaluation_notes
                     ) values (
                       '%s'::date,
                       '%s'::timestamptz,
                       '%s'::jsonb,
                       '%s'::jsonb,
                       '%s'::jsonb,
-                      %s,
                       %s
-                    );
+                    )
+                    on conflict (report_date) do update set
+                      generated_at = excluded.generated_at,
+                      best_plan = excluded.best_plan,
+                      matching_plans = excluded.matching_plans,
+                      candidates = excluded.candidates,
+                      evaluation_notes = excluded.evaluation_notes;
                     """.formatted(
                     report.reportDate(),
                     report.generatedAt(),
                     escapeSql(objectMapper.writeValueAsString(report.bestPlan().orElse(null))),
                     escapeSql(objectMapper.writeValueAsString(report.matchingPlans())),
                     escapeSql(objectMapper.writeValueAsString(report.candidates())),
-                    sqlString(report.evaluationNotes()),
-                    report.dryRun()
+                    sqlString(report.evaluationNotes())
             );
 
             String tool = config.toolName("mcp.tool.supabase.execute_sql", "execute_sql");
@@ -82,7 +78,6 @@ public final class ReportStorageService {
         row.put("matching_plans", report.matchingPlans());
         row.put("candidates", report.candidates());
         row.put("evaluation_notes", report.evaluationNotes());
-        row.put("dry_run", report.dryRun());
         return row;
     }
 

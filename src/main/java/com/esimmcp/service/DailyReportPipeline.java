@@ -22,21 +22,18 @@ public final class DailyReportPipeline {
     private final ReportStorageService storageService;
     private final EmailNotificationService emailService;
     private final ZoneId zoneId;
-    private final boolean dryRun;
 
     public DailyReportPipeline(
             PlanDiscoveryService discoveryService,
             PlanEvaluationService evaluationService,
             ReportStorageService storageService,
             EmailNotificationService emailService,
-            ZoneId zoneId,
-            boolean dryRun) {
+            ZoneId zoneId) {
         this.discoveryService = discoveryService;
         this.evaluationService = evaluationService;
         this.storageService = storageService;
         this.emailService = emailService;
         this.zoneId = zoneId;
-        this.dryRun = dryRun;
     }
 
     public DailyReport runOnce() {
@@ -52,8 +49,7 @@ public final class DailyReportPipeline {
                 candidates,
                 evaluation.matchingPlans(),
                 evaluation.bestPlan(),
-                evaluation.notes(),
-                dryRun
+                evaluation.notes()
         );
 
         storageService.save(report);

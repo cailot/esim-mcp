@@ -16,7 +16,6 @@ public final class DailyReport {
     private final List<EsimPlan> matchingPlans;
     private final EsimPlan bestPlan;
     private final String evaluationNotes;
-    private final boolean dryRun;
 
     public DailyReport(
             LocalDate reportDate,
@@ -24,15 +23,13 @@ public final class DailyReport {
             List<EsimPlan> candidates,
             List<EsimPlan> matchingPlans,
             EsimPlan bestPlan,
-            String evaluationNotes,
-            boolean dryRun) {
+            String evaluationNotes) {
         this.reportDate = reportDate;
         this.generatedAt = generatedAt;
         this.candidates = List.copyOf(candidates);
         this.matchingPlans = List.copyOf(matchingPlans);
         this.bestPlan = bestPlan;
         this.evaluationNotes = evaluationNotes == null ? "" : evaluationNotes;
-        this.dryRun = dryRun;
     }
 
     public LocalDate reportDate() {
@@ -59,16 +56,11 @@ public final class DailyReport {
         return evaluationNotes;
     }
 
-    public boolean dryRun() {
-        return dryRun;
-    }
-
     public String toEmailBody() {
         StringBuilder sb = new StringBuilder();
         sb.append("esim-mcp daily report\n");
         sb.append("Date: ").append(reportDate).append('\n');
-        sb.append("Generated at: ").append(generatedAt).append('\n');
-        sb.append("Dry run: ").append(dryRun).append("\n\n");
+        sb.append("Generated at: ").append(generatedAt).append("\n\n");
 
         if (bestPlan == null) {
             sb.append("Best plan: NONE (no plan matched all criteria)\n\n");

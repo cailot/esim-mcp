@@ -36,10 +36,6 @@ public final class AppConfig {
         return new AppConfig(props);
     }
 
-    public boolean dryRun() {
-        return Boolean.parseBoolean(get("mcp.dry.run", "true"));
-    }
-
     public LocalDate reportEndDate() {
         return LocalDate.parse(get("report.end.date", "2026-09-15"));
     }
@@ -92,8 +88,8 @@ public final class AppConfig {
         return serverSpec("brave");
     }
 
-    public McpServerSpec puppeteerServer() {
-        return serverSpec("puppeteer");
+    public McpServerSpec playwrightServer() {
+        return serverSpec("playwright");
     }
 
     public McpServerSpec sequentialServer() {

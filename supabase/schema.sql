@@ -9,7 +9,7 @@ create table if not exists daily_esim_reports (
     matching_plans jsonb not null default '[]'::jsonb,
     candidates jsonb not null default '[]'::jsonb,
     evaluation_notes text,
-    dry_run boolean not null default false,
+    elapsed_ms bigint,
     created_at timestamptz not null default now()
 );
 

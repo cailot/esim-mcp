@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Discovers eSIM plans via Brave Search and Puppeteer MCP.
+ * Discovers eSIM plans via Brave Search and Playwright MCP.
  */
 public final class PlanDiscoveryService {
 
@@ -31,11 +31,6 @@ public final class PlanDiscoveryService {
     }
 
     public List<EsimPlan> discover() {
-        if (mcp.dryRun()) {
-            log.info("Dry-run discovery: returning sample candidate plans");
-            return samplePlans();
-        }
-
         List<EsimPlan> plans = new ArrayList<>();
         String query = config.searchQuery();
 
@@ -54,26 +49,22 @@ public final class PlanDiscoveryService {
             }
         });
 
-        mcp.client("puppeteer").ifPresent(client -> {
+        mcp.client("playwright").ifPresent(client -> {
             try {
-                String navigate = config.toolName("mcp.tool.puppeteer.navigate", "puppeteer_navigate");
-                mcp.callTool("puppeteer", navigate, Map.of(
+                String navigate = config.toolName("mcp.tool.playwright.navigate", "browser_navigate");
+                mcp.callTool("playwright", navigate, Map.of(
                         "url", "https://www.google.com/search?q=" + query.replace(' ', '+')
                 ));
-                String evaluate = config.toolName("mcp.tool.puppeteer.evaluate", "puppeteer_evaluate");
-                var result = mcp.callTool("puppeteer", evaluate, Map.of(
-                        "script",
-                        "() => document.body.innerText.slice(0, 8000)"
-                ));
+                String snapshot = config.toolName("mcp.tool.playwright.snapshot", "browser_snapshot");
+                var result = mcp.callTool("playwright", snapshot, Map.of());
                 plans.addAll(parsePlansFromJsonOrText(mcp.extractText(result)));
             } catch (Exception e) {
-                log.error("Puppeteer MCP failed: {}", e.getMessage());
+                log.error("Playwright MCP failed: {}", e.getMessage());
             }
         });
 
         if (plans.isEmpty()) {
-            log.warn("No plans discovered from MCP; falling back to sample plans");
-            return samplePlans();
+            log.warn("No plans discovered from MCP");
         }
         return plans;
     }
@@ -115,60 +106,6 @@ public final class PlanDiscoveryService {
             return text.substring(start, end + 1);
         }
         return null;
-    }
-
-    private static List<EsimPlan> samplePlans() {
-        return List.of(
-                EsimPlan.builder()
-                        .provider("SampleMobile")
-                        .planName("Global Light")
-                        .countryOrRegion("Korea / Global")
-                        .esimSupported(true)
-                        .internationalSmsReceive(true)
-                        .monthlyPrice(new BigDecimal("9.99"))
-                        .currency("USD")
-                        .promotionalPrice(false)
-                        .sourceUrl("https://example.com/sample-global-light")
-                        .notes("Dry-run sample: stable monthly price")
-                        .build(),
-                EsimPlan.builder()
-                        .provider("PromoTel")
-                        .planName("Travel Intro")
-                        .countryOrRegion("Korea")
-                        .esimSupported(true)
-                        .internationalSmsReceive(true)
-                        .monthlyPrice(new BigDecimal("1.00"))
-                        .currency("USD")
-                        .promotionalPrice(true)
-                        .regularMonthlyPrice(new BigDecimal("29.99"))
-                        .sourceUrl("https://example.com/promo-travel")
-                        .notes("Dry-run sample: promo then higher regular price")
-                        .build(),
-                EsimPlan.builder()
-                        .provider("NoSms Carrier")
-                        .planName("Data Only")
-                        .countryOrRegion("Korea")
-                        .esimSupported(true)
-                        .internationalSmsReceive(false)
-                        .monthlyPrice(new BigDecimal("5.00"))
-                        .currency("USD")
-                        .promotionalPrice(false)
-                        .sourceUrl("https://example.com/data-only")
-                        .notes("Dry-run sample: no international SMS receive")
-                        .build(),
-                EsimPlan.builder()
-                        .provider("PhysicalOnly")
-                        .planName("Classic SIM")
-                        .countryOrRegion("Korea")
-                        .esimSupported(false)
-                        .internationalSmsReceive(true)
-                        .monthlyPrice(new BigDecimal("3.00"))
-                        .currency("USD")
-                        .promotionalPrice(false)
-                        .sourceUrl("https://example.com/classic-sim")
-                        .notes("Dry-run sample: physical SIM only")
-                        .build()
-        );
     }
 
     /**

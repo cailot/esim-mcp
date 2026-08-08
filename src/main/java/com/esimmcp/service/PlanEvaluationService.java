@@ -37,35 +37,31 @@ public final class PlanEvaluationService {
         notes.append("Candidates: ").append(candidates.size())
                 .append(", matching: ").append(matching.size()).append('\n');
 
-        if (!mcp.dryRun()) {
-            mcp.client("sequential").ifPresent(client -> {
-                try {
-                    String tool = config.toolName("mcp.tool.sequential.thinking", "sequentialthinking");
-                    String thought = """
-                            Step-by-step evaluate eSIM plans for Korea travel until 2026-09-15.
-                            Hard rules: eSIM supported; can receive SMS abroad; lowest ongoing monthly price;
-                            reject promotional intro pricing that rises later.
-                            Matching plans: %s
-                            Best so far: %s
-                            """.formatted(
-                            matching.stream().map(EsimPlan::toString).toList(),
-                            best.map(EsimPlan::toString).orElse("none")
-                    );
-                    var result = mcp.callTool("sequential", tool, Map.of(
-                            "thought", thought,
-                            "nextThoughtNeeded", false,
-                            "thoughtNumber", 1,
-                            "totalThoughts", 1
-                    ));
-                    notes.append("Sequential Thinking:\n").append(mcp.extractText(result)).append('\n');
-                } catch (Exception e) {
-                    log.error("Sequential Thinking MCP failed: {}", e.getMessage());
-                    notes.append("Sequential Thinking failed: ").append(e.getMessage()).append('\n');
-                }
-            });
-        } else {
-            notes.append("Dry-run: Sequential Thinking MCP skipped.\n");
-        }
+        mcp.client("sequential").ifPresent(client -> {
+            try {
+                String tool = config.toolName("mcp.tool.sequential.thinking", "sequentialthinking");
+                String thought = """
+                        Step-by-step evaluate eSIM plans for Korea travel until 2026-09-15.
+                        Hard rules: eSIM supported; can receive SMS abroad; lowest ongoing monthly price;
+                        reject promotional intro pricing that rises later.
+                        Matching plans: %s
+                        Best so far: %s
+                        """.formatted(
+                        matching.stream().map(EsimPlan::toString).toList(),
+                        best.map(EsimPlan::toString).orElse("none")
+                );
+                var result = mcp.callTool("sequential", tool, Map.of(
+                        "thought", thought,
+                        "nextThoughtNeeded", false,
+                        "thoughtNumber", 1,
+                        "totalThoughts", 1
+                ));
+                notes.append("Sequential Thinking:\n").append(mcp.extractText(result)).append('\n');
+            } catch (Exception e) {
+                log.error("Sequential Thinking MCP failed: {}", e.getMessage());
+                notes.append("Sequential Thinking failed: ").append(e.getMessage()).append('\n');
+            }
+        });
 
         best.ifPresent(plan -> notes.append("Selected best plan: ").append(plan).append('\n'));
         return new EvaluationResult(matching, best.orElse(null), notes.toString());
