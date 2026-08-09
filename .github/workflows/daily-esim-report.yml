@@ -64,4 +64,5 @@ jobs:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
-        run: mvn -B -q exec:java
+        # compile is required: bare `exec:java` does not build classes on a clean runner
+        run: mvn -B -e compile exec:java -Dexec.cleanupDaemonThreads=false

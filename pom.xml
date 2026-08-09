@@ -129,6 +129,8 @@
                 <version>3.5.1</version>
                 <configuration>
                     <mainClass>com.esimmcp.EsimMcpApplication</mainClass>
+                    <!-- MCP/Reactor daemon threads otherwise can make the build look failed -->
+                    <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
         </plugins>

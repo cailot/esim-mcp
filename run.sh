@@ -3,4 +3,5 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-exec mvn -q exec:java
+# compile first — required on a clean checkout (same as GitHub Actions)
+exec mvn -q compile exec:java -Dexec.cleanupDaemonThreads=false

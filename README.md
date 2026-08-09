@@ -77,9 +77,9 @@ mvn -q test
 3. (선택) Cursor에서 `.cursor/mcp.json` 서버 활성화
 
 ```bash
-mvn -q exec:java                         # 1회 실행 후 자동 종료 (기본)
-mvn -q exec:java -Dexec.args=once        # 동일
-mvn -q exec:java -Dexec.args=schedule    # 매일 스케줄 (Ctrl+C로 종료)
+./run.sh                                 # 권장: compile + 1회 실행 후 종료
+mvn -q compile exec:java                 # 동일
+mvn -q compile exec:java -Dexec.args=schedule  # 매일 스케줄 (Ctrl+C로 종료)
 ```
 
 ### 3. GitHub Actions 자동화
