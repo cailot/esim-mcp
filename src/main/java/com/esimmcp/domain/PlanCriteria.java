@@ -5,19 +5,22 @@ package com.esimmcp.domain;
  */
 public final class PlanCriteria {
 
-    public static final PlanCriteria DEFAULT = new PlanCriteria(true, true, true);
+    public static final PlanCriteria DEFAULT = new PlanCriteria(true, true, true, true);
 
     private final boolean requireEsim;
     private final boolean requireInternationalSmsReceive;
     private final boolean requireStableNonPromotionalPrice;
+    private final boolean requireAvailable;
 
     public PlanCriteria(
             boolean requireEsim,
             boolean requireInternationalSmsReceive,
-            boolean requireStableNonPromotionalPrice) {
+            boolean requireStableNonPromotionalPrice,
+            boolean requireAvailable) {
         this.requireEsim = requireEsim;
         this.requireInternationalSmsReceive = requireInternationalSmsReceive;
         this.requireStableNonPromotionalPrice = requireStableNonPromotionalPrice;
+        this.requireAvailable = requireAvailable;
     }
 
     public boolean requireEsim() {
@@ -32,7 +35,14 @@ public final class PlanCriteria {
         return requireStableNonPromotionalPrice;
     }
 
+    public boolean requireAvailable() {
+        return requireAvailable;
+    }
+
     public boolean matches(EsimPlan plan) {
+        if (requireAvailable && !plan.available()) {
+            return false;
+        }
         if (requireEsim && !plan.esimSupported()) {
             return false;
         }

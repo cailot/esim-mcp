@@ -1,11 +1,19 @@
 package com.esimmcp.domain;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
  * Candidate eSIM plan discovered from the web.
  */
+@JsonAutoDetect(
+        fieldVisibility = JsonAutoDetect.Visibility.ANY,
+        getterVisibility = JsonAutoDetect.Visibility.NONE,
+        isGetterVisibility = JsonAutoDetect.Visibility.NONE)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public final class EsimPlan {
 
     private final String provider;
@@ -13,6 +21,7 @@ public final class EsimPlan {
     private final String countryOrRegion;
     private final boolean esimSupported;
     private final boolean internationalSmsReceive;
+    private final boolean available;
     private final BigDecimal monthlyPrice;
     private final String currency;
     private final boolean promotionalPrice;
@@ -26,6 +35,7 @@ public final class EsimPlan {
         this.countryOrRegion = builder.countryOrRegion;
         this.esimSupported = builder.esimSupported;
         this.internationalSmsReceive = builder.internationalSmsReceive;
+        this.available = builder.available;
         this.monthlyPrice = builder.monthlyPrice;
         this.currency = builder.currency;
         this.promotionalPrice = builder.promotionalPrice;
@@ -56,6 +66,11 @@ public final class EsimPlan {
 
     public boolean internationalSmsReceive() {
         return internationalSmsReceive;
+    }
+
+    /** Whether the plan is currently joinable (not sold out / closed / signup blocked). */
+    public boolean available() {
+        return available;
     }
 
     public BigDecimal monthlyPrice() {
@@ -92,7 +107,8 @@ public final class EsimPlan {
 
     @Override
     public String toString() {
-        return provider + " / " + planName + " @ " + ongoingMonthlyPrice() + " " + currency;
+        return provider + " / " + planName + " @ " + ongoingMonthlyPrice() + " " + currency
+                + (available ? "" : " [unavailable]");
     }
 
     @Override
@@ -119,8 +135,9 @@ public final class EsimPlan {
         private String countryOrRegion;
         private boolean esimSupported;
         private boolean internationalSmsReceive;
+        private boolean available = true;
         private BigDecimal monthlyPrice;
-        private String currency = "USD";
+        private String currency = "KRW";
         private boolean promotionalPrice;
         private BigDecimal regularMonthlyPrice;
         private String sourceUrl;
@@ -148,6 +165,11 @@ public final class EsimPlan {
 
         public Builder internationalSmsReceive(boolean internationalSmsReceive) {
             this.internationalSmsReceive = internationalSmsReceive;
+            return this;
+        }
+
+        public Builder available(boolean available) {
+            this.available = available;
             return this;
         }
 
@@ -185,6 +207,9 @@ public final class EsimPlan {
             Objects.requireNonNull(provider, "provider");
             Objects.requireNonNull(planName, "planName");
             Objects.requireNonNull(monthlyPrice, "monthlyPrice");
+            if (PlanAvailabilitySignals.looksUnavailable(notes)) {
+                this.available = false;
+            }
             return new EsimPlan(this);
         }
     }

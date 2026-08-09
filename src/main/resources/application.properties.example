@@ -1,7 +1,9 @@
 #################################################################
 #                    esim-mcp central config
-# Copy to application.properties and fill in secrets.
-# application.properties is gitignored.
+# Local: copy to application.properties and fill in secrets.
+#        application.properties is gitignored.
+# CI:    GitHub Actions copies this file, then overrides secrets
+#        via environment variables (see README / workflow).
 #################################################################
 
 #################################################################
@@ -19,12 +21,17 @@ search.query=한국 알뜰폰 eSIM 요금제 해외 SMS 수신 월 유지비 저
 
 #################################################################
 # Report email
+# Env override: REPORT_EMAIL_TO
 #################################################################
 report.email.to=
 report.email.subject.prefix=[esim-mcp] Daily eSIM report
 
 #################################################################
 # Database Configuration (Supabase PostgreSQL)
+# Env overrides:
+#   SPRING_DATASOURCE_URL
+#   SPRING_DATASOURCE_USERNAME
+#   SPRING_DATASOURCE_PASSWORD
 #################################################################
 spring.datasource.url=jdbc:postgresql://db.YOUR_PROJECT_REF.supabase.co:5432/postgres?sslmode=require&TimeZone=Australia/Sydney
 spring.datasource.username=postgres
@@ -38,21 +45,24 @@ spring.jpa.properties.hibernate.jdbc.time_zone=Australia/Sydney
 #################################################################
 
 # Brave Search
+# Env override: BRAVE_API_KEY
 mcp.brave.command=npx
 mcp.brave.args=-y,@modelcontextprotocol/server-brave-search
 mcp.brave.env.BRAVE_API_KEY=
 
-# Playwright (page crawl / verify)
+# Playwright (page crawl / verify) — --headless avoids opening a visible Chrome window
 mcp.playwright.command=npx
-mcp.playwright.args=-y,@playwright/mcp@latest
+mcp.playwright.args=-y,@playwright/mcp@latest,--headless
 
 # Sequential Thinking
 mcp.sequential.command=npx
 mcp.sequential.args=-y,@modelcontextprotocol/server-sequential-thinking
 
 # Supabase MCP
+# Env overrides: SUPABASE_ACCESS_TOKEN, SUPABASE_PROJECT_REF
 mcp.supabase.command=npx
 mcp.supabase.args=-y,@supabase/mcp-server-supabase@latest,--project-ref=YOUR_PROJECT_REF
+mcp.supabase.project.ref=
 mcp.supabase.env.SUPABASE_ACCESS_TOKEN=
 
 # Gmail

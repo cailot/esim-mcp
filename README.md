@@ -8,10 +8,11 @@
 
 ## SIM 카드 선정 조건
 
-1. **eSIM 지원** — 물리 SIM이 아닌 eSIM이 가능한 요금제
-2. **해외 문자 수신** — 해외에서 사용해도 문자(SMS)를 받을 수 있을 것
-3. **월 유지비 최저** — 월 유지 가격이 가장 싼 플랜
-4. **일정한 유지 가격** — 몇 달만 프로모션으로 저렴하고 이후 가격이 오르는 구조가 아니라, **항상 유지 가격이 일정한** 플랜
+1. **현재 가입 가능** — 마감/판매종료/가입불가(예: “해당 요금제는 마감되었습니다”)가 아닌 요금제만 대상
+2. **eSIM 지원** — 물리 SIM이 아닌 eSIM이 가능한 요금제
+3. **해외 문자 수신** — 해외에서 사용해도 문자(SMS)를 받을 수 있을 것
+4. **월 유지비 최저** — 월 유지 가격이 가장 싼 플랜
+5. **일정한 유지 가격** — 몇 달만 프로모션으로 저렴하고 이후 가격이 오르는 구조가 아니라, **항상 유지 가격이 일정한** 플랜
 
 ## 기술 스택
 
@@ -32,8 +33,10 @@
 
 ### 자동화
 
-- 앱 기동 시 즉시 1회 실행 후, 매일 정해진 시각에 재실행
-- 실행 기간: **2026년 9월 15일까지** (`report.end.date`)
+- **GitHub Actions** 매일 09:00 KST (`0 0 * * *` UTC) 1회 실행 — [`.github/workflows/daily-esim-report.yml`](.github/workflows/daily-esim-report.yml)
+- 로컬/CI 기본: **1회 실행 후 자동 종료**
+- (선택) `schedule` 모드로 매일 스케줄 상시 기동 가능
+- 실행 기간: **2026년 9월 15일까지** (`report.end.date`) — 이후에는 no-op 종료
 
 ## 일일 리포트 흐름
 
@@ -54,6 +57,7 @@ src/main/java/com/esimmcp/
   service/                     # 검색·평가·저장·이메일·파이프라인
   schedule/                    # 일일 스케줄러
 supabase/schema.sql            # Supabase 테이블 DDL
+.github/workflows/             # GitHub Actions 일일 리포트
 .cursor/mcp.json               # Cursor IDE용 MCP 서버 설정
 ```
 
@@ -65,42 +69,80 @@ supabase/schema.sql            # Supabase 테이블 DDL
 mvn -q test
 ```
 
-### 2. 실행 (항상 실운영 MCP)
+### 2. 로컬 실행
 
-모든 설정은 `src/main/resources/application.properties` 한 곳에 있습니다 (`.env` 없음).
-
-1. `application.properties`에서 API 키 / DB / 이메일 값을 채웁니다.
-2. Supabase에서 `supabase/schema.sql`을 실행합니다.
-3. (선택) Cursor에서 `.cursor/mcp.json` 서버들도 활성화합니다.
+1. `application.properties.example` → `application.properties` 복사 후 시크릿 채우기  
+   (`application.properties`는 gitignore)
+2. Supabase에서 `supabase/schema.sql` 실행
+3. (선택) Cursor에서 `.cursor/mcp.json` 서버 활성화
 
 ```bash
-mvn -q exec:java -Dexec.args=once   # 1회 실행
-mvn -q exec:java                    # 매일 스케줄 (Ctrl+C로 종료)
+mvn -q exec:java                         # 1회 실행 후 자동 종료 (기본)
+mvn -q exec:java -Dexec.args=once        # 동일
+mvn -q exec:java -Dexec.args=schedule    # 매일 스케줄 (Ctrl+C로 종료)
 ```
 
-### 3. 패키징
+### 3. GitHub Actions 자동화
+
+워크플로가 매일 리포트를 돌립니다. Repository **Settings → Secrets and variables → Actions**에 아래 Secret을 등록하세요.
+
+| Secret | 용도 | 로컬 대응 |
+| --- | --- | --- |
+| `REPORT_EMAIL_TO` | 리포트 수신 메일 | `report.email.to` |
+| `SPRING_DATASOURCE_URL` | Supabase JDBC URL | `spring.datasource.url` |
+| `SPRING_DATASOURCE_USERNAME` | DB 사용자 | `spring.datasource.username` |
+| `SPRING_DATASOURCE_PASSWORD` | DB 비밀번호 | `spring.datasource.password` |
+| `BRAVE_API_KEY` | Brave Search | `mcp.brave.env.BRAVE_API_KEY` |
+| `SUPABASE_ACCESS_TOKEN` | Supabase MCP | `mcp.supabase.env.SUPABASE_ACCESS_TOKEN` |
+| `SUPABASE_PROJECT_REF` | Supabase project ref | `mcp.supabase.project.ref` / args |
+| `GMAIL_GCP_OAUTH_KEYS_JSON` | Gmail OAuth client JSON | `~/.gmail-mcp/gcp-oauth.keys.json` 내용 |
+| `GMAIL_CREDENTIALS_JSON` | Gmail OAuth token JSON | `~/.gmail-mcp/credentials.json` 내용 |
+
+로컬에서 이미 Gmail MCP 로그인을 했다면:
+
+```bash
+cat ~/.gmail-mcp/gcp-oauth.keys.json
+cat ~/.gmail-mcp/credentials.json
+```
+
+수동 실행: GitHub Actions 탭 → **Daily eSIM report** → **Run workflow**
+
+### 4. 패키징
 
 ```bash
 mvn -q package
-java -jar target/esim-mcp-0.1.0-SNAPSHOT.jar once
+java -jar target/esim-mcp-0.1.0-SNAPSHOT.jar        # 1회 후 종료
+java -jar target/esim-mcp-0.1.0-SNAPSHOT.jar schedule
 ```
 
 ## 설정
 
-**단일 설정 파일:** `src/main/resources/application.properties`  
-(`.env` / 환경변수 오버라이드 없음 — 여기에만 작성)
+| 환경 | 시크릿 위치 |
+| --- | --- |
+| **Local** | `src/main/resources/application.properties` |
+| **GitHub Actions** | Repository Secrets → 환경변수로 주입 (비어 있지 않으면 properties보다 우선) |
 
 | 키 | 설명 | 기본값 |
 | --- | --- | --- |
 | `report.end.date` | 스케줄 종료일 | `2026-09-15` |
-| `report.cron.hour` / `minute` | 매일 실행 시각 | `9` / `0` (Asia/Seoul) |
-| `report.email.to` | 리포트 수신 메일 | `dear.jinhyung@gmail.com` |
-| `spring.datasource.*` | Supabase PostgreSQL JDBC | (파일 내 설정) |
-| `mcp.*.env.*` | 각 MCP 서버에 전달할 키 | (파일 내 설정) |
+| `report.cron.hour` / `minute` | 로컬 스케줄 시각 | `9` / `0` (Asia/Seoul) |
+| `report.email.to` | 리포트 수신 메일 | (비움) |
+| `spring.datasource.*` | Supabase PostgreSQL JDBC | (파일/Secret) |
+| `mcp.*.env.*` | 각 MCP 서버에 전달할 키 | (파일/Secret) |
+
+## 트러블슈팅
+
+### MCP 연결 실패 (`Client failed to initialize`)
+
+MCP Java SDK 2.x는 Jackson 3를 쓰고, `jackson-annotations` **2.20+** 가 필요합니다.
+이 프로젝트는 `pom.xml`의 `jackson.version`을 2.20으로 고정해 두었습니다.
+`NoSuchFieldError: POJO` 가 보이면 annotations 버전이 낮은 것입니다.
+
+로컬/GitHub Secret 분리는 MCP stdio 연결과 무관합니다. properties의 키는 자식 프로세스 env로 전달됩니다.
 
 ## 다음 단계
 
 - [ ] Brave/Playwright 응답을 구조화된 `EsimPlan` JSON으로 파싱하는 프롬프트/스키마 고도화
 - [ ] Supabase upsert(하루 1행) 및 가격 변동 히스토리 테이블
-- [ ] Gmail MCP 인증(OAuth) 완료 후 실메일 발송 검증
-- [ ] launchd/cron 또는 CI로 프로세스 상시 기동
+- [ ] GitHub Actions에서 Playwright 브라우저 의존성 설치 최적화
+- [ ] Actions 실행 로그/실패 알림 정리

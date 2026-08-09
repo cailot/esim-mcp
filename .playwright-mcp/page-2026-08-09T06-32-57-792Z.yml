@@ -1,0 +1,128 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-AU
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Go to Google Home" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwirpPvD9pKWAxU1avEDHae5IcIQPAgI
+        - generic [ref=f2e21]:
+          - generic [ref=f2e22]:
+            - combobox "Search" [ref=f2e25]: ÃÂ•ÂœÃªÂµÂ Ã¬Â•ÂŒÃ«ÂœÂ°ÃÂ Â° eSIM Ã¬ÂšÂ”ÃªÂ¸ÂˆÃ¬Â Âœ ÃÂ•Â´Ã¬Â™Â¸ SMS Ã¬ÂˆÂ˜Ã¬Â‹Â Ã¬Â›Â” Ã¬ÂœÂ Ã¬Â§Â€Ã«Â¹Â„ Ã¬Â Â€Ã«Â Â´ ÃÂ Â‰Ã¬ÂƒÂ Ã¬ÂšÂ”ÃªÂ¸Âˆ ÃÂ•ÂœÃªÂµÂ Ã¬Â•ÂŒÃ«ÂœÂ°ÃÂ Â° eSIM Ã¬ÂšÂ”ÃªÂ¸ÂˆÃ¬Â Âœ ÃÂ•Â´Ã¬Â™Â¸ SMS Ã¬ÂˆÂ˜Ã¬Â‹Â Ã¬Â›Â” Ã¬ÂœÂ Ã¬Â§Â€Ã«Â¹Â„ Ã¬Â Â€Ã«Â Â´ ÃÂ Â‰Ã¬ÂƒÂ Ã¬ÂšÂ”ÃªÂ¸Âˆ
+            - generic [ref=f2e26]:
+              - button "Clear" [ref=f2e28] [cursor=pointer]
+              - generic [ref=f2e33]:
+                - button "Search by voice" [ref=f2e34] [cursor=pointer]
+                - button "Search by image" [ref=f2e37] [cursor=pointer]
+          - button "Search" [ref=f2e40] [cursor=pointer]
+    - generic [ref=f2e45]:
+      - button "Settings" [ref=f2e47] [cursor=pointer]
+      - button "Share" [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e59]:
+        - button "Google apps" [ref=f2e61] [cursor=pointer]
+        - link "Sign in" [ref=f2e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D%25C3%25AD%25C2%2595%25C2%259C%25C3%25AA%25C2%25B5%25C2%25AD%2B%25C3%25AC%25C2%2595%25C2%258C%25C3%25AB%25C2%259C%25C2%25B0%25C3%25AD%25C2%258F%25C2%25B0%2BeSIM%2B%25C3%25AC%25C2%259A%25C2%2594%25C3%25AA%25C2%25B8%25C2%2588%25C3%25AC%25C2%25A0%25C2%259C%2B%25C3%25AD%25C2%2595%25C2%25B4%25C3%25AC%25C2%2599%25C2%25B8%2BSMS%2B%25C3%25AC%25C2%2588%25C2%2598%25C3%25AC%25C2%258B%25C2%25A0%2B%25C3%25AC%25C2%259B%25C2%2594%2B%25C3%25AC%25C2%259C%25C2%25A0%25C3%25AC%25C2%25A7%25C2%2580%25C3%25AB%25C2%25B9%25C2%2584%2B%25C3%25AC%25C2%25A0%25C2%2580%25C3%25AB%25C2%25A0%25C2%25B4%2B%25C3%25AD%25C2%258F%25C2%2589%25C3%25AC%25C2%2583%25C2%259D%25C3%25AC%25C2%259A%25C2%2594%25C3%25AA%25C2%25B8%25C2%2588%26sei%3DFx94aqyDIdSgjfYPtN-4sAw&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e68]:
+    - navigation [ref=f2e74]:
+      - generic [ref=f2e80]:
+        - list [ref=f2e81]:
+          - listitem [ref=f2e82]:
+            - link "AI Mode" [ref=f2e85] [cursor=pointer]:
+              - /url: /search?q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83+%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82+%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82%C5%93%C3%82+%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83+%C3%82%C2%B9%C3%82+%C3%83%C2%AC%C3%82+%C3%82%E2%82%AC%C3%83+%C3%82+%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sca_esv=2734240c07732aec&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQ2J8OegQIEBAD
+          - listitem [ref=f2e89]:
+            - link "All" [disabled] [ref=f2e90]
+          - listitem [ref=f2e93]:
+            - link "Shopping" [ref=f2e94] [cursor=pointer]:
+              - /url: /search?sca_esv=2734240c07732aec&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83%C2%AB%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82%C2%A0%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82%E2%80%B9%C3%82%C2%A0+%C3%83%C2%AC%C3%82%E2%80%BA%C3%82%E2%80%9D+%C3%83%C2%AC%C3%82%C5%93%C3%82%C2%A0%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%B9%C3%82%E2%80%9E+%C3%83%C2%AC%C3%82%C2%A0%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%A0%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&ved=1t:220175&ictx=111
+          - listitem [ref=f2e97]:
+            - link "Videos" [ref=f2e98] [cursor=pointer]:
+              - /url: /search?sca_esv=2734240c07732aec&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83%C2%AB%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82%C2%A0%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82%E2%80%B9%C3%82%C2%A0+%C3%83%C2%AC%C3%82%E2%80%BA%C3%82%E2%80%9D+%C3%83%C2%AC%C3%82%C5%93%C3%82%C2%A0%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%B9%C3%82%E2%80%9E+%C3%83%C2%AC%C3%82%C2%A0%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%A0%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQtKgLegQIFRAB
+          - listitem [ref=f2e101]:
+            - link "Forums" [ref=f2e102] [cursor=pointer]:
+              - /url: /search?sca_esv=2734240c07732aec&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83%C2%AB%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82%C2%A0%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82%E2%80%B9%C3%82%C2%A0+%C3%83%C2%AC%C3%82%E2%80%BA%C3%82%E2%80%9D+%C3%83%C2%AC%C3%82%C5%93%C3%82%C2%A0%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%B9%C3%82%E2%80%9E+%C3%83%C2%AC%C3%82%C2%A0%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%A0%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQs6gLegQIExAB
+          - listitem [ref=f2e105]:
+            - link "Images" [ref=f2e106] [cursor=pointer]:
+              - /url: /search?sca_esv=2734240c07732aec&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83%C2%AB%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82%C2%A0%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82%E2%80%B9%C3%82%C2%A0+%C3%83%C2%AC%C3%82%E2%80%BA%C3%82%E2%80%9D+%C3%83%C2%AC%C3%82%C5%93%C3%82%C2%A0%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%B9%C3%82%E2%80%9E+%C3%83%C2%AC%C3%82%C2%A0%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%A0%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQtKgLegQIFxAB
+          - listitem [ref=f2e109]:
+            - link "Short videos" [ref=f2e110] [cursor=pointer]:
+              - /url: /search?sca_esv=2734240c07732aec&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqCQj_06QnZs315LoFmPf5XwGupRbMA_EXpw_ID0OLGAaLSwcD43zhIU_HwblKsJd4Bsp75WqA6KOyzAVXB7gBaSI5ND-64cT2dHrFyIUemNrsxwueGHvKw0nYaz1X28d84Gg706GkBOYEj7wAszAMwjb-eXplx-bfKv7i6nkB6C5dqI2gIaQGBycz7i63Gv-Of04eg&q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83%C2%AB%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82%C2%A0%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82%E2%80%B9%C3%82%C2%A0+%C3%83%C2%AC%C3%82%E2%80%BA%C3%82%E2%80%9D+%C3%83%C2%AC%C3%82%C5%93%C3%82%C2%A0%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%B9%C3%82%E2%80%9E+%C3%83%C2%AC%C3%82%C2%A0%C3%82%E2%82%AC%C3%83%C2%AB%C3%82%C2%A0%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82%E2%80%9D%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQs6gLegQIFhAB
+          - listitem [ref=f2e113]:
+            - button [ref=f2e114] [cursor=pointer]:
+              - generic "More filters" [ref=f2e115]: More
+        - button "Tools" [ref=f2e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e129]
+    - generic [ref=f2e134]:
+      - generic [ref=f2e153]:
+        - heading "Thinking" [level=2] [ref=f2e157]
+        - progressbar "Generating" [ref=f2e160]
+      - main [ref=f2e162]:
+        - generic [ref=f2e169]:
+          - heading "Web results" [level=2] [ref=f2e170]
+          - generic [ref=f2e171]:
+            - generic [ref=f2e174]:
+              - link "Hi all, I am looking for help with eSims please. Does anyone ... Facebook · Aussies & Kiwis Travelling to Europe 60+ comments · 2 months ago" [ref=f2e176] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/596526160767608/posts/2507489773004561/
+                - heading "Hi all, I am looking for help with eSims please. Does anyone ..." [level=3] [ref=f2e177]
+                - generic [ref=f2e183]:
+                  - generic [ref=f2e184]: Facebook · Aussies & Kiwis Travelling to Europe
+                  - generic [ref=f2e186]: 60+ comments · 2 months ago
+              - button "About this result" [ref=f2e190] [cursor=pointer]
+            - generic [ref=f2e195]: Hi all, I am looking for help with eSims please. Does anyone know if I can keep my home Sim active for incoming SMS (but with roaming turned off) and then ...
+            - generic [ref=f2e199]:
+              - generic [ref=f2e200]:
+                - link [ref=f2e203] [cursor=pointer]:
+                  - /url: https://www.facebook.com/groups/457573074653783/posts/2170457590031981/
+                  - generic [ref=f2e204]:
+                    - text: Using
+                    - emphasis [ref=f2e205]: eSIM
+                    - text: for calls and texts? - Facebook
+                - generic [ref=f2e206]: 10 Sept 2025
+              - generic [ref=f2e208]:
+                - link [ref=f2e211] [cursor=pointer]:
+                  - /url: https://www.facebook.com/groups/973983772993489/posts/2399938987064620/
+                  - generic [ref=f2e212]:
+                    - text: How do people use
+                    - emphasis [ref=f2e213]: eSIM
+                    - text: without
+                    - emphasis [ref=f2e214]: text message
+                    - text: codes?
+                - generic [ref=f2e215]: 30 Aug 2024
+              - link "More results from www.facebook.com" [ref=f2e220] [cursor=pointer]:
+                - /url: /search?q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83+%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82+%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82%C5%93%C3%82+%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83+%C3%82%C2%B9%C3%82+%C3%83%C2%AC%C3%82+%C3%82%E2%82%AC%C3%83+%C3%82+%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86+site:www.facebook.com&sca_esv=2734240c07732aec&sa=X&ved=2ahUKEwirpPvD9pKWAxU1avEDHae5IcIQrQIoAnoECBkQAw
+            - generic [ref=f2e221]: "Missing: ÃÂ• ‎ÂœÃªÂµÂ ‎Ã¬ ‎Â• ‎ÂŒÃ ‎ÂœÂ° ‎ÃÂ ‎Â° ‎ÂšÂ ‎ÃªÂ¸ ‎ÂˆÃ¬ ‎Â ‎Âœ ‎Â´ ‎™ ‎Â¸ ‎ÂˆÂ˜ ‎ÂœÂ"
+        - generic [ref=f2e224]:
+          - generic [ref=f2e225]:
+            - heading "Notices about Filtered Results" [level=2] [ref=f2e226]
+            - paragraph [ref=f2e228]:
+              - generic [ref=f2e229]:
+                - text: In order to show you the most relevant results, we have omitted some entries very similar to the 1 already displayed.If you like, you can
+                - link "repeat the search with the omitted results included" [ref=f2e230] [cursor=pointer]:
+                  - /url: /search?q=%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C5%93%C3%83%C2%AA%C3%82%C2%B5%C3%82%C2%AD+%C3%83%C2%AC%C3%82%E2%80%A2%C3%82%C5%92%C3%83+%C3%82%C5%93%C3%82%C2%B0%C3%83%C2%AD%C3%82+%C3%82%C2%B0+eSIM+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86%C3%83%C2%AC%C3%82+%C3%82%C5%93+%C3%83%C2%AD%C3%82%E2%80%A2%C3%82%C2%B4%C3%83%C2%AC%C3%82%E2%84%A2%C3%82%C2%B8+SMS+%C3%83%C2%AC%C3%82%CB%86%C3%82%CB%9C%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82+%C3%82+%C3%83%C2%AC%C3%82%C5%93%C3%82+%C3%83%C2%AC%C3%82%C2%A7%C3%82%E2%82%AC%C3%83+%C3%82%C2%B9%C3%82+%C3%83%C2%AC%C3%82+%C3%82%E2%82%AC%C3%83+%C3%82+%C3%82%C2%B4+%C3%83%C2%AD%C3%82+%C3%82%E2%80%B0%C3%83%C2%AC%C3%82%C6%92%C3%82+%C3%83%C2%AC%C3%82%C5%A1%C3%82+%C3%83%C2%AA%C3%82%C2%B8%C3%82%CB%86&sca_esv=2734240c07732aec&filter=0
+                - text: .
+          - navigation
+        - navigation
+    - contentinfo [ref=f2e231]:
+      - heading "Footer links" [level=1] [ref=f2e232]
+      - generic [ref=f2e236]:
+        - generic [ref=f2e238]:
+          - text: Australia
+          - generic [ref=f2e240]:
+            - button "Kew East, Victoria - From your IP address" [ref=f2e242] [cursor=pointer]:
+              - generic [ref=f2e243]: Kew East, Victoria
+              - generic [ref=f2e245]:
+                - text: "-"
+                - generic [ref=f2e246]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f2e248] [cursor=pointer]
+        - generic [ref=f2e251]:
+          - link "Help" [ref=f2e252] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-AU&fg=1
+          - link "Send feedback" [ref=f2e253] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f2e254] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-AU&fg=1
+          - link "Terms" [ref=f2e255] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-AU&fg=1

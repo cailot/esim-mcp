@@ -56,6 +56,7 @@ public final class McpClientManager implements AutoCloseable {
 
             McpSyncClient client = McpClient.sync(transport)
                     .requestTimeout(Duration.ofSeconds(60))
+                    .initializationTimeout(Duration.ofSeconds(60))
                     .clientInfo(new McpSchema.Implementation("esim-mcp", "0.1.0"))
                     .build();
 
@@ -63,7 +64,14 @@ public final class McpClientManager implements AutoCloseable {
             clients.put(spec.name(), client);
             log.info("Connected MCP server '{}'", spec.name());
         } catch (Exception e) {
-            log.error("Failed to connect MCP server '{}': {}", spec.name(), e.getMessage());
+            log.error("Failed to connect MCP server '{}': {}", spec.name(), e.toString());
+            Throwable root = e;
+            while (root.getCause() != null && root.getCause() != root) {
+                root = root.getCause();
+            }
+            if (root != e) {
+                log.error("Root cause for '{}': {}", spec.name(), root.toString());
+            }
         }
     }
 

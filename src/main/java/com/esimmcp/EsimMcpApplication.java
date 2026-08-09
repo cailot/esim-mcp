@@ -13,12 +13,15 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.time.LocalDate;
+
 /**
  * Standalone entry point for daily eSIM plan discovery via MCP.
  *
  * <pre>
- *   mvn -q exec:java                 # schedule until 2026-09-15
- *   mvn -q exec:java -Dexec.args=once  # run one report immediately
+ *   mvn -q exec:java                      # run once, then exit (default)
+ *   mvn -q exec:java -Dexec.args=once     # same as default
+ *   mvn -q exec:java -Dexec.args=schedule # keep running on daily schedule
  * </pre>
  */
 public final class EsimMcpApplication {
@@ -26,8 +29,14 @@ public final class EsimMcpApplication {
     private static final Logger log = LoggerFactory.getLogger(EsimMcpApplication.class);
 
     public static void main(String[] args) throws Exception {
-        boolean once = args.length > 0 && "once".equalsIgnoreCase(args[0]);
+        boolean schedule = args.length > 0 && "schedule".equalsIgnoreCase(args[0]);
         AppConfig config = AppConfig.load();
+
+        LocalDate today = LocalDate.now(config.timezone());
+        if (today.isAfter(config.reportEndDate())) {
+            log.info("Report end date {} already passed (today={}); exiting", config.reportEndDate(), today);
+            return;
+        }
 
         ObjectMapper objectMapper = new ObjectMapper().registerModule(new JavaTimeModule());
 
@@ -45,18 +54,17 @@ public final class EsimMcpApplication {
                     config.timezone()
             );
 
-            if (once) {
-                log.info("Running one-shot daily report");
+            if (!schedule) {
+                log.info("Running one-shot daily report (will exit when finished)");
                 pipeline.runOnce();
+                log.info("One-shot report finished; exiting");
                 return;
             }
 
             try (DailyScheduler scheduler = new DailyScheduler(config, pipeline)) {
-                // Run once at startup so the first report is available immediately,
-                // then continue on the daily schedule until the end date.
                 scheduler.runNow();
                 scheduler.start();
-                log.info("esim-mcp is running. Press Ctrl+C to stop.");
+                log.info("esim-mcp scheduler is running. Press Ctrl+C to stop.");
                 Thread.currentThread().join();
             }
         }
