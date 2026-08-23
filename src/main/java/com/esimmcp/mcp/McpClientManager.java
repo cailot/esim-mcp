@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Optional;
 
 /**
- * Manages STDIO MCP clients for Brave, Playwright, Sequential Thinking, Supabase, and Gmail.
+ * Manages STDIO MCP clients for Brave, Playwright, Sequential Thinking, and Supabase.
  */
 public final class McpClientManager implements AutoCloseable {
 
@@ -34,7 +34,6 @@ public final class McpClientManager implements AutoCloseable {
         manager.connect(config.playwrightServer());
         manager.connect(config.sequentialServer());
         manager.connect(config.supabaseServer());
-        manager.connect(config.gmailServer());
         return manager;
     }
 

@@ -38,23 +38,6 @@ jobs:
           cp src/main/resources/application.properties.example \
              src/main/resources/application.properties
 
-      - name: Restore Gmail MCP OAuth files from secrets
-        env:
-          GMAIL_GCP_OAUTH_KEYS_JSON: ${{ secrets.GMAIL_GCP_OAUTH_KEYS_JSON }}
-          GMAIL_CREDENTIALS_JSON: ${{ secrets.GMAIL_CREDENTIALS_JSON }}
-        run: |
-          mkdir -p "$HOME/.gmail-mcp"
-          if [ -n "$GMAIL_GCP_OAUTH_KEYS_JSON" ]; then
-            printf '%s' "$GMAIL_GCP_OAUTH_KEYS_JSON" > "$HOME/.gmail-mcp/gcp-oauth.keys.json"
-          else
-            echo "Warning: GMAIL_GCP_OAUTH_KEYS_JSON secret is empty"
-          fi
-          if [ -n "$GMAIL_CREDENTIALS_JSON" ]; then
-            printf '%s' "$GMAIL_CREDENTIALS_JSON" > "$HOME/.gmail-mcp/credentials.json"
-          else
-            echo "Warning: GMAIL_CREDENTIALS_JSON secret is empty"
-          fi
-
       - name: Run daily report (once)
         env:
           REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
@@ -64,5 +47,7 @@ jobs:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+          SPRING_MAIL_USERNAME: ${{ secrets.SPRING_MAIL_USERNAME }}
+          SPRING_MAIL_PASSWORD: ${{ secrets.SPRING_MAIL_PASSWORD }}
         # compile is required: bare `exec:java` does not build classes on a clean runner
         run: mvn -B -e compile exec:java -Dexec.cleanupDaemonThreads=false

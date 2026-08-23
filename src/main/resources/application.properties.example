@@ -65,14 +65,21 @@ mcp.supabase.args=-y,@supabase/mcp-server-supabase@latest,--project-ref=YOUR_PRO
 mcp.supabase.project.ref=
 mcp.supabase.env.SUPABASE_ACCESS_TOKEN=
 
-# Gmail
-mcp.gmail.command=npx
-mcp.gmail.args=-y,@gongrzhe/server-gmail-autoauth-mcp
-
 # Tool names (adjust to match installed MCP server versions)
 mcp.tool.brave.search=brave_web_search
 mcp.tool.playwright.navigate=browser_navigate
 mcp.tool.playwright.snapshot=browser_snapshot
 mcp.tool.sequential.thinking=sequentialthinking
 mcp.tool.supabase.execute_sql=execute_sql
-mcp.tool.gmail.send=send_email
+
+#################################################################
+# Gmail SMTP (app password — treat as a password)
+# Env override: SPRING_MAIL_USERNAME / SPRING_MAIL_PASSWORD
+#################################################################
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true

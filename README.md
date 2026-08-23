@@ -29,7 +29,7 @@
 | **Playwright MCP** | 검색 결과/상품 페이지 크롤링·점검 |
 | **Sequential Thinking MCP** | 선정 조건을 단계별로 검증 |
 | **Supabase MCP** | 일일 결과를 DB에 저장 |
-| **Gmail MCP** | 최종 리포트를 이메일로 발송 |
+| **Gmail SMTP** | 앱 비밀번호로 최종 리포트 이메일 발송 (MCP 아님) |
 
 ### 자동화
 
@@ -44,7 +44,7 @@
 2. 선정 조건으로 필터링·최저가 선정
 3. Sequential Thinking으로 단계별 검증
 4. 결과를 Supabase에 저장
-5. Gmail로 일일 리포트 발송
+5. Gmail SMTP(앱 비밀번호)로 일일 리포트 발송
 
 ## 프로젝트 구조
 
@@ -95,15 +95,10 @@ mvn -q compile exec:java -Dexec.args=schedule  # 매일 스케줄 (Ctrl+C로 종
 | `BRAVE_API_KEY` | Brave Search | `mcp.brave.env.BRAVE_API_KEY` |
 | `SUPABASE_ACCESS_TOKEN` | Supabase MCP | `mcp.supabase.env.SUPABASE_ACCESS_TOKEN` |
 | `SUPABASE_PROJECT_REF` | Supabase project ref | `mcp.supabase.project.ref` / args |
-| `GMAIL_GCP_OAUTH_KEYS_JSON` | Gmail OAuth client JSON | `~/.gmail-mcp/gcp-oauth.keys.json` 내용 |
-| `GMAIL_CREDENTIALS_JSON` | Gmail OAuth token JSON | `~/.gmail-mcp/credentials.json` 내용 |
+| `SPRING_MAIL_USERNAME` | Gmail SMTP 계정 | `spring.mail.username` |
+| `SPRING_MAIL_PASSWORD` | Gmail 앱 비밀번호 | `spring.mail.password` |
 
-로컬에서 이미 Gmail MCP 로그인을 했다면:
-
-```bash
-cat ~/.gmail-mcp/gcp-oauth.keys.json
-cat ~/.gmail-mcp/credentials.json
-```
+Gmail 앱 비밀번호는 Google 계정 → **보안 → 2단계 인증 → 앱 비밀번호**에서 만듭니다.
 
 수동 실행: GitHub Actions 탭 → **Daily eSIM report** → **Run workflow**
 
@@ -127,6 +122,7 @@ java -jar target/esim-mcp-0.1.0-SNAPSHOT.jar schedule
 | `report.end.date` | 스케줄 종료일 | `2026-09-15` |
 | `report.cron.hour` / `minute` | 로컬 스케줄 시각 | `9` / `0` (Asia/Seoul) |
 | `report.email.to` | 리포트 수신 메일 | (비움) |
+| `spring.mail.username` / `password` | Gmail SMTP 앱 비밀번호 | (파일/Secret) |
 | `spring.datasource.*` | Supabase PostgreSQL JDBC | (파일/Secret) |
 | `mcp.*.env.*` | 각 MCP 서버에 전달할 키 | (파일/Secret) |
 
@@ -139,6 +135,12 @@ MCP Java SDK 2.x는 Jackson 3를 쓰고, `jackson-annotations` **2.20+** 가 필
 `NoSuchFieldError: POJO` 가 보이면 annotations 버전이 낮은 것입니다.
 
 로컬/GitHub Secret 분리는 MCP stdio 연결과 무관합니다. properties의 키는 자식 프로세스 env로 전달됩니다.
+
+### Gmail SMTP 실패 (`535` / `Username and Password not accepted`)
+
+- Google 계정에서 **2단계 인증**이 켜져 있어야 앱 비밀번호를 만들 수 있습니다.
+- `spring.mail.password`에는 계정 비밀번호가 아니라 **16자리 앱 비밀번호**를 넣습니다.
+- GitHub Actions는 `SPRING_MAIL_USERNAME` / `SPRING_MAIL_PASSWORD` Secret이 필요합니다. 메일 전송이 실패하면 이제 워크플로가 실패합니다.
 
 ## 다음 단계
 

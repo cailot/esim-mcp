@@ -54,5 +54,44 @@ class AppConfigTest {
                 .contains("SPRING_DATASOURCE_PASSWORD"));
         assertTrue(AppConfig.envKeysFor("spring.datasource.password")
                 .contains("ESIM_MCP_SPRING_DATASOURCE_PASSWORD"));
+        assertTrue(AppConfig.envKeysFor("spring.mail.username")
+                .contains("SPRING_MAIL_USERNAME"));
+        assertTrue(AppConfig.envKeysFor("spring.mail.password")
+                .contains("SPRING_MAIL_PASSWORD"));
+    }
+
+    @Test
+    void mailSettingsFromPropertiesAndStripsAppPasswordSpaces() {
+        Properties props = new Properties();
+        props.setProperty("spring.mail.host", "smtp.gmail.com");
+        props.setProperty("spring.mail.port", "587");
+        props.setProperty("spring.mail.username", "sender@example.com");
+        props.setProperty("spring.mail.password", "abcd efgh ijkl mnop");
+
+        AppConfig config = AppConfig.fromProperties(props, key -> null);
+
+        assertEquals("smtp.gmail.com", config.mailHost());
+        assertEquals(587, config.mailPort());
+        assertEquals("sender@example.com", config.mailUsername());
+        assertEquals("abcdefghijklmnop", config.mailPassword());
+        assertTrue(config.mailSmtpAuth());
+        assertTrue(config.mailStartTlsEnabled());
+    }
+
+    @Test
+    void mailSecretsFromEnvOverrideProperties() {
+        Properties props = new Properties();
+        props.setProperty("spring.mail.username", "file-user");
+        props.setProperty("spring.mail.password", "file-pass");
+
+        Map<String, String> env = Map.of(
+                "SPRING_MAIL_USERNAME", "ci-user@example.com",
+                "SPRING_MAIL_PASSWORD", "ci-app-password"
+        );
+
+        AppConfig config = AppConfig.fromProperties(props, env::get);
+
+        assertEquals("ci-user@example.com", config.mailUsername());
+        assertEquals("ci-app-password", config.mailPassword());
     }
 }

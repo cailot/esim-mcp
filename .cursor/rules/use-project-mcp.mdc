@@ -19,13 +19,13 @@ Always consult and prefer the MCP servers listed in [`.cursor/mcp.json`](.cursor
 | `brave-search` | Latest web search for eSIM / carrier plan info |
 | `playwright` | Crawl and verify plan pages in detail |
 | `sequential-thinking` | Step-by-step evaluation of candidates against selection criteria |
-| `gmail` | Send the final daily report email |
+| `gmail` | Optional Cursor-side Gmail tools (daily report email is SMTP, not MCP) |
 
 If `.cursor/mcp.json` adds, removes, or renames servers, follow the **current file** — not an outdated mental list.
 
 ## Behavior
 
-- Before doing web research, DB work, deep page inspection, multi-step reasoning, or email send: check whether a project MCP can do it, and **use it**.
+- Before doing web research, DB work, deep page inspection, or multi-step reasoning: check whether a project MCP can do it, and **use it**. Daily report email is sent by the Java app via Gmail SMTP (app password), not Gmail MCP.
 - Prefer MCP tool calls over manual workarounds when the server is available.
 - If a listed MCP is disconnected or missing credentials, say so clearly and help enable/fix it rather than silently skipping it forever.
 - Do not assume global/`~/.cursor` MCP servers replace this project's `.cursor/mcp.json` set for esim-mcp work.

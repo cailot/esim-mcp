@@ -61,7 +61,7 @@ public final class AppConfig {
     }
 
     /** Test helper: build from an in-memory properties map + env lookup. */
-    static AppConfig fromProperties(Properties properties, Function<String, String> envLookup) {
+    public static AppConfig fromProperties(Properties properties, Function<String, String> envLookup) {
         return new AppConfig(properties, envLookup);
     }
 
@@ -143,8 +143,33 @@ public final class AppConfig {
         return serverSpec("supabase");
     }
 
-    public McpServerSpec gmailServer() {
-        return serverSpec("gmail");
+    public String mailHost() {
+        return get("spring.mail.host", "smtp.gmail.com");
+    }
+
+    public int mailPort() {
+        return Integer.parseInt(get("spring.mail.port", "587"));
+    }
+
+    public String mailUsername() {
+        return get("spring.mail.username", "");
+    }
+
+    /** Gmail app passwords are 16 chars; Google UI may show spaces. */
+    public String mailPassword() {
+        return get("spring.mail.password", "").replace(" ", "");
+    }
+
+    public boolean mailSmtpAuth() {
+        return Boolean.parseBoolean(get("spring.mail.properties.mail.smtp.auth", "true"));
+    }
+
+    public boolean mailStartTlsEnabled() {
+        return Boolean.parseBoolean(get("spring.mail.properties.mail.smtp.starttls.enable", "true"));
+    }
+
+    public boolean mailStartTlsRequired() {
+        return Boolean.parseBoolean(get("spring.mail.properties.mail.smtp.starttls.required", "true"));
     }
 
     private McpServerSpec serverSpec(String name) {

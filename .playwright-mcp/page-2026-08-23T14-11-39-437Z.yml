@@ -1,0 +1,115 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f1e6]:
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "홈" [ref=f1e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e10]:
+            - link "요금제" [ref=f1e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f1e12]:
+            - link "휴대폰 NEW" [ref=f1e13] [cursor=pointer]:
+              - /url: /phones
+              - text: 휴대폰
+              - generic [ref=f1e14]: NEW
+          - listitem [ref=f1e15]:
+            - link "인터넷" [ref=f1e16] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f1e17]:
+            - link "이벤트" [ref=f1e18] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f1e19]:
+            - link "마이페이지" [ref=f1e20] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f1e21]:
+    - generic [ref=f1e22]:
+      - generic [ref=f1e23]:
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]:
+            - link [ref=f1e27] [cursor=pointer]:
+              - /url: /mvnos/38?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "티플러스 로고" [ref=f1e28]
+            - button [ref=f1e30] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f1e32]
+          - generic [ref=f1e40]:
+            - generic [ref=f1e41]:
+              - generic [ref=f1e42]: 우체국 티플음성200
+              - generic [ref=f1e43]:
+                - heading "월 100MB" [level=1] [ref=f1e44]
+                - generic [ref=f1e45]:
+                  - button "찜하기" [ref=f1e47] [cursor=pointer]
+                  - button "공유하기" [ref=f1e52] [cursor=pointer]
+            - generic [ref=f1e58]:
+              - generic [ref=f1e59]: 통화 200분
+              - generic [ref=f1e62]: 문자 200건
+              - generic [ref=f1e65]: KT망
+              - generic [ref=f1e68]: LTE
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]: 월 2,000원
+          - button "자세히" [ref=f1e73] [cursor=pointer]
+      - group "요금제 신청" [ref=f1e76]:
+        - button "신청하기" [ref=f1e78] [cursor=pointer]
+    - generic [ref=f1e82]:
+      - generic [ref=f1e83]:
+        - heading "요금제 정보" [level=2] [ref=f1e84]
+        - tablist [ref=f1e85]:
+          - tab "기본 정보" [selected] [ref=f1e86] [cursor=pointer]
+          - tab "지원 서비스" [ref=f1e88] [cursor=pointer]
+          - tab "기타 비용" [ref=f1e90] [cursor=pointer]
+      - generic [ref=f1e92]:
+        - generic [ref=f1e93]:
+          - generic [ref=f1e101]:
+            - generic [ref=f1e102]: 데이터 월 100MB
+            - generic [ref=f1e103]: 다 쓰면 초과 용량만큼 과금
+          - button "자세히" [ref=f1e105] [cursor=pointer]
+        - generic [ref=f1e108]:
+          - generic [ref=f1e116]:
+            - generic [ref=f1e117]: 통화 200분 / 문자 200건
+            - generic [ref=f1e118]: 부가통화 통신사 문의
+          - button "자세히" [ref=f1e120] [cursor=pointer]
+        - generic [ref=f1e123]: 약정 없음
+        - generic [ref=f1e132]: 유심 / eSIM 모두 개통 가능
+    - generic [ref=f1e141]:
+      - generic [ref=f1e142]:
+        - heading "티플러스 후기" [level=2] [ref=f1e143]
+        - button "모두보기" [ref=f1e144] [cursor=pointer]
+      - generic [ref=f1e147]:
+        - generic [ref=f1e148]:
+          - generic [ref=f1e149]: "4.3"
+          - generic [ref=f1e155]: 5,179개
+        - generic [ref=f1e156]:
+          - generic [ref=f1e157]:
+            - generic [ref=f1e158]: 고객센터
+            - generic [ref=f1e159]: "4.3"
+          - generic [ref=f1e183]:
+            - generic [ref=f1e184]: 개통 과정
+            - generic [ref=f1e185]: "4.4"
+          - generic [ref=f1e209]:
+            - generic [ref=f1e210]: 개통 후 만족도
+            - generic [ref=f1e211]: "4.3"
+      - generic [ref=f1e234]:
+        - button "정*자 24일 전 50살입니다 혼자서 잘 할 수 있도록 설명서 충분하구요 전 통신사와 별차이 없습니다 이제사 바꾼게 넘 안타깝네요. 요금도 저렴하고 정말 좋습니다" [ref=f1e236] [cursor=pointer]:
+          - generic [ref=f1e237]:
+            - generic [ref=f1e238]: 정*자
+            - generic [ref=f1e261]: 24일 전
+          - generic [ref=f1e262]: 50살입니다 혼자서 잘 할 수 있도록 설명서 충분하구요 전 통신사와 별차이 없습니다 이제사 바꾼게 넘 안타깝네요. 요금도 저렴하고 정말 좋습니다
+        - button "서*균 25일 전 알뜰폰 요금제비교할 수 있는 사이트를 모르고 비싸게해서 일반 통신사와 비슷하다고 생각했는데 모요에서 모든통신사 요금을 비교하고 가입할 수 있어서 좋습니다" [ref=f1e264] [cursor=pointer]:
+          - generic [ref=f1e265]:
+            - generic [ref=f1e266]: 서*균
+            - generic [ref=f1e289]: 25일 전
+          - generic [ref=f1e290]: 알뜰폰 요금제비교할 수 있는 사이트를 모르고 비싸게해서 일반 통신사와 비슷하다고 생각했는데 모요에서 모든통신사 요금을 비교하고 가입할 수 있어서 좋습니다
+    - heading [level=3] [ref=f1e294]:
+      - button [ref=f1e295] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f1e297]
+    - generic [ref=f1e303]:
+      - link [ref=f1e304] [cursor=pointer]:
+        - /url: /mvnos/38?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "티플러스 로고" [ref=f1e305]
+      - button "잘못된 정보 제보" [ref=f1e306] [cursor=pointer]
+  - region "Notifications alt+T"

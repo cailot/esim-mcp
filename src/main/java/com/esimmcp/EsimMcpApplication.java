@@ -44,7 +44,7 @@ public final class EsimMcpApplication {
             PlanDiscoveryService discovery = new PlanDiscoveryService(config, mcp, objectMapper);
             PlanEvaluationService evaluation = new PlanEvaluationService(config, mcp);
             ReportStorageService storage = new ReportStorageService(config, mcp, objectMapper);
-            EmailNotificationService email = new EmailNotificationService(config, mcp);
+            EmailNotificationService email = new EmailNotificationService(config);
 
             DailyReportPipeline pipeline = new DailyReportPipeline(
                     discovery,
