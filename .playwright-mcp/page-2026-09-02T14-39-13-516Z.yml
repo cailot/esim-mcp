@@ -1,0 +1,1192 @@
+- generic [active] [ref=f292e1]:
+  - generic:
+    - link "skip to 상단메뉴" [ref=f292e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "skip to content" [ref=f292e3] [cursor=pointer]:
+      - /url: "#contents"
+  - generic [ref=f292e4]:
+    - generic [ref=f292e5]:
+      - generic [ref=f292e6]:
+        - list
+      - list [ref=f292e8]:
+        - listitem [ref=f292e9]:
+          - link "인터넷우체국" [ref=f292e10] [cursor=pointer]:
+            - /url: https://www.epost.go.kr
+        - listitem [ref=f292e11]:
+          - link "우체국 B2B" [ref=f292e12] [cursor=pointer]:
+            - /url: http://b2b.epost.go.kr
+        - listitem [ref=f292e13]:
+          - link "해외배송" [ref=f292e14] [cursor=pointer]:
+            - /url: /fo/main/moveOverSend.do
+      - generic [ref=f292e15]:
+        - link "우체국쇼핑" [ref=f292e16] [cursor=pointer]:
+          - /url: /fo/main/main.do
+        - generic [ref=f292e20]:
+          - textbox "검색어입력" [ref=f292e21]
+          - link "찾기버튼" [ref=f292e22] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=f292e24]:
+          - listitem [ref=f292e25]:
+            - link "로그인" [ref=f292e26] [cursor=pointer]:
+              - /url: /fo/login/loginPrc.do
+          - listitem [ref=f292e27]:
+            - link "장바구니" [ref=f292e28] [cursor=pointer]:
+              - /url: javascript:fn_rightCartCnt();
+          - listitem [ref=f292e29]:
+            - link "나의쇼핑" [ref=f292e30] [cursor=pointer]:
+              - /url: /fo/mypage/mypageOrderSendSearch.do
+      - generic [ref=f292e31]:
+        - generic:
+          - link "전체 카테고리" [ref=f292e32] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f292e33]:
+            - listitem [ref=f292e34]:
+              - link "꿀송편🌈" [ref=f292e35] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev01
+            - listitem [ref=f292e36]:
+              - link "선물🐰" [ref=f292e37] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev04
+            - listitem [ref=f292e38]:
+              - link "AI추천" [ref=f292e39] [cursor=pointer]:
+                - /url: /fo/display/recommendView.do
+            - listitem [ref=f292e40]:
+              - link "특가" [ref=f292e41] [cursor=pointer]:
+                - /url: /fo/event/retrieveSpecialPrice.do
+            - listitem [ref=f292e42]:
+              - link "신규상품" [ref=f292e43] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100008
+            - listitem [ref=f292e44]:
+              - link "이달의 맛🦐" [ref=f292e45] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027581
+            - listitem [ref=f292e46]:
+              - link "특산물" [ref=f292e47] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100007
+            - listitem [ref=f292e48]:
+              - link "전통시장" [ref=f292e49] [cursor=pointer]:
+                - /url: /fo/pavln/sijangDduri.do
+            - listitem [ref=f292e50]:
+              - link "생활용품" [ref=f292e51] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100012
+            - listitem [ref=f292e52]:
+              - link "군장병관" [ref=f292e53] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027623
+          - list [ref=f292e54]:
+            - listitem [ref=f292e55]:
+              - link "이벤트" [ref=f292e56] [cursor=pointer]:
+                - /url: /fo/event/eventListMain.do?LOG_POS=15
+            - listitem [ref=f292e57]:
+              - link "기획전" [ref=f292e58] [cursor=pointer]:
+                - /url: /fo/display/plnbefAllList.do?LOG_POS=103
+            - listitem [ref=f292e59]:
+              - link "지역브랜드관" [ref=f292e60] [cursor=pointer]:
+                - /url: /fo/event/retrievePaldoLocalMap.do?LOG_POS=102
+    - generic [ref=f292e61]:
+      - generic [ref=f292e62]:
+        - generic [ref=f292e63] [cursor=pointer]: 축소/확대 버튼 축소
+        - list [ref=f292e64]:
+          - listitem [ref=f292e65] [cursor=pointer]:
+            - generic [ref=f292e66]: 장바구니
+          - listitem [ref=f292e67] [cursor=pointer]:
+            - generic [ref=f292e68]: 최근 본 상품
+        - list [ref=f292e70]:
+          - listitem [ref=f292e71]:
+            - link "쿠폰등록" [ref=f292e72] [cursor=pointer]:
+              - /url: javascript:fn_couponPinReg();
+          - listitem [ref=f292e73]:
+            - link "법인다량상담" [ref=f292e74] [cursor=pointer]:
+              - /url: /fo/center/centerManyBuyOrderAdvc.do
+          - listitem [ref=f292e75]:
+            - link "기부하기" [ref=f292e76] [cursor=pointer]:
+              - /url: /fo/donate/howDonate.do
+        - link "TOP" [ref=f292e77] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f292e79]:
+        - generic [ref=f292e82]:
+          - generic:
+            - heading "우체국쇼핑 꽃배달" [level=4]
+            - paragraph: 특별한 날엔 특별한 선물, 마음을 전합니다
+        - generic [ref=f292e85]:
+          - generic:
+            - heading "테마별 꽃 추천" [level=4]
+          - heading "테마별 꽃 추천" [level=2] [ref=f292e86]
+          - generic [ref=f292e91]:
+            - button "Previous" [ref=f292e92] [cursor=pointer]
+            - generic [ref=f292e94]:
+              - list [ref=f292e98]:
+                - listitem [ref=f292e99]:
+                  - link [ref=f292e100] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005925
+                    - paragraph [ref=f292e103]: 감사-사은
+              - list [ref=f292e107]:
+                - listitem [ref=f292e108]:
+                  - link [ref=f292e109] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005927
+                    - paragraph [ref=f292e112]: 행사-전시
+              - list [ref=f292e116]:
+                - listitem [ref=f292e117]:
+                  - link [ref=f292e118] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005928
+                    - paragraph [ref=f292e121]: 이사-방문
+              - list [ref=f292e125]:
+                - listitem [ref=f292e126]:
+                  - link [ref=f292e127] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005926
+                    - paragraph [ref=f292e130]: 사랑고백-기념일
+              - list [ref=f292e134]:
+                - listitem [ref=f292e135]:
+                  - link [ref=f292e136] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005929
+                    - paragraph [ref=f292e139]: 화환
+              - list [ref=f292e143]:
+                - listitem [ref=f292e144]:
+                  - link [ref=f292e145] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005924
+                    - img "승진-개업" [ref=f292e147]
+                    - paragraph [ref=f292e148]: 승진-개업
+              - list [ref=f292e152]:
+                - listitem [ref=f292e153]:
+                  - link [ref=f292e154] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005923
+                    - img "생일-출산" [ref=f292e156]
+                    - paragraph [ref=f292e157]: 생일-출산
+              - list [ref=f292e161]:
+                - listitem [ref=f292e162]:
+                  - link [ref=f292e163] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005925
+                    - img "감사-사은" [ref=f292e165]
+                    - paragraph [ref=f292e166]: 감사-사은
+              - list [ref=f292e170]:
+                - listitem [ref=f292e171]:
+                  - link [ref=f292e172] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005927
+                    - img "행사-전시" [ref=f292e174]
+                    - paragraph [ref=f292e175]: 행사-전시
+              - list [ref=f292e179]:
+                - listitem [ref=f292e180]:
+                  - link [ref=f292e181] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005928
+                    - img "이사-방문" [ref=f292e183]
+                    - paragraph [ref=f292e184]: 이사-방문
+              - list [ref=f292e188]:
+                - listitem [ref=f292e189]:
+                  - link [ref=f292e190] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005926
+                    - paragraph [ref=f292e193]: 사랑고백-기념일
+              - list [ref=f292e197]:
+                - listitem [ref=f292e198]:
+                  - link [ref=f292e199] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005929
+                    - paragraph [ref=f292e202]: 화환
+              - list [ref=f292e206]:
+                - listitem [ref=f292e207]:
+                  - link [ref=f292e208] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005924
+                    - paragraph [ref=f292e211]: 승진-개업
+              - list [ref=f292e215]:
+                - listitem [ref=f292e216]:
+                  - link [ref=f292e217] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005923
+                    - paragraph [ref=f292e220]: 생일-출산
+              - list [ref=f292e224]:
+                - listitem [ref=f292e225]:
+                  - link [ref=f292e226] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005925
+                    - paragraph [ref=f292e229]: 감사-사은
+              - list [ref=f292e233]:
+                - listitem [ref=f292e234]:
+                  - link [ref=f292e235] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005927
+                    - paragraph [ref=f292e238]: 행사-전시
+              - list [ref=f292e242]:
+                - listitem [ref=f292e243]:
+                  - link [ref=f292e244] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005928
+                    - paragraph [ref=f292e247]: 이사-방문
+              - list [ref=f292e251]:
+                - listitem [ref=f292e252]:
+                  - link [ref=f292e253] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005926
+                    - paragraph [ref=f292e256]: 사랑고백-기념일
+              - list [ref=f292e260]:
+                - listitem [ref=f292e261]:
+                  - link [ref=f292e262] [cursor=pointer]:
+                    - /url: https://mall.epost.go.kr/fo/display/plnbefDspyNewView.do?plnbefId=10005929
+                    - paragraph [ref=f292e265]: 화환
+            - button "Next" [ref=f292e266] [cursor=pointer]
+        - list [ref=f292e270]:
+          - listitem [ref=f292e271]:
+            - link "꽃배달(126건)" [ref=f292e272] [cursor=pointer]:
+              - /url: javascript:void('0')
+          - listitem [ref=f292e273]
+          - listitem [ref=f292e274]:
+            - textbox "상품검색" [ref=f292e275]
+          - listitem [ref=f292e276]:
+            - button "상품검색 찾기" [ref=f292e277] [cursor=pointer]
+        - generic [ref=f292e282]:
+          - list:
+            - listitem [ref=f292e283]:
+              - link "판매량순" [ref=f292e284] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'tc');
+            - listitem [ref=f292e285]:
+              - link "판매액순" [ref=f292e286] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'tp');
+            - listitem [ref=f292e287]:
+              - link "낮은가격" [ref=f292e288] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'lp');
+            - listitem [ref=f292e289]:
+              - link "높은가격" [ref=f292e290] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'hp');
+            - listitem [ref=f292e291]:
+              - link "최신상품" [ref=f292e292] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'ng');
+            - listitem [ref=f292e293]:
+              - link "상품평" [ref=f292e294] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'gs');
+            - listitem [ref=f292e295]:
+              - link "할인율순" [ref=f292e296] [cursor=pointer]:
+                - /url: javascript:fn_changeOrder('/fo/pavln/flowerSend.do#ctrgy', 'hr');
+        - list [ref=f292e301]:
+          - listitem [ref=f292e302]:
+            - link "철골소심(1) 철골소심(1) 5~6촉 60,000원 평점 10점 134건 무료배송" [ref=f292e303] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9169','04','','','112201304');
+              - img "철골소심(1)" [ref=f292e305]
+              - generic [ref=f292e306]:
+                - paragraph [ref=f292e307]: 철골소심(1)
+                - generic [ref=f292e308]: 5~6촉
+                - paragraph [ref=f292e310]: 60,000원
+                - generic [ref=f292e311]:
+                  - paragraph [ref=f292e312]:
+                    - generic [ref=f292e313]: 평점 10점
+                  - text: 134건
+              - paragraph [ref=f292e315]:
+                - img "무료배송" [ref=f292e316]
+            - generic [ref=f292e317]:
+              - link "바로구매" [ref=f292e318] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9169','04','N','112201304');
+              - link "장바구니" [ref=f292e319] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9169','04','N','112201304');
+              - link "찜" [ref=f292e320] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9169','04','N','112201304');
+          - listitem [ref=f292e321]:
+            - link "노랑미니호접란(1) 노랑미니호접란(1) 노랑미니호접 꽃대 1대, 초화, 소재 60,000원 평점 10점 81건 무료배송" [ref=f292e322] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9501','04','','','112201304');
+              - img "노랑미니호접란(1)" [ref=f292e324]
+              - generic [ref=f292e325]:
+                - paragraph [ref=f292e326]: 노랑미니호접란(1)
+                - generic [ref=f292e327]: 노랑미니호접 꽃대 1대, 초화, 소재
+                - paragraph [ref=f292e329]: 60,000원
+                - generic [ref=f292e330]:
+                  - paragraph [ref=f292e331]:
+                    - generic [ref=f292e332]: 평점 10점
+                  - text: 81건
+              - paragraph [ref=f292e334]:
+                - img "무료배송" [ref=f292e335]
+            - generic [ref=f292e336]:
+              - link "바로구매" [ref=f292e337] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9501','04','N','112201304');
+              - link "장바구니" [ref=f292e338] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9501','04','N','112201304');
+              - link "찜" [ref=f292e339] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9501','04','N','112201304');
+          - listitem [ref=f292e340]:
+            - link "금전수(소) 금전수(소) 높이 40cm 60,000원 평점 10점 65건 무료배송" [ref=f292e341] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9408','04','','','112201307');
+              - img "금전수(소)" [ref=f292e343]
+              - generic [ref=f292e344]:
+                - paragraph [ref=f292e345]: 금전수(소)
+                - generic [ref=f292e346]: 높이 40cm
+                - paragraph [ref=f292e348]: 60,000원
+                - generic [ref=f292e349]:
+                  - paragraph [ref=f292e350]:
+                    - generic [ref=f292e351]: 평점 10점
+                  - text: 65건
+              - paragraph [ref=f292e353]:
+                - img "무료배송" [ref=f292e354]
+            - generic [ref=f292e355]:
+              - link "바로구매" [ref=f292e356] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9408','04','N','112201307');
+              - link "장바구니" [ref=f292e357] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9408','04','N','112201307');
+              - link "찜" [ref=f292e358] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9408','04','N','112201307');
+          - listitem [ref=f292e359]:
+            - link "안시리움 안시리움 높이 55cm 60,000원 평점 10점 140건 무료배송" [ref=f292e360] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9909','04','','','112201307');
+              - img "안시리움" [ref=f292e362]
+              - generic [ref=f292e363]:
+                - paragraph [ref=f292e364]: 안시리움
+                - generic [ref=f292e365]: 높이 55cm
+                - paragraph [ref=f292e367]: 60,000원
+                - generic [ref=f292e368]:
+                  - paragraph [ref=f292e369]:
+                    - generic [ref=f292e370]: 평점 10점
+                  - text: 140건
+              - paragraph [ref=f292e372]:
+                - img "무료배송" [ref=f292e373]
+            - generic [ref=f292e374]:
+              - link "바로구매" [ref=f292e375] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9909','04','N','112201307');
+              - link "장바구니" [ref=f292e376] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9909','04','N','112201307');
+              - link "찜" [ref=f292e377] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9909','04','N','112201307');
+          - listitem [ref=f292e378]:
+            - link "팬더고무나무(소) 팬더고무나무(소) 높이 50cm 60,000원 평점 10점 72건 무료배송" [ref=f292e379] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9404','04','','','112201305');
+              - img "팬더고무나무(소)" [ref=f292e381]
+              - generic [ref=f292e382]:
+                - paragraph [ref=f292e383]: 팬더고무나무(소)
+                - generic [ref=f292e384]: 높이 50cm
+                - paragraph [ref=f292e386]: 60,000원
+                - generic [ref=f292e387]:
+                  - paragraph [ref=f292e388]:
+                    - generic [ref=f292e389]: 평점 10점
+                  - text: 72건
+              - paragraph [ref=f292e391]:
+                - img "무료배송" [ref=f292e392]
+            - generic [ref=f292e393]:
+              - link "바로구매" [ref=f292e394] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9404','04','N','112201305');
+              - link "장바구니" [ref=f292e395] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9404','04','N','112201305');
+              - link "찜" [ref=f292e396] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9404','04','N','112201305');
+          - listitem [ref=f292e397]:
+            - link "핑크 호접란(2) 핑크 호접란(2) 핑크호접 꽃대 5대 이상, 초화, 소재 100,000원 평점 9점 69건 무료배송" [ref=f292e398] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9721','04','','','112201304');
+              - img "핑크 호접란(2)" [ref=f292e400]
+              - generic [ref=f292e401]:
+                - paragraph [ref=f292e402]: 핑크 호접란(2)
+                - generic [ref=f292e403]: 핑크호접 꽃대 5대 이상, 초화, 소재
+                - paragraph [ref=f292e405]: 100,000원
+                - generic [ref=f292e406]:
+                  - paragraph [ref=f292e407]:
+                    - generic [ref=f292e408]: 평점 9점
+                  - text: 69건
+              - paragraph [ref=f292e410]:
+                - img "무료배송" [ref=f292e411]
+            - generic [ref=f292e412]:
+              - link "바로구매" [ref=f292e413] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9721','04','N','112201304');
+              - link "장바구니" [ref=f292e414] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9721','04','N','112201304');
+              - link "찜" [ref=f292e415] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9721','04','N','112201304');
+          - listitem [ref=f292e416]:
+            - 'link "온시디움(1) 온시디움(1) 꽃대 3대, 초화 (공급기간: 5월~9월) 60,000원 평점 10점 60건" [ref=f292e417] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9027','04','','','112201304');
+              - img "온시디움(1)" [ref=f292e419]
+              - generic [ref=f292e420]:
+                - paragraph [ref=f292e421]: 온시디움(1)
+                - generic [ref=f292e422]: "꽃대 3대, 초화 (공급기간: 5월~9월)"
+                - paragraph [ref=f292e424]: 60,000원
+                - generic [ref=f292e425]:
+                  - paragraph [ref=f292e426]:
+                    - generic [ref=f292e427]: 평점 10점
+                  - text: 60건
+              - generic [ref=f292e428]:
+                - paragraph
+            - generic [ref=f292e429]:
+              - link "바로구매" [ref=f292e430] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9027','04','N','112201304');
+              - link "장바구니" [ref=f292e431] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9027','04','N','112201304');
+              - link "찜" [ref=f292e432] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9027','04','N','112201304');
+          - listitem [ref=f292e433]:
+            - link "보산 보산 4~5촉 100,000원 평점 10점 15건 무료배송" [ref=f292e434] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9300','04','','','112201304');
+              - img "보산" [ref=f292e436]
+              - generic [ref=f292e437]:
+                - paragraph [ref=f292e438]: 보산
+                - generic [ref=f292e439]: 4~5촉
+                - paragraph [ref=f292e441]: 100,000원
+                - generic [ref=f292e442]:
+                  - paragraph [ref=f292e443]:
+                    - generic [ref=f292e444]: 평점 10점
+                  - text: 15건
+              - paragraph [ref=f292e446]:
+                - img "무료배송" [ref=f292e447]
+            - generic [ref=f292e448]:
+              - link "바로구매" [ref=f292e449] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9300','04','N','112201304');
+              - link "장바구니" [ref=f292e450] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9300','04','N','112201304');
+              - link "찜" [ref=f292e451] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9300','04','N','112201304');
+          - listitem [ref=f292e452]:
+            - link "핑크미니호접란(1) 핑크미니호접란(1) 핑크미니호접 꽃대 2대, 초화, 소재 60,000원 평점 10점 169건 무료배송" [ref=f292e453] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9701','04','','','112201304');
+              - img "핑크미니호접란(1)" [ref=f292e455]
+              - generic [ref=f292e456]:
+                - paragraph [ref=f292e457]: 핑크미니호접란(1)
+                - generic [ref=f292e458]: 핑크미니호접 꽃대 2대, 초화, 소재
+                - paragraph [ref=f292e460]: 60,000원
+                - generic [ref=f292e461]:
+                  - paragraph [ref=f292e462]:
+                    - generic [ref=f292e463]: 평점 10점
+                  - text: 169건
+              - paragraph [ref=f292e465]:
+                - img "무료배송" [ref=f292e466]
+            - generic [ref=f292e467]:
+              - link "바로구매" [ref=f292e468] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9701','04','N','112201304');
+              - link "장바구니" [ref=f292e469] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9701','04','N','112201304');
+              - link "찜" [ref=f292e470] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9701','04','N','112201304');
+          - listitem [ref=f292e471]:
+            - link "오렌지쟈스민 오렌지쟈스민 높이 60~70cm 70,000원 평점 8점 6건 무료배송" [ref=f292e472] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9928','04','','','112201307');
+              - img "오렌지쟈스민" [ref=f292e474]
+              - generic [ref=f292e475]:
+                - paragraph [ref=f292e476]: 오렌지쟈스민
+                - generic [ref=f292e477]: 높이 60~70cm
+                - paragraph [ref=f292e479]: 70,000원
+                - generic [ref=f292e480]:
+                  - paragraph [ref=f292e481]:
+                    - generic [ref=f292e482]: 평점 8점
+                  - text: 6건
+              - paragraph [ref=f292e484]:
+                - img "무료배송" [ref=f292e485]
+            - generic [ref=f292e486]:
+              - link "바로구매" [ref=f292e487] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9928','04','N','112201307');
+              - link "장바구니" [ref=f292e488] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9928','04','N','112201307');
+              - link "찜" [ref=f292e489] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9928','04','N','112201307');
+          - listitem [ref=f292e490]:
+            - link "금전수(중) 금전수(중) 높이 80cm 80,000원 평점 10점 48건 무료배송" [ref=f292e491] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9521','04','','','112201305');
+              - img "금전수(중)" [ref=f292e493]
+              - generic [ref=f292e494]:
+                - paragraph [ref=f292e495]: 금전수(중)
+                - generic [ref=f292e496]: 높이 80cm
+                - paragraph [ref=f292e498]: 80,000원
+                - generic [ref=f292e499]:
+                  - paragraph [ref=f292e500]:
+                    - generic [ref=f292e501]: 평점 10점
+                  - text: 48건
+              - paragraph [ref=f292e503]:
+                - img "무료배송" [ref=f292e504]
+            - generic [ref=f292e505]:
+              - link "바로구매" [ref=f292e506] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9521','04','N','112201305');
+              - link "장바구니" [ref=f292e507] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9521','04','N','112201305');
+              - link "찜" [ref=f292e508] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9521','04','N','112201305');
+          - listitem [ref=f292e509]:
+            - link "싱고니움 싱고니움 높이 50cm 60,000원 평점 10점 16건 무료배송" [ref=f292e510] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9405','04','','','112201307');
+              - img "싱고니움" [ref=f292e512]
+              - generic [ref=f292e513]:
+                - paragraph [ref=f292e514]: 싱고니움
+                - generic [ref=f292e515]: 높이 50cm
+                - paragraph [ref=f292e517]: 60,000원
+                - generic [ref=f292e518]:
+                  - paragraph [ref=f292e519]:
+                    - generic [ref=f292e520]: 평점 10점
+                  - text: 16건
+              - paragraph [ref=f292e522]:
+                - img "무료배송" [ref=f292e523]
+            - generic [ref=f292e524]:
+              - link "바로구매" [ref=f292e525] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9405','04','N','112201307');
+              - link "장바구니" [ref=f292e526] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9405','04','N','112201307');
+              - link "찜" [ref=f292e527] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9405','04','N','112201307');
+          - listitem [ref=f292e528]:
+            - link "철골소심(2) 철골소심(2) 8~10촉 70,000원 평점 10점 79건 무료배송" [ref=f292e529] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9069','04','','','112201304');
+              - img "철골소심(2)" [ref=f292e531]
+              - generic [ref=f292e532]:
+                - paragraph [ref=f292e533]: 철골소심(2)
+                - generic [ref=f292e534]: 8~10촉
+                - paragraph [ref=f292e536]: 70,000원
+                - generic [ref=f292e537]:
+                  - paragraph [ref=f292e538]:
+                    - generic [ref=f292e539]: 평점 10점
+                  - text: 79건
+              - paragraph [ref=f292e541]:
+                - img "무료배송" [ref=f292e542]
+            - generic [ref=f292e543]:
+              - link "바로구매" [ref=f292e544] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9069','04','N','112201304');
+              - link "장바구니" [ref=f292e545] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9069','04','N','112201304');
+              - link "찜" [ref=f292e546] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9069','04','N','112201304');
+          - listitem [ref=f292e547]:
+            - link "스투키 스투키 높이 30cm 65,000원 평점 10점 114건 무료배송" [ref=f292e548] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9948','04','','','112201307');
+              - img "스투키" [ref=f292e550]
+              - generic [ref=f292e551]:
+                - paragraph [ref=f292e552]: 스투키
+                - generic [ref=f292e553]: 높이 30cm
+                - paragraph [ref=f292e555]: 65,000원
+                - generic [ref=f292e556]:
+                  - paragraph [ref=f292e557]:
+                    - generic [ref=f292e558]: 평점 10점
+                  - text: 114건
+              - paragraph [ref=f292e560]:
+                - img "무료배송" [ref=f292e561]
+            - generic [ref=f292e562]:
+              - link "바로구매" [ref=f292e563] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9948','04','N','112201307');
+              - link "장바구니" [ref=f292e564] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9948','04','N','112201307');
+              - link "찜" [ref=f292e565] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9948','04','N','112201307');
+          - listitem [ref=f292e566]:
+            - link "노랑 호접란 노랑 호접란 노랑호접 꽃대 2대, 초화, 소재 70,000원 평점 10점 165건" [ref=f292e567] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9724','04','','','112201304');
+              - img "노랑 호접란" [ref=f292e569]
+              - generic [ref=f292e570]:
+                - paragraph [ref=f292e571]: 노랑 호접란
+                - generic [ref=f292e572]: 노랑호접 꽃대 2대, 초화, 소재
+                - paragraph [ref=f292e574]: 70,000원
+                - generic [ref=f292e575]:
+                  - paragraph [ref=f292e576]:
+                    - generic [ref=f292e577]: 평점 10점
+                  - text: 165건
+              - generic [ref=f292e578]:
+                - paragraph
+            - generic [ref=f292e579]:
+              - link "바로구매" [ref=f292e580] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9724','04','N','112201304');
+              - link "장바구니" [ref=f292e581] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9724','04','N','112201304');
+              - link "찜" [ref=f292e582] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9724','04','N','112201304');
+          - listitem [ref=f292e583]:
+            - link "대국 대국 7∼8촉 80,000원 평점 10점 70건 무료배송" [ref=f292e584] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9601','04','','','112201304');
+              - img "대국" [ref=f292e586]
+              - generic [ref=f292e587]:
+                - paragraph [ref=f292e588]: 대국
+                - generic [ref=f292e589]: 7∼8촉
+                - paragraph [ref=f292e591]: 80,000원
+                - generic [ref=f292e592]:
+                  - paragraph [ref=f292e593]:
+                    - generic [ref=f292e594]: 평점 10점
+                  - text: 70건
+              - paragraph [ref=f292e596]:
+                - img "무료배송" [ref=f292e597]
+            - generic [ref=f292e598]:
+              - link "바로구매" [ref=f292e599] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9601','04','N','112201304');
+              - link "장바구니" [ref=f292e600] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9601','04','N','112201304');
+              - link "찜" [ref=f292e601] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9601','04','N','112201304');
+          - listitem [ref=f292e602]:
+            - link "뱅갈고무나무(중) 뱅갈고무나무(중) 높이 100cm 이상 90,000원 평점 10점 4건 무료배송" [ref=f292e603] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9523','04','','','112201305');
+              - img "뱅갈고무나무(중)" [ref=f292e605]
+              - generic [ref=f292e606]:
+                - paragraph [ref=f292e607]: 뱅갈고무나무(중)
+                - generic [ref=f292e608]: 높이 100cm 이상
+                - paragraph [ref=f292e610]: 90,000원
+                - generic [ref=f292e611]:
+                  - paragraph [ref=f292e612]:
+                    - generic [ref=f292e613]: 평점 10점
+                  - text: 4건
+              - paragraph [ref=f292e615]:
+                - img "무료배송" [ref=f292e616]
+            - generic [ref=f292e617]:
+              - link "바로구매" [ref=f292e618] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9523','04','N','112201305');
+              - link "장바구니" [ref=f292e619] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9523','04','N','112201305');
+              - link "찜" [ref=f292e620] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9523','04','N','112201305');
+          - listitem [ref=f292e621]:
+            - link "자마이카 자마이카 높이 70~80cm 85,000원 평점 0점 0건 무료배송" [ref=f292e622] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9934','04','','','112201305');
+              - img "자마이카" [ref=f292e624]
+              - generic [ref=f292e625]:
+                - paragraph [ref=f292e626]: 자마이카
+                - generic [ref=f292e627]: 높이 70~80cm
+                - paragraph [ref=f292e629]: 85,000원
+                - generic [ref=f292e630]:
+                  - paragraph [ref=f292e631]:
+                    - generic: 평점 0점
+                  - text: 0건
+              - paragraph [ref=f292e633]:
+                - img "무료배송" [ref=f292e634]
+            - generic [ref=f292e635]:
+              - link "바로구매" [ref=f292e636] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9934','04','N','112201305');
+              - link "장바구니" [ref=f292e637] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9934','04','N','112201305');
+              - link "찜" [ref=f292e638] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9934','04','N','112201305');
+          - listitem [ref=f292e639]:
+            - link "팔손이(소) 팔손이(소) 높이 60cm 60,000원 평점 9점 2건 무료배송" [ref=f292e640] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9403','04','','','112201307');
+              - img "팔손이(소)" [ref=f292e642]
+              - generic [ref=f292e643]:
+                - paragraph [ref=f292e644]: 팔손이(소)
+                - generic [ref=f292e645]: 높이 60cm
+                - paragraph [ref=f292e647]: 60,000원
+                - generic [ref=f292e648]:
+                  - paragraph [ref=f292e649]:
+                    - generic [ref=f292e650]: 평점 9점
+                  - text: 2건
+              - paragraph [ref=f292e652]:
+                - img "무료배송" [ref=f292e653]
+            - generic [ref=f292e654]:
+              - link "바로구매" [ref=f292e655] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9403','04','N','112201307');
+              - link "장바구니" [ref=f292e656] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9403','04','N','112201307');
+              - link "찜" [ref=f292e657] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9403','04','N','112201307');
+          - listitem [ref=f292e658]:
+            - link "녹보수(1) 녹보수(1) 높이 60~70cm 60,000원 평점 9점 20건 무료배송" [ref=f292e659] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9929','04','','','112201307');
+              - img "녹보수(1)" [ref=f292e661]
+              - generic [ref=f292e662]:
+                - paragraph [ref=f292e663]: 녹보수(1)
+                - generic [ref=f292e664]: 높이 60~70cm
+                - paragraph [ref=f292e666]: 60,000원
+                - generic [ref=f292e667]:
+                  - paragraph [ref=f292e668]:
+                    - generic [ref=f292e669]: 평점 9점
+                  - text: 20건
+              - paragraph [ref=f292e671]:
+                - img "무료배송" [ref=f292e672]
+            - generic [ref=f292e673]:
+              - link "바로구매" [ref=f292e674] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9929','04','N','112201307');
+              - link "장바구니" [ref=f292e675] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9929','04','N','112201307');
+              - link "찜" [ref=f292e676] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9929','04','N','112201307');
+          - listitem [ref=f292e677]:
+            - link "마지나타 마지나타 높이 60cm이상 70,000원 평점 10점 6건 무료배송" [ref=f292e678] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9933','04','','','112201307');
+              - img "마지나타" [ref=f292e680]
+              - generic [ref=f292e681]:
+                - paragraph [ref=f292e682]: 마지나타
+                - generic [ref=f292e683]: 높이 60cm이상
+                - paragraph [ref=f292e685]: 70,000원
+                - generic [ref=f292e686]:
+                  - paragraph [ref=f292e687]:
+                    - generic [ref=f292e688]: 평점 10점
+                  - text: 6건
+              - paragraph [ref=f292e690]:
+                - img "무료배송" [ref=f292e691]
+            - generic [ref=f292e692]:
+              - link "바로구매" [ref=f292e693] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9933','04','N','112201307');
+              - link "장바구니" [ref=f292e694] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9933','04','N','112201307');
+              - link "찜" [ref=f292e695] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9933','04','N','112201307');
+          - listitem [ref=f292e696]:
+            - link "마리안느 마리안느 높이 60~70cm 60,000원 평점 10점 11건 무료배송" [ref=f292e697] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9930','04','','','112201307');
+              - img "마리안느" [ref=f292e699]
+              - generic [ref=f292e700]:
+                - paragraph [ref=f292e701]: 마리안느
+                - generic [ref=f292e702]: 높이 60~70cm
+                - paragraph [ref=f292e704]: 60,000원
+                - generic [ref=f292e705]:
+                  - paragraph [ref=f292e706]:
+                    - generic [ref=f292e707]: 평점 10점
+                  - text: 11건
+              - paragraph [ref=f292e709]:
+                - img "무료배송" [ref=f292e710]
+            - generic [ref=f292e711]:
+              - link "바로구매" [ref=f292e712] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9930','04','N','112201307');
+              - link "장바구니" [ref=f292e713] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9930','04','N','112201307');
+              - link "찜" [ref=f292e714] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9930','04','N','112201307');
+          - listitem [ref=f292e715]:
+            - link "스파티필럼(2) 스파티필럼(2) 높이 70cm 70,000원 평점 10점 6건 무료배송" [ref=f292e716] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9402','04','','','112201307');
+              - img "스파티필럼(2)" [ref=f292e718]
+              - generic [ref=f292e719]:
+                - paragraph [ref=f292e720]: 스파티필럼(2)
+                - generic [ref=f292e721]: 높이 70cm
+                - paragraph [ref=f292e723]: 70,000원
+                - generic [ref=f292e724]:
+                  - paragraph [ref=f292e725]:
+                    - generic [ref=f292e726]: 평점 10점
+                  - text: 6건
+              - paragraph [ref=f292e728]:
+                - img "무료배송" [ref=f292e729]
+            - generic [ref=f292e730]:
+              - link "바로구매" [ref=f292e731] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9402','04','N','112201307');
+              - link "장바구니" [ref=f292e732] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9402','04','N','112201307');
+              - link "찜" [ref=f292e733] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9402','04','N','112201307');
+          - listitem [ref=f292e734]:
+            - link "천냥금 천냥금 높이 40cm 60,000원 평점 10점 50건 무료배송" [ref=f292e735] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9906','04','','','112201307');
+              - img "천냥금" [ref=f292e737]
+              - generic [ref=f292e738]:
+                - paragraph [ref=f292e739]: 천냥금
+                - generic [ref=f292e740]: 높이 40cm
+                - paragraph [ref=f292e742]: 60,000원
+                - generic [ref=f292e743]:
+                  - paragraph [ref=f292e744]:
+                    - generic [ref=f292e745]: 평점 10점
+                  - text: 50건
+              - paragraph [ref=f292e747]:
+                - img "무료배송" [ref=f292e748]
+            - generic [ref=f292e749]:
+              - link "바로구매" [ref=f292e750] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9906','04','N','112201307');
+              - link "장바구니" [ref=f292e751] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9906','04','N','112201307');
+              - link "찜" [ref=f292e752] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9906','04','N','112201307');
+          - listitem [ref=f292e753]:
+            - link "인삼팬더 인삼팬더 높이 60cm 75,000원 평점 9점 11건 무료배송" [ref=f292e754] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9926','04','','','112201307');
+              - img "인삼팬더" [ref=f292e756]
+              - generic [ref=f292e757]:
+                - paragraph [ref=f292e758]: 인삼팬더
+                - generic [ref=f292e759]: 높이 60cm
+                - paragraph [ref=f292e761]: 75,000원
+                - generic [ref=f292e762]:
+                  - paragraph [ref=f292e763]:
+                    - generic [ref=f292e764]: 평점 9점
+                  - text: 11건
+              - paragraph [ref=f292e766]:
+                - img "무료배송" [ref=f292e767]
+            - generic [ref=f292e768]:
+              - link "바로구매" [ref=f292e769] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9926','04','N','112201307');
+              - link "장바구니" [ref=f292e770] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9926','04','N','112201307');
+              - link "찜" [ref=f292e771] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9926','04','N','112201307');
+          - listitem [ref=f292e772]:
+            - link "만냥금 만냥금 높이 60~70cm 60,000원 평점 10점 53건 무료배송" [ref=f292e773] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9927','04','','','112201307');
+              - img "만냥금" [ref=f292e775]
+              - generic [ref=f292e776]:
+                - paragraph [ref=f292e777]: 만냥금
+                - generic [ref=f292e778]: 높이 60~70cm
+                - paragraph [ref=f292e780]: 60,000원
+                - generic [ref=f292e781]:
+                  - paragraph [ref=f292e782]:
+                    - generic [ref=f292e783]: 평점 10점
+                  - text: 53건
+              - paragraph [ref=f292e785]:
+                - img "무료배송" [ref=f292e786]
+            - generic [ref=f292e787]:
+              - link "바로구매" [ref=f292e788] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9927','04','N','112201307');
+              - link "장바구니" [ref=f292e789] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9927','04','N','112201307');
+              - link "찜" [ref=f292e790] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9927','04','N','112201307');
+          - listitem [ref=f292e791]:
+            - 'link "산세베리아 산세베리아 60cm, 12줄기(원산지: 말레이시아) 60,000원 평점 9점 19건 무료배송" [ref=f292e792] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9900','04','','','112201307');
+              - img "산세베리아" [ref=f292e794]
+              - generic [ref=f292e795]:
+                - paragraph [ref=f292e796]: 산세베리아
+                - generic [ref=f292e797]: "60cm, 12줄기(원산지: 말레이시아)"
+                - paragraph [ref=f292e799]: 60,000원
+                - generic [ref=f292e800]:
+                  - paragraph [ref=f292e801]:
+                    - generic [ref=f292e802]: 평점 9점
+                  - text: 19건
+              - paragraph [ref=f292e804]:
+                - img "무료배송" [ref=f292e805]
+            - generic [ref=f292e806]:
+              - link "바로구매" [ref=f292e807] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9900','04','N','112201307');
+              - link "장바구니" [ref=f292e808] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9900','04','N','112201307');
+              - link "찜" [ref=f292e809] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9900','04','N','112201307');
+          - listitem [ref=f292e810]:
+            - link "핑크 호접란(1) 핑크 호접란(1) 핑크호접 꽃대 2대, 초화, 소재 65,000원 평점 10점 140건 무료배송" [ref=f292e811] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9725','04','','','112201304');
+              - img "핑크 호접란(1)" [ref=f292e813]
+              - generic [ref=f292e814]:
+                - paragraph [ref=f292e815]: 핑크 호접란(1)
+                - generic [ref=f292e816]: 핑크호접 꽃대 2대, 초화, 소재
+                - paragraph [ref=f292e818]: 65,000원
+                - generic [ref=f292e819]:
+                  - paragraph [ref=f292e820]:
+                    - generic [ref=f292e821]: 평점 10점
+                  - text: 140건
+              - paragraph [ref=f292e823]:
+                - img "무료배송" [ref=f292e824]
+            - generic [ref=f292e825]:
+              - link "바로구매" [ref=f292e826] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9725','04','N','112201304');
+              - link "장바구니" [ref=f292e827] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9725','04','N','112201304');
+              - link "찜" [ref=f292e828] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9725','04','N','112201304');
+          - listitem [ref=f292e829]:
+            - 'link "덴파레(1) 덴파레(1) 꽃대 3대, 초화 (공급기간: 3월~11월) 70,000원 평점 10점 26건 무료배송" [ref=f292e830] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9070','04','','','112201304');
+              - img "덴파레(1)" [ref=f292e832]
+              - generic [ref=f292e833]:
+                - paragraph [ref=f292e834]: 덴파레(1)
+                - generic [ref=f292e835]: "꽃대 3대, 초화 (공급기간: 3월~11월)"
+                - paragraph [ref=f292e837]: 70,000원
+                - generic [ref=f292e838]:
+                  - paragraph [ref=f292e839]:
+                    - generic [ref=f292e840]: 평점 10점
+                  - text: 26건
+              - paragraph [ref=f292e842]:
+                - img "무료배송" [ref=f292e843]
+            - generic [ref=f292e844]:
+              - link "바로구매" [ref=f292e845] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9070','04','N','112201304');
+              - link "장바구니" [ref=f292e846] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9070','04','N','112201304');
+              - link "찜" [ref=f292e847] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9070','04','N','112201304');
+          - listitem [ref=f292e848]:
+            - link "산천보세 산천보세 5~6촉 80,000원 평점 9점 7건 무료배송" [ref=f292e849] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9066','04','','','112201304');
+              - img "산천보세" [ref=f292e851]
+              - generic [ref=f292e852]:
+                - paragraph [ref=f292e853]: 산천보세
+                - generic [ref=f292e854]: 5~6촉
+                - paragraph [ref=f292e856]: 80,000원
+                - generic [ref=f292e857]:
+                  - paragraph [ref=f292e858]:
+                    - generic [ref=f292e859]: 평점 9점
+                  - text: 7건
+              - paragraph [ref=f292e861]:
+                - img "무료배송" [ref=f292e862]
+            - generic [ref=f292e863]:
+              - link "바로구매" [ref=f292e864] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9066','04','N','112201304');
+              - link "장바구니" [ref=f292e865] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9066','04','N','112201304');
+              - link "찜" [ref=f292e866] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9066','04','N','112201304');
+          - listitem [ref=f292e867]:
+            - 'link "덴파레(2) 덴파레(2) 꽃대 6대, 초화 (공급기간: 3월~11월) 85,000원 평점 10점 14건 무료배송" [ref=f292e868] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9046','04','','','112201304');
+              - img "덴파레(2)" [ref=f292e870]
+              - generic [ref=f292e871]:
+                - paragraph [ref=f292e872]: 덴파레(2)
+                - generic [ref=f292e873]: "꽃대 6대, 초화 (공급기간: 3월~11월)"
+                - paragraph [ref=f292e875]: 85,000원
+                - generic [ref=f292e876]:
+                  - paragraph [ref=f292e877]:
+                    - generic [ref=f292e878]: 평점 10점
+                  - text: 14건
+              - paragraph [ref=f292e880]:
+                - img "무료배송" [ref=f292e881]
+            - generic [ref=f292e882]:
+              - link "바로구매" [ref=f292e883] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9046','04','N','112201304');
+              - link "장바구니" [ref=f292e884] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9046','04','N','112201304');
+              - link "찜" [ref=f292e885] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9046','04','N','112201304');
+          - listitem [ref=f292e886]:
+            - 'link "온시디움(3) 온시디움(3) 꽃대 10대 이상, 초화 (공급기간: 5월~9월) 100,000원 평점 10점 1건" [ref=f292e887] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9029','04','','','112201304');
+              - img "온시디움(3)" [ref=f292e889]
+              - generic [ref=f292e890]:
+                - paragraph [ref=f292e891]: 온시디움(3)
+                - generic [ref=f292e892]: "꽃대 10대 이상, 초화 (공급기간: 5월~9월)"
+                - paragraph [ref=f292e894]: 100,000원
+                - generic [ref=f292e895]:
+                  - paragraph [ref=f292e896]:
+                    - generic [ref=f292e897]: 평점 10점
+                  - text: 1건
+              - generic [ref=f292e898]:
+                - paragraph
+            - generic [ref=f292e899]:
+              - link "바로구매" [ref=f292e900] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9029','04','N','112201304');
+              - link "장바구니" [ref=f292e901] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9029','04','N','112201304');
+              - link "찜" [ref=f292e902] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9029','04','N','112201304');
+          - listitem [ref=f292e903]:
+            - link "연두빛 미니호접란 연두빛 미니호접란 연두미니호접 꽃대 4대, 초화, 소재 85,000원 평점 10점 56건 무료배송" [ref=f292e904] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9939','04','','','112201304');
+              - img "연두빛 미니호접란" [ref=f292e906]
+              - generic [ref=f292e907]:
+                - paragraph [ref=f292e908]: 연두빛 미니호접란
+                - generic [ref=f292e909]: 연두미니호접 꽃대 4대, 초화, 소재
+                - paragraph [ref=f292e911]: 85,000원
+                - generic [ref=f292e912]:
+                  - paragraph [ref=f292e913]:
+                    - generic [ref=f292e914]: 평점 10점
+                  - text: 56건
+              - paragraph [ref=f292e916]:
+                - img "무료배송" [ref=f292e917]
+            - generic [ref=f292e918]:
+              - link "바로구매" [ref=f292e919] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9939','04','N','112201304');
+              - link "장바구니" [ref=f292e920] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9939','04','N','112201304');
+              - link "찜" [ref=f292e921] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9939','04','N','112201304');
+          - listitem [ref=f292e922]:
+            - link "꽃분홍바구니(2) 꽃분홍바구니(2) 장미(연분홍 등) 10송이, 분홍거베라, 계절꽃, 소재 80,000원 평점 9점 17건 무료배송" [ref=f292e923] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9126','04','','','112201302');
+              - img "꽃분홍바구니(2)" [ref=f292e925]
+              - generic [ref=f292e926]:
+                - paragraph [ref=f292e927]: 꽃분홍바구니(2)
+                - generic [ref=f292e928]: 장미(연분홍 등) 10송이, 분홍거베라, 계절꽃, 소재
+                - paragraph [ref=f292e930]: 80,000원
+                - generic [ref=f292e931]:
+                  - paragraph [ref=f292e932]:
+                    - generic [ref=f292e933]: 평점 9점
+                  - text: 17건
+              - paragraph [ref=f292e935]:
+                - img "무료배송" [ref=f292e936]
+            - generic [ref=f292e937]:
+              - link "바로구매" [ref=f292e938] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9126','04','N','112201302');
+              - link "장바구니" [ref=f292e939] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9126','04','N','112201302');
+              - link "찜" [ref=f292e940] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9126','04','N','112201302');
+          - listitem [ref=f292e941]:
+            - link "꽃분홍바구니(1) 꽃분홍바구니(1) 분홍장미 5송이, 분홍카네이션 5송이, 계절꽃, 소재 90,000원 평점 9점 86건 무료배송" [ref=f292e942] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9130','04','','','112201302');
+              - img "꽃분홍바구니(1)" [ref=f292e944]
+              - generic [ref=f292e945]:
+                - paragraph [ref=f292e946]: 꽃분홍바구니(1)
+                - generic [ref=f292e947]: 분홍장미 5송이, 분홍카네이션 5송이, 계절꽃, 소재
+                - paragraph [ref=f292e949]: 90,000원
+                - generic [ref=f292e950]:
+                  - paragraph [ref=f292e951]:
+                    - generic [ref=f292e952]: 평점 9점
+                  - text: 86건
+              - paragraph [ref=f292e954]:
+                - img "무료배송" [ref=f292e955]
+            - generic [ref=f292e956]:
+              - link "바로구매" [ref=f292e957] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9130','04','N','112201302');
+              - link "장바구니" [ref=f292e958] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9130','04','N','112201302');
+              - link "찜" [ref=f292e959] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9130','04','N','112201302');
+          - listitem [ref=f292e960]:
+            - 'link "근조3단 화환(흰색) 근조3단 화환(흰색) 흰국화 60~70송이, 금어초(라스) 3단 등 (높이 : 230~240cm) 100,000원 평점 10점 311건 무료배송" [ref=f292e961] [cursor=pointer]':
+              - /url: javaScript:fn_goodsDetailView('9088','04','','','112201306');
+              - img "근조3단 화환(흰색)" [ref=f292e963]
+              - generic [ref=f292e964]:
+                - paragraph [ref=f292e965]: 근조3단 화환(흰색)
+                - generic [ref=f292e966]: "흰국화 60~70송이, 금어초(라스) 3단 등 (높이 : 230~240cm)"
+                - paragraph [ref=f292e968]: 100,000원
+                - generic [ref=f292e969]:
+                  - paragraph [ref=f292e970]:
+                    - generic [ref=f292e971]: 평점 10점
+                  - text: 311건
+              - paragraph [ref=f292e973]:
+                - img "무료배송" [ref=f292e974]
+            - generic [ref=f292e975]:
+              - link "바로구매" [ref=f292e976] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9088','04','N','112201306');
+              - link "장바구니" [ref=f292e977] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9088','04','N','112201306');
+              - link "찜" [ref=f292e978] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9088','04','N','112201306');
+          - listitem [ref=f292e979]:
+            - link "코르사주+미니꽃다발 코르사주+미니꽃다발 카네이션 코르사주 2개(카네이션.소재) 미니꽃다발(장미 2송이 이상.계절꽃.소재) 80,000원 평점 9점 1건" [ref=f292e980] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('8001','04','','','112201301');
+              - img "코르사주+미니꽃다발" [ref=f292e982]
+              - generic [ref=f292e983]:
+                - paragraph [ref=f292e984]: 코르사주+미니꽃다발
+                - generic [ref=f292e985]: 카네이션 코르사주 2개(카네이션.소재) 미니꽃다발(장미 2송이 이상.계절꽃.소재)
+                - paragraph [ref=f292e987]: 80,000원
+                - generic [ref=f292e988]:
+                  - paragraph [ref=f292e989]:
+                    - generic [ref=f292e990]: 평점 9점
+                  - text: 1건
+              - generic [ref=f292e991]:
+                - paragraph
+            - generic [ref=f292e992]:
+              - link "바로구매" [ref=f292e993] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','8001','04','N','112201301');
+              - link "장바구니" [ref=f292e994] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','8001','04','N','112201301');
+              - link "찜" [ref=f292e995] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','8001','04','N','112201301');
+          - listitem [ref=f292e996]:
+            - link "코르사주+미니꽃바구니 코르사주+미니꽃바구니 카네이션 코르사주 2개(카네이션.소재) 미니꽃바구니(장미 2송이 이상.계절꽃.소재) 80,000원 평점 7점 1건 무료배송" [ref=f292e997] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('8101','04','','','112201302');
+              - img "코르사주+미니꽃바구니" [ref=f292e999]
+              - generic [ref=f292e1000]:
+                - paragraph [ref=f292e1001]: 코르사주+미니꽃바구니
+                - generic [ref=f292e1002]: 카네이션 코르사주 2개(카네이션.소재) 미니꽃바구니(장미 2송이 이상.계절꽃.소재)
+                - paragraph [ref=f292e1004]: 80,000원
+                - generic [ref=f292e1005]:
+                  - paragraph [ref=f292e1006]:
+                    - generic [ref=f292e1007]: 평점 7점
+                  - text: 1건
+              - paragraph [ref=f292e1009]:
+                - img "무료배송" [ref=f292e1010]
+            - generic [ref=f292e1011]:
+              - link "바로구매" [ref=f292e1012] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','8101','04','N','112201302');
+              - link "장바구니" [ref=f292e1013] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','8101','04','N','112201302');
+              - link "찜" [ref=f292e1014] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','8101','04','N','112201302');
+          - listitem [ref=f292e1015]:
+            - link "벤자민(대) 벤자민(대) 높이 160~170cm 105,000원 평점 10점 6건 무료배송" [ref=f292e1016] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9023','04','','','112201305');
+              - img "벤자민(대)" [ref=f292e1018]
+              - generic [ref=f292e1019]:
+                - paragraph [ref=f292e1020]: 벤자민(대)
+                - generic [ref=f292e1021]: 높이 160~170cm
+                - paragraph [ref=f292e1023]: 105,000원
+                - generic [ref=f292e1024]:
+                  - paragraph [ref=f292e1025]:
+                    - generic [ref=f292e1026]: 평점 10점
+                  - text: 6건
+              - paragraph [ref=f292e1028]:
+                - img "무료배송" [ref=f292e1029]
+            - generic [ref=f292e1030]:
+              - link "바로구매" [ref=f292e1031] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9023','04','N','112201305');
+              - link "장바구니" [ref=f292e1032] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9023','04','N','112201305');
+              - link "찜" [ref=f292e1033] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9023','04','N','112201305');
+          - listitem [ref=f292e1034]:
+            - link "특축하3단 화환 특축하3단 화환 거베라 100~110송이. 라스 3단. 도시로 7장. 계절꽃 3단 등 (높이 230~240cm) 160,000원 평점 10점 6건 무료배송" [ref=f292e1035] [cursor=pointer]:
+              - /url: javaScript:fn_goodsDetailView('9084','04','','','112201306');
+              - img "특축하3단 화환" [ref=f292e1037]
+              - generic [ref=f292e1038]:
+                - paragraph [ref=f292e1039]: 특축하3단 화환
+                - generic [ref=f292e1040]: 거베라 100~110송이. 라스 3단. 도시로 7장. 계절꽃 3단 등 (높이 230~240cm)
+                - paragraph [ref=f292e1042]: 160,000원
+                - generic [ref=f292e1043]:
+                  - paragraph [ref=f292e1044]:
+                    - generic [ref=f292e1045]: 평점 10점
+                  - text: 6건
+              - paragraph [ref=f292e1047]:
+                - img "무료배송" [ref=f292e1048]
+            - generic [ref=f292e1049]:
+              - link "바로구매" [ref=f292e1050] [cursor=pointer]:
+                - /url: javascript:nowBuy('','','FLOWER','9084','04','N','112201306');
+              - link "장바구니" [ref=f292e1051] [cursor=pointer]:
+                - /url: javascript:setCart('','','FLOWER','9084','04','N','112201306');
+              - link "찜" [ref=f292e1052] [cursor=pointer]:
+                - /url: javascript:jjim('','','FLOWER','9084','04','N','112201306');
+          - generic [ref=f292e1053]:
+            - generic [ref=f292e1054]: "1"
+            - link "2" [ref=f292e1055] [cursor=pointer]:
+              - /url: javascript:fn_goPage(2);
+            - link "3" [ref=f292e1056] [cursor=pointer]:
+              - /url: javascript:fn_goPage(3);
+            - link "4" [ref=f292e1057] [cursor=pointer]:
+              - /url: javascript:fn_goPage(4);
+    - generic [ref=f292e1058]:
+      - list [ref=f292e1060]:
+        - listitem [ref=f292e1061]:
+          - link "이용약관" [ref=f292e1062] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+        - listitem [ref=f292e1063]:
+          - link "개인정보처리방침" [ref=f292e1064] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+        - listitem [ref=f292e1065]:
+          - link "웹접근성정책" [ref=f292e1066] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+        - listitem [ref=f292e1067]:
+          - link "우체국쇼핑소개" [ref=f292e1068] [cursor=pointer]:
+            - /url: /fo/footer/epostmallDesc.do?pageId=mall01
+        - listitem [ref=f292e1069]:
+          - link "서비스 이용안내" [ref=f292e1070] [cursor=pointer]:
+            - /url: /fo/center/centerGuideBrdMenu.do
+        - listitem [ref=f292e1071]:
+          - link "입점안내" [ref=f292e1072] [cursor=pointer]:
+            - /url: /fo/center/centerGuideCustStat.do
+        - listitem [ref=f292e1073]:
+          - link "법인구매상담" [ref=f292e1074] [cursor=pointer]:
+            - /url: /fo/center/centerManyBuyOrderAdvc.do
+        - listitem [ref=f292e1075]:
+          - link "비지니스제휴" [ref=f292e1076] [cursor=pointer]:
+            - /url: /fo/center/centerBizCoprtnInq.do
+        - listitem [ref=f292e1077]:
+          - link "고객불편신고" [ref=f292e1078] [cursor=pointer]:
+            - /url: /fo/center/centerReport.do
+        - listitem [ref=f292e1079]:
+          - link "공급업체 통합관리자" [ref=f292e1080] [cursor=pointer]:
+            - /url: http://mallscm.epost.go.kr/scmIndex.do
+        - generic [ref=f292e1081]: G-CLOUD
+      - generic [ref=f292e1082]:
+        - generic:
+          - generic [ref=f292e1083]:
+            - paragraph [ref=f292e1085]:
+              - text: "재단법인 한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+              - link "사업자 정보확인" [ref=f292e1086] [cursor=pointer]:
+                - /url: javascript:void('0');
+            - generic [ref=f292e1087]:
+              - paragraph [ref=f292e1088]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+              - paragraph [ref=f292e1089]: "해외 : 82-1588-1300"
+            - generic [ref=f292e1090]:
+              - paragraph [ref=f292e1091]: 이 사이트는 인터넷 우체국에서 구축하고 재단법인 한국우편사업진흥원에서 운영합니다.
+              - paragraph [ref=f292e1092]: Copyright © 2014. ePOST all rights reserved.
+            - generic [ref=f292e1093]:
+              - paragraph [ref=f292e1094]: 우체국쇼핑은 고객님의 결제금액에 대해 안전거래를 보장합니다.
+              - paragraph [ref=f292e1095]: 단, “결제대금 예치 또는 소비자 피해보상보험계약 등의 체결이 면제되는 거래에 관한 고시”에따른 공공기관이 운영하는 쇼핑몰로 결제대금예치 또는 소비자피해보상보험계약 등의 체결은 면제되었습니다.
+          - generic [ref=f292e1096]:
+            - paragraph [ref=f292e1097]:
+              - link "카카오" [ref=f292e1098] [cursor=pointer]:
+                - /url: https://pf.kakao.com/_nixgxcu
+              - link "유튜브" [ref=f292e1099] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3OFl3RCfi0xVik4RRotzzQ
+              - link "인스타그램" [ref=f292e1100] [cursor=pointer]:
+                - /url: https://www.instagram.com/epostmall
+              - link "페이스북" [ref=f292e1101] [cursor=pointer]:
+                - /url: https://www.facebook.com/epostmall
+              - link "블로그" [ref=f292e1102] [cursor=pointer]:
+                - /url: https://blog.naver.com/wcgsp
+            - generic [ref=f292e1103]:
+              - paragraph [ref=f292e1104]: 우편고객센터
+              - paragraph [ref=f292e1105]: 1588-1300(발신자부담) help@posa.or.kr
+              - paragraph [ref=f292e1106]: 평일 09:00 ~18:00 (토요일,공휴일 휴무)
+            - generic [ref=f292e1107]:
+              - paragraph [ref=f292e1108]:
+                - link "주문조회|" [ref=f292e1109] [cursor=pointer]:
+                  - /url: /fo/mypage/myshoppingMain.do
+                - link "주문취소/반품|" [ref=f292e1110] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageChgCancelList.do
+                - link "비회원주문조회" [ref=f292e1111] [cursor=pointer]:
+                  - /url: /fo/center/moveCenterNonMemLogin.do
+              - paragraph [ref=f292e1112]:
+                - link "잦은 질문 FAQ|" [ref=f292e1113] [cursor=pointer]:
+                  - /url: /fo/center/centerFaqMemJoin.do
+                - link "현금영수증발행|" [ref=f292e1114] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageRciptIssue.do
+                - link "세금계산서신청" [ref=f292e1115] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageTaxReq.do
+            - link [ref=f292e1117] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "Digicert" [ref=f292e1118]
+      - generic [ref=f292e1119]:
+        - list:
+          - listitem [ref=f292e1120]: 2019 대한민국 명품브랜드 5년연속대상
+          - listitem [ref=f292e1121]: 2019 공공기관 사회적가치창출대회 고용노동부장관 최우수상
+          - listitem [ref=f292e1122]: 2017 제22회 한국유통대상 산업통상자원부장관 표창
+          - listitem [ref=f292e1123]: 소비자중심경영 인증 공정거래위원회
+          - listitem [ref=f292e1124]: KOLSA 한국온라인쇼핑협회
+      - list [ref=f292e1126]:
+        - listitem [ref=f292e1127]:
+          - link [ref=f292e1128] [cursor=pointer]:
+            - /url: "#"
+            - img "채팅상담" [ref=f292e1129]
+  - iframe

@@ -1,0 +1,185 @@
+- generic [active] [ref=f347e1]:
+  - generic [ref=f347e2]:
+    - heading "국제특급(EMS)발송조건" [level=3] [ref=f347e3]
+    - paragraph [ref=f347e4]:
+      - link "닫기" [ref=f347e5] [cursor=pointer]:
+        - /url: javascript:self.close();
+  - generic [ref=f347e8]:
+    - generic [ref=f347e9]:
+      - link "국제특급(EMS)" [ref=f347e11] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f347e12]:
+        - generic [ref=f347e14]:
+          - term [ref=f347e15]: 도착국
+          - definition [ref=f347e16]:
+            - combobox "도착국" [ref=f347e17]:
+              - option "선택하세요" [selected]
+              - option "일본"
+              - option "홍콩(중국)"
+              - option "중국"
+              - option "오스트레일리아(호주)"
+              - option "미국"
+              - option "싱가포르"
+              - option "영국"
+              - option "프랑스"
+              - option "스페인(에스파니아)"
+              - option "그리스"
+              - option "나이지리아"
+              - option "네덜란드(네델란드)"
+              - option "네팔"
+              - option "노르웨이"
+              - option "뉴질랜드"
+              - option "덴마크"
+              - option "도미니카공화국"
+              - option "독일"
+              - option "라오스"
+              - option "라트비아"
+              - option "러시아"
+              - option "루마니아"
+              - option "룩셈부르크"
+              - option "르완다"
+              - option "리투아니아"
+              - option "마카오(중국)"
+              - option "말레이시아"
+              - option "멕시코"
+              - option "모로코"
+              - option "모리셔스"
+              - option "모잠비크"
+              - option "몰도바"
+              - option "몰디브"
+              - option "몽골"
+              - option "미얀마"
+              - option "바레인"
+              - option "방글라데시"
+              - option "베트남"
+              - option "벨기에"
+              - option "벨라루스"
+              - option "보스니아헤르체코비나"
+              - option "보츠와나"
+              - option "부탄"
+              - option "북마케도니아"
+              - option "불가리아"
+              - option "브라질"
+              - option "브루네이(브루나이)"
+              - option "사우디아라비아"
+              - option "사이프러스"
+              - option "스리랑카"
+              - option "스웨덴"
+              - option "스위스"
+              - option "슬로바키아"
+              - option "슬로베니아"
+              - option "아랍에미리트연합국"
+              - option "아르메니아"
+              - option "아르헨티나"
+              - option "아일랜드"
+              - option "아제르바이잔"
+              - option "알바니아"
+              - option "알제리"
+              - option "에스토니아"
+              - option "에콰도르"
+              - option "에티오피아"
+              - option "오만"
+              - option "오스트리아"
+              - option "요르단"
+              - option "우즈베키스탄"
+              - option "우크라이나"
+              - option "이란"
+              - option "이스라엘"
+              - option "이집트"
+              - option "인도"
+              - option "인도네시아"
+              - option "잠비아"
+              - option "조지아"
+              - option "지부티"
+              - option "체코"
+              - option "칠레"
+              - option "카보베르데"
+              - option "카자흐스탄"
+              - option "카타르"
+              - option "캄보디아"
+              - option "캐나다"
+              - option "케냐"
+              - option "코스타리카"
+              - option "쿠바"
+              - option "퀴라소"
+              - option "크로아티아"
+              - option "타이(태국)"
+              - option "타이완(대만)"
+              - option "탄자니아"
+              - option "튀니지"
+              - option "튀르키예"
+              - option "파나마"
+              - option "파키스탄"
+              - option "페루"
+              - option "포르투갈"
+              - option "폴란드"
+              - option "피지"
+              - option "핀란드"
+              - option "필리핀"
+              - option "헝가리"
+            - link "검색" [ref=f347e18] [cursor=pointer]:
+              - /url: "#"
+        - table "국제특급(EMS)" [ref=f347e19]:
+          - caption: 국제특급(EMS)
+          - rowgroup [ref=f347e27]:
+            - row [ref=f347e28]:
+              - rowheader "요금적용지역" [ref=f347e29]
+              - cell [ref=f347e30]
+              - rowheader "취급지역" [ref=f347e31]
+              - cell [ref=f347e32]
+              - rowheader "도착통지" [ref=f347e33]
+              - cell [ref=f347e34]
+            - row [ref=f347e35]:
+              - rowheader "최대규격" [ref=f347e36]
+              - cell [ref=f347e37]
+              - rowheader "제한중량(g)" [ref=f347e38]
+              - cell [ref=f347e39]
+            - row [ref=f347e40]:
+              - rowheader "배달횟수" [ref=f347e41]
+              - cell [ref=f347e42]
+              - rowheader "배달소요일수(서류)" [ref=f347e43]
+              - cell [ref=f347e44]
+              - rowheader "배달불능시 보관기간" [ref=f347e45]
+              - cell [ref=f347e46]
+            - row [ref=f347e47]:
+              - rowheader "배달불가요일" [ref=f347e48]
+              - cell [ref=f347e49]
+              - rowheader "세관신고서 작성기준" [ref=f347e50]
+              - cell [ref=f347e51]
+              - rowheader "기타서류작성" [ref=f347e52]
+              - cell [ref=f347e53]
+        - generic [ref=f347e54]: ※물품 등 비서류인 경우 통관에 따른 소요일수 추가로 배달소요일수가 늘어날 수 있습니다.(접수일, 공휴일은 배달소요일수에 포함되지 않습니다.)
+        - generic [ref=f347e55]:
+          - generic [ref=f347e56]:
+            - heading "긴급공지" [level=4] [ref=f347e57]
+            - link "보낼수 있는 물품/ 보낼수 없는 물품" [ref=f347e58] [cursor=pointer]:
+              - /url: "#"
+            - link "국가별 공통사항" [ref=f347e59] [cursor=pointer]:
+              - /url: "#"
+          - textbox [ref=f347e60]
+        - generic [ref=f347e61]:
+          - heading "주요안내사항" [level=4] [ref=f347e63]
+          - list [ref=f347e64]:
+            - listitem [ref=f347e65]:
+              - link "접수 시 주의사항" [ref=f347e66] [cursor=pointer]:
+                - /url: "#"
+              - textbox [ref=f347e68]
+            - listitem:
+              - link "금지·제한품목" [ref=f347e69] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "배달특이사항" [ref=f347e70] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "세관·통관사항" [ref=f347e71] [cursor=pointer]:
+                - /url: "#"
+        - paragraph [ref=f347e72]:
+          - link "초기화" [ref=f347e73] [cursor=pointer]:
+            - /url: /front.EmsApplyGoCondition.postal
+    - link "EMS프리미엄" [ref=f347e75] [cursor=pointer]:
+      - /url: /front.EmsApplyGoConditionPremium.postal
+    - generic [ref=f347e76]:
+      - link "바로가기설치" [ref=f347e77] [cursor=pointer]:
+        - /url: "#"
+      - link "인쇄" [ref=f347e78] [cursor=pointer]:
+        - /url: "#"

@@ -1,0 +1,1796 @@
+- generic [ref=f56e2]:
+  - generic [ref=f56e4]:
+    - link "전체 닫기" [ref=f56e5] [cursor=pointer]:
+      - /url: "#none"
+    - generic [ref=f56e6]:
+      - generic [ref=f56e7]:
+        - tabpanel [ref=f56e11]:
+          - link [ref=f56e12] [cursor=pointer]:
+            - /url: https://www.uplusumobile.com/event-benefit/event/ongoing/12503
+            - img "유심메인" [ref=f56e13]
+        - generic [ref=f56e14]:
+          - generic [ref=f56e15]: 오늘 하루 그만 보기
+          - button "닫기" [ref=f56e18] [cursor=pointer]
+      - generic [ref=f56e19]:
+        - generic [ref=f56e20]:
+          - tabpanel [ref=f56e23]:
+            - link [ref=f56e24] [cursor=pointer]:
+              - /url: https://www.uplusumobile.com/event-benefit/event/ongoing/12654
+              - img "유심메인" [ref=f56e25]
+          - tablist [ref=f56e26]:
+            - tab "1 of 1" [selected] [ref=f56e27] [cursor=pointer]: "1"
+        - generic [ref=f56e28]:
+          - generic [ref=f56e29]: 오늘 하루 그만 보기
+          - button "닫기" [ref=f56e32] [cursor=pointer]
+  - generic [ref=f56e33]:
+    - banner [ref=f56e34]:
+      - link [ref=f56e35] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f56e36]:
+        - list [ref=f56e37]:
+          - listitem [ref=f56e38]:
+            - link "요금제" [ref=f56e39] [cursor=pointer]:
+              - /url: /product/pric/usim/pricList
+          - listitem [ref=f56e40]:
+            - link "휴대폰" [ref=f56e41] [cursor=pointer]:
+              - /url: /shop/mobile/mobileJoinIntro
+          - listitem [ref=f56e42]:
+            - link [ref=f56e43] [cursor=pointer]:
+              - /url: /combine/internet/individual
+              - img "인터넷" [ref=f56e44]
+              - text: 결합
+          - listitem [ref=f56e45]:
+            - link "모바일서비스" [ref=f56e46] [cursor=pointer]:
+              - /url: /product/extra/intr
+          - listitem [ref=f56e47]:
+            - link "이벤트/혜택" [ref=f56e48] [cursor=pointer]:
+              - /url: /event-benefit/event/ongoing
+          - listitem [ref=f56e49]:
+            - link "고객지원" [ref=f56e50] [cursor=pointer]:
+              - /url: /support/service/joinInfo
+          - listitem [ref=f56e51]:
+            - link "MY" [ref=f56e52] [cursor=pointer]:
+              - /url: /my/info/joinInfo
+      - generic [ref=f56e53]:
+        - button "검색" [ref=f56e54] [cursor=pointer]
+        - button "로그인" [ref=f56e55] [cursor=pointer]
+        - button "전체메뉴" [ref=f56e56] [cursor=pointer]
+    - generic [ref=f56e58]:
+      - button "닫기" [ref=f56e59] [cursor=pointer]
+      - group "통합검색" [ref=f56e60]:
+        - generic [ref=f56e61]:
+          - textbox "검색어를 입력하세요." [ref=f56e63]: 해외로밍 신청
+          - button "검색" [ref=f56e64] [cursor=pointer]
+      - generic [ref=f56e65]:
+        - generic [ref=f56e66]:
+          - term [ref=f56e67]: 추천 검색어
+          - definition [ref=f56e68]:
+            - list [ref=f56e69]:
+              - listitem [ref=f56e70]:
+                - generic [ref=f56e71]: "1"
+                - link "유심" [ref=f56e72] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('rwKeyword1');
+              - listitem [ref=f56e73]:
+                - generic [ref=f56e74]: "2"
+                - link "휴대폰" [ref=f56e75] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('rwKeyword2');
+              - listitem [ref=f56e76]:
+                - generic [ref=f56e77]: "3"
+                - link "친구추천" [ref=f56e78] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('rwKeyword3');
+              - listitem [ref=f56e79]:
+                - generic [ref=f56e80]: "4"
+                - link "보험" [ref=f56e81] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('rwKeyword4');
+              - listitem [ref=f56e82]:
+                - generic [ref=f56e83]: "5"
+                - link "부가서비스" [ref=f56e84] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('rwKeyword5');
+        - generic [ref=f56e85]:
+          - term [ref=f56e86]: 인기 검색어
+          - definition [ref=f56e87]:
+            - list [ref=f56e88]:
+              - listitem [ref=f56e89]:
+                - generic [ref=f56e90]: "1"
+                - link "로밍" [ref=f56e91] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('pwKeyword1');
+              - listitem [ref=f56e92]:
+                - generic [ref=f56e93]: "2"
+                - link "유심보호서비스" [ref=f56e94] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('pwKeyword2');
+              - listitem [ref=f56e95]:
+                - generic [ref=f56e96]: "3"
+                - link "소액결제차단" [ref=f56e97] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('pwKeyword3');
+              - listitem [ref=f56e98]:
+                - generic [ref=f56e99]: "4"
+                - link "번호도용문자차단" [ref=f56e100] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('pwKeyword4');
+              - listitem [ref=f56e101]:
+                - generic [ref=f56e102]: "5"
+                - link "요금제" [ref=f56e103] [cursor=pointer]:
+                  - /url: javascript:gnbSearch.fnGetSearchResult('pwKeyword5');
+  - list [ref=f56e104]:
+    - listitem [ref=f56e105]:
+      - link "홈" [ref=f56e106] [cursor=pointer]:
+        - /url: /
+    - listitem [ref=f56e107]:
+      - link "요금제" [ref=f56e108] [cursor=pointer]:
+        - /url: ""
+    - listitem [ref=f56e109]:
+      - link "유심/eSIM 요금제" [ref=f56e110] [cursor=pointer]:
+        - /url: /product/pric/usim/pricList
+  - main [ref=f56e111]:
+    - generic [ref=f56e112]:
+      - heading "유심/eSIM 요금제" [level=1] [ref=f56e114]
+      - generic [ref=f56e115]:
+        - generic [ref=f56e116]:
+          - list [ref=f56e117]:
+            - listitem [ref=f56e118]:
+              - generic [ref=f56e119] [cursor=pointer]: 전체
+            - listitem [ref=f56e120]:
+              - generic [ref=f56e121] [cursor=pointer]: LTE
+            - listitem [ref=f56e122]:
+              - generic [ref=f56e123] [cursor=pointer]: 5G
+            - listitem [ref=f56e124]:
+              - generic [ref=f56e125] [cursor=pointer]: 🚌매월 교통비 할인
+            - listitem [ref=f56e126]:
+              - generic [ref=f56e127] [cursor=pointer]: 🎁[기간한정] 추가 +10GB 제공
+          - generic [ref=f56e128]:
+            - paragraph [ref=f56e129]:
+              - text: 원하는 요금제를 찾아보세요(총
+              - strong [ref=f56e130]: "136"
+              - text: 개)
+            - generic [ref=f56e131]:
+              - button [ref=f56e132] [cursor=pointer]:
+                - img "새로고침" [ref=f56e133]
+              - button "필터" [ref=f56e134] [cursor=pointer]
+              - button "추천순" [ref=f56e135] [cursor=pointer]
+        - generic [ref=f56e138]:
+          - generic [ref=f56e140] [cursor=pointer]:
+            - generic [ref=f56e141]:
+              - generic [ref=f56e142]:
+                - img "bg_BEST" [ref=f56e143]
+                - img "bg_이마트24" [ref=f56e144]
+                - img "랜덤결합" [ref=f56e145]
+              - strong [ref=f56e146]: LTE (7GB+/통화기본)
+              - generic [ref=f56e147]: (7+10)GB+1Mbps
+              - paragraph [ref=f56e148]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e149]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e151]:
+              - generic [ref=f56e152]: 월 39,800원
+              - strong [ref=f56e153]: 월 15,900원
+          - generic [ref=f56e155] [cursor=pointer]:
+            - generic [ref=f56e156]:
+              - generic [ref=f56e157]:
+                - img "bg_BEST" [ref=f56e158]
+                - img "bg_매월데이터10GB" [ref=f56e159]
+                - img "랜덤결합" [ref=f56e160]
+              - strong [ref=f56e161]: 데이터플러스 (7GB+/통화기본)
+              - generic [ref=f56e162]: (7+10)GB+1Mbps
+              - paragraph [ref=f56e163]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e165]:
+              - generic [ref=f56e166]: 월 41,400원
+              - strong [ref=f56e167]: 월 17,500원
+          - generic [ref=f56e169] [cursor=pointer]:
+            - generic [ref=f56e170]:
+              - generic [ref=f56e171]:
+                - img "bg_BEST" [ref=f56e172]
+                - img "bg_이마트24" [ref=f56e173]
+                - img "U+인터넷결합" [ref=f56e174]
+              - strong [ref=f56e175]: LTE 스페셜
+              - generic [ref=f56e176]: 11GB+일2GB+10GB+3Mbps
+              - paragraph [ref=f56e177]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e178]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e180]:
+              - generic [ref=f56e181]: 월 49,390원
+              - strong [ref=f56e182]: 월 32,990원
+          - generic [ref=f56e184] [cursor=pointer]:
+            - generic [ref=f56e185]:
+              - generic [ref=f56e186]:
+                - img "bg_시그니처" [ref=f56e187]
+                - img "다이소" [ref=f56e188]
+              - strong [ref=f56e189]: 다성비 (1.5GB/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e190]: 1.5GB
+              - paragraph [ref=f56e191]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e192]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e194]:
+              - generic [ref=f56e195]: 월 26,000원
+              - strong [ref=f56e196]: 월 8,900원
+          - generic [ref=f56e198] [cursor=pointer]:
+            - generic [ref=f56e199]:
+              - generic [ref=f56e200]:
+                - img "bg_BEST" [ref=f56e201]
+                - img "bg_이마트24" [ref=f56e202]
+                - img "U+인터넷결합" [ref=f56e203]
+              - strong [ref=f56e204]: LTE 스페셜 플러스
+              - generic [ref=f56e205]: 100GB+10GB+5Mbps
+              - paragraph [ref=f56e206]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e207]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e209]:
+              - generic [ref=f56e210]: 월 46,600원
+              - strong [ref=f56e211]: 월 38,200원
+          - generic [ref=f56e213] [cursor=pointer]:
+            - generic [ref=f56e214]:
+              - img "bg_NEW" [ref=f56e216]
+              - strong [ref=f56e217]: 5G (15GB+/300분)
+              - generic [ref=f56e218]: (15+10)GB+1Mbps
+              - paragraph [ref=f56e219]: 통화 300분, 문자 300건
+              - paragraph
+            - generic [ref=f56e221]:
+              - generic [ref=f56e222]: 월 44,000원
+              - strong [ref=f56e223]: 월 16,900원
+          - generic [ref=f56e225] [cursor=pointer]:
+            - generic [ref=f56e226]:
+              - img "bg_BEST" [ref=f56e228]
+              - strong [ref=f56e229]: LTE (500MB/60분)
+              - generic [ref=f56e230]: 500MB
+              - paragraph [ref=f56e231]: 통화 60분, 문자 50건
+              - paragraph
+            - generic [ref=f56e233]:
+              - generic [ref=f56e234]: 월 7,400원
+              - strong [ref=f56e235]: 월 3,300원
+          - generic [ref=f56e237] [cursor=pointer]:
+            - generic [ref=f56e238]:
+              - generic [ref=f56e239]:
+                - img "bg_BEST" [ref=f56e240]
+                - img "bg_이마트24" [ref=f56e241]
+              - strong [ref=f56e242]: LTE (1GB+/통화기본)
+              - generic [ref=f56e243]: 1GB+1Mbps
+              - paragraph [ref=f56e244]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e245]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e247]:
+              - generic [ref=f56e248]: 월 25,300원
+              - strong [ref=f56e249]: 월 9,900원
+          - generic [ref=f56e251] [cursor=pointer]:
+            - generic [ref=f56e252]:
+              - img "bg_BEST" [ref=f56e254]
+              - strong [ref=f56e255]: LTE (1.5GB/통화기본)
+              - generic [ref=f56e256]: 1.5GB
+              - paragraph [ref=f56e257]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e259]:
+              - generic [ref=f56e260]: 월 23,000원
+              - strong [ref=f56e261]: 월 5,900원
+          - generic [ref=f56e263] [cursor=pointer]:
+            - generic [ref=f56e264]:
+              - img "bg_BEST" [ref=f56e266]
+              - strong [ref=f56e267]: LTE (1GB/60분)
+              - generic [ref=f56e268]: 1GB
+              - paragraph [ref=f56e269]: 통화 60분, 문자 100건
+              - paragraph
+            - generic [ref=f56e271]:
+              - generic [ref=f56e272]: 월 10,500원
+              - strong [ref=f56e273]: 월 3,900원
+          - generic [ref=f56e275] [cursor=pointer]:
+            - generic [ref=f56e276]:
+              - strong [ref=f56e277]: LTE (6GB/통화기본)
+              - generic [ref=f56e278]: (6+10)GB
+              - paragraph [ref=f56e279]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e281]:
+              - generic [ref=f56e282]: 월 35,000원
+              - strong [ref=f56e283]: 월 9,500원
+          - generic [ref=f56e285] [cursor=pointer]:
+            - generic [ref=f56e286]:
+              - strong [ref=f56e287]: LTE (4.5GB+/통화기본)
+              - generic [ref=f56e288]: (4.5+10)GB+1Mbps
+              - paragraph [ref=f56e289]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e291]:
+              - generic [ref=f56e292]: 월 36,600원
+              - strong [ref=f56e293]: 월 13,900원
+          - generic [ref=f56e295] [cursor=pointer]:
+            - generic [ref=f56e296]:
+              - strong [ref=f56e297]: 데이터차단 (0GB/통화기본)
+              - generic [ref=f56e298]: 미제공
+              - paragraph [ref=f56e299]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e301]:
+              - generic [ref=f56e302]: 월 13,000원
+              - strong [ref=f56e303]: 월 4,900원
+          - generic [ref=f56e305] [cursor=pointer]:
+            - generic [ref=f56e306]:
+              - generic [ref=f56e307]:
+                - img "bg_BEST" [ref=f56e308]
+                - img "bg_이마트24" [ref=f56e309]
+                - img "랜덤결합" [ref=f56e310]
+              - strong [ref=f56e311]: LTE (15GB+/통화기본)
+              - generic [ref=f56e312]: (15+10)GB+1Mbps
+              - paragraph [ref=f56e313]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e314]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e316]:
+              - generic [ref=f56e317]: 월 48,400원
+              - strong [ref=f56e318]: 월 20,900원
+          - generic [ref=f56e320] [cursor=pointer]:
+            - generic [ref=f56e321]:
+              - generic [ref=f56e322]:
+                - img "bg_시그니처" [ref=f56e323]
+                - img "bg_올리브영" [ref=f56e324]
+              - strong [ref=f56e325]: YOUNG 5G (3GB/통화기본)
+              - generic [ref=f56e326]: 3GB
+              - paragraph [ref=f56e327]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e328]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e330]:
+              - generic [ref=f56e331]: 월 25,400원
+              - strong [ref=f56e332]: 월 8,900원
+          - generic [ref=f56e334] [cursor=pointer]:
+            - generic [ref=f56e335]:
+              - strong [ref=f56e336]: 5G (5GB/200분)
+              - generic [ref=f56e337]: (5+10)GB
+              - paragraph [ref=f56e338]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e340]:
+              - generic [ref=f56e341]: 월 24,200원
+              - strong [ref=f56e342]: 월 7,900원
+          - generic [ref=f56e344] [cursor=pointer]:
+            - generic [ref=f56e345]:
+              - strong [ref=f56e346]: 5G (5GB/통화기본)
+              - generic [ref=f56e347]: (5+10)GB
+              - paragraph [ref=f56e348]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e350]:
+              - generic [ref=f56e351]: 월 27,700원
+              - strong [ref=f56e352]: 월 9,900원
+          - generic [ref=f56e354] [cursor=pointer]:
+            - generic [ref=f56e355]:
+              - strong [ref=f56e356]: LTE (10GB/100분)
+              - generic [ref=f56e357]: (10+10)GB
+              - paragraph [ref=f56e358]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e360]:
+              - generic [ref=f56e361]: 월 32,400원
+              - strong [ref=f56e362]: 월 9,900원
+          - generic [ref=f56e364] [cursor=pointer]:
+            - generic [ref=f56e365]:
+              - strong [ref=f56e366]: 5G (10GB/통화기본)
+              - generic [ref=f56e367]: (10+10)GB
+              - paragraph [ref=f56e368]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e370]:
+              - generic [ref=f56e371]: 월 35,200원
+              - strong [ref=f56e372]: 월 12,500원
+          - generic [ref=f56e374] [cursor=pointer]:
+            - generic [ref=f56e375]:
+              - generic [ref=f56e376]:
+                - img "bg_NEW" [ref=f56e377]
+                - img "bg_네이버페이" [ref=f56e378]
+                - img "혜택요금제" [ref=f56e379]
+              - strong [ref=f56e380]: PAY (17GB+/통화기본)
+              - generic [ref=f56e381]: (7+10)GB+1Mbps
+              - paragraph [ref=f56e382]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e384]:
+              - generic [ref=f56e385]: 월 29,800원
+              - strong [ref=f56e386]: 월 19,900원
+          - generic [ref=f56e388] [cursor=pointer]:
+            - generic [ref=f56e389]:
+              - strong [ref=f56e390]: LTE (4GB/통화기본)
+              - generic [ref=f56e391]: 4GB
+              - paragraph [ref=f56e392]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e394]:
+              - generic [ref=f56e395]: 월 33,500원
+              - strong [ref=f56e396]: 월 7,500원
+          - generic [ref=f56e398] [cursor=pointer]:
+            - generic [ref=f56e399]:
+              - generic [ref=f56e400]:
+                - img "bg_매월데이터10GB" [ref=f56e401]
+                - img "랜덤결합" [ref=f56e402]
+                - img "bg_티머니" [ref=f56e403]
+              - strong [ref=f56e404]: 티머니 K-패스(17GB+/통화기본)
+              - generic [ref=f56e405]: (7+10)GB+1Mbps
+              - paragraph [ref=f56e406]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e407]: 🎁모바일티머니 적립 쿠폰 1만원 (12개월)
+            - generic [ref=f56e409]:
+              - generic [ref=f56e410]: 월 28,400원
+              - strong [ref=f56e411]: 월 18,500원
+          - generic [ref=f56e413] [cursor=pointer]:
+            - generic [ref=f56e414]:
+              - strong [ref=f56e415]: 5G (10GB/200분)
+              - generic [ref=f56e416]: (10+10)GB
+              - paragraph [ref=f56e417]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e419]:
+              - generic [ref=f56e420]: 월 30,800원
+              - strong [ref=f56e421]: 월 9,900원
+          - generic [ref=f56e423] [cursor=pointer]:
+            - generic [ref=f56e424]:
+              - strong [ref=f56e425]: LTE (1GB+/100분)
+              - generic [ref=f56e426]: 1GB+1Mbps
+              - paragraph [ref=f56e427]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e429]:
+              - generic [ref=f56e430]: 월 17,800원
+              - strong [ref=f56e431]: 월 7,900원
+          - generic [ref=f56e433] [cursor=pointer]:
+            - generic [ref=f56e434]:
+              - strong [ref=f56e435]: 5G (2GB/통화기본)
+              - generic [ref=f56e436]: 2GB
+              - paragraph [ref=f56e437]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e439]:
+              - generic [ref=f56e440]: 월 23,800원
+              - strong [ref=f56e441]: 월 6,000원
+          - generic [ref=f56e443] [cursor=pointer]:
+            - generic [ref=f56e444]:
+              - generic [ref=f56e445]:
+                - img "U+인터넷결합" [ref=f56e446]
+                - img "혜택요금제" [ref=f56e447]
+                - img "bg_티머니" [ref=f56e448]
+              - strong [ref=f56e449]: 티머니 K-패스 (71GB+/통화기본)
+              - generic [ref=f56e450]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e451]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e452]: 🎁모바일티머니 적립 쿠폰 1만원 (12개월)
+            - generic [ref=f56e454]:
+              - generic [ref=f56e455]: 월 43,890원
+              - strong [ref=f56e456]: 월 33,990원
+          - generic [ref=f56e458] [cursor=pointer]:
+            - generic [ref=f56e459]:
+              - generic [ref=f56e460]:
+                - img "bg_BEST" [ref=f56e461]
+                - img "랜덤결합" [ref=f56e462]
+              - strong [ref=f56e463]: 5G (95GB+/통화기본)
+              - generic [ref=f56e464]: 95GB+10GB+3Mbps
+              - paragraph [ref=f56e465]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e467]:
+              - generic [ref=f56e468]: 월 53,000원
+              - strong [ref=f56e469]: 월 40,900원
+          - generic [ref=f56e471] [cursor=pointer]:
+            - generic [ref=f56e472]:
+              - generic [ref=f56e473]:
+                - img "bg_이마트24" [ref=f56e474]
+                - img "랜덤결합" [ref=f56e475]
+              - strong [ref=f56e476]: LTE (10GB+/통화기본)
+              - generic [ref=f56e477]: (10+10)GB+1Mbps
+              - paragraph [ref=f56e478]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e479]: 🎁매월 이마트24 5천원 혜택 (24개월)
+            - generic [ref=f56e481]:
+              - generic [ref=f56e482]: 월 41,950원
+              - strong [ref=f56e483]: 월 18,900원
+          - generic [ref=f56e485] [cursor=pointer]:
+            - generic [ref=f56e486]:
+              - strong [ref=f56e487]: LTE (1GB+/통화기본) [더알뜰플랜]
+              - generic [ref=f56e488]: 1GB+1Mbps
+              - paragraph [ref=f56e489]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e491]:
+              - generic [ref=f56e492]: 월 10,600원
+              - strong [ref=f56e493]: 월 8,400원
+          - generic [ref=f56e495] [cursor=pointer]:
+            - generic [ref=f56e496]:
+              - generic [ref=f56e497]:
+                - img "bg_BEST" [ref=f56e498]
+                - img "bg_매월데이터10GB" [ref=f56e499]
+                - img "랜덤결합" [ref=f56e500]
+              - strong [ref=f56e501]: 데이터플러스 (15GB+/통화기본)
+              - generic [ref=f56e502]: (15+10)GB+1Mbps
+              - paragraph [ref=f56e503]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e505]:
+              - generic [ref=f56e506]: 월 50,000원
+              - strong [ref=f56e507]: 월 21,900원
+          - generic [ref=f56e509] [cursor=pointer]:
+            - generic [ref=f56e510]:
+              - generic [ref=f56e511]:
+                - img "U+인터넷결합" [ref=f56e512]
+                - img "랜덤결합" [ref=f56e513]
+              - strong [ref=f56e514]: LTE (15GB+/100분)
+              - generic [ref=f56e515]: 15GB+3Mbps
+              - paragraph [ref=f56e516]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e518]:
+              - generic [ref=f56e519]: 월 47,300원
+              - strong [ref=f56e520]: 월 25,250원
+          - generic [ref=f56e522] [cursor=pointer]:
+            - generic [ref=f56e523]:
+              - generic [ref=f56e524]:
+                - img "U+인터넷결합" [ref=f56e525]
+                - img "혜택요금제" [ref=f56e526]
+                - img "bg_티머니" [ref=f56e527]
+              - strong [ref=f56e528]: 티머니 K-패스 (100GB+/통화기본)
+              - generic [ref=f56e529]: 100GB+5Mbps
+              - paragraph [ref=f56e530]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e531]: 🎁모바일티머니 적립 쿠폰 1만원 (12개월)
+            - generic [ref=f56e533]:
+              - generic [ref=f56e534]: 월 49,100원
+              - strong [ref=f56e535]: 월 39,200원
+          - generic [ref=f56e537] [cursor=pointer]:
+            - generic [ref=f56e538]:
+              - strong [ref=f56e539]: LTE (2.5GB/200분)
+              - generic [ref=f56e540]: 2.5GB
+              - paragraph [ref=f56e541]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e543]:
+              - generic [ref=f56e544]: 월 20,900원
+              - strong [ref=f56e545]: 월 6,500원
+          - generic [ref=f56e547] [cursor=pointer]:
+            - generic [ref=f56e548]:
+              - strong [ref=f56e549]: LTE (2.5GB/통화기본)
+              - generic [ref=f56e550]: 2.5GB
+              - paragraph [ref=f56e551]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e553]:
+              - generic [ref=f56e554]: 월 29,000원
+              - strong [ref=f56e555]: 월 6,900원
+          - generic [ref=f56e557] [cursor=pointer]:
+            - generic [ref=f56e558]:
+              - generic [ref=f56e559]:
+                - img "bg_K패스" [ref=f56e560]
+                - img "혜택요금제" [ref=f56e561]
+                - img "bg_티머니" [ref=f56e562]
+              - strong [ref=f56e563]: 티머니 K-패스(1GB+/통화기본)
+              - generic [ref=f56e564]: 1GB+1Mbps
+              - paragraph [ref=f56e565]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e566]: 🎁모바일티머니 적립 쿠폰 1만원 (12개월)
+            - generic [ref=f56e568]:
+              - generic [ref=f56e569]: 월 20,800원
+              - strong [ref=f56e570]: 월 10,900원
+          - generic [ref=f56e572] [cursor=pointer]:
+            - generic [ref=f56e573]:
+              - strong [ref=f56e574]: 5G (3GB/통화기본)
+              - generic [ref=f56e575]: 3GB
+              - paragraph [ref=f56e576]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e578]:
+              - generic [ref=f56e579]: 월 24,400원
+              - strong [ref=f56e580]: 월 6,900원
+          - generic [ref=f56e582] [cursor=pointer]:
+            - generic [ref=f56e583]:
+              - strong [ref=f56e584]: LTE (9GB/3000분)
+              - generic [ref=f56e585]: (9+10)GB
+              - paragraph [ref=f56e586]: 통화 3000분, 문자 1000건
+              - paragraph
+            - generic [ref=f56e588]:
+              - generic [ref=f56e589]: 월 37,800원
+              - strong [ref=f56e590]: 월 12,500원
+          - generic [ref=f56e592] [cursor=pointer]:
+            - generic [ref=f56e593]:
+              - generic [ref=f56e594]:
+                - img "U+인터넷결합" [ref=f56e595]
+                - img "랜덤결합" [ref=f56e596]
+              - strong [ref=f56e597]: LTE (15GB+/300분)
+              - generic [ref=f56e598]: 15GB+3Mbps
+              - paragraph [ref=f56e599]: 통화 300분, 문자 300건
+              - paragraph
+            - generic [ref=f56e601]:
+              - generic [ref=f56e602]: 월 55,000원
+              - strong [ref=f56e603]: 월 27,450원
+          - generic [ref=f56e605] [cursor=pointer]:
+            - generic [ref=f56e606]:
+              - generic [ref=f56e607]:
+                - img "U+인터넷결합" [ref=f56e608]
+                - img "랜덤결합" [ref=f56e609]
+              - strong [ref=f56e610]: LTE 스페셜 프로
+              - generic [ref=f56e611]: 일5GB+5Mbps
+              - paragraph [ref=f56e612]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e614]:
+              - generic [ref=f56e615]: 월 45,900원
+              - strong [ref=f56e616]: 월 38,200원
+          - generic [ref=f56e618] [cursor=pointer]:
+            - generic [ref=f56e619]:
+              - strong [ref=f56e620]: LTE (5GB+/100분)
+              - generic [ref=f56e621]: 5GB+1Mbps
+              - paragraph [ref=f56e622]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e624]:
+              - generic [ref=f56e625]: 월 23,500원
+              - strong [ref=f56e626]: 월 11,500원
+          - generic [ref=f56e628] [cursor=pointer]:
+            - generic [ref=f56e629]:
+              - generic [ref=f56e630]:
+                - img "bg_NEW" [ref=f56e631]
+                - img "bg_네이버페이" [ref=f56e632]
+                - img "혜택요금제" [ref=f56e633]
+              - strong [ref=f56e634]: PAY (7GB+/통화기본)
+              - generic [ref=f56e635]: 7GB+1Mbps
+              - paragraph [ref=f56e636]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e638]:
+              - generic [ref=f56e639]: 월 28,200원
+              - strong [ref=f56e640]: 월 18,300원
+          - generic [ref=f56e642] [cursor=pointer]:
+            - generic [ref=f56e643]:
+              - generic [ref=f56e644]:
+                - img "랜덤결합" [ref=f56e645]
+                - img "혜택요금제" [ref=f56e646]
+                - img "bg_티머니" [ref=f56e647]
+              - strong [ref=f56e648]: 티머니 K-패스(7GB+/통화기본)
+              - generic [ref=f56e649]: 7GB+1Mbps
+              - paragraph [ref=f56e650]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e651]: 🎁모바일티머니 적립 쿠폰 1만원 (12개월)
+            - generic [ref=f56e653]:
+              - generic [ref=f56e654]: 월 26,800원
+              - strong [ref=f56e655]: 월 16,900원
+          - generic [ref=f56e657] [cursor=pointer]:
+            - generic [ref=f56e658]:
+              - strong [ref=f56e659]: 데이터만 20GB
+              - generic [ref=f56e660]: 20GB
+              - paragraph [ref=f56e661]: 통화 미제공, 문자 미제공
+              - paragraph
+            - generic [ref=f56e663]:
+              - generic [ref=f56e664]: 월 14,300원
+              - strong [ref=f56e665]: 월 11,880원
+          - generic [ref=f56e667] [cursor=pointer]:
+            - generic [ref=f56e668]:
+              - generic [ref=f56e669]:
+                - img "bg_네이버페이" [ref=f56e670]
+                - img "U+인터넷결합" [ref=f56e671]
+                - img "랜덤결합" [ref=f56e672]
+              - strong [ref=f56e673]: 10%적립 스페셜
+              - generic [ref=f56e674]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e675]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e676]: 🎁기본료의 10%를 네이버페이로 적립 (24개월)
+            - generic [ref=f56e677]: 월 34,900원
+          - generic [ref=f56e681] [cursor=pointer]:
+            - generic [ref=f56e682]:
+              - img "랜덤결합" [ref=f56e684]
+              - strong [ref=f56e685]: 5G (50GB+/통화기본)
+              - generic [ref=f56e686]: 50GB+10GB+1Mbps
+              - paragraph [ref=f56e687]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e689]:
+              - generic [ref=f56e690]: 월 50,000원
+              - strong [ref=f56e691]: 월 37,850원
+          - generic [ref=f56e693] [cursor=pointer]:
+            - generic [ref=f56e694]:
+              - generic [ref=f56e695]:
+                - img "bg_NEW" [ref=f56e696]
+                - img "bg_네이버페이" [ref=f56e697]
+                - img "혜택요금제" [ref=f56e698]
+              - strong [ref=f56e699]: PAY (71GB+/통화기본)
+              - generic [ref=f56e700]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e701]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e703]:
+              - generic [ref=f56e704]: 월 45,290원
+              - strong [ref=f56e705]: 월 35,390원
+          - generic [ref=f56e707] [cursor=pointer]:
+            - generic [ref=f56e708]:
+              - img "bg_만18세" [ref=f56e710]
+              - strong [ref=f56e711]: 틴에이저 (1GB+/통화기본)
+              - generic [ref=f56e712]: 1GB+1Mbps
+              - paragraph [ref=f56e713]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e715]:
+              - generic [ref=f56e716]: 월 25,400원
+              - strong [ref=f56e717]: 월 8,900원
+          - generic [ref=f56e719] [cursor=pointer]:
+            - generic [ref=f56e720]:
+              - img "랜덤결합" [ref=f56e722]
+              - strong [ref=f56e723]: 5G (125GB+/통화기본)
+              - generic [ref=f56e724]: 125GB+10GB+5Mbps
+              - paragraph [ref=f56e725]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e727]:
+              - generic [ref=f56e728]: 월 54,500원
+              - strong [ref=f56e729]: 월 42,100원
+          - generic [ref=f56e731] [cursor=pointer]:
+            - generic [ref=f56e732]:
+              - strong [ref=f56e733]: 5G (15GB/200분)
+              - generic [ref=f56e734]: (15+10)GB
+              - paragraph [ref=f56e735]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e737]:
+              - generic [ref=f56e738]: 월 37,000원
+              - strong [ref=f56e739]: 월 13,900원
+          - generic [ref=f56e741] [cursor=pointer]:
+            - generic [ref=f56e742]:
+              - img "랜덤결합" [ref=f56e744]
+              - strong [ref=f56e745]: 5G (80GB+/통화기본)
+              - generic [ref=f56e746]: 80GB+1Mbps
+              - paragraph [ref=f56e747]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e749]:
+              - generic [ref=f56e750]: 월 52,000원
+              - strong [ref=f56e751]: 월 39,700원
+          - generic [ref=f56e753] [cursor=pointer]:
+            - generic [ref=f56e754]:
+              - img "bg_만18세" [ref=f56e756]
+              - strong [ref=f56e757]: 틴에이저 (4.5GB+/통화기본)
+              - generic [ref=f56e758]: 4.5GB+1Mbps
+              - paragraph [ref=f56e759]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e761]:
+              - generic [ref=f56e762]: 월 32,700원
+              - strong [ref=f56e763]: 월 12,900원
+          - generic [ref=f56e765] [cursor=pointer]:
+            - generic [ref=f56e766]:
+              - generic [ref=f56e767]:
+                - img "U+인터넷결합" [ref=f56e768]
+                - img "랜덤결합" [ref=f56e769]
+              - strong [ref=f56e770]: 5G 스페셜
+              - generic [ref=f56e771]: 150GB+5Mbps
+              - paragraph [ref=f56e772]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e774]:
+              - generic [ref=f56e775]: 월 58,700원
+              - strong [ref=f56e776]: 월 47,300원
+          - generic [ref=f56e778] [cursor=pointer]:
+            - generic [ref=f56e779]:
+              - generic [ref=f56e780]:
+                - img "U+인터넷결합" [ref=f56e781]
+                - img "랜덤결합" [ref=f56e782]
+              - strong [ref=f56e783]: 5G 스페셜 프로
+              - generic [ref=f56e784]: 180GB+10Mbps
+              - paragraph [ref=f56e785]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e787]:
+              - generic [ref=f56e788]: 월 61,900원
+              - strong [ref=f56e789]: 월 50,500원
+          - generic [ref=f56e791] [cursor=pointer]:
+            - generic [ref=f56e792]:
+              - strong [ref=f56e793]: LTE (10GB/100분) [더알뜰플랜]
+              - generic [ref=f56e794]: 10GB
+              - paragraph [ref=f56e795]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e797]:
+              - generic [ref=f56e798]: 월 11,000원
+              - strong [ref=f56e799]: 월 8,800원
+          - generic [ref=f56e801] [cursor=pointer]:
+            - generic [ref=f56e802]:
+              - generic [ref=f56e803]:
+                - img "bg_시그니처" [ref=f56e804]
+                - img "bg_올리브영" [ref=f56e805]
+                - img "U+인터넷결합" [ref=f56e806]
+              - strong [ref=f56e807]: YOUNG (100GB+/통화기본)
+              - generic [ref=f56e808]: 100GB+5Mbps
+              - paragraph [ref=f56e809]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e810]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e812]:
+              - generic [ref=f56e813]: 월 47,600원
+              - strong [ref=f56e814]: 월 39,200원
+          - generic [ref=f56e816] [cursor=pointer]:
+            - generic [ref=f56e817]:
+              - strong [ref=f56e818]: 데이터만 10GB
+              - generic [ref=f56e819]: 10GB
+              - paragraph [ref=f56e820]: 통화 미제공, 문자 미제공
+              - paragraph
+            - generic [ref=f56e822]:
+              - generic [ref=f56e823]: 월 11,000원
+              - strong [ref=f56e824]: 월 9,900원
+          - generic [ref=f56e826] [cursor=pointer]:
+            - generic [ref=f56e827]:
+              - generic [ref=f56e828]:
+                - img "bg_만65세" [ref=f56e829]
+                - img "bg_교보다솜케어" [ref=f56e830]
+              - strong [ref=f56e831]: 시니어 (1GB+/100분)
+              - generic [ref=f56e832]: 1GB+0.4Mbps
+              - paragraph [ref=f56e833]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e835]:
+              - generic [ref=f56e836]: 월 9,300원
+              - strong [ref=f56e837]: 월 3,900원
+          - generic [ref=f56e839] [cursor=pointer]:
+            - generic [ref=f56e840]:
+              - img "bg_만18세" [ref=f56e842]
+              - strong [ref=f56e843]: 틴에이저 (1GB+/100분)
+              - generic [ref=f56e844]: 1GB+1Mbps
+              - paragraph [ref=f56e845]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e847]:
+              - generic [ref=f56e848]: 월 17,900원
+              - strong [ref=f56e849]: 월 6,900원
+          - generic [ref=f56e851] [cursor=pointer]:
+            - generic [ref=f56e852]:
+              - generic [ref=f56e853]:
+                - img "U+인터넷결합" [ref=f56e854]
+                - img "랜덤결합" [ref=f56e855]
+              - strong [ref=f56e856]: 5G (14GB+/통화기본)
+              - generic [ref=f56e857]: 14GB+1Mbps
+              - paragraph [ref=f56e858]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e860]:
+              - generic [ref=f56e861]: 월 42,600원
+              - strong [ref=f56e862]: 월 33,010원
+          - generic [ref=f56e863]:
+            - generic [ref=f56e864] [cursor=pointer]:
+              - generic [ref=f56e865]:
+                - generic [ref=f56e866]:
+                  - img "U+인터넷결합" [ref=f56e867]
+                  - img "랜덤결합" [ref=f56e868]
+                - strong [ref=f56e869]: LTE 스페셜 플러스 [더알뜰플랜2]
+                - generic [ref=f56e870]: 100GB+5Mbps
+                - paragraph [ref=f56e871]: 통화 기본제공, 문자 기본제공
+                - paragraph
+              - generic [ref=f56e873]:
+                - generic [ref=f56e874]: 월 40,400원
+                - strong [ref=f56e875]: 월 38,200원
+            - button "네이버페이 사은품 혜택" [ref=f56e877] [cursor=pointer]:
+              - list [ref=f56e878]:
+                - listitem [ref=f56e879]:
+                  - img "네이버페이" [ref=f56e880]
+              - generic [ref=f56e881]: 사은품 혜택
+          - generic [ref=f56e883] [cursor=pointer]:
+            - generic [ref=f56e884]:
+              - generic [ref=f56e885]:
+                - img "bg_만65세" [ref=f56e886]
+                - img "bg_교보다솜케어" [ref=f56e887]
+              - strong [ref=f56e888]: 시니어 (2GB+/통화기본)
+              - generic [ref=f56e889]: 2GB+0.4Mbps
+              - paragraph [ref=f56e890]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e892]:
+              - generic [ref=f56e893]: 월 19,000원
+              - strong [ref=f56e894]: 월 6,900원
+          - generic [ref=f56e896] [cursor=pointer]:
+            - generic [ref=f56e897]:
+              - generic [ref=f56e898]:
+                - img "bg_만65세" [ref=f56e899]
+                - img "bg_교보다솜케어" [ref=f56e900]
+              - strong [ref=f56e901]: 시니어 (4GB+/통화기본)
+              - generic [ref=f56e902]: 4GB+0.4Mbps
+              - paragraph [ref=f56e903]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e905]:
+              - generic [ref=f56e906]: 월 22,100원
+              - strong [ref=f56e907]: 월 8,900원
+          - generic [ref=f56e909] [cursor=pointer]:
+            - generic [ref=f56e910]:
+              - strong [ref=f56e911]: 5G (15GB/300분)
+              - generic [ref=f56e912]: (15+10)GB
+              - paragraph [ref=f56e913]: 통화 300분, 문자 300건
+              - paragraph
+            - generic [ref=f56e915]:
+              - generic [ref=f56e916]: 월 40,000원
+              - strong [ref=f56e917]: 월 14,400원
+          - generic [ref=f56e919] [cursor=pointer]:
+            - generic [ref=f56e920]:
+              - generic [ref=f56e921]:
+                - img "U+인터넷결합" [ref=f56e922]
+                - img "랜덤결합" [ref=f56e923]
+              - strong [ref=f56e924]: LTE (15GB+/180분)
+              - generic [ref=f56e925]: 15GB+3Mbps
+              - paragraph [ref=f56e926]: 통화 180분, 문자 100건
+              - paragraph
+            - generic [ref=f56e928]:
+              - generic [ref=f56e929]: 월 48,900원
+              - strong [ref=f56e930]: 월 26,900원
+          - generic [ref=f56e932] [cursor=pointer]:
+            - generic [ref=f56e933]:
+              - strong [ref=f56e934]: LTE (5GB+/200분)
+              - generic [ref=f56e935]: 5GB+1Mbps
+              - paragraph [ref=f56e936]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e938]:
+              - generic [ref=f56e939]: 월 28,200원
+              - strong [ref=f56e940]: 월 12,500원
+          - generic [ref=f56e941]:
+            - generic [ref=f56e942] [cursor=pointer]:
+              - generic [ref=f56e943]:
+                - img "랜덤결합" [ref=f56e945]
+                - strong [ref=f56e946]: LTE (7GB+/통화기본) [더알뜰플랜2]
+                - generic [ref=f56e947]: 7GB+1Mbps
+                - paragraph [ref=f56e948]: 통화 기본제공, 문자 기본제공
+                - paragraph
+              - generic [ref=f56e950]:
+                - generic [ref=f56e951]: 월 18,100원
+                - strong [ref=f56e952]: 월 15,900원
+            - button "네이버페이 사은품 혜택" [ref=f56e954] [cursor=pointer]:
+              - list [ref=f56e955]:
+                - listitem [ref=f56e956]:
+                  - img "네이버페이" [ref=f56e957]
+              - generic [ref=f56e958]: 사은품 혜택
+          - generic [ref=f56e960] [cursor=pointer]:
+            - generic [ref=f56e961]:
+              - generic [ref=f56e962]:
+                - img "bg_시그니처" [ref=f56e963]
+                - img "bg_올리브영" [ref=f56e964]
+              - strong [ref=f56e965]: YOUNG (1GB+/통화기본)
+              - generic [ref=f56e966]: 1GB+1Mbps
+              - paragraph [ref=f56e967]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e968]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e970]:
+              - generic [ref=f56e971]: 월 26,300원
+              - strong [ref=f56e972]: 월 10,900원
+          - generic [ref=f56e974] [cursor=pointer]:
+            - generic [ref=f56e975]:
+              - generic [ref=f56e976]:
+                - img "bg_시그니처" [ref=f56e977]
+                - img "bg_올리브영" [ref=f56e978]
+                - img "U+인터넷결합" [ref=f56e979]
+              - strong [ref=f56e980]: YOUNG (71GB+/통화기본)
+              - generic [ref=f56e981]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e982]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e983]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e985]:
+              - generic [ref=f56e986]: 월 50,390원
+              - strong [ref=f56e987]: 월 33,990원
+          - generic [ref=f56e989] [cursor=pointer]:
+            - generic [ref=f56e990]:
+              - generic [ref=f56e991]:
+                - img "bg_매월데이터10GB" [ref=f56e992]
+                - img "랜덤결합" [ref=f56e993]
+              - strong [ref=f56e994]: 데이터플러스 (10GB+/통화기본)
+              - generic [ref=f56e995]: (10+10)GB+1Mbps
+              - paragraph [ref=f56e996]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e998]:
+              - generic [ref=f56e999]: 월 43,550원
+              - strong [ref=f56e1000]: 월 19,900원
+          - generic [ref=f56e1002] [cursor=pointer]:
+            - generic [ref=f56e1003]:
+              - generic [ref=f56e1004]:
+                - img "bg_시그니처" [ref=f56e1005]
+                - img "bg_윌야쿠르트" [ref=f56e1006]
+                - img "랜덤결합" [ref=f56e1007]
+              - strong [ref=f56e1008]: 플러스알파 (15GB+/통화기본)
+              - generic [ref=f56e1009]: 15GB+1Mbps
+              - paragraph [ref=f56e1010]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1011]: 🎁매월 윌 야쿠르트 10개 무료배송 (24개월)
+            - generic [ref=f56e1013]:
+              - generic [ref=f56e1014]: 월 50,000원
+              - strong [ref=f56e1015]: 월 22,500원
+          - generic [ref=f56e1017] [cursor=pointer]:
+            - generic [ref=f56e1018]:
+              - img "랜덤결합" [ref=f56e1020]
+              - strong [ref=f56e1021]: 5G (31GB+/통화기본)
+              - generic [ref=f56e1022]: 31GB+1Mbps
+              - paragraph [ref=f56e1023]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1025]:
+              - generic [ref=f56e1026]: 월 48,300원
+              - strong [ref=f56e1027]: 월 36,650원
+          - generic [ref=f56e1029] [cursor=pointer]:
+            - generic [ref=f56e1030]:
+              - strong [ref=f56e1031]: 5G (4GB/통화기본)
+              - generic [ref=f56e1032]: 4GB
+              - paragraph [ref=f56e1033]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1035]:
+              - generic [ref=f56e1036]: 월 25,300원
+              - strong [ref=f56e1037]: 월 7,800원
+          - generic [ref=f56e1039] [cursor=pointer]:
+            - generic [ref=f56e1040]:
+              - strong [ref=f56e1041]: LTE (2.5GB+/200분)
+              - generic [ref=f56e1042]: 2.5GB+1Mbps
+              - paragraph [ref=f56e1043]: 통화 200분, 문자 100건
+              - paragraph
+            - generic [ref=f56e1045]:
+              - generic [ref=f56e1046]: 월 22,500원
+              - strong [ref=f56e1047]: 월 9,500원
+          - generic [ref=f56e1049] [cursor=pointer]:
+            - generic [ref=f56e1050]:
+              - strong [ref=f56e1051]: LTE (3GB+/100분)
+              - generic [ref=f56e1052]: 3GB+1Mbps
+              - paragraph [ref=f56e1053]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e1055]:
+              - generic [ref=f56e1056]: 월 26,000원
+              - strong [ref=f56e1057]: 월 9,500원
+          - generic [ref=f56e1059] [cursor=pointer]:
+            - generic [ref=f56e1060]:
+              - strong [ref=f56e1061]: LTE (5GB/300분)
+              - generic [ref=f56e1062]: 5GB
+              - paragraph [ref=f56e1063]: 통화 300분, 문자 100건
+              - paragraph
+            - generic [ref=f56e1065]:
+              - generic [ref=f56e1066]: 월 27,500원
+              - strong [ref=f56e1067]: 월 10,120원
+          - generic [ref=f56e1068]:
+            - generic [ref=f56e1069] [cursor=pointer]:
+              - generic [ref=f56e1070]:
+                - generic [ref=f56e1071]:
+                  - img "U+인터넷결합" [ref=f56e1072]
+                  - img "랜덤결합" [ref=f56e1073]
+                - strong [ref=f56e1074]: LTE 스페셜 [더알뜰플랜2]
+                - generic [ref=f56e1075]: 11GB+일2GB+3Mbps
+                - paragraph [ref=f56e1076]: 통화 기본제공, 문자 기본제공
+                - paragraph
+              - generic [ref=f56e1078]:
+                - generic [ref=f56e1079]: 월 35,190원
+                - strong [ref=f56e1080]: 월 32,990원
+            - button "네이버페이 사은품 혜택" [ref=f56e1082] [cursor=pointer]:
+              - list [ref=f56e1083]:
+                - listitem [ref=f56e1084]:
+                  - img "네이버페이" [ref=f56e1085]
+              - generic [ref=f56e1086]: 사은품 혜택
+          - generic [ref=f56e1088] [cursor=pointer]:
+            - generic [ref=f56e1089]:
+              - generic [ref=f56e1090]:
+                - img "bg_NEW" [ref=f56e1091]
+                - img "bg_네이버페이" [ref=f56e1092]
+                - img "혜택요금제" [ref=f56e1093]
+              - strong [ref=f56e1094]: PAY 5G (95GB+/통화기본)
+              - generic [ref=f56e1095]: 95GB+3Mbps
+              - paragraph [ref=f56e1096]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1098]:
+              - generic [ref=f56e1099]: 월 53,200원
+              - strong [ref=f56e1100]: 월 43,300원
+          - generic [ref=f56e1102] [cursor=pointer]:
+            - generic [ref=f56e1103]:
+              - img "bg_올리브영" [ref=f56e1105]
+              - strong [ref=f56e1106]: YOUNG (6GB/통화기본)
+              - generic [ref=f56e1107]: 6GB
+              - paragraph [ref=f56e1108]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1109]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e1111]:
+              - generic [ref=f56e1112]: 월 36,000원
+              - strong [ref=f56e1113]: 월 10,500원
+          - generic [ref=f56e1115] [cursor=pointer]:
+            - generic [ref=f56e1116]:
+              - img "bg_네이버페이" [ref=f56e1118]
+              - strong [ref=f56e1119]: 10%적립 (10GB+/500분)
+              - generic [ref=f56e1120]: 10GB+1Mbps
+              - paragraph [ref=f56e1121]: 통화 500분, 문자 500건
+              - paragraph [ref=f56e1122]: 🎁기본료의 10%를 네이버페이로 적립 (24개월)
+            - generic [ref=f56e1123]: 월 18,500원
+          - generic [ref=f56e1127] [cursor=pointer]:
+            - generic [ref=f56e1128]:
+              - img "bg_네이버페이" [ref=f56e1130]
+              - strong [ref=f56e1131]: 10%적립 (1GB+/통화기본)
+              - generic [ref=f56e1132]: 1GB+1Mbps
+              - paragraph [ref=f56e1133]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1134]: 🎁기본료의 10%를 네이버페이로 적립 (24개월)
+            - generic [ref=f56e1135]: 월 10,300원
+          - generic [ref=f56e1139] [cursor=pointer]:
+            - generic [ref=f56e1140]:
+              - img "bg_네이버페이" [ref=f56e1142]
+              - strong [ref=f56e1143]: 10%적립 (4.5GB+/통화기본)
+              - generic [ref=f56e1144]: 4.5GB+1Mbps
+              - paragraph [ref=f56e1145]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1146]: 🎁기본료의 10%를 네이버페이로 적립 (24개월)
+            - generic [ref=f56e1147]: 월 15,200원
+          - generic [ref=f56e1151] [cursor=pointer]:
+            - generic [ref=f56e1152]:
+              - generic [ref=f56e1153]:
+                - img "bg_시그니처" [ref=f56e1154]
+                - img "bg_K패스" [ref=f56e1155]
+                - img "U+인터넷결합" [ref=f56e1156]
+              - strong [ref=f56e1157]: K-패스 (71GB+/통화기본)
+              - generic [ref=f56e1158]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1159]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1160]: 🎁매월 교통비 최대 1만원 환급 (12개월)
+            - generic [ref=f56e1162]:
+              - generic [ref=f56e1163]: 월 50,390원
+              - strong [ref=f56e1164]: 월 33,990원
+          - generic [ref=f56e1166] [cursor=pointer]:
+            - generic [ref=f56e1167]:
+              - strong [ref=f56e1168]: LTE (4.5GB+/통화기본) [더알뜰플랜]
+              - generic [ref=f56e1169]: 4.5GB+1Mbps
+              - paragraph [ref=f56e1170]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1172]:
+              - generic [ref=f56e1173]: 월 15,000원
+              - strong [ref=f56e1174]: 월 12,800원
+          - generic [ref=f56e1176] [cursor=pointer]:
+            - generic [ref=f56e1177]:
+              - generic [ref=f56e1178]:
+                - img "bg_시그니처" [ref=f56e1179]
+                - img "bg_올리브영" [ref=f56e1180]
+                - img "U+인터넷결합" [ref=f56e1181]
+              - strong [ref=f56e1182]: YOUNG (15GB+/300분)
+              - generic [ref=f56e1183]: 15GB+3Mbps
+              - paragraph [ref=f56e1184]: 통화 300분, 문자 300건
+              - paragraph [ref=f56e1185]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e1187]:
+              - generic [ref=f56e1188]: 월 56,000원
+              - strong [ref=f56e1189]: 월 28,450원
+          - generic [ref=f56e1191] [cursor=pointer]:
+            - generic [ref=f56e1192]:
+              - img "bg_올리브영" [ref=f56e1194]
+              - strong [ref=f56e1195]: YOUNG (9GB/3000분)
+              - generic [ref=f56e1196]: 9GB
+              - paragraph [ref=f56e1197]: 통화 3000분, 문자 1000건
+              - paragraph [ref=f56e1198]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e1200]:
+              - generic [ref=f56e1201]: 월 38,800원
+              - strong [ref=f56e1202]: 월 13,500원
+          - generic [ref=f56e1204] [cursor=pointer]:
+            - generic [ref=f56e1205]:
+              - generic [ref=f56e1206]:
+                - img "bg_시그니처" [ref=f56e1207]
+                - img "bg_올리브영" [ref=f56e1208]
+                - img "랜덤결합" [ref=f56e1209]
+              - strong [ref=f56e1210]: YOUNG 5G (50GB+/통화기본)
+              - generic [ref=f56e1211]: 50GB+1Mbps
+              - paragraph [ref=f56e1212]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1213]: 🎁매월 올리브영 1만원 혜택 (12개월)
+            - generic [ref=f56e1215]:
+              - generic [ref=f56e1216]: 월 51,000원
+              - strong [ref=f56e1217]: 월 38,850원
+          - generic [ref=f56e1219] [cursor=pointer]:
+            - generic [ref=f56e1220]:
+              - generic [ref=f56e1221]:
+                - img "bg_시그니처" [ref=f56e1222]
+                - img "bg_교보문고" [ref=f56e1223]
+              - strong [ref=f56e1224]: 교보문고 북 플러스알파 (100GB+/통화기본)
+              - generic [ref=f56e1225]: 100GB+5Mbps
+              - paragraph [ref=f56e1226]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1227]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1229]:
+              - generic [ref=f56e1230]: 월 47,510원
+              - strong [ref=f56e1231]: 월 39,700원
+          - generic [ref=f56e1233] [cursor=pointer]:
+            - generic [ref=f56e1234]:
+              - generic [ref=f56e1235]:
+                - img "bg_시그니처" [ref=f56e1236]
+                - img "bg_교보문고" [ref=f56e1237]
+              - strong [ref=f56e1238]: 교보문고 북 플러스알파 (15GB+/통화기본)
+              - generic [ref=f56e1239]: 15GB+1Mbps
+              - paragraph [ref=f56e1240]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1241]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1243]:
+              - generic [ref=f56e1244]: 월 49,400원
+              - strong [ref=f56e1245]: 월 22,400원
+          - generic [ref=f56e1247] [cursor=pointer]:
+            - generic [ref=f56e1248]:
+              - generic [ref=f56e1249]:
+                - img "bg_시그니처" [ref=f56e1250]
+                - img "bg_교보문고" [ref=f56e1251]
+              - strong [ref=f56e1252]: 교보문고 북 플러스알파 (1GB+/통화기본)
+              - generic [ref=f56e1253]: 1GB+1Mbps
+              - paragraph [ref=f56e1254]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1255]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1257]:
+              - generic [ref=f56e1258]: 월 26,300원
+              - strong [ref=f56e1259]: 월 11,400원
+          - generic [ref=f56e1261] [cursor=pointer]:
+            - generic [ref=f56e1262]:
+              - generic [ref=f56e1263]:
+                - img "bg_시그니처" [ref=f56e1264]
+                - img "bg_교보문고" [ref=f56e1265]
+              - strong [ref=f56e1266]: 교보문고 북 플러스알파 (71GB+/통화기본)
+              - generic [ref=f56e1267]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1268]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1269]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1271]:
+              - generic [ref=f56e1272]: 월 49,390원
+              - strong [ref=f56e1273]: 월 34,490원
+          - generic [ref=f56e1275] [cursor=pointer]:
+            - generic [ref=f56e1276]:
+              - generic [ref=f56e1277]:
+                - img "bg_시그니처" [ref=f56e1278]
+                - img "bg_교보다솜케어" [ref=f56e1279]
+              - strong [ref=f56e1280]: 다성비 (10GB+/통화기본)
+              - generic [ref=f56e1281]: 10GB+1Mbps
+              - paragraph [ref=f56e1282]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1283]: 🎁매월 건강상담 혜택(24개월)
+            - generic [ref=f56e1285]:
+              - generic [ref=f56e1286]: 월 42,950원
+              - strong [ref=f56e1287]: 월 19,900원
+          - generic [ref=f56e1289] [cursor=pointer]:
+            - generic [ref=f56e1290]:
+              - generic [ref=f56e1291]:
+                - img "bg_매월데이터10GB" [ref=f56e1292]
+                - img "랜덤결합" [ref=f56e1293]
+              - strong [ref=f56e1294]: 데이터플러스 (15GB+/100분)
+              - generic [ref=f56e1295]: (15+10)GB+3Mbps
+              - paragraph [ref=f56e1296]: 통화 100분, 문자 100건
+              - paragraph
+            - generic [ref=f56e1298]:
+              - generic [ref=f56e1299]: 월 51,550원
+              - strong [ref=f56e1300]: 월 26,900원
+          - generic [ref=f56e1302] [cursor=pointer]:
+            - generic [ref=f56e1303]:
+              - generic [ref=f56e1304]:
+                - img "bg_시그니처" [ref=f56e1305]
+                - img "bg_빽다방" [ref=f56e1306]
+                - img "랜덤결합" [ref=f56e1307]
+              - strong [ref=f56e1308]: 빽다방 100잔 (15GB+/통화기본)
+              - generic [ref=f56e1309]: 15GB+1Mbps
+              - paragraph [ref=f56e1310]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1311]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1313]:
+              - generic [ref=f56e1314]: 월 49,000원
+              - strong [ref=f56e1315]: 월 22,400원
+          - generic [ref=f56e1317] [cursor=pointer]:
+            - generic [ref=f56e1318]:
+              - generic [ref=f56e1319]:
+                - img "bg_시그니처" [ref=f56e1320]
+                - img "bg_빽다방" [ref=f56e1321]
+              - strong [ref=f56e1322]: 빽다방 100잔 (1GB+/통화기본)
+              - generic [ref=f56e1323]: 1GB+1Mbps
+              - paragraph [ref=f56e1324]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1325]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1327]:
+              - generic [ref=f56e1328]: 월 26,000원
+              - strong [ref=f56e1329]: 월 11,400원
+          - generic [ref=f56e1331] [cursor=pointer]:
+            - generic [ref=f56e1332]:
+              - generic [ref=f56e1333]:
+                - img "bg_시그니처" [ref=f56e1334]
+                - img "bg_빽다방" [ref=f56e1335]
+              - strong [ref=f56e1336]: 빽다방 100잔 5G (10GB/통화기본)
+              - generic [ref=f56e1337]: 10GB
+              - paragraph [ref=f56e1338]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1339]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1341]:
+              - generic [ref=f56e1342]: 월 36,000원
+              - strong [ref=f56e1343]: 월 14,000원
+          - generic [ref=f56e1345] [cursor=pointer]:
+            - generic [ref=f56e1346]:
+              - generic [ref=f56e1347]:
+                - img "U+인터넷결합" [ref=f56e1348]
+                - img "랜덤결합" [ref=f56e1349]
+              - strong [ref=f56e1350]: 이십세 (15GB+/300분)
+              - generic [ref=f56e1351]: 15GB+3Mbps
+              - paragraph [ref=f56e1352]: 통화 300분, 문자 300건
+              - paragraph
+            - generic [ref=f56e1354]:
+              - generic [ref=f56e1355]: 월 55,000원
+              - strong [ref=f56e1356]: 월 27,450원
+          - generic [ref=f56e1358] [cursor=pointer]:
+            - generic [ref=f56e1359]:
+              - generic [ref=f56e1360]:
+                - img "U+인터넷결합" [ref=f56e1361]
+                - img "랜덤결합" [ref=f56e1362]
+              - strong [ref=f56e1363]: 이십세 스페셜
+              - generic [ref=f56e1364]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1365]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1367]:
+              - generic [ref=f56e1368]: 월 49,390원
+              - strong [ref=f56e1369]: 월 33,900원
+          - generic [ref=f56e1371] [cursor=pointer]:
+            - generic [ref=f56e1372]:
+              - generic [ref=f56e1373]:
+                - img "bg_파손보험" [ref=f56e1374]
+                - img "U+인터넷결합" [ref=f56e1375]
+                - img "랜덤결합" [ref=f56e1376]
+              - strong [ref=f56e1377]: 자급제폰케어 (100GB+/통화기본)
+              - generic [ref=f56e1378]: 100GB+5Mbps
+              - paragraph [ref=f56e1379]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1381]:
+              - generic [ref=f56e1382]: 월 47,900원
+              - strong [ref=f56e1383]: 월 39,490원
+          - generic [ref=f56e1385] [cursor=pointer]:
+            - generic [ref=f56e1386]:
+              - generic [ref=f56e1387]:
+                - img "bg_시그니처" [ref=f56e1388]
+                - img "bg_윌야쿠르트" [ref=f56e1389]
+              - strong [ref=f56e1390]: 플러스알파 (1GB+/통화기본)
+              - generic [ref=f56e1391]: 1GB+1Mbps
+              - paragraph [ref=f56e1392]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1393]: 🎁매월 윌 야쿠르트 10개 무료배송 (24개월)
+            - generic [ref=f56e1395]:
+              - generic [ref=f56e1396]: 월 26,900원
+              - strong [ref=f56e1397]: 월 11,500원
+          - generic [ref=f56e1399] [cursor=pointer]:
+            - generic [ref=f56e1400]:
+              - generic [ref=f56e1401]:
+                - img "bg_시그니처" [ref=f56e1402]
+                - img "bg_윌야쿠르트" [ref=f56e1403]
+              - strong [ref=f56e1404]: 플러스알파 (4.5GB+/통화기본)
+              - generic [ref=f56e1405]: 4.5GB+1Mbps
+              - paragraph [ref=f56e1406]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1407]: 🎁매월 윌 야쿠르트 10개 무료배송 (24개월)
+            - generic [ref=f56e1409]:
+              - generic [ref=f56e1410]: 월 38,200원
+              - strong [ref=f56e1411]: 월 15,500원
+          - generic [ref=f56e1413] [cursor=pointer]:
+            - generic [ref=f56e1414]:
+              - generic [ref=f56e1415]:
+                - img "bg_시그니처" [ref=f56e1416]
+                - img "bg_윌야쿠르트" [ref=f56e1417]
+                - img "U+인터넷결합" [ref=f56e1418]
+              - strong [ref=f56e1419]: 플러스알파 (71GB+/통화기본)
+              - generic [ref=f56e1420]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1421]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1422]: 🎁매월 윌 야쿠르트 10개 무료배송 (24개월)
+            - generic [ref=f56e1424]:
+              - generic [ref=f56e1425]: 월 51,000원
+              - strong [ref=f56e1426]: 월 34,600원
+          - generic [ref=f56e1428] [cursor=pointer]:
+            - generic [ref=f56e1429]:
+              - generic [ref=f56e1430]:
+                - img "bg_네이버페이" [ref=f56e1431]
+                - img "랜덤결합" [ref=f56e1432]
+              - strong [ref=f56e1433]: 10%적립 (7GB+/통화기본)
+              - generic [ref=f56e1434]: 7GB+1Mbps
+              - paragraph [ref=f56e1435]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1436]: 🎁기본료의 10%를 네이버페이로 적립 (24개월)
+            - generic [ref=f56e1437]: 월 17,900원
+          - generic [ref=f56e1441] [cursor=pointer]:
+            - generic [ref=f56e1442]:
+              - generic [ref=f56e1443]:
+                - img "bg_시그니처" [ref=f56e1444]
+                - img "bg_GS25" [ref=f56e1445]
+                - img "랜덤결합" [ref=f56e1446]
+              - strong [ref=f56e1447]: GS25 (150GB+/통화기본)
+              - generic [ref=f56e1448]: 일5GB+5Mbps
+              - paragraph [ref=f56e1449]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1450]: 🎁매월 GS25 5천원 상품권 (24개월)
+            - generic [ref=f56e1452]:
+              - generic [ref=f56e1453]: 월 64,000원
+              - strong [ref=f56e1454]: 월 40,500원
+          - generic [ref=f56e1456] [cursor=pointer]:
+            - generic [ref=f56e1457]:
+              - generic [ref=f56e1458]:
+                - img "bg_시그니처" [ref=f56e1459]
+                - img "bg_매월데이터10GB" [ref=f56e1460]
+                - img "bg_GS25" [ref=f56e1461]
+              - strong [ref=f56e1462]: GS25 (25GB+/100분)
+              - generic [ref=f56e1463]: (15+10)GB+3Mbps
+              - paragraph [ref=f56e1464]: 통화 100분, 문자 100건
+              - paragraph [ref=f56e1465]: 🎁매월 GS25 5천원 상품권 (24개월)
+            - generic [ref=f56e1467]:
+              - generic [ref=f56e1468]: 월 52,800원
+              - strong [ref=f56e1469]: 월 29,300원
+          - generic [ref=f56e1471] [cursor=pointer]:
+            - generic [ref=f56e1472]:
+              - generic [ref=f56e1473]:
+                - img "bg_시그니처" [ref=f56e1474]
+                - img "bg_GS25" [ref=f56e1475]
+                - img "랜덤결합" [ref=f56e1476]
+              - strong [ref=f56e1477]: GS25 (71GB+/통화기본)
+              - generic [ref=f56e1478]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1479]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1480]: 🎁매월 GS25 5천원 상품권 (24개월)
+            - generic [ref=f56e1482]:
+              - generic [ref=f56e1483]: 월 58,790원
+              - strong [ref=f56e1484]: 월 35,300원
+          - generic [ref=f56e1486] [cursor=pointer]:
+            - generic [ref=f56e1487]:
+              - generic [ref=f56e1488]:
+                - img "bg_시그니처" [ref=f56e1489]
+                - img "bg_GS25" [ref=f56e1490]
+              - strong [ref=f56e1491]: GS25 5G (10GB/200분)
+              - generic [ref=f56e1492]: 10GB
+              - paragraph [ref=f56e1493]: 통화 200분, 문자 100건
+              - paragraph [ref=f56e1494]: 🎁매월 GS25 5천원 상품권 (24개월)
+            - generic [ref=f56e1496]:
+              - generic [ref=f56e1497]: 월 32,800원
+              - strong [ref=f56e1498]: 월 13,500원
+          - generic [ref=f56e1500] [cursor=pointer]:
+            - generic [ref=f56e1501]:
+              - generic [ref=f56e1502]:
+                - img "bg_시그니처" [ref=f56e1503]
+                - img "bg_K패스" [ref=f56e1504]
+                - img "U+인터넷결합" [ref=f56e1505]
+              - strong [ref=f56e1506]: K-패스 (100GB+/통화기본)
+              - generic [ref=f56e1507]: 100GB+5Mbps
+              - paragraph [ref=f56e1508]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1509]: 🎁매월 교통비 최대 1만원 환급 (12개월)
+            - generic [ref=f56e1511]:
+              - generic [ref=f56e1512]: 월 47,600원
+              - strong [ref=f56e1513]: 월 39,200원
+          - generic [ref=f56e1515] [cursor=pointer]:
+            - generic [ref=f56e1516]:
+              - generic [ref=f56e1517]:
+                - img "bg_시그니처" [ref=f56e1518]
+                - img "bg_K패스" [ref=f56e1519]
+                - img "랜덤결합" [ref=f56e1520]
+              - strong [ref=f56e1521]: K-패스 (15GB+/통화기본)
+              - generic [ref=f56e1522]: 15GB+1Mbps
+              - paragraph [ref=f56e1523]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1524]: 🎁매월 교통비 최대 1만원 환급 (12개월)
+            - generic [ref=f56e1526]:
+              - generic [ref=f56e1527]: 월 49,400원
+              - strong [ref=f56e1528]: 월 21,900원
+          - generic [ref=f56e1530] [cursor=pointer]:
+            - generic [ref=f56e1531]:
+              - generic [ref=f56e1532]:
+                - img "bg_시그니처" [ref=f56e1533]
+                - img "bg_K패스" [ref=f56e1534]
+              - strong [ref=f56e1535]: K-패스 (1GB+/통화기본)
+              - generic [ref=f56e1536]: 1GB+1Mbps
+              - paragraph [ref=f56e1537]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1538]: 🎁매월 교통비 최대 1만원 환급 (12개월)
+            - generic [ref=f56e1540]:
+              - generic [ref=f56e1541]: 월 26,300원
+              - strong [ref=f56e1542]: 월 10,900원
+          - generic [ref=f56e1544] [cursor=pointer]:
+            - generic [ref=f56e1545]:
+              - generic [ref=f56e1546]:
+                - img "bg_시그니처" [ref=f56e1547]
+                - img "bg_K패스" [ref=f56e1548]
+                - img "랜덤결합" [ref=f56e1549]
+              - strong [ref=f56e1550]: K-패스 (7GB+/통화기본)
+              - generic [ref=f56e1551]: 7GB+1Mbps
+              - paragraph [ref=f56e1552]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1553]: 🎁매월 교통비 최대 1만원 환급 (12개월)
+            - generic [ref=f56e1555]:
+              - generic [ref=f56e1556]: 월 40,800원
+              - strong [ref=f56e1557]: 월 16,900원
+          - generic [ref=f56e1559] [cursor=pointer]:
+            - generic [ref=f56e1560]:
+              - generic [ref=f56e1561]:
+                - img "bg_NEW" [ref=f56e1562]
+                - img "bg_네이버페이" [ref=f56e1563]
+                - img "혜택요금제" [ref=f56e1564]
+              - strong [ref=f56e1565]: PAY 5G (150GB+/통화기본)
+              - generic [ref=f56e1566]: 150GB+5Mbps
+              - paragraph [ref=f56e1567]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1569]:
+              - generic [ref=f56e1570]: 월 59,600원
+              - strong [ref=f56e1571]: 월 49,700원
+          - generic [ref=f56e1573] [cursor=pointer]:
+            - generic [ref=f56e1574]:
+              - generic [ref=f56e1575]:
+                - img "bg_시그니처" [ref=f56e1576]
+                - img "bg_교보문고" [ref=f56e1577]
+              - strong [ref=f56e1578]: 교보문고 북 플러스알파 (10GB+/통화기본)
+              - generic [ref=f56e1579]: 10GB+1Mbps
+              - paragraph [ref=f56e1580]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1581]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1583]:
+              - generic [ref=f56e1584]: 월 42,950원
+              - strong [ref=f56e1585]: 월 20,400원
+          - generic [ref=f56e1587] [cursor=pointer]:
+            - generic [ref=f56e1588]:
+              - generic [ref=f56e1589]:
+                - img "bg_시그니처" [ref=f56e1590]
+                - img "bg_교보문고" [ref=f56e1591]
+              - strong [ref=f56e1592]: 교보문고 북 플러스알파 (4.5GB+/통화기본)
+              - generic [ref=f56e1593]: 4.5GB+1Mbps
+              - paragraph [ref=f56e1594]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1595]: 🎁매월 전자책 무제한, 종이책 할인 (24개월)
+            - generic [ref=f56e1597]:
+              - generic [ref=f56e1598]: 월 36,600원
+              - strong [ref=f56e1599]: 월 15,400원
+          - generic [ref=f56e1601] [cursor=pointer]:
+            - generic [ref=f56e1602]:
+              - generic [ref=f56e1603]:
+                - img "bg_시그니처" [ref=f56e1604]
+                - img "bg_교보다솜케어" [ref=f56e1605]
+              - strong [ref=f56e1606]: 다성비 (15GB+/100분)
+              - generic [ref=f56e1607]: 15GB+3Mbps
+              - paragraph [ref=f56e1608]: 통화 100분, 문자 100건
+              - paragraph [ref=f56e1609]: 🎁매월 건강상담 혜택(24개월)
+            - generic [ref=f56e1611]:
+              - generic [ref=f56e1612]: 월 48,300원
+              - strong [ref=f56e1613]: 월 25,900원
+          - generic [ref=f56e1615] [cursor=pointer]:
+            - generic [ref=f56e1616]:
+              - generic [ref=f56e1617]:
+                - img "bg_시그니처" [ref=f56e1618]
+                - img "bg_매월데이터10GB" [ref=f56e1619]
+                - img "다이소" [ref=f56e1620]
+              - strong [ref=f56e1621]: 다성비 (17GB+/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e1622]: (7+10)GB+1Mbps
+              - paragraph [ref=f56e1623]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1624]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e1626]:
+              - generic [ref=f56e1627]: 월 43,300원
+              - strong [ref=f56e1628]: 월 19,400원
+          - generic [ref=f56e1630] [cursor=pointer]:
+            - generic [ref=f56e1631]:
+              - generic [ref=f56e1632]:
+                - img "bg_시그니처" [ref=f56e1633]
+                - img "bg_교보다솜케어" [ref=f56e1634]
+              - strong [ref=f56e1635]: 다성비 (1GB+/통화기본)
+              - generic [ref=f56e1636]: 1GB+1Mbps
+              - paragraph [ref=f56e1637]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1638]: 🎁매월 건강상담 혜택(24개월)
+            - generic [ref=f56e1640]:
+              - generic [ref=f56e1641]: 월 26,300원
+              - strong [ref=f56e1642]: 월 10,900원
+          - generic [ref=f56e1644] [cursor=pointer]:
+            - generic [ref=f56e1645]:
+              - generic [ref=f56e1646]:
+                - img "bg_시그니처" [ref=f56e1647]
+                - img "bg_매월데이터10GB" [ref=f56e1648]
+                - img "다이소" [ref=f56e1649]
+              - strong [ref=f56e1650]: 다성비 (25GB+/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e1651]: (15+10)GB+1Mbps
+              - paragraph [ref=f56e1652]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1653]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e1655]:
+              - generic [ref=f56e1656]: 월 51,900원
+              - strong [ref=f56e1657]: 월 23,800원
+          - generic [ref=f56e1659] [cursor=pointer]:
+            - generic [ref=f56e1660]:
+              - generic [ref=f56e1661]:
+                - img "bg_시그니처" [ref=f56e1662]
+                - img "bg_교보다솜케어" [ref=f56e1663]
+              - strong [ref=f56e1664]: 다성비 (5GB+/100분)
+              - generic [ref=f56e1665]: 5GB+1Mbps
+              - paragraph [ref=f56e1666]: 통화 100분, 문자 100건
+              - paragraph [ref=f56e1667]: 🎁매월 건강상담 혜택(24개월)
+            - generic [ref=f56e1669]:
+              - generic [ref=f56e1670]: 월 24,500원
+              - strong [ref=f56e1671]: 월 12,900원
+          - generic [ref=f56e1673] [cursor=pointer]:
+            - generic [ref=f56e1674]:
+              - generic [ref=f56e1675]:
+                - img "bg_시그니처" [ref=f56e1676]
+                - img "bg_교보다솜케어" [ref=f56e1677]
+              - strong [ref=f56e1678]: 다성비 (71GB+/통화기본)
+              - generic [ref=f56e1679]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1680]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1681]: 🎁매월 건강상담 혜택(24개월)
+            - generic [ref=f56e1683]:
+              - generic [ref=f56e1684]: 월 50,390원
+              - strong [ref=f56e1685]: 월 33,990원
+          - generic [ref=f56e1687] [cursor=pointer]:
+            - generic [ref=f56e1688]:
+              - generic [ref=f56e1689]:
+                - img "bg_시그니처" [ref=f56e1690]
+                - img "다이소" [ref=f56e1691]
+                - img "랜덤결합" [ref=f56e1692]
+              - strong [ref=f56e1693]: 다성비 (71GB+/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e1694]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1695]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1696]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e1698]:
+              - generic [ref=f56e1699]: 월 51,290원
+              - strong [ref=f56e1700]: 월 35,190원
+          - generic [ref=f56e1702] [cursor=pointer]:
+            - generic [ref=f56e1703]:
+              - generic [ref=f56e1704]:
+                - img "bg_시그니처" [ref=f56e1705]
+                - img "다이소" [ref=f56e1706]
+              - strong [ref=f56e1707]: 다성비 (1GB+/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e1708]: 1GB+1Mbps
+              - paragraph [ref=f56e1709]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1710]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e1712]:
+              - generic [ref=f56e1713]: 월 26,300원
+              - strong [ref=f56e1714]: 월 10,900원
+          - generic [ref=f56e1716] [cursor=pointer]:
+            - generic [ref=f56e1717]:
+              - generic [ref=f56e1718]:
+                - img "bg_시그니처" [ref=f56e1719]
+                - img "다이소" [ref=f56e1720]
+                - img "랜덤결합" [ref=f56e1721]
+              - strong [ref=f56e1722]: 다성비 (7GB+/통화기본) [매월 다이소 5천원]
+              - generic [ref=f56e1723]: 7GB+1Mbps
+              - paragraph [ref=f56e1724]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1725]: 🎁매월 다이소 5천원 상품권 (24개월)
+            - generic [ref=f56e1727]:
+              - generic [ref=f56e1728]: 월 41,700원
+              - strong [ref=f56e1729]: 월 17,800원
+          - generic [ref=f56e1731] [cursor=pointer]:
+            - generic [ref=f56e1732]:
+              - generic [ref=f56e1733]:
+                - img "bg_시그니처" [ref=f56e1734]
+                - img "bg_빽다방" [ref=f56e1735]
+                - img "U+인터넷결합" [ref=f56e1736]
+              - strong [ref=f56e1737]: 빽다방 100잔 (71GB+/통화기본)
+              - generic [ref=f56e1738]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1739]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1740]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1742]:
+              - generic [ref=f56e1743]: 월 50,000원
+              - strong [ref=f56e1744]: 월 34,500원
+          - generic [ref=f56e1746] [cursor=pointer]:
+            - generic [ref=f56e1747]:
+              - generic [ref=f56e1748]:
+                - img "bg_시그니처" [ref=f56e1749]
+                - img "bg_빽다방" [ref=f56e1750]
+                - img "랜덤결합" [ref=f56e1751]
+              - strong [ref=f56e1752]: 빽다방 100잔 (7GB+/통화기본)
+              - generic [ref=f56e1753]: 7GB+1Mbps
+              - paragraph [ref=f56e1754]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1755]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1757]:
+              - generic [ref=f56e1758]: 월 40,000원
+              - strong [ref=f56e1759]: 월 17,900원
+          - generic [ref=f56e1761] [cursor=pointer]:
+            - generic [ref=f56e1762]:
+              - generic [ref=f56e1763]:
+                - img "bg_시그니처" [ref=f56e1764]
+                - img "bg_빽다방" [ref=f56e1765]
+              - strong [ref=f56e1766]: 빽다방 100잔 5G (5GB/통화기본)
+              - generic [ref=f56e1767]: 5GB
+              - paragraph [ref=f56e1768]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1769]: 🎁매월 빽다방 커피 4잔 (25개월)
+            - generic [ref=f56e1771]:
+              - generic [ref=f56e1772]: 월 28,000원
+              - strong [ref=f56e1773]: 월 12,400원
+          - generic [ref=f56e1775] [cursor=pointer]:
+            - generic [ref=f56e1776]:
+              - strong [ref=f56e1777]: 이십세 (10GB+/500분)
+              - generic [ref=f56e1778]: 10GB+1Mbps
+              - paragraph [ref=f56e1779]: 통화 500분, 문자 500건
+              - paragraph
+            - generic [ref=f56e1781]:
+              - generic [ref=f56e1782]: 월 30,700원
+              - strong [ref=f56e1783]: 월 17,500원
+          - generic [ref=f56e1785] [cursor=pointer]:
+            - generic [ref=f56e1786]:
+              - strong [ref=f56e1787]: 이십세 (1GB+/통화기본)
+              - generic [ref=f56e1788]: 1GB+1Mbps
+              - paragraph [ref=f56e1789]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1791]:
+              - generic [ref=f56e1792]: 월 25,850원
+              - strong [ref=f56e1793]: 월 9,900원
+          - generic [ref=f56e1795] [cursor=pointer]:
+            - generic [ref=f56e1796]:
+              - strong [ref=f56e1797]: 이십세 (4.5GB+/통화기본)
+              - generic [ref=f56e1798]: 4.5GB+1Mbps
+              - paragraph [ref=f56e1799]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1801]:
+              - generic [ref=f56e1802]: 월 36,010원
+              - strong [ref=f56e1803]: 월 13,900원
+          - generic [ref=f56e1805] [cursor=pointer]:
+            - generic [ref=f56e1806]:
+              - img "랜덤결합" [ref=f56e1808]
+              - strong [ref=f56e1809]: 이십세 (7GB+/통화기본)
+              - generic [ref=f56e1810]: 7GB+1Mbps
+              - paragraph [ref=f56e1811]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1813]:
+              - generic [ref=f56e1814]: 월 40,000원
+              - strong [ref=f56e1815]: 월 17,300원
+          - generic [ref=f56e1817] [cursor=pointer]:
+            - generic [ref=f56e1818]:
+              - generic [ref=f56e1819]:
+                - img "bg_시그니처" [ref=f56e1820]
+                - img "bg_쿠팡이츠" [ref=f56e1821]
+                - img "랜덤결합" [ref=f56e1822]
+              - strong [ref=f56e1823]: 이츠 (100GB+/통화기본)
+              - generic [ref=f56e1824]: 100GB+5Mbps
+              - paragraph [ref=f56e1825]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1826]: 🎁쿠팡이츠 기프트카드 5천원 혜택 (24개월)
+            - generic [ref=f56e1828]:
+              - generic [ref=f56e1829]: 월 52,600원
+              - strong [ref=f56e1830]: 월 40,700원
+          - generic [ref=f56e1832] [cursor=pointer]:
+            - generic [ref=f56e1833]:
+              - generic [ref=f56e1834]:
+                - img "bg_시그니처" [ref=f56e1835]
+                - img "bg_매월데이터10GB" [ref=f56e1836]
+                - img "bg_쿠팡이츠" [ref=f56e1837]
+              - strong [ref=f56e1838]: 이츠 (25GB+/통화기본)
+              - generic [ref=f56e1839]: (15+10)GB+1Mbps
+              - paragraph [ref=f56e1840]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1841]: 🎁쿠팡이츠 기프트카드 5천원 혜택 (24개월)
+            - generic [ref=f56e1843]:
+              - generic [ref=f56e1844]: 월 36,700원
+              - strong [ref=f56e1845]: 월 24,000원
+          - generic [ref=f56e1847] [cursor=pointer]:
+            - generic [ref=f56e1848]:
+              - generic [ref=f56e1849]:
+                - img "bg_시그니처" [ref=f56e1850]
+                - img "bg_쿠팡이츠" [ref=f56e1851]
+                - img "랜덤결합" [ref=f56e1852]
+              - strong [ref=f56e1853]: 이츠 (71GB+/통화기본)
+              - generic [ref=f56e1854]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1855]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1856]: 🎁쿠팡이츠 기프트카드 5천원 혜택 (24개월)
+            - generic [ref=f56e1858]:
+              - generic [ref=f56e1859]: 월 47,400원
+              - strong [ref=f56e1860]: 월 35,500원
+          - generic [ref=f56e1862] [cursor=pointer]:
+            - generic [ref=f56e1863]:
+              - generic [ref=f56e1864]:
+                - img "bg_시그니처" [ref=f56e1865]
+                - img "bg_쿠팡이츠" [ref=f56e1866]
+              - strong [ref=f56e1867]: 이츠 (7GB+/통화기본)
+              - generic [ref=f56e1868]: 7GB+1Mbps
+              - paragraph [ref=f56e1869]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1870]: 🎁쿠팡이츠 기프트카드 5천원 혜택 (24개월)
+            - generic [ref=f56e1872]:
+              - generic [ref=f56e1873]: 월 30,300원
+              - strong [ref=f56e1874]: 월 18,400원
+          - generic [ref=f56e1876] [cursor=pointer]:
+            - generic [ref=f56e1877]:
+              - generic [ref=f56e1878]:
+                - img "bg_파손보험" [ref=f56e1879]
+                - img "U+인터넷결합" [ref=f56e1880]
+                - img "랜덤결합" [ref=f56e1881]
+              - strong [ref=f56e1882]: 자급제폰케어 (71GB+/통화기본)
+              - generic [ref=f56e1883]: 11GB+일2GB+3Mbps
+              - paragraph [ref=f56e1884]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1886]:
+              - generic [ref=f56e1887]: 월 49,390원
+              - strong [ref=f56e1888]: 월 34,300원
+          - generic [ref=f56e1890] [cursor=pointer]:
+            - generic [ref=f56e1891]:
+              - generic [ref=f56e1892]:
+                - img "bg_파손보험" [ref=f56e1893]
+                - img "랜덤결합" [ref=f56e1894]
+              - strong [ref=f56e1895]: 자급제폰케어 (7GB+/통화기본)
+              - generic [ref=f56e1896]: 7GB+1Mbps
+              - paragraph [ref=f56e1897]: 통화 기본제공, 문자 기본제공
+              - paragraph
+            - generic [ref=f56e1899]:
+              - generic [ref=f56e1900]: 월 39,800원
+              - strong [ref=f56e1901]: 월 17,200원
+          - generic [ref=f56e1903] [cursor=pointer]:
+            - generic [ref=f56e1904]:
+              - generic [ref=f56e1905]:
+                - img "bg_시그니처" [ref=f56e1906]
+                - img "bg_윌야쿠르트" [ref=f56e1907]
+                - img "랜덤결합" [ref=f56e1908]
+              - strong [ref=f56e1909]: 플러스알파 (7GB+/통화기본)
+              - generic [ref=f56e1910]: 7GB+1Mbps
+              - paragraph [ref=f56e1911]: 통화 기본제공, 문자 기본제공
+              - paragraph [ref=f56e1912]: 🎁매월 윌 야쿠르트 10개 무료배송 (24개월)
+            - generic [ref=f56e1914]:
+              - generic [ref=f56e1915]: 월 41,400원
+              - strong [ref=f56e1916]: 월 17,500원
+  - generic [ref=f56e1917]:
+    - list [ref=f56e1920]:
+      - listitem [ref=f56e1921]:
+        - link "회사소개" [ref=f56e1922] [cursor=pointer]:
+          - /url: https://www.medialog.co.kr/
+      - listitem [ref=f56e1923]:
+        - link "유모바일 소개" [ref=f56e1924] [cursor=pointer]:
+          - /url: /cc/brand
+      - listitem [ref=f56e1925]:
+        - link "제휴문의" [ref=f56e1926] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f56e1927]:
+        - link "법인가입 문의" [ref=f56e1928] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f56e1929]:
+        - link "이용약관" [ref=f56e1930] [cursor=pointer]:
+          - /url: /policy/terms?dv=S
+      - listitem [ref=f56e1931]:
+        - link "위치기반서비스이용약관" [ref=f56e1932] [cursor=pointer]:
+          - /url: /policy/terms?dv=L
+      - listitem [ref=f56e1933]:
+        - link "개인정보처리방침" [ref=f56e1934] [cursor=pointer]:
+          - /url: /policy/terms?dv=P
+      - listitem [ref=f56e1935]:
+        - link "이메일무단수집거부" [ref=f56e1936] [cursor=pointer]:
+          - /url: /policy/terms?dv=E
+      - listitem [ref=f56e1937]:
+        - link "명의도용방지서비스" [ref=f56e1938] [cursor=pointer]:
+          - /url: https://msafer.or.kr/index.do
+      - listitem [ref=f56e1939]:
+        - link "불법스팸대응센터" [ref=f56e1940] [cursor=pointer]:
+          - /url: https://spam.kisa.or.kr/
+      - listitem [ref=f56e1941]:
+        - link "이용자보호활동" [ref=f56e1942] [cursor=pointer]:
+          - /url: /support/protection/illegal
+      - listitem [ref=f56e1943]:
+        - link "서비스 이용가능 지역" [ref=f56e1944] [cursor=pointer]:
+          - /url: https://coveragemap.lguplus.co.kr
+      - listitem [ref=f56e1945]:
+        - link "고객서비스 헌장" [ref=f56e1946] [cursor=pointer]:
+          - /url: javascript:void(0);
+      - listitem [ref=f56e1947]:
+        - link "정도경영 제보" [ref=f56e1948] [cursor=pointer]:
+          - /url: https://www.medialog.co.kr/ethics.php
+    - contentinfo [ref=f56e1949]:
+      - generic [ref=f56e1950]:
+        - generic [ref=f56e1951]:
+          - strong [ref=f56e1952]:
+            - link "(주)미디어로그" [ref=f56e1953] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=f56e1954]: 서울특별시 마포구 월드컵북로56길 19, 5층, 6층(상암동, 드림타워)
+          - paragraph [ref=f56e1955]:
+            - generic [ref=f56e1956]: "대표이사 : 송대원"
+            - generic [ref=f56e1957]: "사업자등록번호 : 114-81-96221"
+          - paragraph [ref=f56e1958]: "통신판매신고 : 제2012-서울마포-0954호"
+          - paragraph [ref=f56e1959]: COPYRIGHT © MEDIALOG CORP. ALL RIGHTS RESERVED
+        - generic [ref=f56e1960]:
+          - generic [ref=f56e1961]:
+            - term [ref=f56e1962]: 개통센터
+            - definition [ref=f56e1963]:
+              - paragraph [ref=f56e1964]:
+                - generic [ref=f56e1965]: 신청/배송/개통문의 1661-0544 (유료) 기기변경문의 1661-0556 (유료)
+              - paragraph [ref=f56e1966]: "운영시간 : 평일 09시~18시(점심시간: 12시 30분~13시 30분)1644-2106 (For Foreigners)"
+          - generic [ref=f56e1967]:
+            - term [ref=f56e1968]: 고객센터
+            - definition [ref=f56e1969]:
+              - paragraph [ref=f56e1970]: 114(자사 휴대폰 무료) 1644-5353(유료)
+              - paragraph [ref=f56e1971]: "운영시간 : 평일 09시~18시 (점심시간 12시~13시)"
+        - list [ref=f56e1972]:
+          - listitem [ref=f56e1973]:
+            - link [ref=f56e1974] [cursor=pointer]:
+              - /url: https://pf.kakao.com/_NIwKC
+              - img "카카오톡" [ref=f56e1975]
+          - listitem [ref=f56e1976]:
+            - link [ref=f56e1977] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCHeq9NB9G6vzGxnOk6nbIGA
+              - img "유투브" [ref=f56e1978]
+          - listitem [ref=f56e1979]:
+            - link [ref=f56e1980] [cursor=pointer]:
+              - /url: https://www.instagram.com/umobile_official/
+              - img "인스타그램" [ref=f56e1981]
+      - generic [ref=f56e1983]:
+        - generic [ref=f56e1984]:
+          - img "브랜드대상" [ref=f56e1985]
+          - text: 2023 소비자가 뽑은가장신뢰하는브랜드대상 수상
+        - generic [ref=f56e1986]:
+          - img "정보보호 관리체계 인증 ISMS" [ref=f56e1987]
+          - text: "인증범위 : 미디어로그 온라인 서비스 운영 유효기간 : 2024.09.01 ~ 2027.08.31"
+  - link [ref=f56e1989] [cursor=pointer]:
+    - /url: javascript:;
+    - emphasis [ref=f56e1990]: 쳇봇 열기
+  - link "상단으로 가기" [ref=f56e1992] [cursor=pointer]:
+    - /url: javascript:;

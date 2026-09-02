@@ -1,0 +1,286 @@
+- generic [ref=f87e1]:
+  - banner [ref=f87e2]:
+    - generic [ref=f87e6]:
+      - generic [ref=f87e7]:
+        - link [ref=f87e8] [cursor=pointer]:
+          - /url: /;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+          - img "logo.png" [ref=f87e9]
+        - list [ref=f87e10]:
+          - listitem [ref=f87e11] [cursor=pointer]:
+            - link "요금제" [ref=f87e12]:
+              - /url: /rate_plan.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+          - listitem [ref=f87e13] [cursor=pointer]:
+            - link "이벤트" [ref=f87e14]:
+              - /url: /event.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+          - listitem [ref=f87e15] [cursor=pointer]:
+            - link "고객지원" [ref=f87e16]:
+              - /url: /cs_info.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+          - listitem [ref=f87e17] [cursor=pointer]:
+            - link "마이페이지" [ref=f87e18]:
+              - /url: /btcview.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+      - generic [ref=f87e19]:
+        - link "사용량조회" [ref=f87e20] [cursor=pointer]:
+          - /url: /normal.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+        - link "로그인" [ref=f87e21] [cursor=pointer]:
+          - /url: /sign.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+  - generic [ref=f87e22]:
+    - generic [ref=f87e24]:
+      - generic [ref=f87e25]:
+        - generic [ref=f87e27]:
+          - generic [ref=f87e28]:
+            - group "1 / 3" [ref=f87e29]:
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent1
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent1
+              - link [ref=f87e30] [cursor=pointer]:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent1
+                - img "9월 베스트 요금제" [ref=f87e31]
+            - group "2 / 3" [ref=f87e32]:
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent1
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent2
+              - link [ref=f87e33] [cursor=pointer]:
+                - /url: https://joytel.co.kr/event_view.do?eventId=348#jevent2
+                - img "9월 음성자유" [ref=f87e34]
+            - group "3 / 3" [ref=f87e35]:
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=317
+              - link:
+                - /url: https://joytel.co.kr/event_view.do?eventId=317
+              - link [ref=f87e36] [cursor=pointer]:
+                - /url: https://joytel.co.kr/event_view.do?eventId=317
+                - img "9월 5G 요금제" [ref=f87e37]
+          - generic [ref=f87e38]:
+            - button "Previous slide" [disabled]
+            - generic [ref=f87e39]: 1 / 3
+            - button "Next slide" [ref=f87e40] [cursor=pointer]
+        - generic [ref=f87e41]:
+          - heading "빠른 서비스" [level=2] [ref=f87e43]
+          - list [ref=f87e44]:
+            - listitem [ref=f87e45]:
+              - link [ref=f87e46] [cursor=pointer]:
+                - /url: /rate_plan.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "셀프개통" [ref=f87e47]
+                - text: 셀프개통
+            - listitem [ref=f87e48]:
+              - link [ref=f87e49] [cursor=pointer]:
+                - /url: /btcview.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "접수내역 조회" [ref=f87e50]
+                - text: 접수내역 조회
+            - listitem [ref=f87e51]:
+              - link [ref=f87e52] [cursor=pointer]:
+                - /url: /online_cs.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "1:1문의" [ref=f87e53]
+                - text: 1:1문의
+            - listitem [ref=f87e54]:
+              - link [ref=f87e55] [cursor=pointer]:
+                - /url: /faq.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "자주묻는질문" [ref=f87e56]
+                - text: 자주묻는질문
+            - listitem [ref=f87e57]:
+              - link [ref=f87e58] [cursor=pointer]:
+                - /url: /form_download.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "서식지 다운로드" [ref=f87e59]
+                - text: 서식지 다운로드
+            - listitem [ref=f87e60]:
+              - link [ref=f87e61] [cursor=pointer]:
+                - /url: /active_info.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+                - img "개통가이드" [ref=f87e62]
+                - text: 개통가이드
+      - generic [ref=f87e63]:
+        - generic [ref=f87e65]:
+          - group "1 / 3" [ref=f87e66]:
+            - link "9월 프로모션 요금제":
+              - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=348
+              - img "9월 프로모션 요금제" [ref=f87e67] [cursor=pointer]
+          - group "2 / 3" [ref=f87e68]:
+            - link "9월 이달의 특가":
+              - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=349
+              - img "9월 이달의 특가" [ref=f87e69] [cursor=pointer]
+          - group "3 / 3" [ref=f87e70]:
+            - link "인기 5G 요금제":
+              - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=317
+              - img "인기 5G 요금제" [ref=f87e71] [cursor=pointer]
+        - link "이벤트 더보기" [ref=f87e73] [cursor=pointer]:
+          - /url: /event.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+    - generic [ref=f87e76]:
+      - heading "지금 많이 찾는 인기 요금제" [level=2] [ref=f87e78]
+      - generic [ref=f87e80]:
+        - group "1 / 3" [ref=f87e81]:
+          - link "SKT JOY 500분 10GB 데이터 10GB 통화 500분 문자 100건 월 990원 / 평생할인" [ref=f87e82] [cursor=pointer]:
+            - /url: /rateplan_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?no=588
+            - generic [ref=f87e83]:
+              - generic [ref=f87e84]: SKT JOY 500분 10GB
+              - list [ref=f87e85]:
+                - listitem [ref=f87e86]: 데이터 10GB
+                - listitem [ref=f87e88]: 통화 500분
+                - listitem [ref=f87e89]: 문자 100건
+              - generic [ref=f87e90]:
+                - text: 월 990원
+                - generic [ref=f87e91]: / 평생할인
+        - group "2 / 3" [ref=f87e92]:
+          - link "SKT JOY 500분 15GB 데이터 15GB 통화 500분 문자 100건 월 10원 / 8개월 차부터 29,700원" [ref=f87e93] [cursor=pointer]:
+            - /url: /rateplan_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?no=587
+            - generic [ref=f87e94]:
+              - generic [ref=f87e95]: SKT JOY 500분 15GB
+              - list [ref=f87e96]:
+                - listitem [ref=f87e97]: 데이터 15GB
+                - listitem [ref=f87e99]: 통화 500분
+                - listitem [ref=f87e100]: 문자 100건
+              - generic [ref=f87e101]:
+                - text: 월 10원
+                - generic [ref=f87e102]: / 8개월 차부터 29,700원
+        - group "3 / 3" [ref=f87e103]:
+          - link "SKT 조이 음성자유 10GB 데이터 10GB 통화 기본제공 문자 100건 월 6,600원 / 평생할인" [ref=f87e104] [cursor=pointer]:
+            - /url: /rateplan_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?no=585
+            - generic [ref=f87e105]:
+              - generic [ref=f87e106]: SKT 조이 음성자유 10GB
+              - list [ref=f87e107]:
+                - listitem [ref=f87e108]: 데이터 10GB
+                - listitem [ref=f87e110]: 통화 기본제공
+                - listitem [ref=f87e111]: 문자 100건
+              - generic [ref=f87e112]:
+                - text: 월 6,600원
+                - generic [ref=f87e113]: / 평생할인
+      - link "전체보기" [ref=f87e115] [cursor=pointer]:
+        - /url: /rate_plan.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+    - generic [ref=f87e119]:
+      - generic [ref=f87e120]:
+        - heading "사용 후기" [level=2] [ref=f87e121]
+        - link "더보기" [ref=f87e122] [cursor=pointer]:
+          - /url: /review.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+      - generic [ref=f87e125]:
+        - group "1 / 4" [ref=f87e126]:
+          - link "번호이동하여 사용하는데, 개통부터 사용까지 아주 만족스럽네요. 지난 댓글들 보니 악성불만 댓글들이 많던데.. 누가 일부러 단 댓들이 아닌지 의심이 가네요. 어쨌던 잘 쓰고있습니다~~ 박** 2026-09-02" [ref=f87e127] [cursor=pointer]:
+            - /url: /review.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+            - generic [ref=f87e134]: 번호이동하여 사용하는데, 개통부터 사용까지 아주 만족스럽네요. 지난 댓글들 보니 악성불만 댓글들이 많던데.. 누가 일부러 단 댓들이 아닌지 의심이 가네요. 어쨌던 잘 쓰고있습니다~~
+            - generic [ref=f87e136]: 박** 2026-09-02
+        - group "2 / 4" [ref=f87e137]:
+          - link "가격도 저렴하고 다 좋은데 사용량 확인이 실시간으로 새로고침 되었으면 좋겠습니다. 당장은 아니더라도 해당 기능이 꼭 개발 되었으면 좋겠습니다 정** 2026-09-01" [ref=f87e138] [cursor=pointer]:
+            - /url: /review.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+            - generic [ref=f87e145]: 가격도 저렴하고 다 좋은데 사용량 확인이 실시간으로 새로고침 되었으면 좋겠습니다. 당장은 아니더라도 해당 기능이 꼭 개발 되었으면 좋겠습니다
+            - generic [ref=f87e147]: 정** 2026-09-01
+        - group "3 / 4" [ref=f87e148]:
+          - link "위젯 자동 로그인은 언제 고쳐지나요? 너무 오래됬는데 아직도 그대로에요 너무 불편합니다 임** 2026-09-01" [ref=f87e149] [cursor=pointer]:
+            - /url: /review.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+            - generic [ref=f87e156]: 위젯 자동 로그인은 언제 고쳐지나요? 너무 오래됬는데 아직도 그대로에요 너무 불편합니다
+            - generic [ref=f87e158]: 임** 2026-09-01
+        - group "4 / 4" [ref=f87e159]:
+          - link "처음으로 알뜰폰 써보는데 일단 요금이 기존 슼에서 말도 안되게 줄어들다 보니 그냥 웃음만 나옵니다ㅎㅎ 위젯도 말이 좀 있던데 저는 로그인 풀림이라던가 한번도 없었고 위젯도 어차피 슼 쓸때도 즉각 실시간은 아니였는지라 불편함 없이 잘 쓰고 있습니다. 좋습니다ㅎㅎ 이** 2026-08-29" [ref=f87e160] [cursor=pointer]:
+            - /url: /review.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+            - generic [ref=f87e167]: 처음으로 알뜰폰 써보는데 일단 요금이 기존 슼에서 말도 안되게 줄어들다 보니 그냥 웃음만 나옵니다ㅎㅎ 위젯도 말이 좀 있던데 저는 로그인 풀림이라던가 한번도 없었고 위젯도 어차피 슼 쓸때도 즉각 실시간은 아니였는지라 불편함 없이 잘 쓰고 있습니다. 좋습니다ㅎㅎ
+            - generic [ref=f87e169]: 이** 2026-08-29
+    - generic [ref=f87e171]:
+      - generic [ref=f87e172]:
+        - heading "진행 중인 이벤트" [level=2] [ref=f87e173]
+        - link "더보기" [ref=f87e174] [cursor=pointer]:
+          - /url: /event.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+      - generic [ref=f87e177]:
+        - group "1 / 5" [ref=f87e178]:
+          - link [ref=f87e179] [cursor=pointer]:
+            - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=348
+            - img "9월 프로모션 요금제" [ref=f87e181]
+            - generic [ref=f87e182]:
+              - paragraph [ref=f87e183]: 9월 프로모션 요금제
+              - paragraph [ref=f87e184]: 2026-09-01 ~ 2026-09-30
+        - group "2 / 5" [ref=f87e185]:
+          - link [ref=f87e186] [cursor=pointer]:
+            - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=349
+            - img "9월 이달의 특가" [ref=f87e188]
+            - generic [ref=f87e189]:
+              - paragraph [ref=f87e190]: 9월 이달의 특가
+              - paragraph [ref=f87e191]: 2026-09-01 ~ 2026-09-30
+        - group "3 / 5" [ref=f87e192]:
+          - link [ref=f87e193] [cursor=pointer]:
+            - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=317
+            - img "인기 5G 요금제" [ref=f87e195]
+            - generic [ref=f87e196]:
+              - paragraph [ref=f87e197]: 인기 5G 요금제
+              - paragraph [ref=f87e198]: 2026-08-04 ~ 2026-09-30
+        - group "4 / 5" [ref=f87e199]:
+          - link [ref=f87e200] [cursor=pointer]:
+            - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=266
+            - img "체인지콘 이벤트" [ref=f87e202]
+            - generic [ref=f87e203]:
+              - paragraph [ref=f87e204]: 체인지콘 이벤트
+              - paragraph [ref=f87e205]: 2026-05-30 ~ 2026-09-30
+        - group "5 / 5" [ref=f87e206]:
+          - link [ref=f87e207] [cursor=pointer]:
+            - /url: /event_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?eventId=345
+            - img "9월 결합 데이터 추가 제공" [ref=f87e209]
+            - generic [ref=f87e210]:
+              - paragraph [ref=f87e211]: 9월 결합 데이터 추가 제공
+              - paragraph [ref=f87e212]: 2026-09-01 ~ 2026-09-30
+    - generic [ref=f87e215]:
+      - generic [ref=f87e216]:
+        - generic [ref=f87e217]:
+          - generic [ref=f87e218]: 공지
+          - link "일반 유심 유료 전환 안내" [ref=f87e219] [cursor=pointer]:
+            - /url: /notice_view.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62?notId=87
+        - generic [ref=f87e220]: 2026.04.28
+      - link "더보기" [ref=f87e221] [cursor=pointer]:
+        - /url: /notice.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+  - contentinfo [ref=f87e222]:
+    - generic [ref=f87e223]:
+      - list [ref=f87e225]:
+        - listitem [ref=f87e226]:
+          - link "회사소개" [ref=f87e227] [cursor=pointer]:
+            - /url: /contact/company.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+        - listitem [ref=f87e228]:
+          - link "이용약관" [ref=f87e229] [cursor=pointer]:
+            - /url: /contact/policy.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+        - listitem [ref=f87e230]:
+          - link "개인정보처리방침" [ref=f87e231] [cursor=pointer]:
+            - /url: /contact/indv.do;jsessionid=6179FAFAF5EAF97EED1F0B505B78BC62
+        - listitem [ref=f87e232]:
+          - link "불법스팸대응센터" [ref=f87e233] [cursor=pointer]:
+            - /url: https://spam.kisa.or.kr/spam/main.do
+        - listitem [ref=f87e234]:
+          - link "명의도용방지서비스" [ref=f87e235] [cursor=pointer]:
+            - /url: https://msafer.or.kr/index.do
+      - generic [ref=f87e236]:
+        - list [ref=f87e237]:
+          - listitem [ref=f87e238]: 고객센터
+          - listitem [ref=f87e239]: 114 (무료)
+          - listitem [ref=f87e240]: SKT 1566-8692 (유료)
+          - listitem [ref=f87e241]: 운영시간 평일 09시30분 - 17시30분 (점심시간 12시 - 13시)
+        - list [ref=f87e242]:
+          - listitem [ref=f87e243]: 주식회사 조이텔
+          - listitem [ref=f87e244]: "대표: 정민기"
+          - listitem [ref=f87e245]: "사업자등록번호: 886-87-00313"
+          - listitem [ref=f87e246]: 경기도 부천시 원미구 중동로254번길 78, 702호(중동, 필타운)
+          - listitem [ref=f87e247]: "FAX: 02-6958-9821"
+          - listitem [ref=f87e248]: "E-mail: admin@joytel.kr"
+          - listitem [ref=f87e249]: COPYRIGHT©JOYTEL CO.LTD. ALL RIGHTS RESERVED.
+  - dialog [active] [ref=f87e250]:
+    - generic:
+      - button "전체닫기" [ref=f87e252] [cursor=pointer]
+      - generic:
+        - generic:
+          - group "1 / 3" [ref=f87e253]:
+            - paragraph [ref=f87e257]:
+              - link [ref=f87e258] [cursor=pointer]:
+                - /url: https://joytel.co.kr/event_view.do?eventId=349
+            - generic [ref=f87e260]:
+              - generic [ref=f87e261]:
+                - checkbox [ref=f87e262]
+                - generic [ref=f87e263]: 오늘 하루 보지 않기
+              - button "닫기" [ref=f87e264] [cursor=pointer]
+          - group "2 / 3" [ref=f87e265]:
+            - paragraph [ref=f87e269]:
+              - link [ref=f87e270] [cursor=pointer]:
+                - /url: https://joytel.co.kr/event_view.do?eventId=349
+            - generic [ref=f87e272]:
+              - generic [ref=f87e273]:
+                - checkbox [ref=f87e274]
+                - generic [ref=f87e275]: 오늘 하루 보지 않기
+              - button "닫기" [ref=f87e276] [cursor=pointer]
+          - group "3 / 3" [ref=f87e277]:
+            - paragraph [ref=f87e281]
+            - generic [ref=f87e283]:
+              - generic [ref=f87e284]:
+                - checkbox [ref=f87e285]
+                - generic [ref=f87e286]: 오늘 하루 보지 않기
+              - button "닫기" [ref=f87e287] [cursor=pointer]

@@ -25,6 +25,7 @@ public final class EsimPlan {
     private final BigDecimal monthlyPrice;
     private final String currency;
     private final boolean promotionalPrice;
+    private final boolean lifetimeDiscount;
     private final BigDecimal regularMonthlyPrice;
     private final String sourceUrl;
     private final String notes;
@@ -39,6 +40,7 @@ public final class EsimPlan {
         this.monthlyPrice = builder.monthlyPrice;
         this.currency = builder.currency;
         this.promotionalPrice = builder.promotionalPrice;
+        this.lifetimeDiscount = builder.lifetimeDiscount;
         this.regularMonthlyPrice = builder.regularMonthlyPrice;
         this.sourceUrl = builder.sourceUrl;
         this.notes = builder.notes;
@@ -85,8 +87,20 @@ public final class EsimPlan {
         return promotionalPrice;
     }
 
+    /** True when a 특가/프로모션 rate is the ongoing keep fee (does not step up later). */
+    public boolean lifetimeDiscount() {
+        return lifetimeDiscount;
+    }
+
     public BigDecimal regularMonthlyPrice() {
         return regularMonthlyPrice;
+    }
+
+    /** Intro-then-hike pricing. Lifetime 특가 is not this. */
+    public boolean priceIncreasesAfterTerm() {
+        return promotionalPrice && !lifetimeDiscount && regularMonthlyPrice != null
+                && monthlyPrice != null
+                && regularMonthlyPrice.compareTo(monthlyPrice) > 0;
     }
 
     public String sourceUrl() {
@@ -97,9 +111,9 @@ public final class EsimPlan {
         return notes;
     }
 
-    /** Effective ongoing monthly price used for ranking (rejects promo-only deals). */
+    /** Effective ongoing monthly keep fee used for ranking. */
     public BigDecimal ongoingMonthlyPrice() {
-        if (promotionalPrice && regularMonthlyPrice != null) {
+        if (priceIncreasesAfterTerm()) {
             return regularMonthlyPrice;
         }
         return monthlyPrice;
@@ -139,6 +153,7 @@ public final class EsimPlan {
         private BigDecimal monthlyPrice;
         private String currency = "KRW";
         private boolean promotionalPrice;
+        private boolean lifetimeDiscount;
         private BigDecimal regularMonthlyPrice;
         private String sourceUrl;
         private String notes = "";
@@ -185,6 +200,11 @@ public final class EsimPlan {
 
         public Builder promotionalPrice(boolean promotionalPrice) {
             this.promotionalPrice = promotionalPrice;
+            return this;
+        }
+
+        public Builder lifetimeDiscount(boolean lifetimeDiscount) {
+            this.lifetimeDiscount = lifetimeDiscount;
             return this;
         }
 

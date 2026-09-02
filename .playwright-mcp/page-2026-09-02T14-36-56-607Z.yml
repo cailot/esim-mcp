@@ -1,0 +1,517 @@
+- generic [active] [ref=f159e1]:
+  - banner [ref=f159e2]:
+    - generic:
+      - link "아요 로고 아요":
+        - /url: https://weayo.com
+        - generic [ref=f159e3] [cursor=pointer]:
+          - img "아요 로고" [ref=f159e5]
+          - strong [ref=f159e8]: 아요
+      - navigation [ref=f159e9]:
+        - list [ref=f159e10]:
+          - listitem [ref=f159e11]:
+            - link "해외 로밍" [ref=f159e12] [cursor=pointer]:
+              - /url: https://weayo.com/roaming/plan
+          - listitem [ref=f159e13]:
+            - link "아요 추천" [ref=f159e14] [cursor=pointer]:
+              - /url: https://weayo.com/plan/recommand
+          - listitem [ref=f159e15]:
+            - link "요금제 찾기" [ref=f159e16] [cursor=pointer]:
+              - /url: https://weayo.com/plan/list/1
+          - listitem [ref=f159e17]:
+            - link "이벤트" [ref=f159e18] [cursor=pointer]:
+              - /url: https://weayo.com/page/event
+          - listitem [ref=f159e19]:
+            - link "자주 반복되는 질문" [ref=f159e20] [cursor=pointer]:
+              - /url: https://weayo.com/page/faq
+          - listitem [ref=f159e21]:
+            - link " 마이페이지" [ref=f159e22] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/mypage
+              - generic [ref=f159e23]: 
+              - text: 마이페이지
+  - main [ref=f159e24]:
+    - generic [ref=f159e28]:
+      - generic [ref=f159e30] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f159e31]: 
+        - text: 추천순
+      - generic [ref=f159e32] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f159e33]: 
+        - text: 필터
+      - generic [ref=f159e34] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f159e35]: 
+        - text: 검색
+      - generic [ref=f159e36] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f159e37]: 
+        - text: 빠른추천
+      - generic [ref=f159e38] [cursor=pointer]: 7G 요금제
+      - generic [ref=f159e39] [cursor=pointer]: 15G 요금제
+      - generic [ref=f159e40] [cursor=pointer]: 71G 요금제
+      - generic [ref=f159e41] [cursor=pointer]: 100G 요금제
+      - generic [ref=f159e42] [cursor=pointer]: 할인요금제외
+    - generic:
+      - generic [ref=f159e45]:
+        - heading "총 1,654개" [level=6] [ref=f159e48]
+        - generic:
+          - generic [ref=f159e52]:
+            - generic:
+              - img "찜하기" [ref=f159e55] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e58] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+            - generic [ref=f159e59]:
+              - link "KG모바일 [모빌카드 스페셜] 통화, 데이터 마음대로 11GB+" [ref=f159e60] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+                - img "KG모바일" [ref=f159e62]
+                - generic [ref=f159e64]: "[모빌카드 스페셜] 통화, 데이터 마음대로 11GB+"
+              - generic [ref=f159e65]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=f159e66] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+                - generic [aria-hidden] [ref=f159e70]: 
+                - link [ref=f159e71] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 76,273 76,273" [ref=f159e72] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+                - generic [ref=f159e73]:
+                  - img "LGU+망" [ref=f159e74]
+                  - text: LGU+망
+                  - img "LTE" [ref=f159e75]
+                  - text: LTE
+                  - img "무제한" [ref=f159e76]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e77]
+                  - text: 무제한
+                  - img "76,273" [ref=f159e78]
+                  - text: 76,273
+              - generic [ref=f159e81]:
+                - link "월 13,000원" [ref=f159e82] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+                - generic [aria-hidden] [ref=f159e86]: 
+                - link [ref=f159e87] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022612?referer=planlist
+              - link "7개월 후부터 41,800원" [ref=f159e88] [cursor=pointer]:
+                - /url: /mobile/plan/1000022612?referer=planlist
+              - generic [ref=f159e94]:
+                - img "이벤트" [ref=f159e95]
+                - text: 네이버 페이 1만 원 권 증정
+          - generic [ref=f159e101]:
+            - generic:
+              - img "찜하기" [ref=f159e104] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e107] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+            - generic [ref=f159e108]:
+              - link "고고모바일 고고 100분/2.2GB+1Mbps" [ref=f159e109] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+                - img "고고모바일" [ref=f159e111]
+                - generic [ref=f159e113]: 고고 100분/2.2GB+1Mbps
+              - generic [ref=f159e114]:
+                - link "월 2.2G + 1Mbps" [ref=f159e115] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+                - generic [aria-hidden] [ref=f159e119]: 
+                - link [ref=f159e120] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+              - link "KT망 KT망 LTE LTE 100분 100분 100건 100건 11,872 11,872" [ref=f159e121] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+                - generic [ref=f159e122]:
+                  - img "KT망" [ref=f159e123]
+                  - text: KT망
+                  - img "LTE" [ref=f159e124]
+                  - text: LTE
+                  - img "100분" [ref=f159e125]
+                  - text: 100분
+                  - img "100건" [ref=f159e126]
+                  - text: 100건
+                  - img "11,872" [ref=f159e127]
+                  - text: 11,872
+              - generic [ref=f159e130]:
+                - link "월 8,360원" [ref=f159e131] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+                - generic [aria-hidden] [ref=f159e135]: 
+                - link [ref=f159e136] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025340?referer=planlist
+              - link [ref=f159e137] [cursor=pointer]:
+                - /url: /mobile/plan/1000025340?referer=planlist
+          - generic [ref=f159e144]:
+            - generic:
+              - img "찜하기" [ref=f159e147] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e150] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+            - generic [ref=f159e151]:
+              - link "이야기모바일 이야기 스탠다드 11GB+" [ref=f159e152] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+                - img "이야기모바일" [ref=f159e154]
+                - generic [ref=f159e156]: 이야기 스탠다드 11GB+
+              - generic [ref=f159e157]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=f159e158] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+                - generic [aria-hidden] [ref=f159e162]: 
+                - link [ref=f159e163] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 19,026 19,026" [ref=f159e164] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+                - generic [ref=f159e165]:
+                  - img "LGU+망" [ref=f159e166]
+                  - text: LGU+망
+                  - img "LTE" [ref=f159e167]
+                  - text: LTE
+                  - img "무제한" [ref=f159e168]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e169]
+                  - text: 무제한
+                  - img "19,026" [ref=f159e170]
+                  - text: 19,026
+              - generic [ref=f159e173]:
+                - link "월 18,000원" [ref=f159e174] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+                - generic [aria-hidden] [ref=f159e178]: 
+                - link [ref=f159e179] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000012176?referer=planlist
+              - link "7개월 후부터 39,600원" [ref=f159e180] [cursor=pointer]:
+                - /url: /mobile/plan/1000012176?referer=planlist
+          - generic [ref=f159e187]:
+            - generic:
+              - img "찜하기" [ref=f159e190] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e193] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+            - generic [ref=f159e194]:
+              - link "KG모바일 [일반] 통화, 데이터 마음대로 7GB+_24개월" [ref=f159e195] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+                - img "KG모바일" [ref=f159e197]
+                - generic [ref=f159e199]: "[일반] 통화, 데이터 마음대로 7GB+_24개월"
+              - generic [ref=f159e200]:
+                - link "월 7G + 1Mbps" [ref=f159e201] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+                - generic [aria-hidden] [ref=f159e205]: 
+                - link [ref=f159e206] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 11,778 11,778" [ref=f159e207] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+                - generic [ref=f159e208]:
+                  - img "LGU+망" [ref=f159e209]
+                  - text: LGU+망
+                  - img "LTE" [ref=f159e210]
+                  - text: LTE
+                  - img "무제한" [ref=f159e211]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e212]
+                  - text: 무제한
+                  - img "11,778" [ref=f159e213]
+                  - text: 11,778
+              - generic [ref=f159e216]:
+                - link "월 13,500원" [ref=f159e217] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+                - generic [aria-hidden] [ref=f159e221]: 
+                - link [ref=f159e222] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025084?referer=planlist
+              - link "24개월 후부터 24,200원" [ref=f159e223] [cursor=pointer]:
+                - /url: /mobile/plan/1000025084?referer=planlist
+          - generic [ref=f159e230]:
+            - generic:
+              - img "찜하기" [ref=f159e233] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e236] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+            - generic [ref=f159e237]:
+              - link "고고모바일 LTE 무제한 11GB+3M(CU20%할인)(아요Only)" [ref=f159e238] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+                - img "고고모바일" [ref=f159e240]
+                - generic [ref=f159e242]: LTE 무제한 11GB+3M(CU20%할인)(아요Only)
+              - generic [ref=f159e243]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=f159e244] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+                - generic [aria-hidden] [ref=f159e248]: 
+                - link [ref=f159e249] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+              - link "KT망 KT망 LTE LTE 무제한 무제한 무제한 무제한 21,755 21,755" [ref=f159e250] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+                - generic [ref=f159e251]:
+                  - img "KT망" [ref=f159e252]
+                  - text: KT망
+                  - img "LTE" [ref=f159e253]
+                  - text: LTE
+                  - img "무제한" [ref=f159e254]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e255]
+                  - text: 무제한
+                  - img "21,755" [ref=f159e256]
+                  - text: 21,755
+              - generic [ref=f159e259]:
+                - link "월 21,000원" [ref=f159e260] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+                - generic [aria-hidden] [ref=f159e264]: 
+                - link [ref=f159e265] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025596?referer=planlist
+              - link "7개월 후부터 38,500원" [ref=f159e266] [cursor=pointer]:
+                - /url: /mobile/plan/1000025596?referer=planlist
+          - generic [ref=f159e273]:
+            - generic:
+              - img "찜하기" [ref=f159e276] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e279] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+            - generic [ref=f159e280]:
+              - link "KG모바일 [모빌카드 스페셜] 통화, 데이터 마음대로 7GB+" [ref=f159e281] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+                - img "KG모바일" [ref=f159e283]
+                - generic [ref=f159e285]: "[모빌카드 스페셜] 통화, 데이터 마음대로 7GB+"
+              - generic [ref=f159e286]:
+                - link "월 7G + 1Mbps" [ref=f159e287] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+                - generic [aria-hidden] [ref=f159e291]: 
+                - link [ref=f159e292] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 52,084 52,084" [ref=f159e293] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+                - generic [ref=f159e294]:
+                  - img "LGU+망" [ref=f159e295]
+                  - text: LGU+망
+                  - img "LTE" [ref=f159e296]
+                  - text: LTE
+                  - img "무제한" [ref=f159e297]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e298]
+                  - text: 무제한
+                  - img "52,084" [ref=f159e299]
+                  - text: 52,084
+              - generic [ref=f159e302]:
+                - link "월 7,000원" [ref=f159e303] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+                - generic [aria-hidden] [ref=f159e307]: 
+                - link [ref=f159e308] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000022638?referer=planlist
+              - link "7개월 후부터 24,200원" [ref=f159e309] [cursor=pointer]:
+                - /url: /mobile/plan/1000022638?referer=planlist
+              - generic [ref=f159e315]:
+                - img "이벤트" [ref=f159e316]
+                - text: 네이버 페이 5천 원 권 증정
+          - generic [ref=f159e322]:
+            - generic:
+              - img "찜하기" [ref=f159e325] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e328] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+            - generic [ref=f159e329]:
+              - link "인스모바일 인스 유심 스트롱 11GB+" [ref=f159e330] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+                - img "인스모바일" [ref=f159e332]
+                - generic [ref=f159e334]: 인스 유심 스트롱 11GB+
+              - generic [ref=f159e335]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=f159e336] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+                - generic [aria-hidden] [ref=f159e340]: 
+                - link [ref=f159e341] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 11,842 11,842" [ref=f159e342] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+                - generic [ref=f159e343]:
+                  - img "LGU+망" [ref=f159e344]
+                  - text: LGU+망
+                  - img "LTE" [ref=f159e345]
+                  - text: LTE
+                  - img "무제한" [ref=f159e346]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e347]
+                  - text: 무제한
+                  - img "11,842" [ref=f159e348]
+                  - text: 11,842
+              - generic [ref=f159e351]:
+                - link "월 9,850원" [ref=f159e352] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+                - generic [aria-hidden] [ref=f159e356]: 
+                - link [ref=f159e357] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025961?referer=planlist
+              - link "7개월 후부터 39,000원" [ref=f159e358] [cursor=pointer]:
+                - /url: /mobile/plan/1000025961?referer=planlist
+          - generic [ref=f159e365]:
+            - generic:
+              - img "찜하기" [ref=f159e368] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e371] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+            - generic [ref=f159e372]:
+              - link "고고모바일 무제한 7GB+1M(밀리의서재 Free)(아요Only)" [ref=f159e373] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+                - img "고고모바일" [ref=f159e375]
+                - generic [ref=f159e377]: 무제한 7GB+1M(밀리의서재 Free)(아요Only)
+              - generic [ref=f159e378]:
+                - link "월 7G + 1Mbps" [ref=f159e379] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+                - generic [aria-hidden] [ref=f159e383]: 
+                - link [ref=f159e384] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+              - link "KT망 KT망 LTE LTE 무제한 무제한 무제한 무제한 37,947 37,947" [ref=f159e385] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+                - generic [ref=f159e386]:
+                  - img "KT망" [ref=f159e387]
+                  - text: KT망
+                  - img "LTE" [ref=f159e388]
+                  - text: LTE
+                  - img "무제한" [ref=f159e389]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e390]
+                  - text: 무제한
+                  - img "37,947" [ref=f159e391]
+                  - text: 37,947
+              - generic [ref=f159e394]:
+                - link "월 12,000원" [ref=f159e395] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+                - generic [aria-hidden] [ref=f159e399]: 
+                - link [ref=f159e400] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025297?referer=planlist
+              - link "7개월 후부터 20,900원" [ref=f159e401] [cursor=pointer]:
+                - /url: /mobile/plan/1000025297?referer=planlist
+          - generic [ref=f159e408]:
+            - generic:
+              - img "찜하기" [ref=f159e411] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e414] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+            - generic [ref=f159e415]:
+              - link "이야기모바일 이야기 스페셜S 100GB+" [ref=f159e416] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+                - img "이야기모바일" [ref=f159e418]
+                - generic [ref=f159e420]: 이야기 스페셜S 100GB+
+              - generic [ref=f159e421]:
+                - link "월 100G + 5Mbps" [ref=f159e422] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+                - generic [aria-hidden] [ref=f159e426]: 
+                - link [ref=f159e427] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+              - link "SKT망 SKT망 LTE LTE 무제한 무제한 무제한 무제한 30,987 30,987" [ref=f159e428] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+                - generic [ref=f159e429]:
+                  - img "SKT망" [ref=f159e430]
+                  - text: SKT망
+                  - img "LTE" [ref=f159e431]
+                  - text: LTE
+                  - img "무제한" [ref=f159e432]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e433]
+                  - text: 무제한
+                  - img "30,987" [ref=f159e434]
+                  - text: 30,987
+              - generic [ref=f159e437]:
+                - link "월 20,900원" [ref=f159e438] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+                - generic [aria-hidden] [ref=f159e442]: 
+                - link [ref=f159e443] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000016479?referer=planlist
+              - link "7개월 후부터 49,500원" [ref=f159e444] [cursor=pointer]:
+                - /url: /mobile/plan/1000016479?referer=planlist
+          - generic [ref=f159e451]:
+            - generic:
+              - img "찜하기" [ref=f159e454] [cursor=pointer]
+              - link "자세히 보기" [ref=f159e457] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+            - generic [ref=f159e458]:
+              - link "고고모바일 무제한 11GB+3M(네이버페이5000P)(아요Only)" [ref=f159e459] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+                - img "고고모바일" [ref=f159e461]
+                - generic [ref=f159e463]: 무제한 11GB+3M(네이버페이5000P)(아요Only)
+              - generic [ref=f159e464]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=f159e465] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+                - generic [aria-hidden] [ref=f159e469]: 
+                - link [ref=f159e470] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+              - link "KT망 KT망 LTE LTE 무제한 무제한 무제한 무제한 7,047 7,047" [ref=f159e471] [cursor=pointer]:
+                - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+                - generic [ref=f159e472]:
+                  - img "KT망" [ref=f159e473]
+                  - text: KT망
+                  - img "LTE" [ref=f159e474]
+                  - text: LTE
+                  - img "무제한" [ref=f159e475]
+                  - text: 무제한
+                  - img "무제한" [ref=f159e476]
+                  - text: 무제한
+                  - img "7,047" [ref=f159e477]
+                  - text: 7,047
+              - generic [ref=f159e480]:
+                - link "월 22,500원" [ref=f159e481] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+                - generic [aria-hidden] [ref=f159e485]: 
+                - link [ref=f159e486] [cursor=pointer]:
+                  - /url: https://weayo.com/mobile/plan/1000025763?referer=planlist
+              - link "7개월 후부터 40,700원" [ref=f159e487] [cursor=pointer]:
+                - /url: /mobile/plan/1000025763?referer=planlist
+        - list [ref=f159e496]:
+          - listitem:
+            - generic: "1"
+          - listitem:
+            - generic [ref=f159e497] [cursor=pointer]: "2"
+          - listitem:
+            - generic [ref=f159e498] [cursor=pointer]: "3"
+          - listitem:
+            - generic [ref=f159e499] [cursor=pointer]: 
+      - generic [ref=f159e503]:
+        - generic [ref=f159e507]:
+          - heading "나에게 적합한 알뜰폰 요금제 찾아보기" [level=4] [ref=f159e509]
+          - link "지금 찾기" [ref=f159e511] [cursor=pointer]:
+            - /url: /plan/recommand
+        - generic [ref=f159e516]:
+          - generic [ref=f159e517]:
+            - text: 최근 본 요금제
+            - link "더보기 (6)" [ref=f159e519] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/recent
+          - generic [ref=f159e522]:
+            - link "LTE 실속 5GB(200분)" [ref=f159e524] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+            - link "월 14,300원" [ref=f159e526] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+          - generic [ref=f159e528]:
+            - link "아이즈우정(300분/5G)" [ref=f159e530] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+            - link "월 8,500원" [ref=f159e532] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+          - generic [ref=f159e534]:
+            - link "든든한 200분6G" [ref=f159e536] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+            - link "월 3,630원" [ref=f159e538] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+          - generic [ref=f159e540]:
+            - link "초슬림 500M/60분" [ref=f159e542] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+            - link "월 1,900원" [ref=f159e544] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+          - generic [ref=f159e546]:
+            - link "초알뜰 3GB/100분" [ref=f159e548] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+            - link "월 4,900원" [ref=f159e550] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+    - text:    
+  - contentinfo [ref=f159e556]:
+    - generic [ref=f159e558]:
+      - link "개인정보처리방침" [ref=f159e560] [cursor=pointer]:
+        - /url: https://weayo.com/page/privacy
+      - text: "|"
+      - link "이용약관" [ref=f159e562] [cursor=pointer]:
+        - /url: https://weayo.com/page/agree
+      - text: "|"
+      - link "제휴/입점 제안" [ref=f159e564] [cursor=pointer]:
+        - /url: https://weayo.com/page/proposal/1003
+      - text: "|"
+      - link "공지사항" [ref=f159e566] [cursor=pointer]:
+        - /url: https://weayo.com/page/notice
+      - text: "|"
+      - link "자주 반복되는 질문" [ref=f159e568] [cursor=pointer]:
+        - /url: https://weayo.com/page/faq
+      - text: "|"
+      - link "블로그" [ref=f159e570] [cursor=pointer]:
+        - /url: https://weayo.com/blog/list
+      - text: "|"
+      - link "마이페이지" [ref=f159e572] [cursor=pointer]:
+        - /url: https://weayo.com/mypage/mypage
+      - heading "주식회사 아요" [level=3] [ref=f159e575]
+      - text: "주식회사 아요는 가격비교 정보 중개자로서 요금제 판매와는 직접적인 관련이 없습니다. 모든 상거래의 책임은 구매자 및 판매자에게 있습니다. 대표 : 윤선희 사업자등록번호 : 878-81-02870 통신판매업 신고번호 : 2023-고양일산동-2216 주소 : 경기도 고양시 일산동구 정발산로 43-20, 센트럴프라자 301호"
+      - heading "고객센터" [level=4] [ref=f159e578]
+      - link "1:1 문의" [ref=f159e581] [cursor=pointer]:
+        - /url: /mypage/qna
+      - generic [ref=f159e582]: "Business Hours: AM 10:00 - PM 6:00"
+      - generic [ref=f159e584]:
+        - link [ref=f159e586] [cursor=pointer]:
+          - /url: https://blog.naver.com/ayocompany
+          - img "아요 블로그" [ref=f159e587]
+        - link [ref=f159e589] [cursor=pointer]:
+          - /url: https://www.youtube.com/@ayoplan
+          - img "아요 유튜브" [ref=f159e590]
+        - link [ref=f159e592] [cursor=pointer]:
+          - /url: https://www.instagram.com/ayo.company
+          - img "아요 인스타그램" [ref=f159e593]
+        - link [ref=f159e595] [cursor=pointer]:
+          - /url: https://www.facebook.com/weayocompany
+          - img "아요 페이스북" [ref=f159e596]
+        - img "아요 트위터" [ref=f159e598]
+    - generic [aria-hidden] [ref=f159e603] [cursor=pointer]: 

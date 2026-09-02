@@ -1,0 +1,2599 @@
+- generic [active] [ref=f286e1]:
+  - generic:
+    - link "skip to 상단메뉴" [ref=f286e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "skip to content" [ref=f286e3] [cursor=pointer]:
+      - /url: "#contents"
+  - generic [ref=f286e4]:
+    - generic [ref=f286e5]:
+      - generic [ref=f286e6]:
+        - list
+      - list [ref=f286e8]:
+        - listitem [ref=f286e9]:
+          - link "인터넷우체국" [ref=f286e10] [cursor=pointer]:
+            - /url: https://www.epost.go.kr
+        - listitem [ref=f286e11]:
+          - link "우체국 B2B" [ref=f286e12] [cursor=pointer]:
+            - /url: http://b2b.epost.go.kr
+        - listitem [ref=f286e13]:
+          - link "해외배송" [ref=f286e14] [cursor=pointer]:
+            - /url: /fo/main/moveOverSend.do
+      - generic [ref=f286e15]:
+        - link "우체국쇼핑" [ref=f286e16] [cursor=pointer]:
+          - /url: /fo/main/main.do
+        - generic [ref=f286e20]:
+          - textbox "검색어입력" [ref=f286e21]
+          - link "찾기버튼" [ref=f286e22] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=f286e24]:
+          - listitem [ref=f286e25]:
+            - link "로그인" [ref=f286e26] [cursor=pointer]:
+              - /url: /fo/login/loginPrc.do
+          - listitem [ref=f286e27]:
+            - link "장바구니" [ref=f286e28] [cursor=pointer]:
+              - /url: javascript:fn_rightCartCnt();
+          - listitem [ref=f286e29]:
+            - link "나의쇼핑" [ref=f286e30] [cursor=pointer]:
+              - /url: /fo/mypage/mypageOrderSendSearch.do
+      - generic [ref=f286e31]:
+        - generic:
+          - link "전체 카테고리" [ref=f286e32] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f286e33]:
+            - listitem [ref=f286e34]:
+              - link "꿀송편🌈" [ref=f286e35] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev01
+            - listitem [ref=f286e36]:
+              - link "선물🐰" [ref=f286e37] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev04
+            - listitem [ref=f286e38]:
+              - link "AI추천" [ref=f286e39] [cursor=pointer]:
+                - /url: /fo/display/recommendView.do
+            - listitem [ref=f286e40]:
+              - link "특가" [ref=f286e41] [cursor=pointer]:
+                - /url: /fo/event/retrieveSpecialPrice.do
+            - listitem [ref=f286e42]:
+              - link "신규상품" [ref=f286e43] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100008
+            - listitem [ref=f286e44]:
+              - link "이달의 맛🦐" [ref=f286e45] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027581
+            - listitem [ref=f286e46]:
+              - link "특산물" [ref=f286e47] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100007
+            - listitem [ref=f286e48]:
+              - link "전통시장" [ref=f286e49] [cursor=pointer]:
+                - /url: /fo/pavln/sijangDduri.do
+            - listitem [ref=f286e50]:
+              - link "생활용품" [ref=f286e51] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100012
+            - listitem [ref=f286e52]:
+              - link "군장병관" [ref=f286e53] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027623
+          - list [ref=f286e54]:
+            - listitem [ref=f286e55]:
+              - link "이벤트" [ref=f286e56] [cursor=pointer]:
+                - /url: /fo/event/eventListMain.do?LOG_POS=15
+            - listitem [ref=f286e57]:
+              - link "기획전" [ref=f286e58] [cursor=pointer]:
+                - /url: /fo/display/plnbefAllList.do?LOG_POS=103
+            - listitem [ref=f286e59]:
+              - link "지역브랜드관" [ref=f286e60] [cursor=pointer]:
+                - /url: /fo/event/retrievePaldoLocalMap.do?LOG_POS=102
+    - generic [ref=f286e61]:
+      - text: 축소
+      - generic [ref=f286e63]:
+        - generic [ref=f286e64]:
+          - heading "우체국쇼핑추천 The 프리미엄" [level=4] [ref=f286e68]
+          - generic [ref=f286e70]:
+            - generic [ref=f286e71]:
+              - generic [ref=f286e72]:
+                - heading "주간프리미엄" [level=4] [ref=f286e73]
+                - paragraph [ref=f286e74]:
+                  - text: "추천기간 :"
+                  - emphasis [ref=f286e75]: 2026.8.31. ~ 9.6.
+              - generic [ref=f286e79]:
+                - button "Previous" [ref=f286e80] [cursor=pointer]
+                - generic [ref=f286e82]:
+                  - link [ref=f286e86] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11151325','01','03','10025654','101203311');
+                    - paragraph [ref=f286e88]:
+                      - text: ↓
+                      - emphasis [ref=f286e90]: "47"
+                      - text: "%"
+                    - generic [ref=f286e92]:
+                      - generic [ref=f286e93]:
+                        - paragraph [ref=f286e94]: 두레곶감(대봉반건시)
+                        - paragraph [ref=f286e95]: 대봉반건시2.1kg(90g*24개)
+                      - generic [ref=f286e96]:
+                        - paragraph [ref=f286e97]:
+                          - generic [ref=f286e98]:
+                            - emphasis [ref=f286e99]: 42,000
+                            - text: 원
+                        - paragraph [ref=f286e100]:
+                          - generic [ref=f286e101]:
+                            - emphasis [ref=f286e102]: 80,000
+                            - text: 원
+                      - generic [ref=f286e103]: 무료배송
+                  - link [ref=f286e109] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11153402','01','03','10025654','101203302');
+                    - paragraph [ref=f286e111]:
+                      - text: ↓
+                      - emphasis [ref=f286e113]: "33"
+                      - text: "%"
+                    - generic [ref=f286e115]:
+                      - generic [ref=f286e116]:
+                        - paragraph [ref=f286e117]: 상주궁중곶감
+                        - paragraph [ref=f286e118]: 반건시2kg(50gx40개)
+                      - generic [ref=f286e119]:
+                        - paragraph [ref=f286e120]:
+                          - generic [ref=f286e121]:
+                            - emphasis [ref=f286e122]: 40,000
+                            - text: 원
+                        - paragraph [ref=f286e123]:
+                          - generic [ref=f286e124]:
+                            - emphasis [ref=f286e125]: 60,000
+                            - text: 원
+                      - generic [ref=f286e126]: 무료배송
+                  - link [ref=f286e132] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11450102','01','03','10025654','101202304');
+                    - paragraph [ref=f286e134]:
+                      - text: ↓
+                      - emphasis [ref=f286e136]: "19"
+                      - text: "%"
+                    - generic [ref=f286e138]:
+                      - generic [ref=f286e139]:
+                        - paragraph [ref=f286e140]: 올찬황금향
+                        - paragraph [ref=f286e141]: 황금향5kg(24~30과)
+                      - generic [ref=f286e142]:
+                        - paragraph [ref=f286e143]:
+                          - generic [ref=f286e144]:
+                            - emphasis [ref=f286e145]: 51,300
+                            - text: 원
+                        - paragraph [ref=f286e146]:
+                          - generic [ref=f286e147]:
+                            - emphasis [ref=f286e148]: 64,000
+                            - text: 원
+                      - generic [ref=f286e149]: 무료배송
+                  - link [ref=f286e155] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('34023310','01','03','10025654','102204303');
+                    - paragraph [ref=f286e157]:
+                      - text: ↓
+                      - emphasis [ref=f286e159]: "30"
+                      - text: "%"
+                    - generic [ref=f286e161]:
+                      - generic [ref=f286e162]:
+                        - paragraph [ref=f286e163]: 옥돔 200g*8마리
+                        - paragraph [ref=f286e164]: 1.6kg
+                      - generic [ref=f286e165]:
+                        - paragraph [ref=f286e166]:
+                          - generic [ref=f286e167]:
+                            - emphasis [ref=f286e168]: 119,000
+                            - text: 원
+                        - paragraph [ref=f286e169]:
+                          - generic [ref=f286e170]:
+                            - emphasis [ref=f286e171]: 170,000
+                            - text: 원
+                      - generic [ref=f286e172]: 무료배송
+                  - link [ref=f286e178] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('32020701','01','03','10025654','104207303');
+                    - paragraph [ref=f286e180]:
+                      - text: ↓
+                      - emphasis [ref=f286e182]: "13"
+                      - text: "%"
+                    - generic [ref=f286e184]:
+                      - generic [ref=f286e185]:
+                        - paragraph [ref=f286e186]: 제일수산영어조합법인
+                        - paragraph [ref=f286e187]: 고추장굴비1호500g(250gx2개)
+                      - generic [ref=f286e188]:
+                        - paragraph [ref=f286e189]:
+                          - generic [ref=f286e190]:
+                            - emphasis [ref=f286e191]: 56,500
+                            - text: 원
+                        - paragraph [ref=f286e192]:
+                          - generic [ref=f286e193]:
+                            - emphasis [ref=f286e194]: 65,000
+                            - text: 원
+                      - generic [ref=f286e195]: 무료배송
+                  - link "↓ 10 % 완도진영물산멸치 완도진영물산멸치 중멸(상품) 1.5kg 40,500원 45,000원 무료배송" [ref=f286e201] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33059012','01','03','10025654','102202302');
+                    - generic [ref=f286e202]:
+                      - paragraph [ref=f286e203]:
+                        - text: ↓
+                        - emphasis [ref=f286e205]: "10"
+                        - text: "%"
+                      - img "완도진영물산멸치" [ref=f286e206]
+                    - generic [ref=f286e207]:
+                      - generic [ref=f286e208]:
+                        - paragraph [ref=f286e209]: 완도진영물산멸치
+                        - paragraph [ref=f286e210]: 중멸(상품) 1.5kg
+                      - generic [ref=f286e211]:
+                        - paragraph [ref=f286e212]:
+                          - generic [ref=f286e213]:
+                            - emphasis [ref=f286e214]: 40,500
+                            - text: 원
+                        - paragraph [ref=f286e215]:
+                          - generic [ref=f286e216]:
+                            - emphasis [ref=f286e217]: 45,000
+                            - text: 원
+                      - generic [ref=f286e218]: 무료배송
+                  - link "↓ 23 % 감도가곶감 감도가곶감 건시1kg(25-30개) 26,000원 34,000원 무료배송" [ref=f286e224] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11073713','01','03','10025654','101203301');
+                    - generic [ref=f286e225]:
+                      - paragraph [ref=f286e226]:
+                        - text: ↓
+                        - emphasis [ref=f286e228]: "23"
+                        - text: "%"
+                      - img "감도가곶감" [ref=f286e229]
+                    - generic [ref=f286e230]:
+                      - generic [ref=f286e231]:
+                        - paragraph [ref=f286e232]: 감도가곶감
+                        - paragraph [ref=f286e233]: 건시1kg(25-30개)
+                      - generic [ref=f286e234]:
+                        - paragraph [ref=f286e235]:
+                          - generic [ref=f286e236]:
+                            - emphasis [ref=f286e237]: 26,000
+                            - text: 원
+                        - paragraph [ref=f286e238]:
+                          - generic [ref=f286e239]:
+                            - emphasis [ref=f286e240]: 34,000
+                            - text: 원
+                      - generic [ref=f286e241]: 무료배송
+                  - link "↓ 14 % 밤뜨래영농조합법인 밤뜨래영농조합법인 우리나라맛밤1호80gx8봉입 24,570원 28,800원 무료배송" [ref=f286e247] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('25092404','01','03','10025654','104208301');
+                    - generic [ref=f286e248]:
+                      - paragraph [ref=f286e249]:
+                        - text: ↓
+                        - emphasis [ref=f286e251]: "14"
+                        - text: "%"
+                      - img "밤뜨래영농조합법인" [ref=f286e252]
+                    - generic [ref=f286e253]:
+                      - generic [ref=f286e254]:
+                        - paragraph [ref=f286e255]: 밤뜨래영농조합법인
+                        - paragraph [ref=f286e256]: 우리나라맛밤1호80gx8봉입
+                      - generic [ref=f286e257]:
+                        - paragraph [ref=f286e258]:
+                          - generic [ref=f286e259]:
+                            - emphasis [ref=f286e260]: 24,570
+                            - text: 원
+                        - paragraph [ref=f286e261]:
+                          - generic [ref=f286e262]:
+                            - emphasis [ref=f286e263]: 28,800
+                            - text: 원
+                      - generic [ref=f286e264]: 무료배송
+                  - link "↓ 5 % 성경 파래 재래 식탁김세트 성경 파래 재래 식탁김세트 재래 9절 8매*10봉, 파래 9절 8매*10봉 9,500원 10,000원 무료배송" [ref=f286e270] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33140804','01','03','10025654','102201305');
+                    - generic [ref=f286e271]:
+                      - paragraph [ref=f286e272]:
+                        - text: ↓
+                        - emphasis [ref=f286e274]: "5"
+                        - text: "%"
+                      - img "성경 파래 재래 식탁김세트" [ref=f286e275]
+                    - generic [ref=f286e276]:
+                      - generic [ref=f286e277]:
+                        - paragraph [ref=f286e278]: 성경 파래 재래 식탁김세트
+                        - paragraph [ref=f286e279]: 재래 9절 8매*10봉, 파래 9절 8매*10봉
+                      - generic [ref=f286e280]:
+                        - paragraph [ref=f286e281]:
+                          - generic [ref=f286e282]:
+                            - emphasis [ref=f286e283]: 9,500
+                            - text: 원
+                        - paragraph [ref=f286e284]:
+                          - generic [ref=f286e285]:
+                            - emphasis [ref=f286e286]: 10,000
+                            - text: 원
+                      - generic [ref=f286e287]: 무료배송
+                  - link "↓ 26 % 상주곶감집곶감(반건시) 상주곶감집곶감(반건시) 반건시2kg(50gx40개) 39,900원 54,000원 무료배송" [ref=f286e293] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11072703','01','03','10025654','101203302');
+                    - generic [ref=f286e294]:
+                      - paragraph [ref=f286e295]:
+                        - text: ↓
+                        - emphasis [ref=f286e297]: "26"
+                        - text: "%"
+                      - img "상주곶감집곶감(반건시)" [ref=f286e298]
+                    - generic [ref=f286e299]:
+                      - generic [ref=f286e300]:
+                        - paragraph [ref=f286e301]: 상주곶감집곶감(반건시)
+                        - paragraph [ref=f286e302]: 반건시2kg(50gx40개)
+                      - generic [ref=f286e303]:
+                        - paragraph [ref=f286e304]:
+                          - generic [ref=f286e305]:
+                            - emphasis [ref=f286e306]: 39,900
+                            - text: 원
+                        - paragraph [ref=f286e307]:
+                          - generic [ref=f286e308]:
+                            - emphasis [ref=f286e309]: 54,000
+                            - text: 원
+                      - generic [ref=f286e310]: 무료배송
+                  - link [ref=f286e316] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('17060401','01','03','10025654','104204303');
+                    - paragraph [ref=f286e318]:
+                      - text: ↓
+                      - emphasis [ref=f286e320]: "36"
+                      - text: "%"
+                    - generic [ref=f286e322]:
+                      - generic [ref=f286e323]:
+                        - paragraph [ref=f286e324]: 서우영농조합법인
+                        - paragraph [ref=f286e325]: 호두기름375mlx1병
+                      - generic [ref=f286e326]:
+                        - paragraph [ref=f286e327]:
+                          - generic [ref=f286e328]:
+                            - emphasis [ref=f286e329]: 25,600
+                            - text: 원
+                        - paragraph [ref=f286e330]:
+                          - generic [ref=f286e331]:
+                            - emphasis [ref=f286e332]: 40,000
+                            - text: 원
+                      - generic [ref=f286e333]: 무료배송
+                  - link [ref=f286e339] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33063104','01','03','10025654','102207307');
+                    - paragraph [ref=f286e341]:
+                      - text: ↓
+                      - emphasis [ref=f286e343]: "13"
+                      - text: "%"
+                    - generic [ref=f286e345]:
+                      - generic [ref=f286e346]:
+                        - paragraph [ref=f286e347]: 기장식품
+                        - paragraph [ref=f286e348]: 기장미역240g(40gx6봉)
+                      - generic [ref=f286e349]:
+                        - paragraph [ref=f286e350]:
+                          - generic [ref=f286e351]:
+                            - emphasis [ref=f286e352]: 15,900
+                            - text: 원
+                        - paragraph [ref=f286e353]:
+                          - generic [ref=f286e354]:
+                            - emphasis [ref=f286e355]: 18,400
+                            - text: 원
+                      - generic [ref=f286e356]: 무료배송
+                  - link [ref=f286e362] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11152401','01','03','10025654','101203302');
+                    - paragraph [ref=f286e364]:
+                      - text: ↓
+                      - emphasis [ref=f286e366]: "32"
+                      - text: "%"
+                    - generic [ref=f286e368]:
+                      - generic [ref=f286e369]:
+                        - paragraph [ref=f286e370]: 가미농산곶감(반건시)
+                        - paragraph [ref=f286e371]: 반건시1.2kg(30개)
+                      - generic [ref=f286e372]:
+                        - paragraph [ref=f286e373]:
+                          - generic [ref=f286e374]:
+                            - emphasis [ref=f286e375]: 21,080
+                            - text: 원
+                        - paragraph [ref=f286e376]:
+                          - generic [ref=f286e377]:
+                            - emphasis [ref=f286e378]: 31,000
+                            - text: 원
+                      - generic [ref=f286e379]: 무료배송
+                  - link [ref=f286e385] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('23013211','01','03','10025654','103201304');
+                    - paragraph [ref=f286e387]:
+                      - text: ↓
+                      - emphasis [ref=f286e389]: "15"
+                      - text: "%"
+                    - generic [ref=f286e391]:
+                      - generic [ref=f286e392]:
+                        - paragraph [ref=f286e393]: "[대구축산농협] 1++등급 한우 프리미엄 등심정육 4호"
+                        - paragraph [ref=f286e394]: 1.5kg(1++등급 등심,불고기,국거리 각500g(냉장))
+                      - generic [ref=f286e395]:
+                        - paragraph [ref=f286e396]:
+                          - generic [ref=f286e397]:
+                            - emphasis [ref=f286e398]: 139,000
+                            - text: 원
+                        - paragraph [ref=f286e399]:
+                          - generic [ref=f286e400]:
+                            - emphasis [ref=f286e401]: 165,000
+                            - text: 원
+                      - generic [ref=f286e402]: 무료배송
+                  - link [ref=f286e408] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11151325','01','03','10025654','101203311');
+                    - paragraph [ref=f286e410]:
+                      - text: ↓
+                      - emphasis [ref=f286e412]: "47"
+                      - text: "%"
+                    - generic [ref=f286e414]:
+                      - generic [ref=f286e415]:
+                        - paragraph [ref=f286e416]: 두레곶감(대봉반건시)
+                        - paragraph [ref=f286e417]: 대봉반건시2.1kg(90g*24개)
+                      - generic [ref=f286e418]:
+                        - paragraph [ref=f286e419]:
+                          - generic [ref=f286e420]:
+                            - emphasis [ref=f286e421]: 42,000
+                            - text: 원
+                        - paragraph [ref=f286e422]:
+                          - generic [ref=f286e423]:
+                            - emphasis [ref=f286e424]: 80,000
+                            - text: 원
+                      - generic [ref=f286e425]: 무료배송
+                  - link [ref=f286e431] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11153402','01','03','10025654','101203302');
+                    - paragraph [ref=f286e433]:
+                      - text: ↓
+                      - emphasis [ref=f286e435]: "33"
+                      - text: "%"
+                    - generic [ref=f286e437]:
+                      - generic [ref=f286e438]:
+                        - paragraph [ref=f286e439]: 상주궁중곶감
+                        - paragraph [ref=f286e440]: 반건시2kg(50gx40개)
+                      - generic [ref=f286e441]:
+                        - paragraph [ref=f286e442]:
+                          - generic [ref=f286e443]:
+                            - emphasis [ref=f286e444]: 40,000
+                            - text: 원
+                        - paragraph [ref=f286e445]:
+                          - generic [ref=f286e446]:
+                            - emphasis [ref=f286e447]: 60,000
+                            - text: 원
+                      - generic [ref=f286e448]: 무료배송
+                  - link [ref=f286e454] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11450102','01','03','10025654','101202304');
+                    - paragraph [ref=f286e456]:
+                      - text: ↓
+                      - emphasis [ref=f286e458]: "19"
+                      - text: "%"
+                    - generic [ref=f286e460]:
+                      - generic [ref=f286e461]:
+                        - paragraph [ref=f286e462]: 올찬황금향
+                        - paragraph [ref=f286e463]: 황금향5kg(24~30과)
+                      - generic [ref=f286e464]:
+                        - paragraph [ref=f286e465]:
+                          - generic [ref=f286e466]:
+                            - emphasis [ref=f286e467]: 51,300
+                            - text: 원
+                        - paragraph [ref=f286e468]:
+                          - generic [ref=f286e469]:
+                            - emphasis [ref=f286e470]: 64,000
+                            - text: 원
+                      - generic [ref=f286e471]: 무료배송
+                  - link [ref=f286e477] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('34023310','01','03','10025654','102204303');
+                    - paragraph [ref=f286e479]:
+                      - text: ↓
+                      - emphasis [ref=f286e481]: "30"
+                      - text: "%"
+                    - generic [ref=f286e483]:
+                      - generic [ref=f286e484]:
+                        - paragraph [ref=f286e485]: 옥돔 200g*8마리
+                        - paragraph [ref=f286e486]: 1.6kg
+                      - generic [ref=f286e487]:
+                        - paragraph [ref=f286e488]:
+                          - generic [ref=f286e489]:
+                            - emphasis [ref=f286e490]: 119,000
+                            - text: 원
+                        - paragraph [ref=f286e491]:
+                          - generic [ref=f286e492]:
+                            - emphasis [ref=f286e493]: 170,000
+                            - text: 원
+                      - generic [ref=f286e494]: 무료배송
+                  - link [ref=f286e500] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('32020701','01','03','10025654','104207303');
+                    - paragraph [ref=f286e502]:
+                      - text: ↓
+                      - emphasis [ref=f286e504]: "13"
+                      - text: "%"
+                    - generic [ref=f286e506]:
+                      - generic [ref=f286e507]:
+                        - paragraph [ref=f286e508]: 제일수산영어조합법인
+                        - paragraph [ref=f286e509]: 고추장굴비1호500g(250gx2개)
+                      - generic [ref=f286e510]:
+                        - paragraph [ref=f286e511]:
+                          - generic [ref=f286e512]:
+                            - emphasis [ref=f286e513]: 56,500
+                            - text: 원
+                        - paragraph [ref=f286e514]:
+                          - generic [ref=f286e515]:
+                            - emphasis [ref=f286e516]: 65,000
+                            - text: 원
+                      - generic [ref=f286e517]: 무료배송
+                  - link [ref=f286e523] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33059012','01','03','10025654','102202302');
+                    - paragraph [ref=f286e525]:
+                      - text: ↓
+                      - emphasis [ref=f286e527]: "10"
+                      - text: "%"
+                    - generic [ref=f286e529]:
+                      - generic [ref=f286e530]:
+                        - paragraph [ref=f286e531]: 완도진영물산멸치
+                        - paragraph [ref=f286e532]: 중멸(상품) 1.5kg
+                      - generic [ref=f286e533]:
+                        - paragraph [ref=f286e534]:
+                          - generic [ref=f286e535]:
+                            - emphasis [ref=f286e536]: 40,500
+                            - text: 원
+                        - paragraph [ref=f286e537]:
+                          - generic [ref=f286e538]:
+                            - emphasis [ref=f286e539]: 45,000
+                            - text: 원
+                      - generic [ref=f286e540]: 무료배송
+                  - link [ref=f286e546] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11073713','01','03','10025654','101203301');
+                    - paragraph [ref=f286e548]:
+                      - text: ↓
+                      - emphasis [ref=f286e550]: "23"
+                      - text: "%"
+                    - generic [ref=f286e552]:
+                      - generic [ref=f286e553]:
+                        - paragraph [ref=f286e554]: 감도가곶감
+                        - paragraph [ref=f286e555]: 건시1kg(25-30개)
+                      - generic [ref=f286e556]:
+                        - paragraph [ref=f286e557]:
+                          - generic [ref=f286e558]:
+                            - emphasis [ref=f286e559]: 26,000
+                            - text: 원
+                        - paragraph [ref=f286e560]:
+                          - generic [ref=f286e561]:
+                            - emphasis [ref=f286e562]: 34,000
+                            - text: 원
+                      - generic [ref=f286e563]: 무료배송
+                  - link [ref=f286e569] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('25092404','01','03','10025654','104208301');
+                    - paragraph [ref=f286e571]:
+                      - text: ↓
+                      - emphasis [ref=f286e573]: "14"
+                      - text: "%"
+                    - generic [ref=f286e575]:
+                      - generic [ref=f286e576]:
+                        - paragraph [ref=f286e577]: 밤뜨래영농조합법인
+                        - paragraph [ref=f286e578]: 우리나라맛밤1호80gx8봉입
+                      - generic [ref=f286e579]:
+                        - paragraph [ref=f286e580]:
+                          - generic [ref=f286e581]:
+                            - emphasis [ref=f286e582]: 24,570
+                            - text: 원
+                        - paragraph [ref=f286e583]:
+                          - generic [ref=f286e584]:
+                            - emphasis [ref=f286e585]: 28,800
+                            - text: 원
+                      - generic [ref=f286e586]: 무료배송
+                  - link [ref=f286e592] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33140804','01','03','10025654','102201305');
+                    - paragraph [ref=f286e594]:
+                      - text: ↓
+                      - emphasis [ref=f286e596]: "5"
+                      - text: "%"
+                    - generic [ref=f286e598]:
+                      - generic [ref=f286e599]:
+                        - paragraph [ref=f286e600]: 성경 파래 재래 식탁김세트
+                        - paragraph [ref=f286e601]: 재래 9절 8매*10봉, 파래 9절 8매*10봉
+                      - generic [ref=f286e602]:
+                        - paragraph [ref=f286e603]:
+                          - generic [ref=f286e604]:
+                            - emphasis [ref=f286e605]: 9,500
+                            - text: 원
+                        - paragraph [ref=f286e606]:
+                          - generic [ref=f286e607]:
+                            - emphasis [ref=f286e608]: 10,000
+                            - text: 원
+                      - generic [ref=f286e609]: 무료배송
+                  - link [ref=f286e615] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11072703','01','03','10025654','101203302');
+                    - paragraph [ref=f286e617]:
+                      - text: ↓
+                      - emphasis [ref=f286e619]: "26"
+                      - text: "%"
+                    - generic [ref=f286e621]:
+                      - generic [ref=f286e622]:
+                        - paragraph [ref=f286e623]: 상주곶감집곶감(반건시)
+                        - paragraph [ref=f286e624]: 반건시2kg(50gx40개)
+                      - generic [ref=f286e625]:
+                        - paragraph [ref=f286e626]:
+                          - generic [ref=f286e627]:
+                            - emphasis [ref=f286e628]: 39,900
+                            - text: 원
+                        - paragraph [ref=f286e629]:
+                          - generic [ref=f286e630]:
+                            - emphasis [ref=f286e631]: 54,000
+                            - text: 원
+                      - generic [ref=f286e632]: 무료배송
+                  - link [ref=f286e638] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('17060401','01','03','10025654','104204303');
+                    - paragraph [ref=f286e640]:
+                      - text: ↓
+                      - emphasis [ref=f286e642]: "36"
+                      - text: "%"
+                    - generic [ref=f286e644]:
+                      - generic [ref=f286e645]:
+                        - paragraph [ref=f286e646]: 서우영농조합법인
+                        - paragraph [ref=f286e647]: 호두기름375mlx1병
+                      - generic [ref=f286e648]:
+                        - paragraph [ref=f286e649]:
+                          - generic [ref=f286e650]:
+                            - emphasis [ref=f286e651]: 25,600
+                            - text: 원
+                        - paragraph [ref=f286e652]:
+                          - generic [ref=f286e653]:
+                            - emphasis [ref=f286e654]: 40,000
+                            - text: 원
+                      - generic [ref=f286e655]: 무료배송
+                  - link [ref=f286e661] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('33063104','01','03','10025654','102207307');
+                    - paragraph [ref=f286e663]:
+                      - text: ↓
+                      - emphasis [ref=f286e665]: "13"
+                      - text: "%"
+                    - generic [ref=f286e667]:
+                      - generic [ref=f286e668]:
+                        - paragraph [ref=f286e669]: 기장식품
+                        - paragraph [ref=f286e670]: 기장미역240g(40gx6봉)
+                      - generic [ref=f286e671]:
+                        - paragraph [ref=f286e672]:
+                          - generic [ref=f286e673]:
+                            - emphasis [ref=f286e674]: 15,900
+                            - text: 원
+                        - paragraph [ref=f286e675]:
+                          - generic [ref=f286e676]:
+                            - emphasis [ref=f286e677]: 18,400
+                            - text: 원
+                      - generic [ref=f286e678]: 무료배송
+                  - link [ref=f286e684] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11152401','01','03','10025654','101203302');
+                    - paragraph [ref=f286e686]:
+                      - text: ↓
+                      - emphasis [ref=f286e688]: "32"
+                      - text: "%"
+                    - generic [ref=f286e690]:
+                      - generic [ref=f286e691]:
+                        - paragraph [ref=f286e692]: 가미농산곶감(반건시)
+                        - paragraph [ref=f286e693]: 반건시1.2kg(30개)
+                      - generic [ref=f286e694]:
+                        - paragraph [ref=f286e695]:
+                          - generic [ref=f286e696]:
+                            - emphasis [ref=f286e697]: 21,080
+                            - text: 원
+                        - paragraph [ref=f286e698]:
+                          - generic [ref=f286e699]:
+                            - emphasis [ref=f286e700]: 31,000
+                            - text: 원
+                      - generic [ref=f286e701]: 무료배송
+                  - link [ref=f286e707] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('23013211','01','03','10025654','103201304');
+                    - paragraph [ref=f286e709]:
+                      - text: ↓
+                      - emphasis [ref=f286e711]: "15"
+                      - text: "%"
+                    - generic [ref=f286e713]:
+                      - generic [ref=f286e714]:
+                        - paragraph [ref=f286e715]: "[대구축산농협] 1++등급 한우 프리미엄 등심정육 4호"
+                        - paragraph [ref=f286e716]: 1.5kg(1++등급 등심,불고기,국거리 각500g(냉장))
+                      - generic [ref=f286e717]:
+                        - paragraph [ref=f286e718]:
+                          - generic [ref=f286e719]:
+                            - emphasis [ref=f286e720]: 139,000
+                            - text: 원
+                        - paragraph [ref=f286e721]:
+                          - generic [ref=f286e722]:
+                            - emphasis [ref=f286e723]: 165,000
+                            - text: 원
+                      - generic [ref=f286e724]: 무료배송
+                  - link [ref=f286e730] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11151325','01','03','10025654','101203311');
+                    - paragraph [ref=f286e732]:
+                      - text: ↓
+                      - emphasis [ref=f286e734]: "47"
+                      - text: "%"
+                    - generic [ref=f286e736]:
+                      - generic [ref=f286e737]:
+                        - paragraph [ref=f286e738]: 두레곶감(대봉반건시)
+                        - paragraph [ref=f286e739]: 대봉반건시2.1kg(90g*24개)
+                      - generic [ref=f286e740]:
+                        - paragraph [ref=f286e741]:
+                          - generic [ref=f286e742]:
+                            - emphasis [ref=f286e743]: 42,000
+                            - text: 원
+                        - paragraph [ref=f286e744]:
+                          - generic [ref=f286e745]:
+                            - emphasis [ref=f286e746]: 80,000
+                            - text: 원
+                      - generic [ref=f286e747]: 무료배송
+                  - link [ref=f286e753] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11153402','01','03','10025654','101203302');
+                    - paragraph [ref=f286e755]:
+                      - text: ↓
+                      - emphasis [ref=f286e757]: "33"
+                      - text: "%"
+                    - generic [ref=f286e759]:
+                      - generic [ref=f286e760]:
+                        - paragraph [ref=f286e761]: 상주궁중곶감
+                        - paragraph [ref=f286e762]: 반건시2kg(50gx40개)
+                      - generic [ref=f286e763]:
+                        - paragraph [ref=f286e764]:
+                          - generic [ref=f286e765]:
+                            - emphasis [ref=f286e766]: 40,000
+                            - text: 원
+                        - paragraph [ref=f286e767]:
+                          - generic [ref=f286e768]:
+                            - emphasis [ref=f286e769]: 60,000
+                            - text: 원
+                      - generic [ref=f286e770]: 무료배송
+                  - link [ref=f286e776] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('11450102','01','03','10025654','101202304');
+                    - paragraph [ref=f286e778]:
+                      - text: ↓
+                      - emphasis [ref=f286e780]: "19"
+                      - text: "%"
+                    - generic [ref=f286e782]:
+                      - generic [ref=f286e783]:
+                        - paragraph [ref=f286e784]: 올찬황금향
+                        - paragraph [ref=f286e785]: 황금향5kg(24~30과)
+                      - generic [ref=f286e786]:
+                        - paragraph [ref=f286e787]:
+                          - generic [ref=f286e788]:
+                            - emphasis [ref=f286e789]: 51,300
+                            - text: 원
+                        - paragraph [ref=f286e790]:
+                          - generic [ref=f286e791]:
+                            - emphasis [ref=f286e792]: 64,000
+                            - text: 원
+                      - generic [ref=f286e793]: 무료배송
+                  - link [ref=f286e799] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('34023310','01','03','10025654','102204303');
+                    - paragraph [ref=f286e801]:
+                      - text: ↓
+                      - emphasis [ref=f286e803]: "30"
+                      - text: "%"
+                    - generic [ref=f286e805]:
+                      - generic [ref=f286e806]:
+                        - paragraph [ref=f286e807]: 옥돔 200g*8마리
+                        - paragraph [ref=f286e808]: 1.6kg
+                      - generic [ref=f286e809]:
+                        - paragraph [ref=f286e810]:
+                          - generic [ref=f286e811]:
+                            - emphasis [ref=f286e812]: 119,000
+                            - text: 원
+                        - paragraph [ref=f286e813]:
+                          - generic [ref=f286e814]:
+                            - emphasis [ref=f286e815]: 170,000
+                            - text: 원
+                      - generic [ref=f286e816]: 무료배송
+                  - link [ref=f286e822] [cursor=pointer]:
+                    - /url: javaScript:fn_goodsDetailView('32020701','01','03','10025654','104207303');
+                    - paragraph [ref=f286e824]:
+                      - text: ↓
+                      - emphasis [ref=f286e826]: "13"
+                      - text: "%"
+                    - generic [ref=f286e828]:
+                      - generic [ref=f286e829]:
+                        - paragraph [ref=f286e830]: 제일수산영어조합법인
+                        - paragraph [ref=f286e831]: 고추장굴비1호500g(250gx2개)
+                      - generic [ref=f286e832]:
+                        - paragraph [ref=f286e833]:
+                          - generic [ref=f286e834]:
+                            - emphasis [ref=f286e835]: 56,500
+                            - text: 원
+                        - paragraph [ref=f286e836]:
+                          - generic [ref=f286e837]:
+                            - emphasis [ref=f286e838]: 65,000
+                            - text: 원
+                      - generic [ref=f286e839]: 무료배송
+                - button "Next" [ref=f286e842] [cursor=pointer]
+            - link [ref=f286e844] [cursor=pointer]:
+              - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10016606
+        - list [ref=f286e846]:
+          - listitem [ref=f286e847]:
+            - link "전체" [ref=f286e848] [cursor=pointer]:
+              - /url: javascript:fn_changeCtrgy('','');
+          - listitem [ref=f286e849]:
+            - link "곡물류" [ref=f286e850] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e851]:
+            - link "과일류" [ref=f286e852] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e853]:
+            - link "곶감/견과/건과일" [ref=f286e854] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e855]:
+            - link "채소류" [ref=f286e856] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e857]:
+            - link "버섯류" [ref=f286e858] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e859]:
+            - link "차류" [ref=f286e860] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e861]:
+            - link "김" [ref=f286e862] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e863]:
+            - link "멸치" [ref=f286e864] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e865]:
+            - link "굴비" [ref=f286e866] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e867]:
+            - link "생선류" [ref=f286e868] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e869]:
+            - link "건어물" [ref=f286e870] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e871]:
+            - link "젓갈류" [ref=f286e872] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e873]:
+            - link "해산물" [ref=f286e874] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e875]:
+            - link "건해산물세트" [ref=f286e876] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e877]:
+            - link "한우" [ref=f286e878] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e879]:
+            - link "한돈" [ref=f286e880] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e881]:
+            - link "닭/오리/계란/기타" [ref=f286e882] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e883]:
+            - link "한과" [ref=f286e884] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e885]:
+            - link "장류" [ref=f286e886] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e887]:
+            - link "조미료/양념류" [ref=f286e888] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e889]:
+            - link "참기름/들기름/식용유" [ref=f286e890] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e891]:
+            - link "소면/밀가루" [ref=f286e892] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e893]:
+            - link "반조리/즉석식품" [ref=f286e894] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e895]:
+            - link "반찬류" [ref=f286e896] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e897]:
+            - link "과자/음료/커피/유제품/잼" [ref=f286e898] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e899]:
+            - link "홍삼/수삼/꿀/건강식품" [ref=f286e900] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e901]:
+            - link "목기/유기" [ref=f286e902] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e903]:
+            - link "전통공예품" [ref=f286e904] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f286e905]:
+            - link "전통주" [ref=f286e906] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f286e907]:
+          - generic [ref=f286e908]:
+            - text: 총
+            - generic [ref=f286e909]: 3,306
+            - text: 개
+          - generic [ref=f286e910]:
+            - link "판매량순" [ref=f286e911] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('tc');
+            - link "판매액순" [ref=f286e912] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('tp');
+            - link "낮은가격순" [ref=f286e913] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('lp');
+            - link "높은가격순" [ref=f286e914] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('hp');
+            - link "최신상품순" [ref=f286e915] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('ng');
+            - link "상품평많은순" [ref=f286e916] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('ev');
+            - link "추천상품순" [ref=f286e917] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('gs');
+            - link "할인율순" [ref=f286e918] [cursor=pointer]:
+              - /url: javascript:fn_changeOrder('hr');
+          - generic [ref=f286e919]:
+            - generic [ref=f286e920]:
+              - textbox "검색어입력" [ref=f286e921]:
+                - /placeholder: 검색
+              - link "검색버튼" [ref=f286e922] [cursor=pointer]:
+                - /url: javascript:fn_searchGoods();
+            - generic [ref=f286e923]:
+              - combobox [ref=f286e924]:
+                - option "20개씩"
+                - option "40개씩" [selected]
+                - option "60개씩"
+              - link "이미지형보기" [ref=f286e925] [cursor=pointer]:
+                - /url: javascript:fn_changeListType('imglist');
+              - link "리스트형보기" [ref=f286e927] [cursor=pointer]:
+                - /url: javascript:fn_changeListType('textlist');
+        - list [ref=f286e931]:
+          - listitem [ref=f286e932] [cursor=pointer]:
+            - link [ref=f286e933]:
+              - /url: javaScript:fn_goodsDetailView('33020421','01','03','10007039','102201303');
+              - generic [ref=f286e934]:
+                - img "수산전통식품" [ref=f286e937]
+                - img "식약처HACCP" [ref=f286e940]
+              - generic [ref=f286e941]:
+                - img "특산물" [ref=f286e943]
+                - img "대천김" [ref=f286e944]
+              - generic [ref=f286e945]:
+                - generic [ref=f286e946]:
+                  - paragraph [ref=f286e947]: 대천김
+                  - list [ref=f286e948]:
+                    - generic [ref=f286e949]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e950]: 조미구이재래도시락김(9절9매x24봉)
+                    - generic [ref=f286e951]:
+                      - term: 기준판매가
+                      - definition [ref=f286e952]: 11,500
+                      - definition [ref=f286e953]: 원
+                    - generic [ref=f286e954]:
+                      - term: 할인율
+                      - definition [ref=f286e955]: "17"
+                      - definition [ref=f286e956]: "%"
+                    - generic [ref=f286e957]:
+                      - term: 판매가
+                      - definition [ref=f286e958]: 9,500
+                      - definition [ref=f286e959]: 원
+                    - generic [ref=f286e960]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e961]: "5.0"
+                      - definition [ref=f286e962]: (26,045)
+                - list [ref=f286e964]:
+                  - listitem [ref=f286e965]: 무료배송
+            - generic [ref=f286e966]:
+              - link "바로구매" [ref=f286e967]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020421','01','N','102201303');
+              - link "장바구니" [ref=f286e969]:
+                - /url: javascript:setCart('03','10007039','31044102','33020421','01','N','102201303');
+              - link "찜" [ref=f286e971]:
+                - /url: javascript:jjim('03','10007039','31044102','33020421','01','N','102201303');
+          - listitem [ref=f286e973] [cursor=pointer]:
+            - link [ref=f286e974]:
+              - /url: javaScript:fn_goodsDetailView('11017421','01','03','10007039','101202307');
+              - generic [ref=f286e975]:
+                - img "특산물" [ref=f286e977]
+                - img "혼합과일선물세트1호(특상)4kg(사과4~6과.배3~5과)" [ref=f286e978]
+              - generic [ref=f286e979]:
+                - generic [ref=f286e980]:
+                  - paragraph [ref=f286e981]: 혼합과일선물세트1호(특상)4kg(사과4~6과.배3~5과)
+                  - list [ref=f286e982]:
+                    - generic [ref=f286e983]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e984]: 혼합과일선물세트1호(특상)4kg(사과4~6과.배3~5과)
+                    - generic [ref=f286e985]:
+                      - term: 기준판매가
+                      - definition [ref=f286e986]: 70,000
+                      - definition [ref=f286e987]: 원
+                    - generic [ref=f286e988]:
+                      - term: 할인율
+                      - definition [ref=f286e989]: "23"
+                      - definition [ref=f286e990]: "%"
+                    - generic [ref=f286e991]:
+                      - term: 판매가
+                      - definition [ref=f286e992]: 53,820
+                      - definition [ref=f286e993]: 원
+                    - generic [ref=f286e994]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e995]: "4.9"
+                      - definition [ref=f286e996]: (3,625)
+                - list [ref=f286e998]:
+                  - listitem [ref=f286e999]: 무료배송
+            - generic [ref=f286e1000]:
+              - link "바로구매" [ref=f286e1001]:
+                - /url: javascript:nowBuy('03','10007039','70111002','11017421','01','N','101202307');
+              - link "장바구니" [ref=f286e1003]:
+                - /url: javascript:setCart('03','10007039','70111002','11017421','01','N','101202307');
+              - link "찜" [ref=f286e1005]:
+                - /url: javascript:jjim('03','10007039','70111002','11017421','01','N','101202307');
+          - listitem [ref=f286e1007] [cursor=pointer]:
+            - link [ref=f286e1008]:
+              - /url: javaScript:fn_goodsDetailView('33020401','01','03','10007039','102201302');
+              - generic [ref=f286e1009]:
+                - img "수산전통식품" [ref=f286e1012]
+                - img "식약처HACCP" [ref=f286e1015]
+              - generic [ref=f286e1016]:
+                - img "특산물" [ref=f286e1018]
+                - img "대천김" [ref=f286e1019]
+              - generic [ref=f286e1020]:
+                - generic [ref=f286e1021]:
+                  - paragraph [ref=f286e1022]: 대천김
+                  - list [ref=f286e1023]:
+                    - generic [ref=f286e1024]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1025]: 조미구이재래김(5매x11봉)
+                    - generic [ref=f286e1026]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1027]: 18,000
+                      - definition [ref=f286e1028]: 원
+                    - generic [ref=f286e1029]:
+                      - term: 할인율
+                      - definition [ref=f286e1030]: "20"
+                      - definition [ref=f286e1031]: "%"
+                    - generic [ref=f286e1032]:
+                      - term: 판매가
+                      - definition [ref=f286e1033]: 14,250
+                      - definition [ref=f286e1034]: 원
+                    - generic [ref=f286e1035]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1036]: "5.0"
+                      - definition [ref=f286e1037]: (48,481)
+                - list [ref=f286e1039]:
+                  - listitem [ref=f286e1040]: 무료배송
+            - generic [ref=f286e1041]:
+              - link "바로구매" [ref=f286e1042]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020401','01','N','102201302');
+              - link "장바구니" [ref=f286e1044]:
+                - /url: javascript:setCart('03','10007039','31044102','33020401','01','N','102201302');
+              - link "찜" [ref=f286e1046]:
+                - /url: javascript:jjim('03','10007039','31044102','33020401','01','N','102201302');
+          - listitem [ref=f286e1048] [cursor=pointer]:
+            - link [ref=f286e1049]:
+              - /url: javaScript:fn_goodsDetailView('33020419','01','03','10007039','102201302');
+              - generic [ref=f286e1050]:
+                - img "수산전통식품" [ref=f286e1053]
+                - img "식약처HACCP" [ref=f286e1056]
+              - generic [ref=f286e1057]:
+                - img "특산물" [ref=f286e1059]
+                - img "대천김" [ref=f286e1060]
+              - generic [ref=f286e1061]:
+                - generic [ref=f286e1062]:
+                  - paragraph [ref=f286e1063]: 대천김
+                  - list [ref=f286e1064]:
+                    - generic [ref=f286e1065]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1066]: 조미구이재래김(5매×6봉)
+                    - generic [ref=f286e1067]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1068]: 11,500
+                      - definition [ref=f286e1069]: 원
+                    - generic [ref=f286e1070]:
+                      - term: 할인율
+                      - definition [ref=f286e1071]: "17"
+                      - definition [ref=f286e1072]: "%"
+                    - generic [ref=f286e1073]:
+                      - term: 판매가
+                      - definition [ref=f286e1074]: 9,500
+                      - definition [ref=f286e1075]: 원
+                    - generic [ref=f286e1076]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1077]: "5.0"
+                      - definition [ref=f286e1078]: (29,358)
+                - list [ref=f286e1080]:
+                  - listitem [ref=f286e1081]: 무료배송
+            - generic [ref=f286e1082]:
+              - link "바로구매" [ref=f286e1083]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020419','01','N','102201302');
+              - link "장바구니" [ref=f286e1085]:
+                - /url: javascript:setCart('03','10007039','31044102','33020419','01','N','102201302');
+              - link "찜" [ref=f286e1087]:
+                - /url: javascript:jjim('03','10007039','31044102','33020419','01','N','102201302');
+          - listitem [ref=f286e1089] [cursor=pointer]:
+            - link [ref=f286e1090]:
+              - /url: javaScript:fn_goodsDetailView('11260802','01','03','10007039','101202307');
+              - img "GAP" [ref=f286e1094]
+              - generic [ref=f286e1095]:
+                - img "특산물" [ref=f286e1097]
+                - img "정승골 혼합 과일 선물세트 2호" [ref=f286e1098]
+              - generic [ref=f286e1099]:
+                - generic [ref=f286e1100]:
+                  - paragraph [ref=f286e1101]: 정승골 혼합 과일 선물세트 2호
+                  - list [ref=f286e1102]:
+                    - generic [ref=f286e1103]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1104]: 혼합 선물세트 2호 5kg (사과6과, 배4~5과)
+                    - generic [ref=f286e1105]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1106]: 80,000
+                      - definition [ref=f286e1107]: 원
+                    - generic [ref=f286e1108]:
+                      - term: 할인율
+                      - definition [ref=f286e1109]: "14"
+                      - definition [ref=f286e1110]: "%"
+                    - generic [ref=f286e1111]:
+                      - term: 판매가
+                      - definition [ref=f286e1112]: 68,400
+                      - definition [ref=f286e1113]: 원
+                    - generic [ref=f286e1114]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1115]: "4.9"
+                      - definition [ref=f286e1116]: (9,455)
+                - list [ref=f286e1118]:
+                  - listitem [ref=f286e1119]: 무료배송
+            - generic [ref=f286e1120]:
+              - link "바로구매" [ref=f286e1121]:
+                - /url: javascript:nowBuy('03','10007039','61069104','11260802','01','N','101202307');
+              - link "장바구니" [ref=f286e1123]:
+                - /url: javascript:setCart('03','10007039','61069104','11260802','01','N','101202307');
+              - link "찜" [ref=f286e1125]:
+                - /url: javascript:jjim('03','10007039','61069104','11260802','01','N','101202307');
+          - listitem [ref=f286e1127] [cursor=pointer]:
+            - link [ref=f286e1128]:
+              - /url: javaScript:fn_goodsDetailView('S3020401','01','03','10007039','102201302');
+              - generic [ref=f286e1129]:
+                - img "명품" [ref=f286e1132]
+                - img "식약처HACCP" [ref=f286e1135]
+              - generic [ref=f286e1136]:
+                - img "특산물" [ref=f286e1138]
+                - img "명품대천김" [ref=f286e1139]
+              - generic [ref=f286e1140]:
+                - generic [ref=f286e1141]:
+                  - paragraph [ref=f286e1142]: 명품대천김
+                  - list [ref=f286e1143]:
+                    - generic [ref=f286e1144]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1145]: 명품김1호캔김30g×12캔
+                    - generic [ref=f286e1146]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1147]: 55,000
+                      - definition [ref=f286e1148]: 원
+                    - generic [ref=f286e1149]:
+                      - term: 할인율
+                      - definition [ref=f286e1150]: "10"
+                      - definition [ref=f286e1151]: "%"
+                    - generic [ref=f286e1152]:
+                      - term: 판매가
+                      - definition [ref=f286e1153]: 49,400
+                      - definition [ref=f286e1154]: 원
+                    - generic [ref=f286e1155]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1156]: "5.0"
+                      - definition [ref=f286e1157]: (1,523)
+                - list [ref=f286e1159]:
+                  - listitem [ref=f286e1160]: 무료배송
+            - generic [ref=f286e1161]:
+              - link "바로구매" [ref=f286e1162]:
+                - /url: javascript:nowBuy('03','10007039','31044102','S3020401','01','N','102201302');
+              - link "장바구니" [ref=f286e1164]:
+                - /url: javascript:setCart('03','10007039','31044102','S3020401','01','N','102201302');
+              - link "찜" [ref=f286e1166]:
+                - /url: javascript:jjim('03','10007039','31044102','S3020401','01','N','102201302');
+          - listitem [ref=f286e1168] [cursor=pointer]:
+            - link [ref=f286e1169]:
+              - /url: javaScript:fn_goodsDetailView('11152503','01','03','10007039','101203302');
+              - generic [ref=f286e1170]:
+                - img "특산물" [ref=f286e1172]
+                - img "특산영농조합법인곶감(반건시)" [ref=f286e1173]
+              - generic [ref=f286e1174]:
+                - generic [ref=f286e1175]:
+                  - paragraph [ref=f286e1176]: 특산영농조합법인곶감(반건시)
+                  - list [ref=f286e1177]:
+                    - generic [ref=f286e1178]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1179]: 반건시2.2kg(55gx40개)
+                    - generic [ref=f286e1180]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1181]: 55,000
+                      - definition [ref=f286e1182]: 원
+                    - generic [ref=f286e1183]:
+                      - term: 할인율
+                      - definition [ref=f286e1184]: "43"
+                      - definition [ref=f286e1185]: "%"
+                    - generic [ref=f286e1186]:
+                      - term: 판매가
+                      - definition [ref=f286e1187]: 31,120
+                      - definition [ref=f286e1188]: 원
+                    - generic [ref=f286e1189]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1190]: "4.9"
+                      - definition [ref=f286e1191]: (7,912)
+                - list [ref=f286e1193]:
+                  - listitem [ref=f286e1194]: 무료배송
+            - generic [ref=f286e1195]:
+              - link "바로구매" [ref=f286e1196]:
+                - /url: javascript:nowBuy('03','10007039','30016002','11152503','01','N','101203302');
+              - link "장바구니" [ref=f286e1198]:
+                - /url: javascript:setCart('03','10007039','30016002','11152503','01','N','101203302');
+              - link "찜" [ref=f286e1200]:
+                - /url: javascript:jjim('03','10007039','30016002','11152503','01','N','101203302');
+          - listitem [ref=f286e1202] [cursor=pointer]:
+            - link [ref=f286e1203]:
+              - /url: javaScript:fn_goodsDetailView('11420702','01','03','10007039','101202301');
+              - generic [ref=f286e1204]:
+                - img "특산물" [ref=f286e1206]
+                - img "정승골 사과 선물세트 2호" [ref=f286e1207]
+              - generic [ref=f286e1208]:
+                - generic [ref=f286e1209]:
+                  - paragraph [ref=f286e1210]: 정승골 사과 선물세트 2호
+                  - list [ref=f286e1211]:
+                    - generic [ref=f286e1212]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1213]: 사과 2호 5kg (사과12~13과)
+                    - generic [ref=f286e1214]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1215]: 75,000
+                      - definition [ref=f286e1216]: 원
+                    - generic [ref=f286e1217]:
+                      - term: 할인율
+                      - definition [ref=f286e1218]: "13"
+                      - definition [ref=f286e1219]: "%"
+                    - generic [ref=f286e1220]:
+                      - term: 판매가
+                      - definition [ref=f286e1221]: 64,600
+                      - definition [ref=f286e1222]: 원
+                    - generic [ref=f286e1223]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1224]: "4.9"
+                      - definition [ref=f286e1225]: (3,974)
+                - list [ref=f286e1227]:
+                  - listitem [ref=f286e1228]: 무료배송
+            - generic [ref=f286e1229]:
+              - link "바로구매" [ref=f286e1230]:
+                - /url: javascript:nowBuy('03','10007039','61069104','11420702','01','N','101202301');
+              - link "장바구니" [ref=f286e1232]:
+                - /url: javascript:setCart('03','10007039','61069104','11420702','01','N','101202301');
+              - link "찜" [ref=f286e1234]:
+                - /url: javascript:jjim('03','10007039','61069104','11420702','01','N','101202301');
+          - listitem [ref=f286e1236] [cursor=pointer]:
+            - link [ref=f286e1237]:
+              - /url: javaScript:fn_goodsDetailView('23011304','01','03','10007039','103201304');
+              - img "HACCP(도축장, 집유장, 농장)" [ref=f286e1241]
+              - generic [ref=f286e1242]:
+                - img "특산물" [ref=f286e1244]
+                - img "민통선한우촌선물세트" [ref=f286e1245]
+              - generic [ref=f286e1246]:
+                - generic [ref=f286e1247]:
+                  - paragraph [ref=f286e1248]: 민통선한우촌선물세트
+                  - list [ref=f286e1249]:
+                    - generic [ref=f286e1250]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1251]: 한우정육혼합세트2.4kg(등심600g+불고기600gx2+국거리600g)(1등급)(냉동)
+                    - generic [ref=f286e1252]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1253]: 174,000
+                      - definition [ref=f286e1254]: 원
+                    - generic [ref=f286e1255]:
+                      - term: 할인율
+                      - definition [ref=f286e1256]: "29"
+                      - definition [ref=f286e1257]: "%"
+                    - generic [ref=f286e1258]:
+                      - term: 판매가
+                      - definition [ref=f286e1259]: 123,000
+                      - definition [ref=f286e1260]: 원
+                    - generic [ref=f286e1261]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1262]: "4.9"
+                      - definition [ref=f286e1263]: (4,270)
+                - list [ref=f286e1265]:
+                  - listitem [ref=f286e1266]: 무료배송
+            - generic [ref=f286e1267]:
+              - link "바로구매" [ref=f286e1268]:
+                - /url: javascript:nowBuy('03','10007039','20088104','23011304','01','N','103201304');
+              - link "장바구니" [ref=f286e1270]:
+                - /url: javascript:setCart('03','10007039','20088104','23011304','01','N','103201304');
+              - link "찜" [ref=f286e1272]:
+                - /url: javascript:jjim('03','10007039','20088104','23011304','01','N','103201304');
+          - listitem [ref=f286e1274] [cursor=pointer]:
+            - link [ref=f286e1275]:
+              - /url: javaScript:fn_goodsDetailView('33020418','01','03','10007039','102201303');
+              - generic [ref=f286e1276]:
+                - img "수산전통식품" [ref=f286e1279]
+                - img "식약처HACCP" [ref=f286e1282]
+              - generic [ref=f286e1283]:
+                - img "특산물" [ref=f286e1285]
+                - img "대천김" [ref=f286e1286]
+              - generic [ref=f286e1287]:
+                - generic [ref=f286e1288]:
+                  - paragraph [ref=f286e1289]: 대천김
+                  - list [ref=f286e1290]:
+                    - generic [ref=f286e1291]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1292]: 조미구이곱창도시락김(9절9매x 20봉)
+                    - generic [ref=f286e1293]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1294]: 13,000
+                      - definition [ref=f286e1295]: 원
+                    - generic [ref=f286e1296]:
+                      - term: 할인율
+                      - definition [ref=f286e1297]: "12"
+                      - definition [ref=f286e1298]: "%"
+                    - generic [ref=f286e1299]:
+                      - term: 판매가
+                      - definition [ref=f286e1300]: 11,400
+                      - definition [ref=f286e1301]: 원
+                    - generic [ref=f286e1302]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1303]: "5.0"
+                      - definition [ref=f286e1304]: (3,316)
+                - list [ref=f286e1306]:
+                  - listitem [ref=f286e1307]: 무료배송
+            - generic [ref=f286e1308]:
+              - link "바로구매" [ref=f286e1309]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020418','01','N','102201303');
+              - link "장바구니" [ref=f286e1311]:
+                - /url: javascript:setCart('03','10007039','31044102','33020418','01','N','102201303');
+              - link "찜" [ref=f286e1313]:
+                - /url: javascript:jjim('03','10007039','31044102','33020418','01','N','102201303');
+          - listitem [ref=f286e1315] [cursor=pointer]:
+            - link [ref=f286e1316]:
+              - /url: javaScript:fn_goodsDetailView('11151306','01','03','10007039','101203302');
+              - generic [ref=f286e1317]:
+                - img "농산물우수관리인증(GAP)" [ref=f286e1320]
+                - img "농산물지리적표시(PGI)" [ref=f286e1323]
+              - generic [ref=f286e1324]:
+                - img "특산물" [ref=f286e1326]
+                - img "두레곶감" [ref=f286e1327]
+              - generic [ref=f286e1328]:
+                - generic [ref=f286e1329]:
+                  - paragraph [ref=f286e1330]: 두레곶감
+                  - list [ref=f286e1331]:
+                    - generic [ref=f286e1332]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1333]: 반건시1.5kg(50gx30개)
+                    - generic [ref=f286e1334]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1335]: 40,000
+                      - definition [ref=f286e1336]: 원
+                    - generic [ref=f286e1337]:
+                      - term: 할인율
+                      - definition [ref=f286e1338]: "36"
+                      - definition [ref=f286e1339]: "%"
+                    - generic [ref=f286e1340]:
+                      - term: 판매가
+                      - definition [ref=f286e1341]: 25,600
+                      - definition [ref=f286e1342]: 원
+                    - generic [ref=f286e1343]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1344]: "4.8"
+                      - definition [ref=f286e1345]: (1,385)
+                - list [ref=f286e1347]:
+                  - listitem [ref=f286e1348]: 무료배송
+            - generic [ref=f286e1349]:
+              - link "바로구매" [ref=f286e1350]:
+                - /url: javascript:nowBuy('03','10007039','70224103','11151306','01','N','101203302');
+              - link "장바구니" [ref=f286e1352]:
+                - /url: javascript:setCart('03','10007039','70224103','11151306','01','N','101203302');
+              - link "찜" [ref=f286e1354]:
+                - /url: javascript:jjim('03','10007039','70224103','11151306','01','N','101203302');
+          - listitem [ref=f286e1356] [cursor=pointer]:
+            - link [ref=f286e1357]:
+              - /url: javaScript:fn_goodsDetailView('32010103','01','03','10007039','102203301');
+              - generic [ref=f286e1358]:
+                - img "수산물품질-자연" [ref=f286e1361]
+                - img "식약처HACCP" [ref=f286e1364]
+              - generic [ref=f286e1365]:
+                - img "특산물" [ref=f286e1367]
+                - img "영광백순기굴비" [ref=f286e1368]
+              - generic [ref=f286e1369]:
+                - generic [ref=f286e1370]:
+                  - paragraph [ref=f286e1371]: 영광백순기굴비
+                  - list [ref=f286e1372]:
+                    - generic [ref=f286e1373]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1374]: 대딱(10미, 1.42kg/24~26cm)
+                    - generic [ref=f286e1375]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1376]: 180,000
+                      - definition [ref=f286e1377]: 원
+                    - generic [ref=f286e1378]:
+                      - term: 할인율
+                      - definition [ref=f286e1379]: "20"
+                      - definition [ref=f286e1380]: "%"
+                    - generic [ref=f286e1381]:
+                      - term: 판매가
+                      - definition [ref=f286e1382]: 143,000
+                      - definition [ref=f286e1383]: 원
+                    - generic [ref=f286e1384]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1385]: "4.9"
+                      - definition [ref=f286e1386]: (1,144)
+                - list [ref=f286e1388]:
+                  - listitem [ref=f286e1389]: 무료배송
+            - generic [ref=f286e1390]:
+              - link "바로구매" [ref=f286e1391]:
+                - /url: javascript:nowBuy('03','10007039','50026409','32010103','01','N','102203301');
+              - link "장바구니" [ref=f286e1393]:
+                - /url: javascript:setCart('03','10007039','50026409','32010103','01','N','102203301');
+              - link "찜" [ref=f286e1395]:
+                - /url: javascript:jjim('03','10007039','50026409','32010103','01','N','102203301');
+          - listitem [ref=f286e1397] [cursor=pointer]:
+            - link [ref=f286e1398]:
+              - /url: javaScript:fn_goodsDetailView('33020402','01','03','10007039','102201302');
+              - generic [ref=f286e1399]:
+                - img "수산전통식품품질인증" [ref=f286e1402]
+                - img "식약처HACCP" [ref=f286e1405]
+              - generic [ref=f286e1406]:
+                - img "특산물" [ref=f286e1408]
+                - img "대천김" [ref=f286e1409]
+              - generic [ref=f286e1410]:
+                - generic [ref=f286e1411]:
+                  - paragraph [ref=f286e1412]: 대천김
+                  - list [ref=f286e1413]:
+                    - generic [ref=f286e1414]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1415]: 조미구이재래김(5매x20봉)
+                    - generic [ref=f286e1416]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1417]: 28,000
+                      - definition [ref=f286e1418]: 원
+                    - generic [ref=f286e1419]:
+                      - term: 할인율
+                      - definition [ref=f286e1420]: "13"
+                      - definition [ref=f286e1421]: "%"
+                    - generic [ref=f286e1422]:
+                      - term: 판매가
+                      - definition [ref=f286e1423]: 24,220
+                      - definition [ref=f286e1424]: 원
+                    - generic [ref=f286e1425]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1426]: "4.9"
+                      - definition [ref=f286e1427]: (32,417)
+                - list [ref=f286e1429]:
+                  - listitem [ref=f286e1430]: 무료배송
+                  - listitem [ref=f286e1431]: 해외배송
+            - generic [ref=f286e1432]:
+              - link "바로구매" [ref=f286e1433]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020402','01','N','102201302');
+              - link "장바구니" [ref=f286e1435]:
+                - /url: javascript:setCart('03','10007039','31044102','33020402','01','N','102201302');
+              - link "찜" [ref=f286e1437]:
+                - /url: javascript:jjim('03','10007039','31044102','33020402','01','N','102201302');
+          - listitem [ref=f286e1439] [cursor=pointer]:
+            - link [ref=f286e1440]:
+              - /url: javaScript:fn_goodsDetailView('11017408','01','03','10007039','101202307');
+              - generic [ref=f286e1441]:
+                - img "특산물" [ref=f286e1443]
+                - img "빨간꿀딴지사과배혼합세트" [ref=f286e1444]
+              - generic [ref=f286e1445]:
+                - generic [ref=f286e1446]:
+                  - paragraph [ref=f286e1447]: 빨간꿀딴지사과배혼합세트
+                  - list [ref=f286e1448]:
+                    - generic [ref=f286e1449]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1450]: 혼합과일선물세트2호(왕특상)4kg(사과3~5과.배3~5과)
+                    - generic [ref=f286e1451]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1452]: 83,000
+                      - definition [ref=f286e1453]: 원
+                    - generic [ref=f286e1454]:
+                      - term: 할인율
+                      - definition [ref=f286e1455]: "24"
+                      - definition [ref=f286e1456]: "%"
+                    - generic [ref=f286e1457]:
+                      - term: 판매가
+                      - definition [ref=f286e1458]: 62,730
+                      - definition [ref=f286e1459]: 원
+                    - generic [ref=f286e1460]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1461]: "4.8"
+                      - definition [ref=f286e1462]: (430)
+                - list [ref=f286e1464]:
+                  - listitem [ref=f286e1465]: 무료배송
+            - generic [ref=f286e1466]:
+              - link "바로구매" [ref=f286e1467]:
+                - /url: javascript:nowBuy('03','10007039','70111002','11017408','01','N','101202307');
+              - link "장바구니" [ref=f286e1469]:
+                - /url: javascript:setCart('03','10007039','70111002','11017408','01','N','101202307');
+              - link "찜" [ref=f286e1471]:
+                - /url: javascript:jjim('03','10007039','70111002','11017408','01','N','101202307');
+          - listitem [ref=f286e1473] [cursor=pointer]:
+            - link [ref=f286e1474]:
+              - /url: javaScript:fn_goodsDetailView('33020206','01','03','10007039','102201302');
+              - generic [ref=f286e1475]:
+                - img "특산물" [ref=f286e1477]
+                - img "보령대천김" [ref=f286e1478]
+              - generic [ref=f286e1479]:
+                - generic [ref=f286e1480]:
+                  - paragraph [ref=f286e1481]: 보령대천김
+                  - list [ref=f286e1482]:
+                    - generic [ref=f286e1483]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1484]: 조미구이재래김40장(5매x8봉)
+                    - generic [ref=f286e1485]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1486]: 14,000
+                      - definition [ref=f286e1487]: 원
+                    - generic [ref=f286e1488]:
+                      - term: 할인율
+                      - definition [ref=f286e1489]: "8"
+                      - definition [ref=f286e1490]: "%"
+                    - generic [ref=f286e1491]:
+                      - term: 판매가
+                      - definition [ref=f286e1492]: 12,820
+                      - definition [ref=f286e1493]: 원
+                    - generic [ref=f286e1494]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1495]: "4.9"
+                      - definition [ref=f286e1496]: (6,203)
+                - list [ref=f286e1498]:
+                  - listitem [ref=f286e1499]: 무료배송
+                  - listitem [ref=f286e1500]: 해외배송
+            - generic [ref=f286e1501]:
+              - link "바로구매" [ref=f286e1502]:
+                - /url: javascript:nowBuy('03','10007039','31044101','33020206','01','N','102201302');
+              - link "장바구니" [ref=f286e1504]:
+                - /url: javascript:setCart('03','10007039','31044101','33020206','01','N','102201302');
+              - link "찜" [ref=f286e1506]:
+                - /url: javascript:jjim('03','10007039','31044101','33020206','01','N','102201302');
+          - listitem [ref=f286e1508] [cursor=pointer]:
+            - link [ref=f286e1509]:
+              - /url: javaScript:fn_goodsDetailView('33021301','01','03','10007039','102201303');
+              - generic [ref=f286e1510]:
+                - img "특산물" [ref=f286e1512]
+                - img "광천조양조미구이김" [ref=f286e1513]
+              - generic [ref=f286e1514]:
+                - generic [ref=f286e1515]:
+                  - paragraph [ref=f286e1516]: 광천조양조미구이김
+                  - list [ref=f286e1517]:
+                    - generic [ref=f286e1518]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1519]: 조미구이재래식탁김(9절28매x30봉)
+                    - generic [ref=f286e1520]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1521]: 39,000
+                      - definition [ref=f286e1522]: 원
+                    - generic [ref=f286e1523]:
+                      - term: 할인율
+                      - definition [ref=f286e1524]: "22"
+                      - definition [ref=f286e1525]: "%"
+                    - generic [ref=f286e1526]:
+                      - term: 판매가
+                      - definition [ref=f286e1527]: 30,400
+                      - definition [ref=f286e1528]: 원
+                    - generic [ref=f286e1529]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1530]: "4.9"
+                      - definition [ref=f286e1531]: (3,277)
+                - list [ref=f286e1533]:
+                  - listitem [ref=f286e1534]: 무료배송
+                  - listitem [ref=f286e1535]: 해외배송
+            - generic [ref=f286e1536]:
+              - link "바로구매" [ref=f286e1537]:
+                - /url: javascript:nowBuy('03','10007039','31045802','33021301','01','N','102201303');
+              - link "장바구니" [ref=f286e1539]:
+                - /url: javascript:setCart('03','10007039','31045802','33021301','01','N','102201303');
+              - link "찜" [ref=f286e1541]:
+                - /url: javascript:jjim('03','10007039','31045802','33021301','01','N','102201303');
+          - listitem [ref=f286e1543] [cursor=pointer]:
+            - link [ref=f286e1544]:
+              - /url: javaScript:fn_goodsDetailView('11420703','01','03','10007039','101202301');
+              - img "GAP" [ref=f286e1548]
+              - generic [ref=f286e1549]:
+                - img "특산물" [ref=f286e1551]
+                - img "정승골 사과 선물세트 3호" [ref=f286e1552]
+              - generic [ref=f286e1553]:
+                - generic [ref=f286e1554]:
+                  - paragraph [ref=f286e1555]: 정승골 사과 선물세트 3호
+                  - list [ref=f286e1556]:
+                    - generic [ref=f286e1557]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1558]: 사과 3호 5kg (사과14~15과)
+                    - generic [ref=f286e1559]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1560]: 70,000
+                      - definition [ref=f286e1561]: 원
+                    - generic [ref=f286e1562]:
+                      - term: 할인율
+                      - definition [ref=f286e1563]: "11"
+                      - definition [ref=f286e1564]: "%"
+                    - generic [ref=f286e1565]:
+                      - term: 판매가
+                      - definition [ref=f286e1566]: 61,750
+                      - definition [ref=f286e1567]: 원
+                    - generic [ref=f286e1568]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1569]: "4.9"
+                      - definition [ref=f286e1570]: (2,766)
+                - list [ref=f286e1572]:
+                  - listitem [ref=f286e1573]: 무료배송
+            - generic [ref=f286e1574]:
+              - link "바로구매" [ref=f286e1575]:
+                - /url: javascript:nowBuy('03','10007039','61069104','11420703','01','N','101202301');
+              - link "장바구니" [ref=f286e1577]:
+                - /url: javascript:setCart('03','10007039','61069104','11420703','01','N','101202301');
+              - link "찜" [ref=f286e1579]:
+                - /url: javascript:jjim('03','10007039','61069104','11420703','01','N','101202301');
+          - listitem [ref=f286e1581] [cursor=pointer]:
+            - link [ref=f286e1582]:
+              - /url: javaScript:fn_goodsDetailView('33059708','01','03','10007039','102202305');
+              - img "수산물이력추적" [ref=f286e1586]
+              - generic [ref=f286e1587]:
+                - img "특산물" [ref=f286e1589]
+                - img "통영참멸치 4종세트" [ref=f286e1590]
+              - generic [ref=f286e1591]:
+                - generic [ref=f286e1592]:
+                  - paragraph [ref=f286e1593]: 통영참멸치 4종세트
+                  - list [ref=f286e1594]:
+                    - generic [ref=f286e1595]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1596]: 멸치세트2kg(세멸소멸중멸대멸각500g)
+                    - generic [ref=f286e1597]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1598]: 70,000
+                      - definition [ref=f286e1599]: 원
+                    - generic [ref=f286e1600]:
+                      - term: 할인율
+                      - definition [ref=f286e1601]: "29"
+                      - definition [ref=f286e1602]: "%"
+                    - generic [ref=f286e1603]:
+                      - term: 판매가
+                      - definition [ref=f286e1604]: 49,400
+                      - definition [ref=f286e1605]: 원
+                    - generic [ref=f286e1606]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1607]: "5.0"
+                      - definition [ref=f286e1608]: (1,371)
+                - list [ref=f286e1610]:
+                  - listitem [ref=f286e1611]: 무료배송
+            - generic [ref=f286e1612]:
+              - link "바로구매" [ref=f286e1613]:
+                - /url: javascript:nowBuy('03','10007039','61404002','33059708','01','N','102202305');
+              - link "장바구니" [ref=f286e1615]:
+                - /url: javascript:setCart('03','10007039','61404002','33059708','01','N','102202305');
+              - link "찜" [ref=f286e1617]:
+                - /url: javascript:jjim('03','10007039','61404002','33059708','01','N','102202305');
+          - listitem [ref=f286e1619] [cursor=pointer]:
+            - link [ref=f286e1620]:
+              - /url: javaScript:fn_goodsDetailView('33021508','01','03','10007039','102201302');
+              - img "식약처HACCP" [ref=f286e1624]
+              - generic [ref=f286e1625]:
+                - img "특산물" [ref=f286e1627]
+                - img "보령삼육조미구이식탁김" [ref=f286e1628]
+              - generic [ref=f286e1629]:
+                - generic [ref=f286e1630]:
+                  - paragraph [ref=f286e1631]: 보령삼육조미구이식탁김
+                  - list [ref=f286e1632]:
+                    - generic [ref=f286e1633]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1634]: 보령삼육조미구이식탁김(9매x24봉)
+                    - generic [ref=f286e1635]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1636]: 11,000
+                      - definition [ref=f286e1637]: 원
+                    - generic [ref=f286e1638]:
+                      - term: 할인율
+                      - definition [ref=f286e1639]: "13"
+                      - definition [ref=f286e1640]: "%"
+                    - generic [ref=f286e1641]:
+                      - term: 판매가
+                      - definition [ref=f286e1642]: 9,500
+                      - definition [ref=f286e1643]: 원
+                    - generic [ref=f286e1644]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1645]: "4.9"
+                      - definition [ref=f286e1646]: (544)
+                - list [ref=f286e1648]:
+                  - listitem [ref=f286e1649]: 무료배송
+            - generic [ref=f286e1650]:
+              - link "바로구매" [ref=f286e1651]:
+                - /url: javascript:nowBuy('03','10007039','31093801','33021508','01','N','102201302');
+              - link "장바구니" [ref=f286e1653]:
+                - /url: javascript:setCart('03','10007039','31093801','33021508','01','N','102201302');
+              - link "찜" [ref=f286e1655]:
+                - /url: javascript:jjim('03','10007039','31093801','33021508','01','N','102201302');
+          - listitem [ref=f286e1657] [cursor=pointer]:
+            - link [ref=f286e1658]:
+              - /url: javaScript:fn_goodsDetailView('11420701','01','03','10007039','101202301');
+              - img "GAP" [ref=f286e1662]
+              - generic [ref=f286e1663]:
+                - img "특산물" [ref=f286e1665]
+                - img "정승골 사과 선물세트 1호" [ref=f286e1666]
+              - generic [ref=f286e1667]:
+                - generic [ref=f286e1668]:
+                  - paragraph [ref=f286e1669]: 정승골 사과 선물세트 1호
+                  - list [ref=f286e1670]:
+                    - generic [ref=f286e1671]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1672]: 사과 1호 5kg (사과9~11과)
+                    - generic [ref=f286e1673]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1674]: 80,000
+                      - definition [ref=f286e1675]: 원
+                    - generic [ref=f286e1676]:
+                      - term: 할인율
+                      - definition [ref=f286e1677]: "14"
+                      - definition [ref=f286e1678]: "%"
+                    - generic [ref=f286e1679]:
+                      - term: 판매가
+                      - definition [ref=f286e1680]: 68,400
+                      - definition [ref=f286e1681]: 원
+                    - generic [ref=f286e1682]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1683]: "4.9"
+                      - definition [ref=f286e1684]: (1,454)
+                - list [ref=f286e1686]:
+                  - listitem [ref=f286e1687]: 무료배송
+            - generic [ref=f286e1688]:
+              - link "바로구매" [ref=f286e1689]:
+                - /url: javascript:nowBuy('03','10007039','61069104','11420701','01','N','101202301');
+              - link "장바구니" [ref=f286e1691]:
+                - /url: javascript:setCart('03','10007039','61069104','11420701','01','N','101202301');
+              - link "찜" [ref=f286e1693]:
+                - /url: javascript:jjim('03','10007039','61069104','11420701','01','N','101202301');
+          - listitem [ref=f286e1695] [cursor=pointer]:
+            - link [ref=f286e1696]:
+              - /url: javaScript:fn_goodsDetailView('11018010','01','03','10007039','101202301');
+              - img "GAP" [ref=f286e1700]
+              - generic [ref=f286e1701]:
+                - img "특산물" [ref=f286e1703]
+                - img "청송주왕산산촌(愛)사과" [ref=f286e1704]
+              - generic [ref=f286e1705]:
+                - generic [ref=f286e1706]:
+                  - paragraph [ref=f286e1707]: 청송주왕산산촌(愛)사과
+                  - list [ref=f286e1708]:
+                    - generic [ref=f286e1709]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1710]: 홍로 4kg(14~15과)
+                    - generic [ref=f286e1711]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1712]: 56,000
+                      - definition [ref=f286e1713]: 원
+                    - generic [ref=f286e1714]:
+                      - term: 할인율
+                      - definition [ref=f286e1715]: "5"
+                      - definition [ref=f286e1716]: "%"
+                    - generic [ref=f286e1717]:
+                      - term: 판매가
+                      - definition [ref=f286e1718]: 53,000
+                      - definition [ref=f286e1719]: 원
+                    - generic [ref=f286e1720]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1721]: "4.8"
+                      - definition [ref=f286e1722]: (616)
+                - list [ref=f286e1724]:
+                  - listitem [ref=f286e1725]: 무료배송
+            - generic [ref=f286e1726]:
+              - link "바로구매" [ref=f286e1727]:
+                - /url: javascript:nowBuy('03','10007039','70261304','11018010','01','N','101202301');
+              - link "장바구니" [ref=f286e1729]:
+                - /url: javascript:setCart('03','10007039','70261304','11018010','01','N','101202301');
+              - link "찜" [ref=f286e1731]:
+                - /url: javascript:jjim('03','10007039','70261304','11018010','01','N','101202301');
+          - listitem [ref=f286e1733] [cursor=pointer]:
+            - link [ref=f286e1734]:
+              - /url: javaScript:fn_goodsDetailView('83302020','01','03','10007039','102201302');
+              - generic [ref=f286e1735]:
+                - img "특산물" [ref=f286e1737]
+                - img "보령대천김" [ref=f286e1738]
+              - generic [ref=f286e1739]:
+                - generic [ref=f286e1740]:
+                  - paragraph [ref=f286e1741]: 보령대천김
+                  - list [ref=f286e1742]:
+                    - generic [ref=f286e1743]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1744]: 33020206*4상자
+                    - generic [ref=f286e1745]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1746]: 48,000
+                      - definition [ref=f286e1747]: 원
+                    - generic [ref=f286e1748]:
+                      - term: 할인율
+                      - definition [ref=f286e1749]: "8"
+                      - definition [ref=f286e1750]: "%"
+                    - generic [ref=f286e1751]:
+                      - term: 판매가
+                      - definition [ref=f286e1752]: 43,700
+                      - definition [ref=f286e1753]: 원
+                    - generic [ref=f286e1754]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1755]: "4.9"
+                      - definition [ref=f286e1756]: (4,792)
+                - list [ref=f286e1758]:
+                  - listitem [ref=f286e1759]: 무료배송
+                  - listitem [ref=f286e1760]: 해외배송
+            - generic [ref=f286e1761]:
+              - link "바로구매" [ref=f286e1762]:
+                - /url: javascript:nowBuy('03','10007039','31044101','83302020','01','N','102201302');
+              - link "장바구니" [ref=f286e1764]:
+                - /url: javascript:setCart('03','10007039','31044101','83302020','01','N','102201302');
+              - link "찜" [ref=f286e1766]:
+                - /url: javascript:jjim('03','10007039','31044101','83302020','01','N','102201302');
+          - listitem [ref=f286e1768] [cursor=pointer]:
+            - link [ref=f286e1769]:
+              - /url: javaScript:fn_goodsDetailView('32012703','01','03','10007039','102203301');
+              - generic [ref=f286e1770]:
+                - img "특산물" [ref=f286e1772]
+                - img "영광법성포향기나라굴비" [ref=f286e1773]
+              - generic [ref=f286e1774]:
+                - generic [ref=f286e1775]:
+                  - paragraph [ref=f286e1776]: 영광법성포향기나라굴비
+                  - list [ref=f286e1777]:
+                    - generic [ref=f286e1778]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1779]: 대딱10미 1,230g(23cm내외) 1마리씩 진공 명품채반, 보자기
+                    - generic [ref=f286e1780]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1781]: 100,000
+                      - definition [ref=f286e1782]: 원
+                    - generic [ref=f286e1783]:
+                      - term: 할인율
+                      - definition [ref=f286e1784]: "5"
+                      - definition [ref=f286e1785]: "%"
+                    - generic [ref=f286e1786]:
+                      - term: 판매가
+                      - definition [ref=f286e1787]: 95,000
+                      - definition [ref=f286e1788]: 원
+                    - generic [ref=f286e1789]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1790]: "4.9"
+                      - definition [ref=f286e1791]: (371)
+                - list [ref=f286e1793]:
+                  - listitem [ref=f286e1794]: 무료배송
+            - generic [ref=f286e1795]:
+              - link "바로구매" [ref=f286e1796]:
+                - /url: javascript:nowBuy('03','10007039','50036303','32012703','01','N','102203301');
+              - link "장바구니" [ref=f286e1798]:
+                - /url: javascript:setCart('03','10007039','50036303','32012703','01','N','102203301');
+              - link "찜" [ref=f286e1800]:
+                - /url: javascript:jjim('03','10007039','50036303','32012703','01','N','102203301');
+          - listitem [ref=f286e1802] [cursor=pointer]:
+            - link [ref=f286e1803]:
+              - /url: javaScript:fn_goodsDetailView('33020403','01','03','10007039','102201302');
+              - generic [ref=f286e1804]:
+                - img "수산전통식품" [ref=f286e1807]
+                - img "식약처HACCP" [ref=f286e1810]
+              - generic [ref=f286e1811]:
+                - img "특산물" [ref=f286e1813]
+                - img "대천김" [ref=f286e1814]
+              - generic [ref=f286e1815]:
+                - generic [ref=f286e1816]:
+                  - paragraph [ref=f286e1817]: 대천김
+                  - list [ref=f286e1818]:
+                    - generic [ref=f286e1819]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1820]: 조미구이재래김(5매x30봉)
+                    - generic [ref=f286e1821]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1822]: 38,000
+                      - definition [ref=f286e1823]: 원
+                    - generic [ref=f286e1824]:
+                      - term: 할인율
+                      - definition [ref=f286e1825]: "11"
+                      - definition [ref=f286e1826]: "%"
+                    - generic [ref=f286e1827]:
+                      - term: 판매가
+                      - definition [ref=f286e1828]: 33,720
+                      - definition [ref=f286e1829]: 원
+                    - generic [ref=f286e1830]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1831]: "4.9"
+                      - definition [ref=f286e1832]: (17,510)
+                - list [ref=f286e1834]:
+                  - listitem [ref=f286e1835]: 무료배송
+                  - listitem [ref=f286e1836]: 해외배송
+            - generic [ref=f286e1837]:
+              - link "바로구매" [ref=f286e1838]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020403','01','N','102201302');
+              - link "장바구니" [ref=f286e1840]:
+                - /url: javascript:setCart('03','10007039','31044102','33020403','01','N','102201302');
+              - link "찜" [ref=f286e1842]:
+                - /url: javascript:jjim('03','10007039','31044102','33020403','01','N','102201302');
+          - listitem [ref=f286e1844] [cursor=pointer]:
+            - link [ref=f286e1845]:
+              - /url: javaScript:fn_goodsDetailView('33020201','01','03','10007039','102201302');
+              - generic [ref=f286e1846]:
+                - img "특산물" [ref=f286e1848]
+                - img "보령대천김" [ref=f286e1849]
+              - generic [ref=f286e1850]:
+                - generic [ref=f286e1851]:
+                  - paragraph [ref=f286e1852]: 보령대천김
+                  - list [ref=f286e1853]:
+                    - generic [ref=f286e1854]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1855]: 조미구이재래김30장(5매x6봉)
+                    - generic [ref=f286e1856]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1857]: 11,000
+                      - definition [ref=f286e1858]: 원
+                    - generic [ref=f286e1859]:
+                      - term: 할인율
+                      - definition [ref=f286e1860]: "13"
+                      - definition [ref=f286e1861]: "%"
+                    - generic [ref=f286e1862]:
+                      - term: 판매가
+                      - definition [ref=f286e1863]: 9,500
+                      - definition [ref=f286e1864]: 원
+                    - generic [ref=f286e1865]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1866]: "4.9"
+                      - definition [ref=f286e1867]: (1,652)
+                - list [ref=f286e1869]:
+                  - listitem [ref=f286e1870]: 무료배송
+                  - listitem [ref=f286e1871]: 해외배송
+            - generic [ref=f286e1872]:
+              - link "바로구매" [ref=f286e1873]:
+                - /url: javascript:nowBuy('03','10007039','31044101','33020201','01','N','102201302');
+              - link "장바구니" [ref=f286e1875]:
+                - /url: javascript:setCart('03','10007039','31044101','33020201','01','N','102201302');
+              - link "찜" [ref=f286e1877]:
+                - /url: javascript:jjim('03','10007039','31044101','33020201','01','N','102201302');
+          - listitem [ref=f286e1879] [cursor=pointer]:
+            - link [ref=f286e1880]:
+              - /url: javaScript:fn_goodsDetailView('11071402','01','03','10007039','101203301');
+              - img "지리적표시" [ref=f286e1884]
+              - generic [ref=f286e1885]:
+                - img "특산물" [ref=f286e1887]
+                - img "상주기상곶감(건시)" [ref=f286e1888]
+              - generic [ref=f286e1889]:
+                - generic [ref=f286e1890]:
+                  - paragraph [ref=f286e1891]: 상주기상곶감(건시)
+                  - list [ref=f286e1892]:
+                    - generic [ref=f286e1893]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1894]: 곶감2kg(48개)
+                    - generic [ref=f286e1895]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1896]: 59,000
+                      - definition [ref=f286e1897]: 원
+                    - generic [ref=f286e1898]:
+                      - term: 할인율
+                      - definition [ref=f286e1899]: "15"
+                      - definition [ref=f286e1900]: "%"
+                    - generic [ref=f286e1901]:
+                      - term: 판매가
+                      - definition [ref=f286e1902]: 50,000
+                      - definition [ref=f286e1903]: 원
+                    - generic [ref=f286e1904]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1905]: "4.9"
+                      - definition [ref=f286e1906]: (939)
+                - list [ref=f286e1908]:
+                  - listitem [ref=f286e1909]: 무료배송
+                  - listitem [ref=f286e1910]: 해외배송
+            - generic [ref=f286e1911]:
+              - link "바로구매" [ref=f286e1912]:
+                - /url: javascript:nowBuy('03','10007039','70006210','11071402','01','N','101203301');
+              - link "장바구니" [ref=f286e1914]:
+                - /url: javascript:setCart('03','10007039','70006210','11071402','01','N','101203301');
+              - link "찜" [ref=f286e1916]:
+                - /url: javascript:jjim('03','10007039','70006210','11071402','01','N','101203301');
+          - listitem [ref=f286e1918] [cursor=pointer]:
+            - link [ref=f286e1919]:
+              - /url: javaScript:fn_goodsDetailView('33029618','01','03','10007039','102201301');
+              - generic [ref=f286e1920]:
+                - img "특산물" [ref=f286e1922]
+                - img "대천우정김" [ref=f286e1923]
+              - generic [ref=f286e1924]:
+                - generic [ref=f286e1925]:
+                  - paragraph [ref=f286e1926]: 대천우정김
+                  - list [ref=f286e1927]:
+                    - generic [ref=f286e1928]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1929]: 조미구이재래김(5매x6봉)
+                    - generic [ref=f286e1930]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1931]: 11,000
+                      - definition [ref=f286e1932]: 원
+                    - generic [ref=f286e1933]:
+                      - term: 할인율
+                      - definition [ref=f286e1934]: "13"
+                      - definition [ref=f286e1935]: "%"
+                    - generic [ref=f286e1936]:
+                      - term: 판매가
+                      - definition [ref=f286e1937]: 9,500
+                      - definition [ref=f286e1938]: 원
+                    - generic [ref=f286e1939]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1940]: "5.0"
+                      - definition [ref=f286e1941]: (2,207)
+                - list [ref=f286e1943]:
+                  - listitem [ref=f286e1944]: 무료배송
+            - generic [ref=f286e1945]:
+              - link "바로구매" [ref=f286e1946]:
+                - /url: javascript:nowBuy('03','10007039','31309801','33029618','01','N','102201301');
+              - link "장바구니" [ref=f286e1948]:
+                - /url: javascript:setCart('03','10007039','31309801','33029618','01','N','102201301');
+              - link "찜" [ref=f286e1950]:
+                - /url: javascript:jjim('03','10007039','31309801','33029618','01','N','102201301');
+          - listitem [ref=f286e1952] [cursor=pointer]:
+            - link [ref=f286e1953]:
+              - /url: javaScript:fn_goodsDetailView('11260803','01','03','10007039','101202307');
+              - img "GAP" [ref=f286e1957]
+              - generic [ref=f286e1958]:
+                - img "특산물" [ref=f286e1960]
+                - img "정승골 혼합 과일 선물세트 3호" [ref=f286e1961]
+              - generic [ref=f286e1962]:
+                - generic [ref=f286e1963]:
+                  - paragraph [ref=f286e1964]: 정승골 혼합 과일 선물세트 3호
+                  - list [ref=f286e1965]:
+                    - generic [ref=f286e1966]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1967]: 혼합 선물세트 3호 5kg (사과8과, 배4~5과)
+                    - generic [ref=f286e1968]:
+                      - term: 기준판매가
+                      - definition [ref=f286e1969]: 75,000
+                      - definition [ref=f286e1970]: 원
+                    - generic [ref=f286e1971]:
+                      - term: 할인율
+                      - definition [ref=f286e1972]: "13"
+                      - definition [ref=f286e1973]: "%"
+                    - generic [ref=f286e1974]:
+                      - term: 판매가
+                      - definition [ref=f286e1975]: 64,600
+                      - definition [ref=f286e1976]: 원
+                    - generic [ref=f286e1977]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e1978]: "4.9"
+                      - definition [ref=f286e1979]: (4,712)
+                - list [ref=f286e1981]:
+                  - listitem [ref=f286e1982]: 무료배송
+            - generic [ref=f286e1983]:
+              - link "바로구매" [ref=f286e1984]:
+                - /url: javascript:nowBuy('03','10007039','61069104','11260803','01','N','101202307');
+              - link "장바구니" [ref=f286e1986]:
+                - /url: javascript:setCart('03','10007039','61069104','11260803','01','N','101202307');
+              - link "찜" [ref=f286e1988]:
+                - /url: javascript:jjim('03','10007039','61069104','11260803','01','N','101202307');
+          - listitem [ref=f286e1990] [cursor=pointer]:
+            - link [ref=f286e1991]:
+              - /url: javaScript:fn_goodsDetailView('S3020402','01','03','10007039','102201302');
+              - generic [ref=f286e1992]:
+                - img "명품" [ref=f286e1995]
+                - img "식약처HACCP" [ref=f286e1998]
+              - generic [ref=f286e1999]:
+                - img "특산물" [ref=f286e2001]
+                - img "명품대천김" [ref=f286e2002]
+              - generic [ref=f286e2003]:
+                - generic [ref=f286e2004]:
+                  - paragraph [ref=f286e2005]: 명품대천김
+                  - list [ref=f286e2006]:
+                    - generic [ref=f286e2007]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2008]: 명품김2호캔김30g×15캔
+                    - generic [ref=f286e2009]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2010]: 67,000
+                      - definition [ref=f286e2011]: 원
+                    - generic [ref=f286e2012]:
+                      - term: 할인율
+                      - definition [ref=f286e2013]: "10"
+                      - definition [ref=f286e2014]: "%"
+                    - generic [ref=f286e2015]:
+                      - term: 판매가
+                      - definition [ref=f286e2016]: 59,850
+                      - definition [ref=f286e2017]: 원
+                    - generic [ref=f286e2018]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2019]: "4.9"
+                      - definition [ref=f286e2020]: (745)
+                - list [ref=f286e2022]:
+                  - listitem [ref=f286e2023]: 무료배송
+            - generic [ref=f286e2024]:
+              - link "바로구매" [ref=f286e2025]:
+                - /url: javascript:nowBuy('03','10007039','31044102','S3020402','01','N','102201302');
+              - link "장바구니" [ref=f286e2027]:
+                - /url: javascript:setCart('03','10007039','31044102','S3020402','01','N','102201302');
+              - link "찜" [ref=f286e2029]:
+                - /url: javascript:jjim('03','10007039','31044102','S3020402','01','N','102201302');
+          - listitem [ref=f286e2031] [cursor=pointer]:
+            - link [ref=f286e2032]:
+              - /url: javaScript:fn_goodsDetailView('33020409','01','03','10007039','102201302');
+              - generic [ref=f286e2033]:
+                - img "수산전통식품" [ref=f286e2036]
+                - img "식약처HACCP" [ref=f286e2039]
+              - generic [ref=f286e2040]:
+                - img "특산물" [ref=f286e2042]
+                - img "대천김" [ref=f286e2043]
+              - generic [ref=f286e2044]:
+                - generic [ref=f286e2045]:
+                  - paragraph [ref=f286e2046]: 대천김
+                  - list [ref=f286e2047]:
+                    - generic [ref=f286e2048]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2049]: 조미구이식탁김(9절36매x20봉)
+                    - generic [ref=f286e2050]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2051]: 26,000
+                      - definition [ref=f286e2052]: 원
+                    - generic [ref=f286e2053]:
+                      - term: 할인율
+                      - definition [ref=f286e2054]: "14"
+                      - definition [ref=f286e2055]: "%"
+                    - generic [ref=f286e2056]:
+                      - term: 판매가
+                      - definition [ref=f286e2057]: 22,230
+                      - definition [ref=f286e2058]: 원
+                    - generic [ref=f286e2059]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2060]: "4.9"
+                      - definition [ref=f286e2061]: (10,215)
+                - list [ref=f286e2063]:
+                  - listitem [ref=f286e2064]: 무료배송
+            - generic [ref=f286e2065]:
+              - link "바로구매" [ref=f286e2066]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020409','01','N','102201302');
+              - link "장바구니" [ref=f286e2068]:
+                - /url: javascript:setCart('03','10007039','31044102','33020409','01','N','102201302');
+              - link "찜" [ref=f286e2070]:
+                - /url: javascript:jjim('03','10007039','31044102','33020409','01','N','102201302');
+          - listitem [ref=f286e2072] [cursor=pointer]:
+            - link [ref=f286e2073]:
+              - /url: javaScript:fn_goodsDetailView('33021401','01','03','10007039','102201302');
+              - generic [ref=f286e2074]:
+                - img "특산물" [ref=f286e2076]
+                - img "대천갓바위조미구이김" [ref=f286e2077]
+              - generic [ref=f286e2078]:
+                - generic [ref=f286e2079]:
+                  - paragraph [ref=f286e2080]: 대천갓바위조미구이김
+                  - list [ref=f286e2081]:
+                    - generic [ref=f286e2082]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2083]: 조미구이재래김3봉조미구이파래김2봉(5매*5봉)
+                    - generic [ref=f286e2084]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2085]: 11,000
+                      - definition [ref=f286e2086]: 원
+                    - generic [ref=f286e2087]:
+                      - term: 할인율
+                      - definition [ref=f286e2088]: "14"
+                      - definition [ref=f286e2089]: "%"
+                    - generic [ref=f286e2090]:
+                      - term: 판매가
+                      - definition [ref=f286e2091]: 9,400
+                      - definition [ref=f286e2092]: 원
+                    - generic [ref=f286e2093]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2094]: "4.9"
+                      - definition [ref=f286e2095]: (8,553)
+                - list [ref=f286e2097]:
+                  - listitem [ref=f286e2098]: 무료배송
+                  - listitem [ref=f286e2099]: 해외배송
+            - generic [ref=f286e2100]:
+              - link "바로구매" [ref=f286e2101]:
+                - /url: javascript:nowBuy('03','10007039','31032601','33021401','01','N','102201302');
+              - link "장바구니" [ref=f286e2103]:
+                - /url: javascript:setCart('03','10007039','31032601','33021401','01','N','102201302');
+              - link "찜" [ref=f286e2105]:
+                - /url: javascript:jjim('03','10007039','31032601','33021401','01','N','102201302');
+          - listitem [ref=f286e2107] [cursor=pointer]:
+            - link [ref=f286e2108]:
+              - /url: javaScript:fn_goodsDetailView('33021404','01','03','10007039','102201303');
+              - generic [ref=f286e2109]:
+                - img "특산물" [ref=f286e2111]
+                - img "대천갓바위조미구이김" [ref=f286e2112]
+              - generic [ref=f286e2113]:
+                - generic [ref=f286e2114]:
+                  - paragraph [ref=f286e2115]: 대천갓바위조미구이김
+                  - list [ref=f286e2116]:
+                    - generic [ref=f286e2117]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2118]: 조미구이재래식탁김(9절9매x24봉)
+                    - generic [ref=f286e2119]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2120]: 12,000
+                      - definition [ref=f286e2121]: 원
+                    - generic [ref=f286e2122]:
+                      - term: 할인율
+                      - definition [ref=f286e2123]: "12"
+                      - definition [ref=f286e2124]: "%"
+                    - generic [ref=f286e2125]:
+                      - term: 판매가
+                      - definition [ref=f286e2126]: 10,450
+                      - definition [ref=f286e2127]: 원
+                    - generic [ref=f286e2128]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2129]: "4.9"
+                      - definition [ref=f286e2130]: (5,766)
+                - list [ref=f286e2132]:
+                  - listitem [ref=f286e2133]: 무료배송
+                  - listitem [ref=f286e2134]: 해외배송
+            - generic [ref=f286e2135]:
+              - link "바로구매" [ref=f286e2136]:
+                - /url: javascript:nowBuy('03','10007039','31032601','33021404','01','N','102201303');
+              - link "장바구니" [ref=f286e2138]:
+                - /url: javascript:setCart('03','10007039','31032601','33021404','01','N','102201303');
+              - link "찜" [ref=f286e2140]:
+                - /url: javascript:jjim('03','10007039','31032601','33021404','01','N','102201303');
+          - listitem [ref=f286e2142] [cursor=pointer]:
+            - link [ref=f286e2143]:
+              - /url: javaScript:fn_goodsDetailView('33020204','01','03','10007039','102201302');
+              - generic [ref=f286e2144]:
+                - img "특산물" [ref=f286e2146]
+                - img "보령대천김" [ref=f286e2147]
+              - generic [ref=f286e2148]:
+                - generic [ref=f286e2149]:
+                  - paragraph [ref=f286e2150]: 보령대천김
+                  - list [ref=f286e2151]:
+                    - generic [ref=f286e2152]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2153]: 조미구이재래김70장(5매x14봉)
+                    - generic [ref=f286e2154]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2155]: 21,000
+                      - definition [ref=f286e2156]: 원
+                    - generic [ref=f286e2157]:
+                      - term: 할인율
+                      - definition [ref=f286e2158]: "9"
+                      - definition [ref=f286e2159]: "%"
+                    - generic [ref=f286e2160]:
+                      - term: 판매가
+                      - definition [ref=f286e2161]: 19,000
+                      - definition [ref=f286e2162]: 원
+                    - generic [ref=f286e2163]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2164]: "4.9"
+                      - definition [ref=f286e2165]: (7,722)
+                - list [ref=f286e2167]:
+                  - listitem [ref=f286e2168]: 무료배송
+                  - listitem [ref=f286e2169]: 해외배송
+            - generic [ref=f286e2170]:
+              - link "바로구매" [ref=f286e2171]:
+                - /url: javascript:nowBuy('03','10007039','31044101','33020204','01','N','102201302');
+              - link "장바구니" [ref=f286e2173]:
+                - /url: javascript:setCart('03','10007039','31044101','33020204','01','N','102201302');
+              - link "찜" [ref=f286e2175]:
+                - /url: javascript:jjim('03','10007039','31044101','33020204','01','N','102201302');
+          - listitem [ref=f286e2177] [cursor=pointer]:
+            - link [ref=f286e2178]:
+              - /url: javaScript:fn_goodsDetailView('33020410','01','03','10007039','102201302');
+              - generic [ref=f286e2179]:
+                - img "수산전통식품" [ref=f286e2182]
+                - img "식약처HACCP" [ref=f286e2185]
+              - generic [ref=f286e2186]:
+                - img "특산물" [ref=f286e2188]
+                - img "대천김" [ref=f286e2189]
+              - generic [ref=f286e2190]:
+                - generic [ref=f286e2191]:
+                  - paragraph [ref=f286e2192]: 대천김
+                  - list [ref=f286e2193]:
+                    - generic [ref=f286e2194]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2195]: 조미구이식탁김(9절36매x30봉)
+                    - generic [ref=f286e2196]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2197]: 37,000
+                      - definition [ref=f286e2198]: 원
+                    - generic [ref=f286e2199]:
+                      - term: 할인율
+                      - definition [ref=f286e2200]: "11"
+                      - definition [ref=f286e2201]: "%"
+                    - generic [ref=f286e2202]:
+                      - term: 판매가
+                      - definition [ref=f286e2203]: 32,680
+                      - definition [ref=f286e2204]: 원
+                    - generic [ref=f286e2205]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2206]: "4.9"
+                      - definition [ref=f286e2207]: (5,462)
+                - list [ref=f286e2209]:
+                  - listitem [ref=f286e2210]: 무료배송
+                  - listitem [ref=f286e2211]: 해외배송
+            - generic [ref=f286e2212]:
+              - link "바로구매" [ref=f286e2213]:
+                - /url: javascript:nowBuy('03','10007039','31044102','33020410','01','N','102201302');
+              - link "장바구니" [ref=f286e2215]:
+                - /url: javascript:setCart('03','10007039','31044102','33020410','01','N','102201302');
+              - link "찜" [ref=f286e2217]:
+                - /url: javascript:jjim('03','10007039','31044102','33020410','01','N','102201302');
+          - listitem [ref=f286e2219] [cursor=pointer]:
+            - link [ref=f286e2220]:
+              - /url: javaScript:fn_goodsDetailView('11260603','01','03','10007039','101202307');
+              - generic [ref=f286e2221]:
+                - img "특산물" [ref=f286e2223]
+                - img "이안농장과일세트" [ref=f286e2224]
+              - generic [ref=f286e2225]:
+                - generic [ref=f286e2226]:
+                  - paragraph [ref=f286e2227]: 이안농장과일세트
+                  - list [ref=f286e2228]:
+                    - generic [ref=f286e2229]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2230]: 과일세트2호6kg(사과5-6과,배5-6과)
+                    - generic [ref=f286e2231]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2232]: 86,000
+                      - definition [ref=f286e2233]: 원
+                    - generic [ref=f286e2234]:
+                      - term: 할인율
+                      - definition [ref=f286e2235]: "5"
+                      - definition [ref=f286e2236]: "%"
+                    - generic [ref=f286e2237]:
+                      - term: 판매가
+                      - definition [ref=f286e2238]: 81,000
+                      - definition [ref=f286e2239]: 원
+                    - generic [ref=f286e2240]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2241]: "4.9"
+                      - definition [ref=f286e2242]: (745)
+                - list [ref=f286e2244]:
+                  - listitem [ref=f286e2245]: 무료배송
+            - generic [ref=f286e2246]:
+              - link "바로구매" [ref=f286e2247]:
+                - /url: javascript:nowBuy('03','10007039','70170606','11260603','01','N','101202307');
+              - link "장바구니" [ref=f286e2249]:
+                - /url: javascript:setCart('03','10007039','70170606','11260603','01','N','101202307');
+              - link "찜" [ref=f286e2251]:
+                - /url: javascript:jjim('03','10007039','70170606','11260603','01','N','101202307');
+          - listitem [ref=f286e2253] [cursor=pointer]:
+            - link [ref=f286e2254]:
+              - /url: javaScript:fn_goodsDetailView('11260601','01','03','10007039','101202307');
+              - generic [ref=f286e2255]:
+                - img "특산물" [ref=f286e2257]
+                - img "이안농장과일세트" [ref=f286e2258]
+              - generic [ref=f286e2259]:
+                - generic [ref=f286e2260]:
+                  - paragraph [ref=f286e2261]: 이안농장과일세트
+                  - list [ref=f286e2262]:
+                    - generic [ref=f286e2263]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2264]: 과일세트 3호(특)7kg(사과6과, 배 6과)
+                    - generic [ref=f286e2265]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2266]: 110,000
+                      - definition [ref=f286e2267]: 원
+                    - generic [ref=f286e2268]:
+                      - term: 할인율
+                      - definition [ref=f286e2269]: "9"
+                      - definition [ref=f286e2270]: "%"
+                    - generic [ref=f286e2271]:
+                      - term: 판매가
+                      - definition [ref=f286e2272]: 100,000
+                      - definition [ref=f286e2273]: 원
+                    - generic [ref=f286e2274]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2275]: "4.7"
+                      - definition [ref=f286e2276]: (218)
+                - list [ref=f286e2278]:
+                  - listitem [ref=f286e2279]: 무료배송
+            - generic [ref=f286e2280]:
+              - link "바로구매" [ref=f286e2281]:
+                - /url: javascript:nowBuy('03','10007039','70170606','11260601','01','N','101202307');
+              - link "장바구니" [ref=f286e2283]:
+                - /url: javascript:setCart('03','10007039','70170606','11260601','01','N','101202307');
+              - link "찜" [ref=f286e2285]:
+                - /url: javascript:jjim('03','10007039','70170606','11260601','01','N','101202307');
+          - listitem [ref=f286e2287] [cursor=pointer]:
+            - link [ref=f286e2288]:
+              - /url: javaScript:fn_goodsDetailView('25011410','01','03','10007039','104201301');
+              - generic [ref=f286e2289]:
+                - img "HACCP(도축장, 집유장, 농장)" [ref=f286e2292]
+                - img "6차산업인증(농촌융복합산업)" [ref=f286e2295]
+              - generic [ref=f286e2296]:
+                - img "특산물" [ref=f286e2298]
+                - img "창평한과선물세트(매화)" [ref=f286e2299]
+              - generic [ref=f286e2300]:
+                - generic [ref=f286e2301]:
+                  - paragraph [ref=f286e2302]: 창평한과선물세트(매화)
+                  - list [ref=f286e2303]:
+                    - generic [ref=f286e2304]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2305]: 매화524g[2단구성:약과(찹쌀,미니),강정(보리,딸기,흑미),엿강정(쌀,치자,대잎,백년초),다식(백년초,단호박,콩,대잎),유과(단호박,백년초,찹쌀)]
+                    - generic [ref=f286e2306]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2307]: 37,000
+                      - definition [ref=f286e2308]: 원
+                    - generic [ref=f286e2309]:
+                      - term: 할인율
+                      - definition [ref=f286e2310]: "20"
+                      - definition [ref=f286e2311]: "%"
+                    - generic [ref=f286e2312]:
+                      - term: 판매가
+                      - definition [ref=f286e2313]: 29,580
+                      - definition [ref=f286e2314]: 원
+                    - generic [ref=f286e2315]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2316]: "4.9"
+                      - definition [ref=f286e2317]: (1,340)
+                - list [ref=f286e2319]:
+                  - listitem [ref=f286e2320]: 무료배송
+                  - listitem [ref=f286e2321]: 해외배송
+            - generic [ref=f286e2322]:
+              - link "바로구매" [ref=f286e2323]:
+                - /url: javascript:nowBuy('03','10007039','50050401','25011410','01','N','104201301');
+              - link "장바구니" [ref=f286e2325]:
+                - /url: javascript:setCart('03','10007039','50050401','25011410','01','N','104201301');
+              - link "찜" [ref=f286e2327]:
+                - /url: javascript:jjim('03','10007039','50050401','25011410','01','N','104201301');
+          - listitem [ref=f286e2329] [cursor=pointer]:
+            - link [ref=f286e2330]:
+              - /url: javaScript:fn_goodsDetailView('11152502','01','03','10007039','101203302');
+              - generic [ref=f286e2331]:
+                - img "특산물" [ref=f286e2333]
+                - img "특산영농조합법인곶감(반건시)" [ref=f286e2334]
+              - generic [ref=f286e2335]:
+                - generic [ref=f286e2336]:
+                  - paragraph [ref=f286e2337]: 특산영농조합법인곶감(반건시)
+                  - list [ref=f286e2338]:
+                    - generic [ref=f286e2339]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2340]: 반건시1.8kg(45gx40개)
+                    - generic [ref=f286e2341]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2342]: 47,000
+                      - definition [ref=f286e2343]: 원
+                    - generic [ref=f286e2344]:
+                      - term: 할인율
+                      - definition [ref=f286e2345]: "40"
+                      - definition [ref=f286e2346]: "%"
+                    - generic [ref=f286e2347]:
+                      - term: 판매가
+                      - definition [ref=f286e2348]: 28,000
+                      - definition [ref=f286e2349]: 원
+                    - generic [ref=f286e2350]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2351]: "4.8"
+                      - definition [ref=f286e2352]: (462)
+                - list [ref=f286e2354]:
+                  - listitem [ref=f286e2355]: 무료배송
+            - generic [ref=f286e2356]:
+              - link "바로구매" [ref=f286e2357]:
+                - /url: javascript:nowBuy('03','10007039','30016002','11152502','01','N','101203302');
+              - link "장바구니" [ref=f286e2359]:
+                - /url: javascript:setCart('03','10007039','30016002','11152502','01','N','101203302');
+              - link "찜" [ref=f286e2361]:
+                - /url: javascript:jjim('03','10007039','30016002','11152502','01','N','101203302');
+          - listitem [ref=f286e2363] [cursor=pointer]:
+            - link [ref=f286e2364]:
+              - /url: javaScript:fn_goodsDetailView('11072703','01','03','10007039','101203302');
+              - img "지리적표시" [ref=f286e2368]
+              - generic [ref=f286e2369]:
+                - img "특산물" [ref=f286e2371]
+                - img "상주곶감집곶감(반건시)" [ref=f286e2372]
+              - generic [ref=f286e2373]:
+                - generic [ref=f286e2374]:
+                  - paragraph [ref=f286e2375]: 상주곶감집곶감(반건시)
+                  - list [ref=f286e2376]:
+                    - generic [ref=f286e2377]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2378]: 반건시2kg(50gx40개)
+                    - generic [ref=f286e2379]:
+                      - term: 기준판매가
+                      - definition [ref=f286e2380]: 54,000
+                      - definition [ref=f286e2381]: 원
+                    - generic [ref=f286e2382]:
+                      - term: 할인율
+                      - definition [ref=f286e2383]: "26"
+                      - definition [ref=f286e2384]: "%"
+                    - generic [ref=f286e2385]:
+                      - term: 판매가
+                      - definition [ref=f286e2386]: 39,900
+                      - definition [ref=f286e2387]: 원
+                    - generic [ref=f286e2388]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2389]: "4.9"
+                      - definition [ref=f286e2390]: (853)
+                - list [ref=f286e2392]:
+                  - listitem [ref=f286e2393]: 무료배송
+            - generic [ref=f286e2394]:
+              - link "바로구매" [ref=f286e2395]:
+                - /url: javascript:nowBuy('03','10007039','70281101','11072703','01','N','101203302');
+              - link "장바구니" [ref=f286e2397]:
+                - /url: javascript:setCart('03','10007039','70281101','11072703','01','N','101203302');
+              - link "찜" [ref=f286e2399]:
+                - /url: javascript:jjim('03','10007039','70281101','11072703','01','N','101203302');
+          - listitem [ref=f286e2401] [cursor=pointer]:
+            - link [ref=f286e2402]:
+              - /url: javaScript:fn_goodsDetailView('32014101','01','03','10007039','102203301');
+              - generic [ref=f286e2403]:
+                - img "수산물이력추적관리" [ref=f286e2406]
+                - img "식약처HACCP" [ref=f286e2409]
+              - generic [ref=f286e2410]:
+                - img "특산물" [ref=f286e2412]
+                - img "영광법성포옥굴비" [ref=f286e2413]
+              - generic [ref=f286e2414]:
+                - generic [ref=f286e2415]:
+                  - paragraph [ref=f286e2416]: 영광법성포옥굴비
+                  - list [ref=f286e2417]:
+                    - generic [ref=f286e2418]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2419]: 황토염오가(10미.22cm이상)
+                    - generic [ref=f286e2420]:
+                      - term: 판매가
+                      - definition [ref=f286e2421]: 75,000
+                      - definition [ref=f286e2422]: 원
+                    - generic [ref=f286e2423]:
+                      - term: 상품단위정보
+                      - definition [ref=f286e2424]: "4.9"
+                      - definition [ref=f286e2425]: (3,589)
+                - list [ref=f286e2427]:
+                  - listitem [ref=f286e2428]: 무료배송
+            - generic [ref=f286e2429]:
+              - link "바로구매" [ref=f286e2430]:
+                - /url: javascript:nowBuy('03','10007039','50026424','32014101','01','N','102203301');
+              - link "장바구니" [ref=f286e2432]:
+                - /url: javascript:setCart('03','10007039','50026424','32014101','01','N','102203301');
+              - link "찜" [ref=f286e2434]:
+                - /url: javascript:jjim('03','10007039','50026424','32014101','01','N','102203301');
+        - generic [ref=f286e2436]:
+          - link "10페이지이전" [ref=f286e2437] [cursor=pointer]:
+            - /url: javascript:fn_goPage(1);
+          - link "1페이지이전" [ref=f286e2439] [cursor=pointer]:
+            - /url: javascript:fn_goPage(1);
+          - generic [ref=f286e2441]: "1"
+          - link "2" [ref=f286e2442] [cursor=pointer]:
+            - /url: javascript:fn_goPage(2);
+          - link "3" [ref=f286e2443] [cursor=pointer]:
+            - /url: javascript:fn_goPage(3);
+          - link "4" [ref=f286e2444] [cursor=pointer]:
+            - /url: javascript:fn_goPage(4);
+          - link "5" [ref=f286e2445] [cursor=pointer]:
+            - /url: javascript:fn_goPage(5);
+          - link "6" [ref=f286e2446] [cursor=pointer]:
+            - /url: javascript:fn_goPage(6);
+          - link "7" [ref=f286e2447] [cursor=pointer]:
+            - /url: javascript:fn_goPage(7);
+          - link "8" [ref=f286e2448] [cursor=pointer]:
+            - /url: javascript:fn_goPage(8);
+          - link "9" [ref=f286e2449] [cursor=pointer]:
+            - /url: javascript:fn_goPage(9);
+          - link "10" [ref=f286e2450] [cursor=pointer]:
+            - /url: javascript:fn_goPage(10);
+          - link "1페이지다음" [ref=f286e2451] [cursor=pointer]:
+            - /url: javascript:fn_goPage(11);
+          - link "10페이지다음" [ref=f286e2453] [cursor=pointer]:
+            - /url: javascript:fn_goPage(83);
+    - generic [ref=f286e2455]:
+      - list [ref=f286e2457]:
+        - listitem [ref=f286e2458]:
+          - link "이용약관" [ref=f286e2459] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+        - listitem [ref=f286e2460]:
+          - link "개인정보처리방침" [ref=f286e2461] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+        - listitem [ref=f286e2462]:
+          - link "웹접근성정책" [ref=f286e2463] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+        - listitem [ref=f286e2464]:
+          - link "우체국쇼핑소개" [ref=f286e2465] [cursor=pointer]:
+            - /url: /fo/footer/epostmallDesc.do?pageId=mall01
+        - listitem [ref=f286e2466]:
+          - link "서비스 이용안내" [ref=f286e2467] [cursor=pointer]:
+            - /url: /fo/center/centerGuideBrdMenu.do
+        - listitem [ref=f286e2468]:
+          - link "입점안내" [ref=f286e2469] [cursor=pointer]:
+            - /url: /fo/center/centerGuideCustStat.do
+        - listitem [ref=f286e2470]:
+          - link "법인구매상담" [ref=f286e2471] [cursor=pointer]:
+            - /url: /fo/center/centerManyBuyOrderAdvc.do
+        - listitem [ref=f286e2472]:
+          - link "비지니스제휴" [ref=f286e2473] [cursor=pointer]:
+            - /url: /fo/center/centerBizCoprtnInq.do
+        - listitem [ref=f286e2474]:
+          - link "고객불편신고" [ref=f286e2475] [cursor=pointer]:
+            - /url: /fo/center/centerReport.do
+        - listitem [ref=f286e2476]:
+          - link "공급업체 통합관리자" [ref=f286e2477] [cursor=pointer]:
+            - /url: http://mallscm.epost.go.kr/scmIndex.do
+        - generic [ref=f286e2478]: G-CLOUD
+      - generic [ref=f286e2479]:
+        - generic:
+          - generic [ref=f286e2480]:
+            - paragraph [ref=f286e2482]:
+              - text: "재단법인 한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+              - link "사업자 정보확인" [ref=f286e2483] [cursor=pointer]:
+                - /url: javascript:void('0');
+            - generic [ref=f286e2484]:
+              - paragraph [ref=f286e2485]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+              - paragraph [ref=f286e2486]: "해외 : 82-1588-1300"
+            - generic [ref=f286e2487]:
+              - paragraph [ref=f286e2488]: 이 사이트는 인터넷 우체국에서 구축하고 재단법인 한국우편사업진흥원에서 운영합니다.
+              - paragraph [ref=f286e2489]: Copyright © 2014. ePOST all rights reserved.
+            - generic [ref=f286e2490]:
+              - paragraph [ref=f286e2491]: 우체국쇼핑은 고객님의 결제금액에 대해 안전거래를 보장합니다.
+              - paragraph [ref=f286e2492]: 단, “결제대금 예치 또는 소비자 피해보상보험계약 등의 체결이 면제되는 거래에 관한 고시”에따른 공공기관이 운영하는 쇼핑몰로 결제대금예치 또는 소비자피해보상보험계약 등의 체결은 면제되었습니다.
+          - generic [ref=f286e2493]:
+            - paragraph [ref=f286e2494]:
+              - link "카카오" [ref=f286e2495] [cursor=pointer]:
+                - /url: https://pf.kakao.com/_nixgxcu
+              - link "유튜브" [ref=f286e2496] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3OFl3RCfi0xVik4RRotzzQ
+              - link "인스타그램" [ref=f286e2497] [cursor=pointer]:
+                - /url: https://www.instagram.com/epostmall
+              - link "페이스북" [ref=f286e2498] [cursor=pointer]:
+                - /url: https://www.facebook.com/epostmall
+              - link "블로그" [ref=f286e2499] [cursor=pointer]:
+                - /url: https://blog.naver.com/wcgsp
+            - generic [ref=f286e2500]:
+              - paragraph [ref=f286e2501]: 우편고객센터
+              - paragraph [ref=f286e2502]: 1588-1300(발신자부담) help@posa.or.kr
+              - paragraph [ref=f286e2503]: 평일 09:00 ~18:00 (토요일,공휴일 휴무)
+            - generic [ref=f286e2504]:
+              - paragraph [ref=f286e2505]:
+                - link "주문조회|" [ref=f286e2506] [cursor=pointer]:
+                  - /url: /fo/mypage/myshoppingMain.do
+                - link "주문취소/반품|" [ref=f286e2507] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageChgCancelList.do
+                - link "비회원주문조회" [ref=f286e2508] [cursor=pointer]:
+                  - /url: /fo/center/moveCenterNonMemLogin.do
+              - paragraph [ref=f286e2509]:
+                - link "잦은 질문 FAQ|" [ref=f286e2510] [cursor=pointer]:
+                  - /url: /fo/center/centerFaqMemJoin.do
+                - link "현금영수증발행|" [ref=f286e2511] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageRciptIssue.do
+                - link "세금계산서신청" [ref=f286e2512] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageTaxReq.do
+            - link [ref=f286e2514] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "Digicert" [ref=f286e2515]
+      - generic [ref=f286e2516]:
+        - list:
+          - listitem [ref=f286e2517]: 2019 대한민국 명품브랜드 5년연속대상
+          - listitem [ref=f286e2518]: 2019 공공기관 사회적가치창출대회 고용노동부장관 최우수상
+          - listitem [ref=f286e2519]: 2017 제22회 한국유통대상 산업통상자원부장관 표창
+          - listitem [ref=f286e2520]: 소비자중심경영 인증 공정거래위원회
+          - listitem [ref=f286e2521]: KOLSA 한국온라인쇼핑협회
+      - list [ref=f286e2523]:
+        - listitem [ref=f286e2524]:
+          - link [ref=f286e2525] [cursor=pointer]:
+            - /url: "#"
+            - img "채팅상담" [ref=f286e2526]
+  - iframe

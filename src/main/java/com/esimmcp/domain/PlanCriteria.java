@@ -49,7 +49,8 @@ public final class PlanCriteria {
         if (requireInternationalSmsReceive && !plan.internationalSmsReceive()) {
             return false;
         }
-        if (requireStableNonPromotionalPrice && plan.promotionalPrice()) {
+        // Lifetime 특가 is allowed. Reject only intro pricing that steps up later.
+        if (requireStableNonPromotionalPrice && plan.priceIncreasesAfterTerm()) {
             return false;
         }
         return plan.monthlyPrice() != null && plan.monthlyPrice().signum() >= 0;

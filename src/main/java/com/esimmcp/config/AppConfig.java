@@ -99,6 +99,21 @@ public final class AppConfig {
         return get("search.query", "best cheap eSIM Korea international SMS receive monthly plan");
     }
 
+    public List<String> searchQueries() {
+        List<String> queries = new ArrayList<>();
+        String primary = searchQuery();
+        if (primary != null && !primary.isBlank()) {
+            queries.add(primary);
+        }
+        for (String extra : get("search.extra.queries", "").split("\\|")) {
+            String q = extra.trim();
+            if (!q.isEmpty() && !queries.contains(q)) {
+                queries.add(q);
+            }
+        }
+        return List.copyOf(queries);
+    }
+
     public String reportEmailTo() {
         return get("report.email.to", "");
     }

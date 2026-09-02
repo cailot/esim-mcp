@@ -1,0 +1,687 @@
+- generic [active] [ref=f305e1]:
+  - list:
+    - listitem:
+      - link "상단메뉴 바로가기" [ref=f305e2] [cursor=pointer]:
+        - /url: "#topNavi"
+    - listitem:
+      - link "왼쪽메뉴 바로가기" [ref=f305e3] [cursor=pointer]:
+        - /url: "#leftNavi"
+    - listitem:
+      - link "컨텐츠 바로가기" [ref=f305e4] [cursor=pointer]:
+        - /url: "#contentsLink"
+    - listitem:
+      - link "QUICK SEARCH 바로가기" [ref=f305e5] [cursor=pointer]:
+        - /url: "#quickSearchLink"
+  - generic [ref=f305e6]:
+    - generic [ref=f305e7]:
+      - generic [ref=f305e8]:
+        - generic:
+          - list [ref=f305e9]:
+            - listitem [ref=f305e10]:
+              - link "인터넷우체국" [ref=f305e11] [cursor=pointer]:
+                - /url: https://www.epost.go.kr
+            - listitem [ref=f305e12]:
+              - link "우체국쇼핑" [ref=f305e13] [cursor=pointer]:
+                - /url: http://mall.epost.go.kr
+            - listitem [ref=f305e14]:
+              - link "전통시장" [ref=f305e15] [cursor=pointer]:
+                - /url: http://mall.epost.go.kr/fo/pavln/sijangDduri.do
+            - listitem [ref=f305e16]:
+              - link "해외배송" [ref=f305e17] [cursor=pointer]:
+                - /url: http://mall.epost.go.kr/fo/main/moveOverSend.do
+            - listitem [ref=f305e18]:
+              - link "꽃배달" [ref=f305e19] [cursor=pointer]:
+                - /url: http://mall.epost.go.kr/fo/pavln/flowerSend.do
+          - list [ref=f305e20]:
+            - listitem [ref=f305e21]:
+              - link "로그인" [ref=f305e22] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?s_url=https://b2b.epost.go.kr/comm.login.BtobLogin.btb?escParams=nextURL%3D%2Fbtobmall.mmain.index.btb
+            - listitem [ref=f305e23]:
+              - link "회원가입" [ref=f305e24] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/member/cafzb000k01.jsp
+            - listitem [ref=f305e25]:
+              - link "고객센터" [ref=f305e26] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/bbs.RetrieveBbsMain.comm
+      - generic [ref=f305e27]:
+        - link "우체국B2B" [ref=f305e28] [cursor=pointer]:
+          - /url: https://b2b.epost.go.kr
+        - generic [ref=f305e32]:
+          - textbox "검색어입력" [ref=f305e33]: 상품명, 상품번호 또는 판매자명 입력
+          - link "찾기버튼" [ref=f305e34] [cursor=pointer]:
+            - /url: javascript:searchTxt();
+      - iframe
+      - generic [ref=f305e36]:
+        - generic:
+          - link "전체메뉴보기" [ref=f305e37] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f305e38]:
+            - listitem [ref=f305e39]:
+              - paragraph [ref=f305e40]:
+                - link "빠른구매" [ref=f305e41] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveMallSubMain.btb
+            - listitem [ref=f305e42]:
+              - paragraph [ref=f305e43]:
+                - link "입찰구매" [ref=f305e44] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.main.TenderSubMain.btb
+            - listitem [ref=f305e45]:
+              - paragraph [ref=f305e46]:
+                - link "법적의무구매" [ref=f305e47] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsSubMain.btb
+            - listitem [ref=f305e48]:
+              - paragraph [ref=f305e49]:
+                - link "우체국전문용품" [ref=f305e50] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.event.ExpertExhibitionMain.btb
+            - listitem [ref=f305e51]:
+              - paragraph [ref=f305e52]:
+                - link "지자체연계" [ref=f305e53] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveConnectedAutomonyMain.btb
+            - listitem [ref=f305e54]:
+              - paragraph [ref=f305e55]:
+                - link "아파트소모품자재" [ref=f305e56] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveApartGoodsSubMain.btb
+          - list [ref=f305e57]:
+            - listitem [ref=f305e58]:
+              - link "회원사 이용안내" [ref=f305e59] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveServiceInfo1.btb
+            - listitem [ref=f305e60]:
+              - link "마이페이지" [ref=f305e61] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.main.MypageBeforeLogin.btb
+        - list [ref=f305e63]:
+          - listitem [ref=f305e64]:
+            - img "입금 계좌번호/담당자 우체국 014506-01-004506 예금주 (재)한국우편사업진흥원 B2B 담당자 02)2036-0672" [ref=f305e65]
+    - generic [ref=f305e68]:
+      - generic [ref=f305e69]:
+        - generic [ref=f305e70]:
+          - generic [ref=f305e71]:
+            - button "구매회원사" [ref=f305e72] [cursor=pointer]
+            - button "판매회원사" [ref=f305e73] [cursor=pointer]
+          - generic [ref=f305e74]:
+            - generic [ref=f305e75]:
+              - paragraph [ref=f305e76]:
+                - radio "아이디로그인" [checked] [ref=f305e77]
+                - text: 아이디로그인
+              - generic [ref=f305e78]:
+                - generic [ref=f305e79]:
+                  - paragraph [ref=f305e80]:
+                    - textbox "아이디" [ref=f305e81]
+                  - paragraph [ref=f305e82]:
+                    - textbox "비밀번호" [ref=f305e83]
+                - generic [ref=f305e84]:
+                  - paragraph [ref=f305e85]:
+                    - checkbox "아이디저장" [ref=f305e86]
+                    - text: 아이디저장
+                  - paragraph [ref=f305e87]:
+                    - button "들어가기" [ref=f305e88] [cursor=pointer]
+              - generic [ref=f305e89]:
+                - paragraph [ref=f305e90]:
+                  - img "아이디/비밀번호가 생각나지 않으세요?" [ref=f305e91]
+                - generic [ref=f305e92]:
+                  - link "아이디 찾기" [ref=f305e93] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/member/cafzb009k08.jsp
+                  - link "비밀번호 찾기" [ref=f305e94] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/member/cafzb009k09.jsp
+            - generic [ref=f305e96]:
+              - paragraph [ref=f305e97]:
+                - radio "공동인증 로그인" [ref=f305e98]
+                - text: 공동인증 로그인
+              - generic [ref=f305e99]:
+                - textbox "아이디" [disabled] [ref=f305e101]
+                - paragraph [ref=f305e103]:
+                  - button "들어가기" [disabled] [ref=f305e104] [cursor=pointer]
+              - paragraph [ref=f305e105]:
+                - img "판매회원사의 경우 공동인증서를 통한 로그인후 거래와 관련된 기능을 이용하실 수 있습니다." [ref=f305e106]
+            - generic [ref=f305e107]:
+              - paragraph [ref=f305e108]:
+                - link "ePOST 회원 가입신청" [ref=f305e109] [cursor=pointer]:
+                  - /url: https://www.epost.go.kr/usr/member/cafzb000k01.jsp
+                  - text: ePOST 회원가입신청
+              - paragraph [ref=f305e110]:
+                - link "구매회원사 등록신청" [ref=f305e111] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/member.BtobMemberReg.btb?bbsTp=BR
+                  - text: 구매회원사등록신청
+        - generic [ref=f305e112]:
+          - generic [ref=f305e113]:
+            - button "Previous" [ref=f305e114] [cursor=pointer]
+            - listbox [ref=f305e116]:
+              - link [ref=f305e118] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.event.RetrieveExhibition.btb?exhibitionId=00008
+              - option [aria-hidden] [ref=f305e120]:
+                - link [ref=f305e121] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveSampleGoodsList.btb
+              - option [ref=f305e123]:
+                - link [ref=f305e124] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.event.ExpertExhibitionMain.btb
+                  - img "우체국 전문몰" [ref=f305e125]
+              - option [aria-hidden] [ref=f305e126]:
+                - link [ref=f305e127] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderList.btb?menuGbn=NEA
+              - option [aria-hidden] [ref=f305e129]:
+                - link [ref=f305e130] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.event.RetrieveExhibition.btb?exhibitionId=00008
+              - link [ref=f305e133] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveSampleGoodsList.btb
+            - button "Next" [ref=f305e135] [cursor=pointer]
+          - listbox [ref=f305e138]:
+            - generic [aria-hidden] [ref=f305e139] [cursor=pointer]: 우체국 전문몰
+            - generic [aria-hidden] [ref=f305e140] [cursor=pointer]: 마감임박입찰
+            - generic [aria-hidden] [ref=f305e141] [cursor=pointer]: 법적의무구매상품
+            - option [aria-hidden] [ref=f305e142] [cursor=pointer]: 샘플제공상품
+            - option "우체국 전문몰" [ref=f305e143] [cursor=pointer]
+            - option "마감임박입찰" [ref=f305e144] [cursor=pointer]
+            - option "법적의무구매상품" [ref=f305e145] [cursor=pointer]
+            - generic [aria-hidden] [ref=f305e146] [cursor=pointer]: 샘플제공상품
+            - generic [aria-hidden] [ref=f305e147] [cursor=pointer]: 우체국 전문몰
+            - generic [aria-hidden] [ref=f305e148] [cursor=pointer]: 마감임박입찰
+        - generic [ref=f305e149]:
+          - paragraph [ref=f305e150]:
+            - link [ref=f305e151] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.event.RetrieveExhibition.btb?exhibitionId=00008
+              - img "MD추천 법적의무구매상품 - 장애인생산품, 전라북도 사회적경제기업, 기술인증상품, 친횐경상품" [ref=f305e152]
+          - paragraph [ref=f305e153]:
+            - link [ref=f305e154] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.event.RetrieveExhibition.btb?exhibitionId=00006
+              - img "트렌드 상품 - 많은 판매를 기록한 인기상품, MD추천상품" [ref=f305e155]
+          - paragraph [ref=f305e156]:
+            - link [ref=f305e157] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveBuyerRegInfo.btb
+              - img "구매회원사 가입안내" [ref=f305e158]
+          - paragraph [ref=f305e159]:
+            - link [ref=f305e160] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveSellerRegInfo.btb
+              - img "판매회원사 가입안내" [ref=f305e161]
+      - generic [ref=f305e162]:
+        - generic [ref=f305e163]:
+          - generic [ref=f305e164]:
+            - heading [level=2] [ref=f305e165]:
+              - generic [ref=f305e166]:
+                - strong [ref=f305e167]: 빠른구매
+                - text: ㅣ
+              - text: 보다 쉽고 빠른 상품 구매
+            - paragraph [ref=f305e168]:
+              - link "+ 전체보기" [ref=f305e169] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveMallSubMain.btb
+          - generic [ref=f305e170]:
+            - generic [ref=f305e171]:
+              - heading "분류별 상품" [level=3] [ref=f305e172]
+              - list [ref=f305e173]:
+                - listitem [ref=f305e174]:
+                  - link [ref=f305e175] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveLargeCategoryList.btb?catgrId=C10003&catgrLevel=1
+                    - img "선물세트" [ref=f305e176]
+                - listitem [ref=f305e177]:
+                  - link [ref=f305e178] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveLargeCategoryList.btb?catgrId=C10004&catgrLevel=1
+                    - img "주방용품" [ref=f305e179]
+                - listitem [ref=f305e180]:
+                  - link [ref=f305e181] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveLargeCategoryList.btb?catgrId=C10005&catgrLevel=1
+                    - img "생활용품" [ref=f305e182]
+                - listitem [ref=f305e183]:
+                  - link [ref=f305e184] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveLargeCategoryList.btb?catgrId=C10008&catgrLevel=1
+                    - img "전산 사무용품" [ref=f305e185]
+                - listitem [ref=f305e186]:
+                  - link [ref=f305e187] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDisabledProductList.btb
+                    - img "장애인 기업상품" [ref=f305e188]
+              - list [ref=f305e189]:
+                - listitem [ref=f305e190]:
+                  - link [ref=f305e191] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveGroupBuyList.btb
+                    - img "이달의 공동구매" [ref=f305e192]
+                - listitem [ref=f305e193]:
+                  - link [ref=f305e194] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveCospTypeGoodsList.btb?selPrice=1
+                    - img "가격대별 추천상품" [ref=f305e195]
+                - listitem [ref=f305e196]:
+                  - link [ref=f305e197] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveBestGoodsList.btb
+                    - img "인기상품 100" [ref=f305e198]
+            - generic [ref=f305e200]:
+              - heading "분류별검색" [level=3] [ref=f305e201]
+              - generic [ref=f305e202]:
+                - combobox "대분류선택" [ref=f305e203]:
+                  - option "대분류" [selected]
+                  - option "선물세트"
+                  - option "주방용품"
+                  - option "생활용품"
+                  - option "전산사무용품"
+                  - option "중소기업육성"
+                  - option "녹색가전제품"
+                  - option "건축설비"
+                  - option "산업기기"
+                  - option "미술품"
+                  - option "사회적기업"
+                  - option "아파트소모품자재"
+                  - option "MRO"
+                - combobox "중분류선택" [ref=f305e204]:
+                  - option "중분류" [selected]
+              - generic [ref=f305e205]:
+                - combobox "소분류선택" [ref=f305e206]:
+                  - option "소분류" [selected]
+                - combobox "가격대별 선택" [ref=f305e207]:
+                  - option "가격대별" [selected]
+                  - option "5,000원 이하"
+                  - option "10,000원 이하"
+                  - option "20,000원 이하"
+                  - option "20,000원 초과"
+              - generic [ref=f305e208]:
+                - textbox "빠른구매 분류별 검색" [ref=f305e209]
+                - button "검색" [ref=f305e210] [cursor=pointer]
+        - generic [ref=f305e211]:
+          - generic [ref=f305e212]:
+            - heading [level=2] [ref=f305e213]:
+              - generic [ref=f305e214]:
+                - strong [ref=f305e215]: 법적의무구매
+                - text: ㅣ
+              - text: 공공기관 실적관리대상 상품구매
+            - paragraph [ref=f305e216]:
+              - link "+ 전체보기" [ref=f305e217] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsSubMain.btb
+          - generic [ref=f305e218]:
+            - generic [ref=f305e219]:
+              - heading "분류별 상품" [level=3] [ref=f305e220]
+              - list [ref=f305e221]:
+                - listitem [ref=f305e222]:
+                  - link [ref=f305e223] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10010&dutyGoodsTp=1&catgrLevel=1
+                    - img "녹색제품" [ref=f305e224]
+                - listitem [ref=f305e225]:
+                  - link [ref=f305e226] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10011&dutyGoodsTp=2&catgrLevel=1
+                    - img "중증장애인생산품" [ref=f305e227]
+              - list [ref=f305e228]:
+                - listitem [ref=f305e229]:
+                  - link [ref=f305e230] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10013&dutyGoodsTp=4&catgrLevel=1
+                    - img "기술개발제품" [ref=f305e231]
+                - listitem [ref=f305e232]:
+                  - link [ref=f305e233] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10017&dutyGoodsTp=8&catgrLevel=1
+                    - img "중소기업제품" [ref=f305e234]
+              - list [ref=f305e235]:
+                - listitem [ref=f305e236]:
+                  - link [ref=f305e237] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10016&dutyGoodsTp=16&catgrLevel=1
+                    - img "여성기업제품" [ref=f305e238]
+                - listitem [ref=f305e239]:
+                  - link [ref=f305e240] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.goods.RetrieveDutyGoodsList.btb?catgrId=C10026&dutyGoodsTp=32&catgrLevel=1
+                    - img "사회적기업제품" [ref=f305e241]
+              - list [ref=f305e242]:
+                - listitem [ref=f305e243]:
+                  - link [ref=f305e244] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveDutyGoodsInfoView1.btb
+                    - img "법적의무구매 제도안내" [ref=f305e245]
+                - listitem [ref=f305e246]:
+                  - link [ref=f305e247] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveDutyGoodsInfoView3.btb
+                    - img "법적의무구매 품목안내" [ref=f305e248]
+                - listitem [ref=f305e249]:
+                  - link [ref=f305e250] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveDutyGoodsInfoView4.btb
+                    - img "이용안내 및 실적관리" [ref=f305e251]
+            - generic [ref=f305e253]:
+              - heading "분류별검색" [level=3] [ref=f305e254]
+              - generic [ref=f305e255]:
+                - combobox "대분류선택" [ref=f305e256]:
+                  - option "대분류" [selected]
+                  - option "녹색제품"
+                  - option "중증장애인생산품"
+                  - option "기술개발제품"
+                  - option "중소기업제품"
+                  - option "여성기업제품"
+                  - option "사회적기업제품"
+                  - option "장애인기업"
+                  - option "장애인 표준사업장"
+                - combobox "중분류선택" [ref=f305e257]:
+                  - option "중분류" [selected]
+              - generic [ref=f305e258]:
+                - combobox "소분류선택" [ref=f305e259]:
+                  - option "소분류" [selected]
+                - combobox "가격대별 선택" [ref=f305e260]:
+                  - option "가격대별" [selected]
+                  - option "5,000원 이하"
+                  - option "10,000원 이하"
+                  - option "20,000원 이하"
+                  - option "20,000원 초과"
+              - generic [ref=f305e261]:
+                - textbox "법적의무구매 분류별 검색" [ref=f305e262]
+                - button "검색" [ref=f305e263] [cursor=pointer]
+        - generic [ref=f305e264]:
+          - generic [ref=f305e265]:
+            - heading [level=2] [ref=f305e266]:
+              - generic [ref=f305e267]:
+                - strong [ref=f305e268]: 입찰구매
+                - text: ㅣ
+              - text: 역경매를 통한 상품 구매
+            - paragraph [ref=f305e269]:
+              - link "+ 전체보기" [ref=f305e270] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.main.TenderSubMain.btb
+          - generic [ref=f305e271]:
+            - generic [ref=f305e272]:
+              - heading "분류별 상품" [level=3] [ref=f305e273]
+              - list [ref=f305e274]:
+                - listitem [ref=f305e275]:
+                  - link [ref=f305e276] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderList.btb?menuGbn=ING
+                    - img "진행중인 입찰공고" [ref=f305e277]
+                - listitem [ref=f305e278]:
+                  - link [ref=f305e279] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderList.btb?menuGbn=MOD
+                    - img "수정중인 입찰공고" [ref=f305e280]
+                - listitem [ref=f305e281]:
+                  - link [ref=f305e282] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderList.btb?menuGbn=NEA
+                    - img "마감임박 입찰공고" [ref=f305e283]
+                - listitem [ref=f305e284]:
+                  - link [ref=f305e285] [cursor=pointer]:
+                    - /url: https://b2b.epost.go.kr/buyermypg.estreq.RetrieveEstimateRequestListInfo.btb
+                    - img "견적요청" [ref=f305e286]
+            - generic [ref=f305e288]:
+              - heading "입찰공고검색" [level=3] [ref=f305e289]
+              - generic [ref=f305e291]:
+                - term [ref=f305e292]: 입찰상태
+                - definition [ref=f305e293]:
+                  - radio "진행중" [ref=f305e294]
+                  - text: 진행중
+                - definition [ref=f305e295]:
+                  - radio "마감" [ref=f305e296]
+                  - text: 마감
+              - generic [ref=f305e297]:
+                - text: 지역제한
+                - combobox "지역선택" [ref=f305e298]:
+                  - option "전체" [selected]
+                  - option "서울"
+                  - option "부산"
+                  - option "대구"
+                  - option "인천"
+                  - option "대전"
+                  - option "광주"
+                  - option "울산"
+                  - option "경기"
+                  - option "강원"
+                  - option "충남"
+                  - option "충북"
+                  - option "경남"
+                  - option "경북"
+                  - option "전남"
+                  - option "전북"
+                  - option "제주"
+                - text: 입찰결과
+                - combobox "입찰결과선택" [ref=f305e299]:
+                  - option "전체" [selected]
+                  - option "입찰진행중"
+                  - option "입찰마감"
+                  - option "낙찰자선정"
+                  - option "유찰"
+                  - option "재입찰"
+                  - option "입찰취소"
+              - generic [ref=f305e300]:
+                - generic [ref=f305e301]:
+                  - radio "전체" [checked] [ref=f305e302]
+                  - text: 전체
+                  - radio "입찰명" [ref=f305e303]
+                  - text: 입찰명
+                  - radio "입찰번호" [ref=f305e304]
+                  - text: 입찰번호
+                - paragraph:
+                  - textbox "입찰공고 검색" [ref=f305e305]
+                  - button "검색" [ref=f305e306] [cursor=pointer]
+      - generic [ref=f305e307]:
+        - list [ref=f305e308]:
+          - listitem [ref=f305e309]:
+            - link [ref=f305e310] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btob/comm/etc/info.jsp
+              - img "우체국 B2B란?" [ref=f305e311]
+          - listitem [ref=f305e312]:
+            - link [ref=f305e313] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.mbbs.RetrieveServiceInfo1.btb
+              - img "우체국 B2B서비스" [ref=f305e314]
+          - listitem [ref=f305e315]:
+            - link [ref=f305e316] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.mbbs.faqList.btb?bbsTp=FAQ
+              - img "잦은질문" [ref=f305e317]
+          - listitem [ref=f305e318]:
+            - link [ref=f305e319] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btob/btobmall/mbbs/edu/m00505_nl01.jsp
+              - img "판매교육센터" [ref=f305e320]
+        - list [ref=f305e323]:
+          - listitem:
+            - paragraph [ref=f305e324]:
+              - button "진행중인 입찰공고" [ref=f305e325] [cursor=pointer]
+            - table "진행중인 입찰공고" [ref=f305e326]:
+              - rowgroup [ref=f305e333]:
+                - row [ref=f305e334]:
+                  - columnheader "입찰번호" [ref=f305e335]
+                  - columnheader "입찰명" [ref=f305e336]
+                  - columnheader "지역제한" [ref=f305e337]
+                  - columnheader "입찰종료일" [ref=f305e338]
+                  - columnheader "입찰상태" [ref=f305e339]
+              - rowgroup [ref=f305e340]:
+                - row [ref=f305e341]:
+                  - cell "T20260901-2000002" [ref=f305e342]
+                  - cell [ref=f305e343]:
+                    - img "긴급입찰" [ref=f305e344]
+                    - img "수정입찰" [ref=f305e345]
+                    - link "더 그린 항균위생장갑(L)-30매" [ref=f305e346] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260901-2000002
+                  - cell "전국" [ref=f305e347]
+                  - cell "2026-09-04 11:00" [ref=f305e348]
+                  - cell "입찰진행중" [ref=f305e349]
+                - row [ref=f305e350]:
+                  - cell "T20260901-2000001" [ref=f305e351]
+                  - cell [ref=f305e352]:
+                    - img "긴급입찰" [ref=f305e353]
+                    - img "수정입찰" [ref=f305e354]
+                    - link "더 그린 항균롤백 1호" [ref=f305e355] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260901-2000001
+                  - cell "전국" [ref=f305e356]
+                  - cell "2026-09-04 11:00" [ref=f305e357]
+                  - cell "입찰진행중" [ref=f305e358]
+                - row [ref=f305e359]:
+                  - cell "T20260901-1000004" [ref=f305e360]
+                  - cell [ref=f305e361]:
+                    - img "긴급입찰" [ref=f305e362]
+                    - link "가파치 3단 자동 슬림 양우산" [ref=f305e363] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260901-1000004
+                  - cell "전국" [ref=f305e364]
+                  - cell "2026-09-04 11:00" [ref=f305e365]
+                  - cell "입찰진행중" [ref=f305e366]
+                - row [ref=f305e367]:
+                  - cell "T20260901-1000003" [ref=f305e368]
+                  - cell [ref=f305e369]:
+                    - img "긴급입찰" [ref=f305e370]
+                    - link "2080 히말라야 핑크솔트 치약" [ref=f305e371] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260901-1000003
+                  - cell "전국" [ref=f305e372]
+                  - cell "2026-09-04 11:00" [ref=f305e373]
+                  - cell "입찰진행중" [ref=f305e374]
+                - row [ref=f305e375]:
+                  - cell "T20260831-2000006" [ref=f305e376]
+                  - cell [ref=f305e377]:
+                    - img "긴급입찰" [ref=f305e378]
+                    - link "모나리자 미용티슈(210매*3p)" [ref=f305e379] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000006
+                  - cell "전국" [ref=f305e380]
+                  - cell "2026-09-03 21:00" [ref=f305e381]
+                  - cell "입찰진행중" [ref=f305e382]
+                - row [ref=f305e383]:
+                  - cell "T20260831-2000005" [ref=f305e384]
+                  - cell [ref=f305e385]:
+                    - img "긴급입찰" [ref=f305e386]
+                    - link "스타쉐프애니워시 주방세제(본품470ml+리필300ml)" [ref=f305e387] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000005
+                  - cell "전국" [ref=f305e388]
+                  - cell "2026-09-03 21:00" [ref=f305e389]
+                  - cell "입찰진행중" [ref=f305e390]
+                - row [ref=f305e391]:
+                  - cell "T20260831-2000004" [ref=f305e392]
+                  - cell [ref=f305e393]:
+                    - img "긴급입찰" [ref=f305e394]
+                    - link "벨라테라프리미엄3종세트" [ref=f305e395] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000004
+                  - cell "전국" [ref=f305e396]
+                  - cell "2026-09-03 21:00" [ref=f305e397]
+                  - cell "입찰진행중" [ref=f305e398]
+                - row [ref=f305e399]:
+                  - cell "T20260831-2000003" [ref=f305e400]
+                  - cell [ref=f305e401]:
+                    - img "긴급입찰" [ref=f305e402]
+                    - link "오슬로마린인덕션 편수냄비18cm" [ref=f305e403] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000003
+                  - cell "전국" [ref=f305e404]
+                  - cell "2026-09-03 20:00" [ref=f305e405]
+                  - cell "입찰진행중" [ref=f305e406]
+                - row [ref=f305e407]:
+                  - cell "T20260831-2000002" [ref=f305e408]
+                  - cell [ref=f305e409]:
+                    - img "긴급입찰" [ref=f305e410]
+                    - link "에스파뇰라 유기농 올리브유 세트(500ml*2P)" [ref=f305e411] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000002
+                  - cell "전국" [ref=f305e412]
+                  - cell "2026-09-03 17:00" [ref=f305e413]
+                  - cell "입찰진행중" [ref=f305e414]
+                - row [ref=f305e415]:
+                  - cell "T20260831-2000001" [ref=f305e416]
+                  - cell [ref=f305e417]:
+                    - img "긴급입찰" [ref=f305e418]
+                    - link "다온5종 선물세트 100개 구입" [ref=f305e419] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderDetailInfo.btb?menuGbn=ING&tenderNo=T20260831-2000001
+                  - cell "전국" [ref=f305e420]
+                  - cell "2026-09-03 16:00" [ref=f305e421]
+                  - cell "입찰진행중" [ref=f305e422]
+            - paragraph [ref=f305e423]:
+              - link "+ 전체보기" [ref=f305e424] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.tender.RetrieveTenderList.btb?menuGbn=ING
+          - listitem:
+            - paragraph [ref=f305e425]:
+              - button "수정된 입찰공고" [ref=f305e426] [cursor=pointer]
+          - listitem:
+            - paragraph [ref=f305e427]:
+              - button "마감임박 입찰공고" [ref=f305e428] [cursor=pointer]
+      - generic [ref=f305e429]:
+        - generic [ref=f305e430]:
+          - generic [ref=f305e431]:
+            - term [ref=f305e432]: 고객센터
+            - definition [ref=f305e433]:
+              - text: 우편고객센터
+              - strong [ref=f305e434]: 1588 - 1300
+            - definition [ref=f305e435]: (발신자 부담)
+            - definition [ref=f305e436]:
+              - text: 우체국B2B 입찰담당자
+              - strong [ref=f305e437]: 02)2036 - 0672
+            - definition [ref=f305e438]: 평일 09:00 ~ 18:00
+            - definition [ref=f305e439]: (토요일,공휴일 휴무)
+          - generic [ref=f305e440]:
+            - term [ref=f305e441]: 입금계좌번호
+            - definition [ref=f305e442]:
+              - text: 우체국
+              - strong [ref=f305e443]: 014506 - 01 - 004506
+            - definition [ref=f305e444]: 예금주 재단법인 한국우편사업진흥원
+        - generic [ref=f305e445]:
+          - generic [ref=f305e446]:
+            - term [ref=f305e447]: 공지사항
+            - definition:
+              - paragraph [ref=f305e448]:
+                - link "한국우편사업진흥원 추석 명절 청렴서한문" [ref=f305e449] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.mbbs.noticeDetail.btb?bbsNo=B20250919-N000065&bbsTp=NB
+              - paragraph [ref=f305e450]: 2025-09-19
+            - definition:
+              - paragraph [ref=f305e451]:
+                - link "우체국쇼핑 서비스 일시중단 안내" [ref=f305e452] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.mbbs.noticeDetail.btb?bbsNo=B20250613-N000004&bbsTp=NB
+              - paragraph [ref=f305e453]: 2025-06-13
+            - definition:
+              - paragraph [ref=f305e454]:
+                - link "[알림] B2B 및 선장품몰 담당자 변경 안내" [ref=f305e455] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.mbbs.noticeDetail.btb?bbsNo=B20241112-N000007&bbsTp=NB
+              - paragraph [ref=f305e456]: 2024-11-12
+            - definition:
+              - paragraph [ref=f305e457]:
+                - link "한국우편사업진흥원 청렴서한문" [ref=f305e458] [cursor=pointer]:
+                  - /url: https://b2b.epost.go.kr/btobmall.mbbs.noticeDetail.btb?bbsNo=B20240904-N000005&bbsTp=NB
+              - paragraph [ref=f305e459]: 2024-09-04
+          - paragraph [ref=f305e460]:
+            - link [ref=f305e461] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/btobmall.mbbs.noticeAllList.btb?bbsTp=NB
+              - img "더보기" [ref=f305e462]
+    - generic [ref=f305e463]:
+      - generic [ref=f305e464]:
+        - list:
+          - listitem [ref=f305e465]:
+            - link "이용약관" [ref=f305e466] [cursor=pointer]:
+              - /url: http://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+          - listitem [ref=f305e467]:
+            - link "개인정보처리방침" [ref=f305e468] [cursor=pointer]:
+              - /url: http://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+          - listitem [ref=f305e469]:
+            - link "회원사 이용안내" [ref=f305e470] [cursor=pointer]:
+              - /url: /btobmall.mbbs.RetrieveServiceInfo1.btb
+      - generic [ref=f305e471]:
+        - generic [ref=f305e472]:
+          - generic [ref=f305e473]:
+            - paragraph [ref=f305e474]: "한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+            - paragraph [ref=f305e475]:
+              - link "사업자 정보확인" [ref=f305e476] [cursor=pointer]:
+                - /url: javascript:void(0);
+          - paragraph [ref=f305e477]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+          - paragraph [ref=f305e478]: "해외 : 85-1588-1300 / 이메일 : info@posa.or.kr"
+        - generic [ref=f305e480]:
+          - generic [ref=f305e481]:
+            - paragraph [ref=f305e482]:
+              - combobox "관련사이트" [ref=f305e483]:
+                - option "관련사이트" [selected]
+                - option "우편서비스"
+                - option "우체국쇼핑"
+                - option "우체국택배"
+                - option "우체국EMS"
+                - option "우체국예금보험"
+            - paragraph [ref=f305e484]:
+              - link "이동" [ref=f305e485] [cursor=pointer]:
+                - /url: javascript:;
+          - paragraph [ref=f305e486]: 이 사이트는 인터넷 우체국에서 구축하고 한국우편사업진흥원에서 운영합니다.
+          - paragraph [ref=f305e487]: Copyright © 2014. ePOST all rights reserved.
+      - generic [ref=f305e488]:
+        - list:
+          - listitem [ref=f305e489]:
+            - img "한국정보인증 보안마크" [ref=f305e490]
+          - listitem [ref=f305e491]:
+            - img "개인정보보호협회 개인정보보호 마크" [ref=f305e492]
+          - listitem [ref=f305e493]:
+            - img "2015 대한민국 명품브랜드 대상" [ref=f305e494]
+          - listitem [ref=f305e495]:
+            - img "소비자중심경영 인증 공정거래위원회" [ref=f305e496]
+          - listitem [ref=f305e497]:
+            - img "2014 대한민국 소비자신뢰 대표브랜드 대상" [ref=f305e498]
+          - listitem [ref=f305e499]:
+            - img "ISO9001 품질경영 인증" [ref=f305e500]
+          - listitem [ref=f305e501]:
+            - img "한국서비스품질우수기업 인증획득/장관표창" [ref=f305e502]
+          - listitem [ref=f305e503]:
+            - img "KOLSA 한국온라인쇼핑협회" [ref=f305e504]
+    - generic [ref=f305e505]:
+      - paragraph [ref=f305e507]:
+        - button "빠른검색" [ref=f305e508] [cursor=pointer]
+      - generic [ref=f305e511]:
+        - generic [ref=f305e512]:
+          - generic:
+            - link [ref=f305e513] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/buyermypg.tender.RetrieveAllBuyerTenderList.btb
+              - img "입찰정보" [ref=f305e514]
+            - link [ref=f305e515] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/buyermypg.order.RetrieveOrderList.btb
+              - img "구매/검수" [ref=f305e516]
+            - link [ref=f305e517] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/buyermypg.basket.RetrieveBasketList.btb
+              - img "장바구니" [ref=f305e518]
+        - generic [ref=f305e519]:
+          - paragraph [ref=f305e520]:
+            - img "입금계좌 우체국 014506-01-004506 / 예금주 재단법인 한국우편사업진흥원" [ref=f305e521]
+          - generic:
+            - link [ref=f305e522] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/buyermypg.tender.RetrieveTenderReg.btb
+              - img "입찰등록" [ref=f305e523]
+            - link [ref=f305e524] [cursor=pointer]:
+              - /url: https://b2b.epost.go.kr/comm.note.getNoteList.btb?type=trade
+              - img "쪽지" [ref=f305e525]

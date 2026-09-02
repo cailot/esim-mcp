@@ -112,7 +112,7 @@ public final class DailyReport {
         html.append("<h2>esim-mcp Daily eSIM Report</h2>");
         html.append("<p><b>Date:</b> ").append(escape(reportDate.toString()))
                 .append(" (KST)<br/><b>Generated:</b> ").append(escape(generatedAt.toString())).append("</p>");
-        html.append("<p>선정 조건: 가입가능 · eSIM · 해외 SMS 수신 · 최저 월 유지비 · 가격 안정성</p>");
+        html.append("<p>선정 조건: 가입가능 · eSIM · 해외 SMS 수신 · 최저 월 유지비 · 평생 유지가(특가 허용, 기간 후 인상만 제외)</p>");
 
         if (bestPlan == null) {
             html.append("<p><b>Best plan:</b> NONE (조건에 맞는 요금제 없음)</p>");

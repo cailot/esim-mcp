@@ -56,6 +56,36 @@ class PlanCriteriaFilterTest {
     }
 
     @Test
+    void acceptsLifetimeSpecialPriceAsKeepFee() {
+        EsimPlan lifetimeSpecial = EsimPlan.builder()
+                .provider("프리티모바일")
+                .planName("든든한 200분6G")
+                .esimSupported(true)
+                .internationalSmsReceive(true)
+                .available(true)
+                .monthlyPrice(new BigDecimal("550"))
+                .promotionalPrice(true)
+                .lifetimeDiscount(true)
+                .regularMonthlyPrice(new BigDecimal("25300"))
+                .build();
+
+        EsimPlan higherKeep = EsimPlan.builder()
+                .provider("LG헬로모바일")
+                .planName("슬림 유심")
+                .esimSupported(true)
+                .internationalSmsReceive(true)
+                .available(true)
+                .monthlyPrice(new BigDecimal("1700"))
+                .promotionalPrice(false)
+                .build();
+
+        Optional<EsimPlan> best = filter.bestOf(List.of(higherKeep, lifetimeSpecial));
+        assertTrue(best.isPresent());
+        assertEquals("든든한 200분6G", best.get().planName());
+        assertEquals(new BigDecimal("550"), best.get().ongoingMonthlyPrice());
+    }
+
+    @Test
     void rejectsPhysicalSimOnly() {
         EsimPlan physical = EsimPlan.builder()
                 .provider("D")

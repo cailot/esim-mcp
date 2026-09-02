@@ -33,7 +33,7 @@ public final class PlanEvaluationService {
         Optional<EsimPlan> best = matching.stream().findFirst();
 
         StringBuilder notes = new StringBuilder();
-        notes.append("Criteria: available/joinable=yes, eSIM=yes, international SMS receive=yes, stable non-promo monthly price=yes, lowest monthly price.\n");
+        notes.append("Criteria: available/joinable=yes, eSIM=yes, international SMS receive=yes, lowest ongoing keep fee (lifetime 특가 allowed; intro-then-hike rejected).\n");
         notes.append("Candidates: ").append(candidates.size())
                 .append(", matching: ").append(matching.size()).append('\n');
         long unavailable = candidates.stream().filter(p -> !p.available()).count();
@@ -47,8 +47,9 @@ public final class PlanEvaluationService {
                 String thought = """
                         Step-by-step evaluate Korean keep-number eSIM plans until 2026-09-15.
                         Hard rules: currently available/joinable (reject 마감/sold-out/signup-blocked);
-                        eSIM supported; can receive SMS abroad; lowest ongoing monthly price;
-                        reject promotional intro pricing that rises later.
+                        eSIM supported; can receive SMS abroad; lowest ongoing monthly keep fee;
+                        lifetime 특가 is OK even with signup deadline or usage-to-keep-discount rules;
+                        reject only promotional intro pricing that rises after a term.
                         Matching plans: %s
                         Best so far: %s
                         """.formatted(

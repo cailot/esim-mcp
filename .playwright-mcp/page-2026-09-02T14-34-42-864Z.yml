@@ -1,0 +1,349 @@
+- generic [active] [ref=f124e1]:
+  - banner [ref=f124e2]:
+    - generic [ref=f124e3]:
+      - generic [ref=f124e6]:
+        - link "실시간사용량조회" [ref=f124e7] [cursor=pointer]:
+          - /url: /normal.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - link "로그인(Login)" [ref=f124e8] [cursor=pointer]:
+          - /url: /sign.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+      - generic [ref=f124e11]:
+        - list [ref=f124e13]:
+          - listitem [ref=f124e14]:
+            - link [ref=f124e15] [cursor=pointer]:
+              - /url: /;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - img "logo.png" [ref=f124e16]
+          - listitem [ref=f124e17]:
+            - link "개통신청" [ref=f124e18] [cursor=pointer]:
+              - /url: /active/step_1.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e19]:
+            - link "지금배송" [ref=f124e20] [cursor=pointer]:
+              - /url: /dlvy/dlvy_info.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e21]:
+            - link "요금제" [ref=f124e22] [cursor=pointer]:
+              - /url: /rate_plan.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e23]:
+            - link "이벤트" [ref=f124e24] [cursor=pointer]:
+              - /url: /event.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e25]:
+            - link "선불 충전" [ref=f124e26] [cursor=pointer]:
+              - /url: /charge/charge_account.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e27]:
+            - link "고객센터" [ref=f124e28] [cursor=pointer]:
+              - /url: /notice.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e29]:
+            - link "마이페이지" [ref=f124e30] [cursor=pointer]:
+              - /url: /btcview.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - button [ref=f124e32] [cursor=pointer]:
+          - img "메뉴" [ref=f124e33]
+  - generic [ref=f124e34]:
+    - generic [ref=f124e36]:
+      - generic [ref=f124e37]:
+        - button "Slide 0" [ref=f124e38] [cursor=pointer]
+        - button "Slide 1" [ref=f124e39] [cursor=pointer]
+        - button "Slide 2" [ref=f124e40] [cursor=pointer]
+        - button "Slide 3" [ref=f124e41] [cursor=pointer]
+        - button "Slide 4" [ref=f124e42] [cursor=pointer]
+        - button "Slide 5" [ref=f124e43] [cursor=pointer]
+        - button "Slide 6" [ref=f124e44] [cursor=pointer]
+        - button "Slide 7" [ref=f124e45] [cursor=pointer]
+      - generic [ref=f124e47]:
+        - link:
+          - /url: https://www.sugarmobile.co.kr/event_view.do?eventId=1630
+        - link:
+          - /url: https://www.sugarmobile.co.kr/event_view.do?eventId=1630
+        - link [ref=f124e48] [cursor=pointer]:
+          - /url: https://www.sugarmobile.co.kr/event_view.do?eventId=1630
+          - img "5G 슈가딜!('26년/09월)" [ref=f124e49]
+      - button "Previous" [ref=f124e50] [cursor=pointer]
+      - button "Next" [ref=f124e53] [cursor=pointer]
+    - generic [ref=f124e58]:
+      - link [ref=f124e60] [cursor=pointer]:
+        - /url: /active/step_1.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - img "가입신청" [ref=f124e62]
+        - generic [ref=f124e63]:
+          - paragraph [ref=f124e64]: 개통신청
+          - paragraph [ref=f124e65]: 온라인 개통신청
+      - link [ref=f124e67] [cursor=pointer]:
+        - /url: /apply_list.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - img "신청조회" [ref=f124e69]
+        - generic [ref=f124e70]:
+          - paragraph [ref=f124e71]: 신청조회
+          - paragraph [ref=f124e72]: 접수내역 조회
+      - link [ref=f124e74] [cursor=pointer]:
+        - /url: /rate_plan.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - img "요금제" [ref=f124e76]
+        - generic [ref=f124e77]:
+          - paragraph [ref=f124e78]: 요금제
+          - paragraph [ref=f124e79]: 슈가모바일 요금제 확인
+      - link [ref=f124e81] [cursor=pointer]:
+        - /url: /normal.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - img "사용량조회" [ref=f124e83]
+        - generic [ref=f124e84]:
+          - paragraph [ref=f124e85]: 사용량조회
+          - paragraph [ref=f124e86]: 실시간사용량 조회
+    - generic [ref=f124e88]:
+      - generic [ref=f124e89]:
+        - heading "슈가모바일 추천 요금제" [level=2] [ref=f124e90]
+        - link "전체보기" [ref=f124e91] [cursor=pointer]:
+          - /url: /rate_plan.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+      - generic [ref=f124e94]:
+        - group "1 / 3" [ref=f124e95]:
+          - generic [ref=f124e96]:
+            - generic [ref=f124e97]:
+              - paragraph [ref=f124e98]:
+                - generic [ref=f124e99]: 슈가딜
+              - paragraph [ref=f124e100]: 5G Sugar 세이브+(300분/15GB)
+            - generic [ref=f124e101]:
+              - paragraph [ref=f124e102]: 6개월 동안
+              - paragraph [ref=f124e103]: 월 990원 32,540원
+            - list [ref=f124e104]:
+              - listitem [ref=f124e105]: 15GB + 1Mbps
+              - listitem [ref=f124e106]: 통화 300 분
+              - listitem [ref=f124e107]: 문자 300 건
+            - link "상세보기" [ref=f124e109] [cursor=pointer]:
+              - /url: /rateplan_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?type=T012&subtype=&no=2980
+        - group "2 / 3" [ref=f124e110]:
+          - generic [ref=f124e111]:
+            - generic [ref=f124e112]:
+              - paragraph [ref=f124e113]:
+                - generic [ref=f124e114]: 7개월 할인
+              - paragraph [ref=f124e115]: 5G 슈가통화마음대로 150GB++
+            - generic [ref=f124e116]:
+              - paragraph [ref=f124e117]: 7개월 동안
+              - paragraph [ref=f124e118]: 월 9,900원 71,500원
+            - list [ref=f124e119]:
+              - listitem [ref=f124e120]: 150GB + 5Mbps
+              - listitem [ref=f124e121]: 통화 기본제공
+              - listitem [ref=f124e122]: 문자 기본제공
+            - link "상세보기" [ref=f124e124] [cursor=pointer]:
+              - /url: /rateplan_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?type=T016&subtype=&no=3007
+        - group "3 / 3" [ref=f124e125]:
+          - generic [ref=f124e126]:
+            - generic [ref=f124e127]:
+              - paragraph [ref=f124e128]:
+                - generic [ref=f124e129]: 평생할인
+              - paragraph [ref=f124e130]: 5G 슈가(Sugar)통화마음대로 150GB++
+            - generic [ref=f124e131]:
+              - paragraph [ref=f124e132]
+              - paragraph [ref=f124e133]: 월 25,300원 50,700원
+            - list [ref=f124e134]:
+              - listitem [ref=f124e135]: 150GB + 5Mbps
+              - listitem [ref=f124e136]: 통화 기본제공
+              - listitem [ref=f124e137]: 문자 기본제공
+            - link "상세보기" [ref=f124e139] [cursor=pointer]:
+              - /url: /rateplan_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?type=T016&subtype=&no=3009
+    - generic [ref=f124e141]:
+      - generic [ref=f124e142]:
+        - heading "개통후기" [level=2] [ref=f124e143]
+        - link "전체보기" [ref=f124e144] [cursor=pointer]:
+          - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+      - generic [ref=f124e146]:
+        - generic [ref=f124e147]:
+          - group "1 / 10" [ref=f124e148]:
+            - link "noimage 좋습니다 다만 ... 가격이 저렴하고 다좋습니다 다만 슈가모바일 어플이 없는거 같음 아무리 찾아 봐도 없음 조회 해볼려면 불편해요 빨랑 만들어 주세요 이** 2026-06-24" [ref=f124e149] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e150]:
+                - img "noimage"
+              - generic [ref=f124e151]:
+                - generic [ref=f124e152]:
+                  - paragraph [ref=f124e153]: 좋습니다 다만 ...
+                  - paragraph [ref=f124e154]: 가격이 저렴하고 다좋습니다 다만 슈가모바일 어플이 없는거 같음 아무리 찾아 봐도 없음 조회 해볼려면 불편해요 빨랑 만들어 주세요
+                - generic [ref=f124e155]: 이** 2026-06-24
+          - group "2 / 10" [ref=f124e163]:
+            - link "유심구매했어요 2000원대 요금제가 있다니 놀랍네요 개통까지 빠르게 잘되면 좋겠어요. 1232 김** 2026-05-18" [ref=f124e164] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e166]:
+                - generic [ref=f124e167]:
+                  - paragraph [ref=f124e168]: 유심구매했어요
+                  - paragraph [ref=f124e169]: 2000원대 요금제가 있다니 놀랍네요 개통까지 빠르게 잘되면 좋겠어요. 1232
+                - generic [ref=f124e170]: 김** 2026-05-18
+          - group "3 / 10" [ref=f124e178]:
+            - link "noimage 싸고 좋아요. 요금이 너무 적어서 의심이 갔는데 아무 문제 없습니다. 이렇게 해서 돈 어떻게 벌지요? 정** 2026-04-10" [ref=f124e179] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e180]:
+                - img "noimage"
+              - generic [ref=f124e181]:
+                - generic [ref=f124e182]:
+                  - paragraph [ref=f124e183]: 싸고 좋아요.
+                  - paragraph [ref=f124e184]: 요금이 너무 적어서 의심이 갔는데 아무 문제 없습니다. 이렇게 해서 돈 어떻게 벌지요?
+                - generic [ref=f124e185]: 정** 2026-04-10
+          - group "4 / 10" [ref=f124e193]:
+            - link "품질과 가성비 모두 만족!! Sugar 세이브+(300분/10GB)_평생 요금제 너무 만족합니다. 이벤트 끝날무렵에 아슬아슬하게 개통하느라 일대일 문의를 여러번 했는데 정성껏 응답해주시고 안심시켜주셔서 너무 감사했네요. 덕분에 개통 완료하고 잘 사용하고 있어요. 요금제도 요금제지만 고객센터의 신속한 응대에 더 만족합니다. 번창하세요~ 김** 2026-02-21" [ref=f124e194] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e196]:
+                - generic [ref=f124e197]:
+                  - paragraph [ref=f124e198]: 품질과 가성비 모두 만족!!
+                  - paragraph [ref=f124e199]: Sugar 세이브+(300분/10GB)_평생 요금제 너무 만족합니다. 이벤트 끝날무렵에 아슬아슬하게 개통하느라 일대일 문의를 여러번 했는데 정성껏 응답해주시고 안심시켜주셔서 너무 감사했네요. 덕분에 개통 완료하고 잘 사용하고 있어요. 요금제도 요금제지만 고객센터의 신속한 응대에 더 만족합니다. 번창하세요~
+                - generic [ref=f124e200]: 김** 2026-02-21
+          - group "5 / 10" [ref=f124e208]:
+            - link "noimage 품질과 가성비 모두 강추합니다. Sugar 세이브+(300분/10GB)_평생 요금제 너무 만족합니다. 이벤트 끝날무렵에 아슬아슬하게 개통하느라 일대일 문의를 여러번 했는데 정성껏 응답해주시고 안심시켜주셔서 너무 감사했네요. 덕분에 개통 완료하고 잘 사용하고 있어요. 요금제도 요금제지만 고객센터의 신속한 응대에 더 만족합니다. 번창하세요~ 김** 2026-02-21" [ref=f124e209] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e210]:
+                - img "noimage"
+              - generic [ref=f124e211]:
+                - generic [ref=f124e212]:
+                  - paragraph [ref=f124e213]: 품질과 가성비 모두 강추합니다.
+                  - paragraph [ref=f124e214]: Sugar 세이브+(300분/10GB)_평생 요금제 너무 만족합니다. 이벤트 끝날무렵에 아슬아슬하게 개통하느라 일대일 문의를 여러번 했는데 정성껏 응답해주시고 안심시켜주셔서 너무 감사했네요. 덕분에 개통 완료하고 잘 사용하고 있어요. 요금제도 요금제지만 고객센터의 신속한 응대에 더 만족합니다. 번창하세요~
+                - generic [ref=f124e215]: 김** 2026-02-21
+          - group "6 / 10" [ref=f124e223]:
+            - link "슈가모바일 정말 좋아요 신세계를 경험합니다 그동안 비싼 선불폰 LTE 쓰다가 후불 5G 쓰는데 사진 전송 비교가 안되게 빨라요 선불때 10기가LTE에서 후불 15기가5G 사용료 39,600에서 7,700 가성비 갑중의 갑 어차피 통화는 300분 안되고 문자 200건 안되고 데이터만 10~15기가 사용 내게 딱 맞아요 정말 좋아요 기** 2026-02-19" [ref=f124e224] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e226]:
+                - generic [ref=f124e227]:
+                  - paragraph [ref=f124e228]: 슈가모바일 정말 좋아요
+                  - paragraph [ref=f124e229]: 신세계를 경험합니다 그동안 비싼 선불폰 LTE 쓰다가 후불 5G 쓰는데 사진 전송 비교가 안되게 빨라요 선불때 10기가LTE에서 후불 15기가5G 사용료 39,600에서 7,700 가성비 갑중의 갑 어차피 통화는 300분 안되고 문자 200건 안되고 데이터만 10~15기가 사용 내게 딱 맞아요 정말 좋아요
+                - generic [ref=f124e230]: 기** 2026-02-19
+          - group "7 / 10" [ref=f124e238]:
+            - link "noimage 선착순 탑승 완료 늦은 후기 선착순 평생 할인 요금으로 갈아 탔는데 정말 엄청 빠르게 셀프 개통 가입 완료 정말 좋네요 조** 2026-02-15" [ref=f124e239] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e240]:
+                - img "noimage"
+              - generic [ref=f124e241]:
+                - generic [ref=f124e242]:
+                  - paragraph [ref=f124e243]: 선착순 탑승 완료 늦은 후기
+                  - paragraph [ref=f124e244]: 선착순 평생 할인 요금으로 갈아 탔는데 정말 엄청 빠르게 셀프 개통 가입 완료 정말 좋네요
+                - generic [ref=f124e245]: 조** 2026-02-15
+          - group "8 / 10" [ref=f124e253]:
+            - link "슈가모바일 너무 좋아요 이번에 싸게 잘 구했습니다. 잘쓰겠습니다. 어찌어찌 검색하다가 찾았는데 현존 최강 요금제 같아요. 신규라서 기개통 후 택배로 1일 뒤 도착했고 유심 장착하니깐 딜레이없이 바로 사용 가능합니다. 이게 바로 100원의 햄볶음인가요. 권** 2025-12-04" [ref=f124e254] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e256]:
+                - generic [ref=f124e257]:
+                  - paragraph [ref=f124e258]: 슈가모바일 너무 좋아요
+                  - paragraph [ref=f124e259]: 이번에 싸게 잘 구했습니다. 잘쓰겠습니다. 어찌어찌 검색하다가 찾았는데 현존 최강 요금제 같아요. 신규라서 기개통 후 택배로 1일 뒤 도착했고 유심 장착하니깐 딜레이없이 바로 사용 가능합니다. 이게 바로 100원의 햄볶음인가요.
+                - generic [ref=f124e260]: 권** 2025-12-04
+          - group "9 / 10" [ref=f124e268]:
+            - link "가성비 요금제 짱 Sugar 통화마음대로 5GB+ 데이터 5GB + 1Mbps 통화 무제한 문자 무제한 매달 나가는 폰비가 아까웠는데 이가격에 단연 짱입니다! :) 서** 2025-08-11" [ref=f124e269] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e271]:
+                - generic [ref=f124e272]:
+                  - paragraph [ref=f124e273]: 가성비 요금제 짱
+                  - paragraph [ref=f124e274]: Sugar 통화마음대로 5GB+ 데이터 5GB + 1Mbps 통화 무제한 문자 무제한 매달 나가는 폰비가 아까웠는데 이가격에 단연 짱입니다! :)
+                - generic [ref=f124e275]: 서** 2025-08-11
+          - group "10 / 10" [ref=f124e283]:
+            - link "개통이 빠르고 좋았다 개통 빠르고 좋았어요 유심 구매후 바로 개통 완료 했습니다 성** 2025-08-01" [ref=f124e284] [cursor=pointer]:
+              - /url: /review.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+              - generic [ref=f124e286]:
+                - generic [ref=f124e287]:
+                  - paragraph [ref=f124e288]: 개통이 빠르고 좋았다
+                  - paragraph [ref=f124e289]: 개통 빠르고 좋았어요 유심 구매후 바로 개통 완료 했습니다
+                - generic [ref=f124e290]: 성** 2025-08-01
+        - generic [ref=f124e298]:
+          - button "Go to slide 1" [ref=f124e299] [cursor=pointer]
+          - button "Go to slide 2" [ref=f124e300] [cursor=pointer]
+          - button "Go to slide 3" [ref=f124e301] [cursor=pointer]
+    - generic [ref=f124e303]:
+      - heading "언제나 어디서든 알뜰한 통신생활" [level=2] [ref=f124e304]
+      - generic [ref=f124e306]:
+        - generic [ref=f124e307]:
+          - group "1 / 6" [ref=f124e308]:
+            - link "5G 슈가딜!('26년/09월)":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=1630
+              - img "5G 슈가딜!('26년/09월)" [ref=f124e309] [cursor=pointer]
+          - group "2 / 6" [ref=f124e310]:
+            - link "슈가슈퍼세일!('26년/09월)":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=1627
+              - img "슈가슈퍼세일!('26년/09월)" [ref=f124e311] [cursor=pointer]
+          - group "3 / 6" [ref=f124e312]:
+            - link "슈가딜!('26년/09월)":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=1625
+              - img "슈가딜!('26년/09월)" [ref=f124e313] [cursor=pointer]
+          - group "4 / 6" [ref=f124e314]:
+            - link "구글AI프로 부터 도미노+티빙+디즈니+ 까지!":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=1590
+              - img "구글AI프로 부터 도미노+티빙+디즈니+ 까지!" [ref=f124e315] [cursor=pointer]
+          - group "5 / 6" [ref=f124e316]:
+            - link "선불요금제 1+1 이벤트":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=1533
+              - img "선불요금제 1+1 이벤트" [ref=f124e317] [cursor=pointer]
+          - group "6 / 6" [ref=f124e318]:
+            - link "모두의 원칩 구매처":
+              - /url: /event_view.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C?eventMod=ongoing&eventId=511
+              - img "모두의 원칩 구매처" [ref=f124e319] [cursor=pointer]
+        - button "Next slide" [ref=f124e320] [cursor=pointer]: next
+        - button "Previous slide" [disabled]: prev
+        - generic [ref=f124e321]:
+          - button "Go to slide 1" [ref=f124e322] [cursor=pointer]
+          - button "Go to slide 2" [ref=f124e323] [cursor=pointer]
+    - generic [ref=f124e325]:
+      - heading "고객지원" [level=2] [ref=f124e326]
+      - generic [ref=f124e327]:
+        - generic [ref=f124e328]:
+          - paragraph [ref=f124e329]: 자주묻는질문
+          - list [ref=f124e330]:
+            - listitem [ref=f124e331]:
+              - link "Q가입한 요금제랑 마이페이지에 적힌 데이터 용량이 다르게 보여요!" [ref=f124e332] [cursor=pointer]:
+                - /url: /faq.do?searchKeyword=%ea%b0%80%ec%9e%85%ed%95%9c+%ec%9a%94%ea%b8%88%ec%a0%9c%eb%9e%91+%eb%a7%88%ec%9d%b4%ed%8e%98%ec%9d%b4%ec%a7%80%ec%97%90+%ec%a0%81%ed%9e%8c+%eb%8d%b0%ec%9d%b4%ed%84%b0+%ec%9a%a9%eb%9f%89%ec%9d%b4+%eb%8b%a4%eb%a5%b4%ea%b2%8c+%eb%b3%b4%ec%97%ac%ec%9a%94!&cate=자주묻는질문  TOP10&viewCode=305
+            - listitem [ref=f124e333]:
+              - link "Q미성년자 신규가입 어떻게 하나요?" [ref=f124e334] [cursor=pointer]:
+                - /url: /faq.do?searchKeyword=%eb%af%b8%ec%84%b1%eb%85%84%ec%9e%90+%ec%8b%a0%ea%b7%9c%ea%b0%80%ec%9e%85+%ec%96%b4%eb%96%bb%ea%b2%8c+%ed%95%98%eb%82%98%ec%9a%94%3f&cate=자주묻는질문  TOP10&viewCode=383
+            - listitem [ref=f124e335]:
+              - link "Q셀프개통과 상담사개통 비교" [ref=f124e336] [cursor=pointer]:
+                - /url: /faq.do?searchKeyword=%ec%85%80%ed%94%84%ea%b0%9c%ed%86%b5%ea%b3%bc+%ec%83%81%eb%8b%b4%ec%82%ac%ea%b0%9c%ed%86%b5+%eb%b9%84%ea%b5%90&cate=자주묻는질문  TOP10&viewCode=162
+            - listitem [ref=f124e337]:
+              - link "Q알뜰폰 3개월 이내 번호이동 제한해제 (중립기관 해제)" [ref=f124e338] [cursor=pointer]:
+                - /url: /faq.do?searchKeyword=%ec%95%8c%eb%9c%b0%ed%8f%b0+3%ea%b0%9c%ec%9b%94+%ec%9d%b4%eb%82%b4+%eb%b2%88%ed%98%b8%ec%9d%b4%eb%8f%99+%ec%a0%9c%ed%95%9c%ed%95%b4%ec%a0%9c+(%ec%a4%91%eb%a6%bd%ea%b8%b0%ea%b4%80+%ed%95%b4%ec%a0%9c)&cate=자주묻는질문  TOP10&viewCode=283
+            - listitem [ref=f124e339]:
+              - link "Q첫 달 요금이 할인된 금액보다 많이 나왔어요" [ref=f124e340] [cursor=pointer]:
+                - /url: /faq.do?searchKeyword=%ec%b2%ab+%eb%8b%ac+%ec%9a%94%ea%b8%88%ec%9d%b4+%ed%95%a0%ec%9d%b8%eb%90%9c+%ea%b8%88%ec%95%a1%eb%b3%b4%eb%8b%a4+%eb%a7%8e%ec%9d%b4+%eb%82%98%ec%99%94%ec%96%b4%ec%9a%94&cate=자주묻는질문  TOP10&viewCode=145
+        - generic [ref=f124e342]:
+          - generic [ref=f124e343]:
+            - generic [ref=f124e344]: 자사 가입 폰에서
+            - generic [ref=f124e345]: 114(무료)
+          - generic [ref=f124e346]:
+            - generic [ref=f124e347]: 그 외 전화
+            - generic [ref=f124e348]: 1566-1246(유료)
+          - paragraph [ref=f124e349]: 평일 09시~18시 (점심시간 12시~13시)토/일요일 법정공휴일 휴무
+      - list [ref=f124e350]:
+        - listitem [ref=f124e351]:
+          - link "1:1상담문의" [ref=f124e352] [cursor=pointer]:
+            - /url: /online_cs.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+        - listitem [ref=f124e356]:
+          - link "공지사항" [ref=f124e357] [cursor=pointer]:
+            - /url: /notice.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+  - contentinfo [ref=f124e361]:
+    - generic [ref=f124e362]:
+      - generic [ref=f124e363]:
+        - img "logo"
+        - list [ref=f124e364]:
+          - listitem [ref=f124e365]: (주)씨케이커뮤스트리 ｜ 대표 최영태
+          - listitem [ref=f124e366]: "|서울 송파구 송파대로 167, 비동 1316,1317호(문정동, 문정역테라타워1)"
+          - listitem [ref=f124e367]: 사업자등록번호 101-86-20021
+          - listitem [ref=f124e368]: "|통신판매신고 제 2017-서울송파-0820 호"
+          - listitem [ref=f124e369]: "|대표번호 1566-1246"
+          - listitem [ref=f124e370]: ⓒ SugarMobile. All rights reserved.
+        - list [ref=f124e372]:
+          - listitem [ref=f124e373]:
+            - link "네이버 블로그" [ref=f124e374] [cursor=pointer]:
+              - /url: https://blog.naver.com/ckc_sugarmobile
+          - listitem [ref=f124e375]:
+            - link "카카오톡" [ref=f124e376] [cursor=pointer]:
+              - /url: http://pf.kakao.com/_xotpxhb
+      - generic [ref=f124e377]:
+        - list [ref=f124e378]:
+          - listitem [ref=f124e379]:
+            - link "회사소개" [ref=f124e380] [cursor=pointer]:
+              - /url: /contact/company.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e381]:
+            - link "이용약관" [ref=f124e382] [cursor=pointer]:
+              - /url: /contact/policy.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e383]:
+            - link "개인정보처리방침" [ref=f124e384] [cursor=pointer]:
+              - /url: /contact/indv.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e385]:
+            - link "이메일무단수집거부" [ref=f124e386] [cursor=pointer]:
+              - /url: /contact/email.do;jsessionid=2AFEEC2AB9D2960E446FA5404E71CE7C
+          - listitem [ref=f124e387]:
+            - link "불법스팸대응센터" [ref=f124e388] [cursor=pointer]:
+              - /url: https://spam.kisa.or.kr/spam/main.do
+          - listitem [ref=f124e389]:
+            - link "명의도용방지서비스" [ref=f124e390] [cursor=pointer]:
+              - /url: https://msafer.or.kr/index.do
+        - list [ref=f124e391]:
+          - listitem [ref=f124e392]:
+            - generic [ref=f124e394]: "인증범위: 알뜰폰 서비스 운영(슈가모바일)유효기간: 2025-05-21 ~ 2028-05-20"
+          - listitem [ref=f124e395]:
+            - generic [ref=f124e397]: ISO 27001
+          - listitem [ref=f124e398]:
+            - link [ref=f124e399] [cursor=pointer]:
+              - /url: https://cdn.exolabs.co/secure-badge/secure-badge.html?e=b1c0e2a60e0dd4a6d2ebf8a47a9e251ad538c25cdc158f1f18cba26f9f1cc3bd
+              - img "엑소스피어" [ref=f124e400]
