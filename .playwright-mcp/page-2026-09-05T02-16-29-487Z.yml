@@ -1,0 +1,590 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f1e6]:
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "홈" [ref=f1e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e10]:
+            - link "요금제" [ref=f1e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f1e12]:
+            - link "휴대폰" [ref=f1e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f1e14]:
+            - link "인터넷" [ref=f1e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f1e16]:
+            - link "가전렌탈 NEW" [ref=f1e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f1e18]: NEW
+          - listitem [ref=f1e19]:
+            - link "이벤트" [ref=f1e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f1e21]:
+            - link "마이페이지" [ref=f1e22] [cursor=pointer]:
+              - /url: /mypage
+  - heading "알뜰폰 요금제 비교" [level=1] [ref=f1e23]
+  - generic [ref=f1e24]:
+    - generic [ref=f1e25]:
+      - button "월 데이터 모든 용량" [ref=f1e28] [cursor=pointer]:
+        - generic [ref=f1e33]: 월 데이터
+        - generic [ref=f1e34]: 모든 용량
+      - generic [ref=f1e40]:
+        - button "필터" [ref=f1e41] [cursor=pointer]
+        - button "추천순" [ref=f1e49] [cursor=pointer]
+        - generic [ref=f1e56]:
+          - generic [ref=f1e57]: 페이백 포함 요금
+          - switch [checked] [ref=f1e59] [cursor=pointer]
+    - separator [ref=f1e61]
+  - generic [ref=f1e62]:
+    - generic [ref=f1e63]:
+      - generic [ref=f1e66]:
+        - link "혜택가 0원 혜택가 0원" [ref=f1e67] [cursor=pointer]:
+          - /url: /plans/themes/one-month-free?from=search-plans
+          - generic [ref=f1e68]:
+            - img "혜택가 0원" [ref=f1e70]
+            - generic [ref=f1e71]: 혜택가 0원
+        - link "평생 만 원 이하 평생 만 원 이하" [ref=f1e72] [cursor=pointer]:
+          - /url: /plans/themes/lifetime-10k?from=search-plans
+          - generic [ref=f1e73]:
+            - img "평생 만 원 이하" [ref=f1e75]
+            - generic [ref=f1e76]: 평생 만 원 이하
+        - link "LG 자회사 LG 자회사" [ref=f1e77] [cursor=pointer]:
+          - /url: /plans/themes/lg-subsidiary?from=search-plans
+          - generic [ref=f1e78]:
+            - img "LG 자회사" [ref=f1e80]
+            - generic [ref=f1e81]: LG 자회사
+        - link "KT 자회사 KT 자회사" [ref=f1e82] [cursor=pointer]:
+          - /url: /plans/themes/kt-subsidiary?from=search-plans
+          - generic [ref=f1e83]:
+            - img "KT 자회사" [ref=f1e85]
+            - generic [ref=f1e86]: KT 자회사
+        - link "지금 HOT 지금 HOT" [ref=f1e87] [cursor=pointer]:
+          - /url: /plans/themes/hot-plans?from=search-plans
+          - generic [ref=f1e88]:
+            - img "지금 HOT" [ref=f1e90]
+            - generic [ref=f1e91]: 지금 HOT
+      - generic [ref=f1e92]:
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]:
+            - generic [ref=f1e95]: 이번 달 페이백 요금제
+            - generic [ref=f1e96]: 25일 11시간 42분 남음
+          - generic [ref=f1e98]:
+            - link "LG U+ 4.5 모요 셀프 개통 배지 데일리 너겟59 찜하기 무제한 통화 무제한 문자 무제한 LG U+망 5G 페이백 포함 월 19,000원 6개월 이후 34,000원 284,663명이 선택" [ref=f1e99] [cursor=pointer]:
+              - /url: /plans/29062
+              - generic [ref=f1e100]:
+                - generic [ref=f1e101]:
+                  - generic [ref=f1e102]:
+                    - generic [ref=f1e103]:
+                      - button [ref=f1e104]:
+                        - img "LG U+" [ref=f1e105]
+                      - generic [ref=f1e106]: "4.5"
+                    - button [ref=f1e113]:
+                      - img "모요 셀프 개통 배지" [ref=f1e115]
+                  - generic [ref=f1e123]:
+                    - generic [ref=f1e124]:
+                      - generic [ref=f1e125]: 데일리 너겟59
+                      - button "찜하기" [ref=f1e126]
+                    - generic [ref=f1e131]:
+                      - generic [ref=f1e132]: 무제한
+                      - generic [ref=f1e134]:
+                        - generic [ref=f1e135]: 통화 무제한
+                        - generic [ref=f1e137]: 문자 무제한
+                        - generic [ref=f1e139]: LG U+망
+                        - generic [ref=f1e141]: 5G
+                - generic [ref=f1e142]:
+                  - generic [ref=f1e143]: 페이백 포함
+                  - generic [ref=f1e144]:
+                    - generic [ref=f1e145]:
+                      - generic [ref=f1e146]:
+                        - generic [ref=f1e147]: 월 19,000원
+                        - button [ref=f1e148]
+                      - generic [ref=f1e153]: 6개월 이후 34,000원
+                    - generic [ref=f1e154]: 284,663명이 선택
+            - heading [level=3] [ref=f1e159]:
+              - button "모요 포인트 모요 포인트 LGU+ VIP콕 지니뮤직 사은품 최대 4개" [ref=f1e160] [cursor=pointer]:
+                - generic [ref=f1e162]:
+                  - generic [ref=f1e163]:
+                    - img "모요 포인트" [ref=f1e164]
+                    - img "모요 포인트" [ref=f1e165]
+                    - img "LGU+ VIP콕" [ref=f1e166]
+                    - img "지니뮤직" [ref=f1e167]
+                  - generic [ref=f1e168]: 사은품 최대 4개
+        - generic [ref=f1e173]: 2,182개의 결과
+        - generic [ref=f1e175]:
+          - generic [ref=f1e177]:
+            - link "핀다이렉트 4.2 모요 셀프 개통 배지 모요 단독 배지 [모요only] [K] 핀다이렉트Z 100GB+(네이버페이) _PAY 찜하기 월 100GB + 5Mbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 KT망 LTE 페이백 포함 월 6,900원 7개월 이후 48,400원 29,056명이 선택" [ref=f1e178] [cursor=pointer]:
+              - /url: /plans/37403
+              - generic [ref=f1e179]:
+                - generic [ref=f1e180]:
+                  - generic [ref=f1e181]:
+                    - generic [ref=f1e182]:
+                      - button [ref=f1e183]:
+                        - img "핀다이렉트" [ref=f1e184]
+                      - generic [ref=f1e185]: "4.2"
+                    - generic [ref=f1e191]:
+                      - button [ref=f1e192]:
+                        - img "모요 셀프 개통 배지" [ref=f1e194]
+                      - button [ref=f1e202]:
+                        - img "모요 단독 배지" [ref=f1e204]
+                  - generic [ref=f1e211]:
+                    - generic [ref=f1e212]:
+                      - generic [ref=f1e213]: "[모요only] [K] 핀다이렉트Z 100GB+(네이버페이) _PAY"
+                      - button "찜하기" [ref=f1e214]
+                    - generic [ref=f1e219]:
+                      - generic [ref=f1e220]:
+                        - generic [ref=f1e221]: 월 100GB + 5Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e222]
+                      - generic [ref=f1e227]:
+                        - generic [ref=f1e228]: 통화 무제한
+                        - generic [ref=f1e230]: 문자 무제한
+                        - generic [ref=f1e232]: KT망
+                        - generic [ref=f1e234]: LTE
+                - generic [ref=f1e235]:
+                  - generic [ref=f1e236]: 페이백 포함
+                  - generic [ref=f1e237]:
+                    - generic [ref=f1e238]:
+                      - generic [ref=f1e239]:
+                        - generic [ref=f1e240]: 월 6,900원
+                        - button [ref=f1e241]
+                      - generic [ref=f1e246]: 7개월 이후 48,400원
+                    - generic [ref=f1e247]: 29,056명이 선택
+            - heading [level=3] [ref=f1e252]:
+              - button "매월 20GB 추가 데이터 데이터 로밍 3일 무료 쿠폰 핀포인트 네이버페이 네이버페이 사은품 최대 5개" [ref=f1e253] [cursor=pointer]:
+                - generic [ref=f1e255]:
+                  - generic [ref=f1e256]:
+                    - img "매월 20GB 추가 데이터" [ref=f1e257]
+                    - img "데이터 로밍 3일 무료 쿠폰" [ref=f1e258]
+                    - img "핀포인트" [ref=f1e259]
+                    - img "네이버페이" [ref=f1e260]
+                    - img "네이버페이" [ref=f1e261]
+                  - generic [ref=f1e262]: 사은품 최대 5개
+          - generic [ref=f1e268]:
+            - link "LG U+ 4.5 모요 셀프 개통 배지 너겟49 찜하기 월 120GB + 5Mbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 LG U+망 5G 페이백 포함 월 7,000원 6개월 이후 41,000원 210,151명이 선택" [ref=f1e269] [cursor=pointer]:
+              - /url: /plans/36334
+              - generic [ref=f1e270]:
+                - generic [ref=f1e271]:
+                  - generic [ref=f1e272]:
+                    - generic [ref=f1e273]:
+                      - button [ref=f1e274]:
+                        - img "LG U+" [ref=f1e275]
+                      - generic [ref=f1e276]: "4.5"
+                    - button [ref=f1e283]:
+                      - img "모요 셀프 개통 배지" [ref=f1e285]
+                  - generic [ref=f1e293]:
+                    - generic [ref=f1e294]:
+                      - generic [ref=f1e295]: 너겟49
+                      - button "찜하기" [ref=f1e296]
+                    - generic [ref=f1e301]:
+                      - generic [ref=f1e302]:
+                        - generic [ref=f1e303]: 월 120GB + 5Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e304]
+                      - generic [ref=f1e309]:
+                        - generic [ref=f1e310]: 통화 무제한
+                        - generic [ref=f1e312]: 문자 무제한
+                        - generic [ref=f1e314]: LG U+망
+                        - generic [ref=f1e316]: 5G
+                - generic [ref=f1e317]:
+                  - generic [ref=f1e318]: 페이백 포함
+                  - generic [ref=f1e319]:
+                    - generic [ref=f1e320]:
+                      - generic [ref=f1e321]:
+                        - generic [ref=f1e322]: 월 7,000원
+                        - button [ref=f1e323]
+                      - generic [ref=f1e328]: 6개월 이후 41,000원
+                    - generic [ref=f1e329]: 210,151명이 선택
+            - heading [level=3] [ref=f1e334]:
+              - button "모요 포인트 모요 포인트 사은품 최대 2개" [ref=f1e335] [cursor=pointer]:
+                - generic [ref=f1e337]:
+                  - generic [ref=f1e338]:
+                    - img "모요 포인트" [ref=f1e339]
+                    - img "모요 포인트" [ref=f1e340]
+                  - generic [ref=f1e341]: 사은품 최대 2개
+          - generic [ref=f1e347]:
+            - link "U+유모바일 4.4 모요 셀프 개통 배지 [평생할인] 7GB+/통화기본 찜하기 월 7GB + 1Mbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 LG U+망 LTE 페이백 포함 월 0원 7개월 이후 15,900원 44,092명이 선택" [ref=f1e348] [cursor=pointer]:
+              - /url: /plans/26257
+              - generic [ref=f1e349]:
+                - generic [ref=f1e350]:
+                  - generic [ref=f1e351]:
+                    - generic [ref=f1e352]:
+                      - button [ref=f1e353]:
+                        - img "U+유모바일" [ref=f1e354]
+                      - generic [ref=f1e355]: "4.4"
+                    - button [ref=f1e362]:
+                      - img "모요 셀프 개통 배지" [ref=f1e364]
+                  - generic [ref=f1e372]:
+                    - generic [ref=f1e373]:
+                      - generic [ref=f1e374]: "[평생할인] 7GB+/통화기본"
+                      - button "찜하기" [ref=f1e375]
+                    - generic [ref=f1e380]:
+                      - generic [ref=f1e381]:
+                        - generic [ref=f1e382]: 월 7GB + 1Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e383]
+                      - generic [ref=f1e388]:
+                        - generic [ref=f1e389]: 통화 무제한
+                        - generic [ref=f1e391]: 문자 무제한
+                        - generic [ref=f1e393]: LG U+망
+                        - generic [ref=f1e395]: LTE
+                - generic [ref=f1e396]:
+                  - generic [ref=f1e397]: 페이백 포함
+                  - generic [ref=f1e398]:
+                    - generic [ref=f1e399]:
+                      - generic [ref=f1e400]:
+                        - generic [ref=f1e401]: 월 0원
+                        - button [ref=f1e402]
+                      - generic [ref=f1e407]: 7개월 이후 15,900원
+                    - generic [ref=f1e408]: 44,092명이 선택
+            - heading [level=3] [ref=f1e413]:
+              - button "추가 데이터 5GB 이마트24 상품권 네이버페이 사은품 최대 3개" [ref=f1e414] [cursor=pointer]:
+                - generic [ref=f1e416]:
+                  - generic [ref=f1e417]:
+                    - img "추가 데이터 5GB" [ref=f1e418]
+                    - img "이마트24 상품권" [ref=f1e419]
+                    - img "네이버페이" [ref=f1e420]
+                  - generic [ref=f1e421]: 사은품 최대 3개
+          - generic [ref=f1e427]:
+            - link "LG헬로모바일 4.6 모요 셀프 개통 배지 슬림 유심 1GB 100분 찜하기 월 1GB 통화 100분 문자 50건 LG U+망 LTE 페이백 포함 월 0원 6개월 이후 2,700원 3,567명이 선택" [ref=f1e428] [cursor=pointer]:
+              - /url: /plans/6801
+              - generic [ref=f1e429]:
+                - generic [ref=f1e430]:
+                  - generic [ref=f1e431]:
+                    - generic [ref=f1e432]:
+                      - button [ref=f1e433]:
+                        - img "LG헬로모바일" [ref=f1e434]
+                      - generic [ref=f1e435]: "4.6"
+                    - button [ref=f1e442]:
+                      - img "모요 셀프 개통 배지" [ref=f1e444]
+                  - generic [ref=f1e452]:
+                    - generic [ref=f1e453]:
+                      - generic [ref=f1e454]: 슬림 유심 1GB 100분
+                      - button "찜하기" [ref=f1e455]
+                    - generic [ref=f1e460]:
+                      - generic [ref=f1e461]: 월 1GB
+                      - generic [ref=f1e463]:
+                        - generic [ref=f1e464]: 통화 100분
+                        - generic [ref=f1e466]: 문자 50건
+                        - generic [ref=f1e468]: LG U+망
+                        - generic [ref=f1e470]: LTE
+                - generic [ref=f1e471]:
+                  - generic [ref=f1e472]: 페이백 포함
+                  - generic [ref=f1e473]:
+                    - generic [ref=f1e474]:
+                      - generic [ref=f1e475]:
+                        - generic [ref=f1e476]: 월 0원
+                        - button [ref=f1e477]
+                      - generic [ref=f1e482]: 6개월 이후 2,700원
+                    - generic [ref=f1e483]: 3,567명이 선택
+            - heading [level=3] [ref=f1e488]:
+              - button "구글 AI프로 할인쿠폰 프레딧 쿠폰 2만원 네이버페이 사은품 최대 3개" [ref=f1e489] [cursor=pointer]:
+                - generic [ref=f1e491]:
+                  - generic [ref=f1e492]:
+                    - img "구글 AI프로 할인쿠폰" [ref=f1e493]
+                    - img "프레딧 쿠폰 2만원" [ref=f1e494]
+                    - img "네이버페이" [ref=f1e495]
+                  - generic [ref=f1e496]: 사은품 최대 3개
+          - generic [ref=f1e502]:
+            - link "U+유모바일 4.4 모요 셀프 개통 배지 [평생할인] 5G 15GB+/300분 찜하기 월 15GB + 1Mbps 데이터 소진 시 속도 안내 통화 300분 문자 300건 LG U+망 5G 페이백 포함 월 900원 7개월 이후 16,900원 29,207명이 선택" [ref=f1e503] [cursor=pointer]:
+              - /url: /plans/35498
+              - generic [ref=f1e504]:
+                - generic [ref=f1e505]:
+                  - generic [ref=f1e506]:
+                    - generic [ref=f1e507]:
+                      - button [ref=f1e508]:
+                        - img "U+유모바일" [ref=f1e509]
+                      - generic [ref=f1e510]: "4.4"
+                    - button [ref=f1e517]:
+                      - img "모요 셀프 개통 배지" [ref=f1e519]
+                  - generic [ref=f1e527]:
+                    - generic [ref=f1e528]:
+                      - generic [ref=f1e529]: "[평생할인] 5G 15GB+/300분"
+                      - button "찜하기" [ref=f1e530]
+                    - generic [ref=f1e535]:
+                      - generic [ref=f1e536]:
+                        - generic [ref=f1e537]: 월 15GB + 1Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e538]
+                      - generic [ref=f1e543]:
+                        - generic [ref=f1e544]: 통화 300분
+                        - generic [ref=f1e546]: 문자 300건
+                        - generic [ref=f1e548]: LG U+망
+                        - generic [ref=f1e550]: 5G
+                - generic [ref=f1e551]:
+                  - generic [ref=f1e552]: 페이백 포함
+                  - generic [ref=f1e553]:
+                    - generic [ref=f1e554]:
+                      - generic [ref=f1e555]:
+                        - generic [ref=f1e556]: 월 900원
+                        - button [ref=f1e557]
+                      - generic [ref=f1e562]: 7개월 이후 16,900원
+                    - generic [ref=f1e563]: 29,207명이 선택
+            - heading [level=3] [ref=f1e568]:
+              - button "프레딧상품권-hy한국야쿠르트 네이버페이 사은품 최대 2개" [ref=f1e569] [cursor=pointer]:
+                - generic [ref=f1e571]:
+                  - generic [ref=f1e572]:
+                    - img "프레딧상품권-hy한국야쿠르트" [ref=f1e573]
+                    - img "네이버페이" [ref=f1e574]
+                  - generic [ref=f1e575]: 사은품 최대 2개
+          - generic [ref=f1e581]:
+            - link "U+유모바일 4.4 모요 셀프 개통 배지 [평생할인] 15GB+/통화기본 찜하기 월 15GB + 1Mbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 LG U+망 LTE 페이백 포함 월 900원 7개월 이후 20,900원 9,465명이 선택" [ref=f1e582] [cursor=pointer]:
+              - /url: /plans/26259
+              - generic [ref=f1e583]:
+                - generic [ref=f1e584]:
+                  - generic [ref=f1e585]:
+                    - generic [ref=f1e586]:
+                      - button [ref=f1e587]:
+                        - img "U+유모바일" [ref=f1e588]
+                      - generic [ref=f1e589]: "4.4"
+                    - button [ref=f1e596]:
+                      - img "모요 셀프 개통 배지" [ref=f1e598]
+                  - generic [ref=f1e606]:
+                    - generic [ref=f1e607]:
+                      - generic [ref=f1e608]: "[평생할인] 15GB+/통화기본"
+                      - button "찜하기" [ref=f1e609]
+                    - generic [ref=f1e614]:
+                      - generic [ref=f1e615]:
+                        - generic [ref=f1e616]: 월 15GB + 1Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e617]
+                      - generic [ref=f1e622]:
+                        - generic [ref=f1e623]: 통화 무제한
+                        - generic [ref=f1e625]: 문자 무제한
+                        - generic [ref=f1e627]: LG U+망
+                        - generic [ref=f1e629]: LTE
+                - generic [ref=f1e630]:
+                  - generic [ref=f1e631]: 페이백 포함
+                  - generic [ref=f1e632]:
+                    - generic [ref=f1e633]:
+                      - generic [ref=f1e634]:
+                        - generic [ref=f1e635]: 월 900원
+                        - button [ref=f1e636]
+                      - generic [ref=f1e641]: 7개월 이후 20,900원
+                    - generic [ref=f1e642]: 9,465명이 선택
+            - heading [level=3] [ref=f1e647]:
+              - button "추가 데이터 10GB 이마트24 상품권 네이버페이 사은품 최대 3개" [ref=f1e648] [cursor=pointer]:
+                - generic [ref=f1e650]:
+                  - generic [ref=f1e651]:
+                    - img "추가 데이터 10GB" [ref=f1e652]
+                    - img "이마트24 상품권" [ref=f1e653]
+                    - img "네이버페이" [ref=f1e654]
+                  - generic [ref=f1e655]: 사은품 최대 3개
+          - generic [ref=f1e661]:
+            - link "KT엠모바일 4.6 모요 셀프 개통 배지 모두다 맘껏 7GB+(밀리의 서재 FREE) 찜하기 월 7GB + 1Mbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 KT망 LTE 페이백 포함 월 0원 6개월 이후 16,300원 6,922명이 선택" [ref=f1e662] [cursor=pointer]:
+              - /url: /plans/36948
+              - generic [ref=f1e663]:
+                - generic [ref=f1e664]:
+                  - generic [ref=f1e665]:
+                    - generic [ref=f1e666]:
+                      - button [ref=f1e667]:
+                        - img "KT엠모바일" [ref=f1e668]
+                      - generic [ref=f1e669]: "4.6"
+                    - button [ref=f1e676]:
+                      - img "모요 셀프 개통 배지" [ref=f1e678]
+                  - generic [ref=f1e686]:
+                    - generic [ref=f1e687]:
+                      - generic [ref=f1e688]: 모두다 맘껏 7GB+(밀리의 서재 FREE)
+                      - button "찜하기" [ref=f1e689]
+                    - generic [ref=f1e694]:
+                      - generic [ref=f1e695]:
+                        - generic [ref=f1e696]: 월 7GB + 1Mbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e697]
+                      - generic [ref=f1e702]:
+                        - generic [ref=f1e703]: 통화 무제한
+                        - generic [ref=f1e705]: 문자 무제한
+                        - generic [ref=f1e707]: KT망
+                        - generic [ref=f1e709]: LTE
+                - generic [ref=f1e710]:
+                  - generic [ref=f1e711]: 페이백 포함
+                  - generic [ref=f1e712]:
+                    - generic [ref=f1e713]:
+                      - generic [ref=f1e714]:
+                        - generic [ref=f1e715]: 월 0원
+                        - button [ref=f1e716]
+                      - generic [ref=f1e721]: 6개월 이후 16,300원
+                    - generic [ref=f1e722]: 6,922명이 선택
+            - heading [level=3] [ref=f1e727]:
+              - button "해외 eSIM 3일 무제한 데이터 추가 제공 5GB 통합상품권 2만원 M마켓 포인트 네이버페이 데이터 10GB 추가 밀리의 서재 사은품 최대 7개" [ref=f1e728] [cursor=pointer]:
+                - generic [ref=f1e730]:
+                  - generic [ref=f1e731]:
+                    - img "해외 eSIM 3일 무제한" [ref=f1e732]
+                    - img "데이터 추가 제공 5GB" [ref=f1e733]
+                    - img "통합상품권 2만원" [ref=f1e734]
+                    - img "M마켓 포인트" [ref=f1e735]
+                    - img "네이버페이" [ref=f1e736]
+                    - img "데이터 10GB 추가" [ref=f1e737]
+                    - img "밀리의 서재" [ref=f1e738]
+                  - generic [ref=f1e739]: 사은품 최대 7개
+          - generic [ref=f1e745]:
+            - link "KT엠모바일 4.6 모요 셀프 개통 배지 5G 모두다 맘껏 안심 20GB+ 찜하기 월 20GB + 400Kbps 데이터 소진 시 속도 안내 통화 무제한 문자 무제한 KT망 5G 페이백 포함 월 0원 6개월 이후 19,900원 14,567명이 선택" [ref=f1e746] [cursor=pointer]:
+              - /url: /plans/36971
+              - generic [ref=f1e747]:
+                - generic [ref=f1e748]:
+                  - generic [ref=f1e749]:
+                    - generic [ref=f1e750]:
+                      - button [ref=f1e751]:
+                        - img "KT엠모바일" [ref=f1e752]
+                      - generic [ref=f1e753]: "4.6"
+                    - button [ref=f1e760]:
+                      - img "모요 셀프 개통 배지" [ref=f1e762]
+                  - generic [ref=f1e770]:
+                    - generic [ref=f1e771]:
+                      - generic [ref=f1e772]: 5G 모두다 맘껏 안심 20GB+
+                      - button "찜하기" [ref=f1e773]
+                    - generic [ref=f1e778]:
+                      - generic [ref=f1e779]:
+                        - generic [ref=f1e780]: 월 20GB + 400Kbps
+                        - button "데이터 소진 시 속도 안내" [ref=f1e781]
+                      - generic [ref=f1e786]:
+                        - generic [ref=f1e787]: 통화 무제한
+                        - generic [ref=f1e789]: 문자 무제한
+                        - generic [ref=f1e791]: KT망
+                        - generic [ref=f1e793]: 5G
+                - generic [ref=f1e794]:
+                  - generic [ref=f1e795]: 페이백 포함
+                  - generic [ref=f1e796]:
+                    - generic [ref=f1e797]:
+                      - generic [ref=f1e798]:
+                        - generic [ref=f1e799]: 월 0원
+                        - button [ref=f1e800]
+                      - generic [ref=f1e805]: 6개월 이후 19,900원
+                    - generic [ref=f1e806]: 14,567명이 선택
+            - heading [level=3] [ref=f1e811]:
+              - button "해외 eSIM 3일 무제한 통합상품권 2만원 M마켓 포인트 네이버페이 사은품 최대 4개" [ref=f1e812] [cursor=pointer]:
+                - generic [ref=f1e814]:
+                  - generic [ref=f1e815]:
+                    - img "해외 eSIM 3일 무제한" [ref=f1e816]
+                    - img "통합상품권 2만원" [ref=f1e817]
+                    - img "M마켓 포인트" [ref=f1e818]
+                    - img "네이버페이" [ref=f1e819]
+                  - generic [ref=f1e820]: 사은품 최대 4개
+          - generic [ref=f1e826]:
+            - link "LG헬로모바일 4.6 모요 셀프 개통 배지 슬림 유심 500MB 50분 찜하기 월 500MB 통화 50분 문자 50건 LG U+망 LTE 페이백 포함 월 0원 6개월 이후 1,700원 3,700명이 선택" [ref=f1e827] [cursor=pointer]:
+              - /url: /plans/6804
+              - generic [ref=f1e828]:
+                - generic [ref=f1e829]:
+                  - generic [ref=f1e830]:
+                    - generic [ref=f1e831]:
+                      - button [ref=f1e832]:
+                        - img "LG헬로모바일" [ref=f1e833]
+                      - generic [ref=f1e834]: "4.6"
+                    - button [ref=f1e841]:
+                      - img "모요 셀프 개통 배지" [ref=f1e843]
+                  - generic [ref=f1e851]:
+                    - generic [ref=f1e852]:
+                      - generic [ref=f1e853]: 슬림 유심 500MB 50분
+                      - button "찜하기" [ref=f1e854]
+                    - generic [ref=f1e859]:
+                      - generic [ref=f1e860]: 월 500MB
+                      - generic [ref=f1e862]:
+                        - generic [ref=f1e863]: 통화 50분
+                        - generic [ref=f1e865]: 문자 50건
+                        - generic [ref=f1e867]: LG U+망
+                        - generic [ref=f1e869]: LTE
+                - generic [ref=f1e870]:
+                  - generic [ref=f1e871]: 페이백 포함
+                  - generic [ref=f1e872]:
+                    - generic [ref=f1e873]:
+                      - generic [ref=f1e874]:
+                        - generic [ref=f1e875]: 월 0원
+                        - button [ref=f1e876]
+                      - generic [ref=f1e881]: 6개월 이후 1,700원
+                    - generic [ref=f1e882]: 3,700명이 선택
+            - heading [level=3] [ref=f1e887]:
+              - button "구글 AI프로 할인쿠폰 프레딧 쿠폰 2만원 네이버페이 사은품 최대 3개" [ref=f1e888] [cursor=pointer]:
+                - generic [ref=f1e890]:
+                  - generic [ref=f1e891]:
+                    - img "구글 AI프로 할인쿠폰" [ref=f1e892]
+                    - img "프레딧 쿠폰 2만원" [ref=f1e893]
+                    - img "네이버페이" [ref=f1e894]
+                  - generic [ref=f1e895]: 사은품 최대 3개
+          - generic [ref=f1e901]:
+            - link "KT스카이라이프 4.4 모요 셀프 개통 배지 통화 충분 15GB 찜하기 월 15GB 통화 무제한 문자 무제한 KT망 LTE 페이백 포함 월 0원 6개월 이후 16,900원 50,038명이 선택" [ref=f1e902] [cursor=pointer]:
+              - /url: /plans/23450
+              - generic [ref=f1e903]:
+                - generic [ref=f1e904]:
+                  - generic [ref=f1e905]:
+                    - generic [ref=f1e906]:
+                      - button [ref=f1e907]:
+                        - img "KT스카이라이프" [ref=f1e908]
+                      - generic [ref=f1e909]: "4.4"
+                    - button [ref=f1e916]:
+                      - img "모요 셀프 개통 배지" [ref=f1e918]
+                  - generic [ref=f1e926]:
+                    - generic [ref=f1e927]:
+                      - generic [ref=f1e928]: 통화 충분 15GB
+                      - button "찜하기" [ref=f1e929]
+                    - generic [ref=f1e934]:
+                      - generic [ref=f1e935]: 월 15GB
+                      - generic [ref=f1e937]:
+                        - generic [ref=f1e938]: 통화 무제한
+                        - generic [ref=f1e940]: 문자 무제한
+                        - generic [ref=f1e942]: KT망
+                        - generic [ref=f1e944]: LTE
+                - generic [ref=f1e945]:
+                  - generic [ref=f1e946]: 페이백 포함
+                  - generic [ref=f1e947]:
+                    - generic [ref=f1e948]:
+                      - generic [ref=f1e949]:
+                        - generic [ref=f1e950]: 월 0원
+                        - button [ref=f1e951]
+                      - generic [ref=f1e956]: 6개월 이후 16,900원
+                    - generic [ref=f1e957]: 50,038명이 선택
+            - heading [level=3] [ref=f1e962]:
+              - button "3대마트+Npay 상품권 네이버페이 사은품 최대 2개" [ref=f1e963] [cursor=pointer]:
+                - generic [ref=f1e965]:
+                  - generic [ref=f1e966]:
+                    - img "3대마트+Npay 상품권" [ref=f1e967]
+                    - img "네이버페이" [ref=f1e968]
+                  - generic [ref=f1e969]: 사은품 최대 2개
+        - list [ref=f1e976]:
+          - listitem [ref=f1e977]:
+            - link "1" [ref=f1e978] [cursor=pointer]:
+              - /url: /plans?page.page=0
+          - listitem [ref=f1e980]:
+            - link "2" [ref=f1e981] [cursor=pointer]:
+              - /url: /plans?page.page=1
+          - listitem [ref=f1e983]:
+            - link "3" [ref=f1e984] [cursor=pointer]:
+              - /url: /plans?page.page=2
+          - listitem [ref=f1e986]:
+            - link "4" [ref=f1e987] [cursor=pointer]:
+              - /url: /plans?page.page=3
+          - listitem [ref=f1e989]:
+            - link "5" [ref=f1e990] [cursor=pointer]:
+              - /url: /plans?page.page=4
+          - listitem [ref=f1e992]:
+            - link "6" [ref=f1e993] [cursor=pointer]:
+              - /url: /plans?page.page=5
+          - listitem [ref=f1e995]:
+            - link "7" [ref=f1e996] [cursor=pointer]:
+              - /url: /plans?page.page=6
+          - listitem [ref=f1e998]:
+            - link "8" [ref=f1e999] [cursor=pointer]:
+              - /url: /plans?page.page=7
+          - listitem [ref=f1e1001]:
+            - link "9" [ref=f1e1002] [cursor=pointer]:
+              - /url: /plans?page.page=8
+          - listitem [ref=f1e1004]:
+            - link "10" [ref=f1e1005] [cursor=pointer]:
+              - /url: /plans?page.page=9
+          - link [ref=f1e1007] [cursor=pointer]:
+            - /url: /plans?page.page=10
+      - link "-자세히 보기" [ref=f1e1019] [cursor=pointer]:
+        - /url: https://www.moyoplan.com/referral/code?from=banner_plan
+        - img "null-" [ref=f1e1020]
+    - generic [ref=f1e1022]:
+      - textbox "요금제 이름 또는 통신사 등" [ref=f1e1028]
+      - generic [ref=f1e1035]:
+        - text: 최근 본 요금제
+        - link "우체국 티플음성200 월 2,000원" [ref=f1e1038] [cursor=pointer]:
+          - /url: /plans/23684
+          - generic [ref=f1e1039]: 우체국 티플음성200
+          - generic [ref=f1e1040]: 월 2,000원
+        - link "요금제 더보기" [ref=f1e1042] [cursor=pointer]:
+          - /url: /mypage/recently-plan-view
+  - region "Notifications alt+T"
+  - alert [ref=f1e1047]

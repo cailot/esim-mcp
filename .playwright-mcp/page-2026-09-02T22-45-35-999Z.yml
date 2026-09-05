@@ -1,0 +1,1179 @@
+- generic [active] [ref=f200e1]:
+  - list [ref=f200e2]:
+    - listitem [ref=f200e3]:
+      - link "주 메뉴바로가기" [ref=f200e4] [cursor=pointer]:
+        - /url: "#top_layout"
+    - listitem [ref=f200e5]:
+      - link "본문 내용바로가기" [ref=f200e6] [cursor=pointer]:
+        - /url: "#sbody_layout"
+    - listitem [ref=f200e7]:
+      - link "하단 내용바로가기" [ref=f200e8] [cursor=pointer]:
+        - /url: "#bottom_layout"
+  - generic [ref=f200e9]:
+    - generic [ref=f200e10]:
+      - generic:
+        - list [ref=f200e11]:
+          - listitem [ref=f200e12]:
+            - generic [ref=f200e13]:
+              - text: "앱 다운로드 :"
+              - link "우편" [ref=f200e15] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/bbs.RetrieveGuideNoticeList.comm?codetype=T
+              - link "쇼핑" [ref=f200e17] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/mobileAppBenefit.do
+          - listitem [ref=f200e18]:
+            - generic [ref=f200e19]:
+              - text: "바로가기 설치 :"
+              - link "우편" [ref=f200e21] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/bbs.RetrieveGuideNoticeList.comm?codetype=T
+        - list [ref=f200e22]:
+          - listitem [ref=f200e23]:
+            - link "로그인" [ref=f200e24] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?s_url=https://www.epost.go.kr
+          - listitem [ref=f200e25]:
+            - link "회원가입" [ref=f200e26] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f200e27]:
+            - link "고객센터" [ref=f200e28] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/bbs.RetrieveBbsMain.comm
+          - listitem [ref=f200e29]:
+            - link "사이트 안내" [ref=f200e30] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/comm/etc/sitemap.jsp
+          - listitem [ref=f200e31]:
+            - link "ENGLISH" [ref=f200e32] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/main/eng/Enpost_Introduction1.html
+    - generic [ref=f200e33]:
+      - generic [ref=f200e34]:
+        - link [ref=f200e36] [cursor=pointer]:
+          - /url: https://www.epost.go.kr/
+          - img "인터넷우체국 로고" [ref=f200e37]
+        - generic [ref=f200e38]:
+          - generic:
+            - textbox "검색어를 입력하세요" [ref=f200e39]
+            - link "검색" [ref=f200e40] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f200e42]:
+        - generic [ref=f200e43]:
+          - heading [level=2] [ref=f200e44]:
+            - link "전체메뉴" [ref=f200e45] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f200e47]:
+            - generic [ref=f200e48]:
+              - term [ref=f200e49]:
+                - link "우편" [ref=f200e50] [cursor=pointer]:
+                  - /url: https://service.epost.go.kr/
+              - definition [ref=f200e51]:
+                - list [ref=f200e52]:
+                  - listitem [ref=f200e53]:
+                    - link "e-그린우편(舊 전자우편)" [ref=f200e54] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr//hybridn.HybridIntro.postal?type=A
+                    - list [ref=f200e55]:
+                      - listitem [ref=f200e56]:
+                        - link "e-그린우편" [ref=f200e57] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr//hybridn.HybridIntro.postal?type=A
+                      - listitem [ref=f200e58]:
+                        - link "맞춤형편지" [ref=f200e59] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.myletter.MyletterIntro.postal
+                - list [ref=f200e60]:
+                  - listitem [ref=f200e61]:
+                    - link "생활정보홍보우편" [ref=f200e62] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/front.leaflet.LeafletIntro.postal?type=6
+                    - list [ref=f200e63]:
+                      - listitem [ref=f200e64]:
+                        - link "신청접수" [ref=f200e65] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr//front.leaflet.LeafletIntro.postal?type=6
+                      - listitem [ref=f200e66]:
+                        - link "제작/배달현황 조회" [ref=f200e67] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.leaflet.MonitoringLeaflet.postal
+                - list [ref=f200e68]:
+                  - listitem [ref=f200e69]:
+                    - link "증명서비스" [ref=f200e70] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqSend.postal?type=&grp=A
+                    - list [ref=f200e71]:
+                      - listitem [ref=f200e72]:
+                        - link "내용증명" [ref=f200e73] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqSend.postal?type=&grp=A
+                      - listitem [ref=f200e74]:
+                        - link "발송 후 내용증명" [ref=f200e75] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqReissue.postal
+                      - listitem [ref=f200e76]:
+                        - link "발송 후 배달증명" [ref=f200e77] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.deliveryProof.mainPage.postal
+                      - listitem [ref=f200e78]:
+                        - link "발송인용 등본파일" [ref=f200e79] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/econprf.DwnSvcApplyIntro.postal
+                - list [ref=f200e80]:
+                  - listitem [ref=f200e81]:
+                    - link "간편사전접수" [ref=f200e82] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/front.commonpostplus.RetrieveAcceptIntroPlus.postal
+                    - list [ref=f200e83]:
+                      - listitem [ref=f200e84]:
+                        - link "우편함 준등기 (소형포장물)" [ref=f200e85] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.retrieveSemiSmallParcelPostBoxEasyAdvRecevPage.postal&login=service&webacc=
+                          - text: 우편함 준등기(소형포장물)
+                      - listitem [ref=f200e86]:
+                        - link "등기통상(편지·서류)" [ref=f200e87] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.RetrieveAcceptPlus.postal?gubun=1&login=service&webacc=
+                      - listitem [ref=f200e88]:
+                        - link "창구소포「우체국/ (Eco)우체통」" [ref=f200e89] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptPlus.postal?gubun=2&login=service&webacc=
+                          - text: 창구소포「우체국/(Eco)우체통」
+                      - listitem [ref=f200e90]:
+                        - link "국제우편" [ref=f200e91] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems
+                      - listitem [ref=f200e92]:
+                        - link "주소라벨인쇄 (등기통상)" [ref=f200e93] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.AcceptPlusLabelPrint.postal?gubun=1&login=service&webacc=
+                          - text: 주소라벨인쇄(등기통상)
+                      - listitem [ref=f200e94]:
+                        - link "이용내역조회/취소" [ref=f200e95] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.RetrieveMyBefRecevList.postal&login=plus_bsearch&webacc=
+                - list [ref=f200e96]:
+                  - listitem [ref=f200e97]:
+                    - link "부가서비스" [ref=f200e98] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=K&file=1
+                    - list [ref=f200e99]:
+                      - listitem [ref=f200e100]:
+                        - link "현금배달" [ref=f200e101] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=K&file=1
+                      - listitem [ref=f200e102]:
+                        - link "주거이전서비스 신청/결제/취소" [ref=f200e103] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=NEWA&file=1
+                          - text: 주거이전서비스신청/결제/취소
+                      - listitem [ref=f200e104]:
+                        - link "수취인 배달장소 변경서비스" [ref=f200e105] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.DelivPlaceChangeService.postal?type=A
+                      - listitem [ref=f200e106]:
+                        - link "무인우체국 가입" [ref=f200e107] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.nomanpost.IntroPage.postal
+                - list [ref=f200e108]:
+                  - listitem [ref=f200e109]:
+                    - link "나의 이용정보" [ref=f200e110] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=service_bsearch
+                    - list [ref=f200e111]:
+                      - listitem [ref=f200e112]:
+                        - link "이용내역 조회" [ref=f200e113] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=service_bsearch
+                      - listitem [ref=f200e114]:
+                        - link "비회원 이용내역 조회" [ref=f200e115] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/useinfo.RetrievePostalNomemUseInfo.postal
+                      - listitem [ref=f200e116]:
+                        - link "방문결제영수증출력" [ref=f200e117] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.cardreceipt.RetrievePaymentinfo.postal
+                      - listitem [ref=f200e118]:
+                        - link "모바일영수증 보관함" [ref=f200e119] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?s_url=https://parcel.epost.go.kr/share.RetrieveReceiptInfo.parcel
+            - generic [ref=f200e120]:
+              - term [ref=f200e121]:
+                - link "우체국쇼핑" [ref=f200e122] [cursor=pointer]:
+                  - /url: https://mall.epost.go.kr/
+              - definition [ref=f200e123]:
+                - list [ref=f200e124]:
+                  - listitem [ref=f200e125]:
+                    - link [ref=f200e126] [cursor=pointer]:
+                      - /url: https://mall.epost.go.kr/fo/template/thePremium.do
+                      - text: 특산물
+                      - img "새창열림" [ref=f200e127]
+                  - listitem [ref=f200e128]:
+                    - link [ref=f200e129] [cursor=pointer]:
+                      - /url: https://mall.epost.go.kr/fo/pavln/flowerSend.do
+                      - text: 꽃배달
+                      - img "새창열림" [ref=f200e130]
+                  - listitem [ref=f200e131]:
+                    - link [ref=f200e132] [cursor=pointer]:
+                      - /url: https://mall.epost.go.kr/fo/pavln/sijangPaldo.do
+                      - text: 전통시장
+                      - img "새창열림" [ref=f200e133]
+                  - listitem [ref=f200e134]:
+                    - link [ref=f200e135] [cursor=pointer]:
+                      - /url: https://mall.epost.go.kr/fo/main/moveOverSend.do
+                      - text: 해외배송
+                      - img "새창열림" [ref=f200e136]
+                  - listitem [ref=f200e137]:
+                    - link [ref=f200e138] [cursor=pointer]:
+                      - /url: https://b2b.epost.go.kr/btobmall.mmain.index.btb
+                      - text: 우체국B2B
+                      - img "새창열림" [ref=f200e139]
+            - generic [ref=f200e140]:
+              - term [ref=f200e141]:
+                - link "국내소포" [ref=f200e142] [cursor=pointer]:
+                  - /url: https://parcel.epost.go.kr/
+              - definition [ref=f200e143]:
+                - list [ref=f200e144]:
+                  - listitem [ref=f200e145]:
+                    - link "방문접수소포(픽업)" [ref=f200e146] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel18
+                    - list [ref=f200e147]:
+                      - listitem [ref=f200e148]:
+                        - link "방문접수소포 예약" [ref=f200e149] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel18
+                      - listitem [ref=f200e150]:
+                        - link "방문접수소포 반품예약" [ref=f200e151] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel2
+                      - listitem [ref=f200e152]:
+                        - link "예약조회/취소" [ref=f200e153] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel_bsearch
+                      - listitem [ref=f200e154]:
+                        - link "배달조회" [ref=f200e155] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/iservice/usr/trace/usrtrc001k01.jsp
+              - definition [ref=f200e156]:
+                - list [ref=f200e157]:
+                  - listitem [ref=f200e158]:
+                    - link "창구소포「우체국/ (Eco)우체통」" [ref=f200e159] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptIntroPlus.postal
+                      - text: 창구소포「우체국/(Eco)우체통」
+                    - list [ref=f200e160]:
+                      - listitem [ref=f200e161]:
+                        - link "창구소포 간편사전접수" [ref=f200e162] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptPlus.postal?gubun=2&login=service
+                          - text: 창구소포간편사전접수
+                      - listitem [ref=f200e163]:
+                        - link "이용내역 조회/취소" [ref=f200e164] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveMyBefRecevList.postal&login=plus_bsearch&webacc=
+                      - listitem [ref=f200e165]:
+                        - link "라벨 인쇄" [ref=f200e166] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelAcceptPlusLabelPrint.postal&login=service&webacc=
+              - definition [ref=f200e167]:
+                - list [ref=f200e168]:
+                  - listitem [ref=f200e169]:
+                    - link "착불배달우편물 요금 결제/조회" [ref=f200e170] [cursor=pointer]:
+                      - /url: https://parcel.epost.go.kr/front.delivpay.RetrieveDelivpayPage.parcel
+                      - text: 착불배달우편물 요금결제/조회
+              - definition [ref=f200e171]:
+                - list [ref=f200e172]:
+                  - listitem [ref=f200e173]:
+                    - link "이용안내" [ref=f200e174] [cursor=pointer]:
+                      - /url: https://parcel.epost.go.kr/parcel/use_guide/charge_1.jsp
+                    - list [ref=f200e175]:
+                      - listitem [ref=f200e176]:
+                        - link "요금안내" [ref=f200e177] [cursor=pointer]:
+                          - /url: https://parcel.epost.go.kr/parcel/use_guide/charge_1.jsp
+                      - listitem [ref=f200e178]:
+                        - link "자주하는 질문" [ref=f200e179] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/bbs.RetrieveFaqFrontView.comm?codetype=L&code=L01
+                      - listitem [ref=f200e180]:
+                        - link "취급제한품목" [ref=f200e181] [cursor=pointer]:
+                          - /url: https://parcel.epost.go.kr/parcel/use_guide/limititem_1.jsp
+                      - listitem [ref=f200e182]:
+                        - link "보험취급 및 손해배상" [ref=f200e183] [cursor=pointer]:
+                          - /url: https://parcel.epost.go.kr/parcel/use_guide/insuranceView_1.jsp
+                  - listitem
+            - generic [ref=f200e184]:
+              - term [ref=f200e185]:
+                - link "EMS·국제우편" [ref=f200e186] [cursor=pointer]:
+                  - /url: https://ems.epost.go.kr/
+              - definition [ref=f200e187]:
+                - list [ref=f200e188]:
+                  - listitem [ref=f200e189]:
+                    - link "EMS·국제우편 예약" [ref=f200e190] [cursor=pointer]:
+                      - /url: "#"
+                    - list [ref=f200e191]:
+                      - listitem [ref=f200e192]:
+                        - link "국제우편스마트접수" [ref=f200e193] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems
+                      - listitem [ref=f200e194]:
+                        - link "예약조회/취소" [ref=f200e195] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems_bsearch
+              - definition [ref=f200e196]:
+                - list [ref=f200e197]:
+                  - listitem [ref=f200e198]:
+                    - link "행방조회/조사청구" [ref=f200e199] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.Tracking01.postal
+                    - list [ref=f200e200]:
+                      - listitem [ref=f200e201]:
+                        - link "인터넷 행방조회" [ref=f200e202] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Tracking01.postal
+                      - listitem [ref=f200e203]:
+                        - link "인터넷 행방조사청구" [ref=f200e204] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/iservice.EmsSendMailFormFree.postal
+                      - listitem [ref=f200e205]:
+                        - link "서면 행방조사" [ref=f200e206] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Tracking04.postal
+                      - listitem [ref=f200e207]:
+                        - link "주요 우정청연락처" [ref=f200e208] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.EmsInfoInfo01.postal
+                      - listitem [ref=f200e209]:
+                        - link "손해배상규정" [ref=f200e210] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Tracking05.postal
+              - definition [ref=f200e211]:
+                - list [ref=f200e212]:
+                  - listitem [ref=f200e213]:
+                    - link "통관절차대행수수료 납부/조회" [ref=f200e214] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.EmsCustomsPrcInfo.postal
+                      - text: 통관절차대행수수료납부/조회
+                  - listitem [ref=f200e215]:
+                    - link "서비스안내" [ref=f200e216] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.Introduction01.postal
+                    - list [ref=f200e217]:
+                      - listitem [ref=f200e218]:
+                        - link "서비스개요" [ref=f200e219] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Introduction01.postal
+                      - listitem [ref=f200e220]:
+                        - link "서비스절차" [ref=f200e221] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Introduction07.postal
+                      - listitem [ref=f200e222]:
+                        - link "접수가능국가" [ref=f200e223] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.EmsApplyGetDeliveryNation.postal
+                      - listitem [ref=f200e224]:
+                        - link "보낼수있는물품/ 보낼수없는물품" [ref=f200e225] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Introduction04New.postal
+                          - text: 보낼수있는물품/보낼수없는물품
+                  - listitem [ref=f200e226]:
+                    - generic "국가별 발송조건 안내" [ref=f200e227]
+                    - list [ref=f200e228]:
+                      - listitem [ref=f200e229]:
+                        - link "EMS/EMS프리미엄" [ref=f200e230] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.EmsApplyGoCondition.postal
+                      - listitem [ref=f200e231]:
+                        - link "K-Packet" [ref=f200e232] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.EmsKPacketSendCondition.postal?frnMailDivcdTab=14&frnTranspPartyDivcd=1
+                      - listitem [ref=f200e233]:
+                        - link "국제 소포/통상" [ref=f200e234] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.EmsParcelAirShipSendCondition.postal?frnMailDivcdTab=2&frnTranspPartyDivcd=1
+                  - listitem [ref=f200e235]:
+                    - link "EMS/K-Packet계약제도" [ref=f200e236] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.Join01.postal
+                    - list [ref=f200e237]:
+                      - listitem [ref=f200e238]:
+                        - link "EMS이용계약안내" [ref=f200e239] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Join01.postal
+                      - listitem [ref=f200e240]:
+                        - link "K-Packet이용계약안내" [ref=f200e241] [cursor=pointer]:
+                          - /url: https://ems.epost.go.kr/front.Join02.postal
+                  - listitem [ref=f200e242]:
+                    - link "유용한 국제특송정보" [ref=f200e243] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.Delivery07.postal
+                  - listitem [ref=f200e244]:
+                    - link "국제우편서비스 안내자료(Postal Service Guide for Foreigners)" [ref=f200e245] [cursor=pointer]:
+                      - /url: https://ems.epost.go.kr/front.EMSForeignerGuide.postal
+            - generic [ref=f200e246]:
+              - term [ref=f200e247]:
+                - link "우표·엽서·카드" [ref=f200e248] [cursor=pointer]:
+                  - /url: https://service.epost.go.kr/comm.RetrieveStampSrvcMain.postal
+              - definition [ref=f200e249]:
+                - list [ref=f200e250]:
+                  - listitem [ref=f200e251]:
+                    - link "기념우표 사전예약판매" [ref=f200e252] [cursor=pointer]:
+                      - /url: javascript:void(0);
+              - definition [ref=f200e253]:
+                - list [ref=f200e254]:
+                  - listitem [ref=f200e255]:
+                    - link "우표류" [ref=f200e256] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&timediv=2000&targetRow=1
+                    - list [ref=f200e257]:
+                      - listitem [ref=f200e258]:
+                        - link "기념우표" [ref=f200e259] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&stamptype=2&timediv=2000&targetRow=1
+                      - listitem [ref=f200e260]:
+                        - link "일반우표" [ref=f200e261] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&stamptype=1&timediv=2000&targetRow=1
+                      - listitem [ref=f200e262]:
+                        - link "우표책ㆍ첩" [ref=f200e263] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=8&timediv=2000&targetRow=1
+                      - listitem [ref=f200e264]:
+                        - link "초일봉투" [ref=f200e265] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=9&timediv=2000&targetRow=1
+                      - listitem [ref=f200e266]:
+                        - link "나만의우표" [ref=f200e267] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/mystampn.RetrieveMyPostagKindA.postal
+                      - listitem [ref=f200e268]:
+                        - link "인터넷우표" [ref=f200e269] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.estamp.onlineStampApplication.postal
+              - definition [ref=f200e270]:
+                - list [ref=f200e271]:
+                  - listitem [ref=f200e272]:
+                    - link "엽서류" [ref=f200e273] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=pic&timediv=2000&targetRow=1
+                    - list [ref=f200e274]:
+                      - listitem [ref=f200e275]:
+                        - link "그림엽서" [ref=f200e276] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=A&timediv=2000&targetRow=1
+                      - listitem [ref=f200e277]:
+                        - link "기념엽서" [ref=f200e278] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=B&timediv=2000&targetRow=1
+                      - listitem [ref=f200e279]:
+                        - link "e-그린엽서" [ref=f200e280] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.imagecardn.RetrieveImageCard.postal
+                      - listitem [ref=f200e281]:
+                        - link "고객맞춤형엽서" [ref=f200e282] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/postcard.RetrieveMyPostCdHelp.postal?ServiceGubun=O
+                      - listitem [ref=f200e283]:
+                        - link "모바일엽서" [ref=f200e284] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/postcard.RetrieveMyPicturePostCdHelp.postal
+              - definition [ref=f200e285]:
+                - list [ref=f200e286]:
+                  - listitem [ref=f200e287]:
+                    - link "축하카드류" [ref=f200e288] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/front.cardmail.RetrieveCardmailNew.postal?ServiceGubun=C
+                    - list [ref=f200e289]:
+                      - listitem [ref=f200e290]:
+                        - link "축하카드" [ref=f200e291] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.cardmail.RetrieveCardmailNew.postal?ServiceGubun=C
+                      - listitem [ref=f200e292]:
+                        - link "연하카드" [ref=f200e293] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f200e294]:
+                        - link "맞춤형 카드" [ref=f200e295] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/front.cstmcard.RetrieveCardList.postal
+              - definition [ref=f200e296]:
+                - list [ref=f200e297]:
+                  - listitem [ref=f200e298]:
+                    - link [ref=f200e299] [cursor=pointer]:
+                      - /url: http://stamp.epost.go.kr/
+                      - text: 한국우표포털
+                      - img "새창열림" [ref=f200e300]
+                  - listitem [ref=f200e301]:
+                    - link "나의 이용정보" [ref=f200e302] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=stamp_bsearch
+            - generic [ref=f200e303]:
+              - term [ref=f200e304]:
+                - link "골드바·우체국알뜰폰" [ref=f200e305] [cursor=pointer]:
+                  - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+              - definition [ref=f200e306]:
+                - list [ref=f200e307]:
+                  - listitem [ref=f200e308]:
+                    - link "골드바" [ref=f200e309] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+                    - list [ref=f200e310]:
+                      - listitem [ref=f200e311]:
+                        - link "오롯골드바" [ref=f200e312] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+                      - listitem [ref=f200e313]:
+                        - link "우표형골드바" [ref=f200e314] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=STAMP
+                      - listitem [ref=f200e315]:
+                        - link "미니골드바" [ref=f200e316] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal
+                      - listitem [ref=f200e317]:
+                        - link "카카오골드바" [ref=f200e318] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=KAKAO
+                      - listitem [ref=f200e319]:
+                        - link "십이지신골드바" [ref=f200e320] [cursor=pointer]:
+                          - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=TWELVE
+                  - listitem [ref=f200e321]:
+                    - link "우체국알뜰폰" [ref=f200e322] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/comm.alddl.noticeList.comm
+                    - list [ref=f200e323]:
+                      - listitem [ref=f200e324]:
+                        - link "추천 상품" [ref=f200e325] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm.alddl.noticeList.comm
+                      - listitem [ref=f200e326]:
+                        - link "온라인전용요금제" [ref=f200e327] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlChargeOnlineList.comm
+                      - listitem [ref=f200e328]:
+                        - link "전체요금제" [ref=f200e329] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlChargeList.comm
+                      - listitem [ref=f200e330]:
+                        - link "단말기" [ref=f200e331] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlPhoneImgList.comm
+                      - listitem [ref=f200e332]:
+                        - link "판매우체국찾기" [ref=f200e333] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm/alddl/alddl06k001.jsp
+                      - listitem [ref=f200e334]:
+                        - link "문의게시판" [ref=f200e335] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/postphonecs.comm
+                      - listitem [ref=f200e336]:
+                        - link "신청내역조회(O2O불가)" [ref=f200e337] [cursor=pointer]:
+                          - /url: https://www.epost.go.kr/comm.alddlord.RetrieveOnlineOrdList.comm
+            - generic [ref=f200e338]:
+              - term [ref=f200e339]:
+                - link "모바일우편함" [ref=f200e340] [cursor=pointer]:
+                  - /url: https://www.epost.go.kr/comm/mobilemailbox/mobilePost01.jsp
+              - definition [ref=f200e341]:
+                - list [ref=f200e342]:
+                  - listitem [ref=f200e343]:
+                    - link "서비스 안내" [ref=f200e344] [cursor=pointer]:
+                      - /url: /comm/mobilemailbox/mobilePost01.jsp
+            - generic [ref=f200e345]:
+              - term [ref=f200e346]:
+                - link "조회 서비스" [ref=f200e347] [cursor=pointer]:
+                  - /url: https://www.epost.go.kr/search/zipcode/cmzcd001k01.jsp
+              - definition [ref=f200e348]:
+                - list [ref=f200e349]:
+                  - listitem [ref=f200e350]:
+                    - link "우편번호 안내/검색" [ref=f200e351] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/search/zipcode/cmzcd001k01.jsp
+                  - listitem [ref=f200e352]:
+                    - link "집배코드 부여 서비스" [ref=f200e353] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/front.deliveryarea.RetrieveDeliveryAreaIntro.postal
+                  - listitem [ref=f200e354]:
+                    - link "국내우편 배송조회" [ref=f200e355] [cursor=pointer]:
+                      - /url: https://service.epost.go.kr/iservice/usr/trace/usrtrc001k01.jsp
+                  - listitem [ref=f200e356]:
+                    - link "국내/국제 우편요금 조회" [ref=f200e357] [cursor=pointer]:
+                      - /url: javascript:goCostLink();
+            - generic [ref=f200e358]:
+              - term [ref=f200e359]:
+                - link "고객센터" [ref=f200e360] [cursor=pointer]:
+                  - /url: https://www.epost.go.kr/bbs.RetrieveBbsMain.comm
+              - definition [ref=f200e361]:
+                - list [ref=f200e362]:
+                  - listitem [ref=f200e363]:
+                    - link "공지사항" [ref=f200e364] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/main.retrieveNoticePage.comm
+                  - listitem [ref=f200e365]:
+                    - link "이벤트" [ref=f200e366] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/main.retrieveEventPage.comm
+                  - listitem [ref=f200e367]:
+                    - link "자주하는 질문" [ref=f200e368] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/bbs.RetrieveBbsMain.comm
+                  - listitem [ref=f200e369]:
+                    - link "이용안내" [ref=f200e370] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/bbs.RetrieveGuideNoticeList.comm
+                  - listitem [ref=f200e371]:
+                    - link "서식" [ref=f200e372] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/main.retrieveTemplatePage.comm
+                  - listitem [ref=f200e373]:
+                    - link "고객불편신고" [ref=f200e374] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=bbs&route=person&check_type=Y&newbbstype=Q&s_url=https://www.epost.go.kr/bbs.RegisterMemNewQnabbsForm.comm?check_type=Y
+                  - listitem [ref=f200e375]:
+                    - link "칭찬합니다" [ref=f200e376] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/bbs.RetrievePraisePage.comm
+                  - listitem [ref=f200e377]:
+                    - link "국민신문고" [ref=f200e378] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/affair/bbs/cbfya302k01.jsp
+                  - listitem [ref=f200e379]:
+                    - link "110채팅/화상(수화)상담" [ref=f200e380] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/affair/bbs/cbfya302k03.jsp
+                  - listitem [ref=f200e381]:
+                    - link "전국 우체국 이용안내" [ref=f200e382] [cursor=pointer]:
+                      - /url: https://www.epost.go.kr/comm/etc/usefulGuide.jsp
+        - generic [ref=f200e383]:
+          - heading [level=2] [ref=f200e384]:
+            - link "우편" [ref=f200e385] [cursor=pointer]:
+              - /url: https://service.epost.go.kr/
+          - list [ref=f200e386]:
+            - listitem [ref=f200e387]:
+              - link "e-그린우편(舊 전자우편)" [ref=f200e388] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/hybridn.HybridIntro.postal?type=A
+              - list [ref=f200e389]:
+                - listitem [ref=f200e390]:
+                  - link "e-그린우편" [ref=f200e391] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr//hybridn.HybridIntro.postal?type=A
+                - listitem [ref=f200e392]:
+                  - link "맞춤형편지" [ref=f200e393] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.myletter.MyletterIntro.postal
+            - listitem [ref=f200e394]:
+              - link "생활정보홍보우편" [ref=f200e395] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/front.leaflet.LeafletIntro.postal?type=6
+              - list [ref=f200e396]:
+                - listitem [ref=f200e397]:
+                  - link "신청접수" [ref=f200e398] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.leaflet.LeafletIntro.postal?type=6
+                - listitem [ref=f200e399]:
+                  - link "제작/배달현황 조회" [ref=f200e400] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.leaflet.MonitoringLeaflet.postal
+            - listitem [ref=f200e401]:
+              - link "증명서비스" [ref=f200e402] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqSend.postal?type=&grp=A
+              - list [ref=f200e403]:
+                - listitem [ref=f200e404]:
+                  - link "내용증명" [ref=f200e405] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqSend.postal?type=&grp=A
+                - listitem [ref=f200e406]:
+                  - link "발송 후 내용증명" [ref=f200e407] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/econprf.RetrieveEConprfReqReissue.postal
+                - listitem [ref=f200e408]:
+                  - link "발송 후 배달증명" [ref=f200e409] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.deliveryProof.mainPage.postal
+                - listitem [ref=f200e410]:
+                  - link "발송인용 등본파일" [ref=f200e411] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/econprf.DwnSvcApplyIntro.postal
+            - listitem [ref=f200e412]:
+              - link "간편사전접수" [ref=f200e413] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/front.commonpostplus.RetrieveAcceptIntroPlus.postal
+              - list [ref=f200e414]:
+                - listitem [ref=f200e415]:
+                  - link "우편함 준등기(소형포장물)" [ref=f200e416] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.retrieveSemiSmallParcelPostBoxEasyAdvRecevPage.postal&login=service&webacc=
+                - listitem [ref=f200e417]:
+                  - link "등기통상(편지·서류)" [ref=f200e418] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.RetrieveAcceptPlus.postal?gubun=1&login=service&webacc=
+                - listitem [ref=f200e419]:
+                  - link "창구소포「우체국/(Eco)우체통」" [ref=f200e420] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptPlus.postal?gubun=2&login=service&webacc=
+                - listitem [ref=f200e421]:
+                  - link "국제우편" [ref=f200e422] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems
+                - listitem [ref=f200e423]:
+                  - link "주소라벨인쇄(등기통상)" [ref=f200e424] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.AcceptPlusLabelPrint.postal?gubun=1&login=service&webacc=
+                - listitem [ref=f200e425]:
+                  - link "이용내역조회/취소" [ref=f200e426] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.RetrieveMyBefRecevList.postal&login=plus_bsearch&webacc=
+            - listitem [ref=f200e427]:
+              - link "부가서비스" [ref=f200e428] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=K&file=1
+              - list [ref=f200e429]:
+                - listitem [ref=f200e430]:
+                  - link "현금배달" [ref=f200e431] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=K&file=1
+                - listitem [ref=f200e432]:
+                  - link "주거이전서비스 신청/결제/취소" [ref=f200e433] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/comm.RetrievePostagSrvcStrt.postal?menu=NEWA&file=1
+                    - text: 주거이전서비스신청/결제/취소
+                - listitem [ref=f200e434]:
+                  - link "수취인 배달장소 변경서비스" [ref=f200e435] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.DelivPlaceChangeService.postal?type=A
+                - listitem [ref=f200e436]:
+                  - link "무인우체국 가입" [ref=f200e437] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.nomanpost.IntroPage.postal
+            - listitem [ref=f200e438]:
+              - link "나의 이용정보" [ref=f200e439] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=service_bsearch
+              - list [ref=f200e440]:
+                - listitem [ref=f200e441]:
+                  - link "나의 이용정보" [ref=f200e442] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=service_bsearch
+                - listitem [ref=f200e443]:
+                  - link "비회원 이용내역 조회" [ref=f200e444] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/useinfo.RetrievePostalNomemUseInfo.postal
+                - listitem [ref=f200e445]:
+                  - link "방문결제영수증출력" [ref=f200e446] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.cardreceipt.RetrievePaymentinfo.postal
+                - listitem [ref=f200e447]:
+                  - link "모바일영수증 보관함" [ref=f200e448] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?s_url=https://parcel.epost.go.kr/share.RetrieveReceiptInfo.parcel
+        - generic [ref=f200e449]:
+          - heading [level=2] [ref=f200e450]:
+            - link "우체국쇼핑" [ref=f200e451] [cursor=pointer]:
+              - /url: https://mall.epost.go.kr/
+          - list [ref=f200e452]:
+            - listitem [ref=f200e453]:
+              - link [ref=f200e454] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/template/thePremium.do
+                - text: 특산물
+                - img "새창열림" [ref=f200e455]
+            - listitem [ref=f200e456]:
+              - link [ref=f200e457] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/pavln/flowerSend.do
+                - text: 꽃배달
+                - img "새창열림" [ref=f200e458]
+            - listitem [ref=f200e459]:
+              - link [ref=f200e460] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/pavln/sijangPaldo.do
+                - text: 전통시장
+                - img "새창열림" [ref=f200e461]
+            - listitem [ref=f200e462]:
+              - link [ref=f200e463] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/main/moveOverSend.do
+                - text: 해외배송
+                - img "새창열림" [ref=f200e464]
+            - listitem [ref=f200e465]:
+              - link [ref=f200e466] [cursor=pointer]:
+                - /url: https://b2b.epost.go.kr/btobmall.mmain.index.btb
+                - text: 우체국B2B
+                - img "새창열림" [ref=f200e467]
+        - generic [ref=f200e468]:
+          - heading [level=2] [ref=f200e469]:
+            - link "국내소포" [ref=f200e470] [cursor=pointer]:
+              - /url: https://parcel.epost.go.kr/
+          - list [ref=f200e471]:
+            - listitem [ref=f200e472]:
+              - link "방문접수소포(픽업)" [ref=f200e473] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel18
+              - list [ref=f200e474]:
+                - listitem [ref=f200e475]:
+                  - link "방문접수소포 예약" [ref=f200e476] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel18
+                - listitem [ref=f200e477]:
+                  - link "방문접수소포 반품예약" [ref=f200e478] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel2
+                - listitem [ref=f200e479]:
+                  - link "예약조회/취소" [ref=f200e480] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=parcel_bsearch
+                - listitem [ref=f200e481]:
+                  - link "배달조회" [ref=f200e482] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/iservice/usr/trace/usrtrc001k01.jsp
+            - listitem [ref=f200e483]:
+              - link "창구소포「우체국/ (Eco)우체통」" [ref=f200e484] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptIntroPlus.postal
+                - text: 창구소포「우체국/(Eco)우체통」
+              - list [ref=f200e485]:
+                - listitem [ref=f200e486]:
+                  - link "창구소포 간편사전접수" [ref=f200e487] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveAcceptPlus.postal?gubun=2&login=service
+                - listitem [ref=f200e488]:
+                  - link "이용내역 조회/취소" [ref=f200e489] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelRetrieveMyBefRecevList.postal&login=plus_bsearch&webacc=
+                - listitem [ref=f200e490]:
+                  - link "라벨 인쇄" [ref=f200e491] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?loginType=login&s_url=https://service.epost.go.kr/front.commonpostplus.ParcelAcceptPlusLabelPrint.postal&login=service&webacc=
+            - listitem [ref=f200e492]:
+              - link "착불배달우편물 요금 결제/조회" [ref=f200e493] [cursor=pointer]:
+                - /url: https://parcel.epost.go.kr/front.delivpay.RetrieveDelivpayPage.parcel
+                - text: 착불배달우편물 요금결제/조회
+            - listitem [ref=f200e494]:
+              - link "이용안내" [ref=f200e495] [cursor=pointer]:
+                - /url: https://parcel.epost.go.kr/parcel/use_guide/charge_1.jsp
+              - list [ref=f200e496]:
+                - listitem [ref=f200e497]:
+                  - link "요금안내" [ref=f200e498] [cursor=pointer]:
+                    - /url: https://parcel.epost.go.kr/parcel/use_guide/charge_1.jsp
+                - listitem [ref=f200e499]:
+                  - link "자주하는 질문" [ref=f200e500] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/bbs.RetrieveFaqFrontView.comm?codetype=L&code=L01
+                - listitem [ref=f200e501]:
+                  - link "취급제한품목" [ref=f200e502] [cursor=pointer]:
+                    - /url: https://parcel.epost.go.kr/parcel/use_guide/limititem_1.jsp
+                - listitem [ref=f200e503]:
+                  - link "보험취급 및 손해배상" [ref=f200e504] [cursor=pointer]:
+                    - /url: https://parcel.epost.go.kr/parcel/use_guide/insuranceView_1.jsp
+        - generic [ref=f200e505]:
+          - heading [level=2] [ref=f200e506]:
+            - link "EMS·국제우편" [ref=f200e507] [cursor=pointer]:
+              - /url: https://ems.epost.go.kr/
+          - list [ref=f200e508]:
+            - listitem [ref=f200e509]:
+              - link "EMS·국제우편 예약" [ref=f200e510] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems
+              - list [ref=f200e511]:
+                - listitem [ref=f200e512]:
+                  - link "국제우편스마트접수" [ref=f200e513] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems
+                - listitem [ref=f200e514]:
+                  - link "예약조회/취소" [ref=f200e515] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=ems_bsearch
+            - listitem [ref=f200e516]:
+              - link "국가별 요금안내" [ref=f200e517] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.EmsDeliveryDelivery01.postal
+              - list [ref=f200e518]:
+                - listitem [ref=f200e519]:
+                  - link "배달소요일/요금조회" [ref=f200e520] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsDeliveryDelivery01.postal
+                - listitem [ref=f200e521]:
+                  - link "국제우편 요금표" [ref=f200e522] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsDeliveryDelivery02.postal
+                - listitem [ref=f200e523]:
+                  - link "국가별 요금적용 지역" [ref=f200e524] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsDeliveryDelivery04.postal
+                - listitem [ref=f200e525]:
+                  - link "주요국가 휴일정보" [ref=f200e526] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsSurveySurvey03.postal
+                - listitem [ref=f200e527]:
+                  - link "부가취급 수수료" [ref=f200e528] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Delivery03.postal
+            - listitem [ref=f200e529]:
+              - link "행방조회/조사청구" [ref=f200e530] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.Tracking01.postal
+              - list [ref=f200e531]:
+                - listitem [ref=f200e532]:
+                  - link "인터넷 행방조회" [ref=f200e533] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Tracking01.postal
+                - listitem [ref=f200e534]:
+                  - link "인터넷 행방조사청구" [ref=f200e535] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/iservice.EmsSendMailFormFree.postal
+                - listitem [ref=f200e536]:
+                  - link "서면 행방조사" [ref=f200e537] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Tracking04.postal
+                - listitem [ref=f200e538]:
+                  - link "주요 우정청연락처" [ref=f200e539] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsInfoInfo01.postal
+                - listitem [ref=f200e540]:
+                  - link "손해배상규정" [ref=f200e541] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Tracking05.postal
+            - listitem [ref=f200e542]:
+              - link "통관절차대행수수료 납부/조회" [ref=f200e543] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.EmsCustomsPrcInfo.postal
+                - text: 통관절차대행수수료납부/조회
+            - listitem [ref=f200e544]:
+              - link "서비스안내" [ref=f200e545] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.Introduction01.postal
+              - list [ref=f200e546]:
+                - listitem [ref=f200e547]:
+                  - link "서비스개요" [ref=f200e548] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Introduction01.postal
+                - listitem [ref=f200e549]:
+                  - link "서비스절차" [ref=f200e550] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Introduction07.postal
+                - listitem [ref=f200e551]:
+                  - link "접수가능국가" [ref=f200e552] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsApplyGetDeliveryNation.postal
+                - listitem [ref=f200e553]:
+                  - link "보낼수있는물품/보낼수없는물품" [ref=f200e554] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Introduction04New.postal
+            - listitem [ref=f200e555]:
+              - generic "국가별 발송조건 안내" [ref=f200e556]
+              - list [ref=f200e557]:
+                - listitem [ref=f200e558]:
+                  - link "EMS/EMS프리미엄" [ref=f200e559] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsApplyGoCondition.postal
+                - listitem [ref=f200e560]:
+                  - link "K-Packet" [ref=f200e561] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsKPacketSendCondition.postal?frnMailDivcdTab=14&frnTranspPartyDivcd=1
+                - listitem [ref=f200e562]:
+                  - link "국제 소포/통상" [ref=f200e563] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsParcelAirShipSendCondition.postal?frnMailDivcdTab=2&frnTranspPartyDivcd=1
+            - listitem [ref=f200e564]:
+              - link "EMS/K-Packet계약제도" [ref=f200e565] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.Join01.postal
+              - list [ref=f200e566]:
+                - listitem [ref=f200e567]:
+                  - link "EMS이용계약안내" [ref=f200e568] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Join01.postal
+                - listitem [ref=f200e569]:
+                  - link "K-Packet이용계약안내" [ref=f200e570] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Join02.postal
+            - listitem [ref=f200e571]:
+              - link "유용한 국제특송정보" [ref=f200e572] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.Delivery07.postal
+              - list [ref=f200e573]:
+                - listitem [ref=f200e574]:
+                  - link "세계주요국가시간" [ref=f200e575] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Delivery07.postal
+                - listitem [ref=f200e576]:
+                  - link "주요물품 영문표기" [ref=f200e577] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.InfoGuidebook13G.postal
+                - listitem [ref=f200e578]:
+                  - link "상품(HSCODE)검색" [ref=f200e579] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.EmsSearchHscode.postal?openGubun=Y
+                - listitem [ref=f200e580]:
+                  - link "상업송장쓰는법" [ref=f200e581] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Info_01.postal
+                - listitem [ref=f200e582]:
+                  - link "수출우편물 발송확인" [ref=f200e583] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Info_05.postal
+                - listitem [ref=f200e584]:
+                  - link "미국행식품사전신고" [ref=f200e585] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Info_06.postal
+                - listitem [ref=f200e586]:
+                  - link "국제우편물 동·식물 검역 안내" [ref=f200e587] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Info_07.postal
+                - listitem [ref=f200e588]:
+                  - link "브러싱 스캠 안내" [ref=f200e589] [cursor=pointer]:
+                    - /url: https://ems.epost.go.kr/front.Info_08.postal
+            - listitem [ref=f200e590]:
+              - link "국제우편서비스 안내자료(Postal Service Guide for Foreigners)" [ref=f200e591] [cursor=pointer]:
+                - /url: https://ems.epost.go.kr/front.EMSForeignerGuide.postal
+        - generic [ref=f200e592]:
+          - heading [level=2] [ref=f200e593]:
+            - link "우표ㆍ엽서ㆍ카드" [ref=f200e594] [cursor=pointer]:
+              - /url: https://service.epost.go.kr/comm.RetrieveStampSrvcMain.postal
+          - list [ref=f200e595]:
+            - listitem [ref=f200e596]:
+              - link "기념우표 사전예약판매" [ref=f200e597] [cursor=pointer]:
+                - /url: javascript:void(0);
+            - listitem [ref=f200e598]:
+              - link "우표류" [ref=f200e599] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&timediv=2000&targetRow=1
+              - list [ref=f200e600]:
+                - listitem [ref=f200e601]:
+                  - link "기념우표" [ref=f200e602] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&stamptype=2&timediv=2000&targetRow=1
+                - listitem [ref=f200e603]:
+                  - link "일반우표" [ref=f200e604] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=1&stamptype=1&timediv=2000&targetRow=1
+                - listitem [ref=f200e605]:
+                  - link "우표책ㆍ첩" [ref=f200e606] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=8&timediv=2000&targetRow=1
+                - listitem [ref=f200e607]:
+                  - link "초일봉투" [ref=f200e608] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=9&timediv=2000&targetRow=1
+                - listitem [ref=f200e609]:
+                  - link "나만의우표" [ref=f200e610] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/mystampn.RetrieveMyPostagKindA.postal
+                - listitem [ref=f200e611]:
+                  - link "인터넷우표" [ref=f200e612] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.estamp.onlineStampApplication.postal
+            - listitem [ref=f200e613]:
+              - link "엽서류" [ref=f200e614] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/front.imagecardn.RetrieveImageCard.postal
+              - list [ref=f200e615]:
+                - listitem [ref=f200e616]:
+                  - link "그림엽서" [ref=f200e617] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=A&timediv=2000&targetRow=1
+                - listitem [ref=f200e618]:
+                  - link "기념엽서" [ref=f200e619] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/stamp.RetrievePostagGoodsList.postal?svctype=B&timediv=2000&targetRow=1
+                - listitem [ref=f200e620]:
+                  - link "e-그린엽서" [ref=f200e621] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.imagecardn.RetrieveImageCard.postal
+                - listitem [ref=f200e622]:
+                  - link "고객맞춤형엽서" [ref=f200e623] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/postcard.RetrieveMyPostCdHelp.postal?ServiceGubun=O
+                - listitem [ref=f200e624]:
+                  - link "모바일엽서" [ref=f200e625] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/postcard.RetrieveMyPicturePostCdHelp.postal
+            - listitem [ref=f200e626]:
+              - link "축하카드류" [ref=f200e627] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/front.cardmail.RetrieveCardmailNew.postal?ServiceGubun=C
+              - list [ref=f200e628]:
+                - listitem [ref=f200e629]:
+                  - link "축하카드" [ref=f200e630] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.cardmail.RetrieveCardmailNew.postal?ServiceGubun=C
+                - listitem [ref=f200e631]:
+                  - link "연하카드" [ref=f200e632] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f200e633]:
+                  - link "맞춤형 카드" [ref=f200e634] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/front.cstmcard.RetrieveCardList.postal
+            - listitem [ref=f200e635]:
+              - link [ref=f200e636] [cursor=pointer]:
+                - /url: http://stamp.epost.go.kr/
+                - text: 한국우표포털
+                - img "새창열림" [ref=f200e637]
+            - listitem [ref=f200e638]:
+              - link "나의 이용정보" [ref=f200e639] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/login/cafzc008k01.jsp?login=stamp_bsearch
+        - generic [ref=f200e640]:
+          - heading [level=2] [ref=f200e641]:
+            - link "골드바ㆍ우체국알뜰폰" [ref=f200e642] [cursor=pointer]:
+              - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+          - list [ref=f200e643]:
+            - listitem [ref=f200e644]:
+              - link "골드바" [ref=f200e645] [cursor=pointer]:
+                - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+              - list [ref=f200e646]:
+                - listitem [ref=f200e647]:
+                  - link "오롯골드바" [ref=f200e648] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=ORODT
+                - listitem [ref=f200e649]:
+                  - link "우표형골드바" [ref=f200e650] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=STAMP
+                - listitem [ref=f200e651]:
+                  - link "미니골드바" [ref=f200e652] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal
+                - listitem [ref=f200e653]:
+                  - link "카카오골드바" [ref=f200e654] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=KAKAO
+                - listitem [ref=f200e655]:
+                  - link "십이지신골드바" [ref=f200e656] [cursor=pointer]:
+                    - /url: https://service.epost.go.kr/goldbar.RetrievesGoldBarGoodsList.postal?goodsdiv=TWELVE
+            - listitem [ref=f200e657]:
+              - link "우체국알뜰폰" [ref=f200e658] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/comm.alddl.noticeList.comm
+              - list [ref=f200e659]:
+                - listitem [ref=f200e660]:
+                  - link "추천 상품" [ref=f200e661] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm.alddl.noticeList.comm
+                - listitem [ref=f200e662]:
+                  - link "온라인전용요금제" [ref=f200e663] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlChargeOnlineList.comm
+                - listitem [ref=f200e664]:
+                  - link "전체요금제" [ref=f200e665] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlChargeList.comm
+                - listitem [ref=f200e666]:
+                  - link "단말기" [ref=f200e667] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm.alddl.RetrieveAlddlPhoneImgList.comm
+                - listitem [ref=f200e668]:
+                  - link "알뜰폰 소개" [ref=f200e669] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm/alddl/alddl01k001.jsp
+                - listitem [ref=f200e670]:
+                  - link "가입절차" [ref=f200e671] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm/alddl/alddl04k001.jsp
+                - listitem [ref=f200e672]:
+                  - link "자주하는 질문" [ref=f200e673] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/bbs.RetrieveFaqFrontView.comm?codetype=U&code=U01
+                - listitem [ref=f200e674]:
+                  - link "판매우체국찾기" [ref=f200e675] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm/alddl/alddl06k001.jsp
+                - listitem [ref=f200e676]:
+                  - link "문의게시판" [ref=f200e677] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/postphonecs.comm
+                - listitem [ref=f200e678]:
+                  - link "신청내역조회(O2O불가)" [ref=f200e679] [cursor=pointer]:
+                    - /url: https://www.epost.go.kr/comm.alddlord.RetrieveOnlineOrdList.comm
+        - generic [ref=f200e680]:
+          - heading [level=2] [ref=f200e681]:
+            - link "모바일우편함" [ref=f200e682] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/comm/mobilemailbox/mobilePost01.jsp
+          - list [ref=f200e683]:
+            - listitem [ref=f200e684]:
+              - link "서비스 안내" [ref=f200e685] [cursor=pointer]:
+                - /url: /comm/mobilemailbox/mobilePost01.jsp
+        - heading [level=2] [ref=f200e687]:
+          - link "계약고객전용" [ref=f200e688] [cursor=pointer]:
+            - /url: http://biz.epost.go.kr/eportal/loginProcessFrmEps.jsp
+  - generic [ref=f200e689]:
+    - generic [ref=f200e690]:
+      - heading [level=2] [ref=f200e691]:
+        - link "고객센터" [ref=f200e692] [cursor=pointer]:
+          - /url: /main.retrieveNoticePage.comm
+      - list [ref=f200e693]:
+        - listitem [ref=f200e694]:
+          - link "공지사항" [ref=f200e695] [cursor=pointer]:
+            - /url: /main.retrieveNoticePage.comm
+        - listitem [ref=f200e696]:
+          - link "이벤트" [ref=f200e697] [cursor=pointer]:
+            - /url: /main.retrieveEventPage.comm
+        - listitem [ref=f200e698]:
+          - link "자주하는 질문" [ref=f200e699] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f200e700]:
+          - link "이용안내" [ref=f200e701] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f200e702]:
+            - listitem [ref=f200e703]:
+              - link "우편서비스" [ref=f200e704] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=K
+            - listitem [ref=f200e705]:
+              - link "우체국소포" [ref=f200e706] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=L
+            - listitem [ref=f200e707]:
+              - link "EMS" [ref=f200e708] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=M
+            - listitem [ref=f200e709]:
+              - link "회원정보" [ref=f200e710] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=R
+            - listitem [ref=f200e711]:
+              - link "일반문의" [ref=f200e712] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=S
+            - listitem [ref=f200e713]:
+              - link "모바일" [ref=f200e714] [cursor=pointer]:
+                - /url: /bbs.RetrieveGuideNoticeList.comm?codetype=T
+        - listitem [ref=f200e715]:
+          - link "서식" [ref=f200e716] [cursor=pointer]:
+            - /url: /main.retrieveTemplatePage.comm
+        - listitem [ref=f200e717]:
+          - link "고객불편신고" [ref=f200e718] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f200e719]:
+          - link "칭찬합니다." [ref=f200e720] [cursor=pointer]:
+            - /url: /bbs.RetrievePraisePage.comm
+        - listitem [ref=f200e721]:
+          - link "국민신문고" [ref=f200e722] [cursor=pointer]:
+            - /url: /affair/bbs/cbfya302k01.jsp
+        - listitem [ref=f200e723]:
+          - link "110채팅/화상(수화)상담" [ref=f200e724] [cursor=pointer]:
+            - /url: /affair/bbs/cbfya302k03.jsp
+        - listitem [ref=f200e725]:
+          - link "우편톡" [ref=f200e726] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=f200e727]:
+        - listitem [ref=f200e728]:
+          - link "환경설정 안내" [ref=f200e729] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f200e730]:
+        - term [ref=f200e731]: 상담문의
+        - definition [ref=f200e732]:
+          - strong [ref=f200e733]: 1588-1300
+          - text: (발신자부담) 평일:09:00~18:00 토요일/공휴일 휴무
+    - generic [ref=f200e734]:
+      - generic [ref=f200e735]:
+        - heading "이용안내" [level=3] [ref=f200e736]
+        - list [ref=f200e737]:
+          - listitem [ref=f200e738]: HOME
+          - listitem [ref=f200e739]: 고객센터
+          - listitem [ref=f200e740]: 이용안내
+          - listitem [ref=f200e741]: 모바일
+      - generic [ref=f200e742]:
+        - generic [ref=f200e743]:
+          - generic [ref=f200e744]:
+            - heading "바로가기 아이콘이란?" [level=4] [ref=f200e745]
+            - list [ref=f200e746]:
+              - listitem [ref=f200e747]: "클릭 한번으로 고객님 PC에 인터넷우체국 바로방문 아이콘이 설치되고, 설치 후 인터넷우체국 바로가기를 통해 바로방문 하시면 됩니다. * 브라우저 설정에서 다운로드 경로 확인 ① 엣지 : 설정 및 기타 > 설정 > 다운로드 > 위치 ② 크롬 : 맞춤설정 제어 > 설정 > 다운로드 > 위치"
+          - paragraph [ref=f200e748]:
+            - link "인터넷우체국 바로가기 아이콘 설치하기" [ref=f200e749] [cursor=pointer]:
+              - /url: /files/epostShortCut.exe
+        - heading "모바일 앱 다운로드" [level=4] [ref=f200e750]
+        - generic [ref=f200e751]:
+          - paragraph [ref=f200e752]:
+            - img "인터넷우체국 모바일 화면" [ref=f200e753]
+          - list [ref=f200e754]:
+            - listitem [ref=f200e755]: 우체국 모바일 앱에서 편리하게 이용 하세요!
+            - listitem [ref=f200e756]: "소포/EMS : 소포/국제특급(EMS) 방문신청, 접수정보 사전등록 및 착불요금결제"
+            - listitem [ref=f200e757]: "우표/엽서/카드 : 우표, 축하카드, 나만의 우표 구입 및 신청"
+            - listitem [ref=f200e758]: "부가서비스 : 알뜰폰 구매, 등기/소포 간편 사전접수, 주거이전 신청 및 결제 등"
+            - listitem [ref=f200e759]: "배송조회 : 국내/국제 배송조회, 타 택배사 배송조회"
+            - listitem [ref=f200e760]: "기타 : 우체국 찾기, 우편번호 조회, 우편요금 조회 등"
+        - list [ref=f200e763]:
+          - listitem [ref=f200e764]:
+            - paragraph [ref=f200e765]: 앱 마켓에서 다운받기
+            - paragraph [ref=f200e766]:
+              - text: 구글 플레이스토어와애플 앱스토어에서
+              - emphasis [ref=f200e767]: "[우체국]"
+              - text: 을 검색하세요!
+            - link "Google play 다운로드" [ref=f200e768] [cursor=pointer]:
+              - /url: http://market.android.com/details?id=kr.go.epost.app.findZip
+            - link "App Store 다운로드" [ref=f200e769] [cursor=pointer]:
+              - /url: http://itunes.apple.com/kr/app/id435940000?mt=8
+          - listitem [ref=f200e770]:
+            - paragraph [ref=f200e771]: 앱 설치주소 문자로 받기
+            - paragraph [ref=f200e772]: 무료문자로 편리하게우체국 모바일 앱을 다운로드 받으세요!
+            - generic [ref=f200e773]: 휴대전화 번호를 입력해 주시기 바랍니다.
+            - paragraph [ref=f200e774]:
+              - radio [checked] [ref=f200e775]
+              - text: 안드로이드
+              - radio [ref=f200e776]
+              - text: 아이폰
+            - paragraph [ref=f200e777]:
+              - textbox "첫번째자리 입력" [ref=f200e778]
+              - text: "-"
+              - textbox "두번째자리 입력" [ref=f200e779]
+              - text: "-"
+              - textbox "세번째자리 입력" [ref=f200e780]
+            - generic [ref=f200e781]: 자동입력 방지를 위한 4자리 숫자를 입력해 주시기 바랍니다.
+            - generic [ref=f200e782]:
+              - generic [ref=f200e783]:
+                - img "7698" [ref=f200e784]
+                - button "새로고침" [ref=f200e786]
+              - generic [ref=f200e787]:
+                - textbox "이미지번호 입력" [ref=f200e789]
+                - generic [ref=f200e790]: (4자리 숫자 입력)
+            - generic [ref=f200e792] [cursor=pointer]: 전송하기
+            - paragraph [ref=f200e793]: 입력하신 번호는 저장되지 않으며,무료로 전송됩니다.
+          - listitem [ref=f200e794]:
+            - paragraph [ref=f200e795]: QR코드로 다운받기
+            - paragraph [ref=f200e796]: QR코드로 스캔 후, 해당 마켓에서바로 다운로드 받으세요!
+            - img "QR코드" [ref=f200e797]
+            - paragraph [ref=f200e798]: 스마트폰 스캔 앱으로QR코드를 비춰주세요!
+  - generic [ref=f200e799]:
+    - generic [ref=f200e800]:
+      - generic [ref=f200e801]:
+        - list [ref=f200e802]:
+          - listitem [ref=f200e803]:
+            - link "인터넷우체국소개" [ref=f200e804] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/comm/intro/introepost.jsp
+          - listitem [ref=f200e805]:
+            - link "전국 우체국 이용안내" [ref=f200e806] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f200e807]:
+            - link "이용약관" [ref=f200e808] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+          - listitem [ref=f200e809]:
+            - link "개인정보처리방침" [ref=f200e810] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+          - listitem [ref=f200e811]:
+            - link "웹접근성정책" [ref=f200e812] [cursor=pointer]:
+              - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+          - listitem [ref=f200e813]:
+            - link [ref=f200e814] [cursor=pointer]:
+              - /url: https://www.epostbank.go.kr/
+              - img "우체국예금/보험" [ref=f200e815]
+          - paragraph: G-CLOUD
+        - generic [ref=f200e816]:
+          - generic:
+            - combobox "관련사이트" [ref=f200e817]:
+              - option "관련사이트" [selected]
+              - option "과학기술정보통신부"
+              - option "우정사업본부"
+              - option "서울지방우정청"
+              - option "경인지방우정청"
+              - option "부산지방우정청"
+              - option "충청지방우정청"
+              - option "전남지방우정청"
+              - option "경북지방우정청"
+              - option "전북지방우정청"
+              - option "강원지방우정청"
+              - option "제주지방우정청"
+              - option "우정공무원교육원"
+              - option "우정정보관리원"
+              - option "우정사업조달센터"
+              - option "사이버우정박물관"
+              - option "한국우표포털서비스"
+              - option "한국우편사업진흥원"
+            - generic: 관련사이트
+            - link "이동" [ref=f200e818] [cursor=pointer]:
+              - /url: "#"
+      - list [ref=f200e820]:
+        - listitem [ref=f200e821]:
+          - link [ref=f200e822] [cursor=pointer]:
+            - /url: "#"
+            - img "채팅상담" [ref=f200e823]
+        - listitem: Shift + Enter
+    - generic [ref=f200e824]:
+      - generic [ref=f200e825]: "우편고객센터 :1588-1300(발신자부담) | 이메일 : help@posa.or.kr 58323 전남광주통합특별시 나주시 정보화길 1 (빛가람동) | 사업자등록번호 : 206-83-02050 (정희영) Copyright(c) 2016. ePOST all rights reserved."
+      - list [ref=f200e826]:
+        - listitem [ref=f200e827]:
+          - link [ref=f200e828] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img "DigiCert 로고" [ref=f200e829]

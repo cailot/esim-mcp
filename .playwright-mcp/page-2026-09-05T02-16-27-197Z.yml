@@ -1,0 +1,511 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "아요 로고 아요":
+        - /url: https://weayo.com
+        - generic [ref=e3] [cursor=pointer]:
+          - img "아요 로고" [ref=e5]
+          - strong [ref=e8]: 아요
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "해외 로밍" [ref=e12] [cursor=pointer]:
+              - /url: https://weayo.com/roaming/plan
+          - listitem [ref=e13]:
+            - link "아요 추천" [ref=e14] [cursor=pointer]:
+              - /url: https://weayo.com/plan/recommand
+          - listitem [ref=e15]:
+            - link "요금제 찾기" [ref=e16] [cursor=pointer]:
+              - /url: https://weayo.com/plan/list/1
+          - listitem [ref=e17]:
+            - link "이벤트" [ref=e18] [cursor=pointer]:
+              - /url: https://weayo.com/page/event
+          - listitem [ref=e19]:
+            - link "자주 반복되는 질문" [ref=e20] [cursor=pointer]:
+              - /url: https://weayo.com/page/faq
+          - listitem [ref=e21]:
+            - link " 마이페이지" [ref=e22] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/mypage
+              - generic [ref=e23]: 
+              - text: 마이페이지
+  - main [ref=e24]:
+    - generic [ref=e28]:
+      - generic [ref=e30] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e31]: 
+        - text: 추천순
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e33]: 
+        - text: 필터 1
+      - generic [ref=e34] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e35]: 
+        - text: 검색
+      - generic [ref=e36] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e37]: 
+        - text: 빠른추천
+      - generic [ref=e38] [cursor=pointer]: 7G 요금제
+      - generic [ref=e39] [cursor=pointer]: 15G 요금제
+      - generic [ref=e40] [cursor=pointer]: 71G 요금제
+      - generic [ref=e41] [cursor=pointer]: 100G 요금제
+      - generic [ref=e42] [cursor=pointer]: 할인요금제외
+    - generic:
+      - generic [ref=e45]:
+        - heading "총 1,182개" [level=6] [ref=e48]
+        - generic:
+          - generic [ref=e52]:
+            - generic:
+              - img "찜하기" [ref=e54] [cursor=pointer]
+              - link "자세히 보기" [ref=e57] [cursor=pointer]:
+                - /url: /mobile/plan/1000016479?referer=planlist
+            - generic [ref=e58]:
+              - link [ref=e59] [cursor=pointer]:
+                - /url: /mobile/plan/1000016479?referer=planlist
+                - img "이야기모바일" [ref=e61]
+                - text: 이야기 스페셜S 100GB+
+              - generic [ref=e63]:
+                - link "월 100G + 5Mbps" [ref=e64] [cursor=pointer]:
+                  - /url: /mobile/plan/1000016479?referer=planlist
+                - generic [aria-hidden] [ref=e68]: 
+                - link [ref=e69] [cursor=pointer]:
+                  - /url: /mobile/plan/1000016479?referer=planlist
+              - link "SKT망 SKT망 LTE LTE 무제한 무제한 무제한 무제한 31,032 31,032" [ref=e70] [cursor=pointer]:
+                - /url: /mobile/plan/1000016479?referer=planlist
+                - generic [ref=e71]:
+                  - img "SKT망" [ref=e72]
+                  - text: SKT망
+                  - img "LTE" [ref=e73]
+                  - text: LTE
+                  - img "무제한" [ref=e74]
+                  - text: 무제한
+                  - img "무제한" [ref=e75]
+                  - text: 무제한
+                  - img "31,032" [ref=e76]
+                  - text: 31,032
+              - generic [ref=e79]:
+                - link "월 20,900원" [ref=e80] [cursor=pointer]:
+                  - /url: /mobile/plan/1000016479?referer=planlist
+                - generic [aria-hidden] [ref=e84]: 
+                - link [ref=e85] [cursor=pointer]:
+                  - /url: /mobile/plan/1000016479?referer=planlist
+              - link "7개월 후부터 49,500원" [ref=e86] [cursor=pointer]:
+                - /url: /mobile/plan/1000016479?referer=planlist
+          - generic [ref=e91]:
+            - generic:
+              - img "찜하기" [ref=e93] [cursor=pointer]
+              - link "자세히 보기" [ref=e96] [cursor=pointer]:
+                - /url: /mobile/plan/1000025992?referer=planlist
+            - generic [ref=e97]:
+              - link [ref=e98] [cursor=pointer]:
+                - /url: /mobile/plan/1000025992?referer=planlist
+                - img "아시아모바일" [ref=e100]
+                - text: 아시아 통화기본 11GB+_24개월
+              - generic [ref=e102]:
+                - link "월 11G + 매일 2G + 3Mbps" [ref=e103] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025992?referer=planlist
+                - generic [aria-hidden] [ref=e107]: 
+                - link [ref=e108] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025992?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 1,785 1,785" [ref=e109] [cursor=pointer]:
+                - /url: /mobile/plan/1000025992?referer=planlist
+                - generic [ref=e110]:
+                  - img "LGU+망" [ref=e111]
+                  - text: LGU+망
+                  - img "LTE" [ref=e112]
+                  - text: LTE
+                  - img "무제한" [ref=e113]
+                  - text: 무제한
+                  - img "무제한" [ref=e114]
+                  - text: 무제한
+                  - img "1,785" [ref=e115]
+                  - text: 1,785
+              - generic [ref=e118]:
+                - link "월 28,270원" [ref=e119] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025992?referer=planlist
+                - generic [aria-hidden] [ref=e123]: 
+                - link [ref=e124] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025992?referer=planlist
+              - link "24개월 후부터 39,600원" [ref=e125] [cursor=pointer]:
+                - /url: /mobile/plan/1000025992?referer=planlist
+          - generic [ref=e130]:
+            - generic:
+              - img "찜하기" [ref=e132] [cursor=pointer]
+              - link "자세히 보기" [ref=e135] [cursor=pointer]:
+                - /url: /mobile/plan/1000025990?referer=planlist
+            - generic [ref=e136]:
+              - link [ref=e137] [cursor=pointer]:
+                - /url: /mobile/plan/1000025990?referer=planlist
+                - img "아시아모바일" [ref=e139]
+                - text: 아시아 100분/15GB+_24개월
+              - generic [ref=e141]:
+                - link "월 15G + 3Mbps" [ref=e142] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025990?referer=planlist
+                - generic [aria-hidden] [ref=e146]: 
+                - link [ref=e147] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025990?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 100분 100분 100건 100건 674 674" [ref=e148] [cursor=pointer]:
+                - /url: /mobile/plan/1000025990?referer=planlist
+                - generic [ref=e149]:
+                  - img "LGU+망" [ref=e150]
+                  - text: LGU+망
+                  - img "LTE" [ref=e151]
+                  - text: LTE
+                  - img "100분" [ref=e152]
+                  - text: 100분
+                  - img "100건" [ref=e153]
+                  - text: 100건
+                  - img "674" [ref=e154]
+                  - text: "674"
+              - generic [ref=e157]:
+                - link "월 21,450원" [ref=e158] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025990?referer=planlist
+                - generic [aria-hidden] [ref=e162]: 
+                - link [ref=e163] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025990?referer=planlist
+              - link "24개월 후부터 31,900원" [ref=e164] [cursor=pointer]:
+                - /url: /mobile/plan/1000025990?referer=planlist
+          - generic [ref=e169]:
+            - generic:
+              - img "찜하기" [ref=e171] [cursor=pointer]
+              - link "자세히 보기" [ref=e174] [cursor=pointer]:
+                - /url: /mobile/plan/1000025438?referer=planlist
+            - generic [ref=e175]:
+              - link [ref=e176] [cursor=pointer]:
+                - /url: /mobile/plan/1000025438?referer=planlist
+                - img "GME모바일" [ref=e178]
+                - text: GME 스마트7GB+ Ⅲ
+              - generic [ref=e180]:
+                - link "월 7G + 1Mbps" [ref=e181] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025438?referer=planlist
+                - generic [aria-hidden] [ref=e185]: 
+                - link [ref=e186] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025438?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 4,167 4,167" [ref=e187] [cursor=pointer]:
+                - /url: /mobile/plan/1000025438?referer=planlist
+                - generic [ref=e188]:
+                  - img "LGU+망" [ref=e189]
+                  - text: LGU+망
+                  - img "LTE" [ref=e190]
+                  - text: LTE
+                  - img "무제한" [ref=e191]
+                  - text: 무제한
+                  - img "무제한" [ref=e192]
+                  - text: 무제한
+                  - img "4,167" [ref=e193]
+                  - text: 4,167
+              - generic [ref=e196]:
+                - link "월 10,010원" [ref=e197] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025438?referer=planlist
+                - generic [aria-hidden] [ref=e201]: 
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025438?referer=planlist
+              - link "5개월 후부터 19,800원" [ref=e203] [cursor=pointer]:
+                - /url: /mobile/plan/1000025438?referer=planlist
+          - generic [ref=e208]:
+            - generic:
+              - img "찜하기" [ref=e210] [cursor=pointer]
+              - link "자세히 보기" [ref=e213] [cursor=pointer]:
+                - /url: /mobile/plan/1000025987?referer=planlist
+            - generic [ref=e214]:
+              - link [ref=e215] [cursor=pointer]:
+                - /url: /mobile/plan/1000025987?referer=planlist
+                - img "아시아모바일" [ref=e217]
+                - text: 아시아 통화기본 7GB+_24개월
+              - generic [ref=e219]:
+                - link "월 7G + 1Mbps" [ref=e220] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025987?referer=planlist
+                - generic [aria-hidden] [ref=e224]: 
+                - link [ref=e225] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025987?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 1,675 1,675" [ref=e226] [cursor=pointer]:
+                - /url: /mobile/plan/1000025987?referer=planlist
+                - generic [ref=e227]:
+                  - img "LGU+망" [ref=e228]
+                  - text: LGU+망
+                  - img "LTE" [ref=e229]
+                  - text: LTE
+                  - img "무제한" [ref=e230]
+                  - text: 무제한
+                  - img "무제한" [ref=e231]
+                  - text: 무제한
+                  - img "1,675" [ref=e232]
+                  - text: 1,675
+              - generic [ref=e235]:
+                - link "월 14,520원" [ref=e236] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025987?referer=planlist
+                - generic [aria-hidden] [ref=e240]: 
+                - link [ref=e241] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025987?referer=planlist
+              - link "24개월 후부터 22,000원" [ref=e242] [cursor=pointer]:
+                - /url: /mobile/plan/1000025987?referer=planlist
+          - generic [ref=e247]:
+            - generic:
+              - img "찜하기" [ref=e249] [cursor=pointer]
+              - link "자세히 보기" [ref=e252] [cursor=pointer]:
+                - /url: /mobile/plan/1000025993?referer=planlist
+            - generic [ref=e253]:
+              - link [ref=e254] [cursor=pointer]:
+                - /url: /mobile/plan/1000025993?referer=planlist
+                - img "아시아모바일" [ref=e256]
+                - text: 아시아 통화기본 100GB+_24개월
+              - generic [ref=e258]:
+                - link "월 100G + 5Mbps" [ref=e259] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025993?referer=planlist
+                - generic [aria-hidden] [ref=e263]: 
+                - link [ref=e264] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025993?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 1,330 1,330" [ref=e265] [cursor=pointer]:
+                - /url: /mobile/plan/1000025993?referer=planlist
+                - generic [ref=e266]:
+                  - img "LGU+망" [ref=e267]
+                  - text: LGU+망
+                  - img "LTE" [ref=e268]
+                  - text: LTE
+                  - img "무제한" [ref=e269]
+                  - text: 무제한
+                  - img "무제한" [ref=e270]
+                  - text: 무제한
+                  - img "1,330" [ref=e271]
+                  - text: 1,330
+              - generic [ref=e274]:
+                - link "월 31,460원" [ref=e275] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025993?referer=planlist
+                - generic [aria-hidden] [ref=e279]: 
+                - link [ref=e280] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025993?referer=planlist
+              - link "24개월 후부터 45,100원" [ref=e281] [cursor=pointer]:
+                - /url: /mobile/plan/1000025993?referer=planlist
+          - generic [ref=e286]:
+            - generic:
+              - img "찜하기" [ref=e288] [cursor=pointer]
+              - link "자세히 보기" [ref=e291] [cursor=pointer]:
+                - /url: /mobile/plan/1000025852?referer=planlist
+            - generic [ref=e292]:
+              - link [ref=e293] [cursor=pointer]:
+                - /url: /mobile/plan/1000025852?referer=planlist
+                - img "아시아모바일" [ref=e295]
+                - text: 아시아 통화기본 7GB+
+              - generic [ref=e297]:
+                - link "월 7G + 1Mbps" [ref=e298] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025852?referer=planlist
+                - generic [aria-hidden] [ref=e302]: 
+                - link [ref=e303] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025852?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 3,775 3,775" [ref=e304] [cursor=pointer]:
+                - /url: /mobile/plan/1000025852?referer=planlist
+                - generic [ref=e305]:
+                  - img "LGU+망" [ref=e306]
+                  - text: LGU+망
+                  - img "LTE" [ref=e307]
+                  - text: LTE
+                  - img "무제한" [ref=e308]
+                  - text: 무제한
+                  - img "무제한" [ref=e309]
+                  - text: 무제한
+                  - img "3,775" [ref=e310]
+                  - text: 3,775
+              - generic [ref=e313]:
+                - link "월 16,500원" [ref=e314] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025852?referer=planlist
+                - generic [aria-hidden] [ref=e318]: 
+                - link [ref=e319] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025852?referer=planlist
+              - link "7개월 후부터 22,000원" [ref=e320] [cursor=pointer]:
+                - /url: /mobile/plan/1000025852?referer=planlist
+          - generic [ref=e325]:
+            - generic:
+              - img "찜하기" [ref=e327] [cursor=pointer]
+              - link "자세히 보기" [ref=e330] [cursor=pointer]:
+                - /url: /mobile/plan/1000009202?referer=planlist
+            - generic [ref=e331]:
+              - link [ref=e332] [cursor=pointer]:
+                - /url: /mobile/plan/1000009202?referer=planlist
+                - img "이야기모바일" [ref=e334]
+                - text: 함께이야기해S(1000분+20GB)
+              - generic [ref=e336]:
+                - link "월 20G" [ref=e337] [cursor=pointer]:
+                  - /url: /mobile/plan/1000009202?referer=planlist
+                - generic [aria-hidden] [ref=e341]: 
+                - link [ref=e342] [cursor=pointer]:
+                  - /url: /mobile/plan/1000009202?referer=planlist
+              - link "SKT망 SKT망 LTE LTE 1,000분 1,000분 200건 200건 899 899" [ref=e343] [cursor=pointer]:
+                - /url: /mobile/plan/1000009202?referer=planlist
+                - generic [ref=e344]:
+                  - img "SKT망" [ref=e345]
+                  - text: SKT망
+                  - img "LTE" [ref=e346]
+                  - text: LTE
+                  - img "1,000분" [ref=e347]
+                  - text: 1,000분
+                  - img "200건" [ref=e348]
+                  - text: 200건
+                  - img "899" [ref=e349]
+                  - text: "899"
+              - generic [ref=e352]:
+                - link "월 23,500원" [ref=e353] [cursor=pointer]:
+                  - /url: /mobile/plan/1000009202?referer=planlist
+                - generic [aria-hidden] [ref=e357]: 
+                - link [ref=e358] [cursor=pointer]:
+                  - /url: /mobile/plan/1000009202?referer=planlist
+              - link "12개월 후부터 29,700원" [ref=e359] [cursor=pointer]:
+                - /url: /mobile/plan/1000009202?referer=planlist
+          - generic [ref=e364]:
+            - generic:
+              - img "찜하기" [ref=e366] [cursor=pointer]
+              - link "자세히 보기" [ref=e369] [cursor=pointer]:
+                - /url: /mobile/plan/1000025944?referer=planlist
+            - generic [ref=e370]:
+              - link [ref=e371] [cursor=pointer]:
+                - /url: /mobile/plan/1000025944?referer=planlist
+                - img "아시아모바일" [ref=e373]
+                - text: 아시아 통화기본 100GB+
+              - generic [ref=e375]:
+                - link "월 100G + 5Mbps" [ref=e376] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025944?referer=planlist
+                - generic [aria-hidden] [ref=e380]: 
+                - link [ref=e381] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025944?referer=planlist
+              - link "LGU+망 LGU+망 LTE LTE 무제한 무제한 무제한 무제한 3,266 3,266" [ref=e382] [cursor=pointer]:
+                - /url: /mobile/plan/1000025944?referer=planlist
+                - generic [ref=e383]:
+                  - img "LGU+망" [ref=e384]
+                  - text: LGU+망
+                  - img "LTE" [ref=e385]
+                  - text: LTE
+                  - img "무제한" [ref=e386]
+                  - text: 무제한
+                  - img "무제한" [ref=e387]
+                  - text: 무제한
+                  - img "3,266" [ref=e388]
+                  - text: 3,266
+              - generic [ref=e391]:
+                - link "월 23,650원" [ref=e392] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025944?referer=planlist
+                - generic [aria-hidden] [ref=e396]: 
+                - link [ref=e397] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025944?referer=planlist
+              - link "7개월 후부터 45,100원" [ref=e398] [cursor=pointer]:
+                - /url: /mobile/plan/1000025944?referer=planlist
+          - generic [ref=e403]:
+            - generic:
+              - img "찜하기" [ref=e405] [cursor=pointer]
+              - link "자세히 보기" [ref=e408] [cursor=pointer]:
+                - /url: /mobile/plan/1000025827?referer=planlist
+            - generic [ref=e409]:
+              - link [ref=e410] [cursor=pointer]:
+                - /url: /mobile/plan/1000025827?referer=planlist
+                - img "이야기모바일" [ref=e412]
+                - text: 함께이야기해S 무한 20GB
+              - generic [ref=e414]:
+                - link "월 20G" [ref=e415] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025827?referer=planlist
+                - generic [aria-hidden] [ref=e419]: 
+                - link [ref=e420] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025827?referer=planlist
+              - link "SKT망 SKT망 LTE LTE 무제한 무제한 무제한 무제한 752 752" [ref=e421] [cursor=pointer]:
+                - /url: /mobile/plan/1000025827?referer=planlist
+                - generic [ref=e422]:
+                  - img "SKT망" [ref=e423]
+                  - text: SKT망
+                  - img "LTE" [ref=e424]
+                  - text: LTE
+                  - img "무제한" [ref=e425]
+                  - text: 무제한
+                  - img "무제한" [ref=e426]
+                  - text: 무제한
+                  - img "752" [ref=e427]
+                  - text: "752"
+              - generic [ref=e430]:
+                - link "월 18,800원" [ref=e431] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025827?referer=planlist
+                - generic [aria-hidden] [ref=e435]: 
+                - link [ref=e436] [cursor=pointer]:
+                  - /url: /mobile/plan/1000025827?referer=planlist
+              - link "12개월 후부터 23,100원" [ref=e437] [cursor=pointer]:
+                - /url: /mobile/plan/1000025827?referer=planlist
+        - list [ref=e444]:
+          - listitem:
+            - generic: "1"
+          - listitem:
+            - generic [ref=e445] [cursor=pointer]: "2"
+          - listitem:
+            - generic [ref=e446] [cursor=pointer]: "3"
+          - listitem:
+            - generic [ref=e447] [cursor=pointer]: 
+      - generic [ref=e451]:
+        - generic [ref=e455]:
+          - heading "나에게 적합한 알뜰폰 요금제 찾아보기" [level=4] [ref=e457]
+          - link "지금 찾기" [ref=e459] [cursor=pointer]:
+            - /url: /plan/recommand
+        - generic [ref=e464]:
+          - generic [ref=e465]:
+            - text: 최근 본 요금제
+            - link "더보기 (6)" [ref=e467] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/recent
+          - generic [ref=e470]:
+            - link "초알뜰 3GB/100분" [ref=e472] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+            - link "월 4,900원" [ref=e474] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+          - generic [ref=e476]:
+            - link "초슬림 500M/60분" [ref=e478] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+            - link "월 1,900원" [ref=e480] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+          - generic [ref=e482]:
+            - link "든든한 200분6G" [ref=e484] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+            - link "월 3,630원" [ref=e486] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+          - generic [ref=e488]:
+            - link "아이즈우정(300분/5G)" [ref=e490] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+            - link "월 8,500원" [ref=e492] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+          - generic [ref=e494]:
+            - link "LTE 실속 5GB(200분)" [ref=e496] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+            - link "월 14,300원" [ref=e498] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+    - text:    
+  - contentinfo [ref=e504]:
+    - generic [ref=e506]:
+      - link "개인정보처리방침" [ref=e508] [cursor=pointer]:
+        - /url: https://weayo.com/page/privacy
+      - text: "|"
+      - link "이용약관" [ref=e510] [cursor=pointer]:
+        - /url: https://weayo.com/page/agree
+      - text: "|"
+      - link "제휴/입점 제안" [ref=e512] [cursor=pointer]:
+        - /url: https://weayo.com/page/proposal/1003
+      - text: "|"
+      - link "공지사항" [ref=e514] [cursor=pointer]:
+        - /url: https://weayo.com/page/notice
+      - text: "|"
+      - link "자주 반복되는 질문" [ref=e516] [cursor=pointer]:
+        - /url: https://weayo.com/page/faq
+      - text: "|"
+      - link "블로그" [ref=e518] [cursor=pointer]:
+        - /url: https://weayo.com/blog/list
+      - text: "|"
+      - link "마이페이지" [ref=e520] [cursor=pointer]:
+        - /url: https://weayo.com/mypage/mypage
+      - heading "주식회사 아요" [level=3] [ref=e523]
+      - text: "주식회사 아요는 가격비교 정보 중개자로서 요금제 판매와는 직접적인 관련이 없습니다. 모든 상거래의 책임은 구매자 및 판매자에게 있습니다. 대표 : 윤선희 사업자등록번호 : 878-81-02870 통신판매업 신고번호 : 2023-고양일산동-2216 주소 : 경기도 고양시 일산동구 정발산로 43-20, 센트럴프라자 301호"
+      - heading "고객센터" [level=4] [ref=e526]
+      - link "1:1 문의" [ref=e529] [cursor=pointer]:
+        - /url: /mypage/qna
+      - generic [ref=e530]: "Business Hours: AM 10:00 - PM 6:00"
+      - generic [ref=e532]:
+        - link [ref=e534] [cursor=pointer]:
+          - /url: https://blog.naver.com/ayocompany
+          - img "아요 블로그" [ref=e535]
+        - link [ref=e537] [cursor=pointer]:
+          - /url: https://www.youtube.com/@ayoplan
+          - img "아요 유튜브" [ref=e538]
+        - link [ref=e540] [cursor=pointer]:
+          - /url: https://www.instagram.com/ayo.company
+          - img "아요 인스타그램" [ref=e541]
+        - link [ref=e543] [cursor=pointer]:
+          - /url: https://www.facebook.com/weayocompany
+          - img "아요 페이스북" [ref=e544]
+        - img "아요 트위터" [ref=e546]
+    - generic [aria-hidden] [ref=e551] [cursor=pointer]: 

@@ -1,0 +1,97 @@
+- generic [active] [ref=f309e1]:
+  - banner [ref=f309e2]:
+    - generic [ref=f309e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f309e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f309e6]:
+        - list [ref=f309e7]:
+          - listitem [ref=f309e8]:
+            - link "홈" [ref=f309e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f309e10]:
+            - link "요금제" [ref=f309e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f309e12]:
+            - link "휴대폰" [ref=f309e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f309e14]:
+            - link "인터넷" [ref=f309e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f309e16]:
+            - link "가전렌탈 NEW" [ref=f309e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f309e18]: NEW
+          - listitem [ref=f309e19]:
+            - link "이벤트" [ref=f309e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f309e21]:
+            - link "마이페이지" [ref=f309e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f309e23]:
+    - generic [ref=f309e24]:
+      - generic [ref=f309e25]:
+        - generic [ref=f309e27]:
+          - link [ref=f309e29] [cursor=pointer]:
+            - /url: /mvnos/37?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+            - img "프리티 로고" [ref=f309e30]
+          - generic [ref=f309e31]:
+            - generic [ref=f309e32]:
+              - generic [ref=f309e33]: 든든한 200분6G
+              - generic [ref=f309e34]:
+                - heading "월 6GB" [level=1] [ref=f309e35]
+                - generic [ref=f309e36]:
+                  - button "찜하기" [ref=f309e38] [cursor=pointer]
+                  - button "공유하기" [ref=f309e43] [cursor=pointer]
+            - generic [ref=f309e50]:
+              - generic [ref=f309e51]: 통화 200분
+              - generic [ref=f309e53]: 문자 100건
+              - generic [ref=f309e55]: LG U+망
+              - generic [ref=f309e57]: LTE
+        - generic [ref=f309e59]:
+          - generic [ref=f309e60]: 월 5,940원9개월 이후 14,300원
+          - button "자세히" [ref=f309e61] [cursor=pointer]
+      - group "요금제 신청" [ref=f309e64]:
+        - button "신청 페이지로 이동" [ref=f309e66] [cursor=pointer]
+    - generic [ref=f309e77]:
+      - generic [ref=f309e78]: 꼭 확인해 주세요
+      - generic [ref=f309e79]: 모요와 제휴되지 않은 통신사입니다. 요금제 가입 과정에 문제가 생겨도 모요에서 도와드릴 수 없어요.
+    - generic [ref=f309e83]:
+      - heading "요금제 정보" [level=2] [ref=f309e85]
+      - generic [ref=f309e86]:
+        - generic [ref=f309e95]:
+          - generic [ref=f309e96]: 데이터 월 6GB
+          - generic [ref=f309e97]: 다 쓰면 초과 용량만큼 과금
+        - generic [ref=f309e98]: 통화 200분 / 문자 100건
+    - generic [ref=f309e108]:
+      - generic [ref=f309e109]:
+        - heading "프리티 후기" [level=2] [ref=f309e110]
+        - button "모두보기" [ref=f309e111] [cursor=pointer]
+      - generic [ref=f309e115]:
+        - generic [ref=f309e116]: "4.3"
+        - generic [ref=f309e122]: 1,604개
+      - generic [ref=f309e123]:
+        - button "김*실 1년 전 와이파이 안 되는 곳은 되는 곳에서 e심 추천여 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ" [ref=f309e125] [cursor=pointer]:
+          - generic [ref=f309e126]:
+            - generic [ref=f309e127]: 김*실
+            - generic [ref=f309e150]: 1년 전
+          - generic [ref=f309e151]: 와이파이 안 되는 곳은 되는 곳에서 e심 추천여 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+        - button "장*영 1년 전 셀프개통이 굉장히 쉽고 어플도 직관적이라 프리티에 매우 만족합니다." [ref=f309e153] [cursor=pointer]:
+          - generic [ref=f309e154]:
+            - generic [ref=f309e155]: 장*영
+            - generic [ref=f309e178]: 1년 전
+          - generic [ref=f309e179]: 셀프개통이 굉장히 쉽고 어플도 직관적이라 프리티에 매우 만족합니다.
+    - generic [ref=f309e181]:
+      - link [ref=f309e182] [cursor=pointer]:
+        - /url: /mvnos/37?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "프리티 로고" [ref=f309e183]
+      - button "잘못된 정보 제보" [ref=f309e184] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f309e185]
+  - generic [ref=f309e187]:
+    - generic [ref=f309e188]:
+      - generic [ref=f309e189]: 해당 요금제는 마감되었어요!
+      - generic [ref=f309e190]: 다른 요금제를 찾아보세요 🥺
+    - button "확인" [ref=f309e192] [cursor=pointer]

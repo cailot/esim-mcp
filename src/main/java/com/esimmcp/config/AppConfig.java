@@ -5,6 +5,9 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.ArrayList;
@@ -73,7 +76,10 @@ public final class AppConfig {
                 }
                 return;
             }
-            props.load(in);
+            // InputStream load() is ISO-8859-1 by spec; Korean in application.properties is UTF-8.
+            try (Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8)) {
+                props.load(reader);
+            }
         } catch (IOException e) {
             throw new IllegalStateException("Failed to load " + resource, e);
         }

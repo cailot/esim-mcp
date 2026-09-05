@@ -1,0 +1,379 @@
+- generic [active] [ref=f85e1]:
+  - generic [ref=f85e2]:
+    - generic:
+      - link "주 메뉴 바로가기" [ref=f85e3] [cursor=pointer]:
+        - /url: "#gnb_menu_box"
+      - link "본문 컨텐츠 바로가기" [ref=f85e4] [cursor=pointer]:
+        - /url: "#container"
+    - banner [ref=f85e5]:
+      - list [ref=f85e9]:
+        - listitem [ref=f85e10]:
+          - link "MY에스원" [ref=f85e11] [cursor=pointer]:
+            - /url: /my/dashboard
+        - listitem [ref=f85e12]:
+          - link "로그인" [ref=f85e13] [cursor=pointer]:
+            - /url: /login
+        - listitem [ref=f85e14]:
+          - link "회원가입" [ref=f85e15] [cursor=pointer]:
+            - /url: javascript:void(0);
+        - listitem [ref=f85e16]:
+          - link "IR" [ref=f85e17] [cursor=pointer]:
+            - /url: https://invest.s1.co.kr:1447/invest/index.do
+        - listitem [ref=f85e18]:
+          - link "회사소개" [ref=f85e19] [cursor=pointer]:
+            - /url: /company
+        - listitem [ref=f85e20]:
+          - generic [ref=f85e21]:
+            - button "언어 선택" [ref=f85e22] [cursor=pointer]
+            - text: KOR
+      - generic [ref=f85e24]:
+        - generic [ref=f85e25]:
+          - heading [level=1] [ref=f85e27]:
+            - link "에스원" [ref=f85e28] [cursor=pointer]:
+              - /url: /
+          - list [ref=f85e31]:
+            - listitem [ref=f85e32]:
+              - button "디지털 쇼룸" [ref=f85e33] [cursor=pointer]
+            - listitem [ref=f85e34]:
+              - button "세콤/CCTV" [ref=f85e35] [cursor=pointer]
+            - listitem [ref=f85e36]:
+              - button "디지털보안" [ref=f85e37] [cursor=pointer]
+            - listitem [ref=f85e38]:
+              - button "부동산종합서비스" [ref=f85e39] [cursor=pointer]
+            - listitem [ref=f85e40]:
+              - button "통합보안솔루션" [ref=f85e41] [cursor=pointer]
+            - listitem [ref=f85e42]:
+              - button "차량운행관리" [ref=f85e43] [cursor=pointer]
+            - listitem [ref=f85e44]:
+              - button "안심모바일" [ref=f85e45] [cursor=pointer]
+            - listitem [ref=f85e46]:
+              - button "고객센터" [ref=f85e47] [cursor=pointer]
+        - list [ref=f85e49]:
+          - listitem [ref=f85e50]:
+            - button "전체메뉴" [ref=f85e51] [cursor=pointer]
+    - generic [ref=f85e54]:
+      - generic [ref=f85e55]:
+        - generic [ref=f85e56]:
+          - list [ref=f85e57]:
+            - generic [ref=f85e58]:
+              - generic:
+                - listitem "선택됨" [ref=f85e59] [cursor=pointer]:
+                  - button [ref=f85e60]:
+                    - img "국내 1위! 에스원의 보안전문가가 무료 보안 컨설팅을 진행해드립니다." [ref=f85e61]
+                - listitem [ref=f85e62] [cursor=pointer]:
+                  - button [ref=f85e63]:
+                    - img "직접 보고 선택하는 나만의 보안! 선택은 자유롭게 체험은 리얼하게 디지털 쇼룸" [ref=f85e64]
+                - listitem [ref=f85e65] [cursor=pointer]:
+                  - button [ref=f85e66]:
+                    - img "스마트하게 실현하는 완벽한 안심! 직접 보고 선택해서 안심하는 디지털 쇼룸" [ref=f85e67]
+                - listitem [ref=f85e68] [cursor=pointer]:
+                  - button [ref=f85e69]:
+                    - img "한 눈에 확인하는 맞춤형 견적! 원하는 서비스를 선택하고 예상 비용까지 한 번에 디지털 쇼룸" [ref=f85e70]
+          - generic [ref=f85e71]:
+            - button "멈춤" [ref=f85e72] [cursor=pointer]
+            - button "이전" [ref=f85e73] [cursor=pointer]
+            - button "다음" [ref=f85e76] [cursor=pointer]
+            - paragraph [ref=f85e79]: "04"
+          - toolbar [ref=f85e80]:
+            - generic [ref=f85e81]:
+              - generic:
+                - generic "선택됨" [ref=f85e82]:
+                  - generic [ref=f85e84]:
+                    - link "국내 1위! 에스원의 보안전문가가 무료 보안 컨설팅을 진행해드립니다.":
+                      - /url: https://www.s1.co.kr/join/consult
+                      - img "국내 1위! 에스원의 보안전문가가 무료 보안 컨설팅을 진행해드립니다." [ref=f85e85] [cursor=pointer]
+                - img [ref=f85e89] [cursor=pointer]
+                - img [ref=f85e93] [cursor=pointer]
+                - img [ref=f85e97] [cursor=pointer]
+            - tablist:
+              - listitem [ref=f85e98]:
+                - generic [ref=f85e99]: "01"
+        - generic [ref=f85e100]:
+          - list [ref=f85e101]:
+            - listitem [ref=f85e102] [cursor=pointer]:
+              - link "가입문의 / 고객상담 1588-3112" [ref=f85e103]:
+                - /url: /join/consult
+                - generic [ref=f85e104]: 가입문의 / 고객상담
+                - paragraph [ref=f85e105]: 1588-3112
+            - listitem [ref=f85e106] [cursor=pointer]:
+              - link "나에게 맞는 서비스를 찾아보세요. 세콤 견적 알아보기" [ref=f85e107]:
+                - /url: javascript:estimate.init($('#btnPop1on0'));
+                - generic [ref=f85e108]: 나에게 맞는 서비스를 찾아보세요.
+                - paragraph [ref=f85e109]: 세콤 견적 알아보기
+          - list [ref=f85e110]:
+            - listitem [ref=f85e111]:
+              - link [ref=f85e112] [cursor=pointer]:
+                - /url: https://www.s1webview.co.kr:2443
+                - paragraph [ref=f85e113]: 에스원웹뷰어
+            - listitem [ref=f85e114]:
+              - link [ref=f85e115] [cursor=pointer]:
+                - /url: https://www.s1mobilecard.co.kr
+                - paragraph [ref=f85e116]: 모바일카드
+            - listitem [ref=f85e117]:
+              - link [ref=f85e118] [cursor=pointer]:
+                - /url: /customer/manual
+                - paragraph [ref=f85e119]: 에스원자료실
+            - listitem [ref=f85e120]:
+              - link [ref=f85e121] [cursor=pointer]:
+                - /url: /customer/service-inquiry/new
+                - paragraph [ref=f85e122]: B2B문의
+            - listitem [ref=f85e123]:
+              - link [ref=f85e124] [cursor=pointer]:
+                - /url: http://www.113366.com/1235
+                - paragraph [ref=f85e125]: 원격지원
+            - listitem [ref=f85e126]:
+              - link [ref=f85e127] [cursor=pointer]:
+                - /url: /business/cooperative
+                - paragraph [ref=f85e128]: 신규 협력사등록
+          - generic [ref=f85e129]: SCROLLDOWN
+      - generic [ref=f85e131]:
+        - generic [ref=f85e134]:
+          - strong [ref=f85e136]: 에스원만의 원스톱 통합서비스를 만나보세요
+          - list [ref=f85e137]:
+            - listitem [ref=f85e138]:
+              - link [ref=f85e139] [cursor=pointer]:
+                - /url: "#none"
+                - paragraph [ref=f85e140]: 초고층 빌딩
+                - generic [ref=f85e141]: 초고층빌딩의 안전성과 가치를 높일 수 있는 컨설팅+솔루션+운영서비스를 통합적으로 제공합니다.
+            - listitem [ref=f85e143]:
+              - link [ref=f85e144] [cursor=pointer]:
+                - /url: "#none"
+                - paragraph [ref=f85e145]: 복합시설
+                - generic [ref=f85e146]: 많은 사람이 출입하는 다중이용 공간, 시설의 목적과 특성에 맞는 안심 솔루션을 제공합니다.
+            - listitem [ref=f85e148]:
+              - link [ref=f85e149] [cursor=pointer]:
+                - /url: "#none"
+                - paragraph [ref=f85e150]: 오피스
+                - generic [ref=f85e151]: 모두가 안전하고 안심할 수 있는 세상을 위해 에스원의 40여 년 보안 서비스와 60여 년 건물관리 노하우를 제공합니다.
+        - list [ref=f85e153]:
+          - listitem [ref=f85e154]:
+            - link [ref=f85e155] [cursor=pointer]:
+              - /url: /customer/thank
+              - paragraph [ref=f85e156]: 고마워요 에스원
+              - generic [ref=f85e157]: 실제 에스원 고객들의 서비스 이용 경험담을 모았습니다.
+          - listitem [ref=f85e158]:
+            - link [ref=f85e159] [cursor=pointer]:
+              - /url: javascript:common.inquiry();
+              - paragraph [ref=f85e160]: 궁금해요 에스원
+              - generic [ref=f85e161]: 에스원에 대한 모든 궁금증을 시원하게 풀어드립니다.
+        - generic [ref=f85e162]:
+          - generic [ref=f85e163]:
+            - term [ref=f85e164]: 대한민국 어디든 모두가 안심할 수 있게
+            - definition [ref=f85e165]:
+              - paragraph [ref=f85e166]: 우리나라 섬마을부터 최전방까지 에스원은 안전이라는 단 하나의 사명으로 고객 여러분과 함께 하겠습니다.
+              - link "전체보기" [ref=f85e167] [cursor=pointer]:
+                - /url: /customer/leaders-story/success-case
+          - generic [ref=f85e168]:
+            - list [ref=f85e169]:
+              - listitem [ref=f85e170]:
+                - button "부동산종합서비스 여의도 IFC 시설관리(FM)" [ref=f85e171] [cursor=pointer]:
+                  - generic [ref=f85e172]: 부동산종합서비스
+                  - strong [ref=f85e173]: 여의도 IFC
+                  - emphasis [ref=f85e174]: 시설관리(FM)
+                - img "여의도 IFC" [ref=f85e176]
+              - listitem [ref=f85e177]:
+                - button "통합보안솔루션 인제 양양 터널 국가시설" [ref=f85e178] [cursor=pointer]:
+                  - generic [ref=f85e179]: 통합보안솔루션
+                  - strong [ref=f85e180]: 인제 양양 터널
+                  - emphasis [ref=f85e181]: 국가시설
+                - img "인제 양양 터널" [ref=f85e182]
+              - listitem [ref=f85e183]:
+                - button "세콤·보안 삼성 라이온즈 파크 상업용세콤" [ref=f85e184] [cursor=pointer]:
+                  - generic [ref=f85e185]: 세콤·보안
+                  - strong [ref=f85e186]: 삼성 라이온즈 파크
+                  - emphasis [ref=f85e187]: 상업용세콤
+                - img "삼성 라이온즈 파크" [ref=f85e188]
+            - generic [ref=f85e189]:
+              - generic:
+                - button "이전" [ref=f85e190] [cursor=pointer]
+                - button "다음" [ref=f85e191] [cursor=pointer]
+              - generic [ref=f85e192]:
+                - generic [ref=f85e193]: "01"
+                - generic [ref=f85e194]: "03"
+      - generic [ref=f85e195]:
+        - generic [ref=f85e197]:
+          - generic [ref=f85e198]:
+            - heading [level=3] [ref=f85e199]:
+              - strong [ref=f85e200]: 에스원 NOW
+            - link "전체보기" [ref=f85e201] [cursor=pointer]:
+              - /url: /company/pr-center/notice
+          - generic [ref=f85e202]:
+            - tabpanel [ref=f85e204]:
+              - generic [ref=f85e205]:
+                - generic [ref=f85e206]: "#에스원"
+                - generic [ref=f85e207]: "#유튜브"
+                - generic [ref=f85e208]: "#놀러와"
+              - iframe [ref=f85e209]:
+                - generic [ref=f86e1]:
+                  - generic "YouTube Video Player" [ref=f86e3]
+                  - generic [ref=f86e5]:
+                    - generic:
+                      - generic:
+                        - generic [ref=f86e6] [cursor=pointer]
+                        - button "Play video" [ref=f86e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f86e12] [cursor=pointer]
+                        - generic [ref=f86e14]:
+                          - generic [ref=f86e19]:
+                            - generic [ref=f86e20]:
+                              - link "나경아 스트레스 많이 받을 거야 | 대체자 EP.01 | tripleS 나경" [ref=f86e21] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=1fflJAm8g3k
+                              - link "어서와 에스원" [ref=f86e22] [cursor=pointer]:
+                                - /url: /channel/UCX6rMyY82f__0ShNyCCv4JQ
+                            - generic [ref=f86e24]:
+                              - button [ref=f86e25] [cursor=pointer]
+                              - generic [ref=f86e27]:
+                                - generic: 어서와 에스원
+                                - generic: 67.8k subscribers
+                          - generic [ref=f86e28]:
+                            - button "Share" [ref=f86e31] [cursor=pointer]
+                            - link "Watch on YouTube" [ref=f86e42] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=1fflJAm8g3k
+                              - generic [ref=f86e43]: Watch on
+            - list [ref=f85e210]:
+              - listitem [ref=f85e211]:
+                - button [ref=f85e212] [cursor=pointer]:
+                  - img "태권도단" [ref=f85e213]
+                  - generic [ref=f85e214]:
+                    - term [ref=f85e215]: 대체자! 에스원 태권도단편
+                    - definition [ref=f85e216]: 2026.07.08
+                  - text: 외부페이지 이동
+              - listitem [ref=f85e217]:
+                - button [ref=f85e218] [cursor=pointer]:
+                  - img "EP02" [ref=f85e219]
+                  - generic [ref=f85e220]:
+                    - term [ref=f85e221]: 톡까놓고! 환승게이트 찾다가 환승연애 찍은 썰 푼다
+                    - definition [ref=f85e222]: 2026.07.08
+                  - text: 외부페이지 이동
+              - listitem [ref=f85e223]:
+                - button [ref=f85e224] [cursor=pointer]:
+                  - img "썸네일01" [ref=f85e225]
+                  - generic [ref=f85e226]:
+                    - term [ref=f85e227]: 톡까놓고! 출동 현장 갔다가 전여친 만난 건에 대하여
+                    - definition [ref=f85e228]: 2026.07.08
+                  - text: 외부페이지 이동
+              - listitem [ref=f85e229]:
+                - button [ref=f85e230] [cursor=pointer]:
+                  - img "PC방" [ref=f85e231]
+                  - generic [ref=f85e232]:
+                    - term [ref=f85e233]: 대체자! PC방편
+                    - definition [ref=f85e234]: 2026.07.08
+                  - text: 외부페이지 이동
+        - generic [ref=f85e235]:
+          - generic [ref=f85e236]:
+            - term [ref=f85e237]: 고객센터 App 서비스 종료
+            - definition [ref=f85e238]: 그 동안 고객센터App을 이용해 주셔서 감사합니다. 고객센터App은 25년 5월 2일부로 서비스가 종료되었습니다. 고객센터App으로 제공하던 모든 기능을 모두앱이 대체합니다. 모두앱을 통해 리뉴얼된 기능을 체험해 보세요. CCTV를 원격에서 조회할수 있는 기능도 함께 제공합니다.
+          - generic [ref=f85e239]:
+            - paragraph [ref=f85e240]:
+              - img "S1 안드로이드 모바일앱 QR 코드" [ref=f85e241]
+            - paragraph [ref=f85e242]:
+              - img "S1 애플 모바일앱 QR 코드" [ref=f85e243]
+    - contentinfo [ref=f85e244]:
+      - button "위로 스크롤 올리기" [ref=f85e246] [cursor=pointer]
+      - generic [ref=f85e247]:
+        - list [ref=f85e249]:
+          - listitem [ref=f85e250]:
+            - paragraph [ref=f85e251]: 에스원에 문의하세요.
+            - paragraph [ref=f85e252]: 원하는 상담 내용과 간단한 정보를 남겨주시면에스원의 전문 상담사가 도와드리겠습니다.
+          - listitem [ref=f85e253]:
+            - paragraph [ref=f85e254]: 대표전화
+            - paragraph [ref=f85e255]: 1588-3112
+            - paragraph [ref=f85e257]: 24시간 운영, 연중 무휴
+            - generic [ref=f85e258]:
+              - link "가입상담" [ref=f85e259] [cursor=pointer]:
+                - /url: /join/consult
+              - link "1:1 문의하기" [ref=f85e260] [cursor=pointer]:
+                - /url: javascript:common.inquiry();
+        - generic [ref=f85e261]:
+          - generic [ref=f85e262]:
+            - paragraph [ref=f85e263]: (주)에스원
+            - generic [ref=f85e264]: "04511 서울특별시 중구 세종대로 7길 25 사업자등록번호 : 208-81-13302 대표이사 : 정해린"
+            - paragraph [ref=f85e265]: COPYRIGHT 2021 S-1 CORPORATION.
+            - paragraph
+            - generic [ref=f85e266]:
+              - img "ISMS" [ref=f85e268]
+              - text: "인증범위 : 차량관리, 이동통신, 출입보안, 건물관리 유효기간 : 2025.11.16 ~ 2028.11.15"
+            - paragraph
+            - paragraph
+            - generic [ref=f85e269]:
+              - img "ISMS-P" [ref=f85e271]
+              - text: "인증범위 : 물리보안, 영상보안, 출입근태, 정보보안 유효기간 : 2025.11.16 ~ 2028.11.15"
+            - paragraph
+            - paragraph [ref=f85e272]:
+              - link [ref=f85e273] [cursor=pointer]:
+                - /url: ""
+                - img "CCM" [ref=f85e275]
+                - generic [ref=f85e276]: 소비자중심경영(CCM) 인증기업
+          - generic [ref=f85e277]:
+            - generic [ref=f85e278]:
+              - list [ref=f85e279]:
+                - listitem [ref=f85e280]:
+                  - link "회사소개" [ref=f85e281] [cursor=pointer]:
+                    - /url: /company
+                - listitem [ref=f85e282]:
+                  - link "IR" [ref=f85e283] [cursor=pointer]:
+                    - /url: https://invest.s1.co.kr:1447/invest/index.do
+                - listitem [ref=f85e284]:
+                  - link "윤리경영" [ref=f85e285] [cursor=pointer]:
+                    - /url: http://clean.s1.co.kr
+                - listitem [ref=f85e286]:
+                  - link "자료실" [ref=f85e287] [cursor=pointer]:
+                    - /url: /customer/manual
+                - listitem [ref=f85e288]:
+                  - link "인재채용" [ref=f85e289] [cursor=pointer]:
+                    - /url: /company/recruit/talent
+                - listitem [ref=f85e290]:
+                  - link "원격지원서비스" [ref=f85e291] [cursor=pointer]:
+                    - /url: http://www.rsup.net/1235
+              - list [ref=f85e292]:
+                - listitem [ref=f85e293]:
+                  - link "회원약관" [ref=f85e294] [cursor=pointer]:
+                    - /url: https://iprduser.s1.co.kr:8070/signup/terms/user
+                - listitem [ref=f85e295]:
+                  - link "개인정보처리방침" [ref=f85e296] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - listitem [ref=f85e297]:
+                  - link "영상정보처리방침" [ref=f85e298] [cursor=pointer]:
+                    - /url: /video-policy
+                - listitem [ref=f85e299]:
+                  - link "협력사정보" [ref=f85e300] [cursor=pointer]:
+                    - /url: /partners
+            - list [ref=f85e302]:
+              - listitem [ref=f85e303]:
+                - link "YouTube" [ref=f85e304] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCX6rMyY82f__0ShNyCCv4JQ
+              - listitem [ref=f85e305]:
+                - link "Facebook" [ref=f85e306] [cursor=pointer]:
+                  - /url: https://www.facebook.com/s1corporation/
+              - listitem [ref=f85e307]:
+                - link "BLOG" [ref=f85e308] [cursor=pointer]:
+                  - /url: https://blog.naver.com/s1corporation
+              - listitem [ref=f85e309]:
+                - link "Instagram" [ref=f85e310] [cursor=pointer]:
+                  - /url: https://www.instagram.com/s1corporation/
+            - list [ref=f85e312]:
+              - listitem [ref=f85e313]:
+                - button "FAMILY SITE" [ref=f85e315] [cursor=pointer]
+            - list [ref=f85e317]:
+              - listitem [ref=f85e318]:
+                - link "KOR" [ref=f85e319] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f85e320]:
+                - link "ENG" [ref=f85e321] [cursor=pointer]:
+                  - /url: /en
+  - list [ref=f85e322]:
+    - listitem [ref=f85e323]:
+      - generic [ref=f85e324]: 세콤견적
+      - link "나에게 맞는 서비스와 견적을 부담없이 알아보세요." [ref=f85e325] [cursor=pointer]:
+        - /url: javascript:estimate.init($('#btnPop1on1'));
+        - text: 나에게 맞는 서비스와견적을 부담없이 알아보세요.
+    - listitem [ref=f85e326]:
+      - generic [ref=f85e327]: 가입상담
+      - link "상담 정보를 남겨주시면 전문 상담사가 도와드리겠습니다." [ref=f85e328] [cursor=pointer]:
+        - /url: /join/consult
+        - text: 상담 정보를 남겨주시면전문 상담사가 도와드리겠습니다.
+    - listitem [ref=f85e329]:
+      - generic [ref=f85e330]: 채팅상담
+      - link "기다림 없는 실시간 채팅상담을 이용해보세요." [ref=f85e331] [cursor=pointer]:
+        - /url: javascript:ht.open();
+        - text: 기다림 없는 실시간 채팅상담을이용해보세요.
+  - iframe [ref=f85e332]

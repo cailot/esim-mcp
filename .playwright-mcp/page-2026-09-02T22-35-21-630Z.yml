@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "아요 로고 아요":
+        - /url: https://weayo.com
+        - generic [ref=e3] [cursor=pointer]:
+          - img "아요 로고" [ref=e5]
+          - strong [ref=e8]: 아요
+      - navigation [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "해외 로밍" [ref=e12] [cursor=pointer]:
+              - /url: https://weayo.com/roaming/plan
+          - listitem [ref=e13]:
+            - link "아요 추천" [ref=e14] [cursor=pointer]:
+              - /url: https://weayo.com/plan/recommand
+          - listitem [ref=e15]:
+            - link "요금제 찾기" [ref=e16] [cursor=pointer]:
+              - /url: https://weayo.com/plan/list/1
+          - listitem [ref=e17]:
+            - link "이벤트" [ref=e18] [cursor=pointer]:
+              - /url: https://weayo.com/page/event
+          - listitem [ref=e19]:
+            - link "자주 반복되는 질문" [ref=e20] [cursor=pointer]:
+              - /url: https://weayo.com/page/faq
+          - listitem [ref=e21]:
+            - link " 마이페이지" [ref=e22] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/mypage
+              - generic [ref=e23]: 
+              - text: 마이페이지
+  - main [ref=e24]:
+    - generic [ref=e28]:
+      - generic [ref=e30] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e31]: 
+        - text: 추천순
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e33]: 
+        - text: 필터 1
+      - generic [ref=e34] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e35]: 
+        - text: 검색
+      - generic [ref=e36] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e37]: 
+        - text: 빠른추천
+      - generic [ref=e38] [cursor=pointer]: 7G 요금제
+      - generic [ref=e39] [cursor=pointer]: 15G 요금제
+      - generic [ref=e40] [cursor=pointer]: 71G 요금제
+      - generic [ref=e41] [cursor=pointer]: 100G 요금제
+      - generic [ref=e42] [cursor=pointer]: 할인요금제외
+    - generic:
+      - generic [ref=e47]:
+        - heading [level=6]
+      - generic [ref=e54]:
+        - generic [ref=e58]:
+          - heading "나에게 적합한 알뜰폰 요금제 찾아보기" [level=4] [ref=e60]
+          - link "지금 찾기" [ref=e62] [cursor=pointer]:
+            - /url: /plan/recommand
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - text: 최근 본 요금제
+            - link "더보기 (6)" [ref=e70] [cursor=pointer]:
+              - /url: https://weayo.com/mypage/recent
+          - generic [ref=e73]:
+            - link "LTE 실속 5GB(200분)" [ref=e75] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+            - link "월 14,300원" [ref=e77] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000005389?referer=planlist_recent
+          - generic [ref=e79]:
+            - link "아이즈우정(300분/5G)" [ref=e81] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+            - link "월 8,500원" [ref=e83] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001947?referer=planlist_recent
+          - generic [ref=e85]:
+            - link "든든한 200분6G" [ref=e87] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+            - link "월 3,630원" [ref=e89] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000001899?referer=planlist_recent
+          - generic [ref=e91]:
+            - link "초슬림 500M/60분" [ref=e93] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+            - link "월 1,900원" [ref=e95] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000014573?referer=planlist_recent
+          - generic [ref=e97]:
+            - link "초알뜰 3GB/100분" [ref=e99] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+            - link "월 4,900원" [ref=e101] [cursor=pointer]:
+              - /url: https://weayo.com/mobile/plan/1000025139?referer=planlist_recent
+    - text:    
+  - contentinfo [ref=e107]:
+    - generic [ref=e109]:
+      - link "개인정보처리방침" [ref=e111] [cursor=pointer]:
+        - /url: https://weayo.com/page/privacy
+      - text: "|"
+      - link "이용약관" [ref=e113] [cursor=pointer]:
+        - /url: https://weayo.com/page/agree
+      - text: "|"
+      - link "제휴/입점 제안" [ref=e115] [cursor=pointer]:
+        - /url: https://weayo.com/page/proposal/1003
+      - text: "|"
+      - link "공지사항" [ref=e117] [cursor=pointer]:
+        - /url: https://weayo.com/page/notice
+      - text: "|"
+      - link "자주 반복되는 질문" [ref=e119] [cursor=pointer]:
+        - /url: https://weayo.com/page/faq
+      - text: "|"
+      - link "블로그" [ref=e121] [cursor=pointer]:
+        - /url: https://weayo.com/blog/list
+      - text: "|"
+      - link "마이페이지" [ref=e123] [cursor=pointer]:
+        - /url: https://weayo.com/mypage/mypage
+      - heading "주식회사 아요" [level=3] [ref=e126]
+      - text: "주식회사 아요는 가격비교 정보 중개자로서 요금제 판매와는 직접적인 관련이 없습니다. 모든 상거래의 책임은 구매자 및 판매자에게 있습니다. 대표 : 윤선희 사업자등록번호 : 878-81-02870 통신판매업 신고번호 : 2023-고양일산동-2216 주소 : 경기도 고양시 일산동구 정발산로 43-20, 센트럴프라자 301호"
+      - heading "고객센터" [level=4] [ref=e129]
+      - link "1:1 문의" [ref=e132] [cursor=pointer]:
+        - /url: /mypage/qna
+      - generic [ref=e133]: "Business Hours: AM 10:00 - PM 6:00"
+      - generic [ref=e135]:
+        - link [ref=e137] [cursor=pointer]:
+          - /url: https://blog.naver.com/ayocompany
+          - img "아요 블로그" [ref=e138]
+        - link [ref=e140] [cursor=pointer]:
+          - /url: https://www.youtube.com/@ayoplan
+          - img "아요 유튜브" [ref=e141]
+        - link [ref=e143] [cursor=pointer]:
+          - /url: https://www.instagram.com/ayo.company
+          - img "아요 인스타그램" [ref=e144]
+        - link [ref=e146] [cursor=pointer]:
+          - /url: https://www.facebook.com/weayocompany
+          - img "아요 페이스북" [ref=e147]
+        - img "아요 트위터" [ref=e149]
+    - generic [aria-hidden] [ref=e154] [cursor=pointer]: 

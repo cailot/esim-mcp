@@ -1,0 +1,779 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - generic:
+      - link "메뉴 바로가기" [ref=f17e3] [cursor=pointer]:
+        - /url: "#newgnb"
+      - link "본문 바로가기" [ref=f17e5] [cursor=pointer]:
+        - /url: "#contentWrap"
+    - banner [ref=f17e7]:
+      - generic [ref=f17e8]:
+        - generic [ref=f17e9]:
+          - link [ref=f17e11] [cursor=pointer]:
+            - /url: https://www.lghellovision.net/main.do?utm_source=Mobile_HP&utm_medium=GNB_LGHV&utm_campaign=LGHV_button&utm_content=LGHV_page
+            - img "LG HelloVision" [ref=f17e12]
+          - navigation [ref=f17e13]:
+            - list [ref=f17e14]:
+              - listitem [ref=f17e15]:
+                - link "방송/인터넷" [ref=f17e16] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/shop/shopMain.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=TPS&utm_content=TPS_main
+              - listitem [ref=f17e17]:
+                - link "모바일" [ref=f17e18] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/main.do
+              - listitem [ref=f17e19]:
+                - link "렌탈" [ref=f17e20] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/main/detail?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Rental&utm_content=Rental_main
+          - list [ref=f17e22]:
+            - listitem [ref=f17e23]:
+              - link "헬로+" [ref=f17e24] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=f17e25]:
+              - link "모바일 마이헬로" [ref=f17e26] [cursor=pointer]:
+                - /url: https://mobile.lghellovision.net/mv_client/main/index.asp
+            - listitem [ref=f17e27]:
+              - link "통합검색 열기" [ref=f17e28] [cursor=pointer]:
+                - /url: "#global-search"
+            - listitem [ref=f17e29]:
+              - link [ref=f17e30] [cursor=pointer]:
+                - /url: "#sitemap"
+        - generic:
+          - generic:
+            - generic [ref=f17e34]:
+              - heading "필요한 내용을 손쉽게 검색해보세요" [level=2] [ref=f17e35]
+              - generic [ref=f17e36]:
+                - textbox "원하는 검색어를 입력해주세요." [ref=f17e37]
+                - button "검색" [ref=f17e38] [cursor=pointer]
+                - generic:
+                  - generic [ref=f17e39]:
+                    - heading "최근 검색어" [level=3] [ref=f17e40]
+                    - button "전체삭제" [ref=f17e41] [cursor=pointer]
+                  - list
+            - generic [ref=f17e42]:
+              - generic [ref=f17e43]:
+                - heading "추천 검색어" [level=3] [ref=f17e44]
+                - list [ref=f17e45]:
+                  - listitem [ref=f17e46]:
+                    - button "안면인증" [ref=f17e47] [cursor=pointer]
+                  - listitem [ref=f17e48]:
+                    - button "셀프개통" [ref=f17e49] [cursor=pointer]
+                  - listitem [ref=f17e50]:
+                    - button "친구추천" [ref=f17e51] [cursor=pointer]
+                  - listitem [ref=f17e52]:
+                    - button "로밍" [ref=f17e53] [cursor=pointer]
+                  - listitem [ref=f17e54]:
+                    - button "무제한 요금제" [ref=f17e55] [cursor=pointer]
+              - generic [ref=f17e56]:
+                - heading "인기 검색어" [level=3] [ref=f17e57]
+                - generic [ref=f17e58]:
+                  - generic [ref=f17e59]:
+                    - heading "유심/eSIM" [level=4] [ref=f17e60]
+                    - list [ref=f17e61]:
+                      - listitem [ref=f17e62]:
+                        - generic [ref=f17e63]: "1"
+                        - button "쿠폰팩" [ref=f17e64] [cursor=pointer]
+                      - listitem [ref=f17e65]:
+                        - generic [ref=f17e66]: "2"
+                        - button "무제한" [ref=f17e67] [cursor=pointer]
+                      - listitem [ref=f17e68]:
+                        - generic [ref=f17e69]: "3"
+                        - button "eSIM" [ref=f17e70] [cursor=pointer]
+                      - listitem [ref=f17e71]:
+                        - generic [ref=f17e72]: "4"
+                        - button "5G요금제" [ref=f17e73] [cursor=pointer]
+                      - listitem [ref=f17e74]:
+                        - generic [ref=f17e75]: "5"
+                        - button "100GB" [ref=f17e76] [cursor=pointer]
+                  - generic [ref=f17e77]:
+                    - heading "휴대폰" [level=4] [ref=f17e78]
+                    - list [ref=f17e79]:
+                      - listitem [ref=f17e80]:
+                        - generic [ref=f17e81]: "1"
+                        - button "갤럭시S25" [ref=f17e82] [cursor=pointer]
+                      - listitem [ref=f17e83]:
+                        - generic [ref=f17e84]: "2"
+                        - button "아이폰14" [ref=f17e85] [cursor=pointer]
+                      - listitem [ref=f17e86]:
+                        - generic [ref=f17e87]: "3"
+                        - button "전시폰" [ref=f17e88] [cursor=pointer]
+                      - listitem [ref=f17e89]:
+                        - generic [ref=f17e90]: "4"
+                        - button "아이폰15" [ref=f17e91] [cursor=pointer]
+                      - listitem [ref=f17e92]:
+                        - generic [ref=f17e93]: "5"
+                        - button "0원폰" [ref=f17e94] [cursor=pointer]
+        - generic [ref=f17e96]:
+          - heading [level=4] [ref=f17e97]:
+            - link [ref=f17e98] [cursor=pointer]:
+              - /url: https://direct.lghellovision.net/main.do
+          - list [ref=f17e100]:
+            - listitem [ref=f17e101]:
+              - link "알뜰요금제" [ref=f17e102] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/rate/rateViewUsim.do
+            - listitem [ref=f17e103]:
+              - link "휴대폰기기" [ref=f17e104] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/phone/list.do
+            - listitem [ref=f17e105]:
+              - link "셀프개통" [ref=f17e106] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/usim/usimSelfInfo.do
+            - listitem [ref=f17e107]:
+              - link "친구추천" [ref=f17e108] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do
+            - listitem [ref=f17e109]:
+              - link "알뜰인터넷" [ref=f17e110] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/event/viewEventDetailGuest.do?returnTab=allli&idxOfEvent=4284&utm_source=lghv_totalHP&utm_medium=GNB&utm_campaign=GNB&utm_term=UIT
+            - listitem [ref=f17e111]:
+              - link "이벤트" [ref=f17e112] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/event/viewEventList.do?returnTab=allli
+            - listitem [ref=f17e113]:
+              - link "혜택모아보기" [ref=f17e114] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/rate/benefit.do
+            - listitem [ref=f17e115]:
+              - link "할인카드" [ref=f17e116] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/rate/benefitCard.do
+          - list [ref=f17e117]:
+            - listitem [ref=f17e118]:
+              - link "가입신청조회" [ref=f17e119] [cursor=pointer]:
+                - /url: https://online.lghellovision.net/onlineForm/introTmp.do
+            - listitem [ref=f17e120]:
+              - link "고객지원" [ref=f17e121] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/customer/viewNoticeList.do
+    - generic [ref=f17e122]:
+      - generic [ref=f17e124]:
+        - generic:
+          - list:
+            - listitem [ref=f17e125]:
+              - link "홈" [ref=f17e126] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/main.do
+            - listitem [ref=f17e127]:
+              - link "알뜰요금제" [ref=f17e128] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/esim/esimView.do?pgNum=0401
+            - listitem [ref=f17e129]:
+              - strong [ref=f17e130]: eSIM의 모든 것
+      - generic [ref=f17e131]:
+        - generic [ref=f17e133]:
+          - generic [ref=f17e134]:
+            - heading "eSIM의 모든 것" [level=1] [ref=f17e135]
+            - paragraph [ref=f17e136]: 처음이라 궁금할 것이 많은 당신을 위해 복잡한 eSIM을 쉽고 재미있게 알려줄게요
+          - generic [ref=f17e137]:
+            - listbox [ref=f17e140]:
+              - link [ref=f17e142] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=iphone14_esim
+              - link [ref=f17e145] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=6&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=comparison_esim&utm_content=payment_banner
+              - option [aria-hidden] [ref=f17e147]:
+                - link [ref=f17e148] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=dualmessenger_banner
+              - option [ref=f17e150]:
+                - link [ref=f17e151] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=iphone14_esim
+                  - img "eSIM 알뜰폰, 더 좋은점은 뭘까? 유심은 3사 통신사를 쓴다면 eSIM은 알뜰폰을 경험해보세요." [ref=f17e152]
+              - option [ref=f17e153]:
+                - link [ref=f17e154] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=6&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=comparison_esim&utm_content=payment_banner
+                  - img "eSIM 요금제 어느 통신사가 제일 저렴할까? 더 이상 발품 팔 필요 없이 한눈에 비교하고 선택하세요." [ref=f17e155]
+              - link [ref=f17e157] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=dualmessenger_banner
+              - link [ref=f17e160] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=iphone14_esim
+            - generic:
+              - button "Previous" [ref=f17e162] [cursor=pointer]
+              - button "Next" [ref=f17e163] [cursor=pointer]
+            - generic [ref=f17e164]:
+              - toolbar [ref=f17e165]:
+                - tablist [ref=f17e166]:
+                  - listitem [aria-hidden] [ref=f17e167]:
+                    - button [ref=f17e168] [cursor=pointer]: "1"
+                  - listitem [ref=f17e169]:
+                    - button "2" [ref=f17e170] [cursor=pointer]
+                  - listitem [aria-hidden] [ref=f17e171]:
+                    - button [ref=f17e172] [cursor=pointer]: "3"
+              - button "정지" [ref=f17e173] [cursor=pointer]
+        - generic [ref=f17e175]:
+          - term [ref=f17e176]:
+            - generic [ref=f17e177]:
+              - link "목차펼침" [ref=f17e178] [cursor=pointer]:
+                - /url: javascript:;
+              - link "목차닫힘" [ref=f17e179] [cursor=pointer]:
+                - /url: javascript:;
+            - generic [ref=f17e180]:
+              - paragraph [ref=f17e181] [cursor=pointer]: eSIM이란?
+              - list [ref=f17e182]:
+                - listitem [ref=f17e183]:
+                  - link "eSIM" [ref=f17e184] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=1&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=define_esim&utm_content=esim
+                - listitem [ref=f17e185]:
+                  - link "유심 vs eSIM" [ref=f17e186] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=1&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=define_esim&utm_content=esim_usim
+                - listitem [ref=f17e187]:
+                  - link "eSIM 가능 휴대폰" [ref=f17e188] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=1&idx=3&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=define_esim&utm_content=esim_phone
+            - generic [ref=f17e189]:
+              - paragraph [ref=f17e190] [cursor=pointer]: 왜 좋을까요?
+              - list [ref=f17e191]:
+                - listitem [ref=f17e192]:
+                  - link "장점 & 단점" [ref=f17e193] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=2&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=pros_esim&utm_content=pros_cons
+                - listitem [ref=f17e194]:
+                  - link "이런분께 추천해요" [ref=f17e195] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=2&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=pros_esim&utm_content=recommend_esim
+            - generic [ref=f17e196]:
+              - paragraph [ref=f17e197] [cursor=pointer]: 이렇게 쓰세요
+              - list [ref=f17e198]:
+                - listitem [ref=f17e199]:
+                  - link "사용꿀팁" [ref=f17e200] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=3&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=method_esim&utm_content=tip
+            - generic [ref=f17e201]:
+              - paragraph [ref=f17e202] [cursor=pointer]: 가능한 서비스
+              - list [ref=f17e203]:
+                - listitem [ref=f17e204]:
+                  - link "1폰2번호" [ref=f17e205] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=twonumber
+                - listitem [ref=f17e206]:
+                  - link "듀얼 카카오톡" [ref=f17e207] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=dualmessenger
+                - listitem [ref=f17e208]:
+                  - link "삼성/애플페이" [ref=f17e209] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=3&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=payservice
+                - listitem [ref=f17e210]:
+                  - link "RCS(채팅+)" [ref=f17e211] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=RCS
+                - listitem [ref=f17e212]:
+                  - link "해외직구폰" [ref=f17e213] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=5&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=overseasphone
+                - listitem [ref=f17e214]:
+                  - link "해외여행" [ref=f17e215] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=4&idx=6&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=possible_esim&utm_content=overseastrip
+            - generic [ref=f17e216]:
+              - paragraph [ref=f17e217] [cursor=pointer]: 아직은 불가능한 서비스
+              - list [ref=f17e218]:
+                - listitem [ref=f17e219]:
+                  - link "교통카드" [ref=f17e220] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=5&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=impossible_esim&utm_content=transportationcard
+                - listitem [ref=f17e221]:
+                  - link "NFC의 금융서비스" [ref=f17e222] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=5&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=impossible_esim&utm_content=NFC
+                - listitem [ref=f17e223]:
+                  - link "1폰 2명의" [ref=f17e224] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=5&idx=3&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=impossible_esim&utm_content=twoname
+                - listitem [ref=f17e225]:
+                  - link "동시활성화" [ref=f17e226] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=5&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=impossible_esim&utm_content=concurrentuse
+            - generic [ref=f17e227]:
+              - paragraph [ref=f17e228] [cursor=pointer]: 통신사별 총 정리
+              - list [ref=f17e229]:
+                - listitem [ref=f17e230]:
+                  - link "요금제 비교" [ref=f17e231] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=6&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=comparison_esim&utm_content=payment
+            - generic [ref=f17e232]:
+              - paragraph [ref=f17e233] [cursor=pointer]: 간편하게 가입하세요
+              - list [ref=f17e234]:
+                - listitem [ref=f17e235]:
+                  - link "발급비용" [ref=f17e236] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=7&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=signup_esim&utm_content=signupcost
+                - listitem [ref=f17e237]:
+                  - link "가입방법" [ref=f17e238] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=7&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=signup_esim&utm_content=howsignup
+            - generic [ref=f17e239]:
+              - paragraph [ref=f17e240] [cursor=pointer]: 분실/해지 안내
+              - list [ref=f17e241]:
+                - listitem [ref=f17e242]:
+                  - link "분실" [ref=f17e243] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=8&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=loss_esim&utm_content=loss
+                - listitem [ref=f17e244]:
+                  - link "해지" [ref=f17e245] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=8&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=loss_esim&utm_content=cancel
+            - generic [ref=f17e246]:
+              - paragraph [ref=f17e247] [cursor=pointer]: 사용 후기를 모아봤어요
+              - list [ref=f17e248]:
+                - listitem [ref=f17e249]:
+                  - link "아이폰15와 eSIM" [ref=f17e250] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=9&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=iphone15_esim
+                - listitem [ref=f17e251]:
+                  - link "아이폰14와 eSIM" [ref=f17e252] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=4&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=iphone14_esim
+                - listitem [ref=f17e253]:
+                  - link "갤럭시 Z플립5와 eSIM" [ref=f17e254] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=8&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=zflip5_esim
+                - listitem [ref=f17e255]:
+                  - link "갤럭시 S23과 eSIM" [ref=f17e256] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=2&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=s23_esim
+                - listitem [ref=f17e257]:
+                  - link "eSIM 알뜰폰 추천" [ref=f17e258] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=5&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=esim_plan
+                - listitem [ref=f17e259]:
+                  - link "eSIM 요금제 추천" [ref=f17e260] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=6&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=plan_recommend
+                - listitem [ref=f17e261]:
+                  - link "초간단 개통방법" [ref=f17e262] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=3&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=esim_opening
+                - listitem [ref=f17e263]:
+                  - link "일상속 eSIM 활용" [ref=f17e264] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=7&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=esim_life
+                - listitem [ref=f17e265]:
+                  - link "일상 업그레이드" [ref=f17e266] [cursor=pointer]:
+                    - /url: https://direct.lghellovision.net/esim/everythingEsim.do?pgNum=0401&cgLink=Y&category=9&idx=1&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=review_esim&utm_content=life_upgrade
+            - link "eSIM 가입하기 >" [ref=f17e267] [cursor=pointer]:
+              - /url: https://direct.lghellovision.net/esim/esimView.do?pgNum=0401&utm_source=hellomobile_HP&utm_medium=LNB_everyesim&utm_campaign=mainsignup_button
+          - definition [ref=f17e268]:
+            - generic [ref=f17e269]:
+              - term [ref=f17e270]:
+                - heading "eSIM이란?" [level=2] [ref=f17e271]
+                - paragraph [ref=f17e272]: 통신용어 꼭 어려워야 할까요? 아직은 낯선 단어, eSIM을 쉽게 알려줄게요.
+              - definition [ref=f17e273]: eSIM
+            - generic [ref=f17e274]:
+              - generic [ref=f17e275]:
+                - term [ref=f17e276]:
+                  - img "[USIM] 쓰던 번호/ 통신사 그대로 일상용, [eSIM] 헬로모바일 월 1,900원 부터~ 업무용" [ref=f17e277]
+                - definition [ref=f17e278]:
+                  - heading "eSIM으로 알뜰한 통신생활 즐길 준비 되셨나요?" [level=3] [ref=f17e279]
+                  - paragraph [ref=f17e280]: 쓰던 폰 그대로 하나의 휴대폰에 두 개의 번호 사용!
+                  - paragraph [ref=f17e281]: 월 1,900원으로 두 개의 번호를 사용할 수 있어요.
+                  - paragraph [ref=f17e282]: 무약정/무가입비/무제한데이터 요금제까지 가능한 헬로모바일의 eSIM 서비스를 이용해보세요.
+              - generic [ref=f17e283]:
+                - term [ref=f17e284]:
+                  - heading "eSIM으로 스마트한 일상을 경험하세요!" [level=3] [ref=f17e285]
+                  - paragraph [ref=f17e286]: eSIM은 휴대폰에 이미 내장된 SIM으로, 유심을 구매하거나 교체할 필요 없이 다운로드 한 번으로 즉시 개통!
+                  - paragraph [ref=f17e287]: eSIM 신청부터 셀프개통까지 5분컷! 상담원 연결도, 대리점 방문도 필요 없어요.
+                - definition [ref=f17e288]:
+                  - img "QR코드로 eSIM 다운받기" [ref=f17e289]
+              - generic [ref=f17e290]:
+                - term [ref=f17e291]:
+                  - img "알뜰폰(MVNO)" [ref=f17e292]
+                - definition [ref=f17e293]:
+                  - heading "알뜰폰(MVNO) 처음이신가요?" [level=3] [ref=f17e294]
+                  - paragraph [ref=f17e295]:
+                    - strong [ref=f17e296]: 현재 3사 통신사를 쓴다면 eSIM은 알뜰폰을 경험해보세요!
+                  - paragraph [ref=f17e297]:
+                    - text: Q. 알뜰폰은 통화 품질과 데이터 속도에 차이가 있다?
+                    - generic [ref=f17e298]: → 아니요! LGU+, KT, SKT와 동일망을 사용하여 통화품질과 데이터속도가 통신3사와 동일합니다.
+                  - paragraph [ref=f17e299]:
+                    - text: Q. 알뜰폰은 왜 요금이 저렴할까?
+                    - generic [ref=f17e300]: → 유통수수료를 최소화하여 합리적인 요금으로 통신서비스를 제공하고 있습니다.
+                  - link [ref=f17e302] [cursor=pointer]:
+                    - /url: https://news.mt.co.kr/mtview.php?no=2022012509223584121&type=1
+                    - img "[머니투데이] ‘알뜰폰’ 만족도 이통3사 제치고 사상 첫 1위. “싸고 잘 터져” ... 작년 하반기 통신사별 만족률 조사. / 뉴스자세히보기" [ref=f17e303]
+    - contentinfo [ref=f17e305]:
+      - generic [ref=f17e306]:
+        - generic [ref=f17e308]:
+          - generic [ref=f17e309]:
+            - heading [level=3] [ref=f17e310]:
+              - link [ref=f17e311] [cursor=pointer]:
+                - /url: https://direct.lghellovision.net/main.do
+                - strong [ref=f17e312]: 모바일 Shop
+            - list [ref=f17e313]:
+              - listitem [ref=f17e314]:
+                - link [ref=f17e315] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/rate/rateViewUsim.do
+                  - strong [ref=f17e316]: 알뜰요금제
+                - list [ref=f17e317]:
+                  - listitem [ref=f17e318]:
+                    - link "유심/eSIM 요금제" [ref=f17e319] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/rateViewUsim.do
+                  - listitem [ref=f17e320]:
+                    - link "유심구매" [ref=f17e321] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/usim/usimStore.do
+                    - list [ref=f17e322]:
+                      - listitem [ref=f17e323]:
+                        - link "번개배송" [ref=f17e324] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/usim/usimStore.do?tab=tab1
+                      - listitem [ref=f17e325]:
+                        - link "오픈마켓 유심구매" [ref=f17e326] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/usim/usimStore.do?tab=tab2
+                      - listitem [ref=f17e327]:
+                        - link "편의점 유심구매" [ref=f17e328] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/usim/usimStore.do?tab=tab3
+                  - listitem [ref=f17e329]:
+                    - link "유심 가이드" [ref=f17e330] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/esim/usimGuide.do
+                  - listitem [ref=f17e331]:
+                    - link "eSIM 가이드" [ref=f17e332] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/esim/esimGuide.do
+                  - listitem [ref=f17e333]:
+                    - link "부가서비스" [ref=f17e334] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/rateService.do
+              - listitem [ref=f17e335]:
+                - link [ref=f17e336] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/phone/list.do
+                  - strong [ref=f17e337]: 휴대폰기기
+                - list [ref=f17e338]:
+                  - listitem [ref=f17e339]:
+                    - link "휴대폰 구매" [ref=f17e340] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/phone/list.do
+                  - listitem [ref=f17e341]:
+                    - link "휴대폰 요금제" [ref=f17e342] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/rateViewPhone.do
+                  - listitem [ref=f17e343]:
+                    - link "휴대폰 보험" [ref=f17e344] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/rateInsurance.do
+                  - listitem [ref=f17e345]:
+                    - link "휴대폰 공시지원금" [ref=f17e346] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/fund/mgrant.do
+                  - listitem [ref=f17e347]:
+                    - link "휴대폰 가이드" [ref=f17e348] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/esim/phoneGuide.do
+                  - listitem [ref=f17e349]:
+                    - link "부가서비스" [ref=f17e350] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/rateService.do?gubun=phone
+            - list [ref=f17e351]:
+              - listitem [ref=f17e352]:
+                - link [ref=f17e353] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/usim/usimSelfInfo.do
+                  - strong [ref=f17e354]: 셀프개통
+                - list [ref=f17e355]:
+                  - listitem [ref=f17e356]:
+                    - link "유심/eSIM 셀프개통하기" [ref=f17e357] [cursor=pointer]:
+                      - /url: https://online.lghellovision.net/onlineForm/introTmp.do
+                  - listitem [ref=f17e358]:
+                    - link "셀프개통 가이드" [ref=f17e359] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/usim/usimSelfInfo.do
+              - listitem [ref=f17e360]:
+                - link [ref=f17e361] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do
+                  - strong [ref=f17e362]: 친구추천
+                - list [ref=f17e363]:
+                  - listitem [ref=f17e364]:
+                    - link "친구추천 이벤트" [ref=f17e365] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do
+                  - listitem [ref=f17e366]:
+                    - link "추천/가입 조회" [ref=f17e367] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do?category_no=2
+                    - list [ref=f17e368]:
+                      - listitem [ref=f17e369]:
+                        - link "추천활동 내역 확인" [ref=f17e370] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do?category_no=2
+                      - listitem [ref=f17e371]:
+                        - link "추천가입 여부 확인" [ref=f17e372] [cursor=pointer]:
+                          - /url: https://online.lghellovision.net/onlineForm/introTmp.do
+                  - listitem [ref=f17e373]:
+                    - link "자주하는 질문" [ref=f17e374] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/mgm/rcmndevnt.do#qna
+            - list [ref=f17e375]:
+              - listitem [ref=f17e376]:
+                - link [ref=f17e377] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/event/viewEventDetailGuest.do?returnTab=allli&idxOfEvent=4284&utm_source=lghv_totalHP&utm_medium=GNB&utm_campaign=GNB&utm_term=UIT
+                  - strong [ref=f17e378]: 알뜰인터넷
+              - listitem [ref=f17e379]:
+                - link [ref=f17e380] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/event/viewEventList.do?returnTab=allli
+                  - strong [ref=f17e381]: 이벤트
+                - list [ref=f17e382]:
+                  - listitem [ref=f17e383]:
+                    - link "이달의 이벤트" [ref=f17e384] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/event/viewEventList.do?returnTab=allli
+                  - listitem [ref=f17e385]:
+                    - link "종료된 이벤트" [ref=f17e386] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/event/viewEventEndList.do?returnTab=endli
+                  - listitem [ref=f17e387]:
+                    - link "당첨자 발표" [ref=f17e388] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/event/viewEventWinnerList.do?returnTab=dangli
+              - listitem [ref=f17e389]:
+                - link [ref=f17e390] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/rate/benefit.do
+                  - strong [ref=f17e391]: 혜택모아보기
+                - list [ref=f17e392]:
+                  - listitem [ref=f17e393]:
+                    - link "할인카드" [ref=f17e394] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/benefitCard.do
+                  - listitem [ref=f17e396]:
+                    - link "헬로모바일 결합" [ref=f17e397] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/combine.do
+                    - list [ref=f17e398]:
+                      - listitem [ref=f17e399]:
+                        - link "결합 링크 발급" [ref=f17e400] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/rate/combine.do
+                      - listitem [ref=f17e401]:
+                        - link "결합 내역 조회" [ref=f17e402] [cursor=pointer]:
+                          - /url: https://direct.lghellovision.net/rate/combine.do?category_no=2
+                  - listitem [ref=f17e403]:
+                    - link "U+인터넷 결합" [ref=f17e404] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/benefitUplus.do
+                  - listitem [ref=f17e406]:
+                    - link "헬로tv 결합" [ref=f17e407] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/rate/benefitHellotv.do
+            - list [ref=f17e409]:
+              - listitem [ref=f17e410]:
+                - link [ref=f17e411] [cursor=pointer]:
+                  - /url: https://online.lghellovision.net/onlineForm/introTmp.do
+                  - strong [ref=f17e412]: 가입신청조회
+              - listitem [ref=f17e413]:
+                - link [ref=f17e414] [cursor=pointer]:
+                  - /url: https://direct.lghellovision.net/customer/viewNoticeList.do
+                  - strong [ref=f17e415]: 고객지원
+                - list [ref=f17e416]:
+                  - listitem [ref=f17e417]:
+                    - link "공지사항" [ref=f17e418] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/customer/viewNoticeList.do
+                  - listitem [ref=f17e419]:
+                    - link "매장찾기" [ref=f17e420] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/customer/agencyList.do
+                  - listitem [ref=f17e421]:
+                    - link "자주찾는 질문" [ref=f17e422] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/customer/viewFaqList.do
+                  - listitem [ref=f17e423]:
+                    - link "1:1상담문의" [ref=f17e424] [cursor=pointer]:
+                      - /url: https://direct.lghellovision.net/customer/viewConsultList.do
+          - generic [ref=f17e425]:
+            - heading [level=3] [ref=f17e426]:
+              - link [ref=f17e427] [cursor=pointer]:
+                - /url: https://www.lghellovision.net/shop/shopMain.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=TPS&utm_content=TPS_main
+                - strong [ref=f17e428]: 방송/인터넷 Shop
+            - list [ref=f17e429]:
+              - listitem [ref=f17e430]:
+                - link [ref=f17e431] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/shop/helloLounge/helloLoungeMain.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Now&utm_content=Now_page
+                  - strong [ref=f17e432]: 지금 최저가
+              - listitem [ref=f17e433]:
+                - link [ref=f17e434] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/product/internetTvCombine/internetTvPriceList.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=InternetTV&utm_content=InternetTV_page
+                  - strong [ref=f17e435]: 인터넷+TV
+              - listitem [ref=f17e436]:
+                - link [ref=f17e437] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/product/internet/internetPriceList.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Internet&utm_content=Internet_page
+                  - strong [ref=f17e438]: 인터넷
+              - listitem [ref=f17e439]:
+                - link [ref=f17e440] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/product/tv/tvPriceList.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=TV&utm_content=TV_page
+                  - strong [ref=f17e441]: TV
+              - listitem [ref=f17e442]:
+                - link [ref=f17e443] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/benefits/event/eventDetail.do?Ls_Type=0&Ls_Order=0&Ls_Row=1&Ls_Idx=458&utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=UIT&utm_content=UIT_page
+                  - strong [ref=f17e444]: 인터넷+모바일
+              - listitem [ref=f17e445]:
+                - link [ref=f17e446] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/benefits/event/eventDetail.do?Ls_Type=0&Ls_Order=0&Ls_Row=1&Ls_Idx=531&utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=tps_rental&utm_content=tps_rental_event_page
+                  - strong [ref=f17e447]: 인터넷+렌탈
+              - listitem [ref=f17e448]:
+                - link [ref=f17e449] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/benefits/event/eventMain.do?Ls_Type=0&utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Event&utm_content=Event_page
+                  - strong [ref=f17e450]: 혜택/제휴
+              - listitem [ref=f17e451]:
+                - link [ref=f17e452] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/benefits/card/cardDiscountList.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=DiscountCard&utm_content=DiscountCard_page
+                  - strong [ref=f17e453]: 할인카드
+          - generic [ref=f17e454]:
+            - heading [level=3] [ref=f17e455]:
+              - link [ref=f17e456] [cursor=pointer]:
+                - /url: https://rental.lghellovision.net/main/detail?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Rental&utm_content=Rental_main
+                - strong [ref=f17e457]: 렌탈 Shop
+            - list [ref=f17e458]:
+              - listitem [ref=f17e459]:
+                - link [ref=f17e460] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/category/list?hgrnkCtgrSeq=2&subCtgrSeq=3&utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=AllProducts&utm_content=AllProducts_page
+                  - strong [ref=f17e461]: 전체상품
+              - listitem [ref=f17e462]:
+                - link [ref=f17e463] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/best/list?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Best&utm_content=Best_page
+                  - strong [ref=f17e464]: BEST
+              - listitem [ref=f17e465]:
+                - link [ref=f17e466] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/event/detail18?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=0wonSpecial&utm_content=0wonSpecial_page
+                  - strong [ref=f17e467]: 0원 특가
+              - listitem [ref=f17e468]:
+                - link [ref=f17e469] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/exhibit/list?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Event&utm_content=Event_page
+                  - strong [ref=f17e470]: 이벤트/혜택
+              - listitem [ref=f17e471]:
+                - link [ref=f17e472] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/card/list.do?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=DiscountCard&utm_content=DiscountCard_page
+                  - strong [ref=f17e473]: 할인카드
+              - listitem [ref=f17e474]:
+                - link [ref=f17e475] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/smartGuide/list?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=SmartGuide&utm_content=Guide_page
+                  - strong [ref=f17e476]: 구매가이드
+              - listitem [ref=f17e477]:
+                - link [ref=f17e478] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/B2B/detail?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=B2B&utm_content=B2B_page
+                  - strong [ref=f17e479]: 사업자/B2B
+              - listitem [ref=f17e480]:
+                - link [ref=f17e481] [cursor=pointer]:
+                  - /url: https://rental.lghellovision.net/notice/list?utm_source=Mobile_HP&utm_medium=GNB&utm_campaign=Notice&utm_content=Notice_page
+                  - strong [ref=f17e482]: 공지/AS
+          - generic [ref=f17e483]:
+            - heading [level=3] [ref=f17e484]:
+              - strong [ref=f17e485]: 헬로+
+            - list [ref=f17e486]:
+              - listitem [ref=f17e487]:
+                - link [ref=f17e488] [cursor=pointer]:
+                  - /url: https://ch.lghellovision.net/support/advertising.do?soCode=SC00000000
+                  - strong [ref=f17e489]: 광고 다이렉트몰
+              - listitem [ref=f17e490]:
+                - link [ref=f17e491] [cursor=pointer]:
+                  - /url: http://ch.lghellovision.net/main.do
+                  - strong [ref=f17e492]: 지역방송
+              - listitem [ref=f17e493]:
+                - link [ref=f17e494] [cursor=pointer]:
+                  - /url: https://news.lghellovision.net
+                  - strong [ref=f17e495]: 헬로tv 뉴스
+              - listitem [ref=f17e496]:
+                - link [ref=f17e497] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/customer/area/studioStore.do
+                  - strong [ref=f17e498]: 오픈 스튜디오
+              - listitem [ref=f17e499]:
+                - link [ref=f17e500] [cursor=pointer]:
+                  - /url: https://corp.lghellovision.net/main.do
+                  - strong [ref=f17e501]: 회사소개
+          - generic [ref=f17e502]:
+            - heading [level=3] [ref=f17e503]:
+              - link [ref=f17e504] [cursor=pointer]:
+                - /url: https://www.lghellovision.net/biz/bizmain.do
+                - strong [ref=f17e505]: 기업
+            - list [ref=f17e506]:
+              - listitem [ref=f17e507]:
+                - link [ref=f17e508] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/biz/education/classroom.do
+                  - strong [ref=f17e509]: 교육DX
+              - listitem [ref=f17e510]:
+                - link [ref=f17e511] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/biz/energy/solutionconsulting.do
+                  - strong [ref=f17e512]: 에너지
+              - listitem [ref=f17e513]:
+                - link [ref=f17e514] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/biz/public/its.do
+                  - strong [ref=f17e515]: 공공솔루션
+              - listitem [ref=f17e516]:
+                - link [ref=f17e517] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/biz/telecom/messaging.do
+                  - strong [ref=f17e518]: 기업통신
+              - listitem [ref=f17e519]:
+                - link [ref=f17e520] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net//biz/localculture/event.do
+                  - strong [ref=f17e521]: 지역문화
+              - listitem [ref=f17e522]:
+                - link [ref=f17e523] [cursor=pointer]:
+                  - /url: https://www.lghellovision.net/biz/support/notice.do
+                  - strong [ref=f17e524]: 기업고객지원
+        - link [ref=f17e526] [cursor=pointer]:
+          - /url: javascript:;
+          - generic [ref=f17e527]:
+            - strong [ref=f17e528]: SITEMAP
+            - emphasis [ref=f17e529]: 열기
+      - generic [ref=f17e530]:
+        - heading "약관" [level=2] [ref=f17e531]
+        - list [ref=f17e532]:
+          - listitem [ref=f17e533]:
+            - link [ref=f17e534] [cursor=pointer]:
+              - /url: https://www.lghellovision.net/etcService/privateAdditionPromise.do
+              - strong [ref=f17e535]: 개인정보처리방침
+          - listitem [ref=f17e536]:
+            - link "이용약관" [ref=f17e537] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://mobile.lghellovision.net/mv_Client/etc/etc_08.asp')
+          - listitem [ref=f17e538]:
+            - link "법적고지" [ref=f17e539] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://mobile.lghellovision.net/mv_Client/etc/etc_03.asp')
+          - listitem [ref=f17e540]:
+            - link [ref=f17e541] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('http://ethics.lg.co.kr/index.do')
+              - strong [ref=f17e542]: 정도경영 사이버신문고
+          - listitem [ref=f17e543]:
+            - link [ref=f17e544] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://msafer.or.kr')
+              - strong [ref=f17e545]: 명의도용 방지 서비스(Msafer)
+          - listitem [ref=f17e546]:
+            - link "이메일무단수집거부" [ref=f17e547] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://mobile.lghellovision.net/mv_Client/etc/etc_04.asp')
+          - listitem [ref=f17e548]:
+            - link [ref=f17e549] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://spam.kisa.or.kr')
+              - strong [ref=f17e550]: 불법스팸대응센터
+          - listitem [ref=f17e551]:
+            - link "헬로모바일 고객센터" [ref=f17e552] [cursor=pointer]:
+              - /url: javascript:fncPopOpen('https://mobile.lghellovision.net/');
+          - listitem [ref=f17e553]:
+            - link "사이트맵" [ref=f17e554] [cursor=pointer]:
+              - /url: https://direct.lghellovision.net/sitemap.do
+      - generic [ref=f17e555]:
+        - generic [ref=f17e556]:
+          - paragraph [ref=f17e557]:
+            - img "LG헬로비전" [ref=f17e558]
+          - generic [ref=f17e559]:
+            - paragraph [ref=f17e560]:
+              - generic [ref=f17e561]: "대표이사 : 송구영"
+              - generic [ref=f17e562]: 경기도 고양시 덕양구 동송로 30, 17층 (동산동, MBN미디어센터)
+              - generic [ref=f17e563]: "사업자등록번호 : 117-81-13423"
+              - generic [ref=f17e564]: "통신판매업 신고번호 : 2017-서울마포-0254"
+              - link "사업자 정보 확인" [ref=f17e565] [cursor=pointer]:
+                - /url: javascript:footerBizinfo();
+            - paragraph [ref=f17e566]:
+              - generic [ref=f17e567]: "개인정보보호책임자 : 문영식"
+              - generic [ref=f17e568]: "배송/개통문의 : 1855-1055(유심/단말) 1855-1061(셀프개통) 1855-1062(중고폰AS)"
+              - generic [ref=f17e569]: "고객센터 : 1855-1140(LGU+망) 1855-1144(KT망) 1855-2114(SK망)"
+            - paragraph [ref=f17e570]: Copyright © 2020 LG HelloVision All rights reserved. b
+        - img "웹어워드 수상 인증 마크" [ref=f17e572]
+        - img "iF AWARD 인증 마크" [ref=f17e574]
+  - generic:
+    - generic [ref=f17e575]: 궁금한건 저에게 물어보세요!
+    - generic:
+      - generic:
+        - generic [ref=f17e578]:
+          - heading "AI 상담원과 대화중" [level=1] [ref=f17e580]
+          - button [ref=f17e581] [cursor=pointer]
+        - generic [ref=f17e585]:
+          - generic [ref=f17e600]:
+            - generic [ref=f17e601]:
+              - generic [ref=f17e602]: 가입 문의
+              - generic [ref=f17e606]:
+                - generic [ref=f17e607] [cursor=pointer]: 가입 가능시간
+                - generic [ref=f17e608] [cursor=pointer]: 셀프개통
+                - generic [ref=f17e609] [cursor=pointer]: 미성년자 가입
+            - generic [ref=f17e610]:
+              - generic [ref=f17e611]: 유심/eSIM 가입
+              - generic [ref=f17e615]:
+                - generic [ref=f17e616] [cursor=pointer]: 유심 구매방법
+                - generic [ref=f17e617] [cursor=pointer]: eSIM 가입방법
+                - generic [ref=f17e618] [cursor=pointer]: 사은품 배송
+            - generic [ref=f17e619]:
+              - generic [ref=f17e620]: 기타 문의
+              - generic [ref=f17e625]:
+                - generic [ref=f17e626] [cursor=pointer]: 요금제 변경
+                - generic [ref=f17e627] [cursor=pointer]: 안면인증
+          - generic [ref=f17e628]:
+            - generic [ref=f17e629] [cursor=pointer]
+            - generic [ref=f17e630] [cursor=pointer]
+            - generic [ref=f17e631] [cursor=pointer]
+          - generic [ref=f17e632]: 오후 12:17
+        - generic [ref=f17e634]:
+          - button "전체 메뉴 보기" [ref=f17e635] [cursor=pointer]
+          - generic [ref=f17e640]:
+            - generic [ref=f17e641]:
+              - generic [ref=f17e642]: 가입 문의
+              - generic [ref=f17e646]:
+                - generic [ref=f17e647] [cursor=pointer]: 가입 가능 시간
+                - generic [ref=f17e648] [cursor=pointer]: 셀프개통
+                - generic [ref=f17e649] [cursor=pointer]: 미성년자 가입
+                - generic [ref=f17e650] [cursor=pointer]: 안면인증
+                - generic [ref=f17e651] [cursor=pointer]: 신규가입
+                - generic [ref=f17e652] [cursor=pointer]: 번호이동
+            - generic [ref=f17e653]:
+              - generic [ref=f17e654]: 유심 가입
+              - generic [ref=f17e658]:
+                - generic [ref=f17e659] [cursor=pointer]: 유심 구매방법
+                - generic [ref=f17e660] [cursor=pointer]: eSIM 가입방법
+                - generic [ref=f17e661] [cursor=pointer]: 유심 배송
+                - generic [ref=f17e662] [cursor=pointer]: 사은품 배송
+                - generic [ref=f17e663] [cursor=pointer]: 유심 등록 방법
+            - generic [ref=f17e664]:
+              - generic [ref=f17e665]: eSIM 가입
+              - generic [ref=f17e670]:
+                - generic [ref=f17e671] [cursor=pointer]: eSIM 가이드
+                - generic [ref=f17e672] [cursor=pointer]: eSIM 지원 휴대폰
+                - generic [ref=f17e673] [cursor=pointer]: eSIM 기기 변경
+                - generic [ref=f17e674] [cursor=pointer]: eSIM 요금제
+            - generic [ref=f17e675]:
+              - generic [ref=f17e676]: 사은품 배송
+              - generic [ref=f17e680]:
+                - generic [ref=f17e681] [cursor=pointer]: 사은품 지급기준
+                - generic [ref=f17e682] [cursor=pointer]: 사은품 문자발송
+            - generic [ref=f17e683]:
+              - generic [ref=f17e684]: 셀프개통
+              - generic [ref=f17e688]:
+                - generic [ref=f17e689] [cursor=pointer]: 셀프개통 시간
+                - generic [ref=f17e690] [cursor=pointer]: 셀프개통 준비물
+                - generic [ref=f17e691] [cursor=pointer]: 셀프개통 실패
+                - generic [ref=f17e692] [cursor=pointer]: eSIM 셀프개통
+            - generic [ref=f17e693]:
+              - generic [ref=f17e694]: 기타 문의
+              - generic [ref=f17e698]:
+                - generic [ref=f17e699] [cursor=pointer]: 소액결제
+                - generic [ref=f17e700] [cursor=pointer]: 번호변경
+                - generic [ref=f17e701] [cursor=pointer]: 요금제 변경
+                - generic [ref=f17e702] [cursor=pointer]: 상담원 연결
+          - textbox "궁금하신 내용을 입력해주세요" [ref=f17e704]

@@ -2,6 +2,7 @@ package com.esimmcp.service;
 
 import com.esimmcp.config.AppConfig;
 import com.esimmcp.domain.EsimPlan;
+import com.esimmcp.domain.MvnoHubBrand;
 import com.esimmcp.domain.PlanAvailabilitySignals;
 import com.esimmcp.mcp.McpClientManager;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -11,12 +12,13 @@ import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Set;
 
 /**
  * Discovers eSIM plans via Brave Search and Playwright MCP.
@@ -24,6 +26,8 @@ import java.util.regex.Pattern;
  * <p>Brave/Playwright return free-text, not structured EsimPlan JSON. We therefore:
  * <ol>
  *   <li>start from priced keep-fee seeds plus all Korean MVNO/comparison hubs</li>
+ *   <li>crawl every brand on {@code https://www.mvnohub.kr/brand.do}
+ *       (plan listing, product links, homepage, per-brand Brave query)</li>
  *   <li>enrich with Brave hit URLs when useful</li>
  *   <li>Playwright-verify each URL for sold-out / closed signals</li>
  * </ol>
@@ -32,13 +36,13 @@ public final class PlanDiscoveryService {
 
     private static final Logger log = LoggerFactory.getLogger(PlanDiscoveryService.class);
 
-    private static final Pattern URL_PATTERN = Pattern.compile("https?://[^\\s\"'<>]+");
-    private static final int MAX_CANDIDATES = 80;
-
+    private static final int MAX_CANDIDATES = 120;
 
     private final AppConfig config;
     private final McpClientManager mcp;
     private final ObjectMapper objectMapper;
+    private final Set<String> extraHostFragments = new LinkedHashSet<>();
+    private final List<List<String>> brandCoverageUrls = new ArrayList<>();
 
     public PlanDiscoveryService(AppConfig config, McpClientManager mcp, ObjectMapper objectMapper) {
         this.config = config;
@@ -47,6 +51,8 @@ public final class PlanDiscoveryService {
     }
 
     public List<EsimPlan> discover() {
+        extraHostFragments.clear();
+        brandCoverageUrls.clear();
         Map<String, EsimPlan> byUrl = new LinkedHashMap<>();
         for (EsimPlan seed : seedCandidates()) {
             byUrl.put(normalizeUrl(seed.sourceUrl()), seed);
@@ -57,11 +63,12 @@ public final class PlanDiscoveryService {
 
         mcp.client("brave").ifPresent(client -> {
             for (String query : config.searchQueries()) {
-                enrichFromBrave(byUrl, query);
+                enrichFromBrave(byUrl, query, 20);
             }
         });
 
         discoverFromHubs(byUrl);
+        discoverFromMvnoHubBrands(byUrl);
         byUrl.entrySet().removeIf(entry -> {
             String notes = entry.getValue().notes();
             return notes != null && notes.startsWith("Catalog seed")
@@ -78,12 +85,12 @@ public final class PlanDiscoveryService {
         return verified;
     }
 
-    private void enrichFromBrave(Map<String, EsimPlan> byUrl, String query) {
+    private void enrichFromBrave(Map<String, EsimPlan> byUrl, String query, int count) {
         try {
             String tool = config.toolName("mcp.tool.brave.search", "brave_web_search");
             var result = mcp.callTool("brave", tool, Map.of(
                     "query", query,
-                    "count", 20
+                    "count", count
             ));
             String text = mcp.extractText(result);
             int before = byUrl.size();
@@ -92,8 +99,8 @@ public final class PlanDiscoveryService {
                     byUrl.putIfAbsent(normalizeUrl(parsed.sourceUrl()), parsed);
                 }
             }
-            for (String url : extractUsefulUrls(text)) {
-                addDiscoveredUrl(byUrl, url, "Discovered URL from Brave; needs verification");
+            for (String url : extractUsefulUrls(text, "", extraHostFragments)) {
+                addDiscoveredUrl(byUrl, url, "web-discovery", "Discovered URL from Brave; needs verification");
             }
             log.info("Brave Search '{}' enriched candidates: +{} (total={})",
                     query, byUrl.size() - before, byUrl.size());
@@ -113,8 +120,8 @@ public final class PlanDiscoveryService {
                 mcp.callTool("playwright", navigate, Map.of("url", hub));
                 String pageText = mcp.extractText(mcp.callTool("playwright", snapshot, Map.of()));
                 int before = byUrl.size();
-                for (String url : extractUsefulUrls(pageText)) {
-                    addDiscoveredUrl(byUrl, url, "Discovered from hub " + hub);
+                for (String url : extractUsefulUrls(pageText, hub, extraHostFragments)) {
+                    addDiscoveredUrl(byUrl, url, "web-discovery", "Discovered from hub " + hub);
                 }
                 log.info("Hub {} enriched candidates: +{} (total={})", hub, byUrl.size() - before, byUrl.size());
             } catch (Exception e) {
@@ -123,9 +130,138 @@ public final class PlanDiscoveryService {
         }
     }
 
+    /**
+     * Crawls every brand card on {@code brand.do}: hub plan listing, homepage, and a Brave query.
+     */
+    private void discoverFromMvnoHubBrands(Map<String, EsimPlan> byUrl) {
+        if (mcp.client("playwright").isEmpty()) {
+            log.warn("Playwright MCP unavailable; skipping 알뜰폰허브 brand catalog crawl");
+            return;
+        }
+        String navigate = config.toolName("mcp.tool.playwright.navigate", "browser_navigate");
+        String snapshot = config.toolName("mcp.tool.playwright.snapshot", "browser_snapshot");
+        try {
+            mcp.callTool("playwright", navigate, Map.of("url", MvnoHubBrandCatalog.BRAND_LIST_URL));
+            String directoryText = mcp.extractText(mcp.callTool("playwright", snapshot, Map.of()));
+            List<MvnoHubBrand> brands = MvnoHubBrandCatalog.parse(directoryText);
+            if (brands.isEmpty()) {
+                log.warn("알뜰폰허브 brand.do produced 0 brand cards; directory snapshot may be a queue/block page");
+                return;
+            }
+            log.info("알뜰폰허브 brand catalog: {} brand(s)", brands.size());
+            for (MvnoHubBrand brand : brands) {
+                String host = KoreanMvnoSites.hostFragmentOf(brand.homepageUrl());
+                if (!host.isBlank()) {
+                    extraHostFragments.add(host);
+                }
+            }
+            for (MvnoHubBrand brand : brands) {
+                crawlOneMvnoHubBrand(byUrl, brand, navigate, snapshot);
+            }
+            mcp.client("brave").ifPresent(client -> {
+                for (MvnoHubBrand brand : brands) {
+                    enrichFromBrave(byUrl, MvnoHubBrandCatalog.braveQuery(brand), 8);
+                }
+            });
+        } catch (Exception e) {
+            log.warn("알뜰폰허브 brand catalog crawl failed: {}", e.getMessage());
+        }
+    }
+
+    private void crawlOneMvnoHubBrand(
+            Map<String, EsimPlan> byUrl,
+            MvnoHubBrand brand,
+            String navigate,
+            String snapshot) {
+        List<String> coverage = new ArrayList<>();
+        int before = byUrl.size();
+        try {
+            mcp.callTool("playwright", navigate, Map.of("url", brand.hubPlanUrl()));
+            applyEsimFilterBestEffort();
+            String listingText = mcp.extractText(mcp.callTool("playwright", snapshot, Map.of()));
+            List<String> products = MvnoHubBrandCatalog.productUrls(
+                    listingText, MvnoHubBrandCatalog.MAX_PRODUCTS_PER_BRAND);
+            for (String productUrl : products) {
+                addDiscoveredUrl(byUrl, productUrl, brand.name(),
+                        "MVNO Hub brand plan: " + brand.name());
+                coverage.add(normalizeUrl(productUrl));
+            }
+            for (String url : extractUsefulUrls(listingText, brand.hubPlanUrl(), extraHostFragments)) {
+                if (url.contains("/brand/plan/") || url.endsWith("/product/products.do")) {
+                    continue;
+                }
+                addDiscoveredUrl(byUrl, url, brand.name(), "MVNO Hub brand listing: " + brand.name());
+            }
+            if (products.isEmpty()) {
+                addDiscoveredUrl(byUrl, brand.hubPlanUrl(), brand.name(),
+                        "MVNO Hub brand listing (no product links): " + brand.name());
+                coverage.add(normalizeUrl(brand.hubPlanUrl()));
+            }
+        } catch (Exception e) {
+            log.warn("Brand plan crawl failed for {} ({}): {}", brand.name(), brand.hubPlanUrl(), e.getMessage());
+            addDiscoveredUrl(byUrl, brand.hubPlanUrl(), brand.name(),
+                    "MVNO Hub brand listing (crawl failed): " + brand.name());
+            coverage.add(normalizeUrl(brand.hubPlanUrl()));
+        }
+
+        if (brand.hasHomepage()) {
+            addDiscoveredUrl(byUrl, brand.homepageUrl(), brand.name(),
+                    "MVNO Hub brand homepage: " + brand.name());
+            coverage.add(normalizeUrl(brand.homepageUrl()));
+            if (!KoreanMvnoSites.isCoveredOperatorHost(brand.homepageUrl())) {
+                try {
+                    mcp.callTool("playwright", navigate, Map.of("url", brand.homepageUrl()));
+                    String homeText = mcp.extractText(mcp.callTool("playwright", snapshot, Map.of()));
+                    for (String url : extractUsefulUrls(homeText, brand.homepageUrl(), extraHostFragments)) {
+                        addDiscoveredUrl(byUrl, url, brand.name(),
+                                "MVNO Hub brand homepage link: " + brand.name());
+                    }
+                } catch (Exception e) {
+                    log.warn("Brand homepage crawl failed for {} ({}): {}",
+                            brand.name(), brand.homepageUrl(), e.getMessage());
+                }
+            }
+        }
+        if (!coverage.isEmpty()) {
+            brandCoverageUrls.add(List.copyOf(coverage));
+        }
+        log.info("Brand {} enriched candidates: +{} (total={})", brand.name(), byUrl.size() - before, byUrl.size());
+    }
+
+    private void applyEsimFilterBestEffort() {
+        try {
+            String evaluate = config.toolName("mcp.tool.playwright.evaluate", "browser_evaluate");
+            mcp.callTool("playwright", evaluate, Map.of(
+                    "function", """
+                            () => {
+                              const el = document.getElementById('%s');
+                              if (!el) {
+                                return { applied: false };
+                              }
+                              if (!el.checked) {
+                                el.click();
+                              }
+                              return { applied: true, checked: !!el.checked };
+                            }
+                            """.formatted(MvnoHubBrandCatalog.ESIM_FILTER_INPUT_ID)
+            ));
+            String wait = config.toolName("mcp.tool.playwright.wait", "browser_wait_for");
+            mcp.callTool("playwright", wait, Map.of("time", 2));
+        } catch (Exception e) {
+            log.debug("eSIM filter on brand listing skipped: {}", e.getMessage());
+        }
+    }
+
     private static void addDiscoveredUrl(Map<String, EsimPlan> byUrl, String url, String notes) {
+        addDiscoveredUrl(byUrl, url, "web-discovery", notes);
+    }
+
+    private static void addDiscoveredUrl(Map<String, EsimPlan> byUrl, String url, String provider, String notes) {
+        if (url == null || url.isBlank()) {
+            return;
+        }
         byUrl.putIfAbsent(normalizeUrl(url), EsimPlan.builder()
-                .provider("web-discovery")
+                .provider(provider == null || provider.isBlank() ? "web-discovery" : provider)
                 .planName(url)
                 .countryOrRegion("Korea")
                 .esimSupported(true)
@@ -139,7 +275,7 @@ public final class PlanDiscoveryService {
                 .build());
     }
 
-    private static void capCandidates(Map<String, EsimPlan> byUrl) {
+    private void capCandidates(Map<String, EsimPlan> byUrl) {
         if (byUrl.size() <= MAX_CANDIDATES) {
             return;
         }
@@ -151,6 +287,29 @@ public final class PlanDiscoveryService {
                 kept.put(key, value);
             }
         }
+        for (List<String> coverage : brandCoverageUrls) {
+            if (kept.size() >= MAX_CANDIDATES) {
+                break;
+            }
+            for (String url : coverage) {
+                EsimPlan value = byUrl.get(url);
+                if (value != null) {
+                    kept.putIfAbsent(url, value);
+                    break;
+                }
+            }
+        }
+        for (List<String> coverage : brandCoverageUrls) {
+            for (String url : coverage) {
+                if (kept.size() >= MAX_CANDIDATES) {
+                    break;
+                }
+                EsimPlan value = byUrl.get(url);
+                if (value != null) {
+                    kept.putIfAbsent(url, value);
+                }
+            }
+        }
         for (Map.Entry<String, EsimPlan> entry : byUrl.entrySet()) {
             if (kept.size() >= MAX_CANDIDATES) {
                 break;
@@ -159,7 +318,8 @@ public final class PlanDiscoveryService {
         }
         byUrl.clear();
         byUrl.putAll(kept);
-        log.info("Capped discovery candidates at {}", byUrl.size());
+        log.info("Capped discovery candidates at {} (brand coverage groups={})",
+                byUrl.size(), brandCoverageUrls.size());
     }
 
     private EsimPlan verifyWithPlaywright(EsimPlan candidate) {
@@ -234,16 +394,9 @@ public final class PlanDiscoveryService {
         return List.of();
     }
 
-    private static List<String> extractUsefulUrls(String text) {
-        List<String> urls = new ArrayList<>();
-        Matcher matcher = URL_PATTERN.matcher(text);
-        while (matcher.find()) {
-            String url = matcher.group().replaceAll("[),.;]+$", "");
-            if (KoreanMvnoSites.isDiscoverablePlanUrl(url)) {
-                urls.add(url);
-            }
-        }
-        return urls;
+    private static List<String> extractUsefulUrls(
+            String text, String baseUrl, Collection<String> extraHostFragments) {
+        return KoreanMvnoSites.collectCandidateUrls(text, baseUrl, extraHostFragments);
     }
 
     private static boolean looksLikeLifetimeKeepFee(String text) {

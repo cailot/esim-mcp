@@ -1,0 +1,262 @@
+- generic [active] [ref=f202e1]:
+  - generic:
+    - link "skip to 상단메뉴" [ref=f202e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "skip to content" [ref=f202e3] [cursor=pointer]:
+      - /url: "#contents"
+  - generic [ref=f202e4]:
+    - generic [ref=f202e5]:
+      - generic [ref=f202e6]:
+        - list
+      - list [ref=f202e8]:
+        - listitem [ref=f202e9]:
+          - link "인터넷우체국" [ref=f202e10] [cursor=pointer]:
+            - /url: https://www.epost.go.kr
+        - listitem [ref=f202e11]:
+          - link "우체국 B2B" [ref=f202e12] [cursor=pointer]:
+            - /url: http://b2b.epost.go.kr
+        - listitem [ref=f202e13]:
+          - link "해외배송" [ref=f202e14] [cursor=pointer]:
+            - /url: /fo/main/moveOverSend.do
+      - generic [ref=f202e15]:
+        - link "우체국쇼핑" [ref=f202e16] [cursor=pointer]:
+          - /url: /fo/main/main.do
+        - generic [ref=f202e20]:
+          - textbox "검색어입력" [ref=f202e21]
+          - link "찾기버튼" [ref=f202e22] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=f202e24]:
+          - listitem [ref=f202e25]:
+            - link "로그인" [ref=f202e26] [cursor=pointer]:
+              - /url: /fo/login/loginPrc.do
+          - listitem [ref=f202e27]:
+            - link "장바구니" [ref=f202e28] [cursor=pointer]:
+              - /url: javascript:fn_rightCartCnt();
+          - listitem [ref=f202e29]:
+            - link "나의쇼핑" [ref=f202e30] [cursor=pointer]:
+              - /url: /fo/mypage/mypageOrderSendSearch.do
+      - generic [ref=f202e31]:
+        - generic:
+          - link "전체 카테고리" [ref=f202e32] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f202e33]:
+            - listitem [ref=f202e34]:
+              - link "꿀송편🌈" [ref=f202e35] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev01
+            - listitem [ref=f202e36]:
+              - link "선물🐰" [ref=f202e37] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev04
+            - listitem [ref=f202e38]:
+              - link "AI추천" [ref=f202e39] [cursor=pointer]:
+                - /url: /fo/display/recommendView.do
+            - listitem [ref=f202e40]:
+              - link "특가" [ref=f202e41] [cursor=pointer]:
+                - /url: /fo/event/retrieveSpecialPrice.do
+            - listitem [ref=f202e42]:
+              - link "신규상품" [ref=f202e43] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100008
+            - listitem [ref=f202e44]:
+              - link "이달의 맛🦐" [ref=f202e45] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027581
+            - listitem [ref=f202e46]:
+              - link "특산물" [ref=f202e47] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100007
+            - listitem [ref=f202e48]:
+              - link "전통시장" [ref=f202e49] [cursor=pointer]:
+                - /url: /fo/pavln/sijangDduri.do
+            - listitem [ref=f202e50]:
+              - link "생활용품" [ref=f202e51] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100012
+            - listitem [ref=f202e52]:
+              - link "군장병관" [ref=f202e53] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027623
+          - list [ref=f202e54]:
+            - listitem [ref=f202e55]:
+              - link "이벤트" [ref=f202e56] [cursor=pointer]:
+                - /url: /fo/event/eventListMain.do?LOG_POS=15
+            - listitem [ref=f202e57]:
+              - link "기획전" [ref=f202e58] [cursor=pointer]:
+                - /url: /fo/display/plnbefAllList.do?LOG_POS=103
+            - listitem [ref=f202e59]:
+              - link "지역브랜드관" [ref=f202e60] [cursor=pointer]:
+                - /url: /fo/event/retrievePaldoLocalMap.do?LOG_POS=102
+    - generic [ref=f202e61]:
+      - generic [ref=f202e62]:
+        - generic [ref=f202e63] [cursor=pointer]: 축소/확대 버튼 축소
+        - list [ref=f202e64]:
+          - listitem [ref=f202e65] [cursor=pointer]:
+            - generic [ref=f202e66]: 장바구니
+          - listitem [ref=f202e67] [cursor=pointer]:
+            - generic [ref=f202e68]: 최근 본 상품
+        - list [ref=f202e70]:
+          - listitem [ref=f202e71]:
+            - link "쿠폰등록" [ref=f202e72] [cursor=pointer]:
+              - /url: javascript:fn_couponPinReg();
+          - listitem [ref=f202e73]:
+            - link "법인다량상담" [ref=f202e74] [cursor=pointer]:
+              - /url: /fo/center/centerManyBuyOrderAdvc.do
+          - listitem [ref=f202e75]:
+            - link "기부하기" [ref=f202e76] [cursor=pointer]:
+              - /url: /fo/donate/howDonate.do
+        - link "TOP" [ref=f202e77] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f202e79]:
+        - heading "우체국쇼핑 이벤트 & 혜택" [level=2] [ref=f202e80]
+        - list [ref=f202e81]:
+          - listitem [ref=f202e82]:
+            - link "이벤트" [ref=f202e83] [cursor=pointer]:
+              - /url: /fo/event/eventListMain.do
+          - listitem [ref=f202e84]:
+            - link "첫 구매 혜택" [ref=f202e85] [cursor=pointer]:
+              - /url: /fo/event/firstBuyBenefit.do
+          - listitem [ref=f202e86]:
+            - link "모바일 앱 혜택" [ref=f202e87] [cursor=pointer]:
+              - /url: /fo/event/mobileAppBenefit.do
+          - listitem [ref=f202e88]:
+            - link "제휴카드 혜택" [ref=f202e89] [cursor=pointer]:
+              - /url: /fo/event/associatedCardBenefit.do
+        - generic [ref=f202e91]:
+          - img "우체국쇼핑 모바일 앱" [ref=f202e93]
+          - generic [ref=f202e94]:
+            - generic [ref=f202e95]:
+              - paragraph [ref=f202e96]:
+                - emphasis [ref=f202e97]: "01"
+                - generic [ref=f202e98]:
+                  - text: 우체국쇼핑 앱을
+                  - emphasis [ref=f202e99]: 편리하게 다운받는 방법
+              - list [ref=f202e102]:
+                - listitem [ref=f202e103]:
+                  - paragraph [ref=f202e104]: 앱 마켓에서 다운받기
+                  - paragraph [ref=f202e105]:
+                    - text: 구글 플레이 스토어와애플 앱스토어에서
+                    - emphasis [ref=f202e106]: "[우체국쇼핑]"
+                    - text: 을 검색하세요!
+                  - link "Google play 다운로드" [ref=f202e107] [cursor=pointer]:
+                    - /url: https://play.google.com/store/apps/details?id=kr.go.epost.mobile.app&hl=ko
+                  - link "App Store 다운로드" [ref=f202e108] [cursor=pointer]:
+                    - /url: https://itunes.apple.com/kr/app/uchegugsyopingmol/id960556882?mt=8
+                - listitem [ref=f202e109]:
+                  - paragraph [ref=f202e110]: 앱 설치주소 문자로 받기
+                  - paragraph [ref=f202e111]: 무료문자로 편리하게우체국쇼핑 모바일 앱을 다운로드 받으세요!
+                  - paragraph [ref=f202e112]:
+                    - radio [checked] [ref=f202e113]
+                    - text: 안드로이드
+                    - radio [ref=f202e114]
+                    - text: 아이폰
+                  - paragraph [ref=f202e115]:
+                    - textbox "첫번째자리 입력" [ref=f202e116]
+                    - text: "-"
+                    - textbox "두번째자리 입력" [ref=f202e117]
+                    - text: "-"
+                    - textbox "세번째자리 입력" [ref=f202e118]
+                  - link "전송하기" [ref=f202e119] [cursor=pointer]:
+                    - /url: javascript:fn_sendPhoneUrl();
+                  - paragraph [ref=f202e120]: 입력하신 번호는 저장되지 않으며,무료로 전송됩니다.
+                - listitem [ref=f202e121]:
+                  - paragraph [ref=f202e122]: QR코드로 다운받기
+                  - paragraph [ref=f202e123]: QR코드로 스캔 후, 해당 마켓에서바로 다운로드 받으세요!
+                  - img "QR코드" [ref=f202e124]
+                  - paragraph [ref=f202e125]: 스마트폰 스캔 앱으로QR코드를 비춰주세요!
+            - generic [ref=f202e126]:
+              - paragraph [ref=f202e127]:
+                - emphasis [ref=f202e128]: "02"
+                - generic [ref=f202e129]:
+                  - text: 우체국쇼핑 모바일 앱에서만 누릴 수 있는
+                  - emphasis [ref=f202e130]: 특별한 혜택!
+              - img "특별한 혜택ss" [ref=f202e133]
+    - generic [ref=f202e134]:
+      - list [ref=f202e136]:
+        - listitem [ref=f202e137]:
+          - link "이용약관" [ref=f202e138] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+        - listitem [ref=f202e139]:
+          - link "개인정보처리방침" [ref=f202e140] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+        - listitem [ref=f202e141]:
+          - link "웹접근성정책" [ref=f202e142] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+        - listitem [ref=f202e143]:
+          - link "우체국쇼핑소개" [ref=f202e144] [cursor=pointer]:
+            - /url: /fo/footer/epostmallDesc.do?pageId=mall01
+        - listitem [ref=f202e145]:
+          - link "서비스 이용안내" [ref=f202e146] [cursor=pointer]:
+            - /url: /fo/center/centerGuideBrdMenu.do
+        - listitem [ref=f202e147]:
+          - link "입점안내" [ref=f202e148] [cursor=pointer]:
+            - /url: /fo/center/centerGuideCustStat.do
+        - listitem [ref=f202e149]:
+          - link "법인구매상담" [ref=f202e150] [cursor=pointer]:
+            - /url: /fo/center/centerManyBuyOrderAdvc.do
+        - listitem [ref=f202e151]:
+          - link "비지니스제휴" [ref=f202e152] [cursor=pointer]:
+            - /url: /fo/center/centerBizCoprtnInq.do
+        - listitem [ref=f202e153]:
+          - link "고객불편신고" [ref=f202e154] [cursor=pointer]:
+            - /url: /fo/center/centerReport.do
+        - listitem [ref=f202e155]:
+          - link "공급업체 통합관리자" [ref=f202e156] [cursor=pointer]:
+            - /url: http://mallscm.epost.go.kr/scmIndex.do
+        - generic [ref=f202e157]: G-CLOUD
+      - generic [ref=f202e158]:
+        - generic:
+          - generic [ref=f202e159]:
+            - paragraph [ref=f202e161]:
+              - text: "재단법인 한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+              - link "사업자 정보확인" [ref=f202e162] [cursor=pointer]:
+                - /url: javascript:void('0');
+            - generic [ref=f202e163]:
+              - paragraph [ref=f202e164]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+              - paragraph [ref=f202e165]: "해외 : 82-1588-1300"
+            - generic [ref=f202e166]:
+              - paragraph [ref=f202e167]: 이 사이트는 인터넷 우체국에서 구축하고 재단법인 한국우편사업진흥원에서 운영합니다.
+              - paragraph [ref=f202e168]: Copyright © 2014. ePOST all rights reserved.
+            - generic [ref=f202e169]:
+              - paragraph [ref=f202e170]: 우체국쇼핑은 고객님의 결제금액에 대해 안전거래를 보장합니다.
+              - paragraph [ref=f202e171]: 단, “결제대금 예치 또는 소비자 피해보상보험계약 등의 체결이 면제되는 거래에 관한 고시”에따른 공공기관이 운영하는 쇼핑몰로 결제대금예치 또는 소비자피해보상보험계약 등의 체결은 면제되었습니다.
+          - generic [ref=f202e172]:
+            - paragraph [ref=f202e173]:
+              - link "카카오" [ref=f202e174] [cursor=pointer]:
+                - /url: https://pf.kakao.com/_nixgxcu
+              - link "유튜브" [ref=f202e175] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3OFl3RCfi0xVik4RRotzzQ
+              - link "인스타그램" [ref=f202e176] [cursor=pointer]:
+                - /url: https://www.instagram.com/epostmall
+              - link "페이스북" [ref=f202e177] [cursor=pointer]:
+                - /url: https://www.facebook.com/epostmall
+              - link "블로그" [ref=f202e178] [cursor=pointer]:
+                - /url: https://blog.naver.com/wcgsp
+            - generic [ref=f202e179]:
+              - paragraph [ref=f202e180]: 우편고객센터
+              - paragraph [ref=f202e181]: 1588-1300(발신자부담) help@posa.or.kr
+              - paragraph [ref=f202e182]: 평일 09:00 ~18:00 (토요일,공휴일 휴무)
+            - generic [ref=f202e183]:
+              - paragraph [ref=f202e184]:
+                - link "주문조회|" [ref=f202e185] [cursor=pointer]:
+                  - /url: /fo/mypage/myshoppingMain.do
+                - link "주문취소/반품|" [ref=f202e186] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageChgCancelList.do
+                - link "비회원주문조회" [ref=f202e187] [cursor=pointer]:
+                  - /url: /fo/center/moveCenterNonMemLogin.do
+              - paragraph [ref=f202e188]:
+                - link "잦은 질문 FAQ|" [ref=f202e189] [cursor=pointer]:
+                  - /url: /fo/center/centerFaqMemJoin.do
+                - link "현금영수증발행|" [ref=f202e190] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageRciptIssue.do
+                - link "세금계산서신청" [ref=f202e191] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageTaxReq.do
+            - link [ref=f202e193] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "Digicert" [ref=f202e194]
+      - generic [ref=f202e195]:
+        - list:
+          - listitem [ref=f202e196]: 2019 대한민국 명품브랜드 5년연속대상
+          - listitem [ref=f202e197]: 2019 공공기관 사회적가치창출대회 고용노동부장관 최우수상
+          - listitem [ref=f202e198]: 2017 제22회 한국유통대상 산업통상자원부장관 표창
+          - listitem [ref=f202e199]: 소비자중심경영 인증 공정거래위원회
+          - listitem [ref=f202e200]: KOLSA 한국온라인쇼핑협회
+      - list [ref=f202e202]:
+        - listitem [ref=f202e203]:
+          - link [ref=f202e204] [cursor=pointer]:
+            - /url: "#"
+            - img "채팅상담" [ref=f202e205]
+  - iframe

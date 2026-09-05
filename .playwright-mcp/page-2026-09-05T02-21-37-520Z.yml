@@ -1,0 +1,525 @@
+- generic [ref=f75e1]:
+  - banner [ref=f75e2]:
+    - generic [ref=f75e3]:
+      - generic [ref=f75e6]:
+        - link [ref=f75e7] [cursor=pointer]:
+          - /url: /normal.do
+          - img "실시간사용량조회" [ref=f75e8]
+        - link [ref=f75e9] [cursor=pointer]:
+          - /url: /apply_list.do
+          - img "접수내역조회/변경" [ref=f75e10]
+        - link [ref=f75e11] [cursor=pointer]:
+          - /url: /sign.do
+          - img "로그인" [ref=f75e12]
+      - generic [ref=f75e15]:
+        - link [ref=f75e16] [cursor=pointer]:
+          - /url: /
+          - img "logo.png" [ref=f75e17]
+        - list [ref=f75e19]:
+          - listitem [ref=f75e20]:
+            - link "요금제" [ref=f75e21] [cursor=pointer]:
+              - /url: /rate_plan.do
+          - listitem [ref=f75e22]:
+            - link "인터넷+TV" [ref=f75e23] [cursor=pointer]:
+              - /url: https://www.tvsiwol.com/
+          - listitem [ref=f75e24]:
+            - link "휴대폰" [ref=f75e25] [cursor=pointer]:
+              - /url: https://www.siwolphone.com/
+          - listitem [ref=f75e26]:
+            - link "선불서비스" [ref=f75e27] [cursor=pointer]:
+              - /url: /charge/charge_account.do
+          - listitem [ref=f75e28]:
+            - link "이벤트" [ref=f75e29] [cursor=pointer]:
+              - /url: /event.do
+          - listitem [ref=f75e30]:
+            - link "고객지원" [ref=f75e31] [cursor=pointer]:
+              - /url: /cs_info.do
+          - listitem [ref=f75e32]:
+            - link "마이페이지" [ref=f75e33] [cursor=pointer]:
+              - /url: /btcview.do
+  - generic [ref=f75e34]:
+    - generic [ref=f75e39]:
+      - generic [ref=f75e40]:
+        - group "1 / 6" [ref=f75e41]:
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=324&eventMod=ongoing
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=324&eventMod=ongoing
+          - link [ref=f75e42] [cursor=pointer]:
+            - /url: https://siwolmobile.com/event_view.do?eventId=324&eventMod=ongoing
+            - img "26년 9월 프로모션 요금제" [ref=f75e43]
+        - group "2 / 6" [ref=f75e44]:
+          - link:
+            - /url: https://www.tvsiwol.com/
+          - link:
+            - /url: ""
+          - link [ref=f75e45] [cursor=pointer]:
+            - /url: https://www.tvsiwol.com/
+            - img "인터넷/TV 선지급 배너" [ref=f75e46]
+        - group "3 / 6" [ref=f75e47]:
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=326&eventMod=ongoing
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=326&eventMod=ongoing
+          - link [ref=f75e48] [cursor=pointer]:
+            - /url: https://siwolmobile.com/event_view.do?eventId=326&eventMod=ongoing
+            - img "26년 9월 프로모션 요금제_24개월/평생할인" [ref=f75e49]
+        - group "4 / 6" [ref=f75e50]:
+          - link:
+            - /url: ""
+          - link:
+            - /url: ""
+          - link [ref=f75e51] [cursor=pointer]:
+            - /url: https://siwolmobile.com/event_view.do?eventId=249&eventMod=ongoing
+            - img "봉사/기부 컨텐츠" [ref=f75e52]
+        - group "5 / 6" [ref=f75e53]:
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=205&eventMod=
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=205&eventMod=
+          - link [ref=f75e54] [cursor=pointer]:
+            - /url: https://siwolmobile.com/event_view.do?eventId=205&eventMod=
+            - img "알닷케어 부가서비스 셀프가입" [ref=f75e55]
+        - group "6 / 6" [ref=f75e56]:
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=71&eventMod=ongoing
+          - link:
+            - /url: https://siwolmobile.com/event_view.do?eventId=71&eventMod=ongoing
+          - link [ref=f75e57] [cursor=pointer]:
+            - /url: https://siwolmobile.com/event_view.do?eventId=71&eventMod=ongoing
+            - img "베스트 후기 이벤트" [ref=f75e58]
+      - generic [ref=f75e59]:
+        - button "Go to slide 1" [ref=f75e60] [cursor=pointer]
+        - button "Go to slide 2" [ref=f75e61] [cursor=pointer]
+        - button "Go to slide 3" [ref=f75e62] [cursor=pointer]
+        - button "Go to slide 4" [ref=f75e63] [cursor=pointer]
+        - button "Go to slide 5" [ref=f75e64] [cursor=pointer]
+        - button "Go to slide 6" [ref=f75e65] [cursor=pointer]
+    - list [ref=f75e68]:
+      - listitem [ref=f75e69]:
+        - button [ref=f75e70] [cursor=pointer]:
+          - img "셀프개통" [ref=f75e71]
+          - text: 셀프개통
+      - listitem [ref=f75e72]:
+        - link [ref=f75e73] [cursor=pointer]:
+          - /url: https://www.tvsiwol.com/
+          - img "인터넷+TV" [ref=f75e74]
+          - text: 인터넷+TV
+      - listitem [ref=f75e75]:
+        - link [ref=f75e76] [cursor=pointer]:
+          - /url: https://www.siwolphone.com/
+          - img "휴대폰" [ref=f75e77]
+          - text: 휴대폰
+      - listitem [ref=f75e78]:
+        - link [ref=f75e79] [cursor=pointer]:
+          - /url: "#"
+          - img "렌탈" [ref=f75e80]
+          - text: 렌탈
+      - listitem [ref=f75e81]:
+        - link [ref=f75e82] [cursor=pointer]:
+          - /url: /rate_plan.do?type=T006
+          - img "요금제" [ref=f75e83]
+          - text: 요금제
+      - listitem [ref=f75e84]:
+        - link [ref=f75e85] [cursor=pointer]:
+          - /url: /btcview.do
+          - img "접수내역조회" [ref=f75e86]
+          - text: 접수내역조회
+      - listitem [ref=f75e87]:
+        - link [ref=f75e88] [cursor=pointer]:
+          - /url: /event.do
+          - img "이벤트" [ref=f75e89]
+          - text: 이벤트
+      - listitem [ref=f75e90]:
+        - link [ref=f75e91] [cursor=pointer]:
+          - /url: /review.do
+          - img "사용후기" [ref=f75e92]
+          - text: 사용후기
+    - generic [ref=f75e95]:
+      - heading "시월모바일 인기요금제" [level=2] [ref=f75e97]
+      - generic [ref=f75e98]:
+        - generic [ref=f75e100]:
+          - group "1 / 2" [ref=f75e101]:
+            - link "이달의 요금제 한해 100분10GB(7개월) 10GB 통화 100분 문자 100건 월 10 원 7개월 이후 17,610원" [ref=f75e102] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2468
+              - generic [ref=f75e103]:
+                - generic [ref=f75e104]:
+                  - paragraph [ref=f75e105]:
+                    - generic [ref=f75e106]: 이달의 요금제
+                  - paragraph [ref=f75e107]: 한해 100분10GB(7개월)
+                - list [ref=f75e108]:
+                  - listitem [ref=f75e109]: 10GB
+                  - listitem [ref=f75e110]:
+                    - generic [ref=f75e111]: 통화
+                    - text: 100분
+                  - listitem [ref=f75e112]:
+                    - generic [ref=f75e113]: 문자
+                    - text: 100건
+                - generic [ref=f75e114]:
+                  - paragraph [ref=f75e115]:
+                    - text: 월
+                    - generic [ref=f75e116]: "10"
+                    - text: 원
+                  - paragraph [ref=f75e117]: 7개월 이후 17,610원
+          - group "2 / 2" [ref=f75e118]:
+            - link "이달의 요금제 시월 300분5GB(평생) 5GB 통화 300분 문자 100건 월 990 원" [ref=f75e119] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2420
+              - generic [ref=f75e120]:
+                - generic [ref=f75e121]:
+                  - paragraph [ref=f75e122]:
+                    - generic [ref=f75e123]: 이달의 요금제
+                  - paragraph [ref=f75e124]: 시월 300분5GB(평생)
+                - list [ref=f75e125]:
+                  - listitem [ref=f75e126]: 5GB
+                  - listitem [ref=f75e127]:
+                    - generic [ref=f75e128]: 통화
+                    - text: 300분
+                  - listitem [ref=f75e129]:
+                    - generic [ref=f75e130]: 문자
+                    - text: 100건
+                - paragraph [ref=f75e132]:
+                  - text: 월
+                  - generic [ref=f75e133]: "990"
+                  - text: 원
+          - group "1 / 2" [ref=f75e134]:
+            - link "이달의 요금제 한해 100분10GB(7개월) 10GB 통화 100분 문자 100건 월 10 원 7개월 이후 17,610원" [ref=f75e135] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2468
+              - generic [ref=f75e136]:
+                - generic [ref=f75e137]:
+                  - paragraph [ref=f75e138]:
+                    - generic [ref=f75e139]: 이달의 요금제
+                  - paragraph [ref=f75e140]: 한해 100분10GB(7개월)
+                - list [ref=f75e141]:
+                  - listitem [ref=f75e142]: 10GB
+                  - listitem [ref=f75e143]:
+                    - generic [ref=f75e144]: 통화
+                    - text: 100분
+                  - listitem [ref=f75e145]:
+                    - generic [ref=f75e146]: 문자
+                    - text: 100건
+                - generic [ref=f75e147]:
+                  - paragraph [ref=f75e148]:
+                    - text: 월
+                    - generic [ref=f75e149]: "10"
+                    - text: 원
+                  - paragraph [ref=f75e150]: 7개월 이후 17,610원
+          - group "2 / 2" [ref=f75e151]:
+            - link "이달의 요금제 시월 300분5GB(평생) 5GB 통화 300분 문자 100건 월 990 원" [ref=f75e152] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2420
+              - generic [ref=f75e153]:
+                - generic [ref=f75e154]:
+                  - paragraph [ref=f75e155]:
+                    - generic [ref=f75e156]: 이달의 요금제
+                  - paragraph [ref=f75e157]: 시월 300분5GB(평생)
+                - list [ref=f75e158]:
+                  - listitem [ref=f75e159]: 5GB
+                  - listitem [ref=f75e160]:
+                    - generic [ref=f75e161]: 통화
+                    - text: 300분
+                  - listitem [ref=f75e162]:
+                    - generic [ref=f75e163]: 문자
+                    - text: 100건
+                - paragraph [ref=f75e165]:
+                  - text: 월
+                  - generic [ref=f75e166]: "990"
+                  - text: 원
+          - group "1 / 2" [ref=f75e167]:
+            - link "이달의 요금제 한해 100분10GB(7개월) 10GB 통화 100분 문자 100건 월 10 원 7개월 이후 17,610원" [ref=f75e168] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2468
+              - generic [ref=f75e169]:
+                - generic [ref=f75e170]:
+                  - paragraph [ref=f75e171]:
+                    - generic [ref=f75e172]: 이달의 요금제
+                  - paragraph [ref=f75e173]: 한해 100분10GB(7개월)
+                - list [ref=f75e174]:
+                  - listitem [ref=f75e175]: 10GB
+                  - listitem [ref=f75e176]:
+                    - generic [ref=f75e177]: 통화
+                    - text: 100분
+                  - listitem [ref=f75e178]:
+                    - generic [ref=f75e179]: 문자
+                    - text: 100건
+                - generic [ref=f75e180]:
+                  - paragraph [ref=f75e181]:
+                    - text: 월
+                    - generic [ref=f75e182]: "10"
+                    - text: 원
+                  - paragraph [ref=f75e183]: 7개월 이후 17,610원
+          - group "2 / 2" [ref=f75e184]:
+            - link "이달의 요금제 시월 300분5GB(평생) 5GB 통화 300분 문자 100건 월 990 원" [ref=f75e185] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2420
+              - generic [ref=f75e186]:
+                - generic [ref=f75e187]:
+                  - paragraph [ref=f75e188]:
+                    - generic [ref=f75e189]: 이달의 요금제
+                  - paragraph [ref=f75e190]: 시월 300분5GB(평생)
+                - list [ref=f75e191]:
+                  - listitem [ref=f75e192]: 5GB
+                  - listitem [ref=f75e193]:
+                    - generic [ref=f75e194]: 통화
+                    - text: 300분
+                  - listitem [ref=f75e195]:
+                    - generic [ref=f75e196]: 문자
+                    - text: 100건
+                - paragraph [ref=f75e198]:
+                  - text: 월
+                  - generic [ref=f75e199]: "990"
+                  - text: 원
+        - button "Next slide" [ref=f75e200] [cursor=pointer]: next
+        - text: prev
+    - iframe [ref=f75e204]:
+      - generic [ref=f76e1]:
+        - generic "YouTube Video Player" [ref=f76e3]
+        - generic [ref=f76e5]:
+          - generic:
+            - generic:
+              - generic [ref=f76e6] [cursor=pointer]
+              - button "Play video" [ref=f76e10] [cursor=pointer]
+              - button "AI" [ref=f76e14] [cursor=pointer]
+              - button "Hide player controls" [ref=f76e18] [cursor=pointer]
+              - generic [ref=f76e20]:
+                - generic [ref=f76e25]:
+                  - generic [ref=f76e26]:
+                    - link "[인터넷 가입] 설치도 안 했는데 현금부터? 접수만 해도 사은품 드려요!" [ref=f76e27] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=ffcKAFknsbA
+                    - link "인터넷 가입ㆍ알뜰폰은 시월모바일" [ref=f76e28] [cursor=pointer]:
+                      - /url: /channel/UCOyVvHJHjLC0ZWoVQCLS6kA
+                  - generic [ref=f76e30]:
+                    - button [ref=f76e31] [cursor=pointer]
+                    - generic [ref=f76e33]:
+                      - generic: 인터넷 가입ㆍ알뜰폰은 시월모바일
+                      - generic: 3.07k subscribers
+                - generic [ref=f76e34]:
+                  - button "Share" [ref=f76e37] [cursor=pointer]
+                  - link "Watch on YouTube" [ref=f76e48] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=ffcKAFknsbA
+                    - generic [ref=f76e49]: Watch on
+    - generic [ref=f75e207]:
+      - heading "고객님의 솔직한 후기" [level=2] [ref=f75e209]
+      - generic [ref=f75e211]:
+        - generic [ref=f75e212]:
+          - group "1 / 4" [ref=f75e213]:
+            - link "시월 모바일 최고입니다 정** 2025-12-27 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다." [ref=f75e214] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e215]:
+                - paragraph [ref=f75e222]: 시월 모바일 최고입니다
+                - list [ref=f75e223]:
+                  - listitem [ref=f75e224]: 정**
+                  - listitem [ref=f75e225]: 2025-12-27
+              - generic [ref=f75e226]: 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다.
+          - group "2 / 4" [ref=f75e228]:
+            - link "개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데... 이** 2026-08-30 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데" [ref=f75e229] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e230]:
+                - paragraph [ref=f75e237]: 개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데...
+                - list [ref=f75e238]:
+                  - listitem [ref=f75e239]: 이**
+                  - listitem [ref=f75e240]: 2026-08-30
+              - generic [ref=f75e241]: 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데
+          - group "3 / 4" [ref=f75e243]:
+            - link "유심 구입부터 설치까지 류** 2026-08-29 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요" [ref=f75e244] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e245]:
+                - paragraph [ref=f75e252]: 유심 구입부터 설치까지
+                - list [ref=f75e253]:
+                  - listitem [ref=f75e254]: 류**
+                  - listitem [ref=f75e255]: 2026-08-29
+              - generic [ref=f75e256]: 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요
+          - group "4 / 4" [ref=f75e258]:
+            - link "간편하고 빠른개통에 감동 ㅎ 박** 2026-08-28 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다." [ref=f75e259] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e260]:
+                - paragraph [ref=f75e267]: 간편하고 빠른개통에 감동 ㅎ
+                - list [ref=f75e268]:
+                  - listitem [ref=f75e269]: 박**
+                  - listitem [ref=f75e270]: 2026-08-28
+              - generic [ref=f75e271]: 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다.
+          - group "1 / 4" [ref=f75e273]:
+            - link "시월 모바일 최고입니다 정** 2025-12-27 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다." [ref=f75e274] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e275]:
+                - paragraph [ref=f75e282]: 시월 모바일 최고입니다
+                - list [ref=f75e283]:
+                  - listitem [ref=f75e284]: 정**
+                  - listitem [ref=f75e285]: 2025-12-27
+              - generic [ref=f75e286]: 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다.
+          - group "2 / 4" [ref=f75e288]:
+            - link "개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데... 이** 2026-08-30 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데" [ref=f75e289] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e290]:
+                - paragraph [ref=f75e297]: 개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데...
+                - list [ref=f75e298]:
+                  - listitem [ref=f75e299]: 이**
+                  - listitem [ref=f75e300]: 2026-08-30
+              - generic [ref=f75e301]: 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데
+          - group "3 / 4" [ref=f75e303]:
+            - link "유심 구입부터 설치까지 류** 2026-08-29 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요" [ref=f75e304] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e305]:
+                - paragraph [ref=f75e312]: 유심 구입부터 설치까지
+                - list [ref=f75e313]:
+                  - listitem [ref=f75e314]: 류**
+                  - listitem [ref=f75e315]: 2026-08-29
+              - generic [ref=f75e316]: 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요
+          - group "4 / 4" [ref=f75e318]:
+            - link "간편하고 빠른개통에 감동 ㅎ 박** 2026-08-28 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다." [ref=f75e319] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e320]:
+                - paragraph [ref=f75e327]: 간편하고 빠른개통에 감동 ㅎ
+                - list [ref=f75e328]:
+                  - listitem [ref=f75e329]: 박**
+                  - listitem [ref=f75e330]: 2026-08-28
+              - generic [ref=f75e331]: 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다.
+          - group "1 / 4" [ref=f75e333]:
+            - link "시월 모바일 최고입니다 정** 2025-12-27 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다." [ref=f75e334] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e335]:
+                - paragraph [ref=f75e342]: 시월 모바일 최고입니다
+                - list [ref=f75e343]:
+                  - listitem [ref=f75e344]: 정**
+                  - listitem [ref=f75e345]: 2025-12-27
+              - generic [ref=f75e346]: 가입 절차가 간편해서 금방 개통할 수 있었고, 가격도 저렴해서 부담 없이 쓰기 좋아요. 전반적으로 만족하면서 사용 중입니다.
+          - group "2 / 4" [ref=f75e348]:
+            - link "개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데... 이** 2026-08-30 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데" [ref=f75e349] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e350]:
+                - paragraph [ref=f75e357]: 개통이 쉽고 빠르면 뭐합니까 다른게 다 엉망인데...
+                - list [ref=f75e358]:
+                  - listitem [ref=f75e359]: 이**
+                  - listitem [ref=f75e360]: 2026-08-30
+              - generic [ref=f75e361]: 모바일앱이랑 위젯 연동 오류는 한달째 안고쳐지고있고... 심지어 이젠 위젯 로그인도 안됩니다 ㅋㅋㅋ 위젯으로 실시간 사용량 바로바로 업데이트 안되는 문제도 심각했는데... 알뜰폰은 사후 서비스만 좋아도 진짜 대성공인데
+          - group "3 / 4" [ref=f75e363]:
+            - link "유심 구입부터 설치까지 류** 2026-08-29 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요" [ref=f75e364] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e365]:
+                - paragraph [ref=f75e372]: 유심 구입부터 설치까지
+                - list [ref=f75e373]:
+                  - listitem [ref=f75e374]: 류**
+                  - listitem [ref=f75e375]: 2026-08-29
+              - generic [ref=f75e376]: 혼자서 개통이 너무 쉽습니다 차 네비에 쓰려고 개통하였는데 세컨폰 개통하고 너무 마음에 들어서 시월로 및 써드폰까지 개통했습니다. 고속 도로 주행시 끊임 없이 데이터 사용 너무 잘되고 통화 퀄리티도 대형 3사 비교해 차이가 없습니다 대이터 및 통화량 잔여분 확인시 매번 번호넣고 인증번호 입력하는게 불편하여 개선되면 더 좋을것 같아요
+          - group "4 / 4" [ref=f75e378]:
+            - link "간편하고 빠른개통에 감동 ㅎ 박** 2026-08-28 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다." [ref=f75e379] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f75e380]:
+                - paragraph [ref=f75e387]: 간편하고 빠른개통에 감동 ㅎ
+                - list [ref=f75e388]:
+                  - listitem [ref=f75e389]: 박**
+                  - listitem [ref=f75e390]: 2026-08-28
+              - generic [ref=f75e391]: 셀프개통이 쉽게 잘되어있어요 좋았어요. 요금제가성비가 짱이네요 가족들 전부다 번호이동 하기로하고 모두의유심 4개 구매해서 진행했습니다.
+        - generic [ref=f75e393]:
+          - button "Go to slide 1" [ref=f75e394] [cursor=pointer]
+          - button "Go to slide 2" [ref=f75e395] [cursor=pointer]
+          - button "Go to slide 3" [ref=f75e396] [cursor=pointer]
+          - button "Go to slide 4" [ref=f75e397] [cursor=pointer]
+    - generic [ref=f75e400]:
+      - generic [ref=f75e401]:
+        - generic [ref=f75e402]:
+          - heading "시월의 혜택, 지금 확인해보세요" [level=2] [ref=f75e403]
+          - link "전체보기" [ref=f75e404] [cursor=pointer]:
+            - /url: /event.do
+        - generic [ref=f75e405]:
+          - button "Next slide" [disabled]
+      - generic [ref=f75e409]:
+        - group "1 / 3" [ref=f75e410]:
+          - link "알닷케어 부가서비스 셀프변경":
+            - /url: /event_view.do?eventId=205
+            - img "알닷케어 부가서비스 셀프변경" [ref=f75e411] [cursor=pointer]
+        - group "2 / 3" [ref=f75e412]:
+          - link "인터넷/IPTV 결합 할인":
+            - /url: /event_view.do?eventId=246
+            - img "인터넷/IPTV 결합 할인" [ref=f75e413] [cursor=pointer]
+        - group "3 / 3" [ref=f75e414]:
+          - link "알뜰폰 제휴카드 혜택":
+            - /url: /event_view.do?eventId=93
+            - img "알뜰폰 제휴카드 혜택" [ref=f75e415] [cursor=pointer]
+    - generic [ref=f75e420]:
+      - generic [ref=f75e421]:
+        - paragraph [ref=f75e422]: 고객센터
+        - generic [ref=f75e423]:
+          - paragraph [ref=f75e424]: 1666-4502 (일반고객 / 유료)
+          - paragraph [ref=f75e425]: 114 (시월모바일 기존 고객 / 무료)
+          - generic [ref=f75e426]: 업무시간 09:00 ~ 18:00 ｜ 점심시간 12:00 ~ 13:00 토/일요일/법정공휴일 휴무
+      - generic [ref=f75e427]:
+        - paragraph [ref=f75e428]: 공지사항
+        - list [ref=f75e429]:
+          - listitem [ref=f75e430]:
+            - link "안전한 통신서비스 제공을 위한 전 고객 유심(USIM) 업데이트 및 무료 교체 안내" [ref=f75e431] [cursor=pointer]:
+              - /url: /notice_view.do?notId=105
+            - generic [ref=f75e432]: 2026.03.20
+          - listitem [ref=f75e433]:
+            - link "eSIM 설치 및 QR코드 안내" [ref=f75e434] [cursor=pointer]:
+              - /url: /notice_view.do?notId=104
+            - generic [ref=f75e435]: 2026.03.05
+          - listitem [ref=f75e436]:
+            - link "CS 업무 대행을 위한 U+ 직영점 및 대리점 리스트 안내(26.09.04 업데이트)" [ref=f75e437] [cursor=pointer]:
+              - /url: /notice_view.do?notId=97
+            - generic [ref=f75e438]: 2026.02.11
+  - contentinfo [ref=f75e439]:
+    - generic [ref=f75e440]:
+      - generic [ref=f75e441]:
+        - list [ref=f75e442]:
+          - listitem [ref=f75e443]:
+            - link "회사소개" [ref=f75e444] [cursor=pointer]:
+              - /url: /contact/company.do
+          - listitem [ref=f75e445]:
+            - link "이용약관" [ref=f75e446] [cursor=pointer]:
+              - /url: /contact/policy.do
+          - listitem [ref=f75e447]:
+            - link "개인정보처리방침" [ref=f75e448] [cursor=pointer]:
+              - /url: /contact/indv.do
+          - listitem [ref=f75e449]:
+            - link "이메일무단수집거부" [ref=f75e450] [cursor=pointer]:
+              - /url: /contact/email.do
+          - listitem [ref=f75e451]:
+            - link "불법스팸대응센터" [ref=f75e452] [cursor=pointer]:
+              - /url: https://spam.kisa.or.kr/spam/main.do
+          - listitem [ref=f75e453]:
+            - link "명의도용방지서비스" [ref=f75e454] [cursor=pointer]:
+              - /url: https://msafer.or.kr/index.do
+        - list [ref=f75e456]:
+          - listitem [ref=f75e457]:
+            - link "인스타그램" [ref=f75e458] [cursor=pointer]:
+              - /url: https://www.instagram.com/siwolmobile_official/
+          - listitem [ref=f75e459]:
+            - link "블로그" [ref=f75e460] [cursor=pointer]:
+              - /url: https://blog.naver.com/jum6711
+          - listitem [ref=f75e461]:
+            - link "유튜브" [ref=f75e462] [cursor=pointer]:
+              - /url: https://www.youtube.com/@siwolmobile
+      - generic [ref=f75e463]:
+        - list [ref=f75e465]:
+          - listitem [ref=f75e466]: 주식회사 시월모바일
+          - listitem [ref=f75e467]: 대표자 안동현
+          - listitem [ref=f75e468]: 서울특별시 강남구 테헤란로 84길 14, 지어로빌딩 11층 (강남구, 대치동 942-19)
+          - listitem [ref=f75e469]: 고객센터 1666-4502
+          - listitem [ref=f75e470]: 이메일 siwolcs@siwolmobile.com
+          - listitem [ref=f75e471]: 사업자등록번호 585-81-01552
+          - listitem [ref=f75e472]: 통신판매신고 제2024-서울강남-02169 호
+        - paragraph [ref=f75e473]: Copyright © 시월모바일. All Rights Reserved.
+  - dialog [active] [ref=f75e474]:
+    - generic [ref=f75e475]:
+      - generic [ref=f75e478]:
+        - generic [ref=f75e479]:
+          - group "1 / 2" [ref=f75e480]:
+            - paragraph [ref=f75e481]:
+              - link [ref=f75e482] [cursor=pointer]:
+                - /url: http://pf.kakao.com/_MxePHG
+                - img "500x650.png" [ref=f75e483]
+          - group "2 / 2" [ref=f75e484]:
+            - link:
+              - /url: https://www.uplusmvno.com/
+            - paragraph [ref=f75e485]:
+              - link [ref=f75e486] [cursor=pointer]:
+                - /url: https://www.siwolmobile.com/event_view.do?eventId=205&eventMod=
+                - img "500x650.png" [ref=f75e487]
+        - generic [ref=f75e488]:
+          - button "Go to slide 1" [ref=f75e489] [cursor=pointer]
+          - button "Go to slide 2" [ref=f75e490] [cursor=pointer]
+      - generic:
+        - text: prev
+        - button "Next slide" [ref=f75e491] [cursor=pointer]: next
+      - generic [ref=f75e492]:
+        - generic [ref=f75e493]:
+          - checkbox "오늘 하루 보지 않기" [ref=f75e494]
+          - generic [ref=f75e495]: 오늘 하루 보지 않기
+        - button "Close" [ref=f75e496] [cursor=pointer]: 닫기

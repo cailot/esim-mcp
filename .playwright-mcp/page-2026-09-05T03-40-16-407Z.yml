@@ -1,0 +1,157 @@
+- generic [active] [ref=f363e1]:
+  - banner [ref=f363e2]:
+    - generic [ref=f363e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f363e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f363e6]:
+        - list [ref=f363e7]:
+          - listitem [ref=f363e8]:
+            - link "홈" [ref=f363e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f363e10]:
+            - link "요금제" [ref=f363e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f363e12]:
+            - link "휴대폰" [ref=f363e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f363e14]:
+            - link "인터넷" [ref=f363e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f363e16]:
+            - link "가전렌탈 NEW" [ref=f363e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f363e18]: NEW
+          - listitem [ref=f363e19]:
+            - link "이벤트" [ref=f363e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f363e21]:
+            - link "마이페이지" [ref=f363e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f363e23]:
+    - generic [ref=f363e24]:
+      - generic [ref=f363e25]:
+        - generic [ref=f363e27]:
+          - generic [ref=f363e28]:
+            - link [ref=f363e29] [cursor=pointer]:
+              - /url: /mvnos/3?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "KT엠모바일 로고" [ref=f363e30]
+            - button [ref=f363e32] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f363e34]
+          - generic [ref=f363e42]:
+            - generic [ref=f363e43]:
+              - generic [ref=f363e44]: 모두다 맘껏 7GB+(밀리의 서재 FREE)
+              - generic [ref=f363e45]:
+                - heading "월 7GB + 1Mbps" [level=1] [ref=f363e46]
+                - generic [ref=f363e47]:
+                  - button "찜하기" [ref=f363e49] [cursor=pointer]
+                  - button "공유하기" [ref=f363e54] [cursor=pointer]
+            - generic [ref=f363e61]:
+              - generic [ref=f363e62]: 통화 무제한
+              - generic [ref=f363e64]: 문자 무제한
+              - generic [ref=f363e66]: KT망
+              - generic [ref=f363e68]: LTE
+        - generic [ref=f363e70]:
+          - generic [ref=f363e71]:
+            - term [ref=f363e72]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f363e74] [cursor=pointer]
+          - definition [ref=f363e76]:
+            - generic [ref=f363e77]:
+              - generic [ref=f363e78]:
+                - generic [ref=f363e79]: 월 납부액월 16,300원
+                - generic [ref=f363e85]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f363e86]: 월 0원
+              - separator [ref=f363e87]
+              - generic [ref=f363e88]:
+                - generic [ref=f363e89]: 월 16,300원 내고 20,000원 돌려받아요
+                - button "자세히" [ref=f363e90] [cursor=pointer]
+      - group "요금제 신청" [ref=f363e93]:
+        - button "신청하기" [ref=f363e95] [cursor=pointer]
+      - generic [ref=f363e98]:
+        - generic [ref=f363e99]: 모요 제휴 페이백 안내
+        - link "네이버페이 매달 2만원 페이백 (6개월) 상세 페이지 새 탭 열기" [ref=f363e103] [cursor=pointer]:
+          - /url: /gift-group/2071?plan=false
+          - generic [ref=f363e105]:
+            - img "네이버페이" [ref=f363e106]
+            - generic [ref=f363e107]:
+              - text: 매달 2만원 씩 6개월 간
+              - generic [ref=f363e108]: 요금 낸 달부터 매달 말일 지급
+    - generic [ref=f363e114]:
+      - generic [ref=f363e115]:
+        - heading "요금제 정보" [level=2] [ref=f363e116]
+        - tablist [ref=f363e117]:
+          - tab "기본 정보" [selected] [ref=f363e118] [cursor=pointer]
+          - tab "지원 서비스" [ref=f363e120] [cursor=pointer]
+          - tab "기타 비용" [ref=f363e122] [cursor=pointer]
+      - generic [ref=f363e125]:
+        - generic [ref=f363e126]:
+          - generic [ref=f363e134]:
+            - generic [ref=f363e135]: 데이터 월 7GB
+            - generic [ref=f363e136]: 다 써도 1Mbps 속도로 무제한
+          - button "자세히" [ref=f363e138] [cursor=pointer]
+        - generic [ref=f363e141]:
+          - generic [ref=f363e149]:
+            - generic [ref=f363e150]: 통화 무제한 / 문자 무제한
+            - generic [ref=f363e151]: 부가통화 300분
+          - button "자세히" [ref=f363e153] [cursor=pointer]
+        - generic [ref=f363e156]: 약정 없음
+        - generic [ref=f363e165]: 유심 개통 가능 / eSIM 불가
+    - generic [ref=f363e174]:
+      - generic [ref=f363e175]:
+        - heading "KT엠모바일 후기" [level=2] [ref=f363e176]
+        - button "모두보기" [ref=f363e177] [cursor=pointer]
+      - generic [ref=f363e180]:
+        - generic [ref=f363e181]:
+          - generic [ref=f363e182]: "4.6"
+          - generic [ref=f363e188]: 1,328개
+        - generic [ref=f363e189]:
+          - generic [ref=f363e190]:
+            - generic [ref=f363e191]: 고객센터
+            - generic [ref=f363e192]: "4.7"
+          - generic [ref=f363e216]:
+            - generic [ref=f363e217]: 개통 과정
+            - generic [ref=f363e218]: "4.6"
+          - generic [ref=f363e242]:
+            - generic [ref=f363e243]: 개통 후 만족도
+            - generic [ref=f363e244]: "4.4"
+      - generic [ref=f363e267]:
+        - button "김*희 23일 전 개통하는데는 조금 어려움이 있었습니다. 젊은 사람들은 잘 하는데 나이드신 분들은 어렵네요. 조금 더 쉽게 설명해주시고 더 쉬운방법이 있으면 너무 좋겠습니다. 감사합니다." [ref=f363e269] [cursor=pointer]:
+          - generic [ref=f363e270]:
+            - generic [ref=f363e271]: 김*희
+            - generic [ref=f363e294]: 23일 전
+          - generic [ref=f363e295]: 개통하는데는 조금 어려움이 있었습니다. 젊은 사람들은 잘 하는데 나이드신 분들은 어렵네요. 조금 더 쉽게 설명해주시고 더 쉬운방법이 있으면 너무 좋겠습니다. 감사합니다.
+        - button "최*남 25일 전 이전에 알뜰폰 써본적이 있어 다시 알뜰폰으로 돌아왔어요 가격 저렴하고 통신도 문제 없이 아주 잘 터지고 좋아요 남편도 알뜰폰으로 같이 변경했어요 만족합니다^^" [ref=f363e297] [cursor=pointer]:
+          - generic [ref=f363e298]:
+            - generic [ref=f363e299]: 최*남
+            - generic [ref=f363e322]: 25일 전
+          - generic [ref=f363e323]: 이전에 알뜰폰 써본적이 있어 다시 알뜰폰으로 돌아왔어요 가격 저렴하고 통신도 문제 없이 아주 잘 터지고 좋아요 남편도 알뜰폰으로 같이 변경했어요 만족합니다^^
+    - generic [ref=f363e324]:
+      - heading "통신사 지급 사은품" [level=2] [ref=f363e325]
+      - generic [ref=f363e326]:
+        - generic [ref=f363e327]:
+          - link "밀리의 서재 평생 구독 0원 상세 페이지 새 탭 열기" [ref=f363e330] [cursor=pointer]:
+            - /url: /gift-group/1821?plan=false
+            - img "밀리의 서재" [ref=f363e331]
+            - generic [ref=f363e332]:
+              - generic [ref=f363e333]: 밀리의 서재 평생 구독 0원
+              - generic [ref=f363e334]: 대상 요금제 개통 후 혜택 지급 기간 동안 요금제 유지한 고객 대상
+          - link "LTE 데이터 추가제공 10GB(24개월) 상세 페이지 새 탭 열기" [ref=f363e337] [cursor=pointer]:
+            - /url: /gift-group/1782?plan=false
+            - img "데이터 10GB 추가" [ref=f363e338]
+            - generic [ref=f363e339]:
+              - generic [ref=f363e340]: LTE 데이터 추가제공 10GB(24개월)
+              - generic [ref=f363e341]: 대상 요금제 개통 후 요금제 유지한 고객 대상
+        - button "펼쳐보기" [ref=f363e343] [cursor=pointer]
+    - heading [level=3] [ref=f363e353]:
+      - button [ref=f363e354] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f363e356]
+    - generic [ref=f363e362]:
+      - link [ref=f363e363] [cursor=pointer]:
+        - /url: /mvnos/3?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "KT엠모바일 로고" [ref=f363e364]
+      - button "잘못된 정보 제보" [ref=f363e365] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f363e366]

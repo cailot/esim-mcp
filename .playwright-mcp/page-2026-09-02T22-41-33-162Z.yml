@@ -1,0 +1,257 @@
+- generic [active] [ref=f105e1]:
+  - banner [ref=f105e2]:
+    - generic [ref=f105e6]:
+      - link [ref=f105e7] [cursor=pointer]:
+        - /url: /
+        - img "logo.png" [ref=f105e8]
+      - generic [ref=f105e9]:
+        - list [ref=f105e10]:
+          - listitem [ref=f105e11] [cursor=pointer]:
+            - link "개통안내" [ref=f105e12]:
+              - /url: /active_info.do
+          - listitem [ref=f105e13] [cursor=pointer]:
+            - link "요금제" [ref=f105e14]:
+              - /url: /rate_plan.do
+          - listitem [ref=f105e15] [cursor=pointer]:
+            - link "유심구매" [ref=f105e16]:
+              - /url: /buy/sim.do
+          - listitem [ref=f105e17] [cursor=pointer]:
+            - link "선불서비스" [ref=f105e18]:
+              - /url: /charge/charge_account.do
+          - listitem [ref=f105e19] [cursor=pointer]:
+            - link "이벤트" [ref=f105e20]:
+              - /url: /event.do
+          - listitem [ref=f105e21] [cursor=pointer]:
+            - link "고객지원" [ref=f105e22]:
+              - /url: /online_cs.do
+          - listitem [ref=f105e23] [cursor=pointer]:
+            - link "마이페이지" [ref=f105e24]:
+              - /url: /btcview.do
+        - link "로그인" [ref=f105e25] [cursor=pointer]:
+          - /url: /sign.do
+        - button [ref=f105e26] [cursor=pointer]:
+          - img "메뉴" [ref=f105e27]
+  - generic [ref=f105e28]:
+    - generic [ref=f105e30]:
+      - group "1 / 1" [ref=f105e32]:
+        - link:
+          - /url: https://www.dosirakmobile.com/event_view.do?eventId=148&eventMod=ongoing
+        - link:
+          - /url: https://www.dosirakmobile.com/event_view.do?eventId=148&eventMod=ongoing
+        - link [ref=f105e33] [cursor=pointer]:
+          - /url: https://www.dosirakmobile.com/event_view.do?eventId=148&eventMod=ongoing
+          - img "[바로유심 9월 이벤트] 바로유심으로 바로 가입하고 2만원 혜택 받아가세요!" [ref=f105e34]
+      - text: prev next
+    - generic [ref=f105e37]:
+      - generic [ref=f105e38]:
+        - paragraph [ref=f105e40]: 도시락모바일이 준비한다양한 혜택의 요금제를 만나보세요.
+        - link "요금제 보러가기" [ref=f105e42] [cursor=pointer]:
+          - /url: /rate_plan.do
+      - list [ref=f105e43]:
+        - listitem [ref=f105e44]:
+          - link [ref=f105e45] [cursor=pointer]:
+            - /url: /benefit.do
+            - img "도시락만의 혜택" [ref=f105e47]
+            - text: 도시락만의 혜택
+        - listitem [ref=f105e48]:
+          - link [ref=f105e49] [cursor=pointer]:
+            - /url: /event.do
+            - img "이달의 이벤트" [ref=f105e51]
+            - text: 이달의 이벤트
+        - listitem [ref=f105e52]:
+          - link [ref=f105e53] [cursor=pointer]:
+            - /url: /btcview.do
+            - img "마이페이지" [ref=f105e55]
+            - text: 마이페이지
+        - listitem [ref=f105e56]:
+          - link [ref=f105e57] [cursor=pointer]:
+            - /url: /online_cs.do
+            - img "고객센터" [ref=f105e59]
+            - text: 고객센터
+    - generic [ref=f105e61]:
+      - generic [ref=f105e62]:
+        - heading "도시락모바일 요금제" [level=2] [ref=f105e63]
+        - link "전체보기" [ref=f105e64] [cursor=pointer]:
+          - /url: /rate_plan.do
+      - generic [ref=f105e66]:
+        - group "1 / 3" [ref=f105e67]:
+          - link "LGU+ 후불 5G 도시락 L 300분 15G 15GB 통화 300분 문자 300건 월 38,500원" [ref=f105e68] [cursor=pointer]:
+            - /url: /rateplan_view.do?no=452
+            - generic [ref=f105e69]:
+              - generic [ref=f105e70]:
+                - generic [ref=f105e71]: LGU+
+                - generic [ref=f105e72]: 후불
+              - paragraph [ref=f105e73]: 5G 도시락 L 300분 15G
+            - list [ref=f105e74]:
+              - listitem [ref=f105e75]: 15GB
+              - listitem [ref=f105e76]:
+                - generic [ref=f105e77]: 통화
+                - text: 300분
+              - listitem [ref=f105e78]:
+                - generic [ref=f105e79]: 문자
+                - text: 300건
+            - paragraph [ref=f105e82]: 월 38,500원
+        - group "2 / 3" [ref=f105e83]:
+          - link "LGU+ 후불 5G 도시락 L 80G+ 80GB +1Mbps 무제한 통화 기본제공 문자 기본제공 월 59,400원" [ref=f105e84] [cursor=pointer]:
+            - /url: /rateplan_view.do?no=451
+            - generic [ref=f105e85]:
+              - generic [ref=f105e86]:
+                - generic [ref=f105e87]: LGU+
+                - generic [ref=f105e88]: 후불
+              - paragraph [ref=f105e89]: 5G 도시락 L 80G+
+            - list [ref=f105e90]:
+              - listitem [ref=f105e91]:
+                - text: 80GB
+                - generic [ref=f105e92]: +1Mbps 무제한
+              - listitem [ref=f105e93]:
+                - generic [ref=f105e94]: 통화
+                - text: 기본제공
+              - listitem [ref=f105e95]:
+                - generic [ref=f105e96]: 문자
+                - text: 기본제공
+            - paragraph [ref=f105e99]: 월 59,400원
+        - group "3 / 3" [ref=f105e100]:
+          - link "LGU+ 후불 5G 도시락 L 95G+ 95GB +3Mbps 무제한 통화 기본제공 문자 기본제공 월 61,600원" [ref=f105e101] [cursor=pointer]:
+            - /url: /rateplan_view.do?no=450
+            - generic [ref=f105e102]:
+              - generic [ref=f105e103]:
+                - generic [ref=f105e104]: LGU+
+                - generic [ref=f105e105]: 후불
+              - paragraph [ref=f105e106]: 5G 도시락 L 95G+
+            - list [ref=f105e107]:
+              - listitem [ref=f105e108]:
+                - text: 95GB
+                - generic [ref=f105e109]: +3Mbps 무제한
+              - listitem [ref=f105e110]:
+                - generic [ref=f105e111]: 통화
+                - text: 기본제공
+              - listitem [ref=f105e112]:
+                - generic [ref=f105e113]: 문자
+                - text: 기본제공
+            - paragraph [ref=f105e116]: 월 61,600원
+    - generic [ref=f105e117]:
+      - generic [ref=f105e119]:
+        - heading "지금 받을 수 있는 혜택" [level=2] [ref=f105e120]
+        - link "전체보기" [ref=f105e121] [cursor=pointer]:
+          - /url: /event.do
+      - generic [ref=f105e124]:
+        - group "1 / 2" [ref=f105e125]:
+          - link [ref=f105e126] [cursor=pointer]:
+            - /url: /event_view.do?eventId=148
+            - img "[바로유심 9월 이벤트] 바로유심으로 바로 가입하고 2만원 혜택 받아가세요!" [ref=f105e128]
+        - group "2 / 2" [ref=f105e129]:
+          - link [ref=f105e130] [cursor=pointer]:
+            - /url: /event_view.do?eventId=150
+            - img "9월 BC카드 혜택" [ref=f105e132]
+    - generic [ref=f105e133]:
+      - generic [ref=f105e135]:
+        - heading "고객님의 솔직 후기" [level=2] [ref=f105e136]
+        - link "전체보기" [ref=f105e137] [cursor=pointer]:
+          - /url: /review.do
+      - generic [ref=f105e140]:
+        - group "1 / 4" [ref=f105e141]:
+          - link "이** 2026.07.09 요금 부담은 줄었는데 통화나 데이터 사용에는 불편함이 없어서 만족스럽게 이용하고 있습니다. 알뜰폰으로 바꾸길 잘한 것 같아요." [ref=f105e142] [cursor=pointer]:
+            - /url: /review.do
+            - generic [ref=f105e150]:
+              - text: 이**
+              - generic [ref=f105e151]: 2026.07.09
+            - generic [ref=f105e152]: 요금 부담은 줄었는데 통화나 데이터 사용에는 불편함이 없어서 만족스럽게 이용하고 있습니다. 알뜰폰으로 바꾸길 잘한 것 같아요.
+        - group "2 / 4" [ref=f105e154]:
+          - link "진** 2026.06.27 KT만 19년 사용하다가 오늘 넘어왔습니다 기존 KT에서는 4만원에 데이터 4G 무제한 통화 였는데, 통화가 그리 많이 필요하지 않더군요 4만원에 데이터 4G면 만원에 1G꼴인데 너무 해요 KT 통화음질, 데이터 어느하나 부족하지 않습니다~ 어서 기존 통신사 탈출하시고 알뜰폰으로 넘어오세요~ 가계 통신비 아끼는 1등 수단입니다~" [ref=f105e155] [cursor=pointer]:
+            - /url: /review.do
+            - generic [ref=f105e163]:
+              - text: 진**
+              - generic [ref=f105e164]: 2026.06.27
+            - generic [ref=f105e165]: KT만 19년 사용하다가 오늘 넘어왔습니다 기존 KT에서는 4만원에 데이터 4G 무제한 통화 였는데, 통화가 그리 많이 필요하지 않더군요 4만원에 데이터 4G면 만원에 1G꼴인데 너무 해요 KT 통화음질, 데이터 어느하나 부족하지 않습니다~ 어서 기존 통신사 탈출하시고 알뜰폰으로 넘어오세요~ 가계 통신비 아끼는 1등 수단입니다~
+        - group "3 / 4" [ref=f105e167]:
+          - link "박** 2026.06.26 적어도 3M정도 나오는 속도면 좋겠는데, 일단 1M로 개통했습니다. 요금제 새로 나오면 알아보고 바꿔보려구요 무제한 요금제들이 더 늘었으면 좋겠네요" [ref=f105e168] [cursor=pointer]:
+            - /url: /review.do
+            - generic [ref=f105e176]:
+              - text: 박**
+              - generic [ref=f105e177]: 2026.06.26
+            - generic [ref=f105e178]: 적어도 3M정도 나오는 속도면 좋겠는데, 일단 1M로 개통했습니다. 요금제 새로 나오면 알아보고 바꿔보려구요 무제한 요금제들이 더 늘었으면 좋겠네요
+        - group "4 / 4" [ref=f105e180]:
+          - link "백** 2026.06.24 이번에 라우터 기기하나 사서 차량에 비치할려고 개통했습니다. 우선 이정도 데이터면 차량내에서 네비보거나 아들내미 동영상보는데 문제안될듯하네요 데이터 제한걸어보고 써보겠습니다." [ref=f105e181] [cursor=pointer]:
+            - /url: /review.do
+            - generic [ref=f105e189]:
+              - text: 백**
+              - generic [ref=f105e190]: 2026.06.24
+            - generic [ref=f105e191]: 이번에 라우터 기기하나 사서 차량에 비치할려고 개통했습니다. 우선 이정도 데이터면 차량내에서 네비보거나 아들내미 동영상보는데 문제안될듯하네요 데이터 제한걸어보고 써보겠습니다.
+    - generic [ref=f105e195]:
+      - generic [ref=f105e196]:
+        - generic [ref=f105e197]:
+          - heading "공지사항" [level=2] [ref=f105e198]
+          - link "전체보기" [ref=f105e199] [cursor=pointer]:
+            - /url: /notice.do
+        - list [ref=f105e200]:
+          - listitem [ref=f105e201]:
+            - link "리뉴얼 이벤트 당첨 안내" [ref=f105e202] [cursor=pointer]:
+              - /url: /notice_view.do?notId=114
+            - generic [ref=f105e203]: 2026.08.31
+          - listitem [ref=f105e204]:
+            - link "이용약관 별표 개정 안내" [ref=f105e205] [cursor=pointer]:
+              - /url: /notice_view.do?notId=113
+            - generic [ref=f105e206]: 2026.08.31
+          - listitem [ref=f105e207]:
+            - link "이용약관 개정 안내" [ref=f105e208] [cursor=pointer]:
+              - /url: /notice_view.do?notId=112
+            - generic [ref=f105e209]: 2026.08.19
+          - listitem [ref=f105e210]:
+            - link "이용약관 별표 개정 안내" [ref=f105e211] [cursor=pointer]:
+              - /url: /notice_view.do?notId=111
+            - generic [ref=f105e212]: 2026.07.31
+      - generic [ref=f105e213]:
+        - heading "고객센터" [level=2] [ref=f105e215]
+        - list [ref=f105e216]:
+          - listitem [ref=f105e217]:
+            - paragraph [ref=f105e218]: 도시락모바일에서 114(무료)
+          - listitem [ref=f105e219]:
+            - generic [ref=f105e220]: LGU+
+            - generic [ref=f105e221]: 1661-5646(유료) / lg@widemobile.com
+          - listitem [ref=f105e222]:
+            - generic [ref=f105e223]: KT
+            - generic [ref=f105e224]: 1661-5146(유료) / kt@widemobile.com
+          - listitem [ref=f105e225]:
+            - generic [ref=f105e226]: 채널상담
+            - link "카카오톡 상담하기" [ref=f105e228] [cursor=pointer]:
+              - /url: https://www.thecloudgate.io/kakao/chat/open?plusFriendId=%40%EB%8F%84%EC%8B%9C%EB%9D%BD%EB%AA%A8%EB%B0%94%EC%9D%BC&brandId=7108
+          - listitem [ref=f105e229]:
+            - generic [ref=f105e230]:
+              - text: 운영시간 평일 09:00 ~ 18:00
+              - paragraph [ref=f105e231]: 점심시간 12:00 ~ 13:00 / 주말,공휴일 제외
+  - contentinfo [ref=f105e232]:
+    - generic [ref=f105e233]:
+      - generic [ref=f105e234]:
+        - generic [ref=f105e235]:
+          - img "도시락모바일 로고" [ref=f105e236]
+          - button "패밀리 사이트" [ref=f105e238] [cursor=pointer]
+        - list [ref=f105e239]:
+          - listitem [ref=f105e240]:
+            - generic [ref=f105e241]: (주)와이드모바일
+            - generic [ref=f105e242]: 대표 김만중
+            - generic [ref=f105e243]: 주소 서울시 서대문구 통일로 135 충정빌딩 6층
+          - listitem [ref=f105e244]:
+            - generic [ref=f105e245]: 사업자등록번호 121-81-66458
+            - generic [ref=f105e246]: 통신판매업신고 제 2018-서울서대문-0301호
+          - listitem [ref=f105e247]:
+            - generic [ref=f105e248]: 고객센터 운영시간 평일 09:00 ~ 18:00
+            - generic [ref=f105e249]: 도시락모바일 이용고객 114(무료)
+            - generic [ref=f105e250]: LGU+ 1661-5646(유료)
+            - generic [ref=f105e251]: KT 1661-5146(유료)
+            - generic [ref=f105e252]: Copyright © WIDEMOBILE INC. Allright Reserved.
+      - list [ref=f105e254]:
+        - listitem [ref=f105e255]:
+          - link "회사소개" [ref=f105e256] [cursor=pointer]:
+            - /url: https://dosiraktong.com/
+        - listitem [ref=f105e257]:
+          - link "이용약관" [ref=f105e258] [cursor=pointer]:
+            - /url: /contact/policy.do
+        - listitem [ref=f105e259]:
+          - link "개인정보처리방침" [ref=f105e260] [cursor=pointer]:
+            - /url: /contact/indv.do
+        - listitem [ref=f105e261]:
+          - link "불법스팸대응센터" [ref=f105e262] [cursor=pointer]:
+            - /url: https://spam.kisa.or.kr/spam/main.do
+        - listitem [ref=f105e263]:
+          - link "명의도용방지서비스" [ref=f105e264] [cursor=pointer]:
+            - /url: https://msafer.or.kr/index.do

@@ -1,0 +1,40 @@
+- generic [active]:
+  - generic [ref=f2e1]:
+    - banner [ref=f2e2]:
+      - generic [ref=f2e3]:
+        - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f2e5] [cursor=pointer]:
+          - /url: /
+          - generic:
+            - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+        - navigation [ref=f2e6]:
+          - list [ref=f2e7]:
+            - listitem [ref=f2e8]:
+              - link "홈" [ref=f2e9] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e10]:
+              - link "요금제" [ref=f2e11] [cursor=pointer]:
+                - /url: /plans
+            - listitem [ref=f2e12]:
+              - link "휴대폰" [ref=f2e13] [cursor=pointer]:
+                - /url: /phones
+            - listitem [ref=f2e14]:
+              - link "인터넷" [ref=f2e15] [cursor=pointer]:
+                - /url: /internets
+            - listitem [ref=f2e16]:
+              - link "가전렌탈 NEW" [ref=f2e17] [cursor=pointer]:
+                - /url: /rental
+                - text: 가전렌탈
+                - generic [ref=f2e18]: NEW
+            - listitem [ref=f2e19]:
+              - link "이벤트" [ref=f2e20] [cursor=pointer]:
+                - /url: /event
+            - listitem [ref=f2e21]:
+              - link "마이페이지" [ref=f2e22] [cursor=pointer]:
+                - /url: /mypage
+    - generic [ref=f2e24]:
+      - generic [ref=f2e82]:
+        - generic [ref=f2e83]: 페이지를 찾을 수 없어요
+        - generic [ref=f2e84]: 일시적으로 사용할 수 없거나 더 이상 존재하지 않는 페이지예요. 홈으로 돌아가 볼까요?
+      - button "홈으로 가기" [ref=f2e86] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f2e89]

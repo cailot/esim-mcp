@@ -1,0 +1,1670 @@
+- generic [active] [ref=f189e1]:
+  - text: tplus
+  - generic [ref=f189e4]:
+    - generic [ref=f189e6]:
+      - heading [level=1] [ref=f189e7]:
+        - link [ref=f189e8] [cursor=pointer]:
+          - /url: /
+          - img "티플러스 모바일" [ref=f189e9]
+      - list [ref=f189e11]:
+        - listitem [ref=f189e12]:
+          - link "요금제" [ref=f189e13] [cursor=pointer]:
+            - /url: /main/rate/join
+        - listitem [ref=f189e14]:
+          - link "휴대폰" [ref=f189e15] [cursor=pointer]:
+            - /url: /main/phone/phone_instl_list
+        - listitem [ref=f189e16]:
+          - link "서비스" [ref=f189e17] [cursor=pointer]:
+            - /url: /main/service/usim
+        - listitem [ref=f189e18]:
+          - link "이벤트" [ref=f189e19] [cursor=pointer]:
+            - /url: /main/event/event?eventtp=ing
+        - listitem [ref=f189e20]:
+          - link "고객지원" [ref=f189e21] [cursor=pointer]:
+            - /url: /main/customer/faq
+        - listitem [ref=f189e22]:
+          - link "티플러스" [ref=f189e23] [cursor=pointer]:
+            - /url: /main/company/intd_brand
+        - listitem [ref=f189e24]:
+          - link "데이터로밍" [ref=f189e25] [cursor=pointer]:
+            - /url: https://www.tplro.com/
+        - listitem [ref=f189e26]:
+          - link "마이페이지" [ref=f189e27] [cursor=pointer]:
+            - /url: /main/member/member-info
+      - generic [ref=f189e29]:
+        - button "로그인" [ref=f189e30] [cursor=pointer]
+        - button "언어 선택" [ref=f189e32] [cursor=pointer]:
+          - generic [ref=f189e33]: KOR
+        - button "전체보기" [ref=f189e34] [cursor=pointer]
+        - button "검색" [ref=f189e35] [cursor=pointer]
+    - generic [ref=f189e37]:
+      - generic [ref=f189e38]:
+        - textbox "검색어를 입력하세요" [ref=f189e39]
+        - button [ref=f189e40] [cursor=pointer]
+      - button "×" [ref=f189e42] [cursor=pointer]
+    - generic [ref=f189e46]:
+      - generic [ref=f189e47]:
+        - link [ref=f189e49] [cursor=pointer]:
+          - /url: /
+          - img "티플러스 모바일" [ref=f189e50]
+        - list [ref=f189e51]:
+          - listitem [ref=f189e52]:
+            - link "로그인" [ref=f189e53] [cursor=pointer]:
+              - /url: /main/member/login
+            - link "회원가입" [ref=f189e54] [cursor=pointer]:
+              - /url: /main/member/signup_agree
+            - link "아이디/비밀번호 찾기" [ref=f189e55] [cursor=pointer]:
+              - /url: /main/member/find
+        - button "닫기" [ref=f189e57] [cursor=pointer]
+      - list [ref=f189e58]:
+        - listitem [ref=f189e59]:
+          - button "요금제"
+          - list [ref=f189e60]:
+            - listitem [ref=f189e61]:
+              - link "요금제 가입" [ref=f189e62] [cursor=pointer]:
+                - /url: /main/rate/join
+            - listitem [ref=f189e63]:
+              - link "유심 구매" [ref=f189e64] [cursor=pointer]:
+                - /url: /main/rate/usim
+        - listitem [ref=f189e65]:
+          - button "휴대폰"
+          - list [ref=f189e66]:
+            - listitem [ref=f189e67]:
+              - link "단말 요금제" [ref=f189e68] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_list
+        - listitem [ref=f189e69]:
+          - button "서비스"
+          - list [ref=f189e70]:
+            - listitem [ref=f189e71]:
+              - link "SIM 소개" [ref=f189e72] [cursor=pointer]:
+                - /url: /main/service/usim
+            - listitem [ref=f189e73]:
+              - link "개통 방법" [ref=f189e74] [cursor=pointer]:
+                - /url: /main/service/way_opening
+            - listitem [ref=f189e75]:
+              - link "부가서비스" [ref=f189e76] [cursor=pointer]:
+                - /url: /main/service/additional
+        - listitem [ref=f189e77]:
+          - button "이벤트"
+          - list [ref=f189e78]:
+            - listitem [ref=f189e79]:
+              - link "진행 이벤트" [ref=f189e80] [cursor=pointer]:
+                - /url: /main/event/event?eventtp=ing
+            - listitem [ref=f189e81]:
+              - link "제휴 혜택" [ref=f189e82] [cursor=pointer]:
+                - /url: /main/event/event?eventtp=winner
+            - listitem [ref=f189e83]:
+              - link "지난 이벤트" [ref=f189e84] [cursor=pointer]:
+                - /url: /main/event/event?eventtp=end
+        - listitem [ref=f189e85]:
+          - button "고객지원"
+          - list [ref=f189e86]:
+            - listitem [ref=f189e87]:
+              - link "자주하는 질문" [ref=f189e88] [cursor=pointer]:
+                - /url: /main/customer/faq
+            - listitem [ref=f189e89]:
+              - link "서식지 양식" [ref=f189e90] [cursor=pointer]:
+                - /url: /main/customer/doc
+            - listitem [ref=f189e91]:
+              - link "1:1 상담" [ref=f189e92] [cursor=pointer]:
+                - /url: /main/customer/inqr
+            - listitem [ref=f189e93]:
+              - link "공지사항" [ref=f189e94] [cursor=pointer]:
+                - /url: /main/customer/notice
+            - listitem [ref=f189e95]:
+              - link "가입이용 안내" [ref=f189e96] [cursor=pointer]:
+                - /url: /main/customer/cs_center
+            - listitem [ref=f189e97]:
+              - link "피해예방 정보" [ref=f189e98] [cursor=pointer]:
+                - /url: /main/customer/usrpr_guide
+            - listitem [ref=f189e99]:
+              - link "명의도용 신고" [ref=f189e100] [cursor=pointer]:
+                - /url: /main/support/cs_report
+            - listitem [ref=f189e101]:
+              - link "SKT 단말등록" [ref=f189e102] [cursor=pointer]:
+                - /url: /main/customer/reg_imei
+            - listitem [ref=f189e103]:
+              - link "KT유심 교체" [ref=f189e104] [cursor=pointer]:
+                - /url: /main/customer/kt_usim
+        - listitem [ref=f189e105]:
+          - button "티플러스"
+          - list [ref=f189e106]:
+            - listitem [ref=f189e107]:
+              - link "브랜드 소개" [ref=f189e108] [cursor=pointer]:
+                - /url: /main/company/intd_brand
+            - listitem [ref=f189e109]:
+              - link "티플 소식" [ref=f189e110] [cursor=pointer]:
+                - /url: /main/company/br
+            - listitem [ref=f189e111]:
+              - link "제휴 문의" [ref=f189e112] [cursor=pointer]:
+                - /url: /main/company/partnership
+        - listitem [ref=f189e113]:
+          - button "데이터로밍"
+          - list [ref=f189e114]:
+            - listitem [ref=f189e115]:
+              - link "데이터로밍 ↗" [ref=f189e116] [cursor=pointer]:
+                - /url: https://www.tplro.com/
+        - listitem [ref=f189e117]:
+          - button "마이페이지"
+          - list [ref=f189e118]:
+            - listitem [ref=f189e119]:
+              - link "가입정보" [ref=f189e120] [cursor=pointer]:
+                - /url: /main/member/member-info
+              - list [ref=f189e121]:
+                - listitem [ref=f189e122]:
+                  - link "가입정보" [ref=f189e123] [cursor=pointer]:
+                    - /url: /main/member/member-info
+            - listitem [ref=f189e124]:
+              - link "요금조회/납부" [ref=f189e125] [cursor=pointer]:
+                - /url: /main/member/usage-new
+              - list [ref=f189e126]:
+                - listitem [ref=f189e127]:
+                  - link "청구서" [ref=f189e128] [cursor=pointer]:
+                    - /url: /main/member/usage-new
+                - listitem [ref=f189e129]:
+                  - link "명세서 유형 변경" [ref=f189e130] [cursor=pointer]:
+                    - /url: /main/member/bill-type-change
+                - listitem [ref=f189e131]:
+                  - link "납부 정보/변경" [ref=f189e132] [cursor=pointer]:
+                    - /url: /main/member/amount-new
+                - listitem [ref=f189e133]:
+                  - link "납부/미납 내역" [ref=f189e134] [cursor=pointer]:
+                    - /url: /main/member/pastdue-new
+                - listitem [ref=f189e135]:
+                  - link "이용 요금 납부 안내" [ref=f189e136] [cursor=pointer]:
+                    - /url: /main/member/payment-info
+                - listitem [ref=f189e137]:
+                  - link "가상계좌 확인" [ref=f189e138] [cursor=pointer]:
+                    - /url: /main/member/avrtacnt-new
+            - listitem [ref=f189e139]:
+              - link "증빙서류" [ref=f189e140] [cursor=pointer]:
+                - /url: /main/member/cert-issue
+              - list [ref=f189e141]:
+                - listitem [ref=f189e142]:
+                  - link "가입/이용 증명서" [ref=f189e143] [cursor=pointer]:
+                    - /url: /main/member/cert-issue
+            - listitem [ref=f189e144]:
+              - link "신청정보" [ref=f189e145] [cursor=pointer]:
+                - /url: /main/member/rate
+              - list [ref=f189e146]:
+                - listitem [ref=f189e147]:
+                  - link "관심요금제" [ref=f189e148] [cursor=pointer]:
+                    - /url: /main/member/rate
+                - listitem [ref=f189e149]:
+                  - link "요금제 신청 내역" [ref=f189e150] [cursor=pointer]:
+                    - /url: /main/member/apply_history
+                - listitem [ref=f189e151]:
+                  - link "휴대폰 구매내역" [ref=f189e152] [cursor=pointer]:
+                    - /url: /main/order/buy_ph_list
+            - listitem [ref=f189e153]:
+              - link "회원정보" [ref=f189e154] [cursor=pointer]:
+                - /url: /main/member/main-number
+              - list [ref=f189e155]:
+                - listitem [ref=f189e156]:
+                  - link "대표번호 지정" [ref=f189e157] [cursor=pointer]:
+                    - /url: /main/member/main-number
+                - listitem [ref=f189e158]:
+                  - link "광고 수신동의 변경" [ref=f189e159] [cursor=pointer]:
+                    - /url: /main/member/my-consent
+    - generic [ref=f189e160]:
+      - article [ref=f189e161]:
+        - generic [ref=f189e163]:
+          - generic [ref=f189e165]:
+            - generic [ref=f189e166]:
+              - group "16 / 16" [ref=f189e167]:
+                - link [ref=f189e168] [cursor=pointer]:
+                  - /url: https://nsl.yegaramsb.co.kr/lon/inq/loanDetail.frm?LINK_ACT=BBS_SELECT&txGbnCd=P&PRD_TYCD=L&PDCD=P000000116&FOREIN_YN=Y&AD_NO=220
+                  - img "9월 예가람" [ref=f189e169]
+              - group "1 / 16" [ref=f189e170]:
+                - link [ref=f189e171] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=79E31202DCB2F61F887FEABEB65A5A0F
+                  - img "9월 한가위 감사제" [ref=f189e172]
+                  - generic [ref=f189e173]:
+                    - paragraph [ref=f189e174]: 9월 한가위 감사제
+                    - paragraph [ref=f189e175]: 가을 맞이 혜택 어택!
+              - group "2 / 16" [ref=f189e176]:
+                - link [ref=f189e177] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=3D5248A170AFFA1CB53768DD734C5190
+                  - img "KT 베스트 요금제" [ref=f189e178]
+                  - paragraph [ref=f189e180]: KT 베스트 요금제
+                  - generic [ref=f189e181]:
+                    - generic [ref=f189e182]:
+                      - generic [ref=f189e183]:
+                        - paragraph [ref=f189e184]: 5G 특가
+                        - separator [ref=f189e185]
+                      - paragraph [ref=f189e186]: 20GB | 350분
+                      - paragraph [ref=f189e187]:
+                        - text: 월
+                        - strong [ref=f189e188]: "100"
+                        - text: 원
+                    - generic [ref=f189e189]:
+                      - generic [ref=f189e190]:
+                        - paragraph [ref=f189e191]: 밀리 ＆ 올리브영 혜택
+                        - separator [ref=f189e192]
+                      - paragraph [ref=f189e193]: 100GB+5Mbps | 기본제공
+                      - paragraph [ref=f189e194]:
+                        - text: 월
+                        - strong [ref=f189e195]: 11,900
+                        - text: 원
+                    - generic [ref=f189e196]:
+                      - generic [ref=f189e197]:
+                        - paragraph [ref=f189e198]: CU ＆ 올리브영 혜택
+                        - separator [ref=f189e199]
+                      - paragraph [ref=f189e200]: 100GB+5Mbps | 기본제공
+                      - paragraph [ref=f189e201]:
+                        - text: 월
+                        - strong [ref=f189e202]: 11,900
+                        - text: 원
+              - group "3 / 16" [ref=f189e203]:
+                - link [ref=f189e204] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=0B38F9553A5F1C5D5C06381C49E9E318
+                  - img "LG U＋ 베스트 요금제" [ref=f189e205]
+                  - paragraph [ref=f189e207]: LG U＋ 베스트 요금제
+                  - generic [ref=f189e208]:
+                    - generic [ref=f189e209]:
+                      - generic [ref=f189e210]:
+                        - paragraph [ref=f189e211]: 5G 특가
+                        - separator [ref=f189e212]
+                      - paragraph [ref=f189e213]: 15GB+1Mbps | 300분
+                      - paragraph [ref=f189e214]:
+                        - text: 월
+                        - strong [ref=f189e215]: "900"
+                        - text: 원
+                    - generic [ref=f189e216]:
+                      - generic [ref=f189e217]:
+                        - paragraph [ref=f189e218]: 평생 할인
+                        - separator [ref=f189e219]
+                      - paragraph [ref=f189e220]: 6GB | 300분
+                      - paragraph [ref=f189e221]:
+                        - text: 월
+                        - strong [ref=f189e222]: 1,900
+                        - text: 원
+                    - generic [ref=f189e223]:
+                      - generic [ref=f189e224]:
+                        - paragraph [ref=f189e225]: 평생 할인
+                        - separator [ref=f189e226]
+                      - paragraph [ref=f189e227]: 150GB+5Mbps | 기본제공
+                      - paragraph [ref=f189e228]:
+                        - text: 월
+                        - strong [ref=f189e229]: 25,900
+                        - text: 원
+              - group "4 / 16" [ref=f189e230]:
+                - link [ref=f189e231] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=CF826471F67FDAEDD8FB1AE2FDDACB66
+                  - img "SKT 베스트 요금제" [ref=f189e232]
+                  - paragraph [ref=f189e234]: SKT 베스트 요금제
+                  - generic [ref=f189e235]:
+                    - generic [ref=f189e236]:
+                      - generic [ref=f189e237]:
+                        - paragraph [ref=f189e238]: 쇼핑엔티 쿠폰
+                        - separator [ref=f189e239]
+                      - paragraph [ref=f189e240]: 15GB | 350분
+                      - paragraph [ref=f189e241]:
+                        - text: 월
+                        - strong [ref=f189e242]: 1,900
+                        - text: 원
+                    - generic [ref=f189e243]:
+                      - generic [ref=f189e244]:
+                        - paragraph [ref=f189e245]: 쇼핑엔티 쿠폰 ＆ 평생 할인
+                        - separator [ref=f189e246]
+                      - paragraph [ref=f189e247]: 6GB | 300분
+                      - paragraph [ref=f189e248]:
+                        - text: 월
+                        - strong [ref=f189e249]: 1,900
+                        - text: 원
+                    - generic [ref=f189e250]:
+                      - generic [ref=f189e251]:
+                        - paragraph [ref=f189e252]: 올리브영 상품권
+                        - separator [ref=f189e253]
+                      - paragraph [ref=f189e254]: 100GB+5Mbps | 기본제공
+                      - paragraph [ref=f189e255]:
+                        - text: 월
+                        - strong [ref=f189e256]: 24,000
+                        - text: 원
+              - group "5 / 16" [ref=f189e257]:
+                - link [ref=f189e258] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/phone/phone_instl_list
+                  - img "단말 할부 요금제" [ref=f189e259]
+                  - paragraph [ref=f189e261]: 단말 할부 요금제
+                  - generic [ref=f189e262]:
+                    - generic [ref=f189e263]:
+                      - img "갤럭시 S24 5G" [ref=f189e265]
+                      - generic [ref=f189e266]:
+                        - paragraph [ref=f189e268]: 갤럭시 S24 5G
+                        - paragraph [ref=f189e269]: 6GB | 350분
+                        - paragraph [ref=f189e270]:
+                          - text: 월
+                          - strong [ref=f189e271]: 32,234
+                          - text: 원
+                    - generic [ref=f189e272]:
+                      - img "갤럭시 S24＋ 5G" [ref=f189e274]
+                      - generic [ref=f189e275]:
+                        - paragraph [ref=f189e277]: 갤럭시 S24＋ 5G
+                        - paragraph [ref=f189e278]: 15GB | 350분
+                        - paragraph [ref=f189e279]:
+                          - text: 월
+                          - strong [ref=f189e280]: 41,190
+                          - text: 원
+                    - generic [ref=f189e281]:
+                      - img "갤럭시 S24 Ultra 5G" [ref=f189e283]
+                      - generic [ref=f189e284]:
+                        - paragraph [ref=f189e286]: 갤럭시 S24 Ultra 5G
+                        - paragraph [ref=f189e287]: 6GB | 350분
+                        - paragraph [ref=f189e288]:
+                          - text: 월
+                          - strong [ref=f189e289]: 53,469
+                          - text: 원
+              - group "6 / 16" [ref=f189e290]:
+                - link [ref=f189e291] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=09ADC7EB1ED35D624B2C9BB6293720EA
+                  - img "매월 편의점 트리플 혜택" [ref=f189e292]
+                  - generic [ref=f189e293]:
+                    - paragraph [ref=f189e294]: 매월 편의점 트리플 혜택
+                    - paragraph [ref=f189e295]: CU 할인 ＋ 상품권 ＋ 할인권
+              - group "7 / 16" [ref=f189e296]:
+                - link [ref=f189e297] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=E94D4D237939AFFD1E439F74DA85C320&eventtp=ing
+                  - img "알뜰 스타벅스 혜택 요금제" [ref=f189e298]
+                  - generic [ref=f189e299]:
+                    - paragraph [ref=f189e300]: 알뜰 스타벅스 혜택 요금제
+                    - paragraph [ref=f189e301]: 매월 교환권 5,000원 증정!
+              - group "8 / 16" [ref=f189e302]:
+                - link [ref=f189e303] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=396BC48A4A088C29FDEFEFE1F020002C
+                  - img "문화생활 올인원 요금제" [ref=f189e304]
+                  - generic [ref=f189e305]:
+                    - paragraph [ref=f189e306]: 문화생활 올인원 요금제
+                    - paragraph [ref=f189e307]: 매월 북앤라이프 도서문화상품권 증정
+              - group "9 / 16" [ref=f189e308]:
+                - link [ref=f189e309] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=332BBD217B7D8EB6B9D7F3F9804543A1
+                  - img "알뜰폰도 CGV 혜택받아요" [ref=f189e310]
+                  - generic [ref=f189e311]:
+                    - paragraph [ref=f189e312]: 알뜰폰도 CGV 혜택받아요
+                    - paragraph [ref=f189e313]: 매월 영화 관람권 ＆ 콤보 할인
+              - group "10 / 16" [ref=f189e314]:
+                - link [ref=f189e315] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=61215CBCB5182DD1D43A34ADCC73717A
+                  - img "알뜰살뜰 다이소 혜택" [ref=f189e316]
+                  - generic [ref=f189e317]:
+                    - paragraph [ref=f189e318]: 알뜰살뜰 다이소 혜택
+                    - paragraph [ref=f189e319]: 요금제로 생활비까지 아껴드려요
+              - group "11 / 16" [ref=f189e320]:
+                - link [ref=f189e321] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=F58BCB69995A1AD6015441E44741394A
+                  - img "통신비로 이디야커피 두 잔!" [ref=f189e322]
+                  - generic [ref=f189e323]:
+                    - paragraph [ref=f189e324]: 통신비로 이디야커피 두 잔!
+                    - paragraph [ref=f189e325]: 가입하고 매월 기프트카드 5,000원 받기
+              - group "12 / 16" [ref=f189e326]:
+                - link [ref=f189e327] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=3026382C7B3AFADF16170262C3F63159
+                  - img "이모티콘 ＆ 전자책 무제한" [ref=f189e328]
+                  - generic [ref=f189e329]:
+                    - paragraph [ref=f189e330]: 이모티콘 ＆ 전자책 무제한
+                    - paragraph [ref=f189e331]: 카카오에 예스24 혜택까지 더블로!
+              - group "13 / 16" [ref=f189e332]:
+                - link [ref=f189e333] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=C8856FC300C0E212C06E6AE6B1583E0C
+                  - img "알뜰요금제 x 렌터카 조합!" [ref=f189e334]
+                  - generic [ref=f189e335]:
+                    - paragraph [ref=f189e336]: 알뜰요금제 x 렌터카 조합!
+                    - paragraph [ref=f189e337]: G car 1년 패스에 출장세차 쿠폰까지
+              - group "14 / 16" [ref=f189e338]:
+                - link [ref=f189e339] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=18A74B6588C8306E6CFD98CFD74725C8
+                  - img "문화상품권 12만원 혜택" [ref=f189e340]
+                  - generic [ref=f189e341]:
+                    - paragraph [ref=f189e342]: 문화상품권 12만원 혜택
+                    - paragraph [ref=f189e343]: 매월 컬쳐랜드상품권 5천원 증정!
+              - group "15 / 16" [ref=f189e344]:
+                - link [ref=f189e345] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=AF495E3F8593A479D8CEFD9D6EB617BF
+                  - img "가입하면 CU 20% 할인" [ref=f189e346]
+                  - generic [ref=f189e347]:
+                    - paragraph [ref=f189e348]: 가입하면 CU 20% 할인
+                    - paragraph [ref=f189e349]: 매월 올리브영 1만원 ＋ 상품 교환권 혜택까지
+              - group "16 / 16" [ref=f189e350]:
+                - link [ref=f189e351] [cursor=pointer]:
+                  - /url: https://nsl.yegaramsb.co.kr/lon/inq/loanDetail.frm?LINK_ACT=BBS_SELECT&txGbnCd=P&PRD_TYCD=L&PDCD=P000000116&FOREIN_YN=Y&AD_NO=220
+                  - img "9월 예가람" [ref=f189e352]
+              - group "1 / 16" [ref=f189e353]:
+                - link [ref=f189e354] [cursor=pointer]:
+                  - /url: https://www.tplusmobile.com/main/event/event_view?seq=79E31202DCB2F61F887FEABEB65A5A0F
+                  - img "9월 한가위 감사제" [ref=f189e355]
+                  - generic [ref=f189e356]:
+                    - paragraph [ref=f189e357]: 9월 한가위 감사제
+                    - paragraph [ref=f189e358]: 가을 맞이 혜택 어택!
+            - generic [ref=f189e359]:
+              - generic [ref=f189e360]:
+                - button "Previous slide" [ref=f189e361] [cursor=pointer]
+                - generic [ref=f189e362]: 3 / 16
+                - button "Next slide" [ref=f189e363] [cursor=pointer]
+              - button "슬라이드 정지" [ref=f189e365] [cursor=pointer]
+          - generic [ref=f189e366]:
+            - link [ref=f189e368] [cursor=pointer]:
+              - /url: /main/phone/phone_instl_list
+              - generic [ref=f189e369]:
+                - paragraph [ref=f189e371]: 단말 요금제 가입
+                - paragraph [ref=f189e373]: 무약정 실속형 휴대폰을 만나보세요.
+            - link [ref=f189e375] [cursor=pointer]:
+              - /url: /main/event/event?eventtp=ing
+              - generic [ref=f189e376]:
+                - paragraph [ref=f189e378]: 이벤트 보러가기
+                - paragraph [ref=f189e380]: 특별한 혜택이 기다리고 있어요
+      - article [ref=f189e381]:
+        - generic [ref=f189e382]:
+          - heading "이달의 인기 요금제를 확인해 보세요" [level=3] [ref=f189e384]
+          - generic [ref=f189e385]:
+            - list [ref=f189e388]:
+              - listitem [ref=f189e389]:
+                - button "추천" [ref=f189e390] [cursor=pointer]
+              - listitem [ref=f189e391]:
+                - button "SKT" [ref=f189e392] [cursor=pointer]
+              - listitem [ref=f189e393]:
+                - button "KT" [ref=f189e394] [cursor=pointer]
+              - listitem [ref=f189e395]:
+                - button "LGU+" [ref=f189e396] [cursor=pointer]
+            - link "요금제 더보기" [ref=f189e398] [cursor=pointer]:
+              - /url: /main/rate/join
+            - generic [ref=f189e400]:
+              - button "Previous slide" [ref=f189e401] [cursor=pointer]
+              - button "Next slide" [ref=f189e402] [cursor=pointer]
+          - generic [ref=f189e404]:
+            - generic [ref=f189e406]:
+              - group "7 / 9" [ref=f189e407]:
+                - link "SKT 평생 요금할인 요금제 찜하기 티플 가성비(300분/6GB)_평생요금 6GB 300분 300건 월 6,000원 평생 월 1,900 원 혜택 체감가 0원" [ref=f189e409] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=B0B978582B8FA2062418D043A7A0E89CF4825ADFF003EFCA791940FB253F1D7749DC134C2AE32626544DC2DBB096F04CD348F1770D9381FDD7A92F585AE26616
+                  - generic [ref=f189e411]:
+                    - generic [ref=f189e412]:
+                      - generic [ref=f189e413]: SKT
+                      - generic [ref=f189e414]: 평생 요금할인
+                    - button "요금제 찜하기" [ref=f189e416]
+                  - generic [ref=f189e417]:
+                    - heading "티플 가성비(300분/6GB)_평생요금" [level=4] [ref=f189e419]
+                    - generic [ref=f189e420]:
+                      - generic [ref=f189e421]:
+                        - paragraph [ref=f189e422]: 6GB
+                        - paragraph [ref=f189e423]:
+                          - generic [ref=f189e424]: 300분
+                          - generic [ref=f189e425]: 300건
+                      - generic [ref=f189e426]:
+                        - paragraph [ref=f189e427]: 월 6,000원
+                        - paragraph [ref=f189e428]: 평생 월 1,900 원
+                  - paragraph [ref=f189e434]: 혜택 체감가 0원
+              - group "8 / 9" [ref=f189e435]:
+                - link "SKT 7개월 요금할인 요금제 찜하기 가성비플러스(15GB/350분) 15GB 350분 100건 월 22,000원 7개월간 월 1,900 원 혜택 체감가 0원" [ref=f189e437] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=9BDCD5FA53402D177EE89527A68F88B76A82ADE54B6F230066DBFE623F647BBF821CC058D3E0CE99ED42F2D5F7F1B8D81B02A95FC0C837D0E0D1C2269245C852
+                  - generic [ref=f189e439]:
+                    - generic [ref=f189e440]:
+                      - generic [ref=f189e441]: SKT
+                      - generic [ref=f189e442]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e444]
+                  - generic [ref=f189e445]:
+                    - heading "가성비플러스(15GB/350분)" [level=4] [ref=f189e447]
+                    - generic [ref=f189e448]:
+                      - generic [ref=f189e449]:
+                        - paragraph [ref=f189e450]: 15GB
+                        - paragraph [ref=f189e451]:
+                          - generic [ref=f189e452]: 350분
+                          - generic [ref=f189e453]: 100건
+                      - generic [ref=f189e454]:
+                        - paragraph [ref=f189e455]: 월 22,000원
+                        - paragraph [ref=f189e456]: 7개월간 월 1,900 원
+                  - paragraph [ref=f189e462]: 혜택 체감가 0원
+              - group "9 / 9" [ref=f189e463]:
+                - link "SKT 7개월 요금할인 요금제 찜하기 티플 올리브영 100GB＋(매월 5000P) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 51,700원 7개월간 월 24,000 원 혜택 체감가 19,000원" [ref=f189e465] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=5FCC072DEF4310938758268DF4FCF549F13DED2B741C15AA724ACDDA3A734ECD15F9600C27AB9BC040B17FB5302707F4986792FED676722600ACC480748F3F1C
+                  - generic [ref=f189e467]:
+                    - generic [ref=f189e468]:
+                      - generic [ref=f189e469]: SKT
+                      - generic [ref=f189e470]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e472]
+                  - generic [ref=f189e473]:
+                    - heading "티플 올리브영 100GB＋(매월 5000P)" [level=4] [ref=f189e475]
+                    - generic [ref=f189e476]:
+                      - generic [ref=f189e477]:
+                        - paragraph [ref=f189e478]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e479]:
+                          - generic [ref=f189e480]: 기본제공
+                          - generic [ref=f189e481]: 기본제공
+                          - generic [ref=f189e482]: 영상/부가통화 300분
+                      - generic [ref=f189e483]:
+                        - paragraph [ref=f189e484]: 월 51,700원
+                        - paragraph [ref=f189e485]: 7개월간 월 24,000 원
+                  - paragraph [ref=f189e492]: 혜택 체감가 19,000원
+              - group "1 / 9" [ref=f189e493]:
+                - link "KT 7개월 요금할인 요금제 찜하기 완전마음껏 100GB＋＋(밀리의서재＋올리브영 5,000원 상품권) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 52,800원 7개월간 월 11,900 원 혜택 체감가 0원" [ref=f189e495] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=616FB287752595515E79F80C33BFEA5448F342FD78DB47C68B3A9BD26C261BFB4FF650CA61E6B36B00178EE6E285EBB9496C795CD83F2F254B5A543DA1AA22F3
+                  - generic [ref=f189e497]:
+                    - generic [ref=f189e498]:
+                      - generic [ref=f189e499]: KT
+                      - generic [ref=f189e500]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e502]
+                  - generic [ref=f189e503]:
+                    - heading "완전마음껏 100GB＋＋(밀리의서재＋올리브영 5,000원 상품권)" [level=4] [ref=f189e505]
+                    - generic [ref=f189e506]:
+                      - generic [ref=f189e507]:
+                        - paragraph [ref=f189e508]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e509]:
+                          - generic [ref=f189e510]: 기본제공
+                          - generic [ref=f189e511]: 기본제공
+                          - generic [ref=f189e512]: 영상/부가통화 300분
+                      - generic [ref=f189e513]:
+                        - paragraph [ref=f189e514]: 월 52,800원
+                        - paragraph [ref=f189e515]: 7개월간 월 11,900 원
+                  - paragraph [ref=f189e522]: 혜택 체감가 0원
+              - group "2 / 9" [ref=f189e523]:
+                - link "KT 7개월 요금할인 요금제 찜하기 완전마음껏 100GB＋＋(CU 20%할인＋올리브영 5,000원 상품권) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 55,000원 7개월간 월 11,900 원 혜택 체감가 1,900원" [ref=f189e525] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=675D3B34BA870B82E0ACFBD8583F1811B5D2A7A44B7F9EB4B6B12FA0287F6CC6D462439D0F0DA6D4586C660AEC2500573051F932F4354410EC8BB22CC5378FA9
+                  - generic [ref=f189e527]:
+                    - generic [ref=f189e528]:
+                      - generic [ref=f189e529]: KT
+                      - generic [ref=f189e530]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e532]
+                  - generic [ref=f189e533]:
+                    - heading "완전마음껏 100GB＋＋(CU 20%할인＋올리브영 5,000원 상품권)" [level=4] [ref=f189e535]
+                    - generic [ref=f189e536]:
+                      - generic [ref=f189e537]:
+                        - paragraph [ref=f189e538]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e539]:
+                          - generic [ref=f189e540]: 기본제공
+                          - generic [ref=f189e541]: 기본제공
+                          - generic [ref=f189e542]: 영상/부가통화 300분
+                      - generic [ref=f189e543]:
+                        - paragraph [ref=f189e544]: 월 55,000원
+                        - paragraph [ref=f189e545]: 7개월간 월 11,900 원
+                  - paragraph [ref=f189e552]: 혜택 체감가 1,900원
+              - group "3 / 9" [ref=f189e553]:
+                - link "KT 8개월 요금할인 요금제 찜하기 가성비플러스(15GB/350분) 15GB 350분 100건 월 22,000원 8개월간 월 10 원 혜택 체감가 10원" [ref=f189e555] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=176F2876C49748E715A4137517B77D421F144DB6532547F7C94F3A2B9BB6F19F93ADC080E2D776C4BFD40F1810468C0DC55184682759E80E1CA5DB979E8D1D6A
+                  - generic [ref=f189e557]:
+                    - generic [ref=f189e558]:
+                      - generic [ref=f189e559]: KT
+                      - generic [ref=f189e560]: 8개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e562]
+                  - generic [ref=f189e563]:
+                    - heading "가성비플러스(15GB/350분)" [level=4] [ref=f189e565]
+                    - generic [ref=f189e566]:
+                      - generic [ref=f189e567]:
+                        - paragraph [ref=f189e568]: 15GB
+                        - paragraph [ref=f189e569]:
+                          - generic [ref=f189e570]: 350분
+                          - generic [ref=f189e571]: 100건
+                      - generic [ref=f189e572]:
+                        - paragraph [ref=f189e573]: 월 22,000원
+                        - paragraph [ref=f189e574]: 8개월간 월 10 원
+                  - paragraph [ref=f189e579]: 혜택 체감가 10원
+              - group "4 / 9" [ref=f189e580]:
+                - link "LGU+ 평생 요금할인 요금제 찜하기 티플 가성비(300분/6GB)_평생요금 6GB 300분 300건 월 6,000원 평생 월 1,900 원 혜택 체감가 1,900원" [ref=f189e582] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=B0D3CD313822984BA74F40FBDCC9DF55275313CB5BCE6B2AC9CD2B1A32F437EF33C6594778DCA513CF7977635BC01FD12B31E4ABADA1722D975E15C517B7C983
+                  - generic [ref=f189e584]:
+                    - generic [ref=f189e585]:
+                      - generic [ref=f189e586]: LGU+
+                      - generic [ref=f189e587]: 평생 요금할인
+                    - button "요금제 찜하기" [ref=f189e589]
+                  - generic [ref=f189e590]:
+                    - heading "티플 가성비(300분/6GB)_평생요금" [level=4] [ref=f189e592]
+                    - generic [ref=f189e593]:
+                      - generic [ref=f189e594]:
+                        - paragraph [ref=f189e595]: 6GB
+                        - paragraph [ref=f189e596]:
+                          - generic [ref=f189e597]: 300분
+                          - generic [ref=f189e598]: 300건
+                      - generic [ref=f189e599]:
+                        - paragraph [ref=f189e600]: 월 6,000원
+                        - paragraph [ref=f189e601]: 평생 월 1,900 원
+                  - paragraph [ref=f189e606]: 혜택 체감가 1,900원
+              - group "5 / 9" [ref=f189e607]:
+                - link "LGU+ 7개월 요금할인 5G 요금제 요금제 찜하기 5G 티플온 125GB＋ 125GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 55,000원 7개월간 월 15,900 원 혜택 체감가 15,900원" [ref=f189e609] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=B418406B05CD7EFD3ACD9806C8D510A54E26DF3C74BF253106692A9D5E53C76906133DCCF1693BCC838101841298A157B035DD39FE458948E11297A6B55C54F7
+                  - generic [ref=f189e611]:
+                    - generic [ref=f189e612]:
+                      - generic [ref=f189e613]: LGU+
+                      - generic [ref=f189e614]: 7개월 요금할인
+                      - generic [ref=f189e615]: 5G 요금제
+                    - button "요금제 찜하기" [ref=f189e617]
+                  - generic [ref=f189e618]:
+                    - heading "5G 티플온 125GB＋" [level=4] [ref=f189e620]
+                    - generic [ref=f189e621]:
+                      - generic [ref=f189e622]:
+                        - paragraph [ref=f189e623]: 125GB 최대5Mbps
+                        - paragraph [ref=f189e624]:
+                          - generic [ref=f189e625]: 기본제공
+                          - generic [ref=f189e626]: 기본제공
+                          - generic [ref=f189e627]: 영상/부가통화 300분
+                      - generic [ref=f189e628]:
+                        - paragraph [ref=f189e629]: 월 55,000원
+                        - paragraph [ref=f189e630]: 7개월간 월 15,900 원
+                  - paragraph [ref=f189e635]: 혜택 체감가 15,900원
+              - group "6 / 9" [ref=f189e636]:
+                - link "LGU+ 평생 요금할인 9/8개통 완료건에 한해 판매가 매월25,900원 적용 요금제 찜하기 5G 티플온 150GB＋_평생 할인 150GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 59,400원 평생 월 25,900 원 혜택 체감가 25,900원" [ref=f189e638] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=C13A063B445BE8D51D5EB8BD3F641BFE5594EB0251682A8674592606F9571E4A024BE412E5199A1448CC8221068991D50CFFA875C858B51DB5B5EFA9A5665C24
+                  - generic [ref=f189e640]:
+                    - generic [ref=f189e641]:
+                      - generic [ref=f189e642]: LGU+
+                      - generic [ref=f189e643]: 평생 요금할인
+                      - generic [ref=f189e644]: 9/8개통 완료건에 한해 판매가 매월25,900원 적용
+                    - button "요금제 찜하기" [ref=f189e646]
+                  - generic [ref=f189e647]:
+                    - heading "5G 티플온 150GB＋_평생 할인" [level=4] [ref=f189e649]
+                    - generic [ref=f189e650]:
+                      - generic [ref=f189e651]:
+                        - paragraph [ref=f189e652]: 150GB 최대5Mbps
+                        - paragraph [ref=f189e653]:
+                          - generic [ref=f189e654]: 기본제공
+                          - generic [ref=f189e655]: 기본제공
+                          - generic [ref=f189e656]: 영상/부가통화 300분
+                      - generic [ref=f189e657]:
+                        - paragraph [ref=f189e658]: 월 59,400원
+                        - paragraph [ref=f189e659]: 평생 월 25,900 원
+                  - paragraph [ref=f189e665]: 혜택 체감가 25,900원
+              - group "7 / 9" [ref=f189e666]:
+                - link "SKT 평생 요금할인 요금제 찜하기 티플 가성비(300분/6GB)_평생요금 6GB 300분 300건 월 6,000원 평생 월 1,900 원 혜택 체감가 0원" [ref=f189e668] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=B0B978582B8FA2062418D043A7A0E89CF4825ADFF003EFCA791940FB253F1D7749DC134C2AE32626544DC2DBB096F04CD348F1770D9381FDD7A92F585AE26616
+                  - generic [ref=f189e670]:
+                    - generic [ref=f189e671]:
+                      - generic [ref=f189e672]: SKT
+                      - generic [ref=f189e673]: 평생 요금할인
+                    - button "요금제 찜하기" [ref=f189e675]
+                  - generic [ref=f189e676]:
+                    - heading "티플 가성비(300분/6GB)_평생요금" [level=4] [ref=f189e678]
+                    - generic [ref=f189e679]:
+                      - generic [ref=f189e680]:
+                        - paragraph [ref=f189e681]: 6GB
+                        - paragraph [ref=f189e682]:
+                          - generic [ref=f189e683]: 300분
+                          - generic [ref=f189e684]: 300건
+                      - generic [ref=f189e685]:
+                        - paragraph [ref=f189e686]: 월 6,000원
+                        - paragraph [ref=f189e687]: 평생 월 1,900 원
+                  - paragraph [ref=f189e693]: 혜택 체감가 0원
+              - group "8 / 9" [ref=f189e694]:
+                - link "SKT 7개월 요금할인 요금제 찜하기 가성비플러스(15GB/350분) 15GB 350분 100건 월 22,000원 7개월간 월 1,900 원 혜택 체감가 0원" [ref=f189e696] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=9BDCD5FA53402D177EE89527A68F88B76A82ADE54B6F230066DBFE623F647BBF821CC058D3E0CE99ED42F2D5F7F1B8D81B02A95FC0C837D0E0D1C2269245C852
+                  - generic [ref=f189e698]:
+                    - generic [ref=f189e699]:
+                      - generic [ref=f189e700]: SKT
+                      - generic [ref=f189e701]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e703]
+                  - generic [ref=f189e704]:
+                    - heading "가성비플러스(15GB/350분)" [level=4] [ref=f189e706]
+                    - generic [ref=f189e707]:
+                      - generic [ref=f189e708]:
+                        - paragraph [ref=f189e709]: 15GB
+                        - paragraph [ref=f189e710]:
+                          - generic [ref=f189e711]: 350분
+                          - generic [ref=f189e712]: 100건
+                      - generic [ref=f189e713]:
+                        - paragraph [ref=f189e714]: 월 22,000원
+                        - paragraph [ref=f189e715]: 7개월간 월 1,900 원
+                  - paragraph [ref=f189e721]: 혜택 체감가 0원
+              - group "9 / 9" [ref=f189e722]:
+                - link "SKT 7개월 요금할인 요금제 찜하기 티플 올리브영 100GB＋(매월 5000P) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 51,700원 7개월간 월 24,000 원 혜택 체감가 19,000원" [ref=f189e724] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=5FCC072DEF4310938758268DF4FCF549F13DED2B741C15AA724ACDDA3A734ECD15F9600C27AB9BC040B17FB5302707F4986792FED676722600ACC480748F3F1C
+                  - generic [ref=f189e726]:
+                    - generic [ref=f189e727]:
+                      - generic [ref=f189e728]: SKT
+                      - generic [ref=f189e729]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e731]
+                  - generic [ref=f189e732]:
+                    - heading "티플 올리브영 100GB＋(매월 5000P)" [level=4] [ref=f189e734]
+                    - generic [ref=f189e735]:
+                      - generic [ref=f189e736]:
+                        - paragraph [ref=f189e737]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e738]:
+                          - generic [ref=f189e739]: 기본제공
+                          - generic [ref=f189e740]: 기본제공
+                          - generic [ref=f189e741]: 영상/부가통화 300분
+                      - generic [ref=f189e742]:
+                        - paragraph [ref=f189e743]: 월 51,700원
+                        - paragraph [ref=f189e744]: 7개월간 월 24,000 원
+                  - paragraph [ref=f189e751]: 혜택 체감가 19,000원
+              - group "1 / 9" [ref=f189e752]:
+                - link "KT 7개월 요금할인 요금제 찜하기 완전마음껏 100GB＋＋(밀리의서재＋올리브영 5,000원 상품권) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 52,800원 7개월간 월 11,900 원 혜택 체감가 0원" [ref=f189e754] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=616FB287752595515E79F80C33BFEA5448F342FD78DB47C68B3A9BD26C261BFB4FF650CA61E6B36B00178EE6E285EBB9496C795CD83F2F254B5A543DA1AA22F3
+                  - generic [ref=f189e756]:
+                    - generic [ref=f189e757]:
+                      - generic [ref=f189e758]: KT
+                      - generic [ref=f189e759]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e761]
+                  - generic [ref=f189e762]:
+                    - heading "완전마음껏 100GB＋＋(밀리의서재＋올리브영 5,000원 상품권)" [level=4] [ref=f189e764]
+                    - generic [ref=f189e765]:
+                      - generic [ref=f189e766]:
+                        - paragraph [ref=f189e767]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e768]:
+                          - generic [ref=f189e769]: 기본제공
+                          - generic [ref=f189e770]: 기본제공
+                          - generic [ref=f189e771]: 영상/부가통화 300분
+                      - generic [ref=f189e772]:
+                        - paragraph [ref=f189e773]: 월 52,800원
+                        - paragraph [ref=f189e774]: 7개월간 월 11,900 원
+                  - paragraph [ref=f189e781]: 혜택 체감가 0원
+              - group "2 / 9" [ref=f189e782]:
+                - link "KT 7개월 요금할인 요금제 찜하기 완전마음껏 100GB＋＋(CU 20%할인＋올리브영 5,000원 상품권) 100GB 최대5Mbps 기본제공 기본제공 영상/부가통화 300분 월 55,000원 7개월간 월 11,900 원 혜택 체감가 1,900원" [ref=f189e784] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=675D3B34BA870B82E0ACFBD8583F1811B5D2A7A44B7F9EB4B6B12FA0287F6CC6D462439D0F0DA6D4586C660AEC2500573051F932F4354410EC8BB22CC5378FA9
+                  - generic [ref=f189e786]:
+                    - generic [ref=f189e787]:
+                      - generic [ref=f189e788]: KT
+                      - generic [ref=f189e789]: 7개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e791]
+                  - generic [ref=f189e792]:
+                    - heading "완전마음껏 100GB＋＋(CU 20%할인＋올리브영 5,000원 상품권)" [level=4] [ref=f189e794]
+                    - generic [ref=f189e795]:
+                      - generic [ref=f189e796]:
+                        - paragraph [ref=f189e797]: 100GB 최대5Mbps
+                        - paragraph [ref=f189e798]:
+                          - generic [ref=f189e799]: 기본제공
+                          - generic [ref=f189e800]: 기본제공
+                          - generic [ref=f189e801]: 영상/부가통화 300분
+                      - generic [ref=f189e802]:
+                        - paragraph [ref=f189e803]: 월 55,000원
+                        - paragraph [ref=f189e804]: 7개월간 월 11,900 원
+                  - paragraph [ref=f189e811]: 혜택 체감가 1,900원
+              - group "3 / 9" [ref=f189e812]:
+                - link "KT 8개월 요금할인 요금제 찜하기 가성비플러스(15GB/350분) 15GB 350분 100건 월 22,000원 8개월간 월 10 원 혜택 체감가 10원" [ref=f189e814] [cursor=pointer]:
+                  - /url: /main/rate/plan_details?seq=176F2876C49748E715A4137517B77D421F144DB6532547F7C94F3A2B9BB6F19F93ADC080E2D776C4BFD40F1810468C0DC55184682759E80E1CA5DB979E8D1D6A
+                  - generic [ref=f189e816]:
+                    - generic [ref=f189e817]:
+                      - generic [ref=f189e818]: KT
+                      - generic [ref=f189e819]: 8개월 요금할인
+                    - button "요금제 찜하기" [ref=f189e821]
+                  - generic [ref=f189e822]:
+                    - heading "가성비플러스(15GB/350분)" [level=4] [ref=f189e824]
+                    - generic [ref=f189e825]:
+                      - generic [ref=f189e826]:
+                        - paragraph [ref=f189e827]: 15GB
+                        - paragraph [ref=f189e828]:
+                          - generic [ref=f189e829]: 350분
+                          - generic [ref=f189e830]: 100건
+                      - generic [ref=f189e831]:
+                        - paragraph [ref=f189e832]: 월 22,000원
+                        - paragraph [ref=f189e833]: 8개월간 월 10 원
+                  - paragraph [ref=f189e838]: 혜택 체감가 10원
+            - generic [ref=f189e839]:
+              - button "Go to slide 1" [ref=f189e840] [cursor=pointer]
+              - button "Go to slide 2" [ref=f189e841] [cursor=pointer]
+              - button "Go to slide 3" [ref=f189e842] [cursor=pointer]
+      - article [ref=f189e843]:
+        - generic [ref=f189e844]:
+          - heading "이달의 단말 요금제 를 확인해 보세요" [level=3] [ref=f189e846]
+          - generic [ref=f189e847]:
+            - list [ref=f189e850]:
+              - listitem [ref=f189e851]:
+                - button "추천" [disabled] [ref=f189e852] [cursor=pointer]
+            - link "단말 요금제 더보기" [ref=f189e854] [cursor=pointer]:
+              - /url: /main/phone/phone_instl_list
+            - generic [ref=f189e856]:
+              - button "이전으로 넘기기" [ref=f189e857] [cursor=pointer]
+              - button "다음으로 넘기기" [ref=f189e858] [cursor=pointer]
+          - generic [ref=f189e861]:
+            - generic [ref=f189e863]:
+              - link [ref=f189e868] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=9ECE920498939ED6A5CBFA68B4E19647EBAF09AFA7B4155AE73A007A4D2819E6&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e871]:
+                  - generic [ref=f189e872]: 삼성
+                  - generic [ref=f189e873]: KT
+                - generic [ref=f189e874]:
+                  - paragraph [ref=f189e877]
+                  - generic [ref=f189e879]:
+                    - heading [level=4] [ref=f189e881]: 갤럭시Z 플립5 5G
+                    - paragraph [ref=f189e883]: 리퍼폰
+                    - generic [ref=f189e884]:
+                      - paragraph [ref=f189e885]: 판매가 1,399,200원
+                      - paragraph [ref=f189e886]: 최저가 609,400원
+                      - generic [ref=f189e887]:
+                        - generic [ref=f189e888]:
+                          - paragraph [ref=f189e889]: 핸드폰
+                          - paragraph [ref=f189e890]: 26,981원
+                        - generic [ref=f189e891]:
+                          - paragraph [ref=f189e892]: 통신요금
+                          - paragraph [ref=f189e893]: (24개월)월 3,500원
+                        - generic [ref=f189e894]:
+                          - paragraph [ref=f189e895]: 월 납부금액
+                          - paragraph [ref=f189e896]: 월 30,481원
+              - link [ref=f189e901] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=9472C234C594BD3421D4644780949B95F86347005799020CF4F6C5C1309CF265&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e904]:
+                  - generic [ref=f189e905]: 삼성
+                  - generic [ref=f189e906]: KT
+                - generic [ref=f189e907]:
+                  - generic [ref=f189e910]:
+                    - paragraph [ref=f189e911]
+                    - paragraph [ref=f189e913]
+                    - paragraph [ref=f189e915]
+                    - paragraph [ref=f189e917]
+                    - paragraph [ref=f189e919]
+                  - generic [ref=f189e921]:
+                    - heading [level=4] [ref=f189e923]: 갤럭시 S24 Ultra 5G
+                    - paragraph [ref=f189e925]: 리퍼폰
+                    - generic [ref=f189e926]:
+                      - paragraph [ref=f189e927]: 판매가 1,698,400원
+                      - paragraph [ref=f189e928]: 최저가 1,128,600원
+                      - generic [ref=f189e929]:
+                        - generic [ref=f189e930]:
+                          - paragraph [ref=f189e931]: 핸드폰
+                          - paragraph [ref=f189e932]: 49,969원
+                        - generic [ref=f189e933]:
+                          - paragraph [ref=f189e934]: 통신요금
+                          - paragraph [ref=f189e935]: (24개월)월 3,500원
+                        - generic [ref=f189e936]:
+                          - paragraph [ref=f189e937]: 월 납부금액
+                          - paragraph [ref=f189e938]: 월 53,469원
+              - link [ref=f189e943] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=2DCE77E45D17E0602AC820D6A2805181B0C6EB8883CB1A2E4BDF3AF2B710412D&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e946]:
+                  - generic [ref=f189e947]: 삼성
+                  - generic [ref=f189e948]: KT
+                - generic [ref=f189e949]:
+                  - generic [ref=f189e952]:
+                    - paragraph [ref=f189e953]
+                    - paragraph [ref=f189e955]
+                    - paragraph [ref=f189e957]
+                    - paragraph [ref=f189e959]
+                  - generic [ref=f189e961]:
+                    - heading [level=4] [ref=f189e963]: (S급)갤럭시 S24 5G
+                    - paragraph [ref=f189e965]: 중고S급
+                    - generic [ref=f189e966]:
+                      - paragraph [ref=f189e967]: 판매가 1,155,000원
+                      - paragraph [ref=f189e968]: 최저가 539,000원
+                      - generic [ref=f189e969]:
+                        - generic [ref=f189e970]:
+                          - paragraph [ref=f189e971]: 핸드폰
+                          - paragraph [ref=f189e972]: 23,864원
+                        - generic [ref=f189e973]:
+                          - paragraph [ref=f189e974]: 통신요금
+                          - paragraph [ref=f189e975]: (24개월)월 3,500원
+                        - generic [ref=f189e976]:
+                          - paragraph [ref=f189e977]: 월 납부금액
+                          - paragraph [ref=f189e978]: 월 27,364원
+              - tabpanel [aria-hidden] [ref=f189e979]:
+                - link [ref=f189e983] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=5F3B9AD07424302CE25998309459724BFF44709DFDD0D7B9C83996B9E2FDC3A5&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e986]:
+                    - generic [ref=f189e987]: 애플
+                    - generic [ref=f189e988]: KT
+                  - generic [ref=f189e989]:
+                    - generic [ref=f189e991]:
+                      - paragraph [ref=f189e992]
+                      - paragraph [ref=f189e994]
+                      - paragraph [ref=f189e996]
+                      - paragraph [ref=f189e998]
+                      - paragraph [ref=f189e1000]
+                      - paragraph [ref=f189e1002]
+                      - paragraph [ref=f189e1004]
+                    - generic [ref=f189e1006]:
+                      - heading [level=4] [ref=f189e1008]: (S급)아이폰 16
+                      - paragraph [ref=f189e1010]: 중고S급
+                      - generic [ref=f189e1011]:
+                        - paragraph [ref=f189e1012]: 판매가 1,150,000원
+                        - paragraph [ref=f189e1013]: 최저가 878,900원
+                        - generic [ref=f189e1014]:
+                          - generic [ref=f189e1015]:
+                            - paragraph [ref=f189e1016]: 핸드폰
+                            - paragraph [ref=f189e1017]: 38,913원
+                          - generic [ref=f189e1018]:
+                            - paragraph [ref=f189e1019]: 통신요금
+                            - paragraph [ref=f189e1020]: (24개월)월 3,500원
+                          - generic [ref=f189e1021]:
+                            - paragraph [ref=f189e1022]: 월 납부금액
+                            - paragraph [ref=f189e1023]: 월 42,413원
+              - tabpanel [aria-hidden] [ref=f189e1024]:
+                - link [ref=f189e1028] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=23DA0A045838D8A9EA6491B6D7990C775CA0479A228433182429FA7E6715D330&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1031]:
+                    - generic [ref=f189e1032]: 애플
+                    - generic [ref=f189e1033]: KT
+                  - generic [ref=f189e1034]:
+                    - generic [ref=f189e1036]:
+                      - paragraph [ref=f189e1037]
+                      - paragraph [ref=f189e1039]
+                      - paragraph [ref=f189e1041]
+                      - paragraph [ref=f189e1043]
+                    - generic [ref=f189e1045]:
+                      - heading [level=4] [ref=f189e1047]: (S급)아이폰 15 Pro
+                      - paragraph [ref=f189e1049]: 중고S급
+                      - generic [ref=f189e1050]:
+                        - paragraph [ref=f189e1051]: 판매가 1,700,000원
+                        - paragraph [ref=f189e1052]: 최저가 988,900원
+                        - generic [ref=f189e1053]:
+                          - generic [ref=f189e1054]:
+                            - paragraph [ref=f189e1055]: 핸드폰
+                            - paragraph [ref=f189e1056]: 43,784원
+                          - generic [ref=f189e1057]:
+                            - paragraph [ref=f189e1058]: 통신요금
+                            - paragraph [ref=f189e1059]: (24개월)월 3,500원
+                          - generic [ref=f189e1060]:
+                            - paragraph [ref=f189e1061]: 월 납부금액
+                            - paragraph [ref=f189e1062]: 월 47,284원
+              - tabpanel [aria-hidden] [ref=f189e1063]:
+                - link [ref=f189e1067] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=A7D9F8AAF0A789EF836781442BC40E2B0CDC8CC60724CF341C45C086BF65C711&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1070]:
+                    - generic [ref=f189e1071]: 삼성
+                    - generic [ref=f189e1072]: KT
+                  - generic [ref=f189e1073]:
+                    - paragraph [ref=f189e1076]
+                    - generic [ref=f189e1078]:
+                      - heading [level=4] [ref=f189e1080]: 갤럭시Z 폴드6 5G
+                      - paragraph [ref=f189e1082]: 리퍼폰
+                      - generic [ref=f189e1083]:
+                        - paragraph [ref=f189e1084]: 판매가 2,388,100원
+                        - paragraph [ref=f189e1085]: 최저가 1,379,400원
+                        - generic [ref=f189e1086]:
+                          - generic [ref=f189e1087]:
+                            - paragraph [ref=f189e1088]: 핸드폰
+                            - paragraph [ref=f189e1089]: 61,073원
+                          - generic [ref=f189e1090]:
+                            - paragraph [ref=f189e1091]: 통신요금
+                            - paragraph [ref=f189e1092]: (24개월)월 3,500원
+                          - generic [ref=f189e1093]:
+                            - paragraph [ref=f189e1094]: 월 납부금액
+                            - paragraph [ref=f189e1095]: 월 64,573원
+              - tabpanel [aria-hidden] [ref=f189e1096]:
+                - link [ref=f189e1100] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=BB7BB6E4161FB32E1066DD26884DA50FD76D12FE1C64F38CC21C37C2A25632D8&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1103]:
+                    - generic [ref=f189e1104]: 삼성
+                    - generic [ref=f189e1105]: KT
+                  - generic [ref=f189e1106]:
+                    - generic [ref=f189e1108]:
+                      - paragraph [ref=f189e1109]
+                      - paragraph [ref=f189e1111]
+                      - paragraph [ref=f189e1113]
+                      - paragraph [ref=f189e1115]
+                    - generic [ref=f189e1117]:
+                      - heading [level=4] [ref=f189e1119]: 갤럭시Z 플립6 5G
+                      - paragraph [ref=f189e1121]: 리퍼폰
+                      - generic [ref=f189e1122]:
+                        - paragraph [ref=f189e1123]: 판매가 1,485,000원
+                        - paragraph [ref=f189e1124]: 최저가 798,600원
+                        - generic [ref=f189e1125]:
+                          - generic [ref=f189e1126]:
+                            - paragraph [ref=f189e1127]: 핸드폰
+                            - paragraph [ref=f189e1128]: 35,358원
+                          - generic [ref=f189e1129]:
+                            - paragraph [ref=f189e1130]: 통신요금
+                            - paragraph [ref=f189e1131]: (24개월)월 3,500원
+                          - generic [ref=f189e1132]:
+                            - paragraph [ref=f189e1133]: 월 납부금액
+                            - paragraph [ref=f189e1134]: 월 38,858원
+              - tabpanel [aria-hidden] [ref=f189e1135]:
+                - link [ref=f189e1139] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=5ECC07A26CD09069B97D5B61718CF623014DE28DAECDBD4E2D39EECF0717F930&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1142]:
+                    - generic [ref=f189e1143]: 삼성
+                    - generic [ref=f189e1144]: KT
+                  - generic [ref=f189e1145]:
+                    - generic [ref=f189e1147]:
+                      - paragraph [ref=f189e1148]
+                      - paragraph [ref=f189e1150]
+                      - paragraph [ref=f189e1152]
+                    - generic [ref=f189e1154]:
+                      - heading [level=4] [ref=f189e1156]: (S급)갤럭시Z 플립5 5G
+                      - paragraph [ref=f189e1158]: 중고S급
+                      - generic [ref=f189e1159]:
+                        - paragraph [ref=f189e1160]: 판매가 1,399,200원
+                        - paragraph [ref=f189e1161]: 최저가 419,100원
+                        - generic [ref=f189e1162]:
+                          - generic [ref=f189e1163]:
+                            - paragraph [ref=f189e1164]: 핸드폰
+                            - paragraph [ref=f189e1165]: 18,555원
+                          - generic [ref=f189e1166]:
+                            - paragraph [ref=f189e1167]: 통신요금
+                            - paragraph [ref=f189e1168]: (24개월)월 3,500원
+                          - generic [ref=f189e1169]:
+                            - paragraph [ref=f189e1170]: 월 납부금액
+                            - paragraph [ref=f189e1171]: 월 22,055원
+              - tabpanel [aria-hidden] [ref=f189e1172]:
+                - link [ref=f189e1176] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=8CCC208C8412359045FCDFACB0A264B88E6BA814216753AF2541AC32744A0DA9&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1179]:
+                    - generic [ref=f189e1180]: 삼성
+                    - generic [ref=f189e1181]: KT
+                  - generic [ref=f189e1182]:
+                    - generic [ref=f189e1185]:
+                      - paragraph [ref=f189e1186]
+                      - paragraph [ref=f189e1188]
+                      - paragraph [ref=f189e1190]
+                      - paragraph [ref=f189e1192]
+                    - generic [ref=f189e1194]:
+                      - heading [level=4] [ref=f189e1196]: (S급)갤럭시 S24 Ultra 5G
+                      - paragraph [ref=f189e1198]: 중고S급
+                      - generic [ref=f189e1199]:
+                        - paragraph [ref=f189e1200]: 판매가 1,698,400원
+                        - paragraph [ref=f189e1201]: 최저가 888,800원
+                        - generic [ref=f189e1202]:
+                          - generic [ref=f189e1203]:
+                            - paragraph [ref=f189e1204]: 핸드폰
+                            - paragraph [ref=f189e1205]: 39,352원
+                          - generic [ref=f189e1206]:
+                            - paragraph [ref=f189e1207]: 통신요금
+                            - paragraph [ref=f189e1208]: (24개월)월 3,500원
+                          - generic [ref=f189e1209]:
+                            - paragraph [ref=f189e1210]: 월 납부금액
+                            - paragraph [ref=f189e1211]: 월 42,852원
+              - tabpanel [ref=f189e1212]:
+                - link "삼성 KT 갤럭시Z 플립5 5G 갤럭시Z 플립5 5G 리퍼폰 판매가 1,399,200원 최저가 609,400원 핸드폰 26,981원 통신요금 (24개월)월 3,500원 월 납부금액 월 30,481원" [ref=f189e1216] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=9ECE920498939ED6A5CBFA68B4E19647EBAF09AFA7B4155AE73A007A4D2819E6&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1219]:
+                    - generic [ref=f189e1220]: 삼성
+                    - generic [ref=f189e1221]: KT
+                  - generic [ref=f189e1222]:
+                    - generic [ref=f189e1223]:
+                      - img "갤럭시Z 플립5 5G"
+                      - paragraph [ref=f189e1225]
+                    - generic [ref=f189e1227]:
+                      - heading "갤럭시Z 플립5 5G" [level=4] [ref=f189e1229]
+                      - paragraph [ref=f189e1231]: 리퍼폰
+                      - generic [ref=f189e1232]:
+                        - paragraph [ref=f189e1233]: 판매가 1,399,200원
+                        - paragraph [ref=f189e1234]: 최저가 609,400원
+                        - generic [ref=f189e1235]:
+                          - generic [ref=f189e1236]:
+                            - paragraph [ref=f189e1237]: 핸드폰
+                            - paragraph [ref=f189e1238]: 26,981원
+                          - generic [ref=f189e1239]:
+                            - paragraph [ref=f189e1240]: 통신요금
+                            - paragraph [ref=f189e1241]: (24개월)월 3,500원
+                          - generic [ref=f189e1242]:
+                            - paragraph [ref=f189e1243]: 월 납부금액
+                            - paragraph [ref=f189e1244]: 월 30,481원
+              - tabpanel [ref=f189e1245]:
+                - link "삼성 KT 갤럭시 S24 Ultra 5G 갤럭시 S24 Ultra 5G 리퍼폰 판매가 1,698,400원 최저가 1,128,600원 핸드폰 49,969원 통신요금 (24개월)월 3,500원 월 납부금액 월 53,469원" [ref=f189e1249] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=9472C234C594BD3421D4644780949B95F86347005799020CF4F6C5C1309CF265&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1252]:
+                    - generic [ref=f189e1253]: 삼성
+                    - generic [ref=f189e1254]: KT
+                  - generic [ref=f189e1255]:
+                    - generic [ref=f189e1256]:
+                      - img "갤럭시 S24 Ultra 5G" [ref=f189e1257]
+                      - generic [ref=f189e1258]:
+                        - paragraph [ref=f189e1259]
+                        - paragraph [ref=f189e1261]
+                        - paragraph [ref=f189e1263]
+                        - paragraph [ref=f189e1265]
+                        - paragraph [ref=f189e1267]
+                    - generic [ref=f189e1269]:
+                      - heading "갤럭시 S24 Ultra 5G" [level=4] [ref=f189e1271]
+                      - paragraph [ref=f189e1273]: 리퍼폰
+                      - generic [ref=f189e1274]:
+                        - paragraph [ref=f189e1275]: 판매가 1,698,400원
+                        - paragraph [ref=f189e1276]: 최저가 1,128,600원
+                        - generic [ref=f189e1277]:
+                          - generic [ref=f189e1278]:
+                            - paragraph [ref=f189e1279]: 핸드폰
+                            - paragraph [ref=f189e1280]: 49,969원
+                          - generic [ref=f189e1281]:
+                            - paragraph [ref=f189e1282]: 통신요금
+                            - paragraph [ref=f189e1283]: (24개월)월 3,500원
+                          - generic [ref=f189e1284]:
+                            - paragraph [ref=f189e1285]: 월 납부금액
+                            - paragraph [ref=f189e1286]: 월 53,469원
+              - tabpanel [ref=f189e1287]:
+                - link "삼성 KT (S급)갤럭시 S24 5G (S급)갤럭시 S24 5G 중고S급 판매가 1,155,000원 최저가 539,000원 핸드폰 23,864원 통신요금 (24개월)월 3,500원 월 납부금액 월 27,364원" [ref=f189e1291] [cursor=pointer]:
+                  - /url: /main/phone/phone_instl_details?prod_id=2DCE77E45D17E0602AC820D6A2805181B0C6EB8883CB1A2E4BDF3AF2B710412D&SEQ=F56D060B03B13F16C903CD267DA02C04
+                  - generic [ref=f189e1294]:
+                    - generic [ref=f189e1295]: 삼성
+                    - generic [ref=f189e1296]: KT
+                  - generic [ref=f189e1297]:
+                    - generic [ref=f189e1298]:
+                      - img "(S급)갤럭시 S24 5G" [ref=f189e1299]
+                      - generic [ref=f189e1300]:
+                        - paragraph [ref=f189e1301]
+                        - paragraph [ref=f189e1303]
+                        - paragraph [ref=f189e1305]
+                        - paragraph [ref=f189e1307]
+                    - generic [ref=f189e1309]:
+                      - heading "(S급)갤럭시 S24 5G" [level=4] [ref=f189e1311]
+                      - paragraph [ref=f189e1313]: 중고S급
+                      - generic [ref=f189e1314]:
+                        - paragraph [ref=f189e1315]: 판매가 1,155,000원
+                        - paragraph [ref=f189e1316]: 최저가 539,000원
+                        - generic [ref=f189e1317]:
+                          - generic [ref=f189e1318]:
+                            - paragraph [ref=f189e1319]: 핸드폰
+                            - paragraph [ref=f189e1320]: 23,864원
+                          - generic [ref=f189e1321]:
+                            - paragraph [ref=f189e1322]: 통신요금
+                            - paragraph [ref=f189e1323]: (24개월)월 3,500원
+                          - generic [ref=f189e1324]:
+                            - paragraph [ref=f189e1325]: 월 납부금액
+                            - paragraph [ref=f189e1326]: 월 27,364원
+              - link [ref=f189e1331] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=5F3B9AD07424302CE25998309459724BFF44709DFDD0D7B9C83996B9E2FDC3A5&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1334]:
+                  - generic [ref=f189e1335]: 애플
+                  - generic [ref=f189e1336]: KT
+                - generic [ref=f189e1337]:
+                  - generic [ref=f189e1339]:
+                    - paragraph [ref=f189e1340]
+                    - paragraph [ref=f189e1342]
+                    - paragraph [ref=f189e1344]
+                    - paragraph [ref=f189e1346]
+                    - paragraph [ref=f189e1348]
+                    - paragraph [ref=f189e1350]
+                    - paragraph [ref=f189e1352]
+                  - generic [ref=f189e1354]:
+                    - heading [level=4] [ref=f189e1356]: (S급)아이폰 16
+                    - paragraph [ref=f189e1358]: 중고S급
+                    - generic [ref=f189e1359]:
+                      - paragraph [ref=f189e1360]: 판매가 1,150,000원
+                      - paragraph [ref=f189e1361]: 최저가 878,900원
+                      - generic [ref=f189e1362]:
+                        - generic [ref=f189e1363]:
+                          - paragraph [ref=f189e1364]: 핸드폰
+                          - paragraph [ref=f189e1365]: 38,913원
+                        - generic [ref=f189e1366]:
+                          - paragraph [ref=f189e1367]: 통신요금
+                          - paragraph [ref=f189e1368]: (24개월)월 3,500원
+                        - generic [ref=f189e1369]:
+                          - paragraph [ref=f189e1370]: 월 납부금액
+                          - paragraph [ref=f189e1371]: 월 42,413원
+              - link [ref=f189e1376] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=23DA0A045838D8A9EA6491B6D7990C775CA0479A228433182429FA7E6715D330&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1379]:
+                  - generic [ref=f189e1380]: 애플
+                  - generic [ref=f189e1381]: KT
+                - generic [ref=f189e1382]:
+                  - generic [ref=f189e1384]:
+                    - paragraph [ref=f189e1385]
+                    - paragraph [ref=f189e1387]
+                    - paragraph [ref=f189e1389]
+                    - paragraph [ref=f189e1391]
+                  - generic [ref=f189e1393]:
+                    - heading [level=4] [ref=f189e1395]: (S급)아이폰 15 Pro
+                    - paragraph [ref=f189e1397]: 중고S급
+                    - generic [ref=f189e1398]:
+                      - paragraph [ref=f189e1399]: 판매가 1,700,000원
+                      - paragraph [ref=f189e1400]: 최저가 988,900원
+                      - generic [ref=f189e1401]:
+                        - generic [ref=f189e1402]:
+                          - paragraph [ref=f189e1403]: 핸드폰
+                          - paragraph [ref=f189e1404]: 43,784원
+                        - generic [ref=f189e1405]:
+                          - paragraph [ref=f189e1406]: 통신요금
+                          - paragraph [ref=f189e1407]: (24개월)월 3,500원
+                        - generic [ref=f189e1408]:
+                          - paragraph [ref=f189e1409]: 월 납부금액
+                          - paragraph [ref=f189e1410]: 월 47,284원
+              - link [ref=f189e1415] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=A7D9F8AAF0A789EF836781442BC40E2B0CDC8CC60724CF341C45C086BF65C711&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1418]:
+                  - generic [ref=f189e1419]: 삼성
+                  - generic [ref=f189e1420]: KT
+                - generic [ref=f189e1421]:
+                  - paragraph [ref=f189e1424]
+                  - generic [ref=f189e1426]:
+                    - heading [level=4] [ref=f189e1428]: 갤럭시Z 폴드6 5G
+                    - paragraph [ref=f189e1430]: 리퍼폰
+                    - generic [ref=f189e1431]:
+                      - paragraph [ref=f189e1432]: 판매가 2,388,100원
+                      - paragraph [ref=f189e1433]: 최저가 1,379,400원
+                      - generic [ref=f189e1434]:
+                        - generic [ref=f189e1435]:
+                          - paragraph [ref=f189e1436]: 핸드폰
+                          - paragraph [ref=f189e1437]: 61,073원
+                        - generic [ref=f189e1438]:
+                          - paragraph [ref=f189e1439]: 통신요금
+                          - paragraph [ref=f189e1440]: (24개월)월 3,500원
+                        - generic [ref=f189e1441]:
+                          - paragraph [ref=f189e1442]: 월 납부금액
+                          - paragraph [ref=f189e1443]: 월 64,573원
+              - link [ref=f189e1448] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=BB7BB6E4161FB32E1066DD26884DA50FD76D12FE1C64F38CC21C37C2A25632D8&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1451]:
+                  - generic [ref=f189e1452]: 삼성
+                  - generic [ref=f189e1453]: KT
+                - generic [ref=f189e1454]:
+                  - generic [ref=f189e1456]:
+                    - paragraph [ref=f189e1457]
+                    - paragraph [ref=f189e1459]
+                    - paragraph [ref=f189e1461]
+                    - paragraph [ref=f189e1463]
+                  - generic [ref=f189e1465]:
+                    - heading [level=4] [ref=f189e1467]: 갤럭시Z 플립6 5G
+                    - paragraph [ref=f189e1469]: 리퍼폰
+                    - generic [ref=f189e1470]:
+                      - paragraph [ref=f189e1471]: 판매가 1,485,000원
+                      - paragraph [ref=f189e1472]: 최저가 798,600원
+                      - generic [ref=f189e1473]:
+                        - generic [ref=f189e1474]:
+                          - paragraph [ref=f189e1475]: 핸드폰
+                          - paragraph [ref=f189e1476]: 35,358원
+                        - generic [ref=f189e1477]:
+                          - paragraph [ref=f189e1478]: 통신요금
+                          - paragraph [ref=f189e1479]: (24개월)월 3,500원
+                        - generic [ref=f189e1480]:
+                          - paragraph [ref=f189e1481]: 월 납부금액
+                          - paragraph [ref=f189e1482]: 월 38,858원
+              - link [ref=f189e1487] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=5ECC07A26CD09069B97D5B61718CF623014DE28DAECDBD4E2D39EECF0717F930&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1490]:
+                  - generic [ref=f189e1491]: 삼성
+                  - generic [ref=f189e1492]: KT
+                - generic [ref=f189e1493]:
+                  - generic [ref=f189e1495]:
+                    - paragraph [ref=f189e1496]
+                    - paragraph [ref=f189e1498]
+                    - paragraph [ref=f189e1500]
+                  - generic [ref=f189e1502]:
+                    - heading [level=4] [ref=f189e1504]: (S급)갤럭시Z 플립5 5G
+                    - paragraph [ref=f189e1506]: 중고S급
+                    - generic [ref=f189e1507]:
+                      - paragraph [ref=f189e1508]: 판매가 1,399,200원
+                      - paragraph [ref=f189e1509]: 최저가 419,100원
+                      - generic [ref=f189e1510]:
+                        - generic [ref=f189e1511]:
+                          - paragraph [ref=f189e1512]: 핸드폰
+                          - paragraph [ref=f189e1513]: 18,555원
+                        - generic [ref=f189e1514]:
+                          - paragraph [ref=f189e1515]: 통신요금
+                          - paragraph [ref=f189e1516]: (24개월)월 3,500원
+                        - generic [ref=f189e1517]:
+                          - paragraph [ref=f189e1518]: 월 납부금액
+                          - paragraph [ref=f189e1519]: 월 22,055원
+              - link [ref=f189e1524] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=8CCC208C8412359045FCDFACB0A264B88E6BA814216753AF2541AC32744A0DA9&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1527]:
+                  - generic [ref=f189e1528]: 삼성
+                  - generic [ref=f189e1529]: KT
+                - generic [ref=f189e1530]:
+                  - generic [ref=f189e1533]:
+                    - paragraph [ref=f189e1534]
+                    - paragraph [ref=f189e1536]
+                    - paragraph [ref=f189e1538]
+                    - paragraph [ref=f189e1540]
+                  - generic [ref=f189e1542]:
+                    - heading [level=4] [ref=f189e1544]: (S급)갤럭시 S24 Ultra 5G
+                    - paragraph [ref=f189e1546]: 중고S급
+                    - generic [ref=f189e1547]:
+                      - paragraph [ref=f189e1548]: 판매가 1,698,400원
+                      - paragraph [ref=f189e1549]: 최저가 888,800원
+                      - generic [ref=f189e1550]:
+                        - generic [ref=f189e1551]:
+                          - paragraph [ref=f189e1552]: 핸드폰
+                          - paragraph [ref=f189e1553]: 39,352원
+                        - generic [ref=f189e1554]:
+                          - paragraph [ref=f189e1555]: 통신요금
+                          - paragraph [ref=f189e1556]: (24개월)월 3,500원
+                        - generic [ref=f189e1557]:
+                          - paragraph [ref=f189e1558]: 월 납부금액
+                          - paragraph [ref=f189e1559]: 월 42,852원
+              - link [ref=f189e1564] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=9ECE920498939ED6A5CBFA68B4E19647EBAF09AFA7B4155AE73A007A4D2819E6&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1567]:
+                  - generic [ref=f189e1568]: 삼성
+                  - generic [ref=f189e1569]: KT
+                - generic [ref=f189e1570]:
+                  - paragraph [ref=f189e1573]
+                  - generic [ref=f189e1575]:
+                    - heading [level=4] [ref=f189e1577]: 갤럭시Z 플립5 5G
+                    - paragraph [ref=f189e1579]: 리퍼폰
+                    - generic [ref=f189e1580]:
+                      - paragraph [ref=f189e1581]: 판매가 1,399,200원
+                      - paragraph [ref=f189e1582]: 최저가 609,400원
+                      - generic [ref=f189e1583]:
+                        - generic [ref=f189e1584]:
+                          - paragraph [ref=f189e1585]: 핸드폰
+                          - paragraph [ref=f189e1586]: 26,981원
+                        - generic [ref=f189e1587]:
+                          - paragraph [ref=f189e1588]: 통신요금
+                          - paragraph [ref=f189e1589]: (24개월)월 3,500원
+                        - generic [ref=f189e1590]:
+                          - paragraph [ref=f189e1591]: 월 납부금액
+                          - paragraph [ref=f189e1592]: 월 30,481원
+              - link [ref=f189e1597] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=9472C234C594BD3421D4644780949B95F86347005799020CF4F6C5C1309CF265&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1600]:
+                  - generic [ref=f189e1601]: 삼성
+                  - generic [ref=f189e1602]: KT
+                - generic [ref=f189e1603]:
+                  - generic [ref=f189e1606]:
+                    - paragraph [ref=f189e1607]
+                    - paragraph [ref=f189e1609]
+                    - paragraph [ref=f189e1611]
+                    - paragraph [ref=f189e1613]
+                    - paragraph [ref=f189e1615]
+                  - generic [ref=f189e1617]:
+                    - heading [level=4] [ref=f189e1619]: 갤럭시 S24 Ultra 5G
+                    - paragraph [ref=f189e1621]: 리퍼폰
+                    - generic [ref=f189e1622]:
+                      - paragraph [ref=f189e1623]: 판매가 1,698,400원
+                      - paragraph [ref=f189e1624]: 최저가 1,128,600원
+                      - generic [ref=f189e1625]:
+                        - generic [ref=f189e1626]:
+                          - paragraph [ref=f189e1627]: 핸드폰
+                          - paragraph [ref=f189e1628]: 49,969원
+                        - generic [ref=f189e1629]:
+                          - paragraph [ref=f189e1630]: 통신요금
+                          - paragraph [ref=f189e1631]: (24개월)월 3,500원
+                        - generic [ref=f189e1632]:
+                          - paragraph [ref=f189e1633]: 월 납부금액
+                          - paragraph [ref=f189e1634]: 월 53,469원
+              - link [ref=f189e1639] [cursor=pointer]:
+                - /url: /main/phone/phone_instl_details?prod_id=2DCE77E45D17E0602AC820D6A2805181B0C6EB8883CB1A2E4BDF3AF2B710412D&SEQ=F56D060B03B13F16C903CD267DA02C04
+                - generic [ref=f189e1642]:
+                  - generic [ref=f189e1643]: 삼성
+                  - generic [ref=f189e1644]: KT
+                - generic [ref=f189e1645]:
+                  - generic [ref=f189e1648]:
+                    - paragraph [ref=f189e1649]
+                    - paragraph [ref=f189e1651]
+                    - paragraph [ref=f189e1653]
+                    - paragraph [ref=f189e1655]
+                  - generic [ref=f189e1657]:
+                    - heading [level=4] [ref=f189e1659]: (S급)갤럭시 S24 5G
+                    - paragraph [ref=f189e1661]: 중고S급
+                    - generic [ref=f189e1662]:
+                      - paragraph [ref=f189e1663]: 판매가 1,155,000원
+                      - paragraph [ref=f189e1664]: 최저가 539,000원
+                      - generic [ref=f189e1665]:
+                        - generic [ref=f189e1666]:
+                          - paragraph [ref=f189e1667]: 핸드폰
+                          - paragraph [ref=f189e1668]: 23,864원
+                        - generic [ref=f189e1669]:
+                          - paragraph [ref=f189e1670]: 통신요금
+                          - paragraph [ref=f189e1671]: (24개월)월 3,500원
+                        - generic [ref=f189e1672]:
+                          - paragraph [ref=f189e1673]: 월 납부금액
+                          - paragraph [ref=f189e1674]: 월 27,364원
+            - tablist [ref=f189e1675]:
+              - tab "1 of 3" [ref=f189e1676] [cursor=pointer]: • 1
+              - tab "2 of 3" [ref=f189e1677] [cursor=pointer]: • 2
+              - tab "3 of 3" [ref=f189e1678] [cursor=pointer]: • 3
+      - article [ref=f189e1679]:
+        - generic [ref=f189e1681]:
+          - generic [ref=f189e1682]:
+            - heading "여행갈 때는" [level=5] [ref=f189e1683]
+            - img "티플로 이미지"
+          - paragraph [ref=f189e1685]: 저렴하고 간편한 해외 로밍 서비스를 티플로에서 만나보세요
+          - link "바로가기" [ref=f189e1687] [cursor=pointer]:
+            - /url: https://www.tplro.com/
+      - article [ref=f189e1688]:
+        - generic [ref=f189e1689]:
+          - heading "무엇을 도와드릴까요?" [level=3] [ref=f189e1691]
+          - generic [ref=f189e1692]:
+            - list [ref=f189e1694]:
+              - listitem [ref=f189e1695]:
+                - link [ref=f189e1696] [cursor=pointer]:
+                  - /url: /main/customer/inqr
+                  - paragraph [ref=f189e1698]: 1:1 문의하기
+                  - paragraph [ref=f189e1700]: 주말 및 공휴일은 1:1 문의를 이용해주세요
+                  - generic:
+                    - img "1:1 문의하기 이미지"
+              - listitem [ref=f189e1701]:
+                - link [ref=f189e1702] [cursor=pointer]:
+                  - /url: /main/customer/notice
+                  - paragraph [ref=f189e1704]: 공지사항
+                  - paragraph [ref=f189e1706]: 새로운 공지사항을 확인하세요
+                  - generic:
+                    - img "공지사항 이미지"
+              - listitem [ref=f189e1707]:
+                - link [ref=f189e1708] [cursor=pointer]:
+                  - /url: /main/customer/faq
+                  - paragraph [ref=f189e1710]: 자주하는 질문
+                  - paragraph [ref=f189e1712]: 궁금하신 내용을 바로 확인할 수 있어요
+                  - generic:
+                    - img "자주하는 질문 이미지"
+              - listitem [ref=f189e1713]:
+                - link [ref=f189e1714] [cursor=pointer]:
+                  - /url: /main/customer/cs_center
+                  - paragraph [ref=f189e1716]: 각종 가이드
+                  - paragraph [ref=f189e1718]: tplus의 다양한 가이드를 확인할 수 있어요
+                  - generic:
+                    - img "각종 가이드 이미지"
+            - list [ref=f189e1720]:
+              - listitem [ref=f189e1721]:
+                - generic [ref=f189e1722]:
+                  - paragraph [ref=f189e1723]: 앱으로 만나는
+                  - img "앱으로 만나는 티플러스 텍스트 이미지"
+                - paragraph [ref=f189e1725]: 티플러스 모바일 앱으로 더 빠르고 쉽게 요금제를 관리하세요
+                - button "앱 다운로드하기" [ref=f189e1727] [cursor=pointer]
+                - generic:
+                  - img "앱 다운로드하기 배경이미지"
+                  - img "앱 다운로드하기 배경이미지"
+              - listitem [ref=f189e1728]:
+                - paragraph [ref=f189e1730]: 티플러스 알아보기
+                - paragraph [ref=f189e1732]: 티플러스 모바일 앱으로 더 빠르고 쉽게 요금제를 관리하세요
+                - link "티플 소개 보러가기" [ref=f189e1734] [cursor=pointer]:
+                  - /url: /main//company/intd_brand
+                - generic:
+                  - img "티플 소개하기 배경이미지"
+                  - img "티플 소개하기 배경이미지"
+    - generic [ref=f189e1736]:
+      - button "전체닫기" [ref=f189e1738] [cursor=pointer]
+      - list [ref=f189e1740]:
+        - button "Previous" [ref=f189e1741] [cursor=pointer]
+        - generic [ref=f189e1743]:
+          - listitem [ref=f189e1746]:
+            - img [ref=f189e1749] [cursor=pointer]
+            - generic [ref=f189e1750]:
+              - button [ref=f189e1751] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1752] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1755]:
+            - img [ref=f189e1758] [cursor=pointer]
+            - generic [ref=f189e1759]:
+              - button [ref=f189e1760] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1761] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1764]:
+            - img [ref=f189e1767] [cursor=pointer]
+            - generic [ref=f189e1768]:
+              - button [ref=f189e1769] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1770] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1773]:
+            - img [ref=f189e1776] [cursor=pointer]
+            - generic [ref=f189e1777]:
+              - button [ref=f189e1778] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1779] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1782]:
+            - img [ref=f189e1785] [cursor=pointer]
+            - generic [ref=f189e1786]:
+              - button [ref=f189e1787] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1788] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1791]:
+            - img [ref=f189e1794] [cursor=pointer]
+            - generic [ref=f189e1795]:
+              - button [ref=f189e1796] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1797] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1800]:
+            - generic [ref=f189e1802]:
+              - link:
+                - /url: https://www.tplusmobile.com/main/phone/phone_instl_list
+                - img [ref=f189e1803] [cursor=pointer]
+            - generic [ref=f189e1804]:
+              - button "오늘 하루 보지 않기" [ref=f189e1805] [cursor=pointer]
+              - button "닫기" [ref=f189e1806] [cursor=pointer]
+          - listitem [ref=f189e1809]:
+            - generic [ref=f189e1811]:
+              - link:
+                - /url: https://www.tplusmobile.com/main/event/event_view?seq=49F414B2FA1ACF2A1579152096313601&eventtp=ing
+                - img [ref=f189e1812] [cursor=pointer]
+            - generic [ref=f189e1813]:
+              - button "오늘 하루 보지 않기" [ref=f189e1814] [cursor=pointer]
+              - button "닫기" [ref=f189e1815] [cursor=pointer]
+          - listitem [ref=f189e1818]:
+            - generic [ref=f189e1820]:
+              - link:
+                - /url: https://www.tplusmobile.com/main/event/event_view?seq=3D5248A170AFFA1CB53768DD734C5190
+                - img [ref=f189e1821] [cursor=pointer]
+            - generic [ref=f189e1822]:
+              - button "오늘 하루 보지 않기" [ref=f189e1823] [cursor=pointer]
+              - button "닫기" [ref=f189e1824] [cursor=pointer]
+          - listitem [ref=f189e1827]:
+            - img [ref=f189e1830] [cursor=pointer]
+            - generic [ref=f189e1831]:
+              - button [ref=f189e1832] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1833] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1836]:
+            - img [ref=f189e1839] [cursor=pointer]
+            - generic [ref=f189e1840]:
+              - button [ref=f189e1841] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1842] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1845]:
+            - img [ref=f189e1848] [cursor=pointer]
+            - generic [ref=f189e1849]:
+              - button [ref=f189e1850] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1851] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1854]:
+            - img [ref=f189e1857] [cursor=pointer]
+            - generic [ref=f189e1858]:
+              - button [ref=f189e1859] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1860] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1863]:
+            - img [ref=f189e1866] [cursor=pointer]
+            - generic [ref=f189e1867]:
+              - button [ref=f189e1868] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1869] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1872]:
+            - img [ref=f189e1875] [cursor=pointer]
+            - generic [ref=f189e1876]:
+              - button [ref=f189e1877] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1878] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1881]:
+            - img [ref=f189e1884] [cursor=pointer]
+            - generic [ref=f189e1885]:
+              - button [ref=f189e1886] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1887] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1890]:
+            - img [ref=f189e1893] [cursor=pointer]
+            - generic [ref=f189e1894]:
+              - button [ref=f189e1895] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1896] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1899]:
+            - img [ref=f189e1902] [cursor=pointer]
+            - generic [ref=f189e1903]:
+              - button [ref=f189e1904] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1905] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1908]:
+            - img [ref=f189e1911] [cursor=pointer]
+            - generic [ref=f189e1912]:
+              - button [ref=f189e1913] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1914] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1917]:
+            - img [ref=f189e1920] [cursor=pointer]
+            - generic [ref=f189e1921]:
+              - button [ref=f189e1922] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1923] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1926]:
+            - img [ref=f189e1929] [cursor=pointer]
+            - generic [ref=f189e1930]:
+              - button [ref=f189e1931] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1932] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1935]:
+            - img [ref=f189e1938] [cursor=pointer]
+            - generic [ref=f189e1939]:
+              - button [ref=f189e1940] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1941] [cursor=pointer]: 닫기
+          - listitem [ref=f189e1944]:
+            - img [ref=f189e1947] [cursor=pointer]
+            - generic [ref=f189e1948]:
+              - button [ref=f189e1949] [cursor=pointer]: 오늘 하루 보지 않기
+              - button [ref=f189e1950] [cursor=pointer]: 닫기
+        - button "Next" [ref=f189e1951] [cursor=pointer]
+    - contentinfo [ref=f189e1952]:
+      - generic [ref=f189e1954]:
+        - generic [ref=f189e1955]:
+          - link [ref=f189e1957] [cursor=pointer]:
+            - /url: /
+            - img "티플러스 모바일" [ref=f189e1958]
+          - list [ref=f189e1960]:
+            - listitem [ref=f189e1961]:
+              - link "유튜브 바로가기" [ref=f189e1962] [cursor=pointer]:
+                - /url: https://www.youtube.com/@tplus
+            - listitem [ref=f189e1963]:
+              - link "블로그 바로가기" [ref=f189e1964] [cursor=pointer]:
+                - /url: https://blog.naver.com/tplus_blog
+            - listitem [ref=f189e1965]:
+              - link "인스타그램 바로가기" [ref=f189e1966] [cursor=pointer]:
+                - /url: https://www.instagram.com/tplusmobile
+        - button "패밀리 사이트" [ref=f189e1968] [cursor=pointer]
+      - generic [ref=f189e1970]:
+        - region "고객센터" [ref=f189e1971]:
+          - heading "고객센터 | 휴대폰+114" [level=2] [ref=f189e1973]
+          - generic [ref=f189e1974]:
+            - generic [ref=f189e1975]:
+              - generic [ref=f189e1976]:
+                - generic [ref=f189e1977]: SKT
+                - paragraph [ref=f189e1978]: 080-1300-114(무료), 1877-9114(유료)
+              - generic [ref=f189e1979]:
+                - generic [ref=f189e1980]: KT
+                - paragraph [ref=f189e1981]: 080-130-1141(무료), 1811-1141(유료)
+              - generic [ref=f189e1982]:
+                - generic [ref=f189e1983]: LG U+
+                - paragraph [ref=f189e1984]: 080-130-8282(무료), 1533-7114(유료)
+            - generic [ref=f189e1985]:
+              - paragraph [ref=f189e1986]:
+                - generic [ref=f189e1987]: 상담시간
+                - generic [ref=f189e1988]:
+                  - text: 평일 09:00 ~ 18:00
+                  - generic [ref=f189e1989]: (점심시간) 12:00 ~ 13:00
+              - paragraph [ref=f189e1990]: "* 분실, 습득, 통화품질 상담은 24시간 가능합니다."
+        - region "회사정보" [ref=f189e1991]:
+          - generic [ref=f189e1992]:
+            - paragraph [ref=f189e1993]: (주)한국케이블텔레콤
+            - paragraph [ref=f189e1994]: 대표이사 이재석
+            - text: 서울특별시 중구 세종대로 50 흥국생명빌딩 7층 사업자번호:120-87-04918 통신판매업 신고번호:제 2011-서울중구-1279호
+            - paragraph
+        - navigation "약관 및 정책" [ref=f189e1995]:
+          - list [ref=f189e1996]:
+            - listitem [ref=f189e1997]:
+              - link "개인정보처리방침" [ref=f189e1998] [cursor=pointer]:
+                - /url: /main/policy/personal
+            - listitem [ref=f189e1999]:
+              - generic [ref=f189e2000]: "|"
+              - link "홈페이지이용약관" [ref=f189e2001] [cursor=pointer]:
+                - /url: /main/policy/policy_use
+            - listitem [ref=f189e2002]:
+              - generic [ref=f189e2003]: "|"
+              - link "서비스이용약관" [ref=f189e2004] [cursor=pointer]:
+                - /url: /main/policy/service_use
+            - listitem [ref=f189e2005]:
+              - generic [ref=f189e2006]: "|"
+              - link "통신과금서비스이용약관" [ref=f189e2007] [cursor=pointer]:
+                - /url: /main/policy/tongsin_use
+            - listitem [ref=f189e2008]:
+              - generic [ref=f189e2009]: "|"
+              - generic [ref=f189e2010]: 개인정보보호책임자 김갑종
+          - list [ref=f189e2011]:
+            - listitem [ref=f189e2012]:
+              - link "청소년보호정책" [ref=f189e2013] [cursor=pointer]:
+                - /url: /main/policy/adolescent
+            - listitem [ref=f189e2014]:
+              - generic [aria-hidden] [ref=f189e2015]: ㆍ
+              - link "불공정행위 신고센터" [ref=f189e2016] [cursor=pointer]:
+                - /url: https://cleanict.or.kr
+            - listitem [ref=f189e2017]:
+              - generic [aria-hidden] [ref=f189e2018]: ㆍ
+              - link "개인정보보호 자율감시센터" [ref=f189e2019] [cursor=pointer]:
+                - /url: https://www.notm.or.kr/index
+            - listitem [ref=f189e2020]:
+              - generic [aria-hidden] [ref=f189e2021]: ㆍ
+              - link "명의도용분쟁조정위원회" [ref=f189e2022] [cursor=pointer]:
+                - /url: https://www.msafer.or.kr/minwon_center/introduction.do
+            - listitem [ref=f189e2023]:
+              - generic [aria-hidden] [ref=f189e2024]: ㆍ
+              - link "명의도용방지서비스" [ref=f189e2025] [cursor=pointer]:
+                - /url: https://www.msafer.or.kr/index.do
+            - listitem [ref=f189e2026]:
+              - generic [aria-hidden] [ref=f189e2027]: ㆍ
+              - link "통신분쟁위원회" [ref=f189e2028] [cursor=pointer]:
+                - /url: https://www.tdrc.kr/extrl/main/main.do#AC=/extrl/main/detail.do&VA=content
+            - listitem [ref=f189e2029]:
+              - generic [aria-hidden] [ref=f189e2030]: ㆍ
+              - link "불법스팸 대응센터" [ref=f189e2031] [cursor=pointer]:
+                - /url: https://spam.kisa.or.kr/spam/main.do
+            - listitem [ref=f189e2032]:
+              - generic [aria-hidden] [ref=f189e2033]: ㆍ
+              - link "한국소비자원" [ref=f189e2034] [cursor=pointer]:
+                - /url: https://www.kca.go.kr/home/main.do
+        - list [ref=f189e2036]:
+          - listitem [ref=f189e2037]
+          - listitem [ref=f189e2040]:
+            - link [ref=f189e2041] [cursor=pointer]:
+              - /url: https://isms-p.kisa.or.kr/main/ispims/issue;jsessionid=00105F051339DBCEB19CD089C85E6288/?certificationMode=list&crtfYear=&searchCondition=2&searchKeyword=%ED%95%9C%EA%B5%AD%EC%BC%80%EC%9D%B4%EB%B8%94%ED%85%94%EB%A0%88%EC%BD%A4&__encrypted=wWj9MGhGYEqVaNERpPWQEDyZeFH2fnM2y6uPhQG6f8SLkf6zISb7UJlCU3XElO2MPBE6t0S%2FEhB27OPH2DAFZV0q1bCjTMpiPLqJAK9TaZoqoYk52bkzz%2BlX95YIn0%2BjcoI0iNfFdIgJl%2BTm8E8XQNmMOGa1CfTKPvuVRqhOnu72XcTTLMgrxBu5ZyTbsivxJMOYj73kKXQsPsxhFPPCPRcRhyeVeVenurlSzNQzPm0HI%2BjoylI2%2Fut0iYCZvv627x2kiKppZcu1D8zOpPZXC%2BdWn%2BaAOXUZnyq6zH%2B1o0%2FqJ5rIDg8MbJ9B9G7ybuVyRCuHo3yggH0V88gv2fEBIA%3D%3D
+          - listitem [ref=f189e2043]:
+            - link [ref=f189e2044] [cursor=pointer]:
+              - /url: https://wiseuser.go.kr/usermain.do
+        - paragraph [ref=f189e2046]: Copyright©tplus. All rights reserved
+  - iframe

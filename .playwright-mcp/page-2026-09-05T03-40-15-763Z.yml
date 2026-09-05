@@ -1,0 +1,155 @@
+- generic [active] [ref=f362e1]:
+  - banner [ref=f362e2]:
+    - generic [ref=f362e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f362e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f362e6]:
+        - list [ref=f362e7]:
+          - listitem [ref=f362e8]:
+            - link "홈" [ref=f362e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f362e10]:
+            - link "요금제" [ref=f362e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f362e12]:
+            - link "휴대폰" [ref=f362e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f362e14]:
+            - link "인터넷" [ref=f362e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f362e16]:
+            - link "가전렌탈 NEW" [ref=f362e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f362e18]: NEW
+          - listitem [ref=f362e19]:
+            - link "이벤트" [ref=f362e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f362e21]:
+            - link "마이페이지" [ref=f362e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f362e23]:
+    - generic [ref=f362e24]:
+      - generic [ref=f362e25]:
+        - generic [ref=f362e27]:
+          - generic [ref=f362e28]:
+            - link [ref=f362e29] [cursor=pointer]:
+              - /url: /mvnos/14?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "U+유모바일 로고" [ref=f362e30]
+            - button [ref=f362e32] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f362e34]
+          - generic [ref=f362e42]:
+            - generic [ref=f362e43]:
+              - generic [ref=f362e44]: "[평생할인] 15GB+/통화기본"
+              - generic [ref=f362e45]:
+                - heading "월 15GB + 1Mbps" [level=1] [ref=f362e46]
+                - generic [ref=f362e47]:
+                  - button "찜하기" [ref=f362e49] [cursor=pointer]
+                  - button "공유하기" [ref=f362e54] [cursor=pointer]
+            - generic [ref=f362e61]:
+              - generic [ref=f362e62]: 통화 무제한
+              - generic [ref=f362e64]: 문자 무제한
+              - generic [ref=f362e66]: LG U+망
+              - generic [ref=f362e68]: LTE
+        - generic [ref=f362e70]:
+          - generic [ref=f362e71]:
+            - term [ref=f362e72]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f362e74] [cursor=pointer]
+          - definition [ref=f362e76]:
+            - generic [ref=f362e77]:
+              - generic [ref=f362e78]:
+                - generic [ref=f362e79]: 월 납부액월 20,900원
+                - generic [ref=f362e85]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f362e86]: 월 900원
+              - separator [ref=f362e87]
+              - generic [ref=f362e88]:
+                - generic [ref=f362e89]: 월 20,900원 내고 20,000원 돌려받아요
+                - button "자세히" [ref=f362e90] [cursor=pointer]
+      - group "요금제 신청" [ref=f362e93]:
+        - button "신청하기" [ref=f362e95] [cursor=pointer]
+      - generic [ref=f362e98]:
+        - generic [ref=f362e99]: 모요 제휴 페이백 안내
+        - link "네이버페이 매달 2만원 페이백 (7개월) 상세 페이지 새 탭 열기" [ref=f362e103] [cursor=pointer]:
+          - /url: /gift-group/2064?plan=false
+          - generic [ref=f362e105]:
+            - img "네이버페이" [ref=f362e106]
+            - generic [ref=f362e107]:
+              - text: 매달 2만원 씩 7개월 간
+              - generic [ref=f362e108]: 요금 낸 달부터 매달 20일 지급
+    - generic [ref=f362e114]:
+      - generic [ref=f362e115]:
+        - heading "요금제 정보" [level=2] [ref=f362e116]
+        - tablist [ref=f362e117]:
+          - tab "기본 정보" [selected] [ref=f362e118] [cursor=pointer]
+          - tab "지원 서비스" [ref=f362e120] [cursor=pointer]
+          - tab "기타 비용" [ref=f362e122] [cursor=pointer]
+      - generic [ref=f362e125]:
+        - generic [ref=f362e126]:
+          - generic [ref=f362e134]:
+            - generic [ref=f362e135]: 데이터 월 15GB
+            - generic [ref=f362e136]: 다 써도 1Mbps 속도로 무제한
+          - button "자세히" [ref=f362e138] [cursor=pointer]
+        - generic [ref=f362e141]:
+          - generic [ref=f362e149]:
+            - generic [ref=f362e150]: 통화 무제한 / 문자 무제한
+            - generic [ref=f362e151]: 부가통화 300분
+          - button "자세히" [ref=f362e153] [cursor=pointer]
+        - generic [ref=f362e156]: 약정 없음
+        - generic [ref=f362e165]: 유심 개통 가능 / eSIM 불가
+    - generic [ref=f362e174]:
+      - generic [ref=f362e175]:
+        - heading "U+유모바일 후기" [level=2] [ref=f362e176]
+        - button "모두보기" [ref=f362e177] [cursor=pointer]
+      - generic [ref=f362e180]:
+        - generic [ref=f362e181]:
+          - generic [ref=f362e182]: "4.4"
+          - generic [ref=f362e188]: 3,547개
+        - generic [ref=f362e189]:
+          - generic [ref=f362e190]:
+            - generic [ref=f362e191]: 고객센터
+            - generic [ref=f362e192]: "4.4"
+          - generic [ref=f362e216]:
+            - generic [ref=f362e217]: 개통 과정
+            - generic [ref=f362e218]: "4.6"
+          - generic [ref=f362e242]:
+            - generic [ref=f362e243]: 개통 후 만족도
+            - generic [ref=f362e244]: "4.4"
+      - generic [ref=f362e267]:
+        - button "김*훈 46일 전 알뜰폰이전엔 KT를 오랜 기간 사용해왔는데 아들의 권유로 알뜰폰을 사용해봄. 이용 가격이 엄청나게 저렴해진걸 제외하면 통신회사나 통신망이 달라진걸 모르겠음" [ref=f362e269] [cursor=pointer]:
+          - generic [ref=f362e270]:
+            - generic [ref=f362e271]: 김*훈
+            - generic [ref=f362e294]: 46일 전
+          - generic [ref=f362e295]: 알뜰폰이전엔 KT를 오랜 기간 사용해왔는데 아들의 권유로 알뜰폰을 사용해봄. 이용 가격이 엄청나게 저렴해진걸 제외하면 통신회사나 통신망이 달라진걸 모르겠음
+        - button "정*영 52일 전 신청은 아들이 해주고 설치는 60대인 제가 했어요.어려울거라 생각 했는데 차근차근 해보니 쉬웠어요. 저렴한 가격으로 이용할수 있어서 감사합니다." [ref=f362e297] [cursor=pointer]:
+          - generic [ref=f362e298]:
+            - generic [ref=f362e299]: 정*영
+            - generic [ref=f362e322]: 52일 전
+          - generic [ref=f362e323]: 신청은 아들이 해주고 설치는 60대인 제가 했어요.어려울거라 생각 했는데 차근차근 해보니 쉬웠어요. 저렴한 가격으로 이용할수 있어서 감사합니다.
+    - generic [ref=f362e324]:
+      - heading "통신사 지급 사은품" [level=2] [ref=f362e325]
+      - generic [ref=f362e327]:
+        - link "12만원 혜택(매월 이마트24 5천원) 상세 페이지 새 탭 열기" [ref=f362e330] [cursor=pointer]:
+          - /url: /gift-group/849?plan=false
+          - img "이마트24 상품권" [ref=f362e331]
+          - generic [ref=f362e332]:
+            - generic [ref=f362e333]: 12만원 혜택(매월 이마트24 5천원)
+            - generic [ref=f362e334]: 대상 요금제 개통한 고객 대상
+        - link "우리결합시, 데이터 10GB 추가 증정 상세 페이지 새 탭 열기" [ref=f362e337] [cursor=pointer]:
+          - /url: /gift-group/854?plan=false
+          - img "추가 데이터 10GB" [ref=f362e338]
+          - generic [ref=f362e339]:
+            - generic [ref=f362e340]: 우리결합시, 데이터 10GB 추가 증정
+            - generic [ref=f362e341]: 대상 요금제 개통 후 우리 결합 완료한 고객 대상
+    - heading [level=3] [ref=f362e345]:
+      - button [ref=f362e346] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f362e348]
+    - generic [ref=f362e354]:
+      - link [ref=f362e355] [cursor=pointer]:
+        - /url: /mvnos/14?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "U+유모바일 로고" [ref=f362e356]
+      - button "잘못된 정보 제보" [ref=f362e357] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f362e358]

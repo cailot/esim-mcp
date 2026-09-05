@@ -1,0 +1,148 @@
+- generic [active] [ref=f325e1]:
+  - banner [ref=f325e2]:
+    - generic [ref=f325e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f325e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f325e6]:
+        - list [ref=f325e7]:
+          - listitem [ref=f325e8]:
+            - link "홈" [ref=f325e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f325e10]:
+            - link "요금제" [ref=f325e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f325e12]:
+            - link "휴대폰" [ref=f325e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f325e14]:
+            - link "인터넷" [ref=f325e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f325e16]:
+            - link "가전렌탈 NEW" [ref=f325e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f325e18]: NEW
+          - listitem [ref=f325e19]:
+            - link "이벤트" [ref=f325e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f325e21]:
+            - link "마이페이지" [ref=f325e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f325e23]:
+    - generic [ref=f325e24]:
+      - generic [ref=f325e25]:
+        - generic [ref=f325e27]:
+          - generic [ref=f325e28]:
+            - link [ref=f325e29] [cursor=pointer]:
+              - /url: /mvnos/19?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "KT스카이라이프 로고" [ref=f325e30]
+            - button [ref=f325e32] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f325e34]
+          - generic [ref=f325e42]:
+            - generic [ref=f325e43]:
+              - generic [ref=f325e44]: 통화 충분 15GB
+              - generic [ref=f325e45]:
+                - heading "월 15GB" [level=1] [ref=f325e46]
+                - generic [ref=f325e47]:
+                  - button "찜하기" [ref=f325e49] [cursor=pointer]
+                  - button "공유하기" [ref=f325e54] [cursor=pointer]
+            - generic [ref=f325e61]:
+              - generic [ref=f325e62]: 통화 무제한
+              - generic [ref=f325e64]: 문자 무제한
+              - generic [ref=f325e66]: KT망
+              - generic [ref=f325e68]: LTE
+        - generic [ref=f325e70]:
+          - generic [ref=f325e71]:
+            - term [ref=f325e72]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f325e74] [cursor=pointer]
+          - definition [ref=f325e76]:
+            - generic [ref=f325e77]:
+              - generic [ref=f325e78]:
+                - generic [ref=f325e79]: 월 납부액월 16,900원
+                - generic [ref=f325e85]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f325e86]: 월 0원
+              - separator [ref=f325e87]
+              - generic [ref=f325e88]:
+                - generic [ref=f325e89]: 월 16,900원 내고 17,000원 돌려받아요
+                - button "자세히" [ref=f325e90] [cursor=pointer]
+      - group "요금제 신청" [ref=f325e93]:
+        - button "신청하기" [ref=f325e95] [cursor=pointer]
+      - generic [ref=f325e98]:
+        - generic [ref=f325e99]: 모요 제휴 페이백 안내
+        - link "네이버페이 매달 1만7천원 페이백 (6개월) 상세 페이지 새 탭 열기" [ref=f325e103] [cursor=pointer]:
+          - /url: /gift-group/2029?plan=false
+          - generic [ref=f325e105]:
+            - img "네이버페이" [ref=f325e106]
+            - generic [ref=f325e107]:
+              - text: 매달 만 7천원 씩 6개월 간
+              - generic [ref=f325e108]: 요금 낸 달부터 매달 마지막 날 지급
+    - generic [ref=f325e114]:
+      - generic [ref=f325e115]:
+        - heading "요금제 정보" [level=2] [ref=f325e116]
+        - tablist [ref=f325e117]:
+          - tab "기본 정보" [selected] [ref=f325e118] [cursor=pointer]
+          - tab "지원 서비스" [ref=f325e120] [cursor=pointer]
+          - tab "기타 비용" [ref=f325e122] [cursor=pointer]
+      - generic [ref=f325e125]:
+        - generic [ref=f325e126]:
+          - generic [ref=f325e134]:
+            - generic [ref=f325e135]: 데이터 월 15GB
+            - generic [ref=f325e136]: 다 쓰면 초과 용량만큼 과금
+          - button "자세히" [ref=f325e138] [cursor=pointer]
+        - generic [ref=f325e141]:
+          - generic [ref=f325e149]:
+            - generic [ref=f325e150]: 통화 무제한 / 문자 무제한
+            - generic [ref=f325e151]: 부가통화 30분
+          - button "자세히" [ref=f325e153] [cursor=pointer]
+        - generic [ref=f325e156]: 약정 없음
+        - generic [ref=f325e165]: 유심 / eSIM 모두 개통 가능
+    - generic [ref=f325e174]:
+      - generic [ref=f325e175]:
+        - heading "KT스카이라이프 후기" [level=2] [ref=f325e176]
+        - button "모두보기" [ref=f325e177] [cursor=pointer]
+      - generic [ref=f325e180]:
+        - generic [ref=f325e181]:
+          - generic [ref=f325e182]: "4.4"
+          - generic [ref=f325e188]: 3,300개
+        - generic [ref=f325e189]:
+          - generic [ref=f325e190]:
+            - generic [ref=f325e191]: 고객센터
+            - generic [ref=f325e192]: "4.5"
+          - generic [ref=f325e216]:
+            - generic [ref=f325e217]: 개통 과정
+            - generic [ref=f325e218]: "4.5"
+          - generic [ref=f325e242]:
+            - generic [ref=f325e243]: 개통 후 만족도
+            - generic [ref=f325e244]: "4.4"
+      - generic [ref=f325e267]:
+        - button "정*인 22일 전 스카이라이프는 최악의 통신사임. 잘 터지지도 않고 가입하기도 너무 번거롭고 힘듦. 절대 피하세여. 통신사마다 품질이 너무 다른 것도 알뜰폰의 최대 단점" [ref=f325e269] [cursor=pointer]:
+          - generic [ref=f325e270]:
+            - generic [ref=f325e271]: 정*인
+            - generic [ref=f325e294]: 22일 전
+          - generic [ref=f325e295]: 스카이라이프는 최악의 통신사임. 잘 터지지도 않고 가입하기도 너무 번거롭고 힘듦. 절대 피하세여. 통신사마다 품질이 너무 다른 것도 알뜰폰의 최대 단점
+        - button "김*경 25일 전 처음으로 유심 개통을 해봤는데, 안내 순서대로 하니 어려움 없었습니다. 통신비에 몇만원씩 나가는게 아까웠는데, 통신사 포인트 할인만 포기하면 가성비 알뜰폰 이용은 최선입니다." [ref=f325e297] [cursor=pointer]:
+          - generic [ref=f325e298]:
+            - generic [ref=f325e299]: 김*경
+            - generic [ref=f325e322]: 25일 전
+          - generic [ref=f325e323]: 처음으로 유심 개통을 해봤는데, 안내 순서대로 하니 어려움 없었습니다. 통신비에 몇만원씩 나가는게 아까웠는데, 통신사 포인트 할인만 포기하면 가성비 알뜰폰 이용은 최선입니다.
+    - generic [ref=f325e324]:
+      - heading "통신사 지급 사은품" [level=2] [ref=f325e325]
+      - link "3대마트상품권, 네이버페이 2만원 상세 페이지 새 탭 열기" [ref=f325e330] [cursor=pointer]:
+        - /url: /gift-group/1981?plan=false
+        - img "3대마트+Npay 상품권" [ref=f325e331]
+        - generic [ref=f325e332]:
+          - generic [ref=f325e333]: 3대마트상품권, 네이버페이 2만원
+          - generic [ref=f325e334]: 바로유심/바로배송유심 구매 후 모요 개통, 1개월 유지한 고객 대상
+    - heading [level=3] [ref=f325e338]:
+      - button [ref=f325e339] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f325e341]
+    - generic [ref=f325e347]:
+      - link [ref=f325e348] [cursor=pointer]:
+        - /url: /mvnos/19?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "KT스카이라이프 로고" [ref=f325e349]
+      - button "잘못된 정보 제보" [ref=f325e350] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f325e351]

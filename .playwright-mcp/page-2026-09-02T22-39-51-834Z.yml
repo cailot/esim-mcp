@@ -1,0 +1,353 @@
+- generic [active] [ref=f82e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic [ref=f82e4]:
+          - generic:
+            - button "Next slide" [ref=f82e5] [cursor=pointer]
+            - button "Previous slide" [ref=f82e6] [cursor=pointer]
+            - button [ref=f82e8] [cursor=pointer]
+            - generic [ref=f82e9]: 1 / 4
+          - generic [ref=f82e11]:
+            - listitem [ref=f82e12]:
+              - link [ref=f82e13] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+                - img "event page" [ref=f82e14]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+            - listitem [ref=f82e15]:
+              - link [ref=f82e16] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+                - img "event page" [ref=f82e17]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+            - listitem [ref=f82e18]:
+              - link [ref=f82e19] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+                - img "event page" [ref=f82e20]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+            - listitem [ref=f82e21]:
+              - link [ref=f82e22] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+                - img "event page" [ref=f82e23]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+            - listitem [ref=f82e24]:
+              - link [ref=f82e25] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+                - img "event page" [ref=f82e26]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+            - listitem [ref=f82e27]:
+              - link [ref=f82e28] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+                - img "event page" [ref=f82e29]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+            - listitem [ref=f82e30]:
+              - link [ref=f82e31] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+                - img "event page" [ref=f82e32]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+            - listitem [ref=f82e33]:
+              - link [ref=f82e34] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+                - img "event page" [ref=f82e35]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+            - listitem [ref=f82e36]:
+              - link [ref=f82e37] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+                - img "event page" [ref=f82e38]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+            - listitem [ref=f82e39]:
+              - link [ref=f82e40] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+                - img "event page" [ref=f82e41]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214
+            - listitem [ref=f82e42]:
+              - link [ref=f82e43] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+                - img "event page" [ref=f82e44]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+            - listitem [ref=f82e45]:
+              - link [ref=f82e46] [cursor=pointer]:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+                - img "event page" [ref=f82e47]
+              - link:
+                - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+          - separator [ref=f82e48]
+          - generic [ref=f82e49]:
+            - generic [ref=f82e50]: 오늘 하루동안 보지 않기
+            - link "닫기" [ref=f82e52] [cursor=pointer]:
+              - /url: javascript:closePop(1);
+            - link:
+              - /url: javascript:closePop(1);
+        - link:
+          - /url: javascript:closePop(1);
+  - generic [ref=f82e53]:
+    - generic [ref=f82e54]:
+      - navigation [ref=f82e55]:
+        - list [ref=f82e56]:
+          - listitem [ref=f82e57]:
+            - link "로그인" [ref=f82e58] [cursor=pointer]:
+              - /url: /M2Mobile/loginPage
+          - listitem [ref=f82e59]:
+            - link "회원가입" [ref=f82e60] [cursor=pointer]:
+              - /url: /M2Mobile/user/join
+      - generic [ref=f82e61]:
+        - link [ref=f82e62] [cursor=pointer]:
+          - /url: /M2Mobile/view/main.jsp
+          - img "미니게이트" [ref=f82e63]
+        - list [ref=f82e64]:
+          - listitem [ref=f82e65]:
+            - link "요금상품" [ref=f82e66] [cursor=pointer]:
+              - /url: /M2Mobile/Set3G
+            - list [ref=f82e67]:
+              - listitem [ref=f82e68]:
+                - link "요금제" [ref=f82e69] [cursor=pointer]:
+                  - /url: /M2Mobile/Set3G
+              - listitem [ref=f82e70]:
+                - link "부가서비스" [ref=f82e71] [cursor=pointer]:
+                  - /url: /M2Mobile/setBugaService
+          - listitem [ref=f82e72]:
+            - link "셀프개통" [ref=f82e73] [cursor=pointer]:
+              - /url: /M2Mobile/selfPage
+            - list [ref=f82e74]:
+              - listitem [ref=f82e75]:
+                - link "셀프개통" [ref=f82e76] [cursor=pointer]:
+                  - /url: /M2Mobile/selfPage
+              - listitem [ref=f82e77]:
+                - link "유심 / eSIM" [ref=f82e78] [cursor=pointer]:
+                  - /url: /M2Mobile/USIM
+          - listitem [ref=f82e79]:
+            - link "KT인터넷상품" [ref=f82e80] [cursor=pointer]:
+              - /url: /M2Mobile/ktInternet
+            - list [ref=f82e81]:
+              - listitem [ref=f82e82]:
+                - link "KT 인터넷 / TV" [ref=f82e83] [cursor=pointer]:
+                  - /url: /M2Mobile/ktInternet
+          - listitem [ref=f82e84]:
+            - link "이벤트" [ref=f82e85] [cursor=pointer]:
+              - /url: /M2Mobile/view/EV/EV010.jsp
+            - list [ref=f82e86]:
+              - listitem [ref=f82e87]:
+                - link "이벤트" [ref=f82e88] [cursor=pointer]:
+                  - /url: /M2Mobile/view/EV/EV010.jsp
+              - listitem [ref=f82e89]:
+                - link "나는 SOLO 결합" [ref=f82e90] [cursor=pointer]:
+                  - /url: /M2Mobile/soloCombination
+          - listitem [ref=f82e91]:
+            - link "고객센터" [ref=f82e92] [cursor=pointer]:
+              - /url: /M2Mobile/view/VOC/VOC010.jsp
+            - list [ref=f82e93]:
+              - listitem [ref=f82e94]:
+                - link "공지사항" [ref=f82e95] [cursor=pointer]:
+                  - /url: /M2Mobile/view/VOC/VOC010.jsp
+              - listitem [ref=f82e96]:
+                - link "자주 묻는 질문" [ref=f82e97] [cursor=pointer]:
+                  - /url: /M2Mobile/view/VOC/VOC030.jsp
+              - listitem [ref=f82e98]:
+                - link "각종 신청서" [ref=f82e99] [cursor=pointer]:
+                  - /url: /M2Mobile/view/VOC/VOC060.jsp
+              - listitem [ref=f82e100]:
+                - link "가입내역조회/변경" [ref=f82e101] [cursor=pointer]:
+                  - /url: /M2Mobile/view/VOC/VOC080.jsp
+              - listitem [ref=f82e102]:
+                - link "유심 교체 신청" [ref=f82e103] [cursor=pointer]:
+                  - /url: /M2Mobile/loginPage
+              - listitem [ref=f82e104]:
+                - link "해지 신청" [ref=f82e105] [cursor=pointer]:
+                  - /url: /M2Mobile/view/VOC/VOC110.jsp
+    - generic [ref=f82e108]:
+      - generic [ref=f82e110]:
+        - list [ref=f82e111]:
+          - listitem:
+            - link "110":
+              - /url: https://shakemobile.co.kr/M2Mobile/setBugaService
+              - img "110"
+          - listitem [ref=f82e112]:
+            - link [ref=f82e113] [cursor=pointer]:
+              - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+              - img "162" [ref=f82e114]
+          - listitem:
+            - link "165":
+              - /url: "https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=214 "
+              - img "165"
+          - listitem:
+            - link "164":
+              - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=213
+              - img "164"
+          - listitem:
+            - link "163":
+              - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=212
+              - img "163"
+          - listitem:
+            - link "110":
+              - /url: https://shakemobile.co.kr/M2Mobile/setBugaService
+              - img "110"
+          - listitem:
+            - link "162":
+              - /url: https://shakemobile.co.kr/M2Mobile/view/EV/event_view.jsp?idx=211
+              - img "162"
+        - generic [ref=f82e115]:
+          - button "Next slide" [ref=f82e116] [cursor=pointer]
+          - button "Previous slide" [ref=f82e117] [cursor=pointer]
+          - generic [ref=f82e118]: 1 / 5
+          - button [ref=f82e120] [cursor=pointer]
+      - list [ref=f82e122]:
+        - listitem [ref=f82e123]:
+          - link [ref=f82e124] [cursor=pointer]:
+            - /url: /M2Mobile/view/EV/EV010.jsp
+          - paragraph [ref=f82e125]: 혜택·이벤트
+        - listitem [ref=f82e126]:
+          - link [ref=f82e127] [cursor=pointer]:
+            - /url: /M2Mobile/Set3G
+          - paragraph [ref=f82e128]: 전체 요금제
+        - listitem [ref=f82e129]:
+          - link [ref=f82e130] [cursor=pointer]:
+            - /url: /M2Mobile/selfPage
+          - paragraph [ref=f82e131]: 셀프개통
+        - listitem [ref=f82e132]:
+          - link [ref=f82e133] [cursor=pointer]:
+            - /url: /M2Mobile/ktInternet
+          - paragraph [ref=f82e134]: 인터넷+TV
+        - listitem [ref=f82e135]:
+          - link [ref=f82e136] [cursor=pointer]:
+            - /url: /M2Mobile/view/EV/event_view.jsp?idx=125
+          - paragraph [ref=f82e137]: SOLO결합
+      - generic [ref=f82e138]:
+        - heading [level=2] [ref=f82e140]:
+          - text: 추천 요금제
+          - paragraph [ref=f82e141]: Best 유심 요금제를 확인해보세요.
+        - list [ref=f82e145]:
+          - listitem [ref=f82e146]:
+            - generic [ref=f82e147]:
+              - list [ref=f82e149]:
+                - listitem [ref=f82e150]: KT
+                - listitem [ref=f82e151]: ✅평생할인
+                - listitem [ref=f82e152]: 📖밀리의서재 구독권
+              - generic [ref=f82e153]: 쉐이크 5G 200GB+_밀리의서재
+              - list [ref=f82e154]:
+                - listitem [ref=f82e155]:
+                  - paragraph [ref=f82e156]: 기본제공(부가통화 300분)
+                - listitem [ref=f82e157]:
+                  - paragraph [ref=f82e158]: 기본제공
+                - listitem [ref=f82e159]:
+                  - paragraph [ref=f82e160]: 200GB+최대10Mbps(최대 220GB)
+              - generic [ref=f82e161]:
+                - deletion [ref=f82e162]: 월 58,300원
+                - strong [ref=f82e163]: 월 36,300원
+              - link "가입하기" [ref=f82e165] [cursor=pointer]:
+                - /url: javascript:doNextPrev('PL244O984_7');
+          - listitem [ref=f82e166]:
+            - generic [ref=f82e167]:
+              - list [ref=f82e169]:
+                - listitem [ref=f82e170]: KT
+                - listitem [ref=f82e171]: ✅평생할인
+                - listitem [ref=f82e172]: 📖밀리의서재 구독권
+              - generic [ref=f82e173]: 쉐이크 LTE 7GB+_밀리의서재
+              - list [ref=f82e174]:
+                - listitem [ref=f82e175]:
+                  - paragraph [ref=f82e176]: 기본제공(부가통화 300분)
+                - listitem [ref=f82e177]:
+                  - paragraph [ref=f82e178]: 기본제공
+                - listitem [ref=f82e179]:
+                  - paragraph [ref=f82e180]: 7GB+최대1Mbps(최대 22GB)
+              - generic [ref=f82e181]:
+                - deletion [ref=f82e182]: 월 35,200원
+                - strong [ref=f82e183]: 월 12,900원
+              - link "가입하기" [ref=f82e185] [cursor=pointer]:
+                - /url: javascript:doNextPrev('PL238L520_25');
+          - listitem [ref=f82e186]:
+            - generic [ref=f82e187]:
+              - list [ref=f82e189]:
+                - listitem [ref=f82e190]: KT
+                - listitem [ref=f82e191]: 🔥타임딜
+                - listitem [ref=f82e192]: ✅평생할인
+                - listitem [ref=f82e193]: 📖밀리의서재 구독권
+              - generic [ref=f82e194]: "[특가]쉐이크픽 LTE 100GB+_밀리의서재"
+              - list [ref=f82e195]:
+                - listitem [ref=f82e196]:
+                  - paragraph [ref=f82e197]: 기본제공(부가통화 300분)
+                - listitem [ref=f82e198]:
+                  - paragraph [ref=f82e199]: 기본제공
+                - listitem [ref=f82e200]:
+                  - paragraph [ref=f82e201]: 100GB+최대5Mbps(최대 120GB)
+              - generic [ref=f82e202]:
+                - deletion [ref=f82e203]: 월 50,600원
+                - strong [ref=f82e204]: 월 25,900원
+              - link "가입하기" [ref=f82e206] [cursor=pointer]:
+                - /url: javascript:doNextPrev('PL23AO887_56');
+      - paragraph [ref=f82e210]:
+        - link [ref=f82e211] [cursor=pointer]:
+          - /url: /M2Mobile/ktInternet
+          - img "kt_인터넷_tv" [ref=f82e212]
+      - paragraph [ref=f82e214]:
+        - link [ref=f82e215] [cursor=pointer]:
+          - /url: /M2Mobile/Set3G?utm_campaign=mainpage&utm_source=homepage&utm_medium=home_banner&utm_medium=other&utm_term=price_main
+          - img "추천휴대폰" [ref=f82e216]
+      - paragraph [ref=f82e218]:
+        - link [ref=f82e219] [cursor=pointer]:
+          - /url: https://3e457.channel.io/home
+          - img "추천휴대폰" [ref=f82e220]
+      - generic [ref=f82e222]:
+        - list [ref=f82e224]:
+          - listitem [ref=f82e225]:
+            - generic [ref=f82e226]: 채팅으로 문의하기
+          - listitem [ref=f82e227]:
+            - link "자주묻는 질문" [ref=f82e228] [cursor=pointer]:
+              - /url: /M2Mobile/view/VOC/VOC030.jsp
+          - listitem [ref=f82e229]:
+            - link "각종신청서" [ref=f82e230] [cursor=pointer]:
+              - /url: /M2Mobile/view/VOC/VOC060.jsp
+        - generic [ref=f82e231]:
+          - heading "공지사항" [level=3] [ref=f82e232]
+          - list [ref=f82e233]:
+            - listitem [ref=f82e234]:
+              - link "개인정보처리방침 변경 안내(2026.08.05. 적용)" [ref=f82e235] [cursor=pointer]:
+                - /url: /M2Mobile/NoticeDetail?seq=1327
+            - listitem [ref=f82e236]:
+              - link "[안내] 다중인증체계 도입" [ref=f82e237] [cursor=pointer]:
+                - /url: /M2Mobile/NoticeDetail?seq=1323
+            - listitem [ref=f82e238]:
+              - link "[공지] M-safer 가입제한 서비스 시스템 작업에 따른 안내" [ref=f82e239] [cursor=pointer]:
+                - /url: /M2Mobile/NoticeDetail?seq=1322
+    - contentinfo [ref=f82e240]:
+      - list [ref=f82e242]:
+        - listitem [ref=f82e243]:
+          - link "회사소개" [ref=f82e244] [cursor=pointer]:
+            - /url: https://www.minigate.net/
+        - listitem [ref=f82e245]:
+          - link "개인정보 처리방침" [ref=f82e246] [cursor=pointer]:
+            - /url: /M2Mobile/policyDocumentDtl?docType=PRIVACY
+        - listitem [ref=f82e247]:
+          - link "이용약관" [ref=f82e248] [cursor=pointer]:
+            - /url: /M2Mobile/policyDocumentDtl?docType=TERM
+        - listitem [ref=f82e249]:
+          - link "청소년 보호정책" [ref=f82e250] [cursor=pointer]:
+            - /url: /M2Mobile/policyDocumentDtl?docType=MINOR_POLICY
+        - listitem [ref=f82e251]:
+          - link "불법스팸대응센터" [ref=f82e252] [cursor=pointer]:
+            - /url: http://spam.kisa.or.kr
+        - listitem [ref=f82e253]:
+          - link "명의도용방지서비스" [ref=f82e254] [cursor=pointer]:
+            - /url: https://msafer.or.kr
+      - generic [ref=f82e256]:
+        - heading [level=2] [ref=f82e257]:
+          - img "minigate" [ref=f82e258]
+        - generic [ref=f82e259]:
+          - list:
+            - listitem [ref=f82e260]: 대표이사정훈
+            - listitem [ref=f82e261]: "주소 : 서울시 강남구 역삼로 17길 51 (주)미니게이트"
+            - listitem [ref=f82e262]: "사업자등록번호: 211-87-52128"
+            - listitem [ref=f82e263]: "통신판매업 신고번호: 제 2022-서울강남-02510"
+            - listitem [ref=f82e264]: "일반상담문의 : 1588-7376(유료)"
+            - listitem [ref=f82e265]: "가입고객무료통화 : 휴대폰 + 114"
+            - listitem [ref=f82e266]: "제휴문의 : partnership@minigate.net"
+          - paragraph [ref=f82e267]: Copyright Minigate Co., Ltd. All rights reserved.

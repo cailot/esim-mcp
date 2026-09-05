@@ -1,0 +1,1557 @@
+- generic [active] [ref=f284e1]:
+  - generic:
+    - link "skip to 상단메뉴" [ref=f284e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "skip to content" [ref=f284e3] [cursor=pointer]:
+      - /url: "#contents"
+  - generic [ref=f284e4]:
+    - generic [ref=f284e5]:
+      - generic [ref=f284e6]:
+        - list
+      - list [ref=f284e8]:
+        - listitem [ref=f284e9]:
+          - link "인터넷우체국" [ref=f284e10] [cursor=pointer]:
+            - /url: https://www.epost.go.kr
+        - listitem [ref=f284e11]:
+          - link "우체국 B2B" [ref=f284e12] [cursor=pointer]:
+            - /url: http://b2b.epost.go.kr
+        - listitem [ref=f284e13]:
+          - link "해외배송" [ref=f284e14] [cursor=pointer]:
+            - /url: /fo/main/moveOverSend.do
+      - generic [ref=f284e15]:
+        - link "우체국쇼핑" [ref=f284e16] [cursor=pointer]:
+          - /url: /fo/main/main.do
+        - generic [ref=f284e20]:
+          - textbox "검색어입력" [ref=f284e21]
+          - link "찾기버튼" [ref=f284e22] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=f284e24]:
+          - listitem [ref=f284e25]:
+            - link "로그인" [ref=f284e26] [cursor=pointer]:
+              - /url: /fo/login/loginPrc.do
+          - listitem [ref=f284e27]:
+            - link "장바구니" [ref=f284e28] [cursor=pointer]:
+              - /url: javascript:fn_rightCartCnt();
+          - listitem [ref=f284e29]:
+            - link "나의쇼핑" [ref=f284e30] [cursor=pointer]:
+              - /url: /fo/mypage/mypageOrderSendSearch.do
+      - generic [ref=f284e31]:
+        - generic:
+          - link "전체 카테고리" [ref=f284e32] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f284e33]:
+            - listitem [ref=f284e34]:
+              - link "꿀송편🌈" [ref=f284e35] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev01
+            - listitem [ref=f284e36]:
+              - link "선물🐰" [ref=f284e37] [cursor=pointer]:
+                - /url: https://mall.epost.go.kr/fo/event/2026/ChuseokBenefit.do?selTab=ev04
+            - listitem [ref=f284e38]:
+              - link "AI추천" [ref=f284e39] [cursor=pointer]:
+                - /url: /fo/display/recommendView.do
+            - listitem [ref=f284e40]:
+              - link "특가" [ref=f284e41] [cursor=pointer]:
+                - /url: /fo/event/retrieveSpecialPrice.do
+            - listitem [ref=f284e42]:
+              - link "신규상품" [ref=f284e43] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100008
+            - listitem [ref=f284e44]:
+              - link "이달의 맛🦐" [ref=f284e45] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027581
+            - listitem [ref=f284e46]:
+              - link "특산물" [ref=f284e47] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100007
+            - listitem [ref=f284e48]:
+              - link "전통시장" [ref=f284e49] [cursor=pointer]:
+                - /url: /fo/pavln/sijangDduri.do
+            - listitem [ref=f284e50]:
+              - link "생활용품" [ref=f284e51] [cursor=pointer]:
+                - /url: /fo/display/retrieveTemplateView.do?templNo=100012
+            - listitem [ref=f284e52]:
+              - link "군장병관" [ref=f284e53] [cursor=pointer]:
+                - /url: /fo/display/plnbefDspyNewView.do?plnbefId=10027623
+          - list [ref=f284e54]:
+            - listitem [ref=f284e55]:
+              - link "이벤트" [ref=f284e56] [cursor=pointer]:
+                - /url: /fo/event/eventListMain.do?LOG_POS=15
+            - listitem [ref=f284e57]:
+              - link "기획전" [ref=f284e58] [cursor=pointer]:
+                - /url: /fo/display/plnbefAllList.do?LOG_POS=103
+            - listitem [ref=f284e59]:
+              - link "지역브랜드관" [ref=f284e60] [cursor=pointer]:
+                - /url: /fo/event/retrievePaldoLocalMap.do?LOG_POS=102
+    - generic [ref=f284e61]:
+      - generic [ref=f284e62]:
+        - generic [ref=f284e63] [cursor=pointer]: 축소/확대 버튼 축소
+        - list [ref=f284e64]:
+          - listitem [ref=f284e65] [cursor=pointer]:
+            - generic [ref=f284e66]: 장바구니
+          - listitem [ref=f284e67] [cursor=pointer]:
+            - generic [ref=f284e68]: 최근 본 상품
+        - list [ref=f284e70]:
+          - listitem [ref=f284e71]:
+            - link "쿠폰등록" [ref=f284e72] [cursor=pointer]:
+              - /url: javascript:fn_couponPinReg();
+          - listitem [ref=f284e73]:
+            - link "법인다량상담" [ref=f284e74] [cursor=pointer]:
+              - /url: /fo/center/centerManyBuyOrderAdvc.do
+          - listitem [ref=f284e75]:
+            - link "기부하기" [ref=f284e76] [cursor=pointer]:
+              - /url: /fo/donate/howDonate.do
+        - link "TOP" [ref=f284e77] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f284e78]:
+        - generic [ref=f284e79]:
+          - generic:
+            - heading "전통시장 MD 추천" [level=3] [ref=f284e80]
+            - paragraph [ref=f284e81]: 팔도명물만 찾았다!
+        - list [ref=f284e83]:
+          - listitem [ref=f284e84]:
+            - link "팔도 명물" [ref=f284e85] [cursor=pointer]:
+              - /url: /fo/pavln/sijangPaldo.do#origin_market_tab
+          - listitem [ref=f284e86]:
+            - link "인기 상품" [ref=f284e87] [cursor=pointer]:
+              - /url: /fo/pavln/sijangBest.do#origin_market_tab
+          - listitem [ref=f284e88]:
+            - link "전체 상품" [ref=f284e89] [cursor=pointer]:
+              - /url: /fo/pavln/sijangAll.do#origin_market_tab
+          - listitem [ref=f284e90]:
+            - link "MD 추천" [ref=f284e91] [cursor=pointer]:
+              - /url: /fo/pavln/sijangDduri.do#origin_market_tab
+          - listitem [ref=f284e92]:
+            - link "온누리상품권 소개" [ref=f284e93] [cursor=pointer]:
+              - /url: /fo/pavln/sijangOnnuriTicket.do#origin_market_tab
+        - generic [ref=f284e94]:
+          - generic [ref=f284e96]:
+            - heading [level=4] [ref=f284e97]:
+              - img "팔도명물만 찾았다! 전통시장 MD 추천" [ref=f284e98]
+            - generic [ref=f284e102]:
+              - button "Previous" [ref=f284e103] [cursor=pointer]
+              - generic [ref=f284e105]:
+                - link [ref=f284e109] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1031014','05','03','10025602','101203307');
+                  - paragraph [ref=f284e111]:
+                    - generic [ref=f284e112]: ↓
+                    - emphasis [ref=f284e114]: "26"
+                    - generic [ref=f284e115]: "%"
+                  - generic [ref=f284e117]:
+                    - generic [ref=f284e118]:
+                      - paragraph [ref=f284e119]: 25년산[대복상회 ]국산볶음땅콩 1kg
+                      - paragraph [ref=f284e120]: 국산볶음땅콩 1kg
+                    - generic [ref=f284e121]:
+                      - paragraph [ref=f284e122]:
+                        - generic [ref=f284e123]:
+                          - emphasis [ref=f284e124]: 22,200
+                          - text: 원
+                      - paragraph [ref=f284e125]:
+                        - generic [ref=f284e126]:
+                          - emphasis [ref=f284e127]: 30,000
+                          - text: 원
+                    - generic [ref=f284e128]: 무료배송
+                - link [ref=f284e134] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1033239','05','03','10025602','103201304');
+                  - paragraph [ref=f284e136]:
+                    - generic [ref=f284e137]: ↓
+                    - emphasis [ref=f284e139]: "5"
+                    - generic [ref=f284e140]: "%"
+                  - generic [ref=f284e142]:
+                    - generic [ref=f284e143]:
+                      - paragraph [ref=f284e144]: "[남도드림] 강동한우 선물세트 모음전(불고기세트, 갈비세트, 등심/채끝세트외)"
+                      - paragraph [ref=f284e145]: 600g, 900g , 1.2kg, 2kg
+                    - generic [ref=f284e146]:
+                      - paragraph [ref=f284e147]:
+                        - generic [ref=f284e148]:
+                          - emphasis [ref=f284e149]: 77,900
+                          - text: 원
+                      - paragraph [ref=f284e150]:
+                        - generic [ref=f284e151]:
+                          - emphasis [ref=f284e152]: 82,000
+                          - text: 원
+                    - generic [ref=f284e153]: 무료배송
+                - link [ref=f284e159] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202463','05','03','10025602','101202301');
+                  - paragraph [ref=f284e161]:
+                    - generic [ref=f284e162]: ↓
+                    - emphasis [ref=f284e164]: "27"
+                    - generic [ref=f284e165]: "%"
+                  - generic [ref=f284e167]:
+                    - generic [ref=f284e168]:
+                      - paragraph [ref=f284e169]: (농할) 국내산 홍로사과 5kg(16~19과)
+                      - paragraph [ref=f284e170]: 5kg
+                    - generic [ref=f284e171]:
+                      - paragraph [ref=f284e172]:
+                        - generic [ref=f284e173]:
+                          - emphasis [ref=f284e174]: 39,920
+                          - text: 원
+                      - paragraph [ref=f284e175]:
+                        - generic [ref=f284e176]:
+                          - emphasis [ref=f284e177]: 54,900
+                          - text: 원
+                    - generic [ref=f284e178]: 무료배송
+                - link [ref=f284e184] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202143','05','03','10025602','103202301');
+                  - paragraph [ref=f284e186]:
+                    - generic [ref=f284e187]: ↓
+                    - emphasis [ref=f284e189]: "10"
+                    - generic [ref=f284e190]: "%"
+                  - generic [ref=f284e192]:
+                    - generic [ref=f284e193]:
+                      - paragraph [ref=f284e194]: 1등급 한돈 선물세트(삼삼목항/2kg)
+                      - paragraph [ref=f284e195]: 삼겹살500g+삼겹살500g+목살500g+항정살500g
+                    - generic [ref=f284e196]:
+                      - paragraph [ref=f284e197]:
+                        - generic [ref=f284e198]:
+                          - emphasis [ref=f284e199]: 87,000
+                          - text: 원
+                      - paragraph [ref=f284e200]:
+                        - generic [ref=f284e201]:
+                          - emphasis [ref=f284e202]: 97,000
+                          - text: 원
+                    - generic [ref=f284e203]: 무료배송
+                - link [ref=f284e209] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1018188','05','03','10025602','101202301');
+                  - paragraph [ref=f284e211]:
+                    - generic [ref=f284e212]: ↓
+                    - emphasis [ref=f284e214]: "14"
+                    - generic [ref=f284e215]: "%"
+                  - generic [ref=f284e217]:
+                    - generic [ref=f284e218]:
+                      - paragraph [ref=f284e219]: "[복담은] 명품 꿀 사과 선물세트 5kg 2호 중대과"
+                      - paragraph [ref=f284e220]: 15-16과/보자기동봉+외박스포장
+                    - generic [ref=f284e221]:
+                      - paragraph [ref=f284e222]:
+                        - generic [ref=f284e223]:
+                          - emphasis [ref=f284e224]: 66,400
+                          - text: 원
+                      - paragraph [ref=f284e225]:
+                        - generic [ref=f284e226]:
+                          - emphasis [ref=f284e227]: 78,000
+                          - text: 원
+                    - generic [ref=f284e228]: 무료배송
+                - link "↓ 4 % 용대리(진부령)황태채 용대리(진부령)황태채 500g 32,800원 34,500원 무료배송" [ref=f284e234] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1030833','05','03','10025602','102205301');
+                  - generic [ref=f284e235]:
+                    - paragraph [ref=f284e236]:
+                      - generic [ref=f284e237]: ↓
+                      - emphasis [ref=f284e239]: "4"
+                      - generic [ref=f284e240]: "%"
+                    - img "용대리(진부령)황태채" [ref=f284e241]
+                  - generic [ref=f284e242]:
+                    - generic [ref=f284e243]:
+                      - paragraph [ref=f284e244]: 용대리(진부령)황태채
+                      - paragraph [ref=f284e245]: 500g
+                    - generic [ref=f284e246]:
+                      - paragraph [ref=f284e247]:
+                        - generic [ref=f284e248]:
+                          - emphasis [ref=f284e249]: 32,800
+                          - text: 원
+                      - paragraph [ref=f284e250]:
+                        - generic [ref=f284e251]:
+                          - emphasis [ref=f284e252]: 34,500
+                          - text: 원
+                    - generic [ref=f284e253]: 무료배송
+                - link "↓ 11 % 싱싱한 제주 은갈치 대 2마리(머리, 꼬리 및 내장 손질 후 마리당 430g~500g) 싱싱한 제주 은갈치 대 2마리(머리, 꼬리 및 내장 손질 후 마리당 430g~500g) 은갈치 450g*2 77,000원 87,000원 무료배송" [ref=f284e259] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2200755','05','03','10025602','102204302');
+                  - generic [ref=f284e260]:
+                    - paragraph [ref=f284e261]:
+                      - generic [ref=f284e262]: ↓
+                      - emphasis [ref=f284e264]: "11"
+                      - generic [ref=f284e265]: "%"
+                    - img "싱싱한 제주 은갈치 대 2마리(머리, 꼬리 및 내장 손질 후 마리당 430g~500g)" [ref=f284e266]
+                  - generic [ref=f284e267]:
+                    - generic [ref=f284e268]:
+                      - paragraph [ref=f284e269]: 싱싱한 제주 은갈치 대 2마리(머리, 꼬리 및 내장 손질 후 마리당 430g~500g)
+                      - paragraph [ref=f284e270]: 은갈치 450g*2
+                    - generic [ref=f284e271]:
+                      - paragraph [ref=f284e272]:
+                        - generic [ref=f284e273]:
+                          - emphasis [ref=f284e274]: 77,000
+                          - text: 원
+                      - paragraph [ref=f284e275]:
+                        - generic [ref=f284e276]:
+                          - emphasis [ref=f284e277]: 87,000
+                          - text: 원
+                    - generic [ref=f284e278]: 무료배송
+                - link "↓ 20 % [생산자직송] 해남 강미자님의 햇 꿀고구마(특) [생산자직송] 해남 강미자님의 햇 꿀고구마(특) 3kg/5kg/10kg 13,500원 17,000원 무료배송" [ref=f284e284] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1003904','05','03','10025602','101204302');
+                  - generic [ref=f284e285]:
+                    - paragraph [ref=f284e286]:
+                      - generic [ref=f284e287]: ↓
+                      - emphasis [ref=f284e289]: "20"
+                      - generic [ref=f284e290]: "%"
+                    - img "[생산자직송] 해남 강미자님의 햇 꿀고구마(특)" [ref=f284e291]
+                  - generic [ref=f284e292]:
+                    - generic [ref=f284e293]:
+                      - paragraph [ref=f284e294]: "[생산자직송] 해남 강미자님의 햇 꿀고구마(특)"
+                      - paragraph [ref=f284e295]: 3kg/5kg/10kg
+                    - generic [ref=f284e296]:
+                      - paragraph [ref=f284e297]:
+                        - generic [ref=f284e298]:
+                          - emphasis [ref=f284e299]: 13,500
+                          - text: 원
+                      - paragraph [ref=f284e300]:
+                        - generic [ref=f284e301]:
+                          - emphasis [ref=f284e302]: 17,000
+                          - text: 원
+                    - generic [ref=f284e303]: 무료배송
+                - link "↓ 24 % 상주아람곶감 반건시 선물세트(60g 30개) 상주아람곶감 반건시 선물세트(60g 30개) 60g 30개 53,100원 70,000원 무료배송" [ref=f284e309] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1005515','05','03','10025602','101203302');
+                  - generic [ref=f284e310]:
+                    - paragraph [ref=f284e311]:
+                      - generic [ref=f284e312]: ↓
+                      - emphasis [ref=f284e314]: "24"
+                      - generic [ref=f284e315]: "%"
+                    - img "상주아람곶감 반건시 선물세트(60g 30개)" [ref=f284e316]
+                  - generic [ref=f284e317]:
+                    - generic [ref=f284e318]:
+                      - paragraph [ref=f284e319]: 상주아람곶감 반건시 선물세트(60g 30개)
+                      - paragraph [ref=f284e320]: 60g 30개
+                    - generic [ref=f284e321]:
+                      - paragraph [ref=f284e322]:
+                        - generic [ref=f284e323]:
+                          - emphasis [ref=f284e324]: 53,100
+                          - text: 원
+                      - paragraph [ref=f284e325]:
+                        - generic [ref=f284e326]:
+                          - emphasis [ref=f284e327]: 70,000
+                          - text: 원
+                    - generic [ref=f284e328]: 무료배송
+                - link "↓ 23 % 대를 이은 완도 참전복 왕특大 사이즈 1kg(전복죽증정) 대를 이은 완도 참전복 왕특大 사이즈 1kg(전복죽증정) 왕특大 1kg (6~7미) / (7~8미) / (8~9미) 39,900원 52,000원 무료배송" [ref=f284e334] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1007432','05','03','10025602','102207301');
+                  - generic [ref=f284e335]:
+                    - paragraph [ref=f284e336]:
+                      - generic [ref=f284e337]: ↓
+                      - emphasis [ref=f284e339]: "23"
+                      - generic [ref=f284e340]: "%"
+                    - img "대를 이은 완도 참전복 왕특大 사이즈 1kg(전복죽증정)" [ref=f284e341]
+                  - generic [ref=f284e342]:
+                    - generic [ref=f284e343]:
+                      - paragraph [ref=f284e344]: 대를 이은 완도 참전복 왕특大 사이즈 1kg(전복죽증정)
+                      - paragraph [ref=f284e345]: 왕특大 1kg (6~7미) / (7~8미) / (8~9미)
+                    - generic [ref=f284e346]:
+                      - paragraph [ref=f284e347]:
+                        - generic [ref=f284e348]:
+                          - emphasis [ref=f284e349]: 39,900
+                          - text: 원
+                      - paragraph [ref=f284e350]:
+                        - generic [ref=f284e351]:
+                          - emphasis [ref=f284e352]: 52,000
+                          - text: 원
+                    - generic [ref=f284e353]: 무료배송
+                - link [ref=f284e359] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1031014','05','03','10025602','101203307');
+                  - paragraph [ref=f284e361]:
+                    - generic [ref=f284e362]: ↓
+                    - emphasis [ref=f284e364]: "26"
+                    - generic [ref=f284e365]: "%"
+                  - generic [ref=f284e367]:
+                    - generic [ref=f284e368]:
+                      - paragraph [ref=f284e369]: 25년산[대복상회 ]국산볶음땅콩 1kg
+                      - paragraph [ref=f284e370]: 국산볶음땅콩 1kg
+                    - generic [ref=f284e371]:
+                      - paragraph [ref=f284e372]:
+                        - generic [ref=f284e373]:
+                          - emphasis [ref=f284e374]: 22,200
+                          - text: 원
+                      - paragraph [ref=f284e375]:
+                        - generic [ref=f284e376]:
+                          - emphasis [ref=f284e377]: 30,000
+                          - text: 원
+                    - generic [ref=f284e378]: 무료배송
+                - link [ref=f284e384] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1033239','05','03','10025602','103201304');
+                  - paragraph [ref=f284e386]:
+                    - generic [ref=f284e387]: ↓
+                    - emphasis [ref=f284e389]: "5"
+                    - generic [ref=f284e390]: "%"
+                  - generic [ref=f284e392]:
+                    - generic [ref=f284e393]:
+                      - paragraph [ref=f284e394]: "[남도드림] 강동한우 선물세트 모음전(불고기세트, 갈비세트, 등심/채끝세트외)"
+                      - paragraph [ref=f284e395]: 600g, 900g , 1.2kg, 2kg
+                    - generic [ref=f284e396]:
+                      - paragraph [ref=f284e397]:
+                        - generic [ref=f284e398]:
+                          - emphasis [ref=f284e399]: 77,900
+                          - text: 원
+                      - paragraph [ref=f284e400]:
+                        - generic [ref=f284e401]:
+                          - emphasis [ref=f284e402]: 82,000
+                          - text: 원
+                    - generic [ref=f284e403]: 무료배송
+                - link [ref=f284e409] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202463','05','03','10025602','101202301');
+                  - paragraph [ref=f284e411]:
+                    - generic [ref=f284e412]: ↓
+                    - emphasis [ref=f284e414]: "27"
+                    - generic [ref=f284e415]: "%"
+                  - generic [ref=f284e417]:
+                    - generic [ref=f284e418]:
+                      - paragraph [ref=f284e419]: (농할) 국내산 홍로사과 5kg(16~19과)
+                      - paragraph [ref=f284e420]: 5kg
+                    - generic [ref=f284e421]:
+                      - paragraph [ref=f284e422]:
+                        - generic [ref=f284e423]:
+                          - emphasis [ref=f284e424]: 39,920
+                          - text: 원
+                      - paragraph [ref=f284e425]:
+                        - generic [ref=f284e426]:
+                          - emphasis [ref=f284e427]: 54,900
+                          - text: 원
+                    - generic [ref=f284e428]: 무료배송
+                - link [ref=f284e434] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202143','05','03','10025602','103202301');
+                  - paragraph [ref=f284e436]:
+                    - generic [ref=f284e437]: ↓
+                    - emphasis [ref=f284e439]: "10"
+                    - generic [ref=f284e440]: "%"
+                  - generic [ref=f284e442]:
+                    - generic [ref=f284e443]:
+                      - paragraph [ref=f284e444]: 1등급 한돈 선물세트(삼삼목항/2kg)
+                      - paragraph [ref=f284e445]: 삼겹살500g+삼겹살500g+목살500g+항정살500g
+                    - generic [ref=f284e446]:
+                      - paragraph [ref=f284e447]:
+                        - generic [ref=f284e448]:
+                          - emphasis [ref=f284e449]: 87,000
+                          - text: 원
+                      - paragraph [ref=f284e450]:
+                        - generic [ref=f284e451]:
+                          - emphasis [ref=f284e452]: 97,000
+                          - text: 원
+                    - generic [ref=f284e453]: 무료배송
+                - link [ref=f284e459] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1018188','05','03','10025602','101202301');
+                  - paragraph [ref=f284e461]:
+                    - generic [ref=f284e462]: ↓
+                    - emphasis [ref=f284e464]: "14"
+                    - generic [ref=f284e465]: "%"
+                  - generic [ref=f284e467]:
+                    - generic [ref=f284e468]:
+                      - paragraph [ref=f284e469]: "[복담은] 명품 꿀 사과 선물세트 5kg 2호 중대과"
+                      - paragraph [ref=f284e470]: 15-16과/보자기동봉+외박스포장
+                    - generic [ref=f284e471]:
+                      - paragraph [ref=f284e472]:
+                        - generic [ref=f284e473]:
+                          - emphasis [ref=f284e474]: 66,400
+                          - text: 원
+                      - paragraph [ref=f284e475]:
+                        - generic [ref=f284e476]:
+                          - emphasis [ref=f284e477]: 78,000
+                          - text: 원
+                    - generic [ref=f284e478]: 무료배송
+                - link [ref=f284e484] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1030833','05','03','10025602','102205301');
+                  - paragraph [ref=f284e486]:
+                    - generic [ref=f284e487]: ↓
+                    - emphasis [ref=f284e489]: "4"
+                    - generic [ref=f284e490]: "%"
+                  - generic [ref=f284e492]:
+                    - generic [ref=f284e493]:
+                      - paragraph [ref=f284e494]: 용대리(진부령)황태채
+                      - paragraph [ref=f284e495]: 500g
+                    - generic [ref=f284e496]:
+                      - paragraph [ref=f284e497]:
+                        - generic [ref=f284e498]:
+                          - emphasis [ref=f284e499]: 32,800
+                          - text: 원
+                      - paragraph [ref=f284e500]:
+                        - generic [ref=f284e501]:
+                          - emphasis [ref=f284e502]: 34,500
+                          - text: 원
+                    - generic [ref=f284e503]: 무료배송
+                - link [ref=f284e509] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2200755','05','03','10025602','102204302');
+                  - paragraph [ref=f284e511]:
+                    - generic [ref=f284e512]: ↓
+                    - emphasis [ref=f284e514]: "11"
+                    - generic [ref=f284e515]: "%"
+                  - generic [ref=f284e517]:
+                    - generic [ref=f284e518]:
+                      - paragraph [ref=f284e519]: 싱싱한 제주 은갈치 대 2마리(머리, 꼬리 및 내장 손질 후 마리당 430g~500g)
+                      - paragraph [ref=f284e520]: 은갈치 450g*2
+                    - generic [ref=f284e521]:
+                      - paragraph [ref=f284e522]:
+                        - generic [ref=f284e523]:
+                          - emphasis [ref=f284e524]: 77,000
+                          - text: 원
+                      - paragraph [ref=f284e525]:
+                        - generic [ref=f284e526]:
+                          - emphasis [ref=f284e527]: 87,000
+                          - text: 원
+                    - generic [ref=f284e528]: 무료배송
+                - link [ref=f284e534] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1003904','05','03','10025602','101204302');
+                  - paragraph [ref=f284e536]:
+                    - generic [ref=f284e537]: ↓
+                    - emphasis [ref=f284e539]: "20"
+                    - generic [ref=f284e540]: "%"
+                  - generic [ref=f284e542]:
+                    - generic [ref=f284e543]:
+                      - paragraph [ref=f284e544]: "[생산자직송] 해남 강미자님의 햇 꿀고구마(특)"
+                      - paragraph [ref=f284e545]: 3kg/5kg/10kg
+                    - generic [ref=f284e546]:
+                      - paragraph [ref=f284e547]:
+                        - generic [ref=f284e548]:
+                          - emphasis [ref=f284e549]: 13,500
+                          - text: 원
+                      - paragraph [ref=f284e550]:
+                        - generic [ref=f284e551]:
+                          - emphasis [ref=f284e552]: 17,000
+                          - text: 원
+                    - generic [ref=f284e553]: 무료배송
+                - link [ref=f284e559] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1005515','05','03','10025602','101203302');
+                  - paragraph [ref=f284e561]:
+                    - generic [ref=f284e562]: ↓
+                    - emphasis [ref=f284e564]: "24"
+                    - generic [ref=f284e565]: "%"
+                  - generic [ref=f284e567]:
+                    - generic [ref=f284e568]:
+                      - paragraph [ref=f284e569]: 상주아람곶감 반건시 선물세트(60g 30개)
+                      - paragraph [ref=f284e570]: 60g 30개
+                    - generic [ref=f284e571]:
+                      - paragraph [ref=f284e572]:
+                        - generic [ref=f284e573]:
+                          - emphasis [ref=f284e574]: 53,100
+                          - text: 원
+                      - paragraph [ref=f284e575]:
+                        - generic [ref=f284e576]:
+                          - emphasis [ref=f284e577]: 70,000
+                          - text: 원
+                    - generic [ref=f284e578]: 무료배송
+                - link [ref=f284e584] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1007432','05','03','10025602','102207301');
+                  - paragraph [ref=f284e586]:
+                    - generic [ref=f284e587]: ↓
+                    - emphasis [ref=f284e589]: "23"
+                    - generic [ref=f284e590]: "%"
+                  - generic [ref=f284e592]:
+                    - generic [ref=f284e593]:
+                      - paragraph [ref=f284e594]: 대를 이은 완도 참전복 왕특大 사이즈 1kg(전복죽증정)
+                      - paragraph [ref=f284e595]: 왕특大 1kg (6~7미) / (7~8미) / (8~9미)
+                    - generic [ref=f284e596]:
+                      - paragraph [ref=f284e597]:
+                        - generic [ref=f284e598]:
+                          - emphasis [ref=f284e599]: 39,900
+                          - text: 원
+                      - paragraph [ref=f284e600]:
+                        - generic [ref=f284e601]:
+                          - emphasis [ref=f284e602]: 52,000
+                          - text: 원
+                    - generic [ref=f284e603]: 무료배송
+                - link [ref=f284e609] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1031014','05','03','10025602','101203307');
+                  - paragraph [ref=f284e611]:
+                    - generic [ref=f284e612]: ↓
+                    - emphasis [ref=f284e614]: "26"
+                    - generic [ref=f284e615]: "%"
+                  - generic [ref=f284e617]:
+                    - generic [ref=f284e618]:
+                      - paragraph [ref=f284e619]: 25년산[대복상회 ]국산볶음땅콩 1kg
+                      - paragraph [ref=f284e620]: 국산볶음땅콩 1kg
+                    - generic [ref=f284e621]:
+                      - paragraph [ref=f284e622]:
+                        - generic [ref=f284e623]:
+                          - emphasis [ref=f284e624]: 22,200
+                          - text: 원
+                      - paragraph [ref=f284e625]:
+                        - generic [ref=f284e626]:
+                          - emphasis [ref=f284e627]: 30,000
+                          - text: 원
+                    - generic [ref=f284e628]: 무료배송
+                - link [ref=f284e634] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1033239','05','03','10025602','103201304');
+                  - paragraph [ref=f284e636]:
+                    - generic [ref=f284e637]: ↓
+                    - emphasis [ref=f284e639]: "5"
+                    - generic [ref=f284e640]: "%"
+                  - generic [ref=f284e642]:
+                    - generic [ref=f284e643]:
+                      - paragraph [ref=f284e644]: "[남도드림] 강동한우 선물세트 모음전(불고기세트, 갈비세트, 등심/채끝세트외)"
+                      - paragraph [ref=f284e645]: 600g, 900g , 1.2kg, 2kg
+                    - generic [ref=f284e646]:
+                      - paragraph [ref=f284e647]:
+                        - generic [ref=f284e648]:
+                          - emphasis [ref=f284e649]: 77,900
+                          - text: 원
+                      - paragraph [ref=f284e650]:
+                        - generic [ref=f284e651]:
+                          - emphasis [ref=f284e652]: 82,000
+                          - text: 원
+                    - generic [ref=f284e653]: 무료배송
+                - link [ref=f284e659] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202463','05','03','10025602','101202301');
+                  - paragraph [ref=f284e661]:
+                    - generic [ref=f284e662]: ↓
+                    - emphasis [ref=f284e664]: "27"
+                    - generic [ref=f284e665]: "%"
+                  - generic [ref=f284e667]:
+                    - generic [ref=f284e668]:
+                      - paragraph [ref=f284e669]: (농할) 국내산 홍로사과 5kg(16~19과)
+                      - paragraph [ref=f284e670]: 5kg
+                    - generic [ref=f284e671]:
+                      - paragraph [ref=f284e672]:
+                        - generic [ref=f284e673]:
+                          - emphasis [ref=f284e674]: 39,920
+                          - text: 원
+                      - paragraph [ref=f284e675]:
+                        - generic [ref=f284e676]:
+                          - emphasis [ref=f284e677]: 54,900
+                          - text: 원
+                    - generic [ref=f284e678]: 무료배송
+                - link [ref=f284e684] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202143','05','03','10025602','103202301');
+                  - paragraph [ref=f284e686]:
+                    - generic [ref=f284e687]: ↓
+                    - emphasis [ref=f284e689]: "10"
+                    - generic [ref=f284e690]: "%"
+                  - generic [ref=f284e692]:
+                    - generic [ref=f284e693]:
+                      - paragraph [ref=f284e694]: 1등급 한돈 선물세트(삼삼목항/2kg)
+                      - paragraph [ref=f284e695]: 삼겹살500g+삼겹살500g+목살500g+항정살500g
+                    - generic [ref=f284e696]:
+                      - paragraph [ref=f284e697]:
+                        - generic [ref=f284e698]:
+                          - emphasis [ref=f284e699]: 87,000
+                          - text: 원
+                      - paragraph [ref=f284e700]:
+                        - generic [ref=f284e701]:
+                          - emphasis [ref=f284e702]: 97,000
+                          - text: 원
+                    - generic [ref=f284e703]: 무료배송
+                - link [ref=f284e709] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1018188','05','03','10025602','101202301');
+                  - paragraph [ref=f284e711]:
+                    - generic [ref=f284e712]: ↓
+                    - emphasis [ref=f284e714]: "14"
+                    - generic [ref=f284e715]: "%"
+                  - generic [ref=f284e717]:
+                    - generic [ref=f284e718]:
+                      - paragraph [ref=f284e719]: "[복담은] 명품 꿀 사과 선물세트 5kg 2호 중대과"
+                      - paragraph [ref=f284e720]: 15-16과/보자기동봉+외박스포장
+                    - generic [ref=f284e721]:
+                      - paragraph [ref=f284e722]:
+                        - generic [ref=f284e723]:
+                          - emphasis [ref=f284e724]: 66,400
+                          - text: 원
+                      - paragraph [ref=f284e725]:
+                        - generic [ref=f284e726]:
+                          - emphasis [ref=f284e727]: 78,000
+                          - text: 원
+                    - generic [ref=f284e728]: 무료배송
+              - button "Next" [ref=f284e731] [cursor=pointer]
+          - generic [ref=f284e734]:
+            - generic:
+              - heading "맛따라 길따라 팔도시장 명물" [level=4]
+              - paragraph: 각 지역을 누르면, 지역 시장 상품을 확인할 수 있습니다.
+            - generic [ref=f284e737]:
+              - list:
+                - listitem [ref=f284e738]:
+                  - link "강원" [ref=f284e739] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 강원
+                - listitem [ref=f284e740]:
+                  - link "서울·경인" [ref=f284e741] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 서울·경인
+                - listitem [ref=f284e742]:
+                  - link "대전·충남" [ref=f284e743] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 대전·충남
+                - listitem [ref=f284e744]:
+                  - link "대구·경북" [ref=f284e745] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 대구·경북
+                - listitem [ref=f284e746]:
+                  - link "충북" [ref=f284e747] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 충북
+                - listitem [ref=f284e748]:
+                  - link "전라북도" [ref=f284e749] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 전라북도
+                - listitem [ref=f284e750]:
+                  - link [ref=f284e751] [cursor=pointer]:
+                    - /url: "#"
+                    - emphasis: 부산·경남
+                    - img "부산·경남 지도" [ref=f284e752]
+                - listitem [ref=f284e753]:
+                  - link "광주·전남" [ref=f284e754] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 광주·전남
+                - listitem [ref=f284e755]:
+                  - link "제주" [ref=f284e756] [cursor=pointer]:
+                    - /url: javascript:void(0);
+                    - emphasis: 제주
+            - list [ref=f284e760]:
+              - listitem [ref=f284e761]:
+                - link "전체 카테고리" [ref=f284e762] [cursor=pointer]:
+                  - /url: javascript:void('0')
+              - listitem [ref=f284e763]
+              - listitem [ref=f284e764]:
+                - textbox "상품검색" [ref=f284e765]
+              - listitem [ref=f284e766]:
+                - button "상품검색 찾기" [ref=f284e767] [cursor=pointer]
+            - generic [ref=f284e768]:
+              - generic [ref=f284e769]:
+                - link "판매량순" [ref=f284e770] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'tc');
+                - link "판매액순" [ref=f284e771] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'tp');
+                - link "낮은가격" [ref=f284e772] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'lp');
+                - link "높은가격" [ref=f284e773] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'hp');
+                - link "최신상품" [ref=f284e774] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'ng');
+                - link "상품평" [ref=f284e775] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'gs');
+                - link "할인율순" [ref=f284e776] [cursor=pointer]:
+                  - /url: javascript:fn_changeOrder('/fo/pavln/sijangPaldo.do#paldo_map', 'hr');
+              - combobox [ref=f284e779]:
+                - option "20개"
+                - option "40개" [selected]
+                - option "60개"
+            - list [ref=f284e782]:
+              - listitem [ref=f284e783]:
+                - link "[영덕축산] 한우 1++(9) 모듬구이(꽃등심, 갈비살, 치마살, 부채살, 업진살) 랜덤 [영덕축산] 한우 1++(9) 모듬구이(꽃등심, 갈비살, 치마살, 부채살, 업진살) 랜덤 300g 600g(300g*2) 900g(300g*3) 25% 44,550원 59,700원 무료배송 전통시장" [ref=f284e784] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032176','05','','','103201303');
+                  - img "[영덕축산] 한우 1++(9) 모듬구이(꽃등심, 갈비살, 치마살, 부채살, 업진살) 랜덤" [ref=f284e786]
+                  - generic [ref=f284e787]:
+                    - paragraph [ref=f284e788]: "[영덕축산] 한우 1++(9) 모듬구이(꽃등심, 갈비살, 치마살, 부채살, 업진살) 랜덤"
+                    - generic [ref=f284e789]: 300g 600g(300g*2) 900g(300g*3)
+                    - generic [ref=f284e790]:
+                      - paragraph [ref=f284e791]:
+                        - text: 25%
+                        - generic [ref=f284e792]:
+                          - emphasis [ref=f284e793]: 44,550
+                          - text: 원
+                      - paragraph [ref=f284e794]:
+                        - generic [ref=f284e795]:
+                          - emphasis [ref=f284e796]: 59,700
+                          - text: 원
+                  - paragraph [ref=f284e798]:
+                    - generic [ref=f284e799]: 무료배송
+                    - generic [ref=f284e800]: 전통시장
+              - listitem [ref=f284e801]:
+                - link "[직접선별] 딱딱이 복숭아 아삭한 단단한 딱복 2kg 4kg [직접선별] 딱딱이 복숭아 아삭한 단단한 딱복 2kg 4kg 2kg, 4kg 26% 17,900원 24,200원 무료배송 전통시장" [ref=f284e802] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202002','05','','','101202305');
+                  - img "[직접선별] 딱딱이 복숭아 아삭한 단단한 딱복 2kg 4kg" [ref=f284e804]
+                  - generic [ref=f284e805]:
+                    - paragraph [ref=f284e806]: "[직접선별] 딱딱이 복숭아 아삭한 단단한 딱복 2kg 4kg"
+                    - generic [ref=f284e807]: 2kg, 4kg
+                    - generic [ref=f284e808]:
+                      - paragraph [ref=f284e809]:
+                        - text: 26%
+                        - generic [ref=f284e810]:
+                          - emphasis [ref=f284e811]: 17,900
+                          - text: 원
+                      - paragraph [ref=f284e812]:
+                        - generic [ref=f284e813]:
+                          - emphasis [ref=f284e814]: 24,200
+                          - text: 원
+                  - paragraph [ref=f284e816]:
+                    - generic [ref=f284e817]: 무료배송
+                    - generic [ref=f284e818]: 전통시장
+              - listitem [ref=f284e819]:
+                - link "이순신수산 전복듬뿍 바다향가득 진도전복 전복죽 밀키트 250g 3팩 외 이순신수산 전복듬뿍 바다향가득 진도전복 전복죽 밀키트 250g 3팩 외 250g 7% 30,300원 32,900원 무료배송 전통시장" [ref=f284e820] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032438','05','','','104206303');
+                  - img "이순신수산 전복듬뿍 바다향가득 진도전복 전복죽 밀키트 250g 3팩 외" [ref=f284e822]
+                  - generic [ref=f284e823]:
+                    - paragraph [ref=f284e824]: 이순신수산 전복듬뿍 바다향가득 진도전복 전복죽 밀키트 250g 3팩 외
+                    - generic [ref=f284e825]: 250g
+                    - generic [ref=f284e826]:
+                      - paragraph [ref=f284e827]:
+                        - text: 7%
+                        - generic [ref=f284e828]:
+                          - emphasis [ref=f284e829]: 30,300
+                          - text: 원
+                      - paragraph [ref=f284e830]:
+                        - generic [ref=f284e831]:
+                          - emphasis [ref=f284e832]: 32,900
+                          - text: 원
+                  - paragraph [ref=f284e834]:
+                    - generic [ref=f284e835]: 무료배송
+                    - generic [ref=f284e836]: 전통시장
+              - listitem [ref=f284e837]:
+                - link "고당도 청송 사과 2kg 4kg 고당도 청송 사과 2kg 4kg 2kg, 4kg 13% 15,900원 18,300원 무료배송 전통시장" [ref=f284e838] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202460','05','','','101202301');
+                  - img "고당도 청송 사과 2kg 4kg" [ref=f284e840]
+                  - generic [ref=f284e841]:
+                    - paragraph [ref=f284e842]: 고당도 청송 사과 2kg 4kg
+                    - generic [ref=f284e843]: 2kg, 4kg
+                    - generic [ref=f284e844]:
+                      - paragraph [ref=f284e845]:
+                        - text: 13%
+                        - generic [ref=f284e846]:
+                          - emphasis [ref=f284e847]: 15,900
+                          - text: 원
+                      - paragraph [ref=f284e848]:
+                        - generic [ref=f284e849]:
+                          - emphasis [ref=f284e850]: 18,300
+                          - text: 원
+                  - paragraph [ref=f284e852]:
+                    - generic [ref=f284e853]: 무료배송
+                    - generic [ref=f284e854]: 전통시장
+              - listitem [ref=f284e855]:
+                - link "국산 반건조 참돔 제수용 국산 반건조 참돔 제수용 참돔 34-42cm 까지 13% 19,000원 22,000원 전통시장" [ref=f284e856] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201556','05','','','102204303');
+                  - img "국산 반건조 참돔 제수용" [ref=f284e858]
+                  - generic [ref=f284e859]:
+                    - paragraph [ref=f284e860]: 국산 반건조 참돔 제수용
+                    - generic [ref=f284e861]: 참돔 34-42cm 까지
+                    - generic [ref=f284e862]:
+                      - paragraph [ref=f284e863]:
+                        - text: 13%
+                        - generic [ref=f284e864]:
+                          - emphasis [ref=f284e865]: 19,000
+                          - text: 원
+                      - paragraph [ref=f284e866]:
+                        - generic [ref=f284e867]:
+                          - emphasis [ref=f284e868]: 22,000
+                          - text: 원
+                  - paragraph [ref=f284e870]:
+                    - generic [ref=f284e871]: 전통시장
+              - listitem [ref=f284e872]:
+                - link "[착한가격]세진이네과일 새콤달콤 고당도 자두 [착한가격]세진이네과일 새콤달콤 고당도 자두 55% 10,710원 24,000원 무료배송 전통시장" [ref=f284e873] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1024886','05','','','101202305');
+                  - img "[착한가격]세진이네과일 새콤달콤 고당도 자두" [ref=f284e875]
+                  - generic [ref=f284e876]:
+                    - paragraph [ref=f284e877]: "[착한가격]세진이네과일 새콤달콤 고당도 자두"
+                    - generic [ref=f284e879]:
+                      - paragraph [ref=f284e880]:
+                        - text: 55%
+                        - generic [ref=f284e881]:
+                          - emphasis [ref=f284e882]: 10,710
+                          - text: 원
+                      - paragraph [ref=f284e883]:
+                        - generic [ref=f284e884]:
+                          - emphasis [ref=f284e885]: 24,000
+                          - text: 원
+                  - paragraph [ref=f284e887]:
+                    - generic [ref=f284e888]: 무료배송
+                    - generic [ref=f284e889]: 전통시장
+              - listitem [ref=f284e890]:
+                - link "[영덕축산] 보성녹돈 생목살 600g 냉장 구이용 숯불용 벌집용 [영덕축산] 보성녹돈 생목살 600g 냉장 구이용 숯불용 벌집용 600g 구이용 1cm 숯불용 칼금용 2cm 22% 21,600원 28,000원 무료배송 전통시장" [ref=f284e891] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032190','05','','','103202301');
+                  - img "[영덕축산] 보성녹돈 생목살 600g 냉장 구이용 숯불용 벌집용" [ref=f284e893]
+                  - generic [ref=f284e894]:
+                    - paragraph [ref=f284e895]: "[영덕축산] 보성녹돈 생목살 600g 냉장 구이용 숯불용 벌집용"
+                    - generic [ref=f284e896]: 600g 구이용 1cm 숯불용 칼금용 2cm
+                    - generic [ref=f284e897]:
+                      - paragraph [ref=f284e898]:
+                        - text: 22%
+                        - generic [ref=f284e899]:
+                          - emphasis [ref=f284e900]: 21,600
+                          - text: 원
+                      - paragraph [ref=f284e901]:
+                        - generic [ref=f284e902]:
+                          - emphasis [ref=f284e903]: 28,000
+                          - text: 원
+                  - paragraph [ref=f284e905]:
+                    - generic [ref=f284e906]: 무료배송
+                    - generic [ref=f284e907]: 전통시장
+              - listitem [ref=f284e908]:
+                - link "[영덕축산] 보성녹돈 삼겹살 600g 냉장 구이용 숯불용 칼금용 [영덕축산] 보성녹돈 삼겹살 600g 냉장 구이용 숯불용 칼금용 600g 구이용 1cm 숯불용 칼금용 2cm 21% 22,500원 28,500원 무료배송 전통시장" [ref=f284e909] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032187','05','','','103202301');
+                  - img "[영덕축산] 보성녹돈 삼겹살 600g 냉장 구이용 숯불용 칼금용" [ref=f284e911]
+                  - generic [ref=f284e912]:
+                    - paragraph [ref=f284e913]: "[영덕축산] 보성녹돈 삼겹살 600g 냉장 구이용 숯불용 칼금용"
+                    - generic [ref=f284e914]: 600g 구이용 1cm 숯불용 칼금용 2cm
+                    - generic [ref=f284e915]:
+                      - paragraph [ref=f284e916]:
+                        - text: 21%
+                        - generic [ref=f284e917]:
+                          - emphasis [ref=f284e918]: 22,500
+                          - text: 원
+                      - paragraph [ref=f284e919]:
+                        - generic [ref=f284e920]:
+                          - emphasis [ref=f284e921]: 28,500
+                          - text: 원
+                  - paragraph [ref=f284e923]:
+                    - generic [ref=f284e924]: 무료배송
+                    - generic [ref=f284e925]: 전통시장
+              - listitem [ref=f284e926]:
+                - link "[마산어시장 동해상회] 건미역 7종 [마산어시장 동해상회] 건미역 7종 30% 2,100원 3,000원 전통시장" [ref=f284e927] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201978','05','','','102207307');
+                  - img "[마산어시장 동해상회] 건미역 7종" [ref=f284e929]
+                  - generic [ref=f284e930]:
+                    - paragraph [ref=f284e931]: "[마산어시장 동해상회] 건미역 7종"
+                    - generic [ref=f284e933]:
+                      - paragraph [ref=f284e934]:
+                        - text: 30%
+                        - generic [ref=f284e935]:
+                          - emphasis [ref=f284e936]: 2,100
+                          - text: 원
+                      - paragraph [ref=f284e937]:
+                        - generic [ref=f284e938]:
+                          - emphasis [ref=f284e939]: 3,000
+                          - text: 원
+                  - paragraph [ref=f284e941]:
+                    - generic [ref=f284e942]: 전통시장
+              - listitem [ref=f284e943]:
+                - link "[영덕축산] 한우 1++(NO.9) 업진살 300g 600g [영덕축산] 한우 1++(NO.9) 업진살 300g 600g 300g 600g(300g*2) 19% 40,050원 49,500원 무료배송 전통시장" [ref=f284e944] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201560','05','','','103201303');
+                  - img "[영덕축산] 한우 1++(NO.9) 업진살 300g 600g" [ref=f284e946]
+                  - generic [ref=f284e947]:
+                    - paragraph [ref=f284e948]: "[영덕축산] 한우 1++(NO.9) 업진살 300g 600g"
+                    - generic [ref=f284e949]: 300g 600g(300g*2)
+                    - generic [ref=f284e950]:
+                      - paragraph [ref=f284e951]:
+                        - text: 19%
+                        - generic [ref=f284e952]:
+                          - emphasis [ref=f284e953]: 40,050
+                          - text: 원
+                      - paragraph [ref=f284e954]:
+                        - generic [ref=f284e955]:
+                          - emphasis [ref=f284e956]: 49,500
+                          - text: 원
+                  - paragraph [ref=f284e958]:
+                    - generic [ref=f284e959]: 무료배송
+                    - generic [ref=f284e960]: 전통시장
+              - listitem [ref=f284e961]:
+                - link "(농할) 국내산 돼지 삼겹살 1+등급 1.5kg (농할) 국내산 돼지 삼겹살 1+등급 1.5kg 영덕축산! 1.5kg 구이용 1cm 숯불용 벌집용 2cm 39% 36,750원 61,000원 무료배송 전통시장" [ref=f284e962] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201300','05','','','103202301');
+                  - img "(농할) 국내산 돼지 삼겹살 1+등급 1.5kg" [ref=f284e964]
+                  - generic [ref=f284e965]:
+                    - paragraph [ref=f284e966]: (농할) 국내산 돼지 삼겹살 1+등급 1.5kg
+                    - generic [ref=f284e967]: 영덕축산! 1.5kg 구이용 1cm 숯불용 벌집용 2cm
+                    - generic [ref=f284e968]:
+                      - paragraph [ref=f284e969]:
+                        - text: 39%
+                        - generic [ref=f284e970]:
+                          - emphasis [ref=f284e971]: 36,750
+                          - text: 원
+                      - paragraph [ref=f284e972]:
+                        - generic [ref=f284e973]:
+                          - emphasis [ref=f284e974]: 61,000
+                          - text: 원
+                  - paragraph [ref=f284e976]:
+                    - generic [ref=f284e977]: 무료배송
+                    - generic [ref=f284e978]: 전통시장
+              - listitem [ref=f284e979]:
+                - link "[영덕축산] 보성녹돈 오겹살 1.5kg 냉장 구이용 숯불용 칼금용 수육용 [영덕축산] 보성녹돈 오겹살 1.5kg 냉장 구이용 숯불용 칼금용 수육용 1.5kg 구이용 1cm 숯불용 칼금용 2cm 수육용 5cm 22% 47,250원 61,000원 무료배송 전통시장" [ref=f284e980] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032185','05','','','103202301');
+                  - img "[영덕축산] 보성녹돈 오겹살 1.5kg 냉장 구이용 숯불용 칼금용 수육용" [ref=f284e982]
+                  - generic [ref=f284e983]:
+                    - paragraph [ref=f284e984]: "[영덕축산] 보성녹돈 오겹살 1.5kg 냉장 구이용 숯불용 칼금용 수육용"
+                    - generic [ref=f284e985]: 1.5kg 구이용 1cm 숯불용 칼금용 2cm 수육용 5cm
+                    - generic [ref=f284e986]:
+                      - paragraph [ref=f284e987]:
+                        - text: 22%
+                        - generic [ref=f284e988]:
+                          - emphasis [ref=f284e989]: 47,250
+                          - text: 원
+                      - paragraph [ref=f284e990]:
+                        - generic [ref=f284e991]:
+                          - emphasis [ref=f284e992]: 61,000
+                          - text: 원
+                  - paragraph [ref=f284e994]:
+                    - generic [ref=f284e995]: 무료배송
+                    - generic [ref=f284e996]: 전통시장
+              - listitem [ref=f284e997]:
+                - link "[영덕축산] 한우1++(NO.9) 양지 국거리 300g 600g 900g [영덕축산] 한우1++(NO.9) 양지 국거리 300g 600g 900g 300g 600g 900g / 300g씩 소포장 / 양지국거리는 기본적으로 썰어서 나갑니다. 덩어리로 원하시는 분은 요청사항에 메모 남겨주세요! 18% 22,950원 28,000원 무료배송 전통시장" [ref=f284e998] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G1032174','05','','','103201303');
+                  - img "[영덕축산] 한우1++(NO.9) 양지 국거리 300g 600g 900g" [ref=f284e1000]
+                  - generic [ref=f284e1001]:
+                    - paragraph [ref=f284e1002]: "[영덕축산] 한우1++(NO.9) 양지 국거리 300g 600g 900g"
+                    - generic [ref=f284e1003]: 300g 600g 900g / 300g씩 소포장 / 양지국거리는 기본적으로 썰어서 나갑니다. 덩어리로 원하시는 분은 요청사항에 메모 남겨주세요!
+                    - generic [ref=f284e1004]:
+                      - paragraph [ref=f284e1005]:
+                        - text: 18%
+                        - generic [ref=f284e1006]:
+                          - emphasis [ref=f284e1007]: 22,950
+                          - text: 원
+                      - paragraph [ref=f284e1008]:
+                        - generic [ref=f284e1009]:
+                          - emphasis [ref=f284e1010]: 28,000
+                          - text: 원
+                  - paragraph [ref=f284e1012]:
+                    - generic [ref=f284e1013]: 무료배송
+                    - generic [ref=f284e1014]: 전통시장
+              - listitem [ref=f284e1015]:
+                - link "[사장직접선별] 고당도 청송사과 중소과 2kg 4kg [사장직접선별] 고당도 청송사과 중소과 2kg 4kg 2kg, 4kg 13% 15,900원 18,300원 무료배송 전통시장" [ref=f284e1016] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202559','05','','','101202301');
+                  - img "[사장직접선별] 고당도 청송사과 중소과 2kg 4kg" [ref=f284e1018]
+                  - generic [ref=f284e1019]:
+                    - paragraph [ref=f284e1020]: "[사장직접선별] 고당도 청송사과 중소과 2kg 4kg"
+                    - generic [ref=f284e1021]: 2kg, 4kg
+                    - generic [ref=f284e1022]:
+                      - paragraph [ref=f284e1023]:
+                        - text: 13%
+                        - generic [ref=f284e1024]:
+                          - emphasis [ref=f284e1025]: 15,900
+                          - text: 원
+                      - paragraph [ref=f284e1026]:
+                        - generic [ref=f284e1027]:
+                          - emphasis [ref=f284e1028]: 18,300
+                          - text: 원
+                  - paragraph [ref=f284e1030]:
+                    - generic [ref=f284e1031]: 무료배송
+                    - generic [ref=f284e1032]: 전통시장
+              - listitem [ref=f284e1033]:
+                - link "[사장직접선별] 고당도 청송사과 중대과 2kg 4kg [사장직접선별] 고당도 청송사과 중대과 2kg 4kg 2kg, 4kg 13% 23,900원 27,500원 무료배송 전통시장" [ref=f284e1034] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202558','05','','','101202301');
+                  - img "[사장직접선별] 고당도 청송사과 중대과 2kg 4kg" [ref=f284e1036]
+                  - generic [ref=f284e1037]:
+                    - paragraph [ref=f284e1038]: "[사장직접선별] 고당도 청송사과 중대과 2kg 4kg"
+                    - generic [ref=f284e1039]: 2kg, 4kg
+                    - generic [ref=f284e1040]:
+                      - paragraph [ref=f284e1041]:
+                        - text: 13%
+                        - generic [ref=f284e1042]:
+                          - emphasis [ref=f284e1043]: 23,900
+                          - text: 원
+                      - paragraph [ref=f284e1044]:
+                        - generic [ref=f284e1045]:
+                          - emphasis [ref=f284e1046]: 27,500
+                          - text: 원
+                  - paragraph [ref=f284e1048]:
+                    - generic [ref=f284e1049]: 무료배송
+                    - generic [ref=f284e1050]: 전통시장
+              - listitem [ref=f284e1051]:
+                - link "[마산어시장 동해상회] 국산 건오징어 5미·10미 (소/중/대/특대) [마산어시장 동해상회] 국산 건오징어 5미·10미 (소/중/대/특대) 20% 27,100원 34,000원 전통시장" [ref=f284e1052] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202527','05','','','102205303');
+                  - img "[마산어시장 동해상회] 국산 건오징어 5미·10미 (소/중/대/특대)" [ref=f284e1054]
+                  - generic [ref=f284e1055]:
+                    - paragraph [ref=f284e1056]: "[마산어시장 동해상회] 국산 건오징어 5미·10미 (소/중/대/특대)"
+                    - generic [ref=f284e1058]:
+                      - paragraph [ref=f284e1059]:
+                        - text: 20%
+                        - generic [ref=f284e1060]:
+                          - emphasis [ref=f284e1061]: 27,100
+                          - text: 원
+                      - paragraph [ref=f284e1062]:
+                        - generic [ref=f284e1063]:
+                          - emphasis [ref=f284e1064]: 34,000
+                          - text: 원
+                  - paragraph [ref=f284e1066]:
+                    - generic [ref=f284e1067]: 전통시장
+              - listitem [ref=f284e1068]:
+                - link "[직접선별]고당도 프리미엄 햇배 3kg(5과) [직접선별]고당도 프리미엄 햇배 3kg(5과) 햇배 3kg(5과) 10% 18,900원 21,200원 무료배송 전통시장" [ref=f284e1069] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202522','05','','','101202302');
+                  - img "[직접선별]고당도 프리미엄 햇배 3kg(5과)" [ref=f284e1071]
+                  - generic [ref=f284e1072]:
+                    - paragraph [ref=f284e1073]: "[직접선별]고당도 프리미엄 햇배 3kg(5과)"
+                    - generic [ref=f284e1074]: 햇배 3kg(5과)
+                    - generic [ref=f284e1075]:
+                      - paragraph [ref=f284e1076]:
+                        - text: 10%
+                        - generic [ref=f284e1077]:
+                          - emphasis [ref=f284e1078]: 18,900
+                          - text: 원
+                      - paragraph [ref=f284e1079]:
+                        - generic [ref=f284e1080]:
+                          - emphasis [ref=f284e1081]: 21,200
+                          - text: 원
+                  - paragraph [ref=f284e1083]:
+                    - generic [ref=f284e1084]: 무료배송
+                    - generic [ref=f284e1085]: 전통시장
+              - listitem [ref=f284e1086]:
+                - link "[마산어시장 동해상회] 국산 두절새우 200g [마산어시장 동해상회] 국산 두절새우 200g 19% 10,500원 13,000원 전통시장" [ref=f284e1087] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202493','05','','','102205304');
+                  - img "[마산어시장 동해상회] 국산 두절새우 200g" [ref=f284e1089]
+                  - generic [ref=f284e1090]:
+                    - paragraph [ref=f284e1091]: "[마산어시장 동해상회] 국산 두절새우 200g"
+                    - generic [ref=f284e1093]:
+                      - paragraph [ref=f284e1094]:
+                        - text: 19%
+                        - generic [ref=f284e1095]:
+                          - emphasis [ref=f284e1096]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1097]:
+                        - generic [ref=f284e1098]:
+                          - emphasis [ref=f284e1099]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1101]:
+                    - generic [ref=f284e1102]: 전통시장
+              - listitem [ref=f284e1103]:
+                - link "[마산어시장 동해상회] 국산 자른다시마 육수용 [마산어시장 동해상회] 국산 자른다시마 육수용 24% 5,300원 7,000원 전통시장" [ref=f284e1104] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202491','05','','','102207306');
+                  - img "[마산어시장 동해상회] 국산 자른다시마 육수용" [ref=f284e1106]
+                  - generic [ref=f284e1107]:
+                    - paragraph [ref=f284e1108]: "[마산어시장 동해상회] 국산 자른다시마 육수용"
+                    - generic [ref=f284e1110]:
+                      - paragraph [ref=f284e1111]:
+                        - text: 24%
+                        - generic [ref=f284e1112]:
+                          - emphasis [ref=f284e1113]: 5,300
+                          - text: 원
+                      - paragraph [ref=f284e1114]:
+                        - generic [ref=f284e1115]:
+                          - emphasis [ref=f284e1116]: 7,000
+                          - text: 원
+                  - paragraph [ref=f284e1118]:
+                    - generic [ref=f284e1119]: 전통시장
+              - listitem [ref=f284e1120]:
+                - link "[마산어시장 동해상회] 황태마리포 [마산어시장 동해상회] 황태마리포 30% 4,200원 6,000원 전통시장" [ref=f284e1121] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202490','05','','','102205301');
+                  - img "[마산어시장 동해상회] 황태마리포" [ref=f284e1123]
+                  - generic [ref=f284e1124]:
+                    - paragraph [ref=f284e1125]: "[마산어시장 동해상회] 황태마리포"
+                    - generic [ref=f284e1127]:
+                      - paragraph [ref=f284e1128]:
+                        - text: 30%
+                        - generic [ref=f284e1129]:
+                          - emphasis [ref=f284e1130]: 4,200
+                          - text: 원
+                      - paragraph [ref=f284e1131]:
+                        - generic [ref=f284e1132]:
+                          - emphasis [ref=f284e1133]: 6,000
+                          - text: 원
+                  - paragraph [ref=f284e1135]:
+                    - generic [ref=f284e1136]: 전통시장
+              - listitem [ref=f284e1137]:
+                - link "국산 참민어 반건조 제수용 국산 참민어 반건조 제수용 35-42cm 14% 17,000원 19,900원 전통시장" [ref=f284e1138] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202430','05','','','102204308');
+                  - img "국산 참민어 반건조 제수용" [ref=f284e1140]
+                  - generic [ref=f284e1141]:
+                    - paragraph [ref=f284e1142]: 국산 참민어 반건조 제수용
+                    - generic [ref=f284e1143]: 35-42cm
+                    - generic [ref=f284e1144]:
+                      - paragraph [ref=f284e1145]:
+                        - text: 14%
+                        - generic [ref=f284e1146]:
+                          - emphasis [ref=f284e1147]: 17,000
+                          - text: 원
+                      - paragraph [ref=f284e1148]:
+                        - generic [ref=f284e1149]:
+                          - emphasis [ref=f284e1150]: 19,900
+                          - text: 원
+                  - paragraph [ref=f284e1152]:
+                    - generic [ref=f284e1153]: 전통시장
+              - listitem [ref=f284e1154]:
+                - link "해성 맛있는 재래김 해성 맛있는 재래김 13,000원 무료배송 전통시장" [ref=f284e1155] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202191','05','','','102201302');
+                  - img "해성 맛있는 재래김" [ref=f284e1157]
+                  - generic [ref=f284e1158]:
+                    - paragraph [ref=f284e1159]: 해성 맛있는 재래김
+                    - paragraph [ref=f284e1162]:
+                      - generic [ref=f284e1163]:
+                        - emphasis [ref=f284e1164]: 13,000
+                        - text: 원
+                  - paragraph [ref=f284e1166]:
+                    - generic [ref=f284e1167]: 무료배송
+                    - generic [ref=f284e1168]: 전통시장
+              - listitem [ref=f284e1169]:
+                - link "창해 맛있는 재래김(5g*16EA) 창해 맛있는 재래김(5g*16EA) 13,000원 무료배송 전통시장" [ref=f284e1170] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202190','05','','','102201302');
+                  - img "창해 맛있는 재래김(5g*16EA)" [ref=f284e1172]
+                  - generic [ref=f284e1173]:
+                    - paragraph [ref=f284e1174]: 창해 맛있는 재래김(5g*16EA)
+                    - paragraph [ref=f284e1177]:
+                      - generic [ref=f284e1178]:
+                        - emphasis [ref=f284e1179]: 13,000
+                        - text: 원
+                  - paragraph [ref=f284e1181]:
+                    - generic [ref=f284e1182]: 무료배송
+                    - generic [ref=f284e1183]: 전통시장
+              - listitem [ref=f284e1184]:
+                - link "[마산어시장 동해상회] 건홍합(말합대) 300g [마산어시장 동해상회] 건홍합(말합대) 300g 19% 10,500원 13,000원 전통시장" [ref=f284e1185] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202055','05','','','102205304');
+                  - img "[마산어시장 동해상회] 건홍합(말합대) 300g" [ref=f284e1187]
+                  - generic [ref=f284e1188]:
+                    - paragraph [ref=f284e1189]: "[마산어시장 동해상회] 건홍합(말합대) 300g"
+                    - generic [ref=f284e1191]:
+                      - paragraph [ref=f284e1192]:
+                        - text: 19%
+                        - generic [ref=f284e1193]:
+                          - emphasis [ref=f284e1194]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1195]:
+                        - generic [ref=f284e1196]:
+                          - emphasis [ref=f284e1197]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1199]:
+                    - generic [ref=f284e1200]: 전통시장
+              - listitem [ref=f284e1201]:
+                - link "[마산어시장 동해상회] 참진미 300g [마산어시장 동해상회] 참진미 300g 19% 10,500원 13,000원 전통시장" [ref=f284e1202] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202052','05','','','102205303');
+                  - img "[마산어시장 동해상회] 참진미 300g" [ref=f284e1204]
+                  - generic [ref=f284e1205]:
+                    - paragraph [ref=f284e1206]: "[마산어시장 동해상회] 참진미 300g"
+                    - generic [ref=f284e1208]:
+                      - paragraph [ref=f284e1209]:
+                        - text: 19%
+                        - generic [ref=f284e1210]:
+                          - emphasis [ref=f284e1211]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1212]:
+                        - generic [ref=f284e1213]:
+                          - emphasis [ref=f284e1214]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1216]:
+                    - generic [ref=f284e1217]: 전통시장
+              - listitem [ref=f284e1218]:
+                - link "[마산어시장 동해상회] 백진미(일미) 오징어채 300g [마산어시장 동해상회] 백진미(일미) 오징어채 300g 19% 10,500원 13,000원 전통시장" [ref=f284e1219] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202051','05','','','102205303');
+                  - img "[마산어시장 동해상회] 백진미(일미) 오징어채 300g" [ref=f284e1221]
+                  - generic [ref=f284e1222]:
+                    - paragraph [ref=f284e1223]: "[마산어시장 동해상회] 백진미(일미) 오징어채 300g"
+                    - generic [ref=f284e1225]:
+                      - paragraph [ref=f284e1226]:
+                        - text: 19%
+                        - generic [ref=f284e1227]:
+                          - emphasis [ref=f284e1228]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1229]:
+                        - generic [ref=f284e1230]:
+                          - emphasis [ref=f284e1231]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1233]:
+                    - generic [ref=f284e1234]: 전통시장
+              - listitem [ref=f284e1235]:
+                - link "[마산어시장 동해상회] 두절 노가리(국내가공) 500g [마산어시장 동해상회] 두절 노가리(국내가공) 500g 21% 15,700원 20,000원 전통시장" [ref=f284e1236] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202050','05','','','102205301');
+                  - img "[마산어시장 동해상회] 두절 노가리(국내가공) 500g" [ref=f284e1238]
+                  - generic [ref=f284e1239]:
+                    - paragraph [ref=f284e1240]: "[마산어시장 동해상회] 두절 노가리(국내가공) 500g"
+                    - generic [ref=f284e1242]:
+                      - paragraph [ref=f284e1243]:
+                        - text: 21%
+                        - generic [ref=f284e1244]:
+                          - emphasis [ref=f284e1245]: 15,700
+                          - text: 원
+                      - paragraph [ref=f284e1246]:
+                        - generic [ref=f284e1247]:
+                          - emphasis [ref=f284e1248]: 20,000
+                          - text: 원
+                  - paragraph [ref=f284e1250]:
+                    - generic [ref=f284e1251]: 전통시장
+              - listitem [ref=f284e1252]:
+                - link "[마산어시장 동해상회] 용대리 황태채(국내가공) [마산어시장 동해상회] 용대리 황태채(국내가공) 19% 10,500원 13,000원 전통시장" [ref=f284e1253] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202008','05','','','102205301');
+                  - img "[마산어시장 동해상회] 용대리 황태채(국내가공)" [ref=f284e1255]
+                  - generic [ref=f284e1256]:
+                    - paragraph [ref=f284e1257]: "[마산어시장 동해상회] 용대리 황태채(국내가공)"
+                    - generic [ref=f284e1259]:
+                      - paragraph [ref=f284e1260]:
+                        - text: 19%
+                        - generic [ref=f284e1261]:
+                          - emphasis [ref=f284e1262]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1263]:
+                        - generic [ref=f284e1264]:
+                          - emphasis [ref=f284e1265]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1267]:
+                    - generic [ref=f284e1268]: 전통시장
+              - listitem [ref=f284e1269]:
+                - link "[마산어시장 동해상회] 먹태(110g~150g) [마산어시장 동해상회] 먹태(110g~150g) 17% 5,800원 7,000원 전통시장" [ref=f284e1270] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202007','05','','','102205301');
+                  - img "[마산어시장 동해상회] 먹태(110g~150g)" [ref=f284e1272]
+                  - generic [ref=f284e1273]:
+                    - paragraph [ref=f284e1274]: "[마산어시장 동해상회] 먹태(110g~150g)"
+                    - generic [ref=f284e1276]:
+                      - paragraph [ref=f284e1277]:
+                        - text: 17%
+                        - generic [ref=f284e1278]:
+                          - emphasis [ref=f284e1279]: 5,800
+                          - text: 원
+                      - paragraph [ref=f284e1280]:
+                        - generic [ref=f284e1281]:
+                          - emphasis [ref=f284e1282]: 7,000
+                          - text: 원
+                  - paragraph [ref=f284e1284]:
+                    - generic [ref=f284e1285]: 전통시장
+              - listitem [ref=f284e1286]:
+                - link "[마산어시장 동해상회] 명태껍질 550g [마산어시장 동해상회] 명태껍질 550g 17% 11,500원 14,000원 전통시장" [ref=f284e1287] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202006','05','','','102205302');
+                  - img "[마산어시장 동해상회] 명태껍질 550g" [ref=f284e1289]
+                  - generic [ref=f284e1290]:
+                    - paragraph [ref=f284e1291]: "[마산어시장 동해상회] 명태껍질 550g"
+                    - generic [ref=f284e1293]:
+                      - paragraph [ref=f284e1294]:
+                        - text: 17%
+                        - generic [ref=f284e1295]:
+                          - emphasis [ref=f284e1296]: 11,500
+                          - text: 원
+                      - paragraph [ref=f284e1297]:
+                        - generic [ref=f284e1298]:
+                          - emphasis [ref=f284e1299]: 14,000
+                          - text: 원
+                  - paragraph [ref=f284e1301]:
+                    - generic [ref=f284e1302]: 전통시장
+              - listitem [ref=f284e1303]:
+                - link "[마산어시장 동해상회] 보리새우 300g [마산어시장 동해상회] 보리새우 300g 17% 11,500원 14,000원 전통시장" [ref=f284e1304] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202005','05','','','102205304');
+                  - img "[마산어시장 동해상회] 보리새우 300g" [ref=f284e1306]
+                  - generic [ref=f284e1307]:
+                    - paragraph [ref=f284e1308]: "[마산어시장 동해상회] 보리새우 300g"
+                    - generic [ref=f284e1310]:
+                      - paragraph [ref=f284e1311]:
+                        - text: 17%
+                        - generic [ref=f284e1312]:
+                          - emphasis [ref=f284e1313]: 11,500
+                          - text: 원
+                      - paragraph [ref=f284e1314]:
+                        - generic [ref=f284e1315]:
+                          - emphasis [ref=f284e1316]: 14,000
+                          - text: 원
+                  - paragraph [ref=f284e1318]:
+                    - generic [ref=f284e1319]: 전통시장
+              - listitem [ref=f284e1320]:
+                - link "[마산어시장 동해상회] 꽃새우 250g [마산어시장 동해상회] 꽃새우 250g 17% 11,500원 14,000원 전통시장" [ref=f284e1321] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2202004','05','','','102205304');
+                  - img "[마산어시장 동해상회] 꽃새우 250g" [ref=f284e1323]
+                  - generic [ref=f284e1324]:
+                    - paragraph [ref=f284e1325]: "[마산어시장 동해상회] 꽃새우 250g"
+                    - generic [ref=f284e1327]:
+                      - paragraph [ref=f284e1328]:
+                        - text: 17%
+                        - generic [ref=f284e1329]:
+                          - emphasis [ref=f284e1330]: 11,500
+                          - text: 원
+                      - paragraph [ref=f284e1331]:
+                        - generic [ref=f284e1332]:
+                          - emphasis [ref=f284e1333]: 14,000
+                          - text: 원
+                  - paragraph [ref=f284e1335]:
+                    - generic [ref=f284e1336]: 전통시장
+              - listitem [ref=f284e1337]:
+                - link "[마산어시장 동해상회] 국산 불등가시리 100g [마산어시장 동해상회] 국산 불등가시리 100g 21% 15,700원 20,000원 전통시장" [ref=f284e1338] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201985','05','','','102207308');
+                  - img "[마산어시장 동해상회] 국산 불등가시리 100g" [ref=f284e1340]
+                  - generic [ref=f284e1341]:
+                    - paragraph [ref=f284e1342]: "[마산어시장 동해상회] 국산 불등가시리 100g"
+                    - generic [ref=f284e1344]:
+                      - paragraph [ref=f284e1345]:
+                        - text: 21%
+                        - generic [ref=f284e1346]:
+                          - emphasis [ref=f284e1347]: 15,700
+                          - text: 원
+                      - paragraph [ref=f284e1348]:
+                        - generic [ref=f284e1349]:
+                          - emphasis [ref=f284e1350]: 20,000
+                          - text: 원
+                  - paragraph [ref=f284e1352]:
+                    - generic [ref=f284e1353]: 전통시장
+              - listitem [ref=f284e1354]:
+                - link "[마산어시장 동해상회] 귀족 산모돌각미역 300g [마산어시장 동해상회] 귀족 산모돌각미역 300g 19% 10,500원 13,000원 전통시장" [ref=f284e1355] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201980','05','','','102207307');
+                  - img "[마산어시장 동해상회] 귀족 산모돌각미역 300g" [ref=f284e1357]
+                  - generic [ref=f284e1358]:
+                    - paragraph [ref=f284e1359]: "[마산어시장 동해상회] 귀족 산모돌각미역 300g"
+                    - generic [ref=f284e1361]:
+                      - paragraph [ref=f284e1362]:
+                        - text: 19%
+                        - generic [ref=f284e1363]:
+                          - emphasis [ref=f284e1364]: 10,500
+                          - text: 원
+                      - paragraph [ref=f284e1365]:
+                        - generic [ref=f284e1366]:
+                          - emphasis [ref=f284e1367]: 13,000
+                          - text: 원
+                  - paragraph [ref=f284e1369]:
+                    - generic [ref=f284e1370]: 전통시장
+              - listitem [ref=f284e1371]:
+                - link "[마산어시장 동해상회] 명품다시마400g / 뿌리다시마400g / 완도다시마250g [마산어시장 동해상회] 명품다시마400g / 뿌리다시마400g / 완도다시마250g 24% 5,300원 7,000원 전통시장" [ref=f284e1372] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201970','05','','','102207306');
+                  - img "[마산어시장 동해상회] 명품다시마400g / 뿌리다시마400g / 완도다시마250g" [ref=f284e1374]
+                  - generic [ref=f284e1375]:
+                    - paragraph [ref=f284e1376]: "[마산어시장 동해상회] 명품다시마400g / 뿌리다시마400g / 완도다시마250g"
+                    - generic [ref=f284e1378]:
+                      - paragraph [ref=f284e1379]:
+                        - text: 24%
+                        - generic [ref=f284e1380]:
+                          - emphasis [ref=f284e1381]: 5,300
+                          - text: 원
+                      - paragraph [ref=f284e1382]:
+                        - generic [ref=f284e1383]:
+                          - emphasis [ref=f284e1384]: 7,000
+                          - text: 원
+                  - paragraph [ref=f284e1386]:
+                    - generic [ref=f284e1387]: 전통시장
+              - listitem [ref=f284e1388]:
+                - link "[마산어시장 동해상회] 감태 20g [마산어시장 동해상회] 감태 20g 24% 5,300원 7,000원 전통시장" [ref=f284e1389] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201969','05','','','102207308');
+                  - img "[마산어시장 동해상회] 감태 20g" [ref=f284e1391]
+                  - generic [ref=f284e1392]:
+                    - paragraph [ref=f284e1393]: "[마산어시장 동해상회] 감태 20g"
+                    - generic [ref=f284e1395]:
+                      - paragraph [ref=f284e1396]:
+                        - text: 24%
+                        - generic [ref=f284e1397]:
+                          - emphasis [ref=f284e1398]: 5,300
+                          - text: 원
+                      - paragraph [ref=f284e1399]:
+                        - generic [ref=f284e1400]:
+                          - emphasis [ref=f284e1401]: 7,000
+                          - text: 원
+                  - paragraph [ref=f284e1403]:
+                    - generic [ref=f284e1404]: 전통시장
+              - listitem [ref=f284e1405]:
+                - link "[마산어시장 동해상회] 곱창재래돌김(특) 100장 [마산어시장 동해상회] 곱창재래돌김(특) 100장 18% 36,500원 45,000원 전통시장" [ref=f284e1406] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201967','05','','','102201301');
+                  - img "[마산어시장 동해상회] 곱창재래돌김(특) 100장" [ref=f284e1408]
+                  - generic [ref=f284e1409]:
+                    - paragraph [ref=f284e1410]: "[마산어시장 동해상회] 곱창재래돌김(특) 100장"
+                    - generic [ref=f284e1412]:
+                      - paragraph [ref=f284e1413]:
+                        - text: 18%
+                        - generic [ref=f284e1414]:
+                          - emphasis [ref=f284e1415]: 36,500
+                          - text: 원
+                      - paragraph [ref=f284e1416]:
+                        - generic [ref=f284e1417]:
+                          - emphasis [ref=f284e1418]: 45,000
+                          - text: 원
+                  - paragraph [ref=f284e1420]:
+                    - generic [ref=f284e1421]: 전통시장
+              - listitem [ref=f284e1422]:
+                - link "[마산어시장 동해상회] 초사리재래돌김(특) 100장 [마산어시장 동해상회] 초사리재래돌김(특) 100장 19% 31,300원 39,000원 전통시장" [ref=f284e1423] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201966','05','','','102201301');
+                  - img "[마산어시장 동해상회] 초사리재래돌김(특) 100장" [ref=f284e1425]
+                  - generic [ref=f284e1426]:
+                    - paragraph [ref=f284e1427]: "[마산어시장 동해상회] 초사리재래돌김(특) 100장"
+                    - generic [ref=f284e1429]:
+                      - paragraph [ref=f284e1430]:
+                        - text: 19%
+                        - generic [ref=f284e1431]:
+                          - emphasis [ref=f284e1432]: 31,300
+                          - text: 원
+                      - paragraph [ref=f284e1433]:
+                        - generic [ref=f284e1434]:
+                          - emphasis [ref=f284e1435]: 39,000
+                          - text: 원
+                  - paragraph [ref=f284e1437]:
+                    - generic [ref=f284e1438]: 전통시장
+              - listitem [ref=f284e1439]:
+                - link "[마산어시장 동해상회] 김밥김 100장 [마산어시장 동해상회] 김밥김 100장 20% 16,700원 21,000원 전통시장" [ref=f284e1440] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201964','05','','','102201301');
+                  - img "[마산어시장 동해상회] 김밥김 100장" [ref=f284e1442]
+                  - generic [ref=f284e1443]:
+                    - paragraph [ref=f284e1444]: "[마산어시장 동해상회] 김밥김 100장"
+                    - generic [ref=f284e1446]:
+                      - paragraph [ref=f284e1447]:
+                        - text: 20%
+                        - generic [ref=f284e1448]:
+                          - emphasis [ref=f284e1449]: 16,700
+                          - text: 원
+                      - paragraph [ref=f284e1450]:
+                        - generic [ref=f284e1451]:
+                          - emphasis [ref=f284e1452]: 21,000
+                          - text: 원
+                  - paragraph [ref=f284e1454]:
+                    - generic [ref=f284e1455]: 전통시장
+              - listitem [ref=f284e1456]:
+                - link "[마산어시장 동해상회] 파래김 100장 [마산어시장 동해상회] 파래김 100장 17% 11,500원 14,000원 전통시장" [ref=f284e1457] [cursor=pointer]:
+                  - /url: javaScript:fn_goodsDetailView('G2201962','05','','','102201301');
+                  - img "[마산어시장 동해상회] 파래김 100장" [ref=f284e1459]
+                  - generic [ref=f284e1460]:
+                    - paragraph [ref=f284e1461]: "[마산어시장 동해상회] 파래김 100장"
+                    - generic [ref=f284e1463]:
+                      - paragraph [ref=f284e1464]:
+                        - text: 17%
+                        - generic [ref=f284e1465]:
+                          - emphasis [ref=f284e1466]: 11,500
+                          - text: 원
+                      - paragraph [ref=f284e1467]:
+                        - generic [ref=f284e1468]:
+                          - emphasis [ref=f284e1469]: 14,000
+                          - text: 원
+                  - paragraph [ref=f284e1471]:
+                    - generic [ref=f284e1472]: 전통시장
+              - generic [ref=f284e1473]:
+                - generic [ref=f284e1474]: "1"
+                - link "2" [ref=f284e1475] [cursor=pointer]:
+                  - /url: javascript:fn_goPage(2);
+                - link "3" [ref=f284e1476] [cursor=pointer]:
+                  - /url: javascript:fn_goPage(3);
+                - link "4" [ref=f284e1477] [cursor=pointer]:
+                  - /url: javascript:fn_goPage(4);
+    - generic [ref=f284e1478]:
+      - list [ref=f284e1480]:
+        - listitem [ref=f284e1481]:
+          - link "이용약관" [ref=f284e1482] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+        - listitem [ref=f284e1483]:
+          - link "개인정보처리방침" [ref=f284e1484] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+        - listitem [ref=f284e1485]:
+          - link "웹접근성정책" [ref=f284e1486] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+        - listitem [ref=f284e1487]:
+          - link "우체국쇼핑소개" [ref=f284e1488] [cursor=pointer]:
+            - /url: /fo/footer/epostmallDesc.do?pageId=mall01
+        - listitem [ref=f284e1489]:
+          - link "서비스 이용안내" [ref=f284e1490] [cursor=pointer]:
+            - /url: /fo/center/centerGuideBrdMenu.do
+        - listitem [ref=f284e1491]:
+          - link "입점안내" [ref=f284e1492] [cursor=pointer]:
+            - /url: /fo/center/centerGuideCustStat.do
+        - listitem [ref=f284e1493]:
+          - link "법인구매상담" [ref=f284e1494] [cursor=pointer]:
+            - /url: /fo/center/centerManyBuyOrderAdvc.do
+        - listitem [ref=f284e1495]:
+          - link "비지니스제휴" [ref=f284e1496] [cursor=pointer]:
+            - /url: /fo/center/centerBizCoprtnInq.do
+        - listitem [ref=f284e1497]:
+          - link "고객불편신고" [ref=f284e1498] [cursor=pointer]:
+            - /url: /fo/center/centerReport.do
+        - listitem [ref=f284e1499]:
+          - link "공급업체 통합관리자" [ref=f284e1500] [cursor=pointer]:
+            - /url: http://mallscm.epost.go.kr/scmIndex.do
+        - generic [ref=f284e1501]: G-CLOUD
+      - generic [ref=f284e1502]:
+        - generic:
+          - generic [ref=f284e1503]:
+            - paragraph [ref=f284e1505]:
+              - text: "재단법인 한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+              - link "사업자 정보확인" [ref=f284e1506] [cursor=pointer]:
+                - /url: javascript:void('0');
+            - generic [ref=f284e1507]:
+              - paragraph [ref=f284e1508]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+              - paragraph [ref=f284e1509]: "해외 : 82-1588-1300"
+            - generic [ref=f284e1510]:
+              - paragraph [ref=f284e1511]: 이 사이트는 인터넷 우체국에서 구축하고 재단법인 한국우편사업진흥원에서 운영합니다.
+              - paragraph [ref=f284e1512]: Copyright © 2014. ePOST all rights reserved.
+            - generic [ref=f284e1513]:
+              - paragraph [ref=f284e1514]: 우체국쇼핑은 고객님의 결제금액에 대해 안전거래를 보장합니다.
+              - paragraph [ref=f284e1515]: 단, “결제대금 예치 또는 소비자 피해보상보험계약 등의 체결이 면제되는 거래에 관한 고시”에따른 공공기관이 운영하는 쇼핑몰로 결제대금예치 또는 소비자피해보상보험계약 등의 체결은 면제되었습니다.
+          - generic [ref=f284e1516]:
+            - paragraph [ref=f284e1517]:
+              - link "카카오" [ref=f284e1518] [cursor=pointer]:
+                - /url: https://pf.kakao.com/_nixgxcu
+              - link "유튜브" [ref=f284e1519] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3OFl3RCfi0xVik4RRotzzQ
+              - link "인스타그램" [ref=f284e1520] [cursor=pointer]:
+                - /url: https://www.instagram.com/epostmall
+              - link "페이스북" [ref=f284e1521] [cursor=pointer]:
+                - /url: https://www.facebook.com/epostmall
+              - link "블로그" [ref=f284e1522] [cursor=pointer]:
+                - /url: https://blog.naver.com/wcgsp
+            - generic [ref=f284e1523]:
+              - paragraph [ref=f284e1524]: 우편고객센터
+              - paragraph [ref=f284e1525]: 1588-1300(발신자부담) help@posa.or.kr
+              - paragraph [ref=f284e1526]: 평일 09:00 ~18:00 (토요일,공휴일 휴무)
+            - generic [ref=f284e1527]:
+              - paragraph [ref=f284e1528]:
+                - link "주문조회|" [ref=f284e1529] [cursor=pointer]:
+                  - /url: /fo/mypage/myshoppingMain.do
+                - link "주문취소/반품|" [ref=f284e1530] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageChgCancelList.do
+                - link "비회원주문조회" [ref=f284e1531] [cursor=pointer]:
+                  - /url: /fo/center/moveCenterNonMemLogin.do
+              - paragraph [ref=f284e1532]:
+                - link "잦은 질문 FAQ|" [ref=f284e1533] [cursor=pointer]:
+                  - /url: /fo/center/centerFaqMemJoin.do
+                - link "현금영수증발행|" [ref=f284e1534] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageRciptIssue.do
+                - link "세금계산서신청" [ref=f284e1535] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageTaxReq.do
+            - link [ref=f284e1537] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "Digicert" [ref=f284e1538]
+      - generic [ref=f284e1539]:
+        - list:
+          - listitem [ref=f284e1540]: 2019 대한민국 명품브랜드 5년연속대상
+          - listitem [ref=f284e1541]: 2019 공공기관 사회적가치창출대회 고용노동부장관 최우수상
+          - listitem [ref=f284e1542]: 2017 제22회 한국유통대상 산업통상자원부장관 표창
+          - listitem [ref=f284e1543]: 소비자중심경영 인증 공정거래위원회
+          - listitem [ref=f284e1544]: KOLSA 한국온라인쇼핑협회
+      - list [ref=f284e1546]:
+        - listitem [ref=f284e1547]:
+          - link [ref=f284e1548] [cursor=pointer]:
+            - /url: "#"
+            - img "채팅상담" [ref=f284e1549]
+  - iframe

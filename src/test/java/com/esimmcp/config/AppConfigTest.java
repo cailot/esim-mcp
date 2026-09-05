@@ -94,4 +94,14 @@ class AppConfigTest {
         assertEquals("ci-user@example.com", config.mailUsername());
         assertEquals("ci-app-password", config.mailPassword());
     }
+
+    @Test
+    void utf8KoreanSearchQueriesSurvivePropertiesLoad() {
+        AppConfig config = AppConfig.load(key -> null);
+        assertTrue(config.searchQuery().contains("알뜰폰"), config.searchQuery());
+        assertTrue(config.searchQueries().stream().anyMatch(q -> q.contains("프리티모바일")),
+                config.searchQueries().toString());
+        assertTrue(config.searchQueries().stream().noneMatch(q -> q.contains("ì")),
+                "mojibake must not appear in search queries: " + config.searchQueries());
+    }
 }

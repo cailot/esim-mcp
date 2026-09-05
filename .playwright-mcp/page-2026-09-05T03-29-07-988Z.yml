@@ -1,0 +1,273 @@
+- generic [active] [ref=f211e1]:
+  - banner [ref=f211e2]:
+    - generic [ref=f211e3]:
+      - generic [ref=f211e6]:
+        - link "사용량 조회" [ref=f211e7] [cursor=pointer]:
+          - /url: /normal.do
+        - link "접수내역조회/변경" [ref=f211e8] [cursor=pointer]:
+          - /url: /btcview.do
+        - link "로그인" [ref=f211e9] [cursor=pointer]:
+          - /url: /sign.do
+      - generic [ref=f211e12]:
+        - link [ref=f211e13] [cursor=pointer]:
+          - /url: /
+          - img "logo.png" [ref=f211e14]
+        - list [ref=f211e16]:
+          - listitem [ref=f211e17]:
+            - link "개통신청" [ref=f211e18] [cursor=pointer]:
+              - /url: /active/step_1.do
+          - listitem [ref=f211e19]:
+            - link "요금제" [ref=f211e20] [cursor=pointer]:
+              - /url: /rate_plan.do
+          - listitem [ref=f211e21]:
+            - link "이벤트" [ref=f211e22] [cursor=pointer]:
+              - /url: /event.do
+          - listitem [ref=f211e23]:
+            - link "고객센터" [ref=f211e24] [cursor=pointer]:
+              - /url: /online_cs.do
+          - listitem [ref=f211e25]:
+            - link "마이페이지" [ref=f211e26] [cursor=pointer]:
+              - /url: /btcview.do
+  - generic [ref=f211e27]:
+    - generic [ref=f211e29]:
+      - button "Slide 0" [ref=f211e31] [cursor=pointer]
+      - generic [ref=f211e33]:
+        - link:
+          - /url: https://marvelring.com/rate_plan.do
+        - link:
+          - /url: https://marvelring.com/rate_plan.do
+        - link [ref=f211e34] [cursor=pointer]:
+          - /url: https://marvelring.com/rate_plan.do
+          - img "유심비 무료지원" [ref=f211e35]
+      - button "Previous" [ref=f211e36] [cursor=pointer]
+      - button "Next" [ref=f211e39] [cursor=pointer]
+    - generic [ref=f211e44]:
+      - link [ref=f211e46] [cursor=pointer]:
+        - /url: /sign.do
+        - img "신청내역조회" [ref=f211e48]
+        - generic [ref=f211e49]:
+          - paragraph [ref=f211e50]: 신청내역조회
+          - paragraph [ref=f211e51]: 가입신청내역조회
+      - link [ref=f211e53] [cursor=pointer]:
+        - /url: /rate_plan.do
+        - img "요금제" [ref=f211e55]
+        - generic [ref=f211e56]:
+          - paragraph [ref=f211e57]: 요금제
+          - paragraph [ref=f211e58]: 마블링알뜰폰 요금제 확인
+      - link [ref=f211e60] [cursor=pointer]:
+        - /url: http://pf.kakao.com/_uLxcxfxj/chat
+        - img "온라인 고객상담" [ref=f211e62]
+        - generic [ref=f211e63]:
+          - paragraph [ref=f211e64]: 온라인 고객상담
+          - paragraph [ref=f211e65]: 1:1 온라인 상담
+      - link [ref=f211e67] [cursor=pointer]:
+        - /url: /faq.do
+        - generic [ref=f211e70]:
+          - paragraph [ref=f211e71]: 자주 묻는 질문
+          - paragraph [ref=f211e72]: 자주하는 질문 확인
+    - generic [ref=f211e73]:
+      - heading "모두가 만족하며 사용하는 마블링알뜰폰의 합리적인 요금제" [level=2] [ref=f211e74]: 모두가 만족하며 사용하는마블링알뜰폰의 합리적인 요금제
+      - generic [ref=f211e76]:
+        - generic [ref=f211e77]:
+          - group "1 / 6" [ref=f211e78]:
+            - generic [ref=f211e79]:
+              - generic [ref=f211e80]:
+                - paragraph [ref=f211e81]: "#이벤트 요금제"
+                - paragraph [ref=f211e82]: 마블링 프라임 11GB + 매일 2GB + 3Mbps
+              - list [ref=f211e83]:
+                - listitem [ref=f211e84]: 11GB + 3Mbps 일2GB
+                - listitem [ref=f211e85]: 무제한
+                - listitem [ref=f211e86]: 무제한
+              - generic [ref=f211e87]:
+                - generic [ref=f211e88]:
+                  - paragraph [ref=f211e89]: 38,900원
+                  - paragraph [ref=f211e90]: 월 11,070원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e91] [cursor=pointer]
+          - group "2 / 6" [ref=f211e92]:
+            - generic [ref=f211e93]:
+              - generic [ref=f211e94]:
+                - paragraph [ref=f211e95]: "#이벤트 요금제"
+                - paragraph [ref=f211e96]: 마블링 프라임 7GB + 1Mbps
+              - list [ref=f211e97]:
+                - listitem [ref=f211e98]: 7GB + 1Mbps
+                - listitem [ref=f211e99]: 무제한
+                - listitem [ref=f211e100]: 무제한
+              - generic [ref=f211e101]:
+                - generic [ref=f211e102]:
+                  - paragraph [ref=f211e103]: 18,900원
+                  - paragraph [ref=f211e104]: 월 7,020원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e105] [cursor=pointer]
+          - group "3 / 6" [ref=f211e106]:
+            - generic [ref=f211e107]:
+              - generic [ref=f211e108]:
+                - paragraph [ref=f211e109]: "#이벤트 요금제"
+                - paragraph [ref=f211e110]: 마블링 프라임 100분 15GB + 3Mbps
+              - list [ref=f211e111]:
+                - listitem [ref=f211e112]: 15GB + 3Mbps
+                - listitem [ref=f211e113]: 100 분
+                - listitem [ref=f211e114]: 100 건
+              - generic [ref=f211e115]:
+                - generic [ref=f211e116]:
+                  - paragraph [ref=f211e117]: 32,900원
+                  - paragraph [ref=f211e118]: 월 14,970원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e119] [cursor=pointer]
+          - group "4 / 6" [ref=f211e120]:
+            - generic [ref=f211e121]:
+              - generic [ref=f211e122]:
+                - paragraph [ref=f211e123]: "#이벤트 요금제"
+                - paragraph [ref=f211e124]: 마블링 프라임 100GB + 5Mbps
+              - list [ref=f211e125]:
+                - listitem [ref=f211e126]: 100GB + 5
+                - listitem [ref=f211e127]: 무제한
+                - listitem [ref=f211e128]: 무제한
+              - generic [ref=f211e129]:
+                - generic [ref=f211e130]:
+                  - paragraph [ref=f211e131]: 44,900원
+                  - paragraph [ref=f211e132]: 월 17,180원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e133] [cursor=pointer]
+          - group "5 / 6" [ref=f211e134]:
+            - generic [ref=f211e135]:
+              - generic [ref=f211e136]:
+                - paragraph [ref=f211e137]: "#이벤트 요금제"
+                - paragraph [ref=f211e138]: 마블링 프라임 300분 15GB + 3Mbps
+              - list [ref=f211e139]:
+                - listitem [ref=f211e140]: 15GB
+                - listitem [ref=f211e141]: 300 분
+                - listitem [ref=f211e142]: 300 건
+              - generic [ref=f211e143]:
+                - generic [ref=f211e144]:
+                  - paragraph [ref=f211e145]: 35,900원
+                  - paragraph [ref=f211e146]: 월 18,080원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e147] [cursor=pointer]
+          - group "6 / 6" [ref=f211e148]:
+            - generic [ref=f211e149]:
+              - generic [ref=f211e150]:
+                - paragraph [ref=f211e151]: "#이벤트 요금제"
+                - paragraph [ref=f211e152]: 마블링 프라임 매일 5GB + 5Mbps
+              - list [ref=f211e153]:
+                - listitem [ref=f211e154]: 없음 일5GB
+                - listitem [ref=f211e155]: 무제한
+                - listitem [ref=f211e156]: 무제한
+              - generic [ref=f211e157]:
+                - generic [ref=f211e158]:
+                  - paragraph [ref=f211e159]: 45,900원
+                  - paragraph [ref=f211e160]: 월 23,020원 (* 7개월 할인 )
+                - button "가입하기" [ref=f211e161] [cursor=pointer]
+        - button "Next slide" [ref=f211e162] [cursor=pointer]: next
+        - button "Previous slide" [ref=f211e163] [cursor=pointer]: prev
+    - generic [ref=f211e164]:
+      - heading "진행 중인 이벤트" [level=2] [ref=f211e165]
+      - paragraph [ref=f211e170]: 현재 진행중인 이벤트가 없습니다.
+    - generic [ref=f211e171]:
+      - heading "고객만족 만점! 솔직후기" [level=2] [ref=f211e172]: 고객만족 만점!솔직후기
+      - link "전체보기" [ref=f211e175] [cursor=pointer]:
+        - /url: /review.do
+      - generic [ref=f211e178]:
+        - group "1 / 4" [ref=f211e179]:
+          - link "noimage 가성비 끝판왕, 진작 갈아탈 걸 그랬어요 요금제 혜택이 너무 좋아서 갈아탔는데 통화 품질, 데이터 속도, 고객센터 대응까지 전체적으로 만족스럽습니다. 알뜰폰 처음 써보는데 불편함 전혀 없이 잘 사용하고 있네요. 통신비 절약에 효자 상품입니다! 이** 2026-09-03" [ref=f211e180] [cursor=pointer]:
+            - /url: /review.do
+            - img "noimage" [ref=f211e182]
+            - generic [ref=f211e183]:
+              - generic [ref=f211e184]:
+                - paragraph [ref=f211e185]: 가성비 끝판왕, 진작 갈아탈 걸 그랬어요
+                - paragraph [ref=f211e186]: 요금제 혜택이 너무 좋아서 갈아탔는데 통화 품질, 데이터 속도, 고객센터 대응까지 전체적으로 만족스럽습니다. 알뜰폰 처음 써보는데 불편함 전혀 없이 잘 사용하고 있네요. 통신비 절약에 효자 상품입니다!
+              - generic [ref=f211e187]: 이** 2026-09-03
+        - group "2 / 4" [ref=f211e195]:
+          - link "noimage 태블릿에 쓰려고 또 개통했습니다. 여긴 전화좀 빡센데 카카오톡으로 상담 빠르고 좋네여 이전에도 사용했었는데 데이터 문제없고, 속도도 뭐 똑같은거 같고 저렴한 요금 감사합니다. 잘 이용하다가 다음에 또 이용할게요 황** 2026-09-03" [ref=f211e196] [cursor=pointer]:
+            - /url: /review.do
+            - img "noimage" [ref=f211e198]
+            - generic [ref=f211e199]:
+              - generic [ref=f211e200]:
+                - paragraph [ref=f211e201]: 태블릿에 쓰려고 또 개통했습니다.
+                - paragraph [ref=f211e202]: 여긴 전화좀 빡센데 카카오톡으로 상담 빠르고 좋네여 이전에도 사용했었는데 데이터 문제없고, 속도도 뭐 똑같은거 같고 저렴한 요금 감사합니다. 잘 이용하다가 다음에 또 이용할게요
+              - generic [ref=f211e203]: 황** 2026-09-03
+        - group "3 / 4" [ref=f211e211]:
+          - link "noimage 개통 문의도 친절하고 빠르게 해결됐어요! 개통 과정에서 궁금한 점이 있어서 고객센터에 문의했는데, 상담원분께서 처음부터 끝까지 정말 친절하게 하나하나 안내해 주셨습니다. 유심 관련 문의도 바로 확인해서 신속하게 조치해 주시니 너무 안심됐어요. 알뜰폰이라 CS 걱정 살짝 했는데 괜한 걱정이었네요. 대만족입니다! 박** 2026-09-03" [ref=f211e212] [cursor=pointer]:
+            - /url: /review.do
+            - img "noimage" [ref=f211e214]
+            - generic [ref=f211e215]:
+              - generic [ref=f211e216]:
+                - paragraph [ref=f211e217]: 개통 문의도 친절하고 빠르게 해결됐어요!
+                - paragraph [ref=f211e218]: 개통 과정에서 궁금한 점이 있어서 고객센터에 문의했는데, 상담원분께서 처음부터 끝까지 정말 친절하게 하나하나 안내해 주셨습니다. 유심 관련 문의도 바로 확인해서 신속하게 조치해 주시니 너무 안심됐어요. 알뜰폰이라 CS 걱정 살짝 했는데 괜한 걱정이었네요. 대만족입니다!
+              - generic [ref=f211e219]: 박** 2026-09-03
+        - group "4 / 4" [ref=f211e227]:
+          - link "noimage 업무폰으로 추가 개통 감사합니다. 업무폰으로 사용하려고 신규 추가 개통했는데 본인확인 해피콜 상담사님 ㅋㅋㅋ 친절하게 답변해주셔서 감사합니다. 실수로 요금제 잘못선택했는데 확인주셔서 다행히 정상요금으로 잘 개통했습니다. 고맙습니다. 문** 2026-09-03" [ref=f211e228] [cursor=pointer]:
+            - /url: /review.do
+            - img "noimage" [ref=f211e230]
+            - generic [ref=f211e231]:
+              - generic [ref=f211e232]:
+                - paragraph [ref=f211e233]: 업무폰으로 추가 개통 감사합니다.
+                - paragraph [ref=f211e234]: 업무폰으로 사용하려고 신규 추가 개통했는데 본인확인 해피콜 상담사님 ㅋㅋㅋ 친절하게 답변해주셔서 감사합니다. 실수로 요금제 잘못선택했는데 확인주셔서 다행히 정상요금으로 잘 개통했습니다. 고맙습니다.
+              - generic [ref=f211e235]: 문** 2026-09-03
+    - generic [ref=f211e244]:
+      - heading "왜 많은 분들이 마블링 알뜰폰을 선택할까요?" [level=2] [ref=f211e245]: 왜 많은 분들이마블링 알뜰폰을 선택할까요?
+      - generic [ref=f211e247]:
+        - generic [ref=f211e248]: "# 온라인 중고폰 누적판매 1위"
+        - generic [ref=f211e249]: "# 고객만족 만점"
+        - generic [ref=f211e250]: "# 고객이 입소문 내는 알뜰폰"
+        - generic [ref=f211e251]: "# 쉽고 빠른 개통"
+        - generic [ref=f211e252]: "# 전문상담사가 상담하는 안심 고객센터"
+        - generic [ref=f211e253]: "# LG U+와 동일 품질"
+    - generic [ref=f211e255]:
+      - generic [ref=f211e256]:
+        - paragraph [ref=f211e257]: 고객센터
+        - generic [ref=f211e258]:
+          - generic [ref=f211e259]:
+            - paragraph [ref=f211e260]: 1660-1299
+            - paragraph [ref=f211e261]: 운영시간 평일 10시~18시 (점심시간 12시~13시)공휴일, 주말 휴무
+          - generic [ref=f211e262]:
+            - button "제휴문의" [ref=f211e263] [cursor=pointer]
+            - button "대량문의" [ref=f211e264] [cursor=pointer]
+            - button "법인문의" [ref=f211e265] [cursor=pointer]
+      - generic [ref=f211e267]:
+        - paragraph [ref=f211e268]:
+          - generic [ref=f211e269]: 공지
+          - link "[중요] 더 안전한 통신서비스 제공을 위한 전 고객 유심(USIM) 업데이트 및 무료 교체 안내" [ref=f211e270] [cursor=pointer]:
+            - /url: /notice_view.do?notId=421
+        - generic [ref=f211e271]: 2023.04.25
+  - contentinfo [ref=f211e272]:
+    - generic [ref=f211e273]:
+      - generic [ref=f211e274]:
+        - img "logo" [ref=f211e275]
+        - list [ref=f211e276]:
+          - listitem [ref=f211e277]: (주)마블프로듀스 ｜ 대표 전현준
+          - listitem [ref=f211e278]: 서울특별시 금천구 가산디지털2로 143, 가산어반워크2 2002호
+          - listitem [ref=f211e279]: 사업자등록번호 529-81-00403
+          - listitem [ref=f211e280]: 통신판매신고 제 2021-서울금천-1539호
+          - listitem [ref=f211e281]: COPYRIGHT © MARVELPRODUCE Inc. ALL RIGHTS RESERVED.
+      - list [ref=f211e283]:
+        - listitem [ref=f211e284]:
+          - link "회사소개" [ref=f211e285] [cursor=pointer]:
+            - /url: /contact/company.do
+        - listitem [ref=f211e286]:
+          - link "이용약관" [ref=f211e287] [cursor=pointer]:
+            - /url: /contact/policy.do
+        - listitem [ref=f211e288]:
+          - link "개인정보처리방침" [ref=f211e289] [cursor=pointer]:
+            - /url: /contact/indv.do
+        - listitem [ref=f211e290]:
+          - link "불법스팸대응센터" [ref=f211e291] [cursor=pointer]:
+            - /url: https://spam.kisa.or.kr/spam/main.do
+        - listitem [ref=f211e292]:
+          - link "명의도용방지서비스" [ref=f211e293] [cursor=pointer]:
+            - /url: https://msafer.or.kr/index.do
+  - dialog "마블링 공지사항" [ref=f211e294]:
+    - generic [ref=f211e296]:
+      - generic [ref=f211e298]:
+        - paragraph [ref=f211e299]:
+          - generic [ref=f211e300]: ★마블링 사무실방문 불가안내★
+        - paragraph [ref=f211e302]
+        - paragraph [ref=f211e303]: 현재 고객센터연결지연 및 업무처리지연으로 사무실방문을 해주시는 고객님들이 계십니다.
+        - paragraph [ref=f211e304]: 온라인문의 및 접수후 기다려주시면 순차처리되오니 시간양해부탁드리며,
+        - paragraph [ref=f211e305]: 사무실방문시 다른고객들의 업무처리가 더욱더 지연되므로 사전예약없는 사무실방문은 지양해주세요.
+        - paragraph [ref=f211e306]
+        - paragraph [ref=f211e307]:
+          - generic [ref=f211e308]:
+            - generic [ref=f211e309]: 방문예약 및 협의없는 사무실방문 시 응대가 일절 불가
+            - text: 하오니 양해부탁드립니다.
+        - paragraph [ref=f211e312]
+      - generic [ref=f211e313]:
+        - generic [ref=f211e314]:
+          - checkbox "오늘 하루 보지 않기" [ref=f211e315]
+          - generic [ref=f211e316]: 오늘 하루 보지 않기
+        - button "닫기" [ref=f211e317] [cursor=pointer]

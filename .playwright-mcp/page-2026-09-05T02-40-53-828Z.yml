@@ -1,0 +1,156 @@
+- generic [active] [ref=f317e1]:
+  - banner [ref=f317e2]:
+    - generic [ref=f317e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f317e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f317e6]:
+        - list [ref=f317e7]:
+          - listitem [ref=f317e8]:
+            - link "홈" [ref=f317e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f317e10]:
+            - link "요금제" [ref=f317e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f317e12]:
+            - link "휴대폰" [ref=f317e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f317e14]:
+            - link "인터넷" [ref=f317e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f317e16]:
+            - link "가전렌탈 NEW" [ref=f317e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f317e18]: NEW
+          - listitem [ref=f317e19]:
+            - link "이벤트" [ref=f317e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f317e21]:
+            - link "마이페이지" [ref=f317e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f317e23]:
+    - generic [ref=f317e24]:
+      - generic [ref=f317e25]:
+        - generic [ref=f317e27]:
+          - generic [ref=f317e28]:
+            - link [ref=f317e29] [cursor=pointer]:
+              - /url: /mvnos/4?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "LG U+ 로고" [ref=f317e30]
+            - button [ref=f317e32] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f317e34]
+          - generic [ref=f317e42]:
+            - generic [ref=f317e43]:
+              - generic [ref=f317e44]: 너겟49
+              - generic [ref=f317e45]:
+                - heading "월 120GB + 5Mbps" [level=1] [ref=f317e46]
+                - generic [ref=f317e47]:
+                  - button "찜하기" [ref=f317e49] [cursor=pointer]
+                  - button "공유하기" [ref=f317e54] [cursor=pointer]
+            - generic [ref=f317e61]:
+              - generic [ref=f317e62]: 통화 무제한
+              - generic [ref=f317e64]: 문자 무제한
+              - generic [ref=f317e66]: LG U+망
+              - generic [ref=f317e68]: 5G
+        - generic [ref=f317e70]:
+          - generic [ref=f317e71]:
+            - term [ref=f317e72]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f317e74] [cursor=pointer]
+          - definition [ref=f317e76]:
+            - generic [ref=f317e77]:
+              - generic [ref=f317e78]:
+                - generic [ref=f317e79]: 월 납부액월 49,000원
+                - generic [ref=f317e85]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f317e86]: 월 7,000원
+              - separator [ref=f317e87]
+              - generic [ref=f317e88]:
+                - generic [ref=f317e89]: 월 49,000원 내고 42,000원 돌려받아요
+                - button "자세히" [ref=f317e90] [cursor=pointer]
+      - group "요금제 신청" [ref=f317e93]:
+        - button "신청하기" [ref=f317e95] [cursor=pointer]
+      - generic [ref=f317e98]:
+        - generic [ref=f317e99]: 모요 제휴 페이백 안내
+        - generic [ref=f317e100]:
+          - link "현금성포인트 매달 3만4천원 페이백(6개월) 상세 페이지 새 탭 열기" [ref=f317e103] [cursor=pointer]:
+            - /url: /gift-group/2011?plan=false
+            - generic [ref=f317e105]:
+              - img "모요 포인트" [ref=f317e106]
+              - generic [ref=f317e107]:
+                - text: 매달 3만 4천원 씩 6개월 간
+                - generic [ref=f317e108]: 요금 낸 달부터 매달 마지막 날 지급
+          - link "현금성포인트 매달 8천원 페이백(12개월) 상세 페이지 새 탭 열기" [ref=f317e115] [cursor=pointer]:
+            - /url: /gift-group/2010?plan=false
+            - generic [ref=f317e117]:
+              - img "모요 포인트" [ref=f317e118]
+              - generic [ref=f317e119]:
+                - text: 매달 8천원 씩 12개월 간
+                - generic [ref=f317e120]: 요금 낸 달부터 매달 마지막 날 지급
+        - link "모요 포인트로 받고, 입맛대로 골라 써요 (새 탭 열림)" [ref=f317e126] [cursor=pointer]:
+          - /url: /points/introduce
+          - generic [ref=f317e128]:
+            - text: 모요 포인트로 받고, 입맛대로 골라 써요
+            - generic [ref=f317e129]: (새 탭 열림)
+    - generic [ref=f317e149]:
+      - generic [ref=f317e150]: 꼭 확인해 주세요
+      - generic [ref=f317e151]: 이미 LG U+ 요금제를 쓰고 있다면 이 요금제를 가입할 수 없어요
+    - generic [ref=f317e155]:
+      - generic [ref=f317e156]:
+        - heading "요금제 정보" [level=2] [ref=f317e157]
+        - tablist [ref=f317e158]:
+          - tab "기본 정보" [selected] [ref=f317e159] [cursor=pointer]
+          - tab "지원 서비스" [ref=f317e161] [cursor=pointer]
+          - tab "기타 비용" [ref=f317e163] [cursor=pointer]
+      - generic [ref=f317e166]:
+        - generic [ref=f317e167]:
+          - generic [ref=f317e175]:
+            - generic [ref=f317e176]: 데이터 월 120GB
+            - generic [ref=f317e177]: 다 써도 5Mbps 속도로 무제한
+          - button "자세히" [ref=f317e179] [cursor=pointer]
+        - generic [ref=f317e182]:
+          - generic [ref=f317e190]:
+            - generic [ref=f317e191]: 통화 무제한 / 문자 무제한
+            - generic [ref=f317e192]: 부가통화 300분
+          - button "자세히" [ref=f317e194] [cursor=pointer]
+        - generic [ref=f317e197]: 약정 없음
+        - generic [ref=f317e206]: 유심 개통 가능 / eSIM 불가
+    - generic [ref=f317e215]:
+      - generic [ref=f317e216]:
+        - heading "LG U+ 후기" [level=2] [ref=f317e217]
+        - button "모두보기" [ref=f317e218] [cursor=pointer]
+      - generic [ref=f317e221]:
+        - generic [ref=f317e222]:
+          - generic [ref=f317e223]: "4.5"
+          - generic [ref=f317e229]: 1,029개
+        - generic [ref=f317e230]:
+          - generic [ref=f317e231]:
+            - generic [ref=f317e232]: 고객센터
+            - generic [ref=f317e233]: "4.6"
+          - generic [ref=f317e257]:
+            - generic [ref=f317e258]: 개통 과정
+            - generic [ref=f317e259]: "4.6"
+          - generic [ref=f317e283]:
+            - generic [ref=f317e284]: 개통 후 만족도
+            - generic [ref=f317e285]: "4.4"
+      - generic [ref=f317e308]:
+        - button "백*진 25일 전 개통과정은 그냥 고객센터 연락해서 하시는게 더 편한거 같습니다. 유심은 하루만에 왔구요. 행사요금가격을 따라갈수 없더라구요. 기간 끝나면 다른것도 찾겠습니다." [ref=f317e310] [cursor=pointer]:
+          - generic [ref=f317e311]:
+            - generic [ref=f317e312]: 백*진
+            - generic [ref=f317e335]: 25일 전
+          - generic [ref=f317e336]: 개통과정은 그냥 고객센터 연락해서 하시는게 더 편한거 같습니다. 유심은 하루만에 왔구요. 행사요금가격을 따라갈수 없더라구요. 기간 끝나면 다른것도 찾겠습니다.
+        - button "이*욱 32일 전 개통도 다음다음만 누르다보면 개통될 정도로 쉽고, 저렴한 가격에 올리브영 쿠폰까지 받아서 엄청 이득이였어요. 데이터 다써도 3Mbps 무제한으로 계속 쓸 수 있어서 제일 좋았답니다" [ref=f317e338] [cursor=pointer]:
+          - generic [ref=f317e339]:
+            - generic [ref=f317e340]: 이*욱
+            - generic [ref=f317e363]: 32일 전
+          - generic [ref=f317e364]: 개통도 다음다음만 누르다보면 개통될 정도로 쉽고, 저렴한 가격에 올리브영 쿠폰까지 받아서 엄청 이득이였어요. 데이터 다써도 3Mbps 무제한으로 계속 쓸 수 있어서 제일 좋았답니다
+    - heading [level=3] [ref=f317e368]:
+      - button [ref=f317e369] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f317e371]
+    - generic [ref=f317e377]:
+      - link [ref=f317e378] [cursor=pointer]:
+        - /url: /mvnos/4?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "LG U+ 로고" [ref=f317e379]
+      - button "잘못된 정보 제보" [ref=f317e380] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f317e381]

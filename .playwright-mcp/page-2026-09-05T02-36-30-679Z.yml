@@ -1,0 +1,312 @@
+- generic [active] [ref=f245e1]:
+  - banner [ref=f245e2]:
+    - generic [ref=f245e3]:
+      - generic [ref=f245e6]:
+        - link "원칩" [ref=f245e7] [cursor=pointer]:
+          - /url: /onechip.do
+        - link "개통후기" [ref=f245e8] [cursor=pointer]:
+          - /url: /review.do
+        - link "사용량 조회" [ref=f245e9] [cursor=pointer]:
+          - /url: /normal.do
+        - link "접수내역조회/변경" [ref=f245e10] [cursor=pointer]:
+          - /url: /apply_list.do
+        - link "로그인" [ref=f245e11] [cursor=pointer]:
+          - /url: /sign.do
+      - list [ref=f245e16]:
+        - listitem [ref=f245e17]:
+          - link [ref=f245e18] [cursor=pointer]:
+            - /url: /
+            - img "logo.png" [ref=f245e19]
+        - listitem [ref=f245e20]:
+          - link "요금제" [ref=f245e21] [cursor=pointer]:
+            - /url: /rate_plan.do
+        - listitem [ref=f245e22]:
+          - link "지금배송" [ref=f245e23] [cursor=pointer]:
+            - /url: /dlvy/dlvy_info.do
+        - listitem [ref=f245e24]:
+          - link "이벤트" [ref=f245e25] [cursor=pointer]:
+            - /url: /event.do
+        - listitem [ref=f245e26]:
+          - link "선불서비스" [ref=f245e27] [cursor=pointer]:
+            - /url: /charge/charge_account.do
+        - listitem [ref=f245e28]:
+          - link "고객센터" [ref=f245e29] [cursor=pointer]:
+            - /url: /cs_info.do
+        - listitem [ref=f245e30]:
+          - link "MY정보" [ref=f245e31] [cursor=pointer]:
+            - /url: /btcview.do
+  - generic [ref=f245e32]:
+    - generic [ref=f245e34]:
+      - generic [ref=f245e35]:
+        - button "Slide 0" [ref=f245e36] [cursor=pointer]
+        - button "Slide 1" [ref=f245e37] [cursor=pointer]
+        - button "Slide 2" [ref=f245e38] [cursor=pointer]
+        - button "Slide 3" [ref=f245e39] [cursor=pointer]
+        - button "Slide 4" [ref=f245e40] [cursor=pointer]
+        - button "Slide 5" [ref=f245e41] [cursor=pointer]
+        - button "Slide 6" [ref=f245e42] [cursor=pointer]
+      - generic [ref=f245e44]:
+        - link:
+          - /url: https://www.insmobile.co.kr/event_view.do?eventId=1867&eventMod=ongoing
+        - link:
+          - /url: https://www.insmobile.co.kr/event_view.do?eventId=1867&eventMod=ongoing
+        - link [ref=f245e45] [cursor=pointer]:
+          - /url: https://www.insmobile.co.kr/event_view.do?eventId=1867&eventMod=ongoing
+          - img "보름달처럼 풍성한 추석 할인이 왔어요 (9월)" [ref=f245e46]
+    - generic [ref=f245e48]:
+      - generic [ref=f245e49]:
+        - heading "인스모바일 추천요금제" [level=2] [ref=f245e50]
+        - link "전체보기" [ref=f245e51] [cursor=pointer]:
+          - /url: /rate_plan.do
+      - generic [ref=f245e53]:
+        - generic [ref=f245e54]:
+          - group "1 / 8" [ref=f245e55]:
+            - link "24개월 할인 [24개월] 인스 유심 스트롱 11GB+ 24개월 동안 월 25,800원 39,000원 11GB + 일2GB + 3Mbps 통화 무제한 문자 무제한" [ref=f245e56] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3107
+              - generic [ref=f245e57]:
+                - generic [ref=f245e58]:
+                  - paragraph [ref=f245e59]:
+                    - generic [ref=f245e60]: 24개월 할인
+                  - paragraph [ref=f245e61]: "[24개월] 인스 유심 스트롱 11GB+"
+                - generic [ref=f245e62]:
+                  - paragraph [ref=f245e63]: 24개월 동안
+                  - paragraph [ref=f245e64]: 월 25,800원 39,000원
+                - list [ref=f245e65]:
+                  - listitem [ref=f245e66]: 11GB + 일2GB + 3Mbps
+                  - listitem [ref=f245e67]: 통화 무제한
+                  - listitem [ref=f245e68]: 문자 무제한
+          - group "2 / 8" [ref=f245e69]:
+            - link "6~7개월 할인 인스 유심 스피드(5G) 125GB+ 7개월 동안 월 12,100원 51,150원 125GB + 5Mbps 통화 무제한 문자 무제한" [ref=f245e70] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3235
+              - generic [ref=f245e71]:
+                - generic [ref=f245e72]:
+                  - paragraph [ref=f245e73]:
+                    - generic [ref=f245e74]: 6~7개월 할인
+                  - paragraph [ref=f245e75]: 인스 유심 스피드(5G) 125GB+
+                - generic [ref=f245e76]:
+                  - paragraph [ref=f245e77]: 7개월 동안
+                  - paragraph [ref=f245e78]: 월 12,100원 51,150원
+                - list [ref=f245e79]:
+                  - listitem [ref=f245e80]: 125GB + 5Mbps
+                  - listitem [ref=f245e81]: 통화 무제한
+                  - listitem [ref=f245e82]: 문자 무제한
+          - group "3 / 8" [ref=f245e83]:
+            - link "6~7개월 할인 인스 유심 스피드(5G) 95GB+ 7개월 동안 월 11,880원 53,240원 95GB + 3Mbps 통화 무제한 문자 무제한" [ref=f245e84] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3234
+              - generic [ref=f245e85]:
+                - generic [ref=f245e86]:
+                  - paragraph [ref=f245e87]:
+                    - generic [ref=f245e88]: 6~7개월 할인
+                  - paragraph [ref=f245e89]: 인스 유심 스피드(5G) 95GB+
+                - generic [ref=f245e90]:
+                  - paragraph [ref=f245e91]: 7개월 동안
+                  - paragraph [ref=f245e92]: 월 11,880원 53,240원
+                - list [ref=f245e93]:
+                  - listitem [ref=f245e94]: 95GB + 3Mbps
+                  - listitem [ref=f245e95]: 통화 무제한
+                  - listitem [ref=f245e96]: 문자 무제한
+          - group "4 / 8" [ref=f245e97]:
+            - link "6~7개월 할인 인스 유심 스트롱 11GB+ 7개월 동안 월 9,850원 39,000원 11GB + 일2GB + 3Mbps 통화 무제한 문자 무제한" [ref=f245e98] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3145
+              - generic [ref=f245e99]:
+                - generic [ref=f245e100]:
+                  - paragraph [ref=f245e101]:
+                    - generic [ref=f245e102]: 6~7개월 할인
+                  - paragraph [ref=f245e103]: 인스 유심 스트롱 11GB+
+                - generic [ref=f245e104]:
+                  - paragraph [ref=f245e105]: 7개월 동안
+                  - paragraph [ref=f245e106]: 월 9,850원 39,000원
+                - list [ref=f245e107]:
+                  - listitem [ref=f245e108]: 11GB + 일2GB + 3Mbps
+                  - listitem [ref=f245e109]: 통화 무제한
+                  - listitem [ref=f245e110]: 문자 무제한
+          - group "5 / 8" [ref=f245e111]:
+            - link "6~7개월 할인 실속 300분+5GB(USIM) 6개월 동안 월 10원 20,900원 5GB 통화 300 분 문자 100 건" [ref=f245e112] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3051
+              - generic [ref=f245e113]:
+                - generic [ref=f245e114]:
+                  - paragraph [ref=f245e115]:
+                    - generic [ref=f245e116]: 6~7개월 할인
+                  - paragraph [ref=f245e117]: 실속 300분+5GB(USIM)
+                - generic [ref=f245e118]:
+                  - paragraph [ref=f245e119]: 6개월 동안
+                  - paragraph [ref=f245e120]: 월 10원 20,900원
+                - list [ref=f245e121]:
+                  - listitem [ref=f245e122]: 5GB
+                  - listitem [ref=f245e123]: 통화 300 분
+                  - listitem [ref=f245e124]: 문자 100 건
+          - group "6 / 8" [ref=f245e125]:
+            - link "6~7개월 할인 인스 유심 스트롱 100GB+ 7개월 동안 월 9,710원 47,000원 100GB + 5Mbps 통화 무제한 문자 무제한" [ref=f245e126] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3239
+              - generic [ref=f245e127]:
+                - generic [ref=f245e128]:
+                  - paragraph [ref=f245e129]:
+                    - generic [ref=f245e130]: 6~7개월 할인
+                  - paragraph [ref=f245e131]: 인스 유심 스트롱 100GB+
+                - generic [ref=f245e132]:
+                  - paragraph [ref=f245e133]: 7개월 동안
+                  - paragraph [ref=f245e134]: 월 9,710원 47,000원
+                - list [ref=f245e135]:
+                  - listitem [ref=f245e136]: 100GB + 5Mbps
+                  - listitem [ref=f245e137]: 통화 무제한
+                  - listitem [ref=f245e138]: 문자 무제한
+          - group "7 / 8" [ref=f245e139]:
+            - link "6~7개월 할인 인스유심 스트롱 15GB+ 7개월 동안 월 9,800원 29,600원 15GB + 3Mbps 통화 100 분 문자 100 건" [ref=f245e140] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=3241
+              - generic [ref=f245e141]:
+                - generic [ref=f245e142]:
+                  - paragraph [ref=f245e143]:
+                    - generic [ref=f245e144]: 6~7개월 할인
+                  - paragraph [ref=f245e145]: 인스유심 스트롱 15GB+
+                - generic [ref=f245e146]:
+                  - paragraph [ref=f245e147]: 7개월 동안
+                  - paragraph [ref=f245e148]: 월 9,800원 29,600원
+                - list [ref=f245e149]:
+                  - listitem [ref=f245e150]: 15GB + 3Mbps
+                  - listitem [ref=f245e151]: 통화 100 분
+                  - listitem [ref=f245e152]: 문자 100 건
+          - group "8 / 8" [ref=f245e153]:
+            - link "24개월 할인 [24개월] 인스 유심 스트롱 100GB+ 24개월 동안 월 28,520원 47,000원 100GB + 5Mbps 통화 무제한 문자 무제한" [ref=f245e154] [cursor=pointer]:
+              - /url: /rateplan_view.do?no=2532
+              - generic [ref=f245e155]:
+                - generic [ref=f245e156]:
+                  - paragraph [ref=f245e157]:
+                    - generic [ref=f245e158]: 24개월 할인
+                  - paragraph [ref=f245e159]: "[24개월] 인스 유심 스트롱 100GB+"
+                - generic [ref=f245e160]:
+                  - paragraph [ref=f245e161]: 24개월 동안
+                  - paragraph [ref=f245e162]: 월 28,520원 47,000원
+                - list [ref=f245e163]:
+                  - listitem [ref=f245e164]: 100GB + 5Mbps
+                  - listitem [ref=f245e165]: 통화 무제한
+                  - listitem [ref=f245e166]: 문자 무제한
+        - generic [ref=f245e167]:
+          - button "Go to slide 1" [ref=f245e168] [cursor=pointer]
+          - button "Go to slide 2" [ref=f245e169] [cursor=pointer]
+    - generic [ref=f245e171]:
+      - generic [ref=f245e172]:
+        - heading "이달의 혜택" [level=2] [ref=f245e173]
+        - link "전체보기" [ref=f245e174] [cursor=pointer]:
+          - /url: /benefit.do
+      - generic [ref=f245e176]:
+        - generic [ref=f245e177]:
+          - group "1 / 4" [ref=f245e178]:
+            - link "U+알뜰폰 제휴카드 알아보기 (9월)":
+              - /url: /event_view.do?eventId=1843
+              - img "U+알뜰폰 제휴카드 알아보기 (9월)" [ref=f245e179] [cursor=pointer]
+          - group "2 / 4" [ref=f245e180]:
+            - link "알뜰폰+인터넷 신규 결합, 기간 한정 혜택 (9월)":
+              - /url: /event_view.do?eventId=1842
+              - img "알뜰폰+인터넷 신규 결합, 기간 한정 혜택 (9월)" [ref=f245e181] [cursor=pointer]
+          - group "3 / 4" [ref=f245e182]:
+            - link "소상공인 상품 가입시 최대 410만원 혜택 (9월)":
+              - /url: /event_view.do?eventId=1841
+              - img "소상공인 상품 가입시 최대 410만원 혜택 (9월)" [ref=f245e183] [cursor=pointer]
+          - group "4 / 4" [ref=f245e184]:
+            - link "ISMS 공식 인증 획득":
+              - /url: /event_view.do?eventId=1441
+              - img "ISMS 공식 인증 획득" [ref=f245e185] [cursor=pointer]
+        - generic [ref=f245e186]:
+          - button "Go to slide 1" [ref=f245e187] [cursor=pointer]
+          - button "Go to slide 2" [ref=f245e188] [cursor=pointer]
+    - generic [ref=f245e190]:
+      - generic [ref=f245e191]:
+        - heading "개통 후기" [level=2] [ref=f245e192]
+        - link "전체보기" [ref=f245e193] [cursor=pointer]:
+          - /url: /review.do
+      - generic [ref=f245e195]:
+        - generic [ref=f245e196]:
+          - group "1 / 4" [ref=f245e197]:
+            - link "저렴하고 사은품 많은 5G 알뜰폰 요금제 최고! 저렴하고 혜택을 잘 받아 갈 수 있고 5G요금제를 찾던 중!! 인스모바일에 요금제을 찾고 바로 가입 딱 !! 잘 사용하겠습니다 ~~! 김** 2026-09-05" [ref=f245e198] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f245e200]:
+                - generic [ref=f245e201]:
+                  - paragraph [ref=f245e202]: 저렴하고 사은품 많은 5G 알뜰폰 요금제 최고!
+                  - paragraph [ref=f245e203]: 저렴하고 혜택을 잘 받아 갈 수 있고 5G요금제를 찾던 중!! 인스모바일에 요금제을 찾고 바로 가입 딱 !! 잘 사용하겠습니다 ~~!
+                - generic [ref=f245e204]: 김** 2026-09-05
+          - group "2 / 4" [ref=f245e212]:
+            - link "좋아요 너무 좋은데 통화사용량 위젯하나 있으면 좋을거 같아요 홍** 2026-09-04" [ref=f245e213] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f245e215]:
+                - generic [ref=f245e216]:
+                  - paragraph [ref=f245e217]: 좋아요
+                  - paragraph [ref=f245e218]: 너무 좋은데 통화사용량 위젯하나 있으면 좋을거 같아요
+                - generic [ref=f245e219]: 홍** 2026-09-04
+          - group "3 / 4" [ref=f245e227]:
+            - link "강추강추 이 요금제가 7개월간 11800원 이건 사기 수준이네요 후기쓰면 엔페이2만원!!! 망설이지 마시고 강력추천 좋은 이벤트 요금제 마니마니 만들어주세요. 김** 2026-09-04" [ref=f245e228] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f245e230]:
+                - generic [ref=f245e231]:
+                  - paragraph [ref=f245e232]: 강추강추
+                  - paragraph [ref=f245e233]: 이 요금제가 7개월간 11800원 이건 사기 수준이네요 후기쓰면 엔페이2만원!!! 망설이지 마시고 강력추천 좋은 이벤트 요금제 마니마니 만들어주세요.
+                - generic [ref=f245e234]: 김** 2026-09-04
+          - group "4 / 4" [ref=f245e242]:
+            - link "인스모바일 5G 125+ 속도 ㅇ 5G 125+ 모델의 속도를 첨부 합니다 속도가 짱짱 합니다 노** 2026-09-03" [ref=f245e243] [cursor=pointer]:
+              - /url: /review.do
+              - generic [ref=f245e245]:
+                - generic [ref=f245e246]:
+                  - paragraph [ref=f245e247]: 인스모바일 5G 125+ 속도
+                  - paragraph [ref=f245e248]: ㅇ 5G 125+ 모델의 속도를 첨부 합니다 속도가 짱짱 합니다
+                - generic [ref=f245e249]: 노** 2026-09-03
+        - button "Go to slide 1" [ref=f245e258] [cursor=pointer]
+    - generic [ref=f245e262]:
+      - generic [ref=f245e263]:
+        - generic [ref=f245e264]: 공지사항
+        - link "2026 8월 택배 없는 날 배송 안내" [ref=f245e266] [cursor=pointer]:
+          - /url: /notice_view.do?notId=381
+      - link "전체보기" [ref=f245e267] [cursor=pointer]:
+        - /url: /notice.do
+  - contentinfo [ref=f245e268]:
+    - generic [ref=f245e269]:
+      - generic [ref=f245e270]:
+        - paragraph [ref=f245e271]: (주)인스코리아
+        - list [ref=f245e272]:
+          - listitem [ref=f245e273]: 대표자 안한식
+          - listitem [ref=f245e274]: 경기 안산시 단원구 광덕3로 135-10, 선경프라자 304호
+          - listitem [ref=f245e275]: "|Fax: 031-414-4997 ｜ 고객센터: 1522-9116"
+          - listitem [ref=f245e276]: "사업자등록번호: 134-86-82309"
+          - listitem [ref=f245e277]: "|통신판매신고: 제 2013-경기안산-0384 호"
+        - list [ref=f245e279]:
+          - listitem [ref=f245e280]:
+            - link "인스타그램" [ref=f245e281] [cursor=pointer]:
+              - /url: https://www.instagram.com/insmobile1?igsh=ZTFncWFyeGFmY21k
+      - generic [ref=f245e282]:
+        - list [ref=f245e283]:
+          - listitem [ref=f245e284]:
+            - link "이용약관" [ref=f245e285] [cursor=pointer]:
+              - /url: /contact/policy.do
+          - listitem [ref=f245e286]:
+            - link "개인정보처리방침" [ref=f245e287] [cursor=pointer]:
+              - /url: /contact/indv.do
+          - listitem [ref=f245e288]:
+            - link "고객센터" [ref=f245e289] [cursor=pointer]:
+              - /url: /cs_info.do
+          - listitem [ref=f245e290]:
+            - link "불법스팸대응센터" [ref=f245e291] [cursor=pointer]:
+              - /url: https://spam.kisa.or.kr/spam/main.do
+          - listitem [ref=f245e292]:
+            - link "명의도용방지서비스" [ref=f245e293] [cursor=pointer]:
+              - /url: https://msafer.or.kr/index.do
+        - list [ref=f245e294]:
+          - listitem [ref=f245e295]: 2024 대한민국모바일서비스 대상
+        - paragraph [ref=f245e297]: Copyright © 인스모바일. All Rights Reserved.
+  - dialog "9월 리뷰" [ref=f245e298]:
+    - generic [ref=f245e299]:
+      - link [ref=f245e302] [cursor=pointer]:
+        - /url: https://www.insmobile.co.kr/event_view.do?eventId=1861&eventMod=ongoing
+        - img "2.jpg" [ref=f245e303]
+      - generic [ref=f245e304]:
+        - generic [ref=f245e305]:
+          - checkbox [ref=f245e306]
+          - generic [ref=f245e307]: 오늘 하루 보지 않기
+        - button "닫기" [ref=f245e308] [cursor=pointer]
+  - dialog "9월 5G" [ref=f245e309]:
+    - generic [ref=f245e310]:
+      - link [ref=f245e313] [cursor=pointer]:
+        - /url: https://www.insmobile.co.kr/event_view.do?eventId=1867&eventMod=ongoing
+        - img "1.jpg" [ref=f245e314]
+      - generic [ref=f245e315]:
+        - generic [ref=f245e316]:
+          - checkbox [ref=f245e317]
+          - generic [ref=f245e318]: 오늘 하루 보지 않기
+        - button "닫기" [ref=f245e319] [cursor=pointer]

@@ -1,0 +1,191 @@
+- generic [active] [ref=f96e1]:
+  - link "본문으로 바로가기" [ref=f96e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation "주 내비게이션" [ref=f96e3]:
+    - link "여유로와 홈" [ref=f96e6] [cursor=pointer]:
+      - /url: "#"
+      - img "여유로와" [ref=f96e7]
+  - main [ref=f96e8]:
+    - region "메인 헤더" [ref=f96e9]:
+      - generic [ref=f96e15]:
+        - heading [level=1] [ref=f96e16]:
+          - text: 여유로운 이곳으로
+          - emphasis [ref=f96e17]: 여유로와
+        - paragraph [ref=f96e18]: 좋은 사람들과, 아무 걱정 없는 하루.
+        - generic [ref=f96e19]:
+          - link "예약하기" [ref=f96e20] [cursor=pointer]:
+            - /url: "#availability"
+          - link "공간 살펴보기" [ref=f96e21] [cursor=pointer]:
+            - /url: "#exterior"
+      - generic [aria-hidden] [ref=f96e22]: Scroll
+    - region [ref=f96e23]:
+      - img "여유로와 외관" [ref=f96e25]
+      - generic [ref=f96e26]:
+        - generic [ref=f96e27]: Exterior
+        - heading [level=2] [ref=f96e28]:
+          - text: 느긋하게
+          - emphasis [ref=f96e29]: 머물다 가는 곳
+        - paragraph [ref=f96e30]: 논산 탑정호 인근, 한적한 시골마을에 자리한 공유별장. 넓은 마당과 계절마다 다른 풍경이 어우러져 머무는 것 자체가 힐링입니다.
+    - region [ref=f96e31]:
+      - generic [ref=f96e32]:
+        - generic [ref=f96e33]:
+          - generic [ref=f96e34]: Interior
+          - heading [level=2] [ref=f96e35]:
+            - text: 천천히 스며드는
+            - emphasis [ref=f96e36]: 편안함
+          - paragraph [ref=f96e37]: 따뜻한 실내 공간, 호텔식 순면 침구. 바쁜 일상에서 잠시 벗어나 여유로운 시간을 보낼 수 있도록 준비했습니다.
+        - generic [ref=f96e38]:
+          - img "여유로와 거실" [ref=f96e40]
+          - img "여유로와 다락방" [ref=f96e42]
+    - region [ref=f96e43]:
+      - generic [ref=f96e44]:
+        - generic [ref=f96e45]:
+          - generic [ref=f96e46]:
+            - generic [ref=f96e47]: Special Offers
+            - heading [level=2] [ref=f96e48]:
+              - text: 아무것도 하지 않아도
+              - emphasis [ref=f96e49]: 좋은 하루
+          - paragraph [ref=f96e50]: 바베큐 연기가 피어오르는 저녁, 자쿠지에서 보내는 밤, 마당에서 마시는 아침 커피 한 잔. 조용히 쉬고 싶은 날, 여유로와에서.
+        - generic [ref=f96e51]:
+          - generic [ref=f96e54]:
+            - generic [ref=f96e55]: JACUZZI
+            - heading "자쿠지" [level=3] [ref=f96e56]
+            - paragraph [ref=f96e57]: 추가 비용 없이 프라이빗하게 즐기는 자쿠지. 천천히 물을 채우는 시간(약 2시간)마저 여유로운 쉼의 일부가 됩니다.
+          - generic [ref=f96e60]:
+            - generic [ref=f96e61]: BBQ GARDEN
+            - heading "마당 바베큐" [level=3] [ref=f96e62]
+            - paragraph [ref=f96e63]: 야외 정자와 화로대가 준비된 넓은 마당. 밤하늘 아래서 따뜻한 불멍과 맛있는 바베큐를 마음껏 즐겨보세요.
+          - generic [ref=f96e66]:
+            - generic [ref=f96e67]: LIVING LOUNGE
+            - heading "거실 라운지" [level=3] [ref=f96e68]
+            - paragraph [ref=f96e69]: TV가 없는 거실은 오직 좋은 음악과 서로의 목소리로만 채워집니다. 일상에서 미뤄두었던 서로의 이야기에 귀 기울이며 우리만의 여유로운 시간을 가져보세요.
+          - generic [ref=f96e72]:
+            - generic [ref=f96e73]: KITCHEN & DINING
+            - heading "키친 & 다이닝" [level=3] [ref=f96e74]
+            - paragraph [ref=f96e75]: 정성껏 준비한 식기와 조리도구가 완비된 주방입니다. 맛있는 음식을 함께 만들고 마주 앉아 소중한 이야기를 나누는 시간을 즐겨보세요.
+    - region [ref=f96e76]:
+      - generic [ref=f96e77]:
+        - generic [ref=f96e78]:
+          - generic [ref=f96e79]: Amenities
+          - heading [level=2] [ref=f96e80]:
+            - text: 시설
+            - emphasis [ref=f96e81]: 안내
+        - generic [ref=f96e82]:
+          - generic [ref=f96e88]:
+            - generic [ref=f96e89]: 독채 전용
+            - generic [ref=f96e90]: 6인 기준, 최대 10인
+          - generic [ref=f96e97]:
+            - generic [ref=f96e98]: 넓은 야외 마당
+            - generic [ref=f96e99]: 캠핑 가능
+          - generic [ref=f96e104]:
+            - generic [ref=f96e105]: 야외 바베큐장
+            - generic [ref=f96e106]: 그릴 무료, 숯 3만원
+          - generic [ref=f96e111]:
+            - generic [ref=f96e112]: 자쿠지
+            - generic [ref=f96e113]: 무료 · 셀프 급수 (약 2시간)
+          - generic [ref=f96e122]:
+            - generic [ref=f96e123]: 불멍 화롯대
+            - generic [ref=f96e124]: 무료, 장작 1.5만원
+          - generic [ref=f96e130]:
+            - generic [ref=f96e131]: 개별욕실
+            - generic [ref=f96e132]: 독립욕실 2개
+          - generic [ref=f96e137]:
+            - generic [ref=f96e138]: 침실 3개
+            - generic [ref=f96e139]: 더블베드 3
+          - generic [ref=f96e145]:
+            - generic [ref=f96e146]: 주방시설
+            - generic [ref=f96e147]: 인덕션, 식기완비
+    - region [ref=f96e148]:
+      - generic [ref=f96e149]:
+        - generic [ref=f96e150]:
+          - generic [ref=f96e151]: Gallery
+          - heading "공간 둘러보기" [level=2] [ref=f96e152]
+        - generic [ref=f96e156]:
+          - tablist
+          - list [ref=f96e157]
+    - region [ref=f96e158]:
+      - generic [ref=f96e160]:
+        - generic [ref=f96e161]:
+          - generic [ref=f96e162]: Pricing
+          - heading "이용 요금 안내" [level=2] [ref=f96e163]
+          - paragraph [ref=f96e164]: 온전한 휴식을 위한 프라이빗 독채 풀빌라입니다.커플부터 가족 모임까지, 기본 6인부터 최대 10인까지 머무르실 수 있으며 기준 인원 초과 시 1인당 2만 원이 추가됩니다.바베큐는 그릴과 숯 세팅을 요청하시거나, 직접 준비하고 세척해 주시는 조건으로 장비를 무료로 이용하실 수 있습니다.
+        - generic [ref=f96e165]:
+          - table [ref=f96e166]:
+            - rowgroup [ref=f96e167]:
+              - row [ref=f96e168]:
+                - columnheader "구분" [ref=f96e169]
+                - columnheader "요금" [ref=f96e170]
+            - rowgroup [ref=f96e171]:
+              - row [ref=f96e172]:
+                - cell "주말 금·토·공휴일 전날" [ref=f96e173]:
+                  - text: 주말
+                  - generic [ref=f96e174]: 금·토·공휴일 전날
+                - cell "350,000원" [ref=f96e175]
+              - row [ref=f96e176]:
+                - cell "평일" [ref=f96e177]
+                - cell "250,000원" [ref=f96e178]
+              - row [ref=f96e179]:
+                - cell "추가 인원 1인당" [ref=f96e180]:
+                  - text: 추가 인원
+                  - generic [ref=f96e181]: 1인당
+                - cell "+20,000원" [ref=f96e182]
+              - row [ref=f96e183]:
+                - cell "바베큐 — 그릴 및 숯 세팅" [ref=f96e184]
+                - cell "+30,000원" [ref=f96e185]
+              - row [ref=f96e186]:
+                - cell "바베큐 — 셀프 이용 세척 조건" [ref=f96e187]:
+                  - text: 바베큐 — 셀프 이용
+                  - generic [ref=f96e188]: 세척 조건
+                - cell "무료" [ref=f96e189]
+              - row [ref=f96e190]:
+                - cell "장작" [ref=f96e191]
+                - cell "+15,000원" [ref=f96e192]
+          - paragraph [ref=f96e193]: "입금 계좌카카오뱅크 3333-07-1187888 (예금주: 김성훈(여유로와))"
+    - region [ref=f96e194]:
+      - generic [ref=f96e195]:
+        - generic [ref=f96e196]:
+          - generic [ref=f96e197]: Availability
+          - heading [level=2] [ref=f96e198]:
+            - text: 실시간
+            - emphasis [ref=f96e199]: 예약
+          - paragraph [ref=f96e200]: 예약현황 확인 후 예약하기를 이용해주세요.
+        - generic [ref=f96e201]:
+          - iframe [ref=f96e202]
+          - button "예약 페이지 새 탭으로 열기" [ref=f96e203] [cursor=pointer]
+        - paragraph [ref=f96e204]:
+          - text: 캘린더가 보이지 않으면
+          - link "여기" [ref=f96e205] [cursor=pointer]:
+            - /url: https://booking.pension.onda.me/139407/calendar
+          - text: 를 눌러 새 창에서 여세요.
+    - region "안내사항" [ref=f96e206]:
+      - generic [ref=f96e207]:
+        - generic [ref=f96e208]: Information
+        - heading "안내사항" [level=2] [ref=f96e209]
+        - tablist [ref=f96e210]:
+          - tab "위치안내" [selected] [ref=f96e211] [cursor=pointer]
+          - tab "이용안내" [ref=f96e212] [cursor=pointer]
+          - tab "환불규정" [ref=f96e213] [cursor=pointer]
+        - tabpanel [ref=f96e214]:
+          - generic [ref=f96e215]:
+            - generic [ref=f96e216]:
+              - iframe [ref=f96e217]
+              - link "카카오맵에서 보기 →" [ref=f96e218] [cursor=pointer]:
+                - /url: https://map.kakao.com/link/search/충청남도 논산시 가야곡면 강청길 32
+            - generic [ref=f96e219]:
+              - generic [ref=f96e220]:
+                - term [ref=f96e221]: 주소
+                - definition [ref=f96e222]: 충청남도 논산시 가야곡면 강청길 32
+              - generic [ref=f96e223]:
+                - term [ref=f96e224]: 전화
+                - definition [ref=f96e225]: 010-4342-9712
+              - generic [ref=f96e226]:
+                - term [ref=f96e227]: 주차
+                - definition [ref=f96e228]: 마당 내 최대 3대 주차 가능
+              - generic [ref=f96e229]:
+                - term [ref=f96e230]: 주변관광
+                - definition [ref=f96e231]: 탑정호탑정호 수변생태공원딸기향 농촌테마공원계백장군유적지 & 백제군사박물관논산 선샤인랜드
+        - text: · · · · · · · ·
+  - contentinfo [ref=f96e232]:
+    - generic [ref=f96e234]:
+      - img "여유로와" [ref=f96e236]
+      - generic [ref=f96e237]: "상호: 여유로와 · 사업자등록번호: 302-17-02708 · 대표: 김성훈 주소: 충남 논산시 가야곡면 강청길 32 · 전화: 010-4342-9712"

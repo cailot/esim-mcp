@@ -1,0 +1,163 @@
+- generic [active] [ref=f358e1]:
+  - banner [ref=f358e2]:
+    - generic [ref=f358e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f358e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f358e6]:
+        - list [ref=f358e7]:
+          - listitem [ref=f358e8]:
+            - link "홈" [ref=f358e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f358e10]:
+            - link "요금제" [ref=f358e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f358e12]:
+            - link "휴대폰" [ref=f358e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f358e14]:
+            - link "인터넷" [ref=f358e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f358e16]:
+            - link "가전렌탈 NEW" [ref=f358e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f358e18]: NEW
+          - listitem [ref=f358e19]:
+            - link "이벤트" [ref=f358e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f358e21]:
+            - link "마이페이지" [ref=f358e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f358e23]:
+    - generic [ref=f358e24]:
+      - generic [ref=f358e25]:
+        - generic [ref=f358e27]:
+          - generic [ref=f358e28]:
+            - link [ref=f358e29] [cursor=pointer]:
+              - /url: /mvnos/20?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "핀다이렉트 로고" [ref=f358e30]
+            - generic [ref=f358e31]:
+              - button [ref=f358e32] [cursor=pointer]:
+                - img "모요 셀프 개통 배지" [ref=f358e34]
+              - button [ref=f358e42] [cursor=pointer]:
+                - img "모요 단독 배지" [ref=f358e44]
+          - generic [ref=f358e51]:
+            - generic [ref=f358e52]:
+              - generic [ref=f358e53]: "[모요only] [K] 핀다이렉트Z 100GB+(네이버페이) _PAY"
+              - generic [ref=f358e54]:
+                - heading "월 100GB + 5Mbps" [level=1] [ref=f358e55]
+                - generic [ref=f358e56]:
+                  - button "찜하기" [ref=f358e58] [cursor=pointer]
+                  - button "공유하기" [ref=f358e63] [cursor=pointer]
+            - generic [ref=f358e70]:
+              - generic [ref=f358e71]: 통화 무제한
+              - generic [ref=f358e73]: 문자 무제한
+              - generic [ref=f358e75]: KT망
+              - generic [ref=f358e77]: LTE
+        - generic [ref=f358e79]:
+          - generic [ref=f358e80]:
+            - term [ref=f358e81]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f358e83] [cursor=pointer]
+          - definition [ref=f358e85]:
+            - generic [ref=f358e86]:
+              - generic [ref=f358e87]:
+                - generic [ref=f358e88]: 월 납부액월 41,900원
+                - generic [ref=f358e94]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f358e95]: 월 6,900원
+              - separator [ref=f358e96]
+              - generic [ref=f358e97]:
+                - generic [ref=f358e98]: 월 41,900원 내고 35,000원 돌려받아요
+                - button "자세히" [ref=f358e99] [cursor=pointer]
+      - group "요금제 신청" [ref=f358e102]:
+        - button "신청하기" [ref=f358e104] [cursor=pointer]
+      - generic [ref=f358e107]:
+        - generic [ref=f358e108]: 모요 제휴 페이백 안내
+        - link "네이버페이 매달 3만5천원 페이백 (7개월) 상세 페이지 새 탭 열기" [ref=f358e112] [cursor=pointer]:
+          - /url: /gift-group/2023?plan=false
+          - generic [ref=f358e114]:
+            - img "네이버페이" [ref=f358e115]
+            - generic [ref=f358e116]:
+              - text: 매달 3만 5천원 씩 7개월 간
+              - generic [ref=f358e117]: 개통한지 31일째 되는 날부터 매달 같은 날 지급
+    - generic [ref=f358e130]:
+      - generic [ref=f358e131]: 꼭 확인해 주세요
+      - generic [ref=f358e132]: 신규 가입을 받지 않는 통신사입니다. 사용 중인 번호 그대로 통신사만 이동할 분들만 가입이 가능해요.
+    - generic [ref=f358e136]:
+      - generic [ref=f358e137]:
+        - heading "요금제 정보" [level=2] [ref=f358e138]
+        - tablist [ref=f358e139]:
+          - tab "기본 정보" [selected] [ref=f358e140] [cursor=pointer]
+          - tab "지원 서비스" [ref=f358e142] [cursor=pointer]
+          - tab "기타 비용" [ref=f358e144] [cursor=pointer]
+      - generic [ref=f358e147]:
+        - generic [ref=f358e148]:
+          - generic [ref=f358e156]:
+            - generic [ref=f358e157]: 데이터 월 100GB
+            - generic [ref=f358e158]: 다 써도 5Mbps 속도로 무제한
+          - button "자세히" [ref=f358e160] [cursor=pointer]
+        - generic [ref=f358e163]:
+          - generic [ref=f358e171]:
+            - generic [ref=f358e172]: 통화 무제한 / 문자 무제한
+            - generic [ref=f358e173]: 부가통화 300분
+          - button "자세히" [ref=f358e175] [cursor=pointer]
+        - generic [ref=f358e178]: 약정 없음
+        - generic [ref=f358e187]: 유심 / eSIM 모두 개통 가능
+    - generic [ref=f358e196]:
+      - generic [ref=f358e197]:
+        - heading "핀다이렉트 후기" [level=2] [ref=f358e198]
+        - button "모두보기" [ref=f358e199] [cursor=pointer]
+      - generic [ref=f358e202]:
+        - generic [ref=f358e203]:
+          - generic [ref=f358e204]: "4.2"
+          - generic [ref=f358e210]: 9,565개
+        - generic [ref=f358e211]:
+          - generic [ref=f358e212]:
+            - generic [ref=f358e213]: 고객센터
+            - generic [ref=f358e214]: "4.2"
+          - generic [ref=f358e238]:
+            - generic [ref=f358e239]: 개통 과정
+            - generic [ref=f358e240]: "4.4"
+          - generic [ref=f358e264]:
+            - generic [ref=f358e265]: 개통 후 만족도
+            - generic [ref=f358e266]: "4.1"
+      - generic [ref=f358e289]:
+        - button "이*인 49일 전 대형 3사를 쓸 이유가 없어보입니다. 다양한 혜택들이 있긴 하지만 챙겨가면서 쓰기도 어렵고 혜택 챙기려다가 불편한 소비만 늘어나는 느낌이라 이번에 옮겨왔는데 상당히 만족스럽습니다." [ref=f358e291] [cursor=pointer]:
+          - generic [ref=f358e292]:
+            - generic [ref=f358e293]: 이*인
+            - generic [ref=f358e316]: 49일 전
+          - generic [ref=f358e317]: 대형 3사를 쓸 이유가 없어보입니다. 다양한 혜택들이 있긴 하지만 챙겨가면서 쓰기도 어렵고 혜택 챙기려다가 불편한 소비만 늘어나는 느낌이라 이번에 옮겨왔는데 상당히 만족스럽습니다.
+        - button "윤*영 51일 전 알뜰폰을 안 쓸 이유가 없다. 저렴한 가격, 동일한 통화품질. 왜 눈탱이 맞으면서 일반 통신사를 쓰나요? 번이고 너무 쉽고 너무 편하게 가입했습니다." [ref=f358e319] [cursor=pointer]:
+          - generic [ref=f358e320]:
+            - generic [ref=f358e321]: 윤*영
+            - generic [ref=f358e344]: 51일 전
+          - generic [ref=f358e345]: 알뜰폰을 안 쓸 이유가 없다. 저렴한 가격, 동일한 통화품질. 왜 눈탱이 맞으면서 일반 통신사를 쓰나요? 번이고 너무 쉽고 너무 편하게 가입했습니다.
+    - generic [ref=f358e346]:
+      - heading "통신사 지급 사은품" [level=2] [ref=f358e347]
+      - generic [ref=f358e348]:
+        - generic [ref=f358e349]:
+          - link "네이버페이, 마트 상품권 2만원 상세 페이지 새 탭 열기" [ref=f358e352] [cursor=pointer]:
+            - /url: /gift-group/1898?plan=false
+            - img "네이버페이" [ref=f358e353]
+            - generic [ref=f358e354]:
+              - generic [ref=f358e355]: 네이버페이, 마트 상품권 2만원
+              - generic [ref=f358e356]: 바로유심/바로배송유심 구매・개통 후 7개월 회선 유지한 고객 대상
+          - link "1,000원 요금할인 (핀다이렉트 가입) 상세 페이지 새 탭 열기" [ref=f358e359] [cursor=pointer]:
+            - /url: /gift-group/1965?plan=false
+            - img "핀포인트" [ref=f358e360]
+            - generic [ref=f358e361]:
+              - generic [ref=f358e362]: 1,000원 요금할인 (핀다이렉트 가입)
+              - generic [ref=f358e363]: 대상 요금제 개통한 고객 대상
+        - button "펼쳐보기" [ref=f358e365] [cursor=pointer]
+    - heading [level=3] [ref=f358e375]:
+      - button [ref=f358e376] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f358e378]
+    - generic [ref=f358e384]:
+      - link [ref=f358e385] [cursor=pointer]:
+        - /url: /mvnos/20?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "핀다이렉트 로고" [ref=f358e386]
+      - button "잘못된 정보 제보" [ref=f358e387] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f358e388]

@@ -1,0 +1,602 @@
+- generic [active] [ref=f41e1]:
+  - text: · · ·
+  - generic:
+    - link:
+      - /url: https://www.youtube.com/channel/UC-6KLXH5W0HXKS1U0mH_0VA/featured
+    - link:
+      - /url: https://www.facebook.com/SK-7mobile-1244570282224002/
+    - link:
+      - /url: https://www.instagram.com/sk7mobile_official/
+  - generic [ref=f41e2]:
+    - banner [ref=f41e3]:
+      - generic [ref=f41e4]:
+        - heading [level=1] [ref=f41e5]:
+          - link "SK 7mobile SK 7mobile" [ref=f41e6] [cursor=pointer]:
+            - /url: /main.do
+            - img "SK 7mobile" [ref=f41e7]
+            - generic [ref=f41e8]: SK 7mobile
+        - generic [ref=f41e9]:
+          - generic [ref=f41e10]:
+            - list [ref=f41e11]:
+              - listitem [ref=f41e12]:
+                - link "로그인" [ref=f41e13] [cursor=pointer]:
+                  - /url: /mmbr/login/login.do?refer=pcutil
+              - listitem [ref=f41e14]:
+                - link "회원가입" [ref=f41e15] [cursor=pointer]:
+                  - /url: /mmbr/join/memberJoinAgree.do?refer=pcutil
+              - listitem [ref=f41e16]:
+                - link "신청내역조회" [ref=f41e17] [cursor=pointer]:
+                  - /url: /shop/cmmn/inquiryIntro.do?refer=pcutil
+              - listitem [ref=f41e18]:
+                - link "휴대폰등록" [ref=f41e19] [cursor=pointer]:
+                  - /url: /util/support/deviceChange.do?refer=pcutil
+            - link "사이트맵" [ref=f41e20] [cursor=pointer]:
+              - /url: /allmenu.do
+          - generic [ref=f41e21]:
+            - heading "주메뉴" [level=2] [ref=f41e22]
+            - list [ref=f41e23]:
+              - listitem [ref=f41e24]:
+                - link "유심/eSIM" [ref=f41e25] [cursor=pointer]:
+                  - /url: /shop/mobile/usimPayment.do
+              - listitem [ref=f41e26]:
+                - link "휴대폰" [ref=f41e27] [cursor=pointer]:
+                  - /url: /shop/mobile/phonList.do
+              - listitem [ref=f41e28]:
+                - link "상품서비스" [ref=f41e29] [cursor=pointer]:
+                  - /url: /prod/data/callingPlanList.do?refCode=USIM
+              - listitem [ref=f41e30]:
+                - link "이벤트/혜택" [ref=f41e31] [cursor=pointer]:
+                  - /url: /bnef/event/eventIngList.do
+              - listitem [ref=f41e32]:
+                - link "고객지원" [ref=f41e33] [cursor=pointer]:
+                  - /url: /ccsc/board/faqList.do
+              - listitem [ref=f41e34]:
+                - link "MY" [ref=f41e35] [cursor=pointer]:
+                  - /url: /cust/post/myService.do
+          - generic [ref=f41e38]:
+            - textbox "검색어 입력" [ref=f41e40]
+            - button "검색" [ref=f41e41] [cursor=pointer]
+    - link [ref=f41e43] [cursor=pointer]:
+      - /url: javascript:fn_chatbotCotentEvent('nonMember');
+      - emphasis [ref=f41e44]: 챗봇 열기
+      - generic [ref=f41e45]: 로그인 후 이용하시면 고객인증 없이 편리한 상담이 가능해요
+    - generic [ref=f41e47]:
+      - generic [ref=f41e48]:
+        - generic [ref=f41e49]:
+          - generic [ref=f41e50]:
+            - generic "현재 슬라이드" [ref=f41e51]: "1"
+            - text: /
+            - generic "전체 슬라이드" [ref=f41e52]: "12"
+          - button "정지" [ref=f41e54] [cursor=pointer]
+        - list [ref=f41e55]:
+          - listitem [ref=f41e56]:
+            - link [ref=f41e57] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=0b36fa35c4e2d08126b2ae8b2249c7f1&refer=main
+              - img "GS App으로 eSIM 무료 개통! 최대 23만원 혜택까지! App에서 eSIM 가입 시 무료 다운로드" [ref=f41e58]
+          - listitem [ref=f41e59]:
+            - link [ref=f41e60] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=6539d79bd5e3e5467a272e01d5183143&refer=main
+              - img "12개월 체감가 0원! 데이터 무제한 요금제, 최대 23만원 혜택 증정" [ref=f41e61]
+          - listitem [ref=f41e62]:
+            - link [ref=f41e63] [cursor=pointer]:
+              - /url: https://www.sk7mobile.com/prod/data/callingPlanList.do?refCode=USIM
+              - img "요금제 목록" [ref=f41e64]
+          - listitem [ref=f41e65]:
+            - link [ref=f41e66] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=f3a26d507e944caa5d8d21e3a8da3cbf&refer=main
+              - img "요금 인하로 더 저렴하게, 5G 무제한으로 더 빠르게! 최대 23만원 혜택 증정" [ref=f41e67]
+          - listitem [ref=f41e68]:
+            - link [ref=f41e69] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=b43b68ea363ee2132e6d00402b481c48&refer=main
+              - img "무제한에 N페이를 더하다! 데이터 무제한 요금제, 최대 23만원 혜택 증정" [ref=f41e70]
+          - listitem [ref=f41e71]:
+            - link [ref=f41e72] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=187ab63f1cde7d34166f8ae0c02138b5&refer=main
+              - img "취향에 맞게 선택하는 음성2천분/안심5G 요금제, 최대 14만원 혜택 증정" [ref=f41e73]
+          - listitem [ref=f41e74]:
+            - link [ref=f41e75] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=e0e499cc8b86355378cba3d9f2b2ddf5&refer=main
+              - img "유심 무료 신청하고 지금 바로 개통하기, 유심 0원 프로모션" [ref=f41e76]
+          - listitem [ref=f41e77]:
+            - link [ref=f41e78] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=181f7f1b71f7d88a2a811e5ab7ff85c9&refer=main
+              - img "무료로 eSIM 다운받고 기다림없이 개통하자! eSIM 다운로드비 무료 이벤트" [ref=f41e79]
+          - listitem [ref=f41e80]:
+            - link [ref=f41e81] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=91e4ae4d9146335d06b1c326d511b9a7&refer=main
+              - img "배송비 부담은 내리고 Npay 포인트는 올리고, 간편유심 프로모션" [ref=f41e82]
+          - listitem [ref=f41e83]:
+            - link [ref=f41e84] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=3f48c6e50b701ab0ea7b953bf210e030&refer=main
+              - img "0원폰 구매는 SK 세븐모바일, 특S급 프리미엄 중고폰" [ref=f41e85]
+          - listitem [ref=f41e86]:
+            - link [ref=f41e87] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=97339a20495196763de2bfa0fe4066af&refer=main
+              - img "12개월 월 체감가 0원! 우리 아이 안심 키즈워치폰, 우들 키즈워치폰 Npay 100% 증정!" [ref=f41e88]
+          - listitem [ref=f41e89]:
+            - link [ref=f41e90] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=001012fb780a258336607b7751ef04dc&refer=main
+              - img "편의점에서 쉽고 빠르게 유심 구매하러 가기, 가입 시 최대 23만원 혜택 증정" [ref=f41e91]
+          - listitem [ref=f41e92]:
+            - link [ref=f41e93] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=0b36fa35c4e2d08126b2ae8b2249c7f1&refer=main
+              - img "GS App으로 eSIM 무료 개통! 최대 23만원 혜택까지! App에서 eSIM 가입 시 무료 다운로드" [ref=f41e94]
+          - listitem [ref=f41e95]:
+            - link [ref=f41e96] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=6539d79bd5e3e5467a272e01d5183143&refer=main
+              - img "12개월 체감가 0원! 데이터 무제한 요금제, 최대 23만원 혜택 증정" [ref=f41e97]
+        - button "Previous slide" [ref=f41e98] [cursor=pointer]:
+          - generic [ref=f41e99]: 이전
+        - button "Next slide" [ref=f41e100] [cursor=pointer]:
+          - generic [ref=f41e101]: 다음
+      - generic [ref=f41e102]:
+        - heading "유심/eSIM 이렇게 가입하세요 유심/eSIM 이렇게 가입하세요" [level=2] [ref=f41e103]:
+          - generic [ref=f41e104]: 유심/eSIM 이렇게 가입하세요
+          - strong [ref=f41e106]: 유심/eSIM
+          - text: 이렇게 가입하세요
+        - generic [ref=f41e107]:
+          - navigation [ref=f41e108]:
+            - button "1. 요금제 찾기" [ref=f41e109] [cursor=pointer]
+            - button "2. 유심사고 셀프개통" [ref=f41e110] [cursor=pointer]
+          - generic [ref=f41e112]:
+            - article [ref=f41e113]:
+              - heading "유심요금제 추천" [level=2] [ref=f41e114]
+              - generic [ref=f41e115]:
+                - strong [ref=f41e116]: 이런 분들께 추천 드려요!
+                - list [ref=f41e117]:
+                  - listitem [ref=f41e118]: "- 약정은 끝났지만 휴대폰은 아직 새 폰 일 때"
+                  - listitem [ref=f41e119]: "- 직접 구매한 최신 자급제폰 + 알뜰폰 꿀조합 요금제를 찾고 있는 분"
+                - list [ref=f41e120]:
+                  - listitem [ref=f41e121]:
+                    - link "BEST BEST 요금제 셀프로 더 할인된 91GB 무제한 [셀프] LTE 유심 (11GB+) 월 33,000원" [ref=f41e122] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimList.do?salePlcyCd=1000036713&postTp=1&refer=maincuration1
+                      - strong [ref=f41e123]:
+                        - text: BEST
+                        - generic [ref=f41e124]: BEST 요금제
+                      - generic [ref=f41e125]:
+                        - generic [ref=f41e126]:
+                          - generic [ref=f41e127]: 셀프로 더 할인된91GB 무제한
+                          - generic [ref=f41e128]: "[셀프] LTE 유심 (11GB+)"
+                        - generic [ref=f41e129]: 월 33,000원
+                  - listitem [ref=f41e130]:
+                    - link "추천 추천 요금제 셀프로 더 할인된 12GB 무제한 [셀프] LTE 유심 (7GB+) 월 16,900원" [ref=f41e131] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimList.do?salePlcyCd=1000036686&postTp=1&refer=maincuration2
+                      - strong [ref=f41e132]:
+                        - text: 추천
+                        - generic [ref=f41e133]: 추천 요금제
+                      - generic [ref=f41e134]:
+                        - generic [ref=f41e135]:
+                          - generic [ref=f41e136]: 셀프로 더 할인된12GB 무제한
+                          - generic [ref=f41e137]: "[셀프] LTE 유심 (7GB+)"
+                        - generic [ref=f41e138]: 월 16,900원
+                  - listitem [ref=f41e139]:
+                    - link "추천 추천 요금제 충분한 데이터 넉넉한 통화 [셀프] LTE 유심 (10GB/2000분) 월 11,900원" [ref=f41e140] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimList.do?salePlcyCd=1000042883&postTp=1&refer=maincuration3
+                      - strong [ref=f41e141]:
+                        - text: 추천
+                        - generic [ref=f41e142]: 추천 요금제
+                      - generic [ref=f41e143]:
+                        - generic [ref=f41e144]:
+                          - generic [ref=f41e145]: 충분한 데이터넉넉한 통화
+                          - generic [ref=f41e146]: "[셀프] LTE 유심 (10GB/2000분)"
+                        - generic [ref=f41e147]: 월 11,900원
+              - generic [ref=f41e149]:
+                - heading "유심 큐레이션 마음에 드는 요금제가 없다면, 나에게 꼭 맞는 요금제를 찾아보세요!" [level=3] [ref=f41e150]:
+                  - generic [ref=f41e151]: 유심 큐레이션
+                  - text: 마음에 드는 요금제가 없다면, 나에게 꼭 맞는 요금제를 찾아보세요!
+                - list [ref=f41e153]:
+                  - listitem [ref=f41e154]:
+                    - generic [ref=f41e155]: Q1
+                    - paragraph [ref=f41e156]:
+                      - text: 한 달
+                      - strong [ref=f41e157]: 사용 데이터
+                      - text: 는 얼마이신가요?
+                    - generic [ref=f41e160]:
+                      - slider [ref=f41e164]: "0"
+                      - list:
+                        - listitem [ref=f41e165]: 1GB
+                        - listitem [ref=f41e166]: 5GB
+                        - listitem [ref=f41e167]: 10GB
+                        - listitem [ref=f41e168]: 10GB+
+                    - paragraph [ref=f41e170]: 데이터를 거의 사용하지 않아요.
+                    - button "다음" [ref=f41e171] [cursor=pointer]
+            - text: "- - -"
+      - generic [ref=f41e172]:
+        - heading "제휴요금제 혜택이 따라오는 제휴요금제" [level=2] [ref=f41e173]:
+          - generic [ref=f41e174]: 제휴요금제
+          - text: 혜택이 따라오는
+          - strong [ref=f41e176]: 제휴요금제
+        - list [ref=f41e177]:
+          - listitem [ref=f41e178]:
+            - link "네이버페이" [ref=f41e179] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e181]:
+            - link "롯데시네마 요금제" [ref=f41e182] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e184]:
+            - link "FLO 요금제" [ref=f41e185] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e187]:
+            - link "번개장터" [ref=f41e188] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e190]:
+            - link "폰케어팩 요금제" [ref=f41e191] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - generic [ref=f41e194]:
+          - list [ref=f41e195]:
+            - listitem [ref=f41e196]:
+              - link [ref=f41e197] [cursor=pointer]:
+                - /url: /bnef/event/eventIngView.do?cntId=efd6a777ba2cbf33705fd1213b6e825c&refer=mainaff
+                - img "파손, 개인정보 안심 케어 폰케어팩 요금제 출시" [ref=f41e198]
+            - listitem [ref=f41e199]:
+              - link [ref=f41e200] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - img "매월 통신 요금의 10%를 Npay 적립!" [ref=f41e201]
+            - listitem [ref=f41e202]:
+              - link [ref=f41e203] [cursor=pointer]:
+                - /url: /bnef/event/eventIngView.do?cntId=3cd529f1f7291aa968b97631c7d8fe52&refer=mainaff
+                - img "매월 영화관람권에 스위트콤보 할인권까지! 롯데시네마 요금제" [ref=f41e204]
+            - listitem [ref=f41e205]:
+              - link [ref=f41e206] [cursor=pointer]:
+                - /url: /bnef/event/eventIngView.do?cntId=d7b5d1770bab211ef30d73974df3a9b4&refer=mainaff
+                - img "데이터 무제한! FLO도 무제한!(모바일 무제한 듣기 이용권 제공) 음악 스트리밍 요금제" [ref=f41e207]
+            - listitem [ref=f41e208]:
+              - link [ref=f41e209] [cursor=pointer]:
+                - /url: /bnef/event/eventIngView.do?cntId=1cb708c65e82ff7cc2e544c6aa33ef30&refer=mainaff
+                - img "최대 23만원 혜택에 번개포인트까지! 번개유심 요금제" [ref=f41e210]
+            - listitem [ref=f41e211]:
+              - link [ref=f41e212] [cursor=pointer]:
+                - /url: /bnef/event/eventIngView.do?cntId=efd6a777ba2cbf33705fd1213b6e825c&refer=mainaff
+                - img "파손, 개인정보 안심 케어 폰케어팩 요금제 출시" [ref=f41e213]
+            - listitem [ref=f41e214]:
+              - link [ref=f41e215] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - img "매월 통신 요금의 10%를 Npay 적립!" [ref=f41e216]
+          - button "Previous slide" [ref=f41e217] [cursor=pointer]:
+            - generic [ref=f41e218]: 이전
+          - button "Next slide" [ref=f41e219] [cursor=pointer]:
+            - generic [ref=f41e220]: 다음
+      - generic [ref=f41e222]:
+        - heading "구매후기 광고없는 솔직 구매후기" [level=2] [ref=f41e223]:
+          - generic [ref=f41e224]: 구매후기
+          - text: 광고없는 솔직 구매후기
+        - list [ref=f41e227]:
+          - listitem [ref=f41e228]:
+            - link "[셀프] LTE 유심 (2GB/2000분) 한** 2026-07-28 원래 오랫동안 sk7모바일을 쓰다가 폰을 바꾸게 되어 어쩔 수 없이 sk를 1년 쓰고 딱 1년 약정 끝난 뒤 이번달에 다시 돌아왔습니다. 여기 요금제의 가성비가 좋아서요. 전체적으로 요금제가 다른 알뜰폰 통신사보다 매우 다양하고 원하는 것에 따라 세분화되어 좋아요. 지금 유심0원 이벤트도 하고 상품권 제공 이벤트도 매달 진행돼서 좋습니다. 무엇보다 통화품질이나 데이터품질도 모두 아주 좋습니다. sk를 사용할 때와 다른 점이 전혀 없어요. 고객센터 응대도 다 친절합니다. 나이 많은 사람들은 어느 정도의 데이터와 넉넉한 통화분수 두 가지가 적절히 조합된 가성비 요금제를 원하는데 sk7이 단연 으뜸인 것 같습니다." [ref=f41e229] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=b0a5ffa8438f0fa0506a9994350063db&refer=mainreview
+              - generic [ref=f41e230]:
+                - heading "[셀프] LTE 유심 (2GB/2000분)" [level=3] [ref=f41e231]
+                - generic [ref=f41e232]: 한** 2026-07-28
+                - paragraph [ref=f41e233]: 원래 오랫동안 sk7모바일을 쓰다가 폰을 바꾸게 되어 어쩔 수 없이 sk를 1년 쓰고 딱 1년 약정 끝난 뒤 이번달에 다시 돌아왔습니다. 여기 요금제의 가성비가 좋아서요. 전체적으로 요금제가 다른 알뜰폰 통신사보다 매우 다양하고 원하는 것에 따라 세분화되어 좋아요. 지금 유심0원 이벤트도 하고 상품권 제공 이벤트도 매달 진행돼서 좋습니다. 무엇보다 통화품질이나 데이터품질도 모두 아주 좋습니다. sk를 사용할 때와 다른 점이 전혀 없어요. 고객센터 응대도 다 친절합니다. 나이 많은 사람들은 어느 정도의 데이터와 넉넉한 통화분수 두 가지가 적절히 조합된 가성비 요금제를 원하는데 sk7이 단연 으뜸인 것 같습니다.
+          - listitem [ref=f41e234]:
+            - link "[셀프] LTE 유심 (7GB+) 제** 2026-07-31 20년 만에 갈아타고 삶의 질 상승 후기! 20년간 KT를 쓰던 장기 고객이었지만, 매달 부담스러운 통신비 때문에 알뜰폰을 알아보다 SK 세븐모바일을 만났습니다. 불필요한 부가서비스 없이 꼭 필요한 전화와 데이터만 알차게 담겨 있어 정말 만족스러웠습니다. 기존 대비 훨씬 저렴한 요금인데도 SKT 망을 그대로 사용해 통화 품질이나 데이터 속도가 이전과 다름없이 훌륭해 큰 감동을 받았습니다. '왜 진작 안 바꿨을까' 후회될 정도네요. 앞으로 제 통신사는 무조건 SK 세븐모바일로 고정입니다. 합리적인 소비를 원하는 분들께 강추합니다!" [ref=f41e235] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=b0a5ffa8438f0fa0506a9994350063db&refer=mainreview
+              - generic [ref=f41e236]:
+                - heading "[셀프] LTE 유심 (7GB+)" [level=3] [ref=f41e237]
+                - generic [ref=f41e238]: 제** 2026-07-31
+                - paragraph [ref=f41e239]: 20년 만에 갈아타고 삶의 질 상승 후기! 20년간 KT를 쓰던 장기 고객이었지만, 매달 부담스러운 통신비 때문에 알뜰폰을 알아보다 SK 세븐모바일을 만났습니다. 불필요한 부가서비스 없이 꼭 필요한 전화와 데이터만 알차게 담겨 있어 정말 만족스러웠습니다. 기존 대비 훨씬 저렴한 요금인데도 SKT 망을 그대로 사용해 통화 품질이나 데이터 속도가 이전과 다름없이 훌륭해 큰 감동을 받았습니다. '왜 진작 안 바꿨을까' 후회될 정도네요. 앞으로 제 통신사는 무조건 SK 세븐모바일로 고정입니다. 합리적인 소비를 원하는 분들께 강추합니다!
+          - listitem [ref=f41e240]:
+            - link "[셀프] LTE 유심 (7GB+) 이** 2026-07-28 핸드폰 통신사나 요금제를 잘 몰라서 딸이 항상 가입해줬는데요 이번에 인터넷 약정도 끝난김에 알뜰폰으로 같은 요금제인데 sk망 이라고 사용해 보자면서 추천을 해주기에 셀프로 가입해 봤어요 어른들은 얼굴인증이며 가입신청이 어렵다고 느낄수 있겠지만 막상 해보니깐 상세히 설명되어 하라는 대로 하니 괜히 겁먹었나 싶을 정도로 어렵지 않게 가입이 되더라구요 이전 통신사 요금이 연계되는것도 그렇고 되게 편리하네요 저는 60대 주부인데 나이드신 분들도 셀프 개통 어렵지 않으니 겁먹지 말고 해보시면 요금제 지출도 줄고 좋은거 같아요 주변에 강추강추 합니다 저렴하게 좋은 서비스 주셔서 감사해요~^^" [ref=f41e241] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=b0a5ffa8438f0fa0506a9994350063db&refer=mainreview
+              - generic [ref=f41e242]:
+                - heading "[셀프] LTE 유심 (7GB+)" [level=3] [ref=f41e243]
+                - generic [ref=f41e244]: 이** 2026-07-28
+                - paragraph [ref=f41e245]: 핸드폰 통신사나 요금제를 잘 몰라서 딸이 항상 가입해줬는데요 이번에 인터넷 약정도 끝난김에 알뜰폰으로 같은 요금제인데 sk망 이라고 사용해 보자면서 추천을 해주기에 셀프로 가입해 봤어요 어른들은 얼굴인증이며 가입신청이 어렵다고 느낄수 있겠지만 막상 해보니깐 상세히 설명되어 하라는 대로 하니 괜히 겁먹었나 싶을 정도로 어렵지 않게 가입이 되더라구요 이전 통신사 요금이 연계되는것도 그렇고 되게 편리하네요 저는 60대 주부인데 나이드신 분들도 셀프 개통 어렵지 않으니 겁먹지 말고 해보시면 요금제 지출도 줄고 좋은거 같아요 주변에 강추강추 합니다 저렴하게 좋은 서비스 주셔서 감사해요~^^
+          - listitem [ref=f41e246]:
+            - link "[셀프] LTE 유심 (7GB+) 정** 2026-07-28 안녕하세요 저는 lg u+ 통신사만 16년 넘게 사용했었는데요 주변에 보니 알뜰폰 요금제를 많이 사용하더라구요.. 신용을 못해서 통신사만 이용하다가 지출도 줄이고 이번에 인터넷도 바꿔보자 싶어 검색을 많이 해보다 보니 sk망인 세븐모바일을 알게되었습니다. 다양한 요금제 중에 저렴한 요금제로 결합해 바꿔봤어요 처음 가입해보는데 셀프 e sim가입인데도 어렵지 않았구요 왜 이제 바꿨을까 싶을정도로 통화품질,서비스 등 불만잡을게 없네요ㅠㅠ 그간 필요 이상의 요금 지출이 너무 아까울 정도네요 엄마꺼도 같은 요금제로 바꿔드렸는데 앞으로 쭉 이용할 생각이에요! 저렴한 요금제에 다양한 이벤트, 높은 서비스 감사합니당♡♡♡♡♡" [ref=f41e247] [cursor=pointer]:
+              - /url: /bnef/event/eventIngView.do?cntId=b0a5ffa8438f0fa0506a9994350063db&refer=mainreview
+              - generic [ref=f41e248]:
+                - heading "[셀프] LTE 유심 (7GB+)" [level=3] [ref=f41e249]
+                - generic [ref=f41e250]: 정** 2026-07-28
+                - paragraph [ref=f41e251]: 안녕하세요 저는 lg u+ 통신사만 16년 넘게 사용했었는데요 주변에 보니 알뜰폰 요금제를 많이 사용하더라구요.. 신용을 못해서 통신사만 이용하다가 지출도 줄이고 이번에 인터넷도 바꿔보자 싶어 검색을 많이 해보다 보니 sk망인 세븐모바일을 알게되었습니다. 다양한 요금제 중에 저렴한 요금제로 결합해 바꿔봤어요 처음 가입해보는데 셀프 e sim가입인데도 어렵지 않았구요 왜 이제 바꿨을까 싶을정도로 통화품질,서비스 등 불만잡을게 없네요ㅠㅠ 그간 필요 이상의 요금 지출이 너무 아까울 정도네요 엄마꺼도 같은 요금제로 바꿔드렸는데 앞으로 쭉 이용할 생각이에요! 저렴한 요금제에 다양한 이벤트, 높은 서비스 감사합니당♡♡♡♡♡
+        - link "+더보기" [ref=f41e253] [cursor=pointer]:
+          - /url: /bnef/event/eventIngView.do?cntId=b0a5ffa8438f0fa0506a9994350063db&refer=mainreviewall
+      - generic [ref=f41e255]:
+        - heading "영상으로 만나는 SK 7mobile 영상으로 만나는 SK 7mobile" [level=2] [ref=f41e256]:
+          - generic [ref=f41e257]: 영상으로 만나는 SK 7mobile
+          - text: 영상으로 만나는 SK 7mobile
+        - list [ref=f41e260]:
+          - listitem [ref=f41e261]:
+            - link [ref=f41e263] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e264]
+            - heading "SK 세븐모바일 실제 사용 후기_1탄(full ver.)" [level=3] [ref=f41e266]
+          - listitem [ref=f41e267]:
+            - link [ref=f41e269] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e270]
+            - heading "SK 세븐모바일 실제 사용 후기_2탄(full ver.)" [level=3] [ref=f41e272]
+          - listitem [ref=f41e273]:
+            - link [ref=f41e275] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e276]
+            - heading "나를 아끼는 사람들의 믿을만한 모바일, SK 세븐모바일" [level=3] [ref=f41e278]
+          - listitem [ref=f41e279]:
+            - link [ref=f41e281] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e282]
+            - heading "명의변경&보이스피싱을 예방하는 꿀팁!" [level=3] [ref=f41e284]
+          - listitem [ref=f41e285]:
+            - link [ref=f41e287] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e288]
+            - heading "국내 최초 ‘미니멀 유심’으로 지구를 지켜요!" [level=3] [ref=f41e290]
+          - listitem [ref=f41e291]:
+            - link [ref=f41e293] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e294]
+            - heading "데이터플러스로 데이터 걱정 끝!" [level=3] [ref=f41e296]
+          - listitem [ref=f41e297]:
+            - link [ref=f41e299] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e300]
+            - heading "요금제 변경 핵심 정리!" [level=3] [ref=f41e302]
+          - listitem [ref=f41e303]:
+            - link [ref=f41e305] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e306]
+            - heading "나를 아끼는 모바일! SK 7mobile" [level=3] [ref=f41e308]
+          - listitem [ref=f41e309]:
+            - link [ref=f41e311] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e312]
+            - heading "당신에게 딱 맞는 알뜰폰 요금제 비교&추천!" [level=3] [ref=f41e314]
+          - listitem [ref=f41e315]:
+            - link [ref=f41e317] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e318]
+            - heading "알뜰폰 찐고객이 들려주는 통신비 흑우 탈출썰" [level=3] [ref=f41e320]
+          - listitem [ref=f41e321]:
+            - link [ref=f41e323] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e324]
+            - heading "SK 세븐모바일 통신사 직원이 알려주는 알뜰폰 AtoZ" [level=3] [ref=f41e326]
+          - listitem [ref=f41e327]:
+            - link [ref=f41e329] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e330]
+            - heading "SK 세븐모바일 실제 사용 후기_1탄(full ver.)" [level=3] [ref=f41e332]
+          - listitem [ref=f41e333]:
+            - link [ref=f41e335] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e336]
+            - heading "SK 세븐모바일 실제 사용 후기_2탄(full ver.)" [level=3] [ref=f41e338]
+          - listitem [ref=f41e339]:
+            - link [ref=f41e341] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e342]
+            - heading "나를 아끼는 사람들의 믿을만한 모바일, SK 세븐모바일" [level=3] [ref=f41e344]
+          - listitem [ref=f41e345]:
+            - link [ref=f41e347] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "기본 이미지" [ref=f41e348]
+            - heading "명의변경&보이스피싱을 예방하는 꿀팁!" [level=3] [ref=f41e350]
+        - generic [ref=f41e351]:
+          - button "Previous slide" [ref=f41e352] [cursor=pointer]:
+            - generic [ref=f41e353]: 이전
+          - button "정지" [ref=f41e354] [cursor=pointer]
+          - button "Next slide" [ref=f41e355] [cursor=pointer]:
+            - generic [ref=f41e356]: 다음
+      - generic [ref=f41e357]:
+        - article [ref=f41e358]:
+          - heading "자주하는 질문 자주하는 질문" [level=2] [ref=f41e359]:
+            - generic [ref=f41e360]: 자주하는 질문
+            - text: 자주하는 질문
+          - generic [ref=f41e362]:
+            - generic [ref=f41e363]:
+              - term [ref=f41e364]:
+                - button "1 유심을 교체하고 싶어요" [ref=f41e365] [cursor=pointer]:
+                  - generic [ref=f41e366]: "1"
+                  - text: 유심을 교체하고 싶어요
+              - region:
+                - generic [ref=f41e368]:
+                  - text: A 유심 교체는 아래와 같이 진행 가능합니다. 1. SK 7mobile 유심 구매 가능채널에서 먼저 유심을 구매해주세요.
+                  - strong [ref=f41e369]:
+                    - text: "① 홈페이지에서 직접 구매 : 유심/esIM → 유심 구매하기"
+                    - link "바로가기" [ref=f41e371] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimPayment.do?refer=faqList
+                    - text: "② 가까운 편의점/마트에서 구매 : CU, GS25, 세븐일레븐, 이마트24, 다이소, 홈플러스, 이마트"
+                    - link "자세히보기" [ref=f41e372] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimWhere2Buy.do?refer=faqList
+                  - strong [ref=f41e374]:
+                    - text: "③ 오픈마켓에서 구매 : 쿠팡, 네이버, 11번가, 지마켓, 알리익스프레스"
+                    - link "자세히보기" [ref=f41e375] [cursor=pointer]:
+                      - /url: https://www.sk7mobile.com/shop/mobile/usimOpenMarket.do?refer=faqList
+                  - text: 2. 구매한 유심을 가지고 홈페이지에서 유심 변경을 진행해주세요.
+                  - table [ref=f41e377]:
+                    - caption [ref=f41e378]: 정보제공
+                    - rowgroup [ref=f41e379]:
+                      - row [ref=f41e380]:
+                        - cell [ref=f41e381]:
+                          - strong [ref=f41e382]: 변경 방법
+                        - cell [ref=f41e383]:
+                          - strong [ref=f41e384]: 변경 가능 시간
+                      - row [ref=f41e385]:
+                        - cell "직접변경" [ref=f41e386]
+                        - cell [ref=f41e387]:
+                          - text: 원하는 시간에 직접 변경
+                          - link [ref=f41e388] [cursor=pointer]:
+                            - /url: https://www.sk7mobile.com/cust/post/usimSelfChange.do
+                            - strong [ref=f41e390]: ▶유심 셀프교체 바로가기
+                        - cell [ref=f41e391]:
+                          - strong [ref=f41e392]: ※24시간 상시 가능
+                      - row [ref=f41e393]:
+                        - cell "고객센터/채팅상담/1:1문의" [ref=f41e394]
+                        - cell "유심 교체 요청 또는 eSIM재발급 접수 시, 순차적으로 변경 ** 신분증 진위확인을 위해 주민등록증 또는 운전면허증 준비" [ref=f41e395]
+                        - cell [ref=f41e396]:
+                          - strong [ref=f41e397]: ※평일 9시 ~ 18시 (순차적으로 처리)
+                  - generic [ref=f41e398]: ※ 구매한 유심은 공유심 상태로 바로 휴대폰에 꽂아도 인식 되지 않습니다. 2번에 안내드린 유심변경 처리 후 이용 가능합니다. ※ ‘유심 셀프 교체’ 시, 고객센터 대기시간과 유심 취소 과정에서 잠시 휴대폰이 끊어지는 시간을 최소화할 수 있어 보다 편리하게 이용하실 수 있습니다.
+                  - strong [ref=f41e399]: "※ 유심 무료 교체 대상 : 2025년 4월 18일 24시 기준 SK 7mobile 이용 가입자 (1회 무료) ※ 유심 구입 비용 환급 : 유심을 변경하신 다음달 요금 청구 시 기본료에서 감액 예정"
+                  - strong [ref=f41e400]: eSIM을 지원하는 휴대폰을 사용 중이라면, 유심 교체가 아닌, eSIM으로 교체하는 것도 가능합니다. (eSIM 다운로드 시, 2,750원 발생) 단, 유심 무료 교체 대상에 포함되는 경우, 최초 1회 다운로드 비용은 무료입니다. (이용 중 재설치는 회당 발급 비용 발생)
+                  - text: "<eSIM 지원 휴대폰> - 애플 : iOS 12.1 및 이후 버전이 설치된 iPhone XS, iPhone XS Max, iPhone XR 및 이후 출시된 모델 - 삼성 : 갤럭시 S23 시리즈, 갤럭시 Z플립/폴드4 이후 출시된 모델 * 안내된 모델명 외 다른 휴대폰을 사용중이신 경우, 휴대폰 제조사를 통해 eSIM 지원 여부를 확인하시기 바랍니다."
+            - generic [ref=f41e401]:
+              - term [ref=f41e402]:
+                - button "2 유심보호서비스 가입 후 번호이동이나 기기변경이 가능한가요?" [ref=f41e403] [cursor=pointer]:
+                  - generic [ref=f41e404]: "2"
+                  - text: 유심보호서비스 가입 후 번호이동이나 기기변경이 가능한가요?
+              - text: A
+            - generic [ref=f41e405]:
+              - term [ref=f41e406]:
+                - button "3 SK 7mobile 유심 교체 SKT 대리점에서 가능한가요?" [ref=f41e407] [cursor=pointer]:
+                  - generic [ref=f41e408]: "3"
+                  - text: SK 7mobile 유심 교체 SKT 대리점에서 가능한가요?
+              - text: A
+            - generic [ref=f41e409]:
+              - term [ref=f41e410]:
+                - button "4 유심 인식이 되지 않아요. 어떻게 해야 하죠?" [ref=f41e411] [cursor=pointer]:
+                  - generic [ref=f41e412]: "4"
+                  - text: 유심 인식이 되지 않아요. 어떻게 해야 하죠?
+              - text: A
+            - generic [ref=f41e413]:
+              - term [ref=f41e414]:
+                - button "5 (유심요금제) 기존 SK 세븐모바일 고객도 이용 가능한가요?" [ref=f41e415] [cursor=pointer]:
+                  - generic [ref=f41e416]: "5"
+                  - text: (유심요금제) 기존 SK 세븐모바일 고객도 이용 가능한가요?
+              - text: A
+          - link "+더보기" [ref=f41e418] [cursor=pointer]:
+            - /url: /ccsc/board/faqList.do?refer=mainfaqall
+          - 'link "1:1 고객상담 원하시는 내용을 찾지 못하셨나요? 1 : 1 고객상담을 통해 질문 남겨 주세요. 바로가기" [ref=f41e419] [cursor=pointer]':
+            - /url: /ccsc/board/counselForm.do
+            - generic [ref=f41e420]: 1:1 고객상담
+            - generic [ref=f41e422]:
+              - paragraph [ref=f41e423]: "원하시는 내용을 찾지 못하셨나요? 1 : 1 고객상담을 통해 질문 남겨 주세요."
+              - generic [ref=f41e424]: 바로가기
+        - article [ref=f41e425]:
+          - generic [ref=f41e426]:
+            - heading "공지사항" [level=2] [ref=f41e427]
+            - listitem [ref=f41e428]:
+              - generic [ref=f41e429]:
+                - generic [ref=f41e430]: 공지사항
+                - link "광복절 연휴 유심 배송 일정 안내" [ref=f41e432] [cursor=pointer]:
+                  - /url: /ccsc/board/noticeView.do?cntId=948
+                - generic [ref=f41e433]: 2026-08-11
+    - complementary [ref=f41e434]:
+      - list [ref=f41e435]:
+        - listitem [ref=f41e436]:
+          - link "단독 이벤트 인터넷 결합 시, 최대 118만원" [ref=f41e437] [cursor=pointer]:
+            - /url: /bnef/event/eventIngView.do?cntId=812d8b69c912225cffa1f66242cf8921&refer=quick
+            - img "단독 이벤트 인터넷 결합 시, 최대 118만원"
+        - listitem [ref=f41e438]:
+          - link [ref=f41e439] [cursor=pointer]:
+            - /url: /bnef/event/eventIngView.do?cntId=3f48c6e50b701ab0ea7b953bf210e030&refer=quick
+            - img "0원폰 구매는 SK 세븐모바일" [ref=f41e440]
+        - listitem [ref=f41e441]:
+          - link [ref=f41e442] [cursor=pointer]:
+            - /url: /bnef/event/eventIngView.do?cntId=59c9f4f994ef72ccf758f2c1b8634cf2&refer=quick
+            - img "카카오톡 플러스 친구 친구추가" [ref=f41e443]
+    - contentinfo [ref=f41e444]:
+      - generic [ref=f41e445]:
+        - paragraph [ref=f41e447]:
+          - text: 나를 아끼는 모바일
+          - img "sk7mobile" [ref=f41e448]
+        - generic [ref=f41e449]:
+          - generic [ref=f41e450]:
+            - generic [ref=f41e451]: 앱 다운로드
+            - generic [ref=f41e452]:
+              - img "앱 다운로드 qr" [ref=f41e453]
+              - generic [ref=f41e454]:
+                - paragraph [ref=f41e455]: 야간에도 주말에도 24시간 이용가능한 앱 설치 후 이용하세요.
+                - link "앱 설치 바로가기" [ref=f41e456] [cursor=pointer]:
+                  - /url: /ccsc/content/appGuide.do?refer=webfooter
+          - generic [ref=f41e457]:
+            - generic [ref=f41e458]: 고객 상담
+            - generic [ref=f41e459]:
+              - term [ref=f41e460]: "고객센터 : 114(무료)/1599-0999(유료),"
+              - term [ref=f41e461]: 평일 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)
+              - definition [ref=f41e462]: "* 업무시간 외, 토/일 및 공휴일은 분실, 습득, 통화품질, 로밍, 선불 충전에 한해 24시간 365일 상담 가능"
+              - term [ref=f41e463]: "Customer service for foreigner :"
+              - term [ref=f41e464]: 1599-0563(charged number),
+              - definition [ref=f41e465]:
+                - text: Weekdays 9:00 ~ 18:00
+                - paragraph [ref=f41e466]: (not available 12:00 ~ 13:00)
+          - generic [ref=f41e467]:
+            - generic [ref=f41e468]: 개통 상담
+            - generic [ref=f41e469]:
+              - term [ref=f41e470]: "가입/개통문의 : 1599-3508(유료),"
+              - term [ref=f41e471]: 평일 10:00 ~ 18:00 (점심시간 12:30 ~ 13:30)
+              - definition [ref=f41e472]: "* 개통관련 상담만 가능합니다."
+              - definition [ref=f41e473]: "* 요금 및 서비스, 통화품질 등 문의는 고객센터 이용 바랍니다."
+        - separator [ref=f41e474]
+        - list [ref=f41e475]:
+          - listitem [ref=f41e476]:
+            - link "회사소개" [ref=f41e477] [cursor=pointer]:
+              - /url: https://www.sktelink.com/main
+          - listitem [ref=f41e478]:
+            - link "이용약관" [ref=f41e479] [cursor=pointer]:
+              - /url: /util/privacy/clauseWeb.do
+          - listitem [ref=f41e480]:
+            - link "개인정보처리방침" [ref=f41e481] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e482]:
+            - link "개인정보 이용ㆍ제공내역" [ref=f41e483] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e484]:
+            - link "통신이용자정보 제공사실 열람" [ref=f41e485] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e486]:
+            - link "미환급금조회" [ref=f41e487] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e488]:
+            - link "선택약정할인제도" [ref=f41e489] [cursor=pointer]:
+              - /url: /bnef/content/dcProgramChoice.do
+          - listitem [ref=f41e490]:
+            - link "서비스 이용가능 지역" [ref=f41e491] [cursor=pointer]:
+              - /url: https://sktcoverage.com/map?TYPE=FIVEG
+          - listitem [ref=f41e492]:
+            - link "분쟁처리절차" [ref=f41e493] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e494]:
+            - link "책임의 한계와 법적고지" [ref=f41e495] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f41e496]:
+            - link "명의도용방지서비스" [ref=f41e497] [cursor=pointer]:
+              - /url: https://www.msafer.or.kr/index.do
+          - listitem [ref=f41e498]:
+            - link "불법스팸대응센터" [ref=f41e499] [cursor=pointer]:
+              - /url: https://spam.kisa.or.kr
+          - listitem [ref=f41e500]:
+            - link "이동전화 파파라치 신고센터" [ref=f41e501] [cursor=pointer]:
+              - /url: https://www.cleanict.or.kr
+          - listitem [ref=f41e502]:
+            - link "개인정보 파파라치 신고센터" [ref=f41e503] [cursor=pointer]:
+              - /url: https://www.notm.or.kr
+        - generic [ref=f41e504]:
+          - generic [ref=f41e505]:
+            - text: "(04212) 서울시 마포구 마포대로 144 마포T타운대표이사 사장 최영찬 사업자번호 : 104-81-43391"
+            - link "통신 판매번호:2010-서울마포-3953" [ref=f41e506] [cursor=pointer]:
+              - /url: https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1048143391
+          - paragraph [ref=f41e507]: COPYRIGHT© SK TELINK CO.LTD. ALL RIGHTS RESERVED.
+          - generic [ref=f41e508]:
+            - generic [ref=f41e509]:
+              - generic [ref=f41e510]:
+                - img "sk7mobile-ncsi-logo" [ref=f41e512]
+                - img "sk7mobile-kssqi-logo" [ref=f41e514]
+                - generic [ref=f41e515]:
+                  - img "sk7mobile-kcsi-logo"
+                - generic [ref=f41e516]:
+                  - img "sk7mobile-ismsp-logo"
+              - generic [ref=f41e517]:
+                - generic [ref=f41e518]:
+                  - img "sk7mobile-nbsi-logo"
+                - generic [ref=f41e519]:
+                  - img "sk7mobile-kspbi-logo"
+                - generic [ref=f41e520]:
+                  - img "소비자가 가장 추천 하는 브랜드 sk7mobile"
+                - generic [ref=f41e521]:
+                  - link "wiseuser-logo":
+                    - /url: https://www.wiseuser.go.kr/
+                    - img "wiseuser-logo"
+            - generic [ref=f41e522]:
+              - generic [ref=f41e523]:
+                - link "카카오채널 바로가기" [ref=f41e525] [cursor=pointer]:
+                  - /url: https://pf.kakao.com/_yxbwBxl
+                - link "sk7mobile blog 바로가기" [ref=f41e527] [cursor=pointer]:
+                  - /url: https://blog.naver.com/sk7mobile_official
+                - link "sk7mobile youtube 바로가기" [ref=f41e529] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC-6KLXH5W0HXKS1U0mH_0VA/
+              - generic [ref=f41e530]:
+                - link "sk7mobile instagram 바로가기" [ref=f41e532] [cursor=pointer]:
+                  - /url: https://www.instagram.com/sk7mobile_official
+                - link "sk7mobile facebook 바로가기" [ref=f41e534] [cursor=pointer]:
+                  - /url: https://www.facebook.com/SK%EC%95%8C%EB%9C%B0%ED%8F%B0-7mobile-1244570282224002/
+    - text: "* * * * *"

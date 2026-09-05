@@ -1,0 +1,479 @@
+- generic [active] [ref=f291e1]:
+  - generic:
+    - link "skip to 상단메뉴" [ref=f291e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "skip to content" [ref=f291e3] [cursor=pointer]:
+      - /url: "#contents"
+  - generic [ref=f291e4]:
+    - generic [ref=f291e5]:
+      - generic [ref=f291e6]:
+        - list
+      - generic [ref=f291e7]:
+        - generic:
+          - list [ref=f291e8]:
+            - listitem [ref=f291e9]:
+              - link "인터넷우체국" [ref=f291e10] [cursor=pointer]:
+                - /url: https://www.epost.go.kr
+            - listitem [ref=f291e11]:
+              - link "우체국 B2B" [ref=f291e12] [cursor=pointer]:
+                - /url: http://b2b.epost.go.kr
+            - listitem [ref=f291e13]:
+              - link "전통시장" [ref=f291e14] [cursor=pointer]:
+                - /url: /fo/pavln/sijangPaldo.do
+            - listitem [ref=f291e15]:
+              - link "해외배송" [ref=f291e16] [cursor=pointer]:
+                - /url: /fo/main/moveOverSend.do
+          - list [ref=f291e17]:
+            - listitem [ref=f291e18]:
+              - link "로그인" [ref=f291e19] [cursor=pointer]:
+                - /url: /fo/login/loginPrc.do
+            - listitem [ref=f291e20]:
+              - link "회원가입" [ref=f291e21] [cursor=pointer]:
+                - /url: https://www.epost.go.kr/usr/member/cafzb000k01.jsp
+            - listitem [ref=f291e22]:
+              - link "주문배송" [ref=f291e23] [cursor=pointer]:
+                - /url: /fo/mypage/mypageOrderSendSearch.do
+            - listitem [ref=f291e24]:
+              - link "고객센터" [ref=f291e25] [cursor=pointer]:
+                - /url: /fo/center/centerFaqMemJoin.do
+      - generic [ref=f291e26]:
+        - link "우체국쇼핑" [ref=f291e27] [cursor=pointer]:
+          - /url: /fo/main/main.do
+        - generic [ref=f291e31]:
+          - textbox "검색어입력" [ref=f291e32]
+          - link "찾기버튼" [ref=f291e33] [cursor=pointer]:
+            - /url: javascript:goSearch();
+        - generic:
+          - generic:
+            - list:
+              - listitem [aria-hidden] [ref=f291e35]:
+                - link [ref=f291e36] [cursor=pointer]:
+                  - /url: https://mall.epost.go.kr/fo/display/retrieveTemplateView.do?templNo=100007
+              - listitem [ref=f291e38]:
+                - link [ref=f291e39] [cursor=pointer]:
+                  - /url: https://mall.epost.go.kr/fo/display/retrieveTemplateView.do?templNo=100003
+                  - img "릴레이특가" [ref=f291e40]
+              - listitem [ref=f291e41]:
+                - link [ref=f291e42] [cursor=pointer]:
+                  - /url: https://mall.epost.go.kr/fo/display/retrieveTemplateView.do?templNo=100007
+                  - img "The프리미엄관" [ref=f291e43]
+              - listitem [aria-hidden] [ref=f291e44]:
+                - link [ref=f291e45] [cursor=pointer]:
+                  - /url: https://mall.epost.go.kr/fo/display/retrieveTemplateView.do?templNo=100003
+          - list:
+            - listitem:
+              - link "Previous" [ref=f291e47] [cursor=pointer]:
+                - /url: "#"
+            - listitem:
+              - link "Next" [ref=f291e48] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f291e50]:
+        - link "All menu" [ref=f291e51] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=f291e52]:
+          - listitem [ref=f291e53]:
+            - link "농산물" [ref=f291e54] [cursor=pointer]:
+              - /url: javascript:fn_categoryNationMenuLink('101000000', 3, 'KO')
+          - listitem [ref=f291e55]:
+            - link "수산물" [ref=f291e56] [cursor=pointer]:
+              - /url: javascript:fn_categoryNationMenuLink('102000000', 3, 'KO')
+          - listitem [ref=f291e57]:
+            - link "가공식품" [ref=f291e58] [cursor=pointer]:
+              - /url: javascript:fn_categoryNationMenuLink('104000000', 3, 'KO')
+          - listitem [ref=f291e59]:
+            - link "홍삼/꿀/건강식품" [ref=f291e60] [cursor=pointer]:
+              - /url: javascript:fn_categoryNationMenuLink('105000000', 3, 'KO')
+          - listitem [ref=f291e61]:
+            - link "수공예" [ref=f291e62] [cursor=pointer]:
+              - /url: javascript:fn_categoryNationMenuLink('110000000', 3, 'KO')
+    - generic [ref=f291e63]:
+      - generic [ref=f291e64]:
+        - generic [ref=f291e65] [cursor=pointer]: 축소/확대 버튼 축소
+        - list [ref=f291e66]:
+          - listitem [ref=f291e67] [cursor=pointer]:
+            - generic [ref=f291e68]: 장바구니
+          - listitem [ref=f291e69] [cursor=pointer]:
+            - generic [ref=f291e70]: 최근 본 상품
+        - list [ref=f291e72]:
+          - listitem [ref=f291e73]:
+            - link "쿠폰등록" [ref=f291e74] [cursor=pointer]:
+              - /url: javascript:fn_couponPinReg();
+          - listitem [ref=f291e75]:
+            - link "법인다량상담" [ref=f291e76] [cursor=pointer]:
+              - /url: /fo/center/centerManyBuyOrderAdvc.do
+          - listitem [ref=f291e77]:
+            - link "기부하기" [ref=f291e78] [cursor=pointer]:
+              - /url: /fo/donate/howDonate.do
+        - link "TOP" [ref=f291e79] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f291e81]:
+        - generic [ref=f291e82]:
+          - generic [ref=f291e83]: 홈
+          - generic [ref=f291e84]: 해외배송
+        - generic [ref=f291e87]:
+          - generic [ref=f291e88]:
+            - generic [ref=f291e91]:
+              - list [ref=f291e93]:
+                - listitem [aria-hidden] [ref=f291e94]:
+                  - link [ref=f291e95] [cursor=pointer]:
+                    - /url: /fo/display/plnbefDspyType.do?plnbefId=10001916&nationCd=KO
+                - listitem [ref=f291e97]:
+                  - link [ref=f291e98] [cursor=pointer]:
+                    - /url: /fo/display/plnbefDspyType.do?plnbefId=10001916&nationCd=KO
+                    - img "베스트 상품전" [ref=f291e99]
+                - listitem [aria-hidden] [ref=f291e100]:
+                  - link [ref=f291e101] [cursor=pointer]:
+                    - /url: /fo/display/plnbefDspyType.do?plnbefId=10001916&nationCd=KO
+              - list
+            - generic [ref=f291e103]:
+              - generic [ref=f291e105]:
+                - paragraph: 국제특송은 믿을 수 있는 우체국 EMS 빠르고 안전합니다. 편리하고 저렴합니다.
+                - generic [ref=f291e106]:
+                  - link "EMS 번호찾기" [ref=f291e107] [cursor=pointer]:
+                    - /url: /fo/mypage/myshoppingMain.do
+                  - link "EMS 행방찾기" [ref=f291e108] [cursor=pointer]:
+                    - /url: http://ems.epost.go.kr:8080/front.Tracking01.postal
+                  - link "행방조사청구" [ref=f291e109] [cursor=pointer]:
+                    - /url: http://ems.epost.go.kr:8080/iservice.EmsSendMailFormFree.postal
+              - generic [ref=f291e110]:
+                - generic [ref=f291e111]:
+                  - paragraph [ref=f291e112]: Language
+                  - link "Korea" [ref=f291e113] [cursor=pointer]:
+                    - /url: javaScript:fn_nationCd();
+                  - link "English" [ref=f291e114] [cursor=pointer]:
+                    - /url: javaScript:fn_nationCd('US');
+                  - link "Japan" [ref=f291e115] [cursor=pointer]:
+                    - /url: javaScript:fn_nationCd('JP');
+                  - link "China" [ref=f291e116] [cursor=pointer]:
+                    - /url: javaScript:fn_nationCd('CN');
+                - generic [ref=f291e117]:
+                  - paragraph [ref=f291e118]:
+                    - strong [ref=f291e119]: 서비스
+                    - text: 안내
+                  - link "해외배송안내" [ref=f291e120] [cursor=pointer]:
+                    - /url: /fo/main/moveOverseaShoppingGuide.do?nationCd=KO
+                  - link "제도 및 이용안내" [ref=f291e121] [cursor=pointer]:
+                    - /url: /fo/main/moveOverseaAboutEpost.do?nationCd=KO
+                  - link "질문과 답변" [ref=f291e122] [cursor=pointer]:
+                    - /url: /fo/main/moveOverseaFaq.do?nationCd=KO
+          - generic [ref=f291e123]:
+            - heading [level=3] [ref=f291e124]:
+              - text: Best
+              - emphasis [ref=f291e125]: 기획전
+            - generic [ref=f291e127]:
+              - generic [ref=f291e128]:
+                - list:
+                  - listitem [ref=f291e129]:
+                    - link [ref=f291e130] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001624&nationCd=KO
+                      - img "반찬" [ref=f291e131]
+                  - listitem [ref=f291e132]:
+                    - link [ref=f291e133] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001625&nationCd=KO
+                      - img "곶감" [ref=f291e134]
+                  - listitem [ref=f291e135]:
+                    - link [ref=f291e136] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001626&nationCd=KO
+                      - img "녹차" [ref=f291e137]
+                  - listitem [ref=f291e138]:
+                    - link [ref=f291e139] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001618&nationCd=KO
+                      - img "김" [ref=f291e140]
+                  - listitem [ref=f291e141]:
+                    - link [ref=f291e142] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001619&nationCd=KO
+                      - img "매실" [ref=f291e143]
+                  - listitem [ref=f291e144]:
+                    - link [ref=f291e145] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001620&nationCd=KO
+                      - img "한과" [ref=f291e146]
+                  - listitem [ref=f291e147]:
+                    - link [ref=f291e148] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001621&nationCd=KO
+                      - img "꿀" [ref=f291e149]
+                  - listitem [ref=f291e150]:
+                    - link [ref=f291e151] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001622&nationCd=KO
+                      - img "미역" [ref=f291e152]
+                  - listitem [ref=f291e153]:
+                    - link [ref=f291e154] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10002161&nationCd=KO
+                      - img "홍삼" [ref=f291e155]
+                  - listitem [ref=f291e156]:
+                    - link [ref=f291e157] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001624&nationCd=KO
+                      - img "반찬" [ref=f291e158]
+                  - listitem [ref=f291e159]:
+                    - link [ref=f291e160] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001625&nationCd=KO
+                      - img "곶감" [ref=f291e161]
+                  - listitem [ref=f291e162]:
+                    - link [ref=f291e163] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001626&nationCd=KO
+                      - img "녹차" [ref=f291e164]
+                  - listitem [ref=f291e165]:
+                    - link [ref=f291e166] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001618&nationCd=KO
+                      - img "김" [ref=f291e167]
+                  - listitem [ref=f291e168]:
+                    - link [ref=f291e169] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001619&nationCd=KO
+                      - img "매실" [ref=f291e170]
+                  - listitem [ref=f291e171]:
+                    - link [ref=f291e172] [cursor=pointer]:
+                      - /url: http://mall.epost.go.kr/fo/display/plnbefDspyType.do?plnbefId=10001620&nationCd=KO
+                      - img "한과" [ref=f291e173]
+              - generic:
+                - generic:
+                  - link "Prev" [ref=f291e174] [cursor=pointer]:
+                    - /url: ""
+                  - link "Next" [ref=f291e175] [cursor=pointer]:
+                    - /url: ""
+          - generic [ref=f291e176]:
+            - heading [level=3] [ref=f291e177]:
+              - text: MD
+              - emphasis [ref=f291e178]: 추천상품
+            - generic [ref=f291e180]:
+              - list:
+                - listitem [ref=f291e182]:
+                  - link "Previous" [ref=f291e183] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f291e184]:
+                  - link "Next" [ref=f291e185] [cursor=pointer]:
+                    - /url: "#"
+              - list [ref=f291e187]:
+                - listitem [aria-hidden] [ref=f291e188]:
+                  - list [ref=f291e189]:
+                    - listitem [ref=f291e190]:
+                      - link [ref=f291e191] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=11080402&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003818&ctgryCd=101203304&nationCd=KO
+                        - paragraph [ref=f291e192]: 솔방울잣
+                        - generic [ref=f291e193]: 잣420g(140gx3캔)진공캔포장
+                        - generic [ref=f291e194]:
+                          - paragraph [ref=f291e195]: 78,000원
+                          - paragraph [ref=f291e196]:
+                            - generic [ref=f291e197]:
+                              - emphasis [ref=f291e198]: 73,000
+                              - text: 원
+                    - listitem [ref=f291e199]:
+                      - link [ref=f291e200] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=12070702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003821&ctgryCd=104206303&nationCd=KO
+                        - paragraph [ref=f291e201]: 오성푸드쌀누룽지
+                        - generic [ref=f291e202]: 쌀누룽지3kg(150gx20봉)
+                        - paragraph [ref=f291e204]:
+                          - generic [ref=f291e205]:
+                            - emphasis [ref=f291e206]: 48,000
+                            - text: 원
+                    - listitem [ref=f291e207]:
+                      - link [ref=f291e208] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=32020702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10001566&ctgryCd=104207303&nationCd=KO
+                        - paragraph [ref=f291e209]: 영광제일수산고추장굴비
+                        - generic [ref=f291e210]: 고추장굴비3호1kg(250gx4개)
+                        - generic [ref=f291e211]:
+                          - paragraph [ref=f291e212]: 125,000원
+                          - paragraph [ref=f291e213]:
+                            - generic [ref=f291e214]:
+                              - emphasis [ref=f291e215]: 108,700
+                              - text: 원
+                - listitem [ref=f291e216]:
+                  - list [ref=f291e217]:
+                    - listitem [ref=f291e218]:
+                      - link "솔방울잣 잣420g(140gx3캔)진공캔포장 78,000원 73,000원" [ref=f291e219] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=11080402&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003818&ctgryCd=101203304&nationCd=KO
+                        - paragraph [ref=f291e220]: 솔방울잣
+                        - generic [ref=f291e221]: 잣420g(140gx3캔)진공캔포장
+                        - generic [ref=f291e222]:
+                          - paragraph [ref=f291e223]: 78,000원
+                          - paragraph [ref=f291e224]:
+                            - generic [ref=f291e225]:
+                              - emphasis [ref=f291e226]: 73,000
+                              - text: 원
+                    - listitem [ref=f291e227]:
+                      - link "오성푸드쌀누룽지 쌀누룽지3kg(150gx20봉) 48,000원" [ref=f291e228] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=12070702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003821&ctgryCd=104206303&nationCd=KO
+                        - paragraph [ref=f291e229]: 오성푸드쌀누룽지
+                        - generic [ref=f291e230]: 쌀누룽지3kg(150gx20봉)
+                        - paragraph [ref=f291e232]:
+                          - generic [ref=f291e233]:
+                            - emphasis [ref=f291e234]: 48,000
+                            - text: 원
+                    - listitem [ref=f291e235]:
+                      - link "영광제일수산고추장굴비 고추장굴비3호1kg(250gx4개) 125,000원 108,700원" [ref=f291e236] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=32020702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10001566&ctgryCd=104207303&nationCd=KO
+                        - paragraph [ref=f291e237]: 영광제일수산고추장굴비
+                        - generic [ref=f291e238]: 고추장굴비3호1kg(250gx4개)
+                        - generic [ref=f291e239]:
+                          - paragraph [ref=f291e240]: 125,000원
+                          - paragraph [ref=f291e241]:
+                            - generic [ref=f291e242]:
+                              - emphasis [ref=f291e243]: 108,700
+                              - text: 원
+                - listitem [aria-hidden] [ref=f291e244]:
+                  - list [ref=f291e245]:
+                    - listitem [ref=f291e246]:
+                      - link [ref=f291e247] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=11080402&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003818&ctgryCd=101203304&nationCd=KO
+                        - paragraph [ref=f291e248]: 솔방울잣
+                        - generic [ref=f291e249]: 잣420g(140gx3캔)진공캔포장
+                        - generic [ref=f291e250]:
+                          - paragraph [ref=f291e251]: 78,000원
+                          - paragraph [ref=f291e252]:
+                            - generic [ref=f291e253]:
+                              - emphasis [ref=f291e254]: 73,000
+                              - text: 원
+                    - listitem [ref=f291e255]:
+                      - link [ref=f291e256] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=12070702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10003821&ctgryCd=104206303&nationCd=KO
+                        - paragraph [ref=f291e257]: 오성푸드쌀누룽지
+                        - generic [ref=f291e258]: 쌀누룽지3kg(150gx20봉)
+                        - paragraph [ref=f291e260]:
+                          - generic [ref=f291e261]:
+                            - emphasis [ref=f291e262]: 48,000
+                            - text: 원
+                    - listitem [ref=f291e263]:
+                      - link [ref=f291e264] [cursor=pointer]:
+                        - /url: /fo/goods/goodsDetailView.do?goodsCd=32020702&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10001566&ctgryCd=104207303&nationCd=KO
+                        - paragraph [ref=f291e265]: 영광제일수산고추장굴비
+                        - generic [ref=f291e266]: 고추장굴비3호1kg(250gx4개)
+                        - generic [ref=f291e267]:
+                          - paragraph [ref=f291e268]: 125,000원
+                          - paragraph [ref=f291e269]:
+                            - generic [ref=f291e270]:
+                              - emphasis [ref=f291e271]: 108,700
+                              - text: 원
+              - list
+              - list:
+                - listitem [ref=f291e272]:
+                  - link "Previous" [ref=f291e273] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f291e274]:
+                  - link "Next" [ref=f291e275] [cursor=pointer]:
+                    - /url: "#"
+          - generic [ref=f291e276]:
+            - heading [level=3] [ref=f291e277]:
+              - text: 국가별
+              - emphasis [ref=f291e278]: 추천상품
+            - list:
+              - listitem [ref=f291e279]:
+                - link "미국" [ref=f291e280] [cursor=pointer]:
+                  - /url: "#con_1"
+                - list [ref=f291e282]:
+                  - listitem [ref=f291e283]:
+                    - link "여수바다로멸치 소멸 750g(볶음용 특) 25,200원" [ref=f291e284] [cursor=pointer]:
+                      - /url: /fo/goods/goodsDetailView.do?goodsCd=33053721&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10007039&ctgryCd=102202302&nationCd=KO
+                      - paragraph [ref=f291e285]: 여수바다로멸치
+                      - generic [ref=f291e286]: 소멸 750g(볶음용 특)
+                      - paragraph [ref=f291e288]: 25,200원
+                  - listitem [ref=f291e289]:
+                    - link "여수바다로 건해산물세트 [바다로어울림]자연산돌미역 180g, 두번구운 간장김 5매*10봉, 자른미역 50g, 구이김5매*5봉, 마른다시마 200g 40,000원" [ref=f291e290] [cursor=pointer]:
+                      - /url: /fo/goods/goodsDetailView.do?goodsCd=33053720&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10007039&ctgryCd=102202304&nationCd=KO
+                      - paragraph [ref=f291e291]: 여수바다로 건해산물세트
+                      - generic [ref=f291e292]: "[바다로어울림]자연산돌미역 180g, 두번구운 간장김 5매*10봉, 자른미역 50g, 구이김5매*5봉, 마른다시마 200g"
+                      - paragraph [ref=f291e294]: 40,000원
+                  - listitem [ref=f291e295]:
+                    - link "여수바다로 건해산물세트 소멸(특)300g, 자멸(지리멸,볶음용)300g, 두번구운간장에찍어먹는김5매*10봉(선물용) 37,000원" [ref=f291e296] [cursor=pointer]:
+                      - /url: /fo/goods/goodsDetailView.do?goodsCd=33053719&pavlnDivCd=01&goodsDispTypeCd=03&goodsDispTypeDtlCd=10007039&ctgryCd=102208301&nationCd=KO
+                      - paragraph [ref=f291e297]: 여수바다로 건해산물세트
+                      - generic [ref=f291e298]: 소멸(특)300g, 자멸(지리멸,볶음용)300g, 두번구운간장에찍어먹는김5매*10봉(선물용)
+                      - paragraph [ref=f291e300]: 37,000원
+              - listitem:
+                - link "일본" [ref=f291e301] [cursor=pointer]:
+                  - /url: "#con_2"
+              - listitem:
+                - link "중국" [ref=f291e302] [cursor=pointer]:
+                  - /url: "#con_3"
+              - listitem:
+                - link "캐나다" [ref=f291e303] [cursor=pointer]:
+                  - /url: "#con_4"
+    - generic [ref=f291e304]:
+      - list [ref=f291e306]:
+        - listitem [ref=f291e307]:
+          - link "이용약관" [ref=f291e308] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb004k01.jsp
+        - listitem [ref=f291e309]:
+          - link "개인정보처리방침" [ref=f291e310] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb005k01.jsp
+        - listitem [ref=f291e311]:
+          - link "웹접근성정책" [ref=f291e312] [cursor=pointer]:
+            - /url: https://www.epost.go.kr/affair/notice/cbfyb008k01.jsp
+        - listitem [ref=f291e313]:
+          - link "우체국쇼핑소개" [ref=f291e314] [cursor=pointer]:
+            - /url: /fo/footer/epostmallDesc.do?pageId=mall01
+        - listitem [ref=f291e315]:
+          - link "서비스 이용안내" [ref=f291e316] [cursor=pointer]:
+            - /url: /fo/center/centerGuideBrdMenu.do
+        - listitem [ref=f291e317]:
+          - link "입점안내" [ref=f291e318] [cursor=pointer]:
+            - /url: /fo/center/centerGuideCustStat.do
+        - listitem [ref=f291e319]:
+          - link "법인구매상담" [ref=f291e320] [cursor=pointer]:
+            - /url: /fo/center/centerManyBuyOrderAdvc.do
+        - listitem [ref=f291e321]:
+          - link "비지니스제휴" [ref=f291e322] [cursor=pointer]:
+            - /url: /fo/center/centerBizCoprtnInq.do
+        - listitem [ref=f291e323]:
+          - link "고객불편신고" [ref=f291e324] [cursor=pointer]:
+            - /url: /fo/center/centerReport.do
+        - listitem [ref=f291e325]:
+          - link "수익분배제휴" [ref=f291e326] [cursor=pointer]:
+            - /url: /fo/footer/cooperProgram.do
+        - listitem [ref=f291e327]:
+          - link "공급업체 통합관리자" [ref=f291e328] [cursor=pointer]:
+            - /url: http://mallscm.epost.go.kr/scmIndex.do
+      - generic [ref=f291e329]:
+        - generic:
+          - generic [ref=f291e330]:
+            - paragraph [ref=f291e332]:
+              - text: "재단법인 한국우편사업진흥원 대표 : 송관호서울 영등포구 영중로 83 (영등포동 7가)"
+              - link "사업자 정보확인" [ref=f291e333] [cursor=pointer]:
+                - /url: javascript:void('0');
+            - generic [ref=f291e334]:
+              - paragraph [ref=f291e335]: "사업자등록번호 : 113-82-02144 / 통신판매업신고번호 : 제 2013-서울영등포-0490호"
+              - paragraph [ref=f291e336]: "해외 : 82-1588-1300"
+            - generic [ref=f291e337]:
+              - paragraph [ref=f291e338]: 이 사이트는 인터넷 우체국에서 구축하고 재단법인 한국우편사업진흥원에서 운영합니다.
+              - paragraph [ref=f291e339]: Copyright © 2014. ePOST all rights reserved.
+            - generic [ref=f291e340]:
+              - paragraph [ref=f291e341]: 우체국쇼핑은 고객님의 결제금액에 대해 안전거래를 보장합니다.
+              - paragraph [ref=f291e342]: 단, “결제대금 예치 또는 소비자 피해보상보험계약 등의 체결이 면제되는 거래에 관한 고시”에따른 공공기관이 운영하는 쇼핑몰로 결제대금예치 또는 소비자피해보상보험계약 등의 체결은 면제되었습니다.
+          - generic [ref=f291e343]:
+            - paragraph [ref=f291e344]:
+              - link "카카오" [ref=f291e345] [cursor=pointer]:
+                - /url: https://pf.kakao.com/_nixgxcu
+              - link "유튜브" [ref=f291e346] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC3OFl3RCfi0xVik4RRotzzQ
+              - link "인스타그램" [ref=f291e347] [cursor=pointer]:
+                - /url: https://www.instagram.com/epostmall
+              - link "페이스북" [ref=f291e348] [cursor=pointer]:
+                - /url: https://www.facebook.com/epostmall
+              - link "블로그" [ref=f291e349] [cursor=pointer]:
+                - /url: https://blog.naver.com/wcgsp
+            - generic [ref=f291e350]:
+              - paragraph [ref=f291e351]: 우편고객센터
+              - paragraph [ref=f291e352]: 1588-1300(발신자부담) help@posa.or.kr
+              - paragraph [ref=f291e353]: 평일 09:00 ~18:00 (토요일,공휴일 휴무)
+            - generic [ref=f291e354]:
+              - paragraph [ref=f291e355]:
+                - link "주문조회|" [ref=f291e356] [cursor=pointer]:
+                  - /url: /fo/mypage/myshoppingMain.do
+                - link "주문취소/반품|" [ref=f291e357] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageChgCancelList.do
+                - link "비회원주문조회" [ref=f291e358] [cursor=pointer]:
+                  - /url: /fo/center/moveCenterNonMemLogin.do
+              - paragraph [ref=f291e359]:
+                - link "잦은 질문 FAQ|" [ref=f291e360] [cursor=pointer]:
+                  - /url: /fo/center/centerFaqMemJoin.do
+                - link "현금영수증발행|" [ref=f291e361] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageRciptIssue.do
+                - link "세금계산서신청" [ref=f291e362] [cursor=pointer]:
+                  - /url: /fo/mypage/mypageTaxReq.do
+            - link [ref=f291e364] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - img "Digicert" [ref=f291e365]
+      - generic [ref=f291e366]:
+        - list:
+          - listitem [ref=f291e367]: 2019 대한민국 명품브랜드 5년연속대상
+          - listitem [ref=f291e368]: 2019 공공기관 사회적가치창출대회 고용노동부장관 최우수상
+          - listitem [ref=f291e369]: 2017 제22회 한국유통대상 산업통상자원부장관 표창
+          - listitem [ref=f291e370]: 소비자중심경영 인증 공정거래위원회
+          - listitem [ref=f291e371]: KOLSA 한국온라인쇼핑협회

@@ -1,0 +1,155 @@
+- generic [active] [ref=f324e1]:
+  - banner [ref=f324e2]:
+    - generic [ref=f324e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f324e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f324e6]:
+        - list [ref=f324e7]:
+          - listitem [ref=f324e8]:
+            - link "홈" [ref=f324e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f324e10]:
+            - link "요금제" [ref=f324e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f324e12]:
+            - link "휴대폰" [ref=f324e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f324e14]:
+            - link "인터넷" [ref=f324e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f324e16]:
+            - link "가전렌탈 NEW" [ref=f324e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f324e18]: NEW
+          - listitem [ref=f324e19]:
+            - link "이벤트" [ref=f324e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f324e21]:
+            - link "마이페이지" [ref=f324e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f324e23]:
+    - generic [ref=f324e24]:
+      - generic [ref=f324e25]:
+        - generic [ref=f324e27]:
+          - generic [ref=f324e28]:
+            - link [ref=f324e29] [cursor=pointer]:
+              - /url: /mvnos/5?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+              - img "LG헬로모바일 로고" [ref=f324e30]
+            - button [ref=f324e32] [cursor=pointer]:
+              - img "모요 셀프 개통 배지" [ref=f324e34]
+          - generic [ref=f324e42]:
+            - generic [ref=f324e43]:
+              - generic [ref=f324e44]: 슬림 유심 500MB 50분
+              - generic [ref=f324e45]:
+                - heading "월 500MB" [level=1] [ref=f324e46]
+                - generic [ref=f324e47]:
+                  - button "찜하기" [ref=f324e49] [cursor=pointer]
+                  - button "공유하기" [ref=f324e54] [cursor=pointer]
+            - generic [ref=f324e61]:
+              - generic [ref=f324e62]: 통화 50분
+              - generic [ref=f324e64]: 문자 50건
+              - generic [ref=f324e66]: LG U+망
+              - generic [ref=f324e68]: LTE
+        - generic [ref=f324e70]:
+          - generic [ref=f324e71]:
+            - term [ref=f324e72]: 페이백 포함 요금
+            - switch "요금에 페이백을 포함하는 스위치 토글" [checked] [ref=f324e74] [cursor=pointer]
+          - definition [ref=f324e76]:
+            - generic [ref=f324e77]:
+              - generic [ref=f324e78]:
+                - generic [ref=f324e79]: 월 납부액월 1,700원
+                - generic [ref=f324e85]:
+                  - text: 페이백 포함하면
+                  - generic [ref=f324e86]: 월 0원
+              - separator [ref=f324e87]
+              - generic [ref=f324e88]:
+                - generic [ref=f324e89]: 월 1,700원 내고 2,000원 돌려받아요
+                - button "자세히" [ref=f324e90] [cursor=pointer]
+      - group "요금제 신청" [ref=f324e93]:
+        - button "신청하기" [ref=f324e95] [cursor=pointer]
+      - generic [ref=f324e98]:
+        - generic [ref=f324e99]: 모요 제휴 페이백 안내
+        - link "네이버페이 매달 2천원 페이백(6개월) 상세 페이지 새 탭 열기" [ref=f324e103] [cursor=pointer]:
+          - /url: /gift-group/2040?plan=false
+          - generic [ref=f324e105]:
+            - img "네이버페이" [ref=f324e106]
+            - generic [ref=f324e107]:
+              - text: 매달 2천원 씩 6개월 간
+              - generic [ref=f324e108]: 요금 낸 달부터 매달 23일 지급
+    - generic [ref=f324e114]:
+      - generic [ref=f324e115]:
+        - heading "요금제 정보" [level=2] [ref=f324e116]
+        - tablist [ref=f324e117]:
+          - tab "기본 정보" [selected] [ref=f324e118] [cursor=pointer]
+          - tab "지원 서비스" [ref=f324e120] [cursor=pointer]
+          - tab "기타 비용" [ref=f324e122] [cursor=pointer]
+      - generic [ref=f324e125]:
+        - generic [ref=f324e126]:
+          - generic [ref=f324e134]:
+            - generic [ref=f324e135]: 데이터 월 500MB
+            - generic [ref=f324e136]: 다 쓰면 초과 용량만큼 과금
+          - button "자세히" [ref=f324e138] [cursor=pointer]
+        - generic [ref=f324e141]:
+          - generic [ref=f324e149]:
+            - generic [ref=f324e150]: 통화 50분 / 문자 50건
+            - generic [ref=f324e151]: 부가통화 통신사 문의
+          - button "자세히" [ref=f324e153] [cursor=pointer]
+        - generic [ref=f324e156]: 약정 없음
+        - generic [ref=f324e165]: 유심 개통 가능 / eSIM 불가
+    - generic [ref=f324e174]:
+      - generic [ref=f324e175]:
+        - heading "LG헬로모바일 후기" [level=2] [ref=f324e176]
+        - button "모두보기" [ref=f324e177] [cursor=pointer]
+      - generic [ref=f324e180]:
+        - generic [ref=f324e181]:
+          - generic [ref=f324e182]: "4.6"
+          - generic [ref=f324e188]: 1,150개
+        - generic [ref=f324e189]:
+          - generic [ref=f324e190]:
+            - generic [ref=f324e191]: 고객센터
+            - generic [ref=f324e192]: "4.6"
+          - generic [ref=f324e216]:
+            - generic [ref=f324e217]: 개통 과정
+            - generic [ref=f324e218]: "4.7"
+          - generic [ref=f324e242]:
+            - generic [ref=f324e243]: 개통 후 만족도
+            - generic [ref=f324e244]: "4.6"
+      - generic [ref=f324e267]:
+        - button "엄*섭 45일 전 알뜬폰 요금제 처음써봐요. 개통도 편하고 데이터나 통화 등 문제 없이 잘 사용하고 있습니다. 요금에서 차이가 엄청나네요. 다시 돌아갈 수 없을거 같아요." [ref=f324e269] [cursor=pointer]:
+          - generic [ref=f324e270]:
+            - generic [ref=f324e271]: 엄*섭
+            - generic [ref=f324e294]: 45일 전
+          - generic [ref=f324e295]: 알뜬폰 요금제 처음써봐요. 개통도 편하고 데이터나 통화 등 문제 없이 잘 사용하고 있습니다. 요금에서 차이가 엄청나네요. 다시 돌아갈 수 없을거 같아요.
+        - button "권*원 16시간 전 저렴하고 안정적인점 만족했습니다 아주아주 좋았어요" [ref=f324e297] [cursor=pointer]:
+          - generic [ref=f324e298]:
+            - generic [ref=f324e299]: 권*원
+            - generic [ref=f324e322]: 16시간 전
+          - generic [ref=f324e323]: 저렴하고 안정적인점 만족했습니다 아주아주 좋았어요
+    - generic [ref=f324e324]:
+      - heading "통신사 지급 사은품" [level=2] [ref=f324e325]
+      - generic [ref=f324e327]:
+        - link "프레딧 쿠폰 2만원(5천원*4개월) 상세 페이지 새 탭 열기" [ref=f324e330] [cursor=pointer]:
+          - /url: /gift-group/2004?plan=false
+          - img "프레딧 쿠폰 2만원" [ref=f324e331]
+          - generic [ref=f324e332]:
+            - generic [ref=f324e333]: 프레딧 쿠폰 2만원(5천원*4개월)
+            - generic [ref=f324e334]: 대상 요금제 개통 후 1개월 회선 유지한 고객 대상
+        - link "구글 AI프로+도미노피자 할인쿠폰 상세 페이지 새 탭 열기" [ref=f324e337] [cursor=pointer]:
+          - /url: /gift-group/2003?plan=false
+          - img "구글 AI프로 할인쿠폰" [ref=f324e338]
+          - generic [ref=f324e339]:
+            - generic [ref=f324e340]: 구글 AI프로+도미노피자 할인쿠폰
+            - generic [ref=f324e341]: 대상 요금제 개통 후 1개월 회선 유지한 고객 대상
+    - heading [level=3] [ref=f324e345]:
+      - button [ref=f324e346] [cursor=pointer]:
+        - heading "신청 개통 과정" [level=2] [ref=f324e348]
+    - generic [ref=f324e354]:
+      - link [ref=f324e355] [cursor=pointer]:
+        - /url: /mvnos/5?from=%EC%9A%94%EA%B8%88%EC%A0%9C%EC%83%81%EC%84%B8
+        - img "LG헬로모바일 로고" [ref=f324e356]
+      - button "잘못된 정보 제보" [ref=f324e357] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f324e358]

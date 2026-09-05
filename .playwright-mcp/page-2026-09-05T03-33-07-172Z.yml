@@ -1,0 +1,318 @@
+- generic [active] [ref=f310e1]:
+  - banner [ref=f310e2]:
+    - generic [ref=f310e3]:
+      - link "알뜰폰 요금제 모요(MOYO), 모두의 요금제" [ref=f310e5] [cursor=pointer]:
+        - /url: /
+        - generic:
+          - img "알뜰폰 요금제 모요(MOYO), 모두의 요금제"
+      - navigation [ref=f310e6]:
+        - list [ref=f310e7]:
+          - listitem [ref=f310e8]:
+            - link "홈" [ref=f310e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f310e10]:
+            - link "요금제" [ref=f310e11] [cursor=pointer]:
+              - /url: /plans
+          - listitem [ref=f310e12]:
+            - link "휴대폰" [ref=f310e13] [cursor=pointer]:
+              - /url: /phones
+          - listitem [ref=f310e14]:
+            - link "인터넷" [ref=f310e15] [cursor=pointer]:
+              - /url: /internets
+          - listitem [ref=f310e16]:
+            - link "가전렌탈 NEW" [ref=f310e17] [cursor=pointer]:
+              - /url: /rental
+              - text: 가전렌탈
+              - generic [ref=f310e18]: NEW
+          - listitem [ref=f310e19]:
+            - link "이벤트" [ref=f310e20] [cursor=pointer]:
+              - /url: /event
+          - listitem [ref=f310e21]:
+            - link "마이페이지" [ref=f310e22] [cursor=pointer]:
+              - /url: /mypage
+  - main [ref=f310e23]:
+    - generic [ref=f310e24]:
+      - img "프리티" [ref=f310e26]
+      - heading [level=1] [ref=f310e27]:
+        - text: 프리티
+        - link "프리티 평점 4.3점, 리뷰 1,604개" [ref=f310e28] [cursor=pointer]:
+          - /url: "#review-info"
+          - generic [ref=f310e33]: "4.3"
+          - generic [ref=f310e34]: 1,604개
+      - generic [ref=f310e38]:
+        - generic [ref=f310e39]: 지원 통신망
+        - generic [ref=f310e40]:
+          - generic [ref=f310e41]: KT
+          - generic [ref=f310e42]: LG U+
+          - generic [ref=f310e43]: SKT
+    - tablist [ref=f310e45]:
+      - tab "기본 정보" [selected] [ref=f310e46] [cursor=pointer]
+      - tab "요금제" [ref=f310e48] [cursor=pointer]
+      - tab "리뷰 1,604" [ref=f310e50] [cursor=pointer]
+    - generic [ref=f310e54]:
+      - generic [ref=f310e55]:
+        - heading "영업시간" [level=3] [ref=f310e56]
+        - generic [ref=f310e57]:
+          - generic [ref=f310e58]:
+            - paragraph [ref=f310e59]: 영업시간
+            - paragraph [ref=f310e60]: 평일 09:00 - 18:00
+          - generic [ref=f310e61]:
+            - paragraph [ref=f310e62]: 점심시간
+            - paragraph [ref=f310e63]: 평일 12:00 - 13:00
+          - generic [ref=f310e64]:
+            - paragraph [ref=f310e65]: 휴무일
+            - paragraph [ref=f310e66]: 토, 일, 공휴일
+        - separator [ref=f310e67]
+      - generic [ref=f310e68]:
+        - heading "고객센터 번호" [level=3] [ref=f310e69]
+        - generic [ref=f310e70]:
+          - generic [ref=f310e71]:
+            - paragraph [ref=f310e72]: LG U+망
+            - paragraph [ref=f310e73]: 1588-3615
+          - generic [ref=f310e74]:
+            - paragraph [ref=f310e75]: KT망
+            - paragraph [ref=f310e76]: 1577-4551
+          - generic [ref=f310e77]:
+            - paragraph [ref=f310e78]: SKT망
+            - paragraph [ref=f310e79]: 1661-2207
+        - separator [ref=f310e80]
+      - generic [ref=f310e81]:
+        - heading "위치" [level=3] [ref=f310e82]
+        - generic [ref=f310e83]:
+          - img "위치" [ref=f310e84]
+          - paragraph [ref=f310e85]: 서울시 성동구 성수이로22길 37, 7층(성수동2가, 아크밸리)
+        - separator [ref=f310e86]
+      - generic [ref=f310e87]:
+        - heading [level=3] [ref=f310e88]:
+          - text: 결제 정보
+          - button "도움말" [ref=f310e89] [cursor=pointer]
+        - generic [ref=f310e94]:
+          - generic [ref=f310e95]:
+            - paragraph [ref=f310e96]: 카드
+            - paragraph [ref=f310e97]: 매월 15일
+          - generic [ref=f310e98]:
+            - paragraph [ref=f310e99]: 계좌이체
+            - paragraph [ref=f310e100]: 매월 15일
+        - separator [ref=f310e101]
+      - generic [ref=f310e102]:
+        - heading [level=3] [ref=f310e103]:
+          - text: 요금제 할인 계산 방법
+          - button "도움말" [ref=f310e104] [cursor=pointer]
+        - generic [ref=f310e109]:
+          - generic [ref=f310e110]:
+            - paragraph [ref=f310e111]: LG U+망
+            - paragraph [ref=f310e112]: 일 단위로 계산해요
+            - generic [ref=f310e113]:
+              - paragraph [ref=f310e114]: 할인 기간 3개월 기준 할인 종료일
+              - paragraph [ref=f310e115]: 2026.12.04
+          - generic [ref=f310e116]:
+            - paragraph [ref=f310e117]: KT망
+            - paragraph [ref=f310e118]: 일 단위로 계산해요
+            - generic [ref=f310e119]:
+              - paragraph [ref=f310e120]: 할인 기간 3개월 기준 할인 종료일
+              - paragraph [ref=f310e121]: 2026.12.04
+          - generic [ref=f310e122]:
+            - paragraph [ref=f310e123]: SKT망
+            - paragraph [ref=f310e124]: 일 단위로 계산해요
+            - generic [ref=f310e125]:
+              - paragraph [ref=f310e126]: 할인 기간 3개월 기준 할인 종료일
+              - paragraph [ref=f310e127]: 2026.12.04
+      - link "가이드 보러가기" [ref=f310e128] [cursor=pointer]:
+        - /url: /tips/%EC%95%8C%EB%9C%B0%ED%8F%B0-%EC%9A%94%EA%B8%88%EC%A0%9C-%EA%B0%9C%ED%86%B5/plan-promotion-calculate
+      - separator [ref=f310e131]
+    - generic [ref=f310e132]:
+      - heading "프리티 요금제" [level=3] [ref=f310e133]
+      - generic [ref=f310e134]:
+        - link "프리티 4.3 든든한 200분6G 찜하기 월 6GB 통화 200분 문자 100건 SKT망 LTE 월 10원 요금 총액 안내 7개월 이후 4,510원 8,123명이 선택" [ref=f310e138] [cursor=pointer]:
+          - /url: /plans/34245
+          - generic [ref=f310e139]:
+            - generic [ref=f310e140]:
+              - generic [ref=f310e142]:
+                - button [ref=f310e143]:
+                  - img "프리티" [ref=f310e144]
+                - generic [ref=f310e145]: "4.3"
+              - generic [ref=f310e151]:
+                - generic [ref=f310e152]:
+                  - generic [ref=f310e153]: 든든한 200분6G
+                  - button "찜하기" [ref=f310e154]
+                - generic [ref=f310e159]:
+                  - generic [ref=f310e160]: 월 6GB
+                  - generic [ref=f310e162]:
+                    - generic [ref=f310e163]: 통화 200분
+                    - generic [ref=f310e165]: 문자 100건
+                    - generic [ref=f310e167]: SKT망
+                    - generic [ref=f310e169]: LTE
+            - generic [ref=f310e170]:
+              - generic [ref=f310e171]:
+                - generic [ref=f310e172]:
+                  - generic [ref=f310e173]: 월 10원
+                  - button "요금 총액 안내" [ref=f310e174]
+                - generic [ref=f310e179]: 7개월 이후 4,510원
+              - generic [ref=f310e180]: 8,123명이 선택
+        - link "프리티 4.3 더든든한200분15G 찜하기 월 15GB 통화 200분 문자 100건 KT망 LTE 월 10원 요금 총액 안내 12개월 이후 19,800원 2,945명이 선택" [ref=f310e185] [cursor=pointer]:
+          - /url: /plans/15945
+          - generic [ref=f310e186]:
+            - generic [ref=f310e187]:
+              - generic [ref=f310e189]:
+                - button [ref=f310e190]:
+                  - img "프리티" [ref=f310e191]
+                - generic [ref=f310e192]: "4.3"
+              - generic [ref=f310e198]:
+                - generic [ref=f310e199]:
+                  - generic [ref=f310e200]: 더든든한200분15G
+                  - button "찜하기" [ref=f310e201]
+                - generic [ref=f310e206]:
+                  - generic [ref=f310e207]: 월 15GB
+                  - generic [ref=f310e209]:
+                    - generic [ref=f310e210]: 통화 200분
+                    - generic [ref=f310e212]: 문자 100건
+                    - generic [ref=f310e214]: KT망
+                    - generic [ref=f310e216]: LTE
+            - generic [ref=f310e217]:
+              - generic [ref=f310e218]:
+                - generic [ref=f310e219]:
+                  - generic [ref=f310e220]: 월 10원
+                  - button "요금 총액 안내" [ref=f310e221]
+                - generic [ref=f310e226]: 12개월 이후 19,800원
+              - generic [ref=f310e227]: 2,945명이 선택
+        - link "프리티 4.3 더든든한200분15G 찜하기 월 15GB 통화 200분 문자 100건 SKT망 LTE 월 10원 요금 총액 안내 7개월 이후 17,900원 2,945명이 선택" [ref=f310e232] [cursor=pointer]:
+          - /url: /plans/34886
+          - generic [ref=f310e233]:
+            - generic [ref=f310e234]:
+              - generic [ref=f310e236]:
+                - button [ref=f310e237]:
+                  - img "프리티" [ref=f310e238]
+                - generic [ref=f310e239]: "4.3"
+              - generic [ref=f310e245]:
+                - generic [ref=f310e246]:
+                  - generic [ref=f310e247]: 더든든한200분15G
+                  - button "찜하기" [ref=f310e248]
+                - generic [ref=f310e253]:
+                  - generic [ref=f310e254]: 월 15GB
+                  - generic [ref=f310e256]:
+                    - generic [ref=f310e257]: 통화 200분
+                    - generic [ref=f310e259]: 문자 100건
+                    - generic [ref=f310e261]: SKT망
+                    - generic [ref=f310e263]: LTE
+            - generic [ref=f310e264]:
+              - generic [ref=f310e265]:
+                - generic [ref=f310e266]:
+                  - generic [ref=f310e267]: 월 10원
+                  - button "요금 총액 안내" [ref=f310e268]
+                - generic [ref=f310e273]: 7개월 이후 17,900원
+              - generic [ref=f310e274]: 2,945명이 선택
+        - link "프리티 4.3 더든든한500분20G 찜하기 월 20GB 통화 500분 문자 100건 LG U+망 LTE 월 9,570원 요금 총액 안내 2,873명이 선택" [ref=f310e279] [cursor=pointer]:
+          - /url: /plans/33925
+          - generic [ref=f310e280]:
+            - generic [ref=f310e281]:
+              - generic [ref=f310e283]:
+                - button [ref=f310e284]:
+                  - img "프리티" [ref=f310e285]
+                - generic [ref=f310e286]: "4.3"
+              - generic [ref=f310e292]:
+                - generic [ref=f310e293]:
+                  - generic [ref=f310e294]: 더든든한500분20G
+                  - button "찜하기" [ref=f310e295]
+                - generic [ref=f310e300]:
+                  - generic [ref=f310e301]: 월 20GB
+                  - generic [ref=f310e303]:
+                    - generic [ref=f310e304]: 통화 500분
+                    - generic [ref=f310e306]: 문자 100건
+                    - generic [ref=f310e308]: LG U+망
+                    - generic [ref=f310e310]: LTE
+            - generic [ref=f310e311]:
+              - generic [ref=f310e313]:
+                - generic [ref=f310e314]: 월 9,570원
+                - button "요금 총액 안내" [ref=f310e315]
+              - generic [ref=f310e320]: 2,873명이 선택
+        - link "프리티 4.3 더든든한500분20G 찜하기 월 20GB 통화 500분 문자 100건 KT망 LTE 월 6,600원 요금 총액 안내 2,873명이 선택" [ref=f310e325] [cursor=pointer]:
+          - /url: /plans/34336
+          - generic [ref=f310e326]:
+            - generic [ref=f310e327]:
+              - generic [ref=f310e329]:
+                - button [ref=f310e330]:
+                  - img "프리티" [ref=f310e331]
+                - generic [ref=f310e332]: "4.3"
+              - generic [ref=f310e338]:
+                - generic [ref=f310e339]:
+                  - generic [ref=f310e340]: 더든든한500분20G
+                  - button "찜하기" [ref=f310e341]
+                - generic [ref=f310e346]:
+                  - generic [ref=f310e347]: 월 20GB
+                  - generic [ref=f310e349]:
+                    - generic [ref=f310e350]: 통화 500분
+                    - generic [ref=f310e352]: 문자 100건
+                    - generic [ref=f310e354]: KT망
+                    - generic [ref=f310e356]: LTE
+            - generic [ref=f310e357]:
+              - generic [ref=f310e359]:
+                - generic [ref=f310e360]: 월 6,600원
+                - button "요금 총액 안내" [ref=f310e361]
+              - generic [ref=f310e366]: 2,873명이 선택
+      - link "추천 더보기" [ref=f310e369] [cursor=pointer]:
+        - /url: /plans?from=mvno%EC%83%81%EC%84%B8&mobilePlanOperatorIdList=37
+    - generic [ref=f310e372]:
+      - separator [ref=f310e373]
+      - heading "리뷰" [level=3] [ref=f310e374]
+      - generic [ref=f310e376]:
+        - generic [ref=f310e377]: "4.3"
+        - generic [ref=f310e400]: 1,604개
+      - generic [ref=f310e401]:
+        - generic [ref=f310e403]:
+          - generic [ref=f310e404]:
+            - generic [ref=f310e405]: 김*실
+            - generic [ref=f310e428]: 2025.06.17
+          - paragraph [ref=f310e429]: 와이파이 안 되는 곳은 되는 곳에서 e심 추천여 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+          - generic [ref=f310e430]:
+            - generic [ref=f310e431]: LG U+망
+            - generic [ref=f310e432]: 유심 미보유
+        - generic [ref=f310e434]:
+          - generic [ref=f310e435]:
+            - generic [ref=f310e436]: 장*영
+            - generic [ref=f310e459]: 2025.06.13
+          - paragraph [ref=f310e460]: 셀프개통이 굉장히 쉽고 어플도 직관적이라 프리티에 매우 만족합니다.
+          - generic [ref=f310e461]:
+            - generic [ref=f310e462]: SKT망
+            - generic [ref=f310e463]: 유심 미보유
+        - generic [ref=f310e465]:
+          - generic [ref=f310e466]:
+            - generic [ref=f310e467]: 김*원
+            - generic [ref=f310e490]: 2025.06.10
+          - paragraph [ref=f310e491]: 요금제도 저렴하고 좋앗어요^^죽을때까지 알뜰폰 사용하려구요~이걸 이제알앗나 후회되네요ㅎ
+          - generic [ref=f310e492]:
+            - generic [ref=f310e493]: SKT망
+            - generic [ref=f310e494]: 유심 미보유
+        - generic [ref=f310e496]:
+          - generic [ref=f310e497]:
+            - generic [ref=f310e498]: 송*호
+            - generic [ref=f310e521]: 2025.06.08
+          - paragraph [ref=f310e522]: 저렴하게 잘 사용했습니다 감사합니다
+          - generic [ref=f310e523]:
+            - generic [ref=f310e524]: SKT망
+            - generic [ref=f310e525]: 유심 미보유
+        - generic [ref=f310e527]:
+          - generic [ref=f310e528]:
+            - generic [ref=f310e529]: 서*원
+            - generic [ref=f310e552]: 2025.06.06
+          - paragraph [ref=f310e553]: 저렴한 가격으로 같은 품질을 이용할 수 있습니다.
+          - generic [ref=f310e554]:
+            - generic [ref=f310e555]: LG U+망
+            - generic [ref=f310e556]: 유심 미보유
+      - button "리뷰 더보기" [ref=f310e557] [cursor=pointer]
+    - generic [ref=f310e560]:
+      - separator [ref=f310e561]
+      - table [ref=f310e562]:
+        - rowgroup [ref=f310e563]:
+          - row [ref=f310e564]:
+            - cell "사업자" [ref=f310e565]
+            - cell "주식회사 프리텔레콤" [ref=f310e566]
+          - row [ref=f310e567]:
+            - cell "사업자 번호" [ref=f310e568]
+            - cell "214-88-51159" [ref=f310e569]
+          - row [ref=f310e570]:
+            - cell "홈페이지 주소" [ref=f310e571]
+            - cell [ref=f310e572]:
+              - link "https://www.freet.co.kr/" [ref=f310e573] [cursor=pointer]:
+                - /url: https://www.freet.co.kr/?utm_source=%EB%AA%A8%EC%9A%94
+  - region "Notifications alt+T"
+  - alert [ref=f310e574]
